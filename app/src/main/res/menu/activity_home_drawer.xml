@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+
+
+    </group>
+
+    <item android:title="@string/Main_Menu">
+        <menu>
+            <item
+                android:id="@+id/stage_1"
+                android:icon="@drawable/pregnancy"
+                android:title="@string/Start_Interview" />
+
+            <item
+                android:id="@+id/upload_date"
+                android:icon="@drawable/upload_interview"
+                android:title="@string/Upload_Data" />
+
+            <item
+                android:id="@+id/pending_interviews"
+                android:icon="@drawable/upload_interview"
+                android:title="@string/Pending_Interviews" />
+
+        </menu>
+    </item>
+
+
+    <item android:title="@string/Language">
+        <menu>
+
+
+
+
+            <item
+                android:id="@+id/nav_lang_e"
+                android:icon="@drawable/english"
+                android:title="@string/English" />
+            <item
+                android:id="@+id/nav_lang_u"
+                android:icon="@drawable/urdu"
+                android:title="@string/Urdu" />
+
+        </menu>
+    </item>
+
+</menu>
