@@ -9,13 +9,13 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.sajidlatif.vasa2018.Global.GS.Q1101_Q1610;
 import com.sajidlatif.vasa2018.Other.globale;
 import com.sajidlatif.vasa2018.R;
+import com.sajidlatif.vasa2018.data.DBHelper;
 import com.sajidlatif.vasa2018.databinding.N2291N2304Binding;
-
-import data.DBHelper;
-import utils.ClearAllcontrol;
-import utils.Gothrough;
+import com.sajidlatif.vasa2018.utils.ClearAllcontrol;
+import com.sajidlatif.vasa2018.utils.Gothrough;
 
 public class N2291_N2304 extends AppCompatActivity {
 
@@ -42,7 +42,7 @@ public class N2291_N2304 extends AppCompatActivity {
         bi.edStudyId.setEnabled(false);
 
         DBHelper db = new DBHelper(this);
-        String q1403 = db.getSpecificData(data.GS.Q1101_Q1610.TABLE_NAME, bi.edStudyId.getText().toString(), Global.GS.Q1101_Q1610.Q1403);
+        String q1403 = db.getSpecificData(com.sajidlatif.vasa2018.data.GS.Q1101_Q1610.TABLE_NAME, bi.edStudyId.getText().toString(), Q1101_Q1610.Q1403);
         if (Integer.valueOf(q1403) == 2) {
             flag_q1403 = false;
         }
@@ -123,7 +123,7 @@ public class N2291_N2304 extends AppCompatActivity {
 
     public boolean SaveData() {
 
-        Global.N.N2291_N2304 n2291 = new Global.N.N2291_N2304();
+        com.sajidlatif.vasa2018.Global.N.N2291_N2304 n2291 = new com.sajidlatif.vasa2018.Global.N.N2291_N2304();
 
         n2291.setN2291(bi.edN2291.getText().toString().trim().length() > 0 ? bi.edN2291.getText().toString() : "-1");
         n2291.setN2292(bi.rbN22921.isChecked() ? "1" : bi.rbN22922.isChecked() ? "2" : bi.rbN2292DK.isChecked() ? "9" : "-1");

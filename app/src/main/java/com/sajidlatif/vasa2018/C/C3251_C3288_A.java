@@ -7,12 +7,12 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.sajidlatif.vasa2018.Global.C.C3251_C3288_A_C;
 import com.sajidlatif.vasa2018.Other.globale;
 import com.sajidlatif.vasa2018.R;
+import com.sajidlatif.vasa2018.data.DBHelper;
 import com.sajidlatif.vasa2018.databinding.C3251C3288ABinding;
-
-import data.DBHelper;
-import utils.Gothrough;
+import com.sajidlatif.vasa2018.utils.Gothrough;
 
 public class C3251_C3288_A extends AppCompatActivity {
 
@@ -53,7 +53,7 @@ public class C3251_C3288_A extends AppCompatActivity {
 
     public boolean SaveData() {
 
-        Global.C.C3251_C3288_A_C c3251 = new Global.C.C3251_C3288_A_C();
+        C3251_C3288_A_C c3251 = new C3251_C3288_A_C();
 
         c3251.setC32511(bi.rbC325111.isChecked() ? "1" : bi.rbC325112.isChecked() ? "2" : bi.rbC325113.isChecked() ? "3" : bi.rbC32511DK.isChecked() ? "9" : "-1");
         c3251.setC32512(bi.rbC325121.isChecked() ? "1" : bi.rbC325122.isChecked() ? "2" : bi.rbC325123.isChecked() ? "3" : bi.rbC32512DK.isChecked() ? "9" : "-1");

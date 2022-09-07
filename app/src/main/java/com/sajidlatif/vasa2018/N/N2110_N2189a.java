@@ -13,15 +13,14 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.sajidlatif.vasa2018.Global.N.N2001_N2011;
+import com.sajidlatif.vasa2018.Global.N.N2051_N2078;
 import com.sajidlatif.vasa2018.Other.globale;
 import com.sajidlatif.vasa2018.R;
+import com.sajidlatif.vasa2018.data.DBHelper;
 import com.sajidlatif.vasa2018.databinding.N2110N2189aBinding;
-
-import Global.N.N2001_N2011;
-import Global.N.N2051_N2078;
-import data.DBHelper;
-import utils.ClearAllcontrol;
-import utils.Gothrough;
+import com.sajidlatif.vasa2018.utils.ClearAllcontrol;
+import com.sajidlatif.vasa2018.utils.Gothrough;
 
 public class N2110_N2189a extends AppCompatActivity {
 
@@ -50,7 +49,7 @@ public class N2110_N2189a extends AppCompatActivity {
 
         DBHelper db = new DBHelper(this);
 
-        String n2006 = db.getSpecificData(data.N.N2001_N2011.TABLE_NAME, bi.edStudyId.getText().toString(), N2001_N2011.sub_N2001_N2011.N2006);
+        String n2006 = db.getSpecificData(com.sajidlatif.vasa2018.data.N.N2001_N2011.TABLE_NAME, bi.edStudyId.getText().toString(), N2001_N2011.sub_N2001_N2011.N2006);
         if (n2006 != null) {
             if (Integer.valueOf(n2006) >= 3 && Integer.valueOf(n2006) <= 10) {
                 flag_n2006 = false;
@@ -60,14 +59,14 @@ public class N2110_N2189a extends AppCompatActivity {
             }
         }
 
-        String n2066 = db.getSpecificData(data.N.N2051_N2078.TABLE_NAME, bi.edStudyId.getText().toString(), N2051_N2078.sub_N2051_N2078.N2066);
+        String n2066 = db.getSpecificData(com.sajidlatif.vasa2018.data.N.N2051_N2078.TABLE_NAME, bi.edStudyId.getText().toString(), N2051_N2078.sub_N2051_N2078.N2066);
         if (n2066 != null) {
             if (Integer.valueOf(n2066) != 1) {
                 flag_n2066 = false;
             }
         }
 
-        String n2067 = db.getSpecificData(data.N.N2051_N2078.TABLE_NAME, bi.edStudyId.getText().toString(), N2051_N2078.sub_N2051_N2078.N2067);
+        String n2067 = db.getSpecificData(com.sajidlatif.vasa2018.data.N.N2051_N2078.TABLE_NAME, bi.edStudyId.getText().toString(), N2051_N2078.sub_N2051_N2078.N2067);
         if (n2067 != null) {
             if (Integer.valueOf(n2067) == 9 || Integer.valueOf(n2067) == 10) {
                 flag_n2067 = false;
@@ -273,7 +272,7 @@ public class N2110_N2189a extends AppCompatActivity {
 
     public boolean SaveData() {
 
-        Global.N.N2110_N2189a n2110 = new Global.N.N2110_N2189a();
+        com.sajidlatif.vasa2018.Global.N.N2110_N2189a n2110 = new com.sajidlatif.vasa2018.Global.N.N2110_N2189a();
 
         n2110.setN2110(bi.rbN21101.isChecked() ? "1" : bi.rbN21102.isChecked() ? "2" : bi.rbN21103.isChecked() ? "3"
                 : bi.rbN2110OT.isChecked() ? "4" : bi.rbN2110DK.isChecked() ? "9" : "-1");

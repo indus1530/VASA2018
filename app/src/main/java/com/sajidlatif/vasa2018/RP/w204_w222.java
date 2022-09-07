@@ -17,17 +17,18 @@ import android.widget.Toast;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.sajidlatif.vasa2018.Global.RP.w204_w215;
+import com.sajidlatif.vasa2018.Global.RP.w216_w222;
 import com.sajidlatif.vasa2018.Other.globale;
 import com.sajidlatif.vasa2018.R;
+import com.sajidlatif.vasa2018.data.DBHelper;
+import com.sajidlatif.vasa2018.data.LocalDataManager;
+import com.sajidlatif.vasa2018.utils.ClearAllcontrol;
+import com.sajidlatif.vasa2018.utils.Gothrough;
 import com.santalu.widget.MaskEditText;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import data.DBHelper;
-import data.LocalDataManager;
-import utils.ClearAllcontrol;
-import utils.Gothrough;
 
 
 public class w204_w222 extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
@@ -936,28 +937,28 @@ public class w204_w222 extends AppCompatActivity implements RadioButton.OnChecke
 
         String query = "insert into w204_w215("
 
-                + Global.RP.w204_w215.study_id + "," +
-                Global.RP.w204_w215.W201_d + "," +
-                Global.RP.w204_w215.W201_m + "," +
-                Global.RP.w204_w215.W201_y + "," +
-                Global.RP.w204_w215.W202 + "," +
-                Global.RP.w204_w215.W203 + "," +
-                Global.RP.w204_w215.W204 + "," +
-                Global.RP.w204_w215.W205 + "," +
-                Global.RP.w204_w215.W206 + "," +
-                Global.RP.w204_w215.W207 + "," +
-                Global.RP.w204_w215.W208 + "," +
-                Global.RP.w204_w215.W209 + "," +
-                Global.RP.w204_w215.W210_1 + "," +
-                Global.RP.w204_w215.W210_2 + "," +
-                Global.RP.w204_w215.W210_3 + "," +
-                Global.RP.w204_w215.W210_4 + "," +
-                Global.RP.w204_w215.W210_5 + "," +
-                Global.RP.w204_w215.W211 + "," +
-                Global.RP.w204_w215.W212 + "," +
-                Global.RP.w204_w215.W213 + "," +
-                Global.RP.w204_w215.W214 + "," +
-                Global.RP.w204_w215.W215 + ")" +
+                + w204_w215.study_id + "," +
+                w204_w215.W201_d + "," +
+                w204_w215.W201_m + "," +
+                w204_w215.W201_y + "," +
+                w204_w215.W202 + "," +
+                w204_w215.W203 + "," +
+                w204_w215.W204 + "," +
+                w204_w215.W205 + "," +
+                w204_w215.W206 + "," +
+                w204_w215.W207 + "," +
+                w204_w215.W208 + "," +
+                w204_w215.W209 + "," +
+                w204_w215.W210_1 + "," +
+                w204_w215.W210_2 + "," +
+                w204_w215.W210_3 + "," +
+                w204_w215.W210_4 + "," +
+                w204_w215.W210_5 + "," +
+                w204_w215.W211 + "," +
+                w204_w215.W212 + "," +
+                w204_w215.W213 + "," +
+                w204_w215.W214 + "," +
+                w204_w215.W215 + ")" +
 
 
                 " values ('" +
@@ -1016,12 +1017,12 @@ public class w204_w222 extends AppCompatActivity implements RadioButton.OnChecke
 
             String query = "insert into w216_w222(" +
 
-                    Global.RP.w216_w222.study_id + "," +
-                    Global.RP.w216_w222.W17 + "," +
-                    Global.RP.w216_w222.W18 + "," +
-                    Global.RP.w216_w222.W19 + "," +
-                    Global.RP.w216_w222.W21 + "," +
-                    Global.RP.w216_w222.W22 + ")" +
+                    w216_w222.study_id + "," +
+                    w216_w222.W17 + "," +
+                    w216_w222.W18 + "," +
+                    w216_w222.W19 + "," +
+                    w216_w222.W21 + "," +
+                    w216_w222.W22 + ")" +
 
                     " values ('" +
                     study_id + "','" +

@@ -13,13 +13,13 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.sajidlatif.vasa2018.Core.HomeActivity;
+import com.sajidlatif.vasa2018.Global.GS.Q1101_Q1610;
 import com.sajidlatif.vasa2018.R;
+import com.sajidlatif.vasa2018.data.DBHelper;
+import com.sajidlatif.vasa2018.utils.Gothrough;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-
-import data.DBHelper;
-import utils.Gothrough;
 
 public class InterviewEnd extends AppCompatActivity implements View.OnClickListener {
 
@@ -114,10 +114,10 @@ public class InterviewEnd extends AppCompatActivity implements View.OnClickListe
         DBHelper db = new DBHelper(this);
 
         ContentValues values = new ContentValues();
-        values.put(Global.GS.Q1101_Q1610.Q1309, Q1309);
-        values.put(Global.GS.Q1101_Q1610.Q1310, Q1310);
-        values.put(Global.GS.Q1101_Q1610.Q1311, Q1311);
-        values.put(Global.GS.Q1101_Q1610.currentSection, currentSection);
+        values.put(Q1101_Q1610.Q1309, Q1309);
+        values.put(Q1101_Q1610.Q1310, Q1310);
+        values.put(Q1101_Q1610.Q1311, Q1311);
+        values.put(Q1101_Q1610.currentSection, currentSection);
 
         Long res = db.updateData("Q1101_Q1610", values, study_id);
 

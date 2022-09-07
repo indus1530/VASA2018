@@ -18,11 +18,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.sajidlatif.vasa2018.GS.InterviewEnd;
 import com.sajidlatif.vasa2018.Other.globale;
 import com.sajidlatif.vasa2018.R;
+import com.sajidlatif.vasa2018.data.LocalDataManager;
+import com.sajidlatif.vasa2018.utils.Gothrough;
 
 import java.io.File;
-
-import data.LocalDataManager;
-import utils.Gothrough;
 
 public class C3471_C3472 extends AppCompatActivity implements View.OnClickListener {
 
@@ -286,22 +285,22 @@ public class C3471_C3472 extends AppCompatActivity implements View.OnClickListen
 
     void insert_data() {
         String query = "insert into   C3471_C3472("
-                + Global.C.C3471_C3472.study_id + ","
-                + Global.C.C3471_C3472.C3471 + ","
-                + Global.C.C3471_C3472.C3472_1 + ","
-                + Global.C.C3471_C3472.C3472_2 + ","
-                + Global.C.C3471_C3472.C3472_3 + ","
-                + Global.C.C3471_C3472.C3472_4 + ","
-                + Global.C.C3471_C3472.C3472_5 + ","
-                + Global.C.C3471_C3472.C3472_6 + ","
-                + Global.C.C3471_C3472.C3472_7 + ","
-                + Global.C.C3471_C3472.C3472_8 + ","
-                + Global.C.C3471_C3472.C3472_9 + ","
-                + Global.C.C3471_C3472.C3472_10 + ","
-                + Global.C.C3471_C3472.C3472_11 + ","
-                + Global.C.C3471_C3472.C3472_DK + ","
-                + Global.C.C3471_C3472.C3473 + ","
-                + Global.C.C3471_C3472.STATUS + ") values ('" +
+                + com.sajidlatif.vasa2018.Global.C.C3471_C3472.study_id + ","
+                + com.sajidlatif.vasa2018.Global.C.C3471_C3472.C3471 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3471_C3472.C3472_1 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3471_C3472.C3472_2 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3471_C3472.C3472_3 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3471_C3472.C3472_4 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3471_C3472.C3472_5 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3471_C3472.C3472_6 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3471_C3472.C3472_7 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3471_C3472.C3472_8 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3471_C3472.C3472_9 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3471_C3472.C3472_10 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3471_C3472.C3472_11 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3471_C3472.C3472_DK + ","
+                + com.sajidlatif.vasa2018.Global.C.C3471_C3472.C3473 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3471_C3472.STATUS + ") values ('" +
 
                 study_id + "','" +
                 C3471 + "','" +

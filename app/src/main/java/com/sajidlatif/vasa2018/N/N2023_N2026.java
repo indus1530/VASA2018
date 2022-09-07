@@ -9,10 +9,9 @@ import androidx.databinding.DataBindingUtil;
 
 import com.sajidlatif.vasa2018.Other.globale;
 import com.sajidlatif.vasa2018.R;
+import com.sajidlatif.vasa2018.data.DBHelper;
 import com.sajidlatif.vasa2018.databinding.N2023N2026Binding;
-
-import data.DBHelper;
-import utils.Gothrough;
+import com.sajidlatif.vasa2018.utils.Gothrough;
 
 public class N2023_N2026 extends AppCompatActivity {
 
@@ -47,7 +46,7 @@ public class N2023_N2026 extends AppCompatActivity {
 
     public boolean SaveData() {
 
-        Global.N.N2023_N2026 n2023 = new Global.N.N2023_N2026();
+        com.sajidlatif.vasa2018.Global.N.N2023_N2026 n2023 = new com.sajidlatif.vasa2018.Global.N.N2023_N2026();
 
         n2023.setN2023(bi.edN2023.getText().toString().trim().length() > 0 ? bi.edN2023.getText().toString() : "-1");
         n2023.setN2024(bi.edN2024.getText().toString().trim().length() > 0 ? bi.edN2024.getText().toString() : "-1");

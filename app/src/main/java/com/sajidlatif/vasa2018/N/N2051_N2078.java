@@ -9,14 +9,14 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.sajidlatif.vasa2018.Global.N.N2001_N2011.sub_N2001_N2011;
 import com.sajidlatif.vasa2018.Other.globale;
 import com.sajidlatif.vasa2018.R;
+import com.sajidlatif.vasa2018.data.DBHelper;
+import com.sajidlatif.vasa2018.data.N.N2001_N2011;
 import com.sajidlatif.vasa2018.databinding.N2051N2078Binding;
-
-import Global.N.N2001_N2011.sub_N2001_N2011;
-import data.DBHelper;
-import utils.ClearAllcontrol;
-import utils.Gothrough;
+import com.sajidlatif.vasa2018.utils.ClearAllcontrol;
+import com.sajidlatif.vasa2018.utils.Gothrough;
 
 public class N2051_N2078 extends AppCompatActivity {
 
@@ -44,12 +44,12 @@ public class N2051_N2078 extends AppCompatActivity {
 
         DBHelper db = new DBHelper(this);
 
-        String n2006 = db.getSpecificData(data.N.N2001_N2011.TABLE_NAME, bi.edStudyId.getText().toString(), sub_N2001_N2011.N2006);
+        String n2006 = db.getSpecificData(N2001_N2011.TABLE_NAME, bi.edStudyId.getText().toString(), sub_N2001_N2011.N2006);
         if (n2006.equals("99") || n2006.equals("1") || n2006.equals("2")) {
             flag_n2006 = false;
         }
 
-        String n2008 = db.getSpecificData(data.N.N2001_N2011.TABLE_NAME, bi.edStudyId.getText().toString(), sub_N2001_N2011.N2008);
+        String n2008 = db.getSpecificData(N2001_N2011.TABLE_NAME, bi.edStudyId.getText().toString(), sub_N2001_N2011.N2008);
         if (n2008.equals("9")) {
             flag_n2008 = false;
         }
@@ -129,7 +129,7 @@ public class N2051_N2078 extends AppCompatActivity {
 
     public boolean SaveData() {
 
-        Global.N.N2051_N2078 n2051 = new Global.N.N2051_N2078();
+        com.sajidlatif.vasa2018.Global.N.N2051_N2078 n2051 = new com.sajidlatif.vasa2018.Global.N.N2051_N2078();
 
         n2051.setN2051(bi.edN2051.getText().toString().trim().length() > 0 ? bi.edN2051.getText().toString() : "-1");
         n2051.setN2052(bi.rbN20521.isChecked() ? "1" : bi.rbN20522.isChecked() ? "2" : bi.rbN2052DK.isChecked() ? "9" : "-1");

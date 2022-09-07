@@ -60,11 +60,10 @@ import com.sajidlatif.vasa2018.N.N2311_N2317;
 import com.sajidlatif.vasa2018.N.N2321_N2322;
 import com.sajidlatif.vasa2018.R;
 import com.sajidlatif.vasa2018.RP.w204_w222;
+import com.sajidlatif.vasa2018.data.LocalDataManager;
 
 import java.util.Collections;
 import java.util.List;
-
-import data.LocalDataManager;
 
 
 public class SurveyPendingActivity extends AppCompatActivity {

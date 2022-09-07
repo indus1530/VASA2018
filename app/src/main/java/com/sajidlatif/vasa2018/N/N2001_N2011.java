@@ -10,12 +10,11 @@ import androidx.databinding.DataBindingUtil;
 
 import com.sajidlatif.vasa2018.Other.globale;
 import com.sajidlatif.vasa2018.R;
+import com.sajidlatif.vasa2018.data.DBHelper;
 import com.sajidlatif.vasa2018.databinding.N2001N2011Binding;
-
-import data.DBHelper;
-import utils.ClearAllcontrol;
-import utils.Gothrough;
-import utils.validations;
+import com.sajidlatif.vasa2018.utils.ClearAllcontrol;
+import com.sajidlatif.vasa2018.utils.Gothrough;
+import com.sajidlatif.vasa2018.utils.validations;
 
 public class N2001_N2011 extends AppCompatActivity {
 
@@ -120,7 +119,7 @@ public class N2001_N2011 extends AppCompatActivity {
 
     public boolean SaveData() {
 
-        Global.N.N2001_N2011 n2001 = new Global.N.N2001_N2011();
+        com.sajidlatif.vasa2018.Global.N.N2001_N2011 n2001 = new com.sajidlatif.vasa2018.Global.N.N2001_N2011();
 
         n2001.setN2001(bi.rbN20011.isChecked() ? "1" : bi.rbN20012.isChecked() ? "2" : bi.rbN2001DK.isChecked() ? "9"
                 : bi.rbN2001RA.isChecked() ? "8" : "-1");

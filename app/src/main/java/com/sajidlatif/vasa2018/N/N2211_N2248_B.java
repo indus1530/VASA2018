@@ -12,10 +12,9 @@ import androidx.databinding.DataBindingUtil;
 
 import com.sajidlatif.vasa2018.Other.globale;
 import com.sajidlatif.vasa2018.R;
+import com.sajidlatif.vasa2018.data.DBHelper;
 import com.sajidlatif.vasa2018.databinding.N2211N2248BBinding;
-
-import data.DBHelper;
-import utils.Gothrough;
+import com.sajidlatif.vasa2018.utils.Gothrough;
 
 public class N2211_N2248_B extends AppCompatActivity {
 
@@ -72,7 +71,7 @@ public class N2211_N2248_B extends AppCompatActivity {
 
     public boolean SaveData() {
 
-        Global.N.N2211_N2248_B n2211B = new Global.N.N2211_N2248_B();
+        com.sajidlatif.vasa2018.Global.N.N2211_N2248_B n2211B = new com.sajidlatif.vasa2018.Global.N.N2211_N2248_B();
 
         n2211B.setN2213(bi.rbN2213A1.isChecked() ? "1" : bi.rbN2213A2.isChecked() ? "2" : bi.rbN2213A3.isChecked() ? "3" : bi.rbN2213A4.isChecked() ? "4"
                 : bi.rbN2213A5.isChecked() ? "5" : bi.rbN2213A6.isChecked() ? "6" : bi.rbN2213A7.isChecked() ? "7" : "-1");

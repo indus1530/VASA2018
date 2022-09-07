@@ -14,10 +14,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.sajidlatif.vasa2018.Other.globale;
 import com.sajidlatif.vasa2018.R;
-
-import data.LocalDataManager;
-import utils.ClearAllcontrol;
-import utils.Gothrough;
+import com.sajidlatif.vasa2018.data.LocalDataManager;
+import com.sajidlatif.vasa2018.utils.ClearAllcontrol;
+import com.sajidlatif.vasa2018.utils.Gothrough;
 
 public class A4351_A4364 extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
 
@@ -355,18 +354,18 @@ public class A4351_A4364 extends AppCompatActivity implements RadioButton.OnChec
 
         String query = "insert into A4351_A4364("
 
-                + Global.A.A4351_A4364.study_id + ","
-                + Global.A.A4351_A4364.A4351 + ","
-                + Global.A.A4351_A4364.A4352 + ","
-                + Global.A.A4351_A4364.A4353 + ","
-                + Global.A.A4351_A4364.A4354 + ","
-                + Global.A.A4351_A4364.A4355 + ","
-                + Global.A.A4351_A4364.A4356 + ","
-                + Global.A.A4351_A4364.A4357 + ","
-                + Global.A.A4351_A4364.A4358 + ","
-                + Global.A.A4351_A4364.A4363 + ","
-                + Global.A.A4351_A4364.A4364 + ","
-                + Global.A.A4351_A4364.STATUS + ")" +
+                + com.sajidlatif.vasa2018.Global.A.A4351_A4364.study_id + ","
+                + com.sajidlatif.vasa2018.Global.A.A4351_A4364.A4351 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4351_A4364.A4352 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4351_A4364.A4353 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4351_A4364.A4354 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4351_A4364.A4355 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4351_A4364.A4356 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4351_A4364.A4357 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4351_A4364.A4358 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4351_A4364.A4363 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4351_A4364.A4364 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4351_A4364.STATUS + ")" +
 
                 " values ('" +
 

@@ -30,6 +30,10 @@ import com.sajidlatif.vasa2018.GS.Q1101_Q1610;
 import com.sajidlatif.vasa2018.Pending.SurveyPendingActivity;
 import com.sajidlatif.vasa2018.R;
 import com.sajidlatif.vasa2018.Upload.SurveyCompletedActivity;
+import com.sajidlatif.vasa2018.data.DBHelper;
+import com.sajidlatif.vasa2018.utils.BackgroundTask;
+import com.sajidlatif.vasa2018.utils.BackgroundTask2;
+import com.sajidlatif.vasa2018.utils.MyPreferences;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -37,11 +41,6 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Random;
-
-import data.DBHelper;
-import utils.BackgroundTask;
-import utils.BackgroundTask2;
-import utils.MyPreferences;
 
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

@@ -10,15 +10,14 @@ import androidx.databinding.DataBindingUtil;
 
 import com.sajidlatif.vasa2018.Other.globale;
 import com.sajidlatif.vasa2018.R;
+import com.sajidlatif.vasa2018.data.DBHelper;
 import com.sajidlatif.vasa2018.databinding.N2251N2260Binding;
+import com.sajidlatif.vasa2018.utils.ClearAllcontrol;
+import com.sajidlatif.vasa2018.utils.Gothrough;
+import com.sajidlatif.vasa2018.utils.ValidateDate;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
-import data.DBHelper;
-import utils.ClearAllcontrol;
-import utils.Gothrough;
-import utils.ValidateDate;
 
 public class N2251_N2260 extends AppCompatActivity {
 
@@ -108,7 +107,7 @@ public class N2251_N2260 extends AppCompatActivity {
 
     public boolean SaveData() {
 
-        Global.N.N2251_N2260 n2251 = new Global.N.N2251_N2260();
+        com.sajidlatif.vasa2018.Global.N.N2251_N2260 n2251 = new com.sajidlatif.vasa2018.Global.N.N2251_N2260();
 
         n2251.setN2251(bi.rbN22511.isChecked() ? "1" : bi.rbN22512.isChecked() ? "2" : bi.rbN2251DK.isChecked() ? "9"
                 : bi.rbN2251RA.isChecked() ? "8" : "-1");

@@ -12,17 +12,17 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.sajidlatif.vasa2018.Global.N.N2080_N2107;
+import com.sajidlatif.vasa2018.Global.N.N2211_N2248_A_C;
+import com.sajidlatif.vasa2018.Global.N.N2211_N2248_B;
 import com.sajidlatif.vasa2018.Other.globale;
 import com.sajidlatif.vasa2018.R;
+import com.sajidlatif.vasa2018.data.DBHelper;
 import com.sajidlatif.vasa2018.databinding.N2211N2248CBinding;
+import com.sajidlatif.vasa2018.utils.ClearAllcontrol;
+import com.sajidlatif.vasa2018.utils.Gothrough;
 
 import java.util.Collection;
-
-import Global.N.N2211_N2248_A_C;
-import Global.N.N2211_N2248_B;
-import data.DBHelper;
-import utils.ClearAllcontrol;
-import utils.Gothrough;
 
 public class N2211_N2248_C extends AppCompatActivity {
 
@@ -56,8 +56,8 @@ public class N2211_N2248_C extends AppCompatActivity {
         for (N2211_N2248_B col_data : col_n2211) {
             if (col_data.getN22132A().equals("1")) {
 
-                String n2090 = db.getSpecificData(data.N.N2080_N2107.TABLE_NAME, bi.edStudyId.getText().toString(), Global.N.N2080_N2107.sub_N2080_N2107.N2090);
-                String n2093 = db.getSpecificData(data.N.N2080_N2107.TABLE_NAME, bi.edStudyId.getText().toString(), Global.N.N2080_N2107.sub_N2080_N2107.N2093);
+                String n2090 = db.getSpecificData(com.sajidlatif.vasa2018.data.N.N2080_N2107.TABLE_NAME, bi.edStudyId.getText().toString(), N2080_N2107.sub_N2080_N2107.N2090);
+                String n2093 = db.getSpecificData(com.sajidlatif.vasa2018.data.N.N2080_N2107.TABLE_NAME, bi.edStudyId.getText().toString(), N2080_N2107.sub_N2080_N2107.N2093);
                 if (n2090 != null && n2093 != null) {
                     if (Integer.valueOf(n2090) != 1 &&
                             (Integer.valueOf(n2093) == 1 || Integer.valueOf(n2093) == 2 || Integer.valueOf(n2093) == 14 || Integer.valueOf(n2093) == 99)) {
@@ -75,7 +75,7 @@ public class N2211_N2248_C extends AppCompatActivity {
         if (flag_n2090 && flag_n2093) {
 
 //        Inst_3
-            String n2212 = db.getSpecificData(data.N.N2211_N2248_A_C.TABLE_NAME, bi.edStudyId.getText().toString(), N2211_N2248_A_C.sub_N2211_N2248_A_C.N2212);
+            String n2212 = db.getSpecificData(com.sajidlatif.vasa2018.data.N.N2211_N2248_A_C.TABLE_NAME, bi.edStudyId.getText().toString(), N2211_N2248_A_C.sub_N2211_N2248_A_C.N2212);
             if (n2212 != null) {
                 if (Integer.valueOf(n2212) == 2) {
                     flag_n2212 = false;

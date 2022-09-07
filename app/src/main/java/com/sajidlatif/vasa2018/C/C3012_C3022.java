@@ -16,16 +16,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.sajidlatif.vasa2018.Other.globale;
 import com.sajidlatif.vasa2018.R;
+import com.sajidlatif.vasa2018.data.DBHelper;
+import com.sajidlatif.vasa2018.data.LocalDataManager;
+import com.sajidlatif.vasa2018.utils.ClearAllcontrol;
+import com.sajidlatif.vasa2018.utils.Gothrough;
+import com.sajidlatif.vasa2018.utils.InputFilterMinMax;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
-import data.DBHelper;
-import data.LocalDataManager;
-import utils.ClearAllcontrol;
-import utils.Gothrough;
-import utils.InputFilterMinMax;
 
 public class C3012_C3022 extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
 
@@ -690,25 +689,25 @@ public class C3012_C3022 extends AppCompatActivity implements RadioButton.OnChec
     void insert_data() {
 
         String query = "insert into   C3012_C3022("
-                + Global.C.C3012_C3022.study_id + ","
-                + Global.C.C3012_C3022.C3012 + ","
-                + Global.C.C3012_C3022.C3013 + ","
-                + Global.C.C3012_C3022.C3015 + ","
-                + Global.C.C3012_C3022.C3016 + ","
-                + Global.C.C3012_C3022.C3017 + ","
-                + Global.C.C3012_C3022.C3018 + ","
-                + Global.C.C3012_C3022.C3018_1 + ","
-                + Global.C.C3012_C3022.C3019_u + ","
-                + Global.C.C3012_C3022.C3019_a + ","
-                + Global.C.C3012_C3022.C3019_b + ","
-                + Global.C.C3012_C3022.C3019_c + ","
-                + Global.C.C3012_C3022.C3020 + ","
-                + Global.C.C3012_C3022.C3021u + ","
-                + Global.C.C3012_C3022.C3021d + ","
-                + Global.C.C3012_C3022.C3021m + ","
-                + Global.C.C3012_C3022.C3021y + ","
-                + Global.C.C3012_C3022.C3022 + ","
-                + Global.C.C3012_C3022.STATUS + ") values ('" +
+                + com.sajidlatif.vasa2018.Global.C.C3012_C3022.study_id + ","
+                + com.sajidlatif.vasa2018.Global.C.C3012_C3022.C3012 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3012_C3022.C3013 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3012_C3022.C3015 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3012_C3022.C3016 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3012_C3022.C3017 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3012_C3022.C3018 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3012_C3022.C3018_1 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3012_C3022.C3019_u + ","
+                + com.sajidlatif.vasa2018.Global.C.C3012_C3022.C3019_a + ","
+                + com.sajidlatif.vasa2018.Global.C.C3012_C3022.C3019_b + ","
+                + com.sajidlatif.vasa2018.Global.C.C3012_C3022.C3019_c + ","
+                + com.sajidlatif.vasa2018.Global.C.C3012_C3022.C3020 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3012_C3022.C3021u + ","
+                + com.sajidlatif.vasa2018.Global.C.C3012_C3022.C3021d + ","
+                + com.sajidlatif.vasa2018.Global.C.C3012_C3022.C3021m + ","
+                + com.sajidlatif.vasa2018.Global.C.C3012_C3022.C3021y + ","
+                + com.sajidlatif.vasa2018.Global.C.C3012_C3022.C3022 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3012_C3022.STATUS + ") values ('" +
                 study_id + "','" +
                 C3012 + "','" +
                 C3013 + "','" +

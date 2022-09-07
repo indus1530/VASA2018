@@ -15,11 +15,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.sajidlatif.vasa2018.Other.globale;
 import com.sajidlatif.vasa2018.R;
-
-import data.LocalDataManager;
-import utils.ClearAllcontrol;
-import utils.Gothrough;
-import utils.InputFilterMinMax;
+import com.sajidlatif.vasa2018.data.LocalDataManager;
+import com.sajidlatif.vasa2018.utils.ClearAllcontrol;
+import com.sajidlatif.vasa2018.utils.Gothrough;
+import com.sajidlatif.vasa2018.utils.InputFilterMinMax;
 
 public class A4081_A4094 extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
 
@@ -802,32 +801,32 @@ public class A4081_A4094 extends AppCompatActivity implements RadioButton.OnChec
 
         String query = "insert into A4081_A4094("
 
-                + Global.A.A4081_A4094.study_id + ","
-                + Global.A.A4081_A4094.A4081 + ","
-                + Global.A.A4081_A4094.A4082_u + ","
-                + Global.A.A4081_A4094.A4082_a + ","
-                + Global.A.A4081_A4094.A4082_b + ","
-                + Global.A.A4081_A4094.A4082_c + ","
-                + Global.A.A4081_A4094.A4083 + ","
-                + Global.A.A4081_A4094.A4084 + ","
-                + Global.A.A4081_A4094.A4085_u + ","
-                + Global.A.A4081_A4094.A4085_a + ","
-                + Global.A.A4081_A4094.A4085_b + ","
-                + Global.A.A4081_A4094.A4086 + ","
-                + Global.A.A4081_A4094.A4087_u + ","
-                + Global.A.A4081_A4094.A4087_a + ","
-                + Global.A.A4081_A4094.A4087_b + ","
-                + Global.A.A4081_A4094.A4088 + ","
-                + Global.A.A4081_A4094.A4089 + ","
-                + Global.A.A4081_A4094.A4090 + ","
-                + Global.A.A4081_A4094.A4091 + ","
-                + Global.A.A4081_A4094.A4092 + ","
-                + Global.A.A4081_A4094.A4093 + ","
-                + Global.A.A4081_A4094.A4094_u + ","
-                + Global.A.A4081_A4094.A4094_a + ","
-                + Global.A.A4081_A4094.A4094_b + ","
-                + Global.A.A4081_A4094.A4094_c + ","
-                + Global.A.A4081_A4094.STATUS + ")" +
+                + com.sajidlatif.vasa2018.Global.A.A4081_A4094.study_id + ","
+                + com.sajidlatif.vasa2018.Global.A.A4081_A4094.A4081 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4081_A4094.A4082_u + ","
+                + com.sajidlatif.vasa2018.Global.A.A4081_A4094.A4082_a + ","
+                + com.sajidlatif.vasa2018.Global.A.A4081_A4094.A4082_b + ","
+                + com.sajidlatif.vasa2018.Global.A.A4081_A4094.A4082_c + ","
+                + com.sajidlatif.vasa2018.Global.A.A4081_A4094.A4083 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4081_A4094.A4084 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4081_A4094.A4085_u + ","
+                + com.sajidlatif.vasa2018.Global.A.A4081_A4094.A4085_a + ","
+                + com.sajidlatif.vasa2018.Global.A.A4081_A4094.A4085_b + ","
+                + com.sajidlatif.vasa2018.Global.A.A4081_A4094.A4086 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4081_A4094.A4087_u + ","
+                + com.sajidlatif.vasa2018.Global.A.A4081_A4094.A4087_a + ","
+                + com.sajidlatif.vasa2018.Global.A.A4081_A4094.A4087_b + ","
+                + com.sajidlatif.vasa2018.Global.A.A4081_A4094.A4088 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4081_A4094.A4089 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4081_A4094.A4090 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4081_A4094.A4091 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4081_A4094.A4092 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4081_A4094.A4093 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4081_A4094.A4094_u + ","
+                + com.sajidlatif.vasa2018.Global.A.A4081_A4094.A4094_a + ","
+                + com.sajidlatif.vasa2018.Global.A.A4081_A4094.A4094_b + ","
+                + com.sajidlatif.vasa2018.Global.A.A4081_A4094.A4094_c + ","
+                + com.sajidlatif.vasa2018.Global.A.A4081_A4094.STATUS + ")" +
 
                 " values ('" +
 

@@ -10,11 +10,10 @@ import androidx.databinding.DataBindingUtil;
 
 import com.sajidlatif.vasa2018.Other.globale;
 import com.sajidlatif.vasa2018.R;
+import com.sajidlatif.vasa2018.data.DBHelper;
 import com.sajidlatif.vasa2018.databinding.N2017N20223Binding;
-
-import data.DBHelper;
-import utils.ClearAllcontrol;
-import utils.Gothrough;
+import com.sajidlatif.vasa2018.utils.ClearAllcontrol;
+import com.sajidlatif.vasa2018.utils.Gothrough;
 
 public class N2017_N2022_3 extends AppCompatActivity {
 
@@ -83,7 +82,7 @@ public class N2017_N2022_3 extends AppCompatActivity {
 
     public boolean SaveData() {
 
-        Global.N.N2017_N2022_3 n2017 = new Global.N.N2017_N2022_3();
+        com.sajidlatif.vasa2018.Global.N.N2017_N2022_3 n2017 = new com.sajidlatif.vasa2018.Global.N.N2017_N2022_3();
 
         n2017.setN2017(bi.rbN20171.isChecked() ? "1" : bi.rbN20172.isChecked() ? "2" : bi.rbN2017DK.isChecked() ? "9"
                 : bi.rbN2017RA.isChecked() ? "8" : "-1");

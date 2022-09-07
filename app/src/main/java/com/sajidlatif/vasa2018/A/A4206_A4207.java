@@ -15,11 +15,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.sajidlatif.vasa2018.Other.globale;
 import com.sajidlatif.vasa2018.R;
-
-import data.LocalDataManager;
-import utils.ClearAllcontrol;
-import utils.Gothrough;
-import utils.InputFilterMinMax;
+import com.sajidlatif.vasa2018.data.LocalDataManager;
+import com.sajidlatif.vasa2018.utils.ClearAllcontrol;
+import com.sajidlatif.vasa2018.utils.Gothrough;
+import com.sajidlatif.vasa2018.utils.InputFilterMinMax;
 
 public class A4206_A4207 extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
 
@@ -1081,33 +1080,33 @@ public class A4206_A4207 extends AppCompatActivity implements RadioButton.OnChec
 
         String query = "insert into A4206_A4207("
 
-                + Global.A.A4206_A4207.study_id + ","
-                + Global.A.A4206_A4207.A4206 + ","
-                + Global.A.A4206_A4207.A4206_1 + ","
-                + Global.A.A4206_A4207.A4206_2 + ","
-                + Global.A.A4206_A4207.A4206_3 + ","
-                + Global.A.A4206_A4207.A4206_4 + ","
-                + Global.A.A4206_A4207.A4206_5 + ","
-                + Global.A.A4206_A4207.A4206_6 + ","
-                + Global.A.A4206_A4207.A4206_7 + ","
-                + Global.A.A4206_A4207.A4206_8 + ","
-                + Global.A.A4206_A4207.A4206_9 + ","
-                + Global.A.A4206_A4207.A4206_10 + ","
-                + Global.A.A4206_A4207.A4206_11 + ","
-                + Global.A.A4206_A4207.A4206_12 + ","
-                + Global.A.A4206_A4207.A4206_13 + ","
-                + Global.A.A4206_A4207.A4206_14 + ","
-                + Global.A.A4206_A4207.A4206_15 + ","
-                + Global.A.A4206_A4207.A4206_16 + ","
-                + Global.A.A4206_A4207.A4206_17 + ","
-                + Global.A.A4206_A4207.A4206_18 + ","
-                + Global.A.A4206_A4207.A4206_19 + ","
-                + Global.A.A4206_A4207.A4206_20 + ","
-                + Global.A.A4206_A4207.A4206_21 + ","
-                + Global.A.A4206_A4207.A4206_22 + ","
-                + Global.A.A4206_A4207.A4207_hour + ","
-                + Global.A.A4206_A4207.A4207_day + ","
-                + Global.A.A4206_A4207.STATUS + ")" +
+                + com.sajidlatif.vasa2018.Global.A.A4206_A4207.study_id + ","
+                + com.sajidlatif.vasa2018.Global.A.A4206_A4207.A4206 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4206_A4207.A4206_1 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4206_A4207.A4206_2 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4206_A4207.A4206_3 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4206_A4207.A4206_4 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4206_A4207.A4206_5 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4206_A4207.A4206_6 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4206_A4207.A4206_7 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4206_A4207.A4206_8 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4206_A4207.A4206_9 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4206_A4207.A4206_10 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4206_A4207.A4206_11 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4206_A4207.A4206_12 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4206_A4207.A4206_13 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4206_A4207.A4206_14 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4206_A4207.A4206_15 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4206_A4207.A4206_16 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4206_A4207.A4206_17 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4206_A4207.A4206_18 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4206_A4207.A4206_19 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4206_A4207.A4206_20 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4206_A4207.A4206_21 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4206_A4207.A4206_22 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4206_A4207.A4207_hour + ","
+                + com.sajidlatif.vasa2018.Global.A.A4206_A4207.A4207_day + ","
+                + com.sajidlatif.vasa2018.Global.A.A4206_A4207.STATUS + ")" +
 
                 " values ('" +
 

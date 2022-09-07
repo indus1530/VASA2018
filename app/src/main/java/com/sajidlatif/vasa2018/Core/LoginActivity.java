@@ -16,6 +16,8 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.sajidlatif.vasa2018.R;
+import com.sajidlatif.vasa2018.utils.MyPreferences;
+import com.sajidlatif.vasa2018.utils.PostRequestData;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -27,9 +29,6 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
-
-import utils.MyPreferences;
-import utils.PostRequestData;
 
 public class LoginActivity extends AppCompatActivity implements View.OnTouchListener {
 

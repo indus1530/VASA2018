@@ -12,13 +12,12 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.sajidlatif.vasa2018.Global.C.C3001_C3011;
 import com.sajidlatif.vasa2018.Other.globale;
 import com.sajidlatif.vasa2018.R;
-
-import Global.C.C3001_C3011;
-import data.LocalDataManager;
-import utils.ClearAllcontrol;
-import utils.Gothrough;
+import com.sajidlatif.vasa2018.data.LocalDataManager;
+import com.sajidlatif.vasa2018.utils.ClearAllcontrol;
+import com.sajidlatif.vasa2018.utils.Gothrough;
 
 public class C3351_C3364 extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
 
@@ -351,16 +350,16 @@ public class C3351_C3364 extends AppCompatActivity implements RadioButton.OnChec
         String query = "insert into C3351_C3364("
 
                 + C3001_C3011.study_id + ","
-                + Global.C.C3351_C3364.C3351 + ","
-                + Global.C.C3351_C3364.C3352 + ","
-                + Global.C.C3351_C3364.C3353 + ","
-                + Global.C.C3351_C3364.C3354 + ","
-                + Global.C.C3351_C3364.C3355 + ","
-                + Global.C.C3351_C3364.C3356 + ","
-                + Global.C.C3351_C3364.C3357 + ","
-                + Global.C.C3351_C3364.C3358 + ","
-                + Global.C.C3351_C3364.C3363 + ","
-                + Global.C.C3351_C3364.C3364 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3351_C3364.C3351 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3351_C3364.C3352 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3351_C3364.C3353 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3351_C3364.C3354 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3351_C3364.C3355 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3351_C3364.C3356 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3351_C3364.C3357 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3351_C3364.C3358 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3351_C3364.C3363 + ","
+                + com.sajidlatif.vasa2018.Global.C.C3351_C3364.C3364 + ","
                 + C3001_C3011.STATUS + ") values ('" +
 
                 study_id + "','" +

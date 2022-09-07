@@ -13,10 +13,9 @@ import androidx.databinding.DataBindingUtil;
 
 import com.sajidlatif.vasa2018.Other.globale;
 import com.sajidlatif.vasa2018.R;
+import com.sajidlatif.vasa2018.data.DBHelper;
 import com.sajidlatif.vasa2018.databinding.C3251C3288BBinding;
-
-import data.DBHelper;
-import utils.Gothrough;
+import com.sajidlatif.vasa2018.utils.Gothrough;
 
 public class C3251_C3288_B extends AppCompatActivity {
 
@@ -159,7 +158,7 @@ public class C3251_C3288_B extends AppCompatActivity {
 
     public boolean SaveData() {
 
-        Global.C.C3251_C3288_B c3251B = new Global.C.C3251_C3288_B();
+        com.sajidlatif.vasa2018.Global.C.C3251_C3288_B c3251B = new com.sajidlatif.vasa2018.Global.C.C3251_C3288_B();
 
         c3251B.setC32531(bi.rbC325311.isChecked() ? "1" : bi.rbC325312.isChecked() ? "2" : bi.rbC325313.isChecked() ? "3" : "-1");
         c3251B.setC3253(bi.rbC3253A1.isChecked() ? "1" : bi.rbC3253A2.isChecked() ? "2" : bi.rbC3253A3.isChecked() ? "3" : bi.rbC3253A4.isChecked() ? "4"

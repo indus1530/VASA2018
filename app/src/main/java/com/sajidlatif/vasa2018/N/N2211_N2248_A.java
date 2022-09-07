@@ -7,12 +7,12 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.sajidlatif.vasa2018.Global.N.N2211_N2248_A_C;
 import com.sajidlatif.vasa2018.Other.globale;
 import com.sajidlatif.vasa2018.R;
+import com.sajidlatif.vasa2018.data.DBHelper;
 import com.sajidlatif.vasa2018.databinding.N2211N2248ABinding;
-
-import data.DBHelper;
-import utils.Gothrough;
+import com.sajidlatif.vasa2018.utils.Gothrough;
 
 public class N2211_N2248_A extends AppCompatActivity {
 
@@ -49,7 +49,7 @@ public class N2211_N2248_A extends AppCompatActivity {
 
     public boolean SaveData() {
 
-        Global.N.N2211_N2248_A_C n2211 = new Global.N.N2211_N2248_A_C();
+        N2211_N2248_A_C n2211 = new N2211_N2248_A_C();
 
         n2211.setN22111(bi.rbN221111.isChecked() ? "1" : bi.rbN221112.isChecked() ? "2" : bi.rbN221113.isChecked() ? "3" : bi.rbN22111DK.isChecked() ? "9" : "-1");
         n2211.setN22112(bi.rbN221121.isChecked() ? "1" : bi.rbN221122.isChecked() ? "2" : bi.rbN221123.isChecked() ? "3" : bi.rbN22112DK.isChecked() ? "9" : "-1");

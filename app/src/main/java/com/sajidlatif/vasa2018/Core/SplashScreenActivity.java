@@ -8,10 +8,9 @@ import android.os.Handler;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.sajidlatif.vasa2018.R;
+import com.sajidlatif.vasa2018.utils.MyPreferences;
 
 import java.util.Locale;
-
-import utils.MyPreferences;
 
 public class SplashScreenActivity extends AppCompatActivity {
 

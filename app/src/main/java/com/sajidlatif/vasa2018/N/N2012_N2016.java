@@ -9,10 +9,9 @@ import androidx.databinding.DataBindingUtil;
 
 import com.sajidlatif.vasa2018.Other.globale;
 import com.sajidlatif.vasa2018.R;
+import com.sajidlatif.vasa2018.data.DBHelper;
 import com.sajidlatif.vasa2018.databinding.N2012N2016Binding;
-
-import data.DBHelper;
-import utils.Gothrough;
+import com.sajidlatif.vasa2018.utils.Gothrough;
 
 public class N2012_N2016 extends AppCompatActivity {
 
@@ -48,7 +47,7 @@ public class N2012_N2016 extends AppCompatActivity {
 
     public boolean SaveData() {
 
-        Global.N.N2012_N2016 n2012 = new Global.N.N2012_N2016();
+        com.sajidlatif.vasa2018.Global.N.N2012_N2016 n2012 = new com.sajidlatif.vasa2018.Global.N.N2012_N2016();
 
         n2012.setN2012(bi.rbN20121.isChecked() ? "1" : bi.rbN20122.isChecked() ? "2" : bi.rbN2012DK.isChecked() ? "9"
                 : bi.rbN2012RA.isChecked() ? "8" : "-1");

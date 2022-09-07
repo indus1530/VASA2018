@@ -12,18 +12,17 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.sajidlatif.vasa2018.Global.C.C3051_C3099;
+import com.sajidlatif.vasa2018.Global.C.C3251_C3288_A_C;
+import com.sajidlatif.vasa2018.Global.C.C3251_C3288_B;
 import com.sajidlatif.vasa2018.Other.globale;
 import com.sajidlatif.vasa2018.R;
+import com.sajidlatif.vasa2018.data.DBHelper;
 import com.sajidlatif.vasa2018.databinding.C3251C3288CBinding;
+import com.sajidlatif.vasa2018.utils.ClearAllcontrol;
+import com.sajidlatif.vasa2018.utils.Gothrough;
 
 import java.util.Collection;
-
-import Global.C.C3051_C3099;
-import Global.C.C3251_C3288_A_C;
-import Global.C.C3251_C3288_B;
-import data.DBHelper;
-import utils.ClearAllcontrol;
-import utils.Gothrough;
 
 public class C3251_C3288_C extends AppCompatActivity {
 
@@ -100,16 +99,16 @@ public class C3251_C3288_C extends AppCompatActivity {
         for (C3251_C3288_B col_data : col_c3251) {
             if (col_data.getC32532A().equals("1")) {
 
-                String c3064 = db.getSpecificData(data.C.C3051_C3099.TABLE_NAME, bi.edStudyId.getText().toString(), Global.C.C3051_C3099.C3064);
+                String c3064 = db.getSpecificData(com.sajidlatif.vasa2018.data.C.C3051_C3099.TABLE_NAME, bi.edStudyId.getText().toString(), C3051_C3099.C3064);
                 String c3065 = null;
 
                 for (int i = 1; i <= 8; i++) {
 
                     String val;
                     if (i < 8)
-                        val = db.getSpecificData(data.C.C3051_C3099.TABLE_NAME, bi.edStudyId.getText().toString(), "C3065_" + i);
+                        val = db.getSpecificData(com.sajidlatif.vasa2018.data.C.C3051_C3099.TABLE_NAME, bi.edStudyId.getText().toString(), "C3065_" + i);
                     else
-                        val = db.getSpecificData(data.C.C3051_C3099.TABLE_NAME, bi.edStudyId.getText().toString(), C3051_C3099.C3065_DK);
+                        val = db.getSpecificData(com.sajidlatif.vasa2018.data.C.C3051_C3099.TABLE_NAME, bi.edStudyId.getText().toString(), C3051_C3099.C3065_DK);
 
                     if (Integer.valueOf(val) > -1) {
                         c3065 = val;
@@ -118,7 +117,7 @@ public class C3251_C3288_C extends AppCompatActivity {
                 }
                 c3065 = c3065 != null ? c3065 : "-1";
 
-                String c3066 = db.getSpecificData(data.C.C3051_C3099.TABLE_NAME, bi.edStudyId.getText().toString(), Global.C.C3051_C3099.C3066);
+                String c3066 = db.getSpecificData(com.sajidlatif.vasa2018.data.C.C3051_C3099.TABLE_NAME, bi.edStudyId.getText().toString(), C3051_C3099.C3066);
 
                 String c3067 = null;
 
@@ -126,9 +125,9 @@ public class C3251_C3288_C extends AppCompatActivity {
 
                     String val;
                     if (i < 8)
-                        val = db.getSpecificData(data.C.C3051_C3099.TABLE_NAME, bi.edStudyId.getText().toString(), "C3067_" + i);
+                        val = db.getSpecificData(com.sajidlatif.vasa2018.data.C.C3051_C3099.TABLE_NAME, bi.edStudyId.getText().toString(), "C3067_" + i);
                     else
-                        val = db.getSpecificData(data.C.C3051_C3099.TABLE_NAME, bi.edStudyId.getText().toString(), C3051_C3099.C3067_DK);
+                        val = db.getSpecificData(com.sajidlatif.vasa2018.data.C.C3051_C3099.TABLE_NAME, bi.edStudyId.getText().toString(), C3051_C3099.C3067_DK);
 
                     if (Integer.valueOf(val) > -1) {
                         c3067 = val;
@@ -137,9 +136,9 @@ public class C3251_C3288_C extends AppCompatActivity {
                 }
                 c3067 = c3067 != null ? c3067 : "-1";
 
-                String c3068 = db.getSpecificData(data.C.C3051_C3099.TABLE_NAME, bi.edStudyId.getText().toString(), Global.C.C3051_C3099.C3068);
-                String c3069 = db.getSpecificData(data.C.C3051_C3099.TABLE_NAME, bi.edStudyId.getText().toString(), Global.C.C3051_C3099.C3069);
-                String c3070 = db.getSpecificData(data.C.C3051_C3099.TABLE_NAME, bi.edStudyId.getText().toString(), Global.C.C3051_C3099.C3070);
+                String c3068 = db.getSpecificData(com.sajidlatif.vasa2018.data.C.C3051_C3099.TABLE_NAME, bi.edStudyId.getText().toString(), C3051_C3099.C3068);
+                String c3069 = db.getSpecificData(com.sajidlatif.vasa2018.data.C.C3051_C3099.TABLE_NAME, bi.edStudyId.getText().toString(), C3051_C3099.C3069);
+                String c3070 = db.getSpecificData(com.sajidlatif.vasa2018.data.C.C3051_C3099.TABLE_NAME, bi.edStudyId.getText().toString(), C3051_C3099.C3070);
 
                 if (c3064.equals("-1") && c3065.equals("-1") && c3066.equals("-1")
                         && c3067.equals("-1") && c3068.equals("-1") && c3069.equals("-1") && c3070.equals("-1")) {
@@ -155,7 +154,7 @@ public class C3251_C3288_C extends AppCompatActivity {
         if (flag_c3064 && flag_c3070) {
 
 //        Inst_3
-            String c3252 = db.getSpecificData(data.C.C3251_C3288_A_C.TABLE_NAME, bi.edStudyId.getText().toString(), C3251_C3288_A_C.sub_C3251_C3288_A_C.C3252);
+            String c3252 = db.getSpecificData(com.sajidlatif.vasa2018.data.C.C3251_C3288_A_C.TABLE_NAME, bi.edStudyId.getText().toString(), C3251_C3288_A_C.sub_C3251_C3288_A_C.C3252);
             if (Integer.valueOf(c3252) == 2) {
                 flag_c3252 = false;
             }

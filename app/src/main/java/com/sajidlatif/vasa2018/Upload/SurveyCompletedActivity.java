@@ -28,7 +28,50 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.sajidlatif.vasa2018.Global.A.A4001_A4014;
+import com.sajidlatif.vasa2018.Global.A.A4051_A4066;
+import com.sajidlatif.vasa2018.Global.A.A4067_A4080;
+import com.sajidlatif.vasa2018.Global.A.A4081_A4094;
+import com.sajidlatif.vasa2018.Global.A.A4095_A4108;
+import com.sajidlatif.vasa2018.Global.A.A4109_A4125;
+import com.sajidlatif.vasa2018.Global.A.A4126_A4140;
+import com.sajidlatif.vasa2018.Global.A.A4144_A4156;
+import com.sajidlatif.vasa2018.Global.A.A4157_A4205;
+import com.sajidlatif.vasa2018.Global.A.A4206_A4207;
+import com.sajidlatif.vasa2018.Global.A.A4251_A4284;
+import com.sajidlatif.vasa2018.Global.A.A4301_A4315;
+import com.sajidlatif.vasa2018.Global.A.A4351_A4364;
+import com.sajidlatif.vasa2018.Global.A.A4401_A4473;
+import com.sajidlatif.vasa2018.Global.C.C3001_C3011;
+import com.sajidlatif.vasa2018.Global.C.C3012_C3022;
+import com.sajidlatif.vasa2018.Global.C.C3051_C3099;
+import com.sajidlatif.vasa2018.Global.C.C3101_C3112;
+import com.sajidlatif.vasa2018.Global.C.C3121_C3228;
+import com.sajidlatif.vasa2018.Global.C.C3251_C3288_A_C;
+import com.sajidlatif.vasa2018.Global.C.C3301_C3314;
+import com.sajidlatif.vasa2018.Global.C.C3351_C3364;
+import com.sajidlatif.vasa2018.Global.C.C3401_C3457;
+import com.sajidlatif.vasa2018.Global.C.C3471_C3472;
+import com.sajidlatif.vasa2018.Global.GS.Q1101_Q1610;
+import com.sajidlatif.vasa2018.Global.N.N2001_N2011;
+import com.sajidlatif.vasa2018.Global.N.N2012_N2016;
+import com.sajidlatif.vasa2018.Global.N.N2017_N2022_3;
+import com.sajidlatif.vasa2018.Global.N.N2023_N2026;
+import com.sajidlatif.vasa2018.Global.N.N2051_N2078;
+import com.sajidlatif.vasa2018.Global.N.N2080_N2107;
+import com.sajidlatif.vasa2018.Global.N.N2110_N2189a;
+import com.sajidlatif.vasa2018.Global.N.N2190_N2191;
+import com.sajidlatif.vasa2018.Global.N.N2192_N2202;
+import com.sajidlatif.vasa2018.Global.N.N2211_N2248_A_C;
+import com.sajidlatif.vasa2018.Global.N.N2251_N2260;
+import com.sajidlatif.vasa2018.Global.N.N2271_N2284;
+import com.sajidlatif.vasa2018.Global.N.N2291_N2304;
+import com.sajidlatif.vasa2018.Global.N.N2311_N2317;
+import com.sajidlatif.vasa2018.Global.N.N2321_N2322;
+import com.sajidlatif.vasa2018.Global.RP.w204_w215;
 import com.sajidlatif.vasa2018.R;
+import com.sajidlatif.vasa2018.data.DBHelper;
+import com.sajidlatif.vasa2018.data.LocalDataManager;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -38,49 +81,6 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import Global.A.A4001_A4014;
-import Global.A.A4051_A4066;
-import Global.A.A4067_A4080;
-import Global.A.A4081_A4094;
-import Global.A.A4095_A4108;
-import Global.A.A4109_A4125;
-import Global.A.A4126_A4140;
-import Global.A.A4144_A4156;
-import Global.A.A4157_A4205;
-import Global.A.A4206_A4207;
-import Global.A.A4251_A4284;
-import Global.A.A4301_A4315;
-import Global.A.A4351_A4364;
-import Global.A.A4401_A4473;
-import Global.C.C3001_C3011;
-import Global.C.C3012_C3022;
-import Global.C.C3051_C3099;
-import Global.C.C3101_C3112;
-import Global.C.C3121_C3228;
-import Global.C.C3251_C3288_A_C;
-import Global.C.C3301_C3314;
-import Global.C.C3351_C3364;
-import Global.C.C3401_C3457;
-import Global.C.C3471_C3472;
-import Global.GS.Q1101_Q1610;
-import Global.N.N2001_N2011;
-import Global.N.N2012_N2016;
-import Global.N.N2017_N2022_3;
-import Global.N.N2023_N2026;
-import Global.N.N2051_N2078;
-import Global.N.N2080_N2107;
-import Global.N.N2110_N2189a;
-import Global.N.N2190_N2191;
-import Global.N.N2192_N2202;
-import Global.N.N2211_N2248_A_C;
-import Global.N.N2251_N2260;
-import Global.N.N2271_N2284;
-import Global.N.N2291_N2304;
-import Global.N.N2311_N2317;
-import Global.N.N2321_N2322;
-import data.DBHelper;
-import data.LocalDataManager;
 
 
 public class SurveyCompletedActivity extends AppCompatActivity {
@@ -1971,50 +1971,50 @@ class SurveyCompletedCustomAdapter extends RecyclerView.Adapter {
 
                     c18.moveToFirst();
 
-                    params.put(Global.RP.w204_w215.W201_d, c18.getString(c18.getColumnIndex("W201_d")));
-                    params.put(Global.RP.w204_w215.W201_m, c18.getString(c18.getColumnIndex("W201_m")));
-                    params.put(Global.RP.w204_w215.W201_y, c18.getString(c18.getColumnIndex("W201_y")));
-                    params.put(Global.RP.w204_w215.W202, c18.getString(c18.getColumnIndex("W202")));
-                    params.put(Global.RP.w204_w215.W203, c18.getString(c18.getColumnIndex("W203")));
-                    params.put(Global.RP.w204_w215.W204, c18.getString(c18.getColumnIndex("W204")));
-                    params.put(Global.RP.w204_w215.W205, c18.getString(c18.getColumnIndex("W205")));
-                    params.put(Global.RP.w204_w215.W206, c18.getString(c18.getColumnIndex("W206")));
-                    params.put(Global.RP.w204_w215.W207, c18.getString(c18.getColumnIndex("W207")));
-                    params.put(Global.RP.w204_w215.W208, c18.getString(c18.getColumnIndex("W208")));
-                    params.put(Global.RP.w204_w215.W209, c18.getString(c18.getColumnIndex("W209")));
-                    params.put(Global.RP.w204_w215.W210_1, c18.getString(c18.getColumnIndex("W210_1")));
-                    params.put(Global.RP.w204_w215.W210_2, c18.getString(c18.getColumnIndex("W210_2")));
-                    params.put(Global.RP.w204_w215.W210_3, c18.getString(c18.getColumnIndex("W210_3")));
-                    params.put(Global.RP.w204_w215.W210_4, c18.getString(c18.getColumnIndex("W210_4")));
-                    params.put(Global.RP.w204_w215.W210_5, c18.getString(c18.getColumnIndex("W210_5")));
-                    params.put(Global.RP.w204_w215.W211, c18.getString(c18.getColumnIndex("W211")));
-                    params.put(Global.RP.w204_w215.W212, c18.getString(c18.getColumnIndex("W212")));
-                    params.put(Global.RP.w204_w215.W213, c18.getString(c18.getColumnIndex("W213")));
-                    params.put(Global.RP.w204_w215.W214, c18.getString(c18.getColumnIndex("W214")));
-                    params.put(Global.RP.w204_w215.W215, c18.getString(c18.getColumnIndex("W215")));
+                    params.put(w204_w215.W201_d, c18.getString(c18.getColumnIndex("W201_d")));
+                    params.put(w204_w215.W201_m, c18.getString(c18.getColumnIndex("W201_m")));
+                    params.put(w204_w215.W201_y, c18.getString(c18.getColumnIndex("W201_y")));
+                    params.put(w204_w215.W202, c18.getString(c18.getColumnIndex("W202")));
+                    params.put(w204_w215.W203, c18.getString(c18.getColumnIndex("W203")));
+                    params.put(w204_w215.W204, c18.getString(c18.getColumnIndex("W204")));
+                    params.put(w204_w215.W205, c18.getString(c18.getColumnIndex("W205")));
+                    params.put(w204_w215.W206, c18.getString(c18.getColumnIndex("W206")));
+                    params.put(w204_w215.W207, c18.getString(c18.getColumnIndex("W207")));
+                    params.put(w204_w215.W208, c18.getString(c18.getColumnIndex("W208")));
+                    params.put(w204_w215.W209, c18.getString(c18.getColumnIndex("W209")));
+                    params.put(w204_w215.W210_1, c18.getString(c18.getColumnIndex("W210_1")));
+                    params.put(w204_w215.W210_2, c18.getString(c18.getColumnIndex("W210_2")));
+                    params.put(w204_w215.W210_3, c18.getString(c18.getColumnIndex("W210_3")));
+                    params.put(w204_w215.W210_4, c18.getString(c18.getColumnIndex("W210_4")));
+                    params.put(w204_w215.W210_5, c18.getString(c18.getColumnIndex("W210_5")));
+                    params.put(w204_w215.W211, c18.getString(c18.getColumnIndex("W211")));
+                    params.put(w204_w215.W212, c18.getString(c18.getColumnIndex("W212")));
+                    params.put(w204_w215.W213, c18.getString(c18.getColumnIndex("W213")));
+                    params.put(w204_w215.W214, c18.getString(c18.getColumnIndex("W214")));
+                    params.put(w204_w215.W215, c18.getString(c18.getColumnIndex("W215")));
                 } else {
 
-                    params.put(Global.RP.w204_w215.W201_d, "-2");
-                    params.put(Global.RP.w204_w215.W201_m, "-2");
-                    params.put(Global.RP.w204_w215.W201_y, "-2");
-                    params.put(Global.RP.w204_w215.W202, "-2");
-                    params.put(Global.RP.w204_w215.W203, "-2");
-                    params.put(Global.RP.w204_w215.W204, "-2");
-                    params.put(Global.RP.w204_w215.W205, "-2");
-                    params.put(Global.RP.w204_w215.W206, "-2");
-                    params.put(Global.RP.w204_w215.W207, "-2");
-                    params.put(Global.RP.w204_w215.W208, "-2");
-                    params.put(Global.RP.w204_w215.W209, "-2");
-                    params.put(Global.RP.w204_w215.W210_1, "-2");
-                    params.put(Global.RP.w204_w215.W210_2, "-2");
-                    params.put(Global.RP.w204_w215.W210_3, "-2");
-                    params.put(Global.RP.w204_w215.W210_4, "-2");
-                    params.put(Global.RP.w204_w215.W210_5, "-2");
-                    params.put(Global.RP.w204_w215.W211, "-2");
-                    params.put(Global.RP.w204_w215.W212, "-2");
-                    params.put(Global.RP.w204_w215.W213, "-2");
-                    params.put(Global.RP.w204_w215.W214, "-2");
-                    params.put(Global.RP.w204_w215.W215, "-2");
+                    params.put(w204_w215.W201_d, "-2");
+                    params.put(w204_w215.W201_m, "-2");
+                    params.put(w204_w215.W201_y, "-2");
+                    params.put(w204_w215.W202, "-2");
+                    params.put(w204_w215.W203, "-2");
+                    params.put(w204_w215.W204, "-2");
+                    params.put(w204_w215.W205, "-2");
+                    params.put(w204_w215.W206, "-2");
+                    params.put(w204_w215.W207, "-2");
+                    params.put(w204_w215.W208, "-2");
+                    params.put(w204_w215.W209, "-2");
+                    params.put(w204_w215.W210_1, "-2");
+                    params.put(w204_w215.W210_2, "-2");
+                    params.put(w204_w215.W210_3, "-2");
+                    params.put(w204_w215.W210_4, "-2");
+                    params.put(w204_w215.W210_5, "-2");
+                    params.put(w204_w215.W211, "-2");
+                    params.put(w204_w215.W212, "-2");
+                    params.put(w204_w215.W213, "-2");
+                    params.put(w204_w215.W214, "-2");
+                    params.put(w204_w215.W215, "-2");
                 }
 
                 if (c19.getCount() > 0) {
@@ -2037,7 +2037,7 @@ class SurveyCompletedCustomAdapter extends RecyclerView.Adapter {
                         c19.moveToNext();
                     }
 
-                    params.put("data", String.valueOf(data));
+                    params.put("com/sajidlatif/vasa2018/data", String.valueOf(data));
 
                 } else {
 
@@ -2051,7 +2051,7 @@ class SurveyCompletedCustomAdapter extends RecyclerView.Adapter {
                     hashmap.put('"' + "W22" + '"', '"' + "-2" + '"');
 
                     data.add(hashmap);
-                    params.put("data", String.valueOf(data));
+                    params.put("com/sajidlatif/vasa2018/data", String.valueOf(data));
                 }
 
                 return params;
@@ -3553,51 +3553,51 @@ class SurveyCompletedCustomAdapter extends RecyclerView.Adapter {
 
                     c13.moveToFirst();
 
-                    params.put(Global.RP.w204_w215.W201_d, c13.getString(c13.getColumnIndex("W201_d")));
-                    params.put(Global.RP.w204_w215.W201_m, c13.getString(c13.getColumnIndex("W201_m")));
-                    params.put(Global.RP.w204_w215.W201_y, c13.getString(c13.getColumnIndex("W201_y")));
-                    params.put(Global.RP.w204_w215.W202, c13.getString(c13.getColumnIndex("W202")));
-                    params.put(Global.RP.w204_w215.W203, c13.getString(c13.getColumnIndex("W203")));
-                    params.put(Global.RP.w204_w215.W204, c13.getString(c13.getColumnIndex("W204")));
-                    params.put(Global.RP.w204_w215.W205, c13.getString(c13.getColumnIndex("W205")));
-                    params.put(Global.RP.w204_w215.W206, c13.getString(c13.getColumnIndex("W206")));
-                    params.put(Global.RP.w204_w215.W207, c13.getString(c13.getColumnIndex("W207")));
-                    params.put(Global.RP.w204_w215.W208, c13.getString(c13.getColumnIndex("W208")));
-                    params.put(Global.RP.w204_w215.W209, c13.getString(c13.getColumnIndex("W209")));
-                    params.put(Global.RP.w204_w215.W210_1, c13.getString(c13.getColumnIndex("W210_1")));
-                    params.put(Global.RP.w204_w215.W210_2, c13.getString(c13.getColumnIndex("W210_2")));
-                    params.put(Global.RP.w204_w215.W210_3, c13.getString(c13.getColumnIndex("W210_3")));
-                    params.put(Global.RP.w204_w215.W210_4, c13.getString(c13.getColumnIndex("W210_4")));
-                    params.put(Global.RP.w204_w215.W210_5, c13.getString(c13.getColumnIndex("W210_5")));
-                    params.put(Global.RP.w204_w215.W211, c13.getString(c13.getColumnIndex("W211")));
-                    params.put(Global.RP.w204_w215.W212, c13.getString(c13.getColumnIndex("W212")));
-                    params.put(Global.RP.w204_w215.W213, c13.getString(c13.getColumnIndex("W213")));
-                    params.put(Global.RP.w204_w215.W214, c13.getString(c13.getColumnIndex("W214")));
-                    params.put(Global.RP.w204_w215.W215, c13.getString(c13.getColumnIndex("W215")));
+                    params.put(w204_w215.W201_d, c13.getString(c13.getColumnIndex("W201_d")));
+                    params.put(w204_w215.W201_m, c13.getString(c13.getColumnIndex("W201_m")));
+                    params.put(w204_w215.W201_y, c13.getString(c13.getColumnIndex("W201_y")));
+                    params.put(w204_w215.W202, c13.getString(c13.getColumnIndex("W202")));
+                    params.put(w204_w215.W203, c13.getString(c13.getColumnIndex("W203")));
+                    params.put(w204_w215.W204, c13.getString(c13.getColumnIndex("W204")));
+                    params.put(w204_w215.W205, c13.getString(c13.getColumnIndex("W205")));
+                    params.put(w204_w215.W206, c13.getString(c13.getColumnIndex("W206")));
+                    params.put(w204_w215.W207, c13.getString(c13.getColumnIndex("W207")));
+                    params.put(w204_w215.W208, c13.getString(c13.getColumnIndex("W208")));
+                    params.put(w204_w215.W209, c13.getString(c13.getColumnIndex("W209")));
+                    params.put(w204_w215.W210_1, c13.getString(c13.getColumnIndex("W210_1")));
+                    params.put(w204_w215.W210_2, c13.getString(c13.getColumnIndex("W210_2")));
+                    params.put(w204_w215.W210_3, c13.getString(c13.getColumnIndex("W210_3")));
+                    params.put(w204_w215.W210_4, c13.getString(c13.getColumnIndex("W210_4")));
+                    params.put(w204_w215.W210_5, c13.getString(c13.getColumnIndex("W210_5")));
+                    params.put(w204_w215.W211, c13.getString(c13.getColumnIndex("W211")));
+                    params.put(w204_w215.W212, c13.getString(c13.getColumnIndex("W212")));
+                    params.put(w204_w215.W213, c13.getString(c13.getColumnIndex("W213")));
+                    params.put(w204_w215.W214, c13.getString(c13.getColumnIndex("W214")));
+                    params.put(w204_w215.W215, c13.getString(c13.getColumnIndex("W215")));
 
                 } else {
 
-                    params.put(Global.RP.w204_w215.W201_d, "-2");
-                    params.put(Global.RP.w204_w215.W201_m, "-2");
-                    params.put(Global.RP.w204_w215.W201_y, "-2");
-                    params.put(Global.RP.w204_w215.W202, "-2");
-                    params.put(Global.RP.w204_w215.W203, "-2");
-                    params.put(Global.RP.w204_w215.W204, "-2");
-                    params.put(Global.RP.w204_w215.W205, "-2");
-                    params.put(Global.RP.w204_w215.W206, "-2");
-                    params.put(Global.RP.w204_w215.W207, "-2");
-                    params.put(Global.RP.w204_w215.W208, "-2");
-                    params.put(Global.RP.w204_w215.W209, "-2");
-                    params.put(Global.RP.w204_w215.W210_1, "-2");
-                    params.put(Global.RP.w204_w215.W210_2, "-2");
-                    params.put(Global.RP.w204_w215.W210_3, "-2");
-                    params.put(Global.RP.w204_w215.W210_4, "-2");
-                    params.put(Global.RP.w204_w215.W210_5, "-2");
-                    params.put(Global.RP.w204_w215.W211, "-2");
-                    params.put(Global.RP.w204_w215.W212, "-2");
-                    params.put(Global.RP.w204_w215.W213, "-2");
-                    params.put(Global.RP.w204_w215.W214, "-2");
-                    params.put(Global.RP.w204_w215.W215, "-2");
+                    params.put(w204_w215.W201_d, "-2");
+                    params.put(w204_w215.W201_m, "-2");
+                    params.put(w204_w215.W201_y, "-2");
+                    params.put(w204_w215.W202, "-2");
+                    params.put(w204_w215.W203, "-2");
+                    params.put(w204_w215.W204, "-2");
+                    params.put(w204_w215.W205, "-2");
+                    params.put(w204_w215.W206, "-2");
+                    params.put(w204_w215.W207, "-2");
+                    params.put(w204_w215.W208, "-2");
+                    params.put(w204_w215.W209, "-2");
+                    params.put(w204_w215.W210_1, "-2");
+                    params.put(w204_w215.W210_2, "-2");
+                    params.put(w204_w215.W210_3, "-2");
+                    params.put(w204_w215.W210_4, "-2");
+                    params.put(w204_w215.W210_5, "-2");
+                    params.put(w204_w215.W211, "-2");
+                    params.put(w204_w215.W212, "-2");
+                    params.put(w204_w215.W213, "-2");
+                    params.put(w204_w215.W214, "-2");
+                    params.put(w204_w215.W215, "-2");
                 }
 
                 if (c19.getCount() > 0) {
@@ -3626,7 +3626,7 @@ class SurveyCompletedCustomAdapter extends RecyclerView.Adapter {
                         c19.moveToNext();
                     }
 
-                    params.put("data", String.valueOf(data));
+                    params.put("com/sajidlatif/vasa2018/data", String.valueOf(data));
 
                 } else {
 
@@ -3641,7 +3641,7 @@ class SurveyCompletedCustomAdapter extends RecyclerView.Adapter {
 
                     data.add(hashmap);
 
-                    params.put("data", String.valueOf(data));
+                    params.put("com/sajidlatif/vasa2018/data", String.valueOf(data));
                 }
 
                 return params;

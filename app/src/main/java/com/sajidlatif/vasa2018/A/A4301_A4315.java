@@ -14,13 +14,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.sajidlatif.vasa2018.Other.globale;
 import com.sajidlatif.vasa2018.R;
+import com.sajidlatif.vasa2018.data.LocalDataManager;
+import com.sajidlatif.vasa2018.utils.ClearAllcontrol;
+import com.sajidlatif.vasa2018.utils.Gothrough;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import data.LocalDataManager;
-import utils.ClearAllcontrol;
-import utils.Gothrough;
 
 public class A4301_A4315 extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
 
@@ -1205,46 +1204,46 @@ public class A4301_A4315 extends AppCompatActivity implements RadioButton.OnChec
 
         String query = "insert into A4301_A4315("
 
-                + Global.A.A4301_A4315.study_id + ","
-                + Global.A.A4301_A4315.A4301 + ","
-                + Global.A.A4301_A4315.A4302_1 + ","
-                + Global.A.A4301_A4315.A4302_2 + ","
-                + Global.A.A4301_A4315.A4302_3 + ","
-                + Global.A.A4301_A4315.A4302_4 + ","
-                + Global.A.A4301_A4315.A4302_5 + ","
-                + Global.A.A4301_A4315.A4302_6 + ","
-                + Global.A.A4301_A4315.A4302_7 + ","
-                + Global.A.A4301_A4315.A4303 + ","
-                + Global.A.A4301_A4315.A4304 + ","
-                + Global.A.A4301_A4315.A4305 + ","
-                + Global.A.A4301_A4315.A4306_1check + ","
-                + Global.A.A4301_A4315.A4306_1 + ","
-                + Global.A.A4301_A4315.A4306_2check + ","
-                + Global.A.A4301_A4315.A4306_2 + ","
-                + Global.A.A4301_A4315.A4307 + ","
-                + Global.A.A4301_A4315.A4308 + ","
-                + Global.A.A4301_A4315.A4309 + ","
-                + Global.A.A4301_A4315.A4310_1 + ","
-                + Global.A.A4301_A4315.A4310_2 + ","
-                + Global.A.A4301_A4315.A4310_3 + ","
-                + Global.A.A4301_A4315.A4310_4 + ","
-                + Global.A.A4301_A4315.A4310_5 + ","
-                + Global.A.A4301_A4315.A4310_6 + ","
-                + Global.A.A4301_A4315.A4310_7 + ","
-                + Global.A.A4301_A4315.A4310_8 + ","
-                + Global.A.A4301_A4315.A4310_9 + ","
-                + Global.A.A4301_A4315.A4310_10 + ","
-                + Global.A.A4301_A4315.A4310_11 + ","
-                + Global.A.A4301_A4315.A4311_1 + ","
-                + Global.A.A4301_A4315.A4311_2 + ","
-                + Global.A.A4301_A4315.A4311_3 + ","
-                + Global.A.A4301_A4315.A4311_4 + ","
-                + Global.A.A4301_A4315.A4311_5 + ","
-                + Global.A.A4301_A4315.A4312 + ","
-                + Global.A.A4301_A4315.A4313 + ","
-                + Global.A.A4301_A4315.A4314 + ","
-                + Global.A.A4301_A4315.A4315 + ","
-                + Global.A.A4301_A4315.STATUS + ")" +
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.study_id + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4301 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4302_1 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4302_2 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4302_3 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4302_4 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4302_5 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4302_6 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4302_7 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4303 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4304 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4305 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4306_1check + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4306_1 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4306_2check + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4306_2 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4307 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4308 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4309 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4310_1 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4310_2 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4310_3 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4310_4 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4310_5 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4310_6 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4310_7 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4310_8 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4310_9 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4310_10 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4310_11 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4311_1 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4311_2 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4311_3 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4311_4 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4311_5 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4312 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4313 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4314 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.A4315 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4301_A4315.STATUS + ")" +
 
                 " values ('" +
 

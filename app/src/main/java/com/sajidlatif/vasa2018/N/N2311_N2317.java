@@ -8,14 +8,13 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.sajidlatif.vasa2018.Global.N.N2012_N2016;
 import com.sajidlatif.vasa2018.Other.globale;
 import com.sajidlatif.vasa2018.R;
+import com.sajidlatif.vasa2018.data.DBHelper;
 import com.sajidlatif.vasa2018.databinding.N2311N2317Binding;
-
-import Global.N.N2012_N2016;
-import data.DBHelper;
-import utils.ClearAllcontrol;
-import utils.Gothrough;
+import com.sajidlatif.vasa2018.utils.ClearAllcontrol;
+import com.sajidlatif.vasa2018.utils.Gothrough;
 
 public class N2311_N2317 extends AppCompatActivity {
 
@@ -43,7 +42,7 @@ public class N2311_N2317 extends AppCompatActivity {
         bi.edStudyId.setEnabled(false);
 
         DBHelper db = new DBHelper(this);
-        String n2016 = db.getSpecificData(data.N.N2012_N2016.TABLE_NAME, bi.edStudyId.getText().toString(), N2012_N2016.sub_N2012_N2016.N2016);
+        String n2016 = db.getSpecificData(com.sajidlatif.vasa2018.data.N.N2012_N2016.TABLE_NAME, bi.edStudyId.getText().toString(), N2012_N2016.sub_N2012_N2016.N2016);
         if (Integer.valueOf(n2016) == 1) {
             flag_n2016 = false;
         }
@@ -84,7 +83,7 @@ public class N2311_N2317 extends AppCompatActivity {
 
     public boolean SaveData() {
 
-        Global.N.N2311_N2317 n2311 = new Global.N.N2311_N2317();
+        com.sajidlatif.vasa2018.Global.N.N2311_N2317 n2311 = new com.sajidlatif.vasa2018.Global.N.N2311_N2317();
 
         n2311.setN2311("");
         n2311.setN23111(bi.rbN231111.isChecked() ? "1" : bi.rbN231112.isChecked() ? "2" : bi.rbN23111DK.isChecked() ? "9" : "-1");

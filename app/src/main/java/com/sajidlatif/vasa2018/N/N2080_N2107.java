@@ -10,14 +10,14 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.sajidlatif.vasa2018.Global.N.N2012_N2016.sub_N2012_N2016;
 import com.sajidlatif.vasa2018.Other.globale;
 import com.sajidlatif.vasa2018.R;
+import com.sajidlatif.vasa2018.data.DBHelper;
+import com.sajidlatif.vasa2018.data.N.N2012_N2016;
 import com.sajidlatif.vasa2018.databinding.N2080N2107Binding;
-
-import Global.N.N2012_N2016.sub_N2012_N2016;
-import data.DBHelper;
-import utils.ClearAllcontrol;
-import utils.Gothrough;
+import com.sajidlatif.vasa2018.utils.ClearAllcontrol;
+import com.sajidlatif.vasa2018.utils.Gothrough;
 
 public class N2080_N2107 extends AppCompatActivity {
 
@@ -45,7 +45,7 @@ public class N2080_N2107 extends AppCompatActivity {
 
         DBHelper db = new DBHelper(this);
 
-        String n2016 = db.getSpecificData(data.N.N2012_N2016.TABLE_NAME, bi.edStudyId.getText().toString(), sub_N2012_N2016.N2016);
+        String n2016 = db.getSpecificData(N2012_N2016.TABLE_NAME, bi.edStudyId.getText().toString(), sub_N2012_N2016.N2016);
         if (n2016.equals("1")) {
             flag_n2016 = true;
         }
@@ -307,7 +307,7 @@ public class N2080_N2107 extends AppCompatActivity {
 
     public boolean SaveData() {
 
-        Global.N.N2080_N2107 n2080 = new Global.N.N2080_N2107();
+        com.sajidlatif.vasa2018.Global.N.N2080_N2107 n2080 = new com.sajidlatif.vasa2018.Global.N.N2080_N2107();
 
         n2080.setN20801(bi.rbN208011.isChecked() ? "1" : bi.rbN208012.isChecked() ? "2" : bi.rbN20801DK.isChecked() ? "9" : bi.rbN20801RA.isChecked() ? "8" : bi.cbN208016.isChecked() ? "2" : "-1");
         n2080.setN20802(bi.rbN208021.isChecked() ? "1" : bi.rbN208022.isChecked() ? "2" : bi.rbN20802DK.isChecked() ? "9" : bi.rbN20802RA.isChecked() ? "8" : bi.cbN208016.isChecked() ? "2" : "-1");

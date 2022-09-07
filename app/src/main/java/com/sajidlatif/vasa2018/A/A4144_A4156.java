@@ -16,12 +16,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.sajidlatif.vasa2018.Other.globale;
 import com.sajidlatif.vasa2018.R;
-
-import data.DBHelper;
-import data.LocalDataManager;
-import utils.ClearAllcontrol;
-import utils.Gothrough;
-import utils.InputFilterMinMax;
+import com.sajidlatif.vasa2018.data.DBHelper;
+import com.sajidlatif.vasa2018.data.LocalDataManager;
+import com.sajidlatif.vasa2018.utils.ClearAllcontrol;
+import com.sajidlatif.vasa2018.utils.Gothrough;
+import com.sajidlatif.vasa2018.utils.InputFilterMinMax;
 
 public class A4144_A4156 extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
 
@@ -630,23 +629,23 @@ public class A4144_A4156 extends AppCompatActivity implements RadioButton.OnChec
 
         String query = "insert into A4144_A4156("
 
-                + Global.A.A4144_A4156.study_id + ","
-                + Global.A.A4144_A4156.A4144 + ","
-                + Global.A.A4144_A4156.A4145 + ","
-                + Global.A.A4144_A4156.A4146 + ","
-                + Global.A.A4144_A4156.A4147 + ","
-                + Global.A.A4144_A4156.A4148 + ","
-                + Global.A.A4144_A4156.A4149 + ","
-                + Global.A.A4144_A4156.A4150_u + ","
-                + Global.A.A4144_A4156.A4150_a + ","
-                + Global.A.A4144_A4156.A4150_b + ","
-                + Global.A.A4144_A4156.A4151 + ","
-                + Global.A.A4144_A4156.A4152 + ","
-                + Global.A.A4144_A4156.A4153 + ","
-                + Global.A.A4144_A4156.A4154 + ","
-                + Global.A.A4144_A4156.A4155 + ","
-                + Global.A.A4144_A4156.A4156 + ","
-                + Global.A.A4144_A4156.STATUS + ")" +
+                + com.sajidlatif.vasa2018.Global.A.A4144_A4156.study_id + ","
+                + com.sajidlatif.vasa2018.Global.A.A4144_A4156.A4144 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4144_A4156.A4145 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4144_A4156.A4146 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4144_A4156.A4147 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4144_A4156.A4148 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4144_A4156.A4149 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4144_A4156.A4150_u + ","
+                + com.sajidlatif.vasa2018.Global.A.A4144_A4156.A4150_a + ","
+                + com.sajidlatif.vasa2018.Global.A.A4144_A4156.A4150_b + ","
+                + com.sajidlatif.vasa2018.Global.A.A4144_A4156.A4151 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4144_A4156.A4152 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4144_A4156.A4153 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4144_A4156.A4154 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4144_A4156.A4155 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4144_A4156.A4156 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4144_A4156.STATUS + ")" +
 
                 " values ('" +
 

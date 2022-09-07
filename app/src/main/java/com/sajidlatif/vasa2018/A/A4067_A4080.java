@@ -15,11 +15,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.sajidlatif.vasa2018.Other.globale;
 import com.sajidlatif.vasa2018.R;
-
-import data.LocalDataManager;
-import utils.ClearAllcontrol;
-import utils.Gothrough;
-import utils.InputFilterMinMax;
+import com.sajidlatif.vasa2018.data.LocalDataManager;
+import com.sajidlatif.vasa2018.utils.ClearAllcontrol;
+import com.sajidlatif.vasa2018.utils.Gothrough;
+import com.sajidlatif.vasa2018.utils.InputFilterMinMax;
 
 public class A4067_A4080 extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
 
@@ -798,31 +797,31 @@ public class A4067_A4080 extends AppCompatActivity implements RadioButton.OnChec
 
         String query = "insert into A4067_A4080("
 
-                + Global.A.A4067_A4080.study_id + ","
-                + Global.A.A4067_A4080.A4067 + ","
-                + Global.A.A4067_A4080.A4068 + ","
-                + Global.A.A4067_A4080.A4069_u + ","
-                + Global.A.A4067_A4080.A4069_a + ","
-                + Global.A.A4067_A4080.A4069_b + ","
-                + Global.A.A4067_A4080.A4069_c + ","
-                + Global.A.A4067_A4080.A4070 + ","
-                + Global.A.A4067_A4080.A4071 + ","
-                + Global.A.A4067_A4080.A4072_u + ","
-                + Global.A.A4067_A4080.A4072_a + ","
-                + Global.A.A4067_A4080.A4072_b + ","
-                + Global.A.A4067_A4080.A4073 + ","
-                + Global.A.A4067_A4080.A4074 + ","
-                + Global.A.A4067_A4080.A4075_u + ","
-                + Global.A.A4067_A4080.A4075_a + ","
-                + Global.A.A4067_A4080.A4075_b + ","
-                + Global.A.A4067_A4080.A4076 + ","
-                + Global.A.A4067_A4080.A4077_u + ","
-                + Global.A.A4067_A4080.A4077_a + ","
-                + Global.A.A4067_A4080.A4077_b + ","
-                + Global.A.A4067_A4080.A4078 + ","
-                + Global.A.A4067_A4080.A4079 + ","
-                + Global.A.A4067_A4080.A4080 + ","
-                + Global.A.A4067_A4080.STATUS + ")" +
+                + com.sajidlatif.vasa2018.Global.A.A4067_A4080.study_id + ","
+                + com.sajidlatif.vasa2018.Global.A.A4067_A4080.A4067 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4067_A4080.A4068 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4067_A4080.A4069_u + ","
+                + com.sajidlatif.vasa2018.Global.A.A4067_A4080.A4069_a + ","
+                + com.sajidlatif.vasa2018.Global.A.A4067_A4080.A4069_b + ","
+                + com.sajidlatif.vasa2018.Global.A.A4067_A4080.A4069_c + ","
+                + com.sajidlatif.vasa2018.Global.A.A4067_A4080.A4070 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4067_A4080.A4071 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4067_A4080.A4072_u + ","
+                + com.sajidlatif.vasa2018.Global.A.A4067_A4080.A4072_a + ","
+                + com.sajidlatif.vasa2018.Global.A.A4067_A4080.A4072_b + ","
+                + com.sajidlatif.vasa2018.Global.A.A4067_A4080.A4073 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4067_A4080.A4074 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4067_A4080.A4075_u + ","
+                + com.sajidlatif.vasa2018.Global.A.A4067_A4080.A4075_a + ","
+                + com.sajidlatif.vasa2018.Global.A.A4067_A4080.A4075_b + ","
+                + com.sajidlatif.vasa2018.Global.A.A4067_A4080.A4076 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4067_A4080.A4077_u + ","
+                + com.sajidlatif.vasa2018.Global.A.A4067_A4080.A4077_a + ","
+                + com.sajidlatif.vasa2018.Global.A.A4067_A4080.A4077_b + ","
+                + com.sajidlatif.vasa2018.Global.A.A4067_A4080.A4078 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4067_A4080.A4079 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4067_A4080.A4080 + ","
+                + com.sajidlatif.vasa2018.Global.A.A4067_A4080.STATUS + ")" +
 
 
                 " values ('" +
