@@ -57,7 +57,7 @@
             <LinearLayout style="@style/Q_Linerlayout_v">
 
                 <!-- EditText study_id Starts -->
-                <android.support.v7.widget.CardView style="@style/Q_CardView">
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
                         android:id="@+id/ll_study_id"
@@ -77,11 +77,11 @@
                             android:inputType="date"
                             app:met_mask="####-###-##" />
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
                 <!-- EditText study_id Ends -->
 
                 <!-- EditText N2023 Starts -->
-                <android.support.v7.widget.CardView style="@style/Q_CardView">
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
                         android:id="@+id/ll_N2023"
@@ -103,10 +103,10 @@
 
                     </LinearLayout>
 
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
                 <!-- EditText N2024 Starts -->
-                <android.support.v7.widget.CardView style="@style/Q_CardView">
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
                         android:id="@+id/ll_N2024"
@@ -129,10 +129,10 @@
 
                     </LinearLayout>
 
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
                 <!-- Radio Buttons N2024_1 Starts -->
-                <android.support.v7.widget.CardView style="@style/Q_CardView">
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
                         android:id="@+id/ll_N2024_1"
@@ -175,10 +175,10 @@
 
                     </LinearLayout>
 
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
                 <!-- Radio Buttons N2025u Starts -->
-                <android.support.v7.widget.CardView style="@style/Q_CardView">
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
                         android:id="@+id/ll_N2025u"
@@ -212,10 +212,10 @@
 
                     </LinearLayout>
 
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
                 <!-- EditText N2025d Starts -->
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     style="@style/Q_CardView"
                     android:visibility='@{rbN2025u1.checked ? View.VISIBLE : View.GONE}'>
 
@@ -241,10 +241,10 @@
 
                     </LinearLayout>
 
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
                 <!-- Radio Buttons N2026 Starts -->
-                <android.support.v7.widget.CardView style="@style/Q_CardView">
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
                         android:id="@+id/ll_N2026"
@@ -287,11 +287,11 @@
 
                     </LinearLayout>
 
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
                 <!--  = = = = =  END OF FORM FIELDS  = = = = = -->
                 <!-- Next Buttons Starts -->
-                <android.support.v7.widget.CardView style="@style/Q_CardView">
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                     <Button
@@ -302,7 +302,7 @@
                         android:text="@string/next" />
 
 
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
                 <!-- Next Buttons Ends -->
 
             </LinearLayout>

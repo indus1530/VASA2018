@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:239130991585:android:9d95168e12e54d07",
         "android_client_info": {
-          "package_name": "com.irfan.VAS.VAS"
+          "package_name": "com.sajidlatif.vasa2018."
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "239130991585-sfca0v1fjruveb4ff3nns74cqeet6a7q.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.irfan.VAS.VAS",
+            "package_name": "com.sajidlatif.vasa2018.",
             "certificate_hash": "cb4bb9604b60fabdb9fad7c4a14c26ecc6ae6974"
           }
         },
@@ -54,7 +54,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:239130991585:android:015f48468d60db6d",
         "android_client_info": {
-          "package_name": "com.irfansyed.VAS.VASMonitring.Core"
+          "package_name": "com.sajidlatif.vasa2018.Core"
         }
       },
       "oauth_client": [
@@ -62,7 +62,7 @@
           "client_id": "239130991585-tgoovfnfqhlf9d3748b0capop8igo78a.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.irfansyed.VAS.VASMonitring.Core",
+            "package_name": "com.sajidlatif.vasa2018.Core",
             "certificate_hash": "cb4bb9604b60fabdb9fad7c4a14c26ecc6ae6974"
           }
         },

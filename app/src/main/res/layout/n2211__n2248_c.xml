@@ -57,7 +57,7 @@
             <LinearLayout style="@style/Q_Linerlayout_v">
 
                 <!-- EditText study_id Starts -->
-                <android.support.v7.widget.CardView style="@style/Q_CardView">
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
                         android:id="@+id/ll_study_id"
@@ -77,7 +77,7 @@
                             android:inputType="date"
                             app:met_mask="####-###-##" />
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
                 <!-- EditText study_id Ends -->
 
                 <!-- Radio Buttons N2214 Starts -->
@@ -93,7 +93,7 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
-                        <android.support.v7.widget.CardView style="@style/Q_CardView">
+                        <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                             <LinearLayout
                                 android:id="@+id/ll_N2214"
@@ -154,11 +154,11 @@
 
                             </LinearLayout>
 
-                        </android.support.v7.widget.CardView>
+                        </androidx.cardview.widget.CardView>
                         <!-- Radio Buttons N2214 Ends -->
 
                         <!-- Radio Buttons N2215 Starts -->
-                        <android.support.v7.widget.CardView style="@style/Q_CardView">
+                        <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                             <LinearLayout
                                 android:id="@+id/ll_N2215"
@@ -200,11 +200,11 @@
 
                             </LinearLayout>
 
-                        </android.support.v7.widget.CardView>
+                        </androidx.cardview.widget.CardView>
                         <!-- Radio Buttons N2215 Ends -->
 
                         <!-- Radio Buttons N2216 Starts -->
-                        <android.support.v7.widget.CardView
+                        <androidx.cardview.widget.CardView
                             style="@style/Q_CardView"
                             android:visibility="@{rbN22151.checked ? View.VISIBLE :View.GONE}">
 
@@ -312,7 +312,7 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
 
                             </LinearLayout>
 
-                        </android.support.v7.widget.CardView>
+                        </androidx.cardview.widget.CardView>
 
                     </LinearLayout>
                     <!-- Radio Buttons N2216 Ends -->
@@ -337,7 +337,7 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
 
-                                <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                                     <LinearLayout
                                         android:id="@+id/ll_N2217"
@@ -368,11 +368,11 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
 
                                     </LinearLayout>
 
-                                </android.support.v7.widget.CardView>
+                                </androidx.cardview.widget.CardView>
                                 <!-- EditText N2217 Ends -->
 
                                 <!-- Radio Buttons N2218_1 Starts -->
-                                <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                                     <LinearLayout
@@ -410,11 +410,11 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
 
                                     </LinearLayout>
 
-                                </android.support.v7.widget.CardView>
+                                </androidx.cardview.widget.CardView>
                                 <!-- Radio Buttons N2218_1 Ends -->
 
                                 <!-- Radio Buttons N2218_2 Starts -->
-                                <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                                     <LinearLayout
@@ -452,7 +452,7 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
 
                                     </LinearLayout>
 
-                                </android.support.v7.widget.CardView>
+                                </androidx.cardview.widget.CardView>
                                 <!-- Radio Buttons N2218_2 Ends -->
 
                             </LinearLayout>
@@ -464,7 +464,7 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
 
-                                <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                                     <LinearLayout
@@ -552,11 +552,11 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
 
                                     </LinearLayout>
 
-                                </android.support.v7.widget.CardView>
+                                </androidx.cardview.widget.CardView>
                                 <!-- Radio Buttons N2219 Ends -->
 
                                 <!-- Radio Buttons N2220 Starts -->
-                                <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                                     <LinearLayout
@@ -600,7 +600,7 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
 
                                     </LinearLayout>
 
-                                </android.support.v7.widget.CardView>
+                                </androidx.cardview.widget.CardView>
 
                             </LinearLayout>
                             <!-- Radio Buttons N2220 Ends -->
@@ -618,7 +618,7 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
                                     android:layout_height="wrap_content"
                                     android:orientation="vertical">
 
-                                    <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                    <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                                         <LinearLayout
@@ -639,11 +639,11 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
 
                                         </LinearLayout>
 
-                                    </android.support.v7.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
                                     <!-- EditText N2221_1 Ends -->
 
                                     <!-- EditText N2221_2 Starts -->
-                                    <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                    <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                                         <LinearLayout
@@ -664,11 +664,11 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
 
                                         </LinearLayout>
 
-                                    </android.support.v7.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
                                     <!-- EditText N2220_2 Ends -->
 
                                     <!-- Radio Buttons N2222 Starts -->
-                                    <android.support.v7.widget.CardView
+                                    <androidx.cardview.widget.CardView
                                         style="@style/Q_CardView"
                                         android:visibility="@{rbN221911.checked || rbN221917.checked ? View.VISIBLE : View.GONE }">
 
@@ -703,7 +703,7 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
 
                                         </LinearLayout>
 
-                                    </android.support.v7.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
 
                                 </LinearLayout>
                                 <!-- Radio Buttons N2222 Ends -->
@@ -733,7 +733,7 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
                                 android:orientation="vertical">
 
                                 <!-- Radio Buttons N2223 Starts -->
-                                <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                                     <LinearLayout
@@ -772,11 +772,11 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
 
                                     </LinearLayout>
 
-                                </android.support.v7.widget.CardView>
+                                </androidx.cardview.widget.CardView>
                                 <!-- Radio Buttons N2223 Ends -->
 
                                 <!-- Radio Buttons N2224 Starts -->
-                                <android.support.v7.widget.CardView
+                                <androidx.cardview.widget.CardView
                                     style="@style/Q_CardView"
                                     android:visibility="@{rbN22231.checked? View.VISIBLE : View.GONE }">
 
@@ -866,7 +866,7 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
 
                                     </LinearLayout>
 
-                                </android.support.v7.widget.CardView>
+                                </androidx.cardview.widget.CardView>
                                 <!-- Radio Buttons N2224 Ends -->
 
                                 <!-- Radio Buttons N2225_1 Starts -->
@@ -877,7 +877,7 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
                                     android:orientation="vertical"
                                     android:visibility="@{rbN22231.checked ? View.GONE : View.VISIBLE}">
 
-                                    <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                    <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                                         <LinearLayout
@@ -910,11 +910,11 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
 
                                         </LinearLayout>
 
-                                    </android.support.v7.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
                                     <!-- Radio Buttons N2225_1 Ends -->
 
                                     <!-- Radio Buttons N2225_2 Starts -->
-                                    <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                    <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                                         <LinearLayout
@@ -947,13 +947,13 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
 
                                         </LinearLayout>
 
-                                    </android.support.v7.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
 
                                 </LinearLayout>
                                 <!-- Radio Buttons N2225_2 Ends -->
 
                                 <!-- Radio Buttons N2226 Starts -->
-                                <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                                     <LinearLayout
@@ -987,7 +987,7 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
 
                                     </LinearLayout>
 
-                                </android.support.v7.widget.CardView>
+                                </androidx.cardview.widget.CardView>
                                 <!-- Radio Buttons N2226 Ends -->
 
                                 <!-- Radio Buttons N2227_1 Starts -->
@@ -998,7 +998,7 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
                                     android:orientation="vertical"
                                     android:visibility="@{rbN22262.checked ? View.GONE : View.VISIBLE}">
 
-                                    <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                    <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                                         <LinearLayout
@@ -1036,11 +1036,11 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
 
                                         </LinearLayout>
 
-                                    </android.support.v7.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
                                     <!-- Radio Buttons N2227_1 Ends -->
 
                                     <!-- Radio Buttons N2227_2 Starts -->
-                                    <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                    <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                                         <LinearLayout
@@ -1078,11 +1078,11 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
 
                                         </LinearLayout>
 
-                                    </android.support.v7.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
                                     <!-- Radio Buttons N2227_2 Ends -->
 
                                     <!-- Radio Buttons N2228_1 Starts -->
-                                    <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                    <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                                         <LinearLayout
@@ -1120,11 +1120,11 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
 
                                         </LinearLayout>
 
-                                    </android.support.v7.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
                                     <!-- Radio Buttons N2228_1 Ends -->
 
                                     <!-- Radio Buttons N2228_2 Starts -->
-                                    <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                    <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                                         <LinearLayout
@@ -1162,11 +1162,11 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
 
                                         </LinearLayout>
 
-                                    </android.support.v7.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
                                     <!-- Radio Buttons N2228_2 Ends -->
 
                                     <!-- Radio Buttons N2229 Starts -->
-                                    <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                    <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                                         <LinearLayout
@@ -1252,11 +1252,11 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
 
                                         </LinearLayout>
 
-                                    </android.support.v7.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
                                     <!-- Radio Buttons N2229 Ends -->
 
                                     <!-- Radio Buttons N2230 Starts -->
-                                    <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                    <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                                         <LinearLayout
@@ -1300,7 +1300,7 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
 
                                         </LinearLayout>
 
-                                    </android.support.v7.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
                                     <!-- Radio Buttons N2230 Ends -->
 
                                     <!-- EditText N2231_1 Starts -->
@@ -1311,7 +1311,7 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
                                         android:orientation="vertical"
                                         android:visibility="@{rbN22301.checked || rbN22303.checked ? View.VISIBLE : View.GONE}">
 
-                                        <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                        <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                                             <LinearLayout
@@ -1331,11 +1331,11 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
 
                                             </LinearLayout>
 
-                                        </android.support.v7.widget.CardView>
+                                        </androidx.cardview.widget.CardView>
                                         <!-- EditText N2231_1 Ends -->
 
                                         <!-- EditText N2231_2 Starts -->
-                                        <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                        <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                                             <LinearLayout
@@ -1355,11 +1355,11 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
 
                                             </LinearLayout>
 
-                                        </android.support.v7.widget.CardView>
+                                        </androidx.cardview.widget.CardView>
                                         <!-- EditText N2232_2 Ends -->
 
                                         <!-- Radio Buttons N2232 Starts -->
-                                        <android.support.v7.widget.CardView
+                                        <androidx.cardview.widget.CardView
                                             style="@style/Q_CardView"
                                             android:visibility="@{rbN222911.checked || rbN222917.checked ? View.VISIBLE : View.GONE }">
 
@@ -1394,11 +1394,11 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
 
                                             </LinearLayout>
 
-                                        </android.support.v7.widget.CardView>
+                                        </androidx.cardview.widget.CardView>
                                         <!-- Radio Buttons N2232 Ends -->
 
                                         <!-- Radio Buttons N2233 Starts -->
-                                        <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                        <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                                             <LinearLayout
@@ -1437,11 +1437,11 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
 
                                             </LinearLayout>
 
-                                        </android.support.v7.widget.CardView>
+                                        </androidx.cardview.widget.CardView>
                                         <!-- Radio Buttons N2233 Ends -->
 
                                         <!-- Radio Buttons N2234 Starts -->
-                                        <android.support.v7.widget.CardView
+                                        <androidx.cardview.widget.CardView
                                             style="@style/Q_CardView"
                                             android:visibility="@{rbN22331.checked? View.VISIBLE : View.GONE }">
 
@@ -1529,7 +1529,7 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
 
                                             </LinearLayout>
 
-                                        </android.support.v7.widget.CardView>
+                                        </androidx.cardview.widget.CardView>
                                         <!-- Radio Buttons N2234 Ends -->
 
                                         <!-- Radio Buttons N2235_1 Starts -->
@@ -1540,7 +1540,7 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
                                             android:orientation="vertical"
                                             android:visibility="@{rbN22331.checked ? View.GONE : View.VISIBLE}">
 
-                                            <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                                                 <LinearLayout
@@ -1573,11 +1573,11 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
 
                                                 </LinearLayout>
 
-                                            </android.support.v7.widget.CardView>
+                                            </androidx.cardview.widget.CardView>
                                             <!-- Radio Buttons N2235_1 Ends -->
 
                                             <!-- Radio Buttons N2235_2 Starts -->
-                                            <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                                                 <LinearLayout
@@ -1610,12 +1610,12 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
 
                                                 </LinearLayout>
 
-                                            </android.support.v7.widget.CardView>
+                                            </androidx.cardview.widget.CardView>
                                         </LinearLayout>
                                         <!-- Radio Buttons N2235_2 Ends -->
 
                                         <!-- Radio Buttons N2236 Starts -->
-                                        <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                        <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                                             <LinearLayout
@@ -1649,7 +1649,7 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
 
                                             </LinearLayout>
 
-                                        </android.support.v7.widget.CardView>
+                                        </androidx.cardview.widget.CardView>
                                         <!-- Radio Buttons N2236 Ends -->
 
                                         <!-- Radio Buttons N2237_1 Starts -->
@@ -1660,7 +1660,7 @@ Inst_4: If N2213 ≠ “Health provider” (Never took to a health provider) →
                                             android:orientation="vertical"
                                             android:visibility="@{rbN22362.checked ? View.GONE : View.VISIBLE}">
 
-                                            <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                                                 <LinearLayout
@@ -1703,11 +1703,11 @@ Otherwise → Inst_7" />
 
                                                 </LinearLayout>
 
-                                            </android.support.v7.widget.CardView>
+                                            </androidx.cardview.widget.CardView>
                                             <!-- Radio Buttons N2237_1 Ends -->
 
                                             <!-- Radio Buttons N2237_2 Starts -->
-                                            <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                                                 <LinearLayout
@@ -1745,7 +1745,7 @@ Otherwise → Inst_7" />
 
                                                 </LinearLayout>
 
-                                            </android.support.v7.widget.CardView>
+                                            </androidx.cardview.widget.CardView>
 
                                         </LinearLayout>
 
@@ -1770,7 +1770,7 @@ Otherwise → Inst_7" />
                                     android:orientation="vertical"
                                     android:visibility="@{rbN22231.checked || rbN22331.checked ? View.VISIBLE : View.GONE}">
 
-                                    <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                    <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                                         <LinearLayout
                                             android:id="@+id/ll_N2238"
@@ -1802,11 +1802,11 @@ Otherwise → Inst_7" />
 
                                         </LinearLayout>
 
-                                    </android.support.v7.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
                                     <!-- Radio Buttons N2238 Ends -->
 
                                     <!-- Radio Buttons N2239 Starts -->
-                                    <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                    <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                                         <LinearLayout
                                             android:id="@+id/ll_N2239"
@@ -1844,11 +1844,11 @@ Otherwise → Inst_7" />
 
                                         </LinearLayout>
 
-                                    </android.support.v7.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
                                     <!-- Radio Buttons N2239 Ends -->
 
                                     <!-- Radio Buttons N2240 Starts -->
-                                    <android.support.v7.widget.CardView
+                                    <androidx.cardview.widget.CardView
                                         style="@style/Q_CardView"
                                         android:visibility="@{rbN22391.checked ? View.VISIBLE : View.GONE}">
 
@@ -1988,7 +1988,7 @@ Otherwise → N2247" />
 
                                         </LinearLayout>
 
-                                    </android.support.v7.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
 
                                 </LinearLayout>
                                 <!-- Radio Buttons N2240 Ends -->
@@ -2000,7 +2000,7 @@ Otherwise → N2247" />
                                     android:layout_height="wrap_content"
                                     android:orientation="vertical">
 
-                                    <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                    <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                                         <LinearLayout
                                             android:id="@+id/ll_N2241"
@@ -2042,11 +2042,11 @@ Otherwise → N2247" />
 
                                         </LinearLayout>
 
-                                    </android.support.v7.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
                                     <!-- Radio Buttons N2241 Ends -->
 
                                     <!-- Radio Buttons N2242 Starts -->
-                                    <android.support.v7.widget.CardView
+                                    <androidx.cardview.widget.CardView
                                         style="@style/Q_CardView"
                                         android:visibility="@{rbN22411.checked ? View.VISIBLE : View.GONE}">
 
@@ -2107,11 +2107,11 @@ Otherwise → N2247" />
 
                                         </LinearLayout>
 
-                                    </android.support.v7.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
                                     <!-- Radio Buttons N2242 Ends -->
 
                                     <!-- Radio Buttons N2243 Starts -->
-                                    <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                    <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                                         <LinearLayout
                                             android:id="@+id/ll_N2243"
@@ -2173,11 +2173,11 @@ Otherwise → N2247" />
 
                                         </LinearLayout>
 
-                                    </android.support.v7.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
                                     <!-- Radio Buttons N2243 Ends -->
 
                                     <!-- Radio Buttons N2244 Starts -->
-                                    <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                    <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                                         <LinearLayout
                                             android:id="@+id/ll_N2244"
@@ -2214,11 +2214,11 @@ Otherwise → N2247" />
 
                                         </LinearLayout>
 
-                                    </android.support.v7.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
                                     <!-- Radio Buttons N2244 Ends -->
 
                                     <!-- Radio Buttons N2245 Starts -->
-                                    <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                    <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                                         <LinearLayout
                                             android:id="@+id/ll_N2245"
@@ -2255,11 +2255,11 @@ Otherwise → N2247" />
 
                                         </LinearLayout>
 
-                                    </android.support.v7.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
                                     <!-- Radio Buttons N2245 Ends -->
 
                                     <!-- Radio Buttons N2246 Starts -->
-                                    <android.support.v7.widget.CardView style="@style/Q_CardView">
+                                    <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                                         <LinearLayout
                                             android:id="@+id/ll_N2246"
@@ -2296,7 +2296,7 @@ Otherwise → N2247" />
 
                                         </LinearLayout>
 
-                                    </android.support.v7.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
 
                                 </LinearLayout>
                             </LinearLayout>
@@ -2305,7 +2305,7 @@ Otherwise → N2247" />
                         <!-- Radio Buttons N2246 Ends -->
 
                         <!-- Radio Buttons N2247 Starts -->
-                        <android.support.v7.widget.CardView style="@style/Q_CardView">
+                        <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                             <LinearLayout
                                 android:id="@+id/ll_N2247"
@@ -2342,7 +2342,7 @@ Otherwise → N2247" />
 
                             </LinearLayout>
 
-                        </android.support.v7.widget.CardView>
+                        </androidx.cardview.widget.CardView>
                         <!-- Radio Buttons N2247 Ends -->
 
                     </LinearLayout>
@@ -2350,7 +2350,7 @@ Otherwise → N2247" />
                 </LinearLayout>
 
                 <!-- EditText N2248 Starts -->
-                <android.support.v7.widget.CardView style="@style/Q_CardView">
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
                         android:id="@+id/ll_N2248"
@@ -2378,12 +2378,12 @@ if N2213 ≠ “Health Provider” (Never took to a health provider) → N2271" 
 
                     </LinearLayout>
 
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
                 <!-- EditText N2248 Ends -->
 
                 <!--  = = = = =  END OF FORM FIELDS  = = = = = -->
                 <!-- Next Buttons Starts -->
-                <android.support.v7.widget.CardView style="@style/Q_CardView">
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                     <Button
@@ -2394,7 +2394,7 @@ if N2213 ≠ “Health Provider” (Never took to a health provider) → N2271" 
                         android:text="@string/next" />
 
 
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
                 <!-- Next Buttons Ends -->
 
             </LinearLayout>

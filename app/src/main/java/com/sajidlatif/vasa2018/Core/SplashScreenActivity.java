@@ -4,35 +4,23 @@ import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
 
-import com.crashlytics.android.Crashlytics;
-import com.crashlytics.android.ndk.CrashlyticsNdk;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.sajidlatif.vasa2018.R;
 
 import java.util.Locale;
 
-import io.fabric.sdk.android.Fabric;
 import utils.MyPreferences;
 
 public class SplashScreenActivity extends AppCompatActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Fabric.with(this, new Crashlytics(), new CrashlyticsNdk());
-
-
+       /* Fabric.with(this, new Crashlytics(), new CrashlyticsNdk());*/
         change_langua();
-
-
-     setContentView(R.layout.activity_splash_screen);
-
-// Clear Old Data Irfan
-
-
-
+        setContentView(R.layout.activity_splash_screen);
         final MyPreferences preferences = new MyPreferences(this);
     //    if (preferences.getReq1() == null) {
          //  preferences.setReq1("http://43.245.131.159/umeed/Monitoring");

@@ -4,11 +4,12 @@ import static com.sajidlatif.vasa2018.C.C3251_C3288_A.c3251A_ID;
 
 import android.content.Intent;
 import android.database.Cursor;
-import android.databinding.DataBindingUtil;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.databinding.DataBindingUtil;
 
 import com.sajidlatif.vasa2018.Other.globale;
 import com.sajidlatif.vasa2018.R;

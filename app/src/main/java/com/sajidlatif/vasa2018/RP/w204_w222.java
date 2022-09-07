@@ -3,8 +3,6 @@ package com.sajidlatif.vasa2018.RP;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
@@ -15,6 +13,9 @@ import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.sajidlatif.vasa2018.Other.globale;
 import com.sajidlatif.vasa2018.R;
@@ -1077,25 +1078,25 @@ public class w204_w222 extends AppCompatActivity implements RadioButton.OnChecke
 
             /*if (section.equals("C3001_C3011")) {
 
-                Intent c = new Intent(this, com.sajidlatif.VASMonitring.C.C3001_C3011.class);
+                Intent c = new Intent(this, com.sajidlatif.vasa2018..C.C3001_C3011.class);
                 c.putExtra("study_id", study_id);
                 startActivity(c);
 
             } else if (section.equals("C3012_C3022")) {
 
-                Intent c = new Intent(this, com.sajidlatif.VASMonitring.C.C3012_C3022.class);
+                Intent c = new Intent(this, com.sajidlatif.vasa2018..C.C3012_C3022.class);
                 c.putExtra("study_id", study_id);
                 startActivity(c);
 
             } else if (section.equals("N2001_N2011")) {
 
-                Intent c = new Intent(this, com.sajidlatif.VASMonitring.N.N2001_N2011.class);
+                Intent c = new Intent(this, com.sajidlatif.vasa2018..N.N2001_N2011.class);
                 c.putExtra("study_id", study_id);
                 startActivity(c);
 
             } else {
 
-                Intent c = new Intent(this, com.sajidlatif.VASMonitring.A.A4001_A4014.class);
+                Intent c = new Intent(this, com.sajidlatif.vasa2018..A.A4001_A4014.class);
                 c.putExtra("study_id", study_id);
                 startActivity(c);
             }*/

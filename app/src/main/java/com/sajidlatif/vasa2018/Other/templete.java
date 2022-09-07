@@ -1,7 +1,8 @@
 package com.sajidlatif.vasa2018.Other;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.sajidlatif.vasa2018.R;
 
