@@ -2,10 +2,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" android:background="@color/U_main"
-    android:orientation="vertical"
+    android:layout_height="match_parent" android:orientation="vertical"
+    tools:context="com.irfansyed.VAS.VASMonitring.Core.LoginActivity"
     android:weightSum="5"
-    tools:context="com.sajidlatif.vasa2018.Core.LoginActivity"
+    android:background="@color/U_main"
 
     >
 
@@ -13,8 +13,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="fill_parent"
 
-                android:layout_weight="3"
-                   android:orientation="vertical"
+                android:orientation="vertical"
+                   android:layout_weight="3"
                    >
 
                    <TextView
@@ -39,23 +39,23 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="fill_parent"
+        android:padding="50dp"
         android:layout_weight="2"
-        android:orientation="vertical"
 
-        android:padding="50dp">
+        android:orientation="vertical">
 
 
 
             <EditText
                 android:id="@+id/login_username"
                 style="@style/EditText_varchar"
-                android:layout_marginTop="40dp"
-                android:backgroundTint="@color/hitnscolor"
                 android:hint="Username"
                 android:inputType="text|textEmailAddress"
-                android:textColor="@color/white"
                 android:textColorHint="@color/hitnscolor"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/hitnscolor"
                 android:textSize="16sp"
+                android:layout_marginTop="40dp"
 
                   />
 
@@ -65,12 +65,12 @@
             <EditText
                 android:id="@+id/login_password"
                 style="@style/EditText_varchar"
-                android:backgroundTint="@color/hitnscolor"
                 android:hint="Password"
-
                 android:inputType="textPassword"
-                android:textColor="@color/white"
+
                 android:textColorHint="@color/hitnscolor"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/hitnscolor"
                 android:textSize="16sp"
                />
 
@@ -81,11 +81,11 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:background="@drawable/cricl_lb"
-            android:stateListAnimator="@null"
             android:text="Login"
+            android:textSize="16sp"
+            android:background="@drawable/cricl_lb"
             android:textColor="@color/hitnscolor"
-           android:textSize="16sp"
+           android:stateListAnimator="@null"
 
 
 
@@ -104,33 +104,33 @@
 <TextView
   style="@style/TextView"
 
-  android:layout_width="wrap_content"
-  android:layout_marginLeft="40dp"
-
-  android:layout_marginBottom="3dp"
   android:text="forgotten password? contact main office"
+  android:layout_width="wrap_content"
+
   android:textColor="@color/hitnscolor"
   android:textSize="16sp"
+  android:layout_marginLeft="40dp"
+  android:layout_marginBottom="3dp"
 
 
 
 
   />
   <TextView
-      android:id="@+id/txt_logut"
       style="@style/TextView"
+      android:id="@+id/txt_logut"
 
 
       android:layout_width="wrap_content"
-      android:layout_alignParentRight="true"
-
-      android:layout_gravity="right"
-      android:layout_marginRight="10dp"
-      android:layout_marginBottom="3dp"
-      android:clickable="true"
       android:text=" logout"
+
       android:textColor="@color/hitnscolor"
       android:textSize="16sp"
+      android:layout_marginRight="10dp"
+      android:layout_marginBottom="3dp"
+      android:layout_gravity="right"
+      android:clickable="true"
+      android:layout_alignParentRight="true"
 
 
 

@@ -23,7 +23,7 @@
                 android:layout_marginBottom="60dp"
                 >
                 <!--W217 Edit text Starts -->
-                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+                <androidx.appcompat.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
                         android:id="@+id/ll_ggg"
@@ -41,10 +41,10 @@
 
                     </LinearLayout>
 
-                </androidx.cardview.widget.CardView>
+                </androidx.appcompat.widget.CardView>
 
                 <!--W217 Edit text Starts -->
-                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+                <androidx.appcompat.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
                         android:id="@+id/ll_W217"
@@ -65,13 +65,13 @@
 
                     </LinearLayout>
 
-                </androidx.cardview.widget.CardView>
+                </androidx.appcompat.widget.CardView>
 
 
 
 
                 <!--W218 Radio Button Starts -->
-                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+                <androidx.appcompat.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
                         android:id="@+id/ll_W218"
@@ -120,12 +120,12 @@
 
                     </LinearLayout>
 
-                </androidx.cardview.widget.CardView>
+                </androidx.appcompat.widget.CardView>
                 <!--W218 Radio Button Ends-->
 
 
                 <!--W219 Radio Button Starts -->
-                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+                <androidx.appcompat.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
                         android:id="@+id/ll_W219"
@@ -154,11 +154,11 @@
 
                     </LinearLayout>
 
-                </androidx.cardview.widget.CardView>
+                </androidx.appcompat.widget.CardView>
                 <!--W219 Radio Button Ends-->
 
                 <!--W221 Edit text Starts -->
-                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+                <androidx.appcompat.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
                         android:id="@+id/ll_W221"
@@ -184,13 +184,13 @@
 
                     </LinearLayout>
 
-                </androidx.cardview.widget.CardView>
+                </androidx.appcompat.widget.CardView>
                 <!--W221 Edit text Ends-->
 
 
 
                 <!--W222 Edit text Starts -->
-                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+                <androidx.appcompat.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
                         android:id="@+id/ll_W222"
@@ -216,7 +216,7 @@
 
                     </LinearLayout>
 
-                </androidx.cardview.widget.CardView>
+                </androidx.appcompat.widget.CardView>
                 <!--W222 Edit text Ends-->
 
 
@@ -253,8 +253,8 @@
 
             android:layout_marginTop="2dp"
 
-            android:layout_weight="1"
             android:text="Add Another child"
+            android:layout_weight="1"
             android:textSize="14sp"
 
             />

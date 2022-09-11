@@ -8,7 +8,7 @@
     android:background="#EEEEEE"
     android:orientation="vertical"
     android:weightSum="1"
-    tools:context="com.sajidlatif.vasa2018.Core.LoginActivity"
+    tools:context="com.irfansyed.VAS.VASMonitring.Core.LoginActivity"
 
     >
 
@@ -56,9 +56,9 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/imageView2"
             android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
             android:layout_marginLeft="5dp"
             android:layout_marginTop="13dp"
-            android:layout_marginBottom="5dp"
             android:text=" Supporting Women and Girls in Pakistan Scaling Up\n
 Empowerment and Care  Strategies  to Address Health and Survival\n
 Centre of Excellence Women &amp; Child Health\n

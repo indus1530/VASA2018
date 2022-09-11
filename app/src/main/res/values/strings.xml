@@ -1,5 +1,5 @@
-﻿<resources>
-    <string name="app_name">V A S A <i><u><small>2018</small></u></i></string>
+﻿﻿<resources>
+    <string name="app_name"  translatable="false">V A S A</string>
 
     <string name="txt_study_id"  translatable="false">Study ID</string>
 

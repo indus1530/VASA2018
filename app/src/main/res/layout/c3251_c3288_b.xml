@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".C.C3251_C3288_B">
 
     <data>
@@ -10,7 +10,7 @@
 
         <variable
             name="callback"
-            type="com.sajidlatif.vasa2018.C.C3251_C3288_B" />
+            type="com.irfansyed.VAS.VASMonitring.C.C3251_C3288_B" />
     </data>
 
     <LinearLayout
@@ -24,17 +24,17 @@
             android:layout_marginBottom="5sp"
             android:fadeScrollbars="false"
             android:fillViewport="true"
-            android:paddingLeft="5sp"
-            android:paddingTop="5sp"
-            android:paddingRight="5sp"
             android:paddingBottom="5sp"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"
+            android:paddingTop="5sp"
             android:scrollbarSize="10dip">
 
             <LinearLayout style="@style/Q_Linerlayout_v">
 
 
                 <!-- EditText study_id Starts -->
-                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+                <androidx.appcompat.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
                         android:id="@+id/ll_study_id"
@@ -48,17 +48,17 @@
                             android:id="@+id/ed_study_id"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:hint="@string/txt_study_id"
                             android:clickable="false"
                             android:focusable="false"
-                            android:hint="@string/txt_study_id"
                             android:inputType="date"
                             app:met_mask="####-###-##" />
                     </LinearLayout>
-                </androidx.cardview.widget.CardView>
+                </androidx.appcompat.widget.CardView>
                 <!-- EditText study_id Ends -->
 
                 <!-- Radio Buttons C3253 Starts -->
-                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+                <androidx.appcompat.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout style="@style/Q_Linerlayout_v">
 
@@ -76,9 +76,9 @@ the child was delivered: A) and did not fill C3064-C3070→ C3259;    B) and fil
                             android:text="@string/txt_C3253" />
 
                     </LinearLayout>
-                </androidx.cardview.widget.CardView>
+                </androidx.appcompat.widget.CardView>
 
-                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+                <androidx.appcompat.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
                         android:id="@+id/ll_C3253_1"
@@ -111,9 +111,9 @@ the child was delivered: A) and did not fill C3064-C3070→ C3259;    B) and fil
 
                     </LinearLayout>
 
-                </androidx.cardview.widget.CardView>
+                </androidx.appcompat.widget.CardView>
 
-                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+                <androidx.appcompat.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
                         android:id="@+id/ll_C3253"
@@ -168,9 +168,9 @@ the child was delivered: A) and did not fill C3064-C3070→ C3259;    B) and fil
 
                     </LinearLayout>
 
-                </androidx.cardview.widget.CardView>
+                </androidx.appcompat.widget.CardView>
 
-                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+                <androidx.appcompat.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
                         android:id="@+id/ll_C3253_3E_2A"
@@ -187,9 +187,9 @@ the child was delivered: A) and did not fill C3064-C3070→ C3259;    B) and fil
 
                     </LinearLayout>
 
-                </androidx.cardview.widget.CardView>
+                </androidx.appcompat.widget.CardView>
 
-                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+                <androidx.appcompat.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
                         android:id="@+id/ll_C3253_4"
@@ -206,7 +206,7 @@ the child was delivered: A) and did not fill C3064-C3070→ C3259;    B) and fil
 
                     </LinearLayout>
 
-                </androidx.cardview.widget.CardView>
+                </androidx.appcompat.widget.CardView>
                 <!-- Radio Buttons C3253 Ends -->
 
                 <!--  = = = = =  END OF FORM FIELDS  = = = = = -->

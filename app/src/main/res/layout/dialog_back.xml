@@ -27,9 +27,9 @@
 
                 <TextView
 
-                    android:id="@+id/txt_WS"
                     style="@style/TextView"
                     android:text="Are  you Sure you want to  Cancel Interview ?"
+                    android:id="@+id/txt_WS"
 
 
                     />
@@ -55,10 +55,10 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
+        android:weightSum="2"
         android:orientation="horizontal"
 
-        android:weightSum="2"
+        android:layout_marginTop="6dp"
         >
 
 
@@ -66,22 +66,22 @@
             android:id="@+id/btn_dialog_back_cancel"
             style="@style/Button_collder"
 
-            android:layout_marginTop="2dp"
             android:layout_weight="1"
-            android:background="#EA4335"
             android:text="Yes"
+            android:layout_marginTop="2dp"
             android:textSize="14sp"
+            android:background="#EA4335"
 
             />
         <Button
             android:id="@+id/btn_dialog_back_pending"
             style="@style/Button_collder"
 
-            android:layout_marginTop="2dp"
             android:layout_weight="1"
+            android:textSize="14sp"
             android:text="No"
 
-            android:textSize="14sp"
+            android:layout_marginTop="2dp"
 
             />
 

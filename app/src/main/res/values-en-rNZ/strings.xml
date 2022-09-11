@@ -1,5 +1,4 @@
 ﻿<resources>
-    <string name="app_name">V A S A <i><u><small>2018</small></u></i></string>
     <!--&lt;!&ndash;<string  translatable="false"  name="app_name"> VASA NEONATAL DEATH </string>-->
 
     <string  name="navigation_dRAwer_open"  translatable="false">Open navigation dRAwer</string>

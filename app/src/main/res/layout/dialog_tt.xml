@@ -9,8 +9,8 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="90"
-        android:scrollbars="vertical">
+        android:scrollbars="vertical"
+        android:layout_weight="90">
 
 
         <LinearLayout
@@ -24,16 +24,16 @@
                 >
 
                 <!-- TextView A4252 Starts -->
-                <androidx.cardview.widget.CardView
+                <androidx.appcompat.widget.CardView
                     style="@style/Q_CardView">
 
                     <LinearLayout
-                        android:id="@+id/ll_A4252_1"
-                        style="@style/Q_Linerlayout_v">
+                        style="@style/Q_Linerlayout_v"
+                        android:id="@+id/ll_A4252_1">
 
                         <LinearLayout
-                            android:id="@+id/ll2_A4252"
-                            style="@style/Q_Linerlayout_v">
+                            style="@style/Q_Linerlayout_v"
+                            android:id="@+id/ll2_A4252">
 
                             <TextView
                                 android:id="@+id/A4252_6"
@@ -63,8 +63,8 @@
                         </LinearLayout>
 
                         <LinearLayout
-                            android:id="@+id/ll3_A4252"
-                            style="@style/Q_Linerlayout_v">
+                            style="@style/Q_Linerlayout_v"
+                            android:id="@+id/ll3_A4252">
 
                             <TextView
                                 android:id="@+id/A4252_8"
@@ -122,8 +122,8 @@
                             </RadioGroup>
 
                             <LinearLayout
-                                android:id="@+id/ll4_A4252"
-                                style="@style/Q_Linerlayout_v">
+                                style="@style/Q_Linerlayout_v"
+                                android:id="@+id/ll4_A4252">
 
                                 <CheckBox
                                     android:id="@+id/cb_A4252_2_8"
@@ -133,8 +133,8 @@
 
 
                             <LinearLayout
-                                android:id="@+id/ll5_A4252"
-                                style="@style/Q_Linerlayout_v">
+                                style="@style/Q_Linerlayout_v"
+                                android:id="@+id/ll5_A4252">
 
                                 <TextView
                                     android:id="@+id/A4252_7"
@@ -152,7 +152,7 @@
 
                     </LinearLayout>
 
-                </androidx.cardview.widget.CardView>
+                </androidx.appcompat.widget.CardView>
                 <!-- TextView A4252 Ends -->
 
 
@@ -177,11 +177,11 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
 
-        android:layout_margin="3dp"
         android:layout_weight="10"
+        android:weightSum="2"
         android:orientation="horizontal"
 
-        android:weightSum="2"
+        android:layout_margin="3dp"
         >
 
 
@@ -189,23 +189,23 @@
             android:id="@+id/btn_cncl"
             style="@style/Button_collder"
 
-            android:layout_marginTop="2dp"
             android:layout_weight="1"
-            android:background="#EA4335"
             android:text="Cancel"
+            android:layout_marginTop="2dp"
             android:textSize="14sp"
+            android:background="#EA4335"
 
             />
         <Button
             android:id="@+id/btn_sbt"
             style="@style/Button_collder"
 
-            android:layout_marginLeft="2dp"
-            android:layout_marginTop="2dp"
             android:layout_weight="1"
-
-            android:text="Submit"
             android:textSize="14sp"
+            android:text="Submit"
+
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="2dp"
 
             />
 
