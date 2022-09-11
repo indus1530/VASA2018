@@ -1,4 +1,4 @@
-﻿﻿<resources>
+﻿<resources>
     <string name="app_name"  translatable="false">V A S A</string>
 
     <string name="txt_study_id"  translatable="false">Study ID</string>
@@ -4717,12 +4717,12 @@ Examples of statements for the reading test:
     <string name="private_sector">Private medical sector:</string>
     <string name="A4275_1">A4275_1: If not taken to (all) the referral provider(s), \\nask:   \\nDid you or NAME have any concerns or problems that kept him/her from going to a health provider where s/he was refrered?</string>
     <string name="A4275_2">A4275_2: If taken to (all) the referral provider(s), \\nask:   \\nDid you or NAME have to overcome any concerns or problems for him/her to go to a health provider where s/he was referred?</string>
-    <string name="ot">Other</string>
-    <string name="conflict">Conflict</string>
-    <string name="next">NEXT SECTION</string>
-    <string name="no_car_not_needed_given_or_sought_a4254_n_don_t_know_a4284">No - car not needed , given or sought → A4254   Don\'t know → A4284</string>
-    <string name="C3065_hint1"><![CDATA[Inst_2: If no labor/delivery complications: ((C3051≠1 and C3052=9,10) and (C3057≠1 or C3058≠2) and (C3059≠1 or C3060≠2) and C3061≠1 and C3062<12 and C3063≠1) → C3071.]]></string>
-    <string name="enter_1_unit_only_0_30_days_or_1_60_months_nless_than_1_day_or_24_hours_0_days_n1_week_7_days">Enter 1 unit only: 0-30 days or 1-60 months.  Less than 1 day or 24 hours = 0 days.  1 week = 7 days.</string>
+    <string name="ot" translatable="false">Other</string>
+    <string name="conflict" translatable="false">Conflict</string>
+    <string name="next" translatable="false">NEXT SECTION</string>
+    <string name="no_car_not_needed_given_or_sought_a4254_n_don_t_know_a4284" translatable="false">No - car not needed , given or sought → A4254   Don\'t know → A4284</string>
+    <string name="C3065_hint1" translatable="false"><![CDATA[Inst_2: If no labor/delivery complications: ((C3051≠1 and C3052=9,10) and (C3057≠1 or C3058≠2) and (C3059≠1 or C3060≠2) and C3061≠1 and C3062<12 and C3063≠1) → C3071.]]></string>
+    <string name="enter_1_unit_only_0_30_days_or_1_60_months_nless_than_1_day_or_24_hours_0_days_n1_week_7_days" translatable="false">Enter 1 unit only: 0-30 days or 1-60 months.  Less than 1 day or 24 hours = 0 days.  1 week = 7 days.</string>
 
 
     <!-- Reproductive Urdu TEXT & RESPONSE ENDS -->
@@ -4740,11 +4740,11 @@ Examples of statements for the reading test:
 
 
 
-    <string name="txt_Q1201_1">Province</string>
-    <string name="txt_Q1201_2">District</string>
+    <string name="txt_Q1201_1" translatable="false">Province</string>
+    <string name="txt_Q1201_2" translatable="false">District</string>
 
-    <string name="province_prompt">Select Province</string>
-    <string name="district_prompt">Select District</string>
+    <string name="province_prompt" translatable="false">Select Province</string>
+    <string name="district_prompt" translatable="false">Select District</string>
 
     <string-array name="province">
         <item>Balochistan</item>
