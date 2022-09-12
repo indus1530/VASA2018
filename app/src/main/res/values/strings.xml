@@ -4174,10 +4174,26 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_A4007_3">Homemaker</string>
     <string name="rb_A4007_4">Pensioner</string>
     <string name="rb_A4007_5">Student</string>
+    <string name="rb_A4007_OT">Other (Specify)</string>
+    <string name="rb_A4007_DK">Don\'t Know</string>
+    <string name="rb_A4007_RA">Refused to Answer</string>
+
+    <string name="rb_A4008_1">Yes</string>
+    <string name="rb_A4008_2">No</string>
+    <string name="rb_A4008_DK">Don\'t Know</string>
+    <string name="rb_A4008_RA">Refused to Answer</string>
+
+    <string name="rb_A4009a_1">Yes</string>
+    <string name="rb_A4009a_2">No</string>
+    <string name="rb_A4009a_DK">Don\'t Know</string>
+    <string name="rb_A4009a_RA">Refused to Answer</string>
 
     <string name="rb_A4010_1">Cigarettes</string>
     <string name="rb_A4010_2">Pipe</string>
     <string name="rb_A4010_3">Chewing tobacco</string>
+    <string name="rb_A4010_OT">Other (Specify)</string>
+    <string name="rb_A4010_DK">Don\'t Know</string>
+    <string name="rb_A4010_RA">Refused to Answer</string>
 
     <string name="rb_A4054_1">Mild</string>
     <string name="rb_A4054_2">Moderate</string>

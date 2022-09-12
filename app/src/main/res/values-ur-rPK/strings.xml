@@ -850,23 +850,23 @@
     <string name="rb_A4007_OT">دیگر</string>
     <string name="rb_A4007_DK">معلوم نہیں</string>
     <string name="rb_A4007_RA">جواب دینے سے انکار کردیا</string>
-    <string name="ed_A4007_1_1">		</string>
+
     <string name="rb_A4008_1">ہاں</string>
     <string name="rb_A4008_2">نہیں</string>
     <string name="rb_A4008_DK">معلوم نہیں</string>
     <string name="rb_A4008_RA">جواب دینے سے انکار کردیا</string>
+
     <string name="rb_A4009a_1">ہاں</string>
     <string name="rb_A4009a_2">نہیں</string>
     <string name="rb_A4009a_DK">معلوم نہیں</string>
     <string name="rb_A4009a_RA">جواب دینے سے انکار کردیا</string>
+
     <string name="rb_A4010_1">	سگریٹ	</string>
     <string name="rb_A4010_2">	پائپ	</string>
     <string name="rb_A4010_3">	چبانے والا تمباکو	</string>
-    <string name="rb_A4010_OT">	دیگر	</string>
+    <string name="rb_A4010_OT">دیگر</string>
     <string name="rb_A4010_DK">معلوم نہیں</string>
     <string name="rb_A4010_RA">جواب دینے سے انکار کردیا</string>
-    <string name="ed_A4011">		</string>
-    <string name="ed_A4012">		</string>
 
     <string name="rb_A4013u_DK">معلوم نہیں</string>
     <string name="rb_A4013u_RA">جواب دینے سے انکار کردیا</string>
@@ -1262,7 +1262,7 @@
     <string name="rb_A4148_5">	صرف   ایک ٹانگ میں	</string>
     <string name="rb_A4148_6">	صرف   ایک  بازو میں 	</string>
     <string name="rb_A4148_7">	پورے جسم میں 	</string>
-    <string name="rb_A4148_OT">	دیگر	</string>
+    <string name="rb_A4148_OT">دیگر</string>
     <string name="rb_A4148_DK">معلوم نہیں</string>
     <string name="rb_A4148_RA">جواب دینے سے انکار کردیا</string>
     <string name="rb_A4149_1">ہاں</string>
@@ -1876,7 +1876,7 @@
     <string name="rb_A4451_12_1">ہاں</string>
     <string name="rb_A4451_12_2">نہیں</string>
     <string name="rb_A4451_12_DK">معلوم نہیں</string>
-    <string name="rb_A4451_13_OT">	دیگر	</string>
+    <string name="rb_A4451_13_OT">دیگر</string>
     <string name="rb_A4451_14_1">	 ایک یا ایک سے زیادہ مسائل کی نشاندہی  	</string>
     <string name="rb_A4451_14_2">	مسائل کی کوئی نشاندہی نہیں کی گئی	</string>
     <string name="rb_A4452_1_1">ہاں</string>
@@ -1903,7 +1903,7 @@
     <string name="rb_A4452_8_1">ہاں</string>
     <string name="rb_A4452_8_2">نہیں</string>
     <string name="rb_A4452_8_DK">معلوم نہیں</string>
-    <string name="rb_A4452_9_OT">	دیگر	</string>
+    <string name="rb_A4452_9_OT">دیگر</string>
     <string name="rb_A4452_10_1">	ایک گروپ کی شناخت	</string>
     <string name="rb_A4452_10_2">	دو یا س سے زائد گروپوں کی شناخت	</string>
     <string name="rb_A4452_10_3">	کسی گروپ کی شناخت نہیں ہوئی	</string>
@@ -5485,7 +5485,7 @@
     <string name="rb_C3218_5">	صرف   ایک ٹانگ میں	</string>
     <string name="rb_C3218_6">	صرف   ایک  بازو میں 	</string>
     <string name="rb_C3218_7">	پورے جسم میں 	</string>
-    <string name="rb_C3218_OT">	دیگر	</string>
+    <string name="rb_C3218_OT">دیگر</string>
     <string name="rb_C3218_DK">معلوم نہیں</string>
     <string name="rb_C3218_RA">جواب دینے سے انکار کردیا</string>
     <string name="rb_C3219_1">ہاں</string>
@@ -5534,7 +5534,7 @@
     <string name="rb_C3227_2_3">	ڈرائیور یا مسافر بس یا ہیوی  گاڑی میں	</string>
     <string name="rb_C3227_2_4">	ڈرائیور یا مسافر موٹر سائیکل پر	</string>
     <string name="rb_C3227_2_5">	ڈرائیور یا مسافرسائیکل پر 	</string>
-    <string name="rb_C3227_2_OT">	دیگر	</string>
+    <string name="rb_C3227_2_OT">دیگر</string>
     <string name="rb_C3227_2_DK">معلوم نہیں</string>
     <string name="rb_C3227_2_RA">جواب دینے سے انکار کردیا</string>
     <string name="rb_C3227_3_1">	 پیدل	</string>
@@ -5543,7 +5543,7 @@
     <string name="rb_C3227_3_4">	بس یا ہیوی  گاڑی	</string>
     <string name="rb_C3227_3_5">	موٹر سائیکل	</string>
     <string name="rb_C3227_3_6">	سائیکل	</string>
-    <string name="rb_C3227_3_OT">	دیگر	</string>
+    <string name="rb_C3227_3_OT">دیگر</string>
     <string name="rb_C3227_3_DK">معلوم نہیں</string>
     <string name="rb_C3227_3_RA">جواب دینے سے انکار کردیا</string>
     <string name="rb_C3227_4_1">ہاں</string>
@@ -5573,7 +5573,7 @@
     <string name="rb_C3227_10_1">	 کتا  	</string>
     <string name="rb_C3227_10_2">	سانپ 	</string>
     <string name="rb_C3227_10_3">	کیڑا یا  بچھو  	</string>
-    <string name="rb_C3227_10_OT">	دیگر	</string>
+    <string name="rb_C3227_10_OT">دیگر</string>
     <string name="rb_C3227_10_DK">معلوم نہیں</string>
     <string name="rb_C3227_10_RA">جواب دینے سے انکار کردیا</string>
     <string name="rb_C3227_11_1">ہاں</string>
