@@ -54,7 +54,7 @@
 
                     <TextView
                         style="@style/TextView"
-                        android:text="@string/txt_study_id" />
+                        android:text="@string/study_id" />
 
                     <com.santalu.widget.MaskEditText
                         android:id="@+id/ed_study_id"
@@ -62,7 +62,7 @@
                         android:layout_height="wrap_content"
                         android:focusable="false"
                         android:clickable="false"
-                        android:hint="@string/txt_study_id"
+                        android:hint="@string/study_id"
                         android:inputType="date"
                         app:met_mask="####-###-##" />
 

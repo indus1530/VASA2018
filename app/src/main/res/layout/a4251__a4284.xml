@@ -31,13 +31,13 @@
 
                     <TextView
                         style="@style/TextView"
-                        android:text="@string/txt_study_id" />
+                        android:text="@string/study_id" />
 
                     <com.santalu.widget.MaskEditText
                         android:id="@+id/ed_study_id"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="@string/txt_study_id"
+                        android:hint="@string/study_id"
                         android:focusable="false"
                         android:clickable="false"
                         android:inputType="date"
@@ -1706,7 +1706,7 @@
                     <CheckBox
                         android:id="@+id/cb_A4276_16"
                         style="@style/CheckBox"
-                        android:text="@string/rb_A4276_OT" />
+                        android:text="@string/cb_A4276_OT" />
 
                     <EditText
                         android:id="@+id/ed_A4276_16"
@@ -1717,7 +1717,7 @@
                     <CheckBox
                         android:id="@+id/cb_A4276_DK"
                         style="@style/CheckBox"
-                        android:text="@string/dnt" />
+                        android:text="@string/cb_A4276_DK" />
 
                 </LinearLayout>
 
