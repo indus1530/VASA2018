@@ -936,7 +936,7 @@
                     <EditText
                         android:id="@+id/ed_Q1403_OT"
                         style="@style/EditText_varchar"
-                        android:hint="@string/ed_Q1403_OT" />
+                        android:hint="@string/rb_Q1403_OT" />
 
                 </LinearLayout>
 
@@ -1172,7 +1172,7 @@
 
                     <TextView
                         style="@style/TextView_Hint"
-                        android:text="@string/Q1411_h" />
+                        android:text="@string/txt_Q1411_h" />
 
 
                     <EditText

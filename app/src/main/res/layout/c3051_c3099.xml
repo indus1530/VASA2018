@@ -788,19 +788,19 @@
                         android:text="@string/cb_C3065_6" />
 
                     <CheckBox
-                        android:id="@+id/cb_C3065_7"
+                        android:id="@+id/cb_C3065_OT"
                         style="@style/CheckBox"
-                        android:text="@string/cb_C3065_7" />
+                        android:text="@string/cb_C3065_OT" />
+
+                    <EditText
+                        android:id="@+id/ed_C3065_OT"
+                        style="@style/EditText_varchar"
+                        android:hint="@string/cb_C3065_OT" />
 
                     <CheckBox
                         android:id="@+id/cb_C3065_DK"
                         style="@style/CheckBox"
                         android:text="@string/cb_C3065_DK" />
-
-                    <EditText
-                        android:id="@+id/ed_C3065_OT"
-                        style="@style/EditText_varchar"
-                        android:hint="Other " />
 
 
                 </LinearLayout>

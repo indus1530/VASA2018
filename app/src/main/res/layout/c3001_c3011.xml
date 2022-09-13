@@ -441,19 +441,19 @@
                             android:text="@string/rb_C3006_11" />
 
                         <RadioButton
-                            android:id="@+id/rb_C3006_12"
+                            android:id="@+id/rb_C3006_OT"
                             style="@style/RadioButton"
-                            android:text="@string/rb_C3006_12" />
+                            android:text="@string/rb_C3006_OT" />
 
                         <RadioButton
                             android:id="@+id/rb_C3006_DK"
                             style="@style/RadioButton"
-                            android:text="@string/dnt" />
+                            android:text="@string/rb_C3006_DK" />
 
                         <RadioButton
                             android:id="@+id/rb_C3006_RA"
                             style="@style/RadioButton"
-                            android:text="@string/ra" />
+                            android:text="@string/rb_C3006_RA" />
 
                     </RadioGroup>
 
@@ -533,14 +533,14 @@
                             android:text="@string/rb_C3008_7" />
 
                         <RadioButton
-                            android:id="@+id/rb_C3008_8"
+                            android:id="@+id/rb_C3008_OT"
                             style="@style/RadioButton"
-                            android:text="@string/rb_C3008_8" />
+                            android:text="@string/rb_C3008_OT" />
 
                         <RadioButton
-                            android:id="@+id/rb_C3008_9"
+                            android:id="@+id/rb_C3008_DK"
                             style="@style/RadioButton"
-                            android:text="@string/dnt" />
+                            android:text="@string/rb_C3008_DK" />
 
                     </RadioGroup>
 

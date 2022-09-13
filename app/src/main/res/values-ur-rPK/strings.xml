@@ -23,7 +23,7 @@
     <string name="yes">ہاں</string>
     <string name="no">نہیں</string>
     <string name="dnt">معلوم نہیں</string>
-    <string name="ra">جواب دینے سے انکار کردیا</string>
+    <string name="ra">جواب دینے سے انکار کیا</string>
 
     <string name="ot">دیگر</string>
     <string name="ot_other">دیگر (وضاحت کریں)</string>
@@ -169,9 +169,22 @@
     <string name="txt_Q1411_h">پڑھیں:" اس گھر میں " کتنے افراد  رہتے ہیں ،  اگر آپ خاندان کے گھرکی بات کررہے ہیں ؟</string>
     <string name="txt_Q1412">اس گھر میں سونے کے لیے کتنے کمرے استعمال ہوتے ہیں ؟	:	Q1412</string>
     <string name="txt_Q1413">کیا گھر میں کھانا پکانے کے لیے الگ سے کمرہ ہے؟	:	Q1413</string>
-    <string name="txt_Q1414">کیا آپ کے گھر میں ان میں سے کچھ موجود ہے ؟	:	Q1414</string>
-    <string name="txt_Q1415">اس گھر میں پینے کے پانی کا اہم ذریعہ کیا ہے ؟	:	Q1415</string>
-    <string name="txt_Q1416">عام طورپر گھرانے کے افراد کس قسم کا لیٹرین استعمال  کرتے ہیں ؟	:	Q1416</string>
+
+    <string name="Q_Q1414">q1414</string>
+    <string name="txt_Q1414">کیا آپ کے گھر میں ان میں سے کچھ موجود ہے ؟</string>
+    <string name="txt_Q1414_1">بجلی</string>
+    <string name="txt_Q1414_2">ریڈیو</string>
+    <string name="txt_Q1414_3">ٹیلی ویژن</string>
+    <string name="txt_Q1414_4">ریفریجریٹر</string>
+    <string name="txt_Q1414_5">فکسڈ لائن ٹیلی فون</string>
+    <string name="txt_Q1414_6">موبائل ٹیلی فون</string>
+    <string name="txt_Q1414_7">کمپیوٹر</string>
+    <string name="txt_Q1414_8">سائیکل</string>
+    <string name="txt_Q1414_9">موٹر سائیکل / سکوٹر</string>
+    <string name="txt_Q1414_10">کار / ٹرک</string>
+
+    <string name="txt_Q1415">اس گھر میں پینے کے پانی کا اہم ذریعہ کیا ہے ؟</string>
+    <string name="txt_Q1416">عام طور پر گھرانے کے افراد کس قسم کا لیٹرین استعمال  کرتے ہیں ؟</string>
     <string name="txt_Q1417">عام طور پر آپ کے گھر میں کھانے پکانے کے لیے کس قسم کا ایندھن استعمال ہوتا ہے ؟	:	Q1417</string>
     <string name="txt_Q1418">گھر میں روشنی کرنے کے لیے کونسے ذرائع استعمال کرتے ہیں؟	:	Q1418</string>
     <string name="txt_Q1419">گھر کا فرش بنانے میں کس قسم  کا میٹریل کا  استعمال کیا گیا ہے ؟	:	Q1419</string>
@@ -198,19 +211,23 @@
     <string name="rb_Q1101_1">زیادہ</string>
     <string name="rb_Q1101_2">کم</string>
     <string name="rb_Q1101_3">بہت کم</string>
+
     <string name="rb_Q1102_1">زیادہ</string>
     <string name="rb_Q1102_2">کم</string>
     <string name="rb_Q1102_3">بہت کم</string>
-    <string name="rb_Q1103_1">  گیلا</string>
-    <string name="rb_Q1103_2"> سوکھا</string>
-    <string name="rb_Q1103_3">معلوم نہیں </string>
-    <string name="rb_Q1201_1"> صوبہ </string>
-    <string name="rb_Q1201_2"> ضلع </string>
-    <string name="rb_Q1201_3"> ایڈمن پوزیشن </string>
-    <string name="rb_Q1201_4"> مقامی </string>
-    <string name="rb_Q1201_5"> برادری </string>
-    <string name="rb_Q1201_6">  ای اے </string>
+
+    <string name="rb_Q1103_1">گیلا</string>
+    <string name="rb_Q1103_2">سوکھا</string>
+    <string name="rb_Q1103_3">معلوم نہیں</string>
+
+    <string name="rb_Q1201_1">صوبہ</string>
+    <string name="rb_Q1201_2">ضلع</string>
+    <string name="rb_Q1201_3">ایڈمن پوزیشن</string>
+    <string name="rb_Q1201_4">مقامی</string>
+    <string name="rb_Q1201_5">برادری</string>
+    <string name="rb_Q1201_6"> ای اے</string>
     <string name="rb_Q1201_7">گھرانے کا محل و وقوع</string>
+
     <string name="rb_Q1203_1">لڑکا /مرد</string>
     <string name="rb_Q1203_2">لڑکی/عورت</string>
     <string name="rb_Q1207_1">مردہ</string>
@@ -5066,7 +5083,7 @@
     <string name="txt_C3413">جب بیماری شروع ہوئی تو کتنے عرصے سے (آپ /آپ کے رشتہ دار) مسلسل اسی کمیونٹی میں رہ  رہے تھے؟	:	C3413</string>
     <string name="txt_C3414">ہنگامی صورتحال میں  اس  مقام سے قریبی صحت کی سہولت تک پہنچے کے لیے کتنا وقت لگتا ہے؟	:	C3414</string>
     <string name="txt_C3451">C3451:   (نام ) کی موت سے  12 ماہ پہلے کیا (گاؤں یا پڑوسیوں) میں لوگوں نے مندرجہ ذیل مسائل میں ایک دوسرے کے ساتھ  مل کر کام کیا جو تمام کمیونٹی یا کمیونٹی کے حصہ کو متاثر کرتا</string>
-    <string name="txt_C3451_h">C3451_h:  .تمام مسائل کو پڑھیں اور "ہاں" ، "نہیں" یا "معلوم نہیں" پر نشان لگائیں </string>
+    <string name="txt_C3451_h">تمام مسائل کو پڑھیں اور "ہاں" ، "نہیں" یا "معلوم نہیں" پر نشان لگائیں</string>
 
     <string name="txt_C3451_1">C3451_1: 1.	تعلیم /اسکول</string>
     <string name="txt_C3451_2">C3451_2: 2.	صحت کی سہولیات /کلینک </string>
@@ -5085,7 +5102,7 @@
     <string name="txt_C3451_c2">C3451_c2: 2.	مسائل کی کوئی نشاندہی نہیں کی گئی</string>
 
     <string name="txt_C3452">C3452:  .نام ) کی موت سے 12ماہ پہلے کیا (آپ یا   ماں / نام )  نے کمیونٹی میں  مندرجہ ذیل گروپس میں سرگرمی سے حصہ لیا تھا)</string>
-    <string name="txt_C3452_h">C3452_h:  تمام مسائل کو پڑھیں اور "ہاں" ، "نہیں" یا "معلوم نہیں" پر نشان لگائیں </string>
+    <string name="txt_C3452_h">تمام مسائل کو پڑھیں اور "ہاں" ، "نہیں" یا "معلوم نہیں" پر نشان لگائیں</string>
 
     <string name="txt_C3452_1">C3452_1": 1.	پیشہ وارانہ تربیتی گروپ</string>
     <string name="txt_C3452_2">C3452_2":  بچت گروپ یا مائیکرو کریڈٹ پروگرام</string>
@@ -5101,7 +5118,7 @@
     <string name="txt_C3452_C3">C3452_C3: 3.	کسی گروپ کی شناخت نہیں ہوئی</string>
 
     <string name="txt_C3453">C3453: کیا  آپ نےکمیونٹی میں مندرجہ ذیل لوگوں یا گروپوں میں سے کسی کو  (حمل /یا  بچے کی مہلک بیماری /اس کی بیماری) کےدوران  مدد کے لئے  قا ئل   یا راغب کیا تھا</string>
-    <string name="txt_C3453_h">C3452_h:  تمام مسائل کو پڑھیں اور "ہاں" ، "نہیں" یا "معلوم نہیں" پر نشان لگائیں </string>
+    <string name="txt_C3453_h">تمام مسائل کو پڑھیں اور "ہاں" ، "نہیں" یا "معلوم نہیں" پر نشان لگائیں</string>
 
     <string name="txt_C3453_1">C3453_1: 1.	مذہبی گروپ</string>
     <string name="txt_C3453_2">C3453_2: 2.	عوتوں کا گروپ</string>
@@ -5150,15 +5167,16 @@
     <string name="rb_C3004_DK">معلوم نہیں</string>
     <string name="rb_C3004_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="rb_C3005u_1">دن            </string>
+    <string name="rb_C3005u_1">دن</string>
     <string name="rb_C3005u_2">ہفتے</string>
     <string name="rb_C3005u_3">مہینے</string>
     <string name="rb_C3005u_DK">معلوم نہیں</string>
     <string name="rb_C3005u_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3005d"></string>
-    <string name="ed_C3005w"></string>
-    <string name="ed_C3005m"></string>
+    <string name="ed_C3005d">دن</string>
+    <string name="ed_C3005w">ہفتے</string>
+    <string name="ed_C3005m">مہینے</string>
+
     <string name="rb_C3006_1">   ماں کے گھر   </string>
     <string name="rb_C3006_2">   کسی اور کے گھر </string>
     <string name="rb_C3006_3">   گورنمٹ ہسپتال</string>
@@ -5170,19 +5188,18 @@
     <string name="rb_C3006_9"> پرائیوٹ میٹرنٹی ہوم</string>
     <string name="rb_C3006_10">دیگر پرائیوٹ میڈیکل </string>
     <string name="rb_C3006_11"> صحت یا سہولت فراہم کرنے کے راستے پر   </string>
-    <string name="rb_C3006_12">دیگر(وضاحت کریں)</string>
+    <string name="rb_C3006_OT">دیگر (وضاحت کریں)</string>
     <string name="rb_C3006_DK">معلوم نہیں</string>
     <string name="rb_C3006_RA">جواب دینے سے انکار کیا</string>
 
     <string name="rb_C3008_1"> ڈاکٹر</string>
-    <string name="rb_C3008_2">نرس/مڈوائف</string>
-    <string name="rb_C3008_3">دائی</string>
-    <string name="rb_C3008_4">دیگر افراد</string>
-    <string name="rb_C3008_5">روایتی دائی</string>
-    <string name="rb_C3008_6"> کمیونٹی ہیلتھ ورکر</string>
-    <string name="rb_C3008_7">دوست /رشتے دار</string>
-    <string name="rb_C3008_OT">دیگر(وضاحت کریں)</string>
-    <string name="rb_C3008_8">کوئی نہیں</string>
+    <string name="rb_C3008_2">نرس / مڈوائف</string>
+    <string name="rb_C3008_3">معاون مڈوائف</string>
+    <string name="rb_C3008_4">روایتی دائی</string>
+    <string name="rb_C3008_5"> کمیونٹی ہیلتھ ورکر</string>
+    <string name="rb_C3008_6">دوست / رشتے دار</string>
+    <string name="rb_C3008_7">کوئی نہیں</string>
+    <string name="rb_C3008_OT">دیگر (وضاحت کریں)</string>
     <string name="rb_C3008_DK">معلوم نہیں</string>
 
     <string name="rb_C3009_1_1">ہاں</string>
@@ -5205,10 +5222,10 @@
     <string name="rb_C3009_4_DK">معلوم نہیں</string>
     <string name="rb_C3009_4_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3010"></string>
-    <string name="rb_C3011_1">بچے کی صحت کا کارڈ  </string>
-    <string name="rb_C3011_2">جواب دہندہ کی یاد  کرکے بتایا          (صحت کارڈ موجود نہیں تھا یا دیکھا نہیں)</string>
-    <string name="ed_C3012"></string>
+
+    <string name="rb_C3011_1">بچے کی صحت کا کارڈ</string>
+    <string name="rb_C3011_2">جواب دہندہ یادداشت کی یاد سے بتایا</string>
+
     <string name="rb_C3013_1">ہاں</string>
     <string name="rb_C3013_2">نہیں</string>
     <string name="rb_C3013_DK">معلوم نہیں</string>
@@ -5220,31 +5237,26 @@
     <string name="rb_C3015_DK">معلوم نہیں</string>
     <string name="rb_C3015_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3016"></string>
     <string name="rb_C3017_1">ہاں</string>
     <string name="rb_C3017_2">نہیں</string>
     <string name="rb_C3017_DK">معلوم نہیں</string>
     <string name="rb_C3017_RA">جواب دینے سے انکار کیا</string>
 
     <string name="rb_C3018_1">بے روز گار</string>
-    <string name="rb_C3018_2">ر روز گار</string>
-    <string name="rb_C3018_3">  گھریلو</string>
-    <string name="rb_C3018_4"> پینشن</string>
+    <string name="rb_C3018_2">روز گار</string>
+    <string name="rb_C3018_3">گھریلو</string>
+    <string name="rb_C3018_4">پینشن</string>
     <string name="rb_C3018_5">طالب علم</string>
     <string name="rb_C3018_OT">دیگر</string>
     <string name="rb_C3018_DK">معلوم نہیں</string>
     <string name="rb_C3018_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3018_1"></string>
     <string name="rb_C3019_u_1">دن</string>
     <string name="rb_C3019_u_2">مہینے</string>
-    <string name="rb_C3019_u_3">سال     </string>
+    <string name="rb_C3019_u_3">سال</string>
     <string name="rb_C3019_u_DK">معلوم نہیں</string>
     <string name="rb_C3019_u_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3019_a"></string>
-    <string name="ed_C3019_b"></string>
-    <string name="ed_C3019_c"></string>
     <string name="rb_C3020_1">ہاں</string>
     <string name="rb_C3020_2">نہیں</string>
     <string name="rb_C3020_DK">معلوم نہیں</string>
@@ -5252,13 +5264,10 @@
 
     <string name="rb_C3021u_1">دن</string>
     <string name="rb_C3021u_2">مہینے</string>
-    <string name="rb_C3021u_3">سال     </string>
+    <string name="rb_C3021u_3">سال</string>
     <string name="rb_C3021u_DK">معلوم نہیں</string>
     <string name="rb_C3021u_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3021d"></string>
-    <string name="ed_C3021m"></string>
-    <string name="ed_C3021y"></string>
     <string name="rb_C3022_1">ہاں</string>
     <string name="rb_C3022_2">نہیں</string>
     <string name="rb_C3022_DK">معلوم نہیں</string>
@@ -5268,7 +5277,6 @@
     <string name="rb_C3051_DK">معلوم نہیں</string>
     <string name="rb_C3051_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3052"></string>
     <string name="rb_C3053_1">ہاں</string>
     <string name="rb_C3053_2">نہیں</string>
     <string name="rb_C3053_DK">معلوم نہیں</string>
@@ -5316,7 +5324,6 @@
     <string name="rb_C3061_2">نہیں</string>
     <string name="rb_C3061_DK">معلوم نہیں</string>
 
-    <string name="ed_C3062"></string>
     <string name="rb_C3063_1">ہاں</string>
     <string name="rb_C3063_2">نہیں</string>
     <string name="rb_C3063_DK">معلوم نہیں</string>
@@ -5327,11 +5334,11 @@
 
     <string name="cb_C3065_1">ہسپتال</string>
     <string name="cb_C3065_2">این جی او گورنمٹ کلینک</string>
-    <string name="cb_C3065_3">نجی ڈاکٹر /کلینک</string>
+    <string name="cb_C3065_3">نجی ڈاکٹر / کلینک</string>
     <string name="cb_C3065_4">تربیت یافتہ کمیونٹی مڈوائف  نرس (صحت کی سہولت کے بغیر)</string>
-    <string name="cb_C3065_5">روایتی دائی /گاؤں کا ڈاکٹر /ڈسپینسر /دیگر غیر تربیت یافتہ   اور  روایتی فراہم کنندہ</string>
-    <string name="cb_C3065_6">دوست ،رشتہ دار ،ہمسایہ </string>
-    <string name="cb_C3065_OT">دیگر وضاحت کریں </string>
+    <string name="cb_C3065_5">روایتی دائی / گاؤں کا ڈاکٹر / ڈسپینسر / دیگر غیر تربیت یافتہ اور روایتی فراہم کنندہ</string>
+    <string name="cb_C3065_6">دوست ،رشتہ دار ،ہمسایہ</string>
+    <string name="cb_C3065_OT">دیگر وضاحت کریں</string>
     <string name="cb_C3065_DK">معلوم نہیں</string>
 
     <string name="rb_C3066_1">ہاں</string>
@@ -5356,9 +5363,9 @@
     <string name="rb_C3068_7">نجی ہسپتال</string>
     <string name="rb_C3068_8">نجی کلینک</string>
     <string name="rb_C3068_9">نجی میٹرنٹی ہوم</string>
-    <string name="rb_C3068_10"> دیگر نجی میڈیکل  </string>
-    <string name="rb_C3068_11">صحت فراہم کنندہ  کے پاس یا  مرکز صحت  راستہ میں جاتے ہوئے  </string>
-    <string name="rb_C3068_OT">کو ئی     اور   </string>
+    <string name="rb_C3068_10"> دیگر نجی میڈیکل</string>
+    <string name="rb_C3068_11">صحت فراہم کنندہ کے پاس یا مرکز صحت راستہ میں جاتے ہوئے</string>
+    <string name="rb_C3068_OT">کوئی اور</string>
     <string name="rb_C3068_DK">معلوم نہیں</string>
 
     <string name="rb_C3069_1">ہاں</string>
@@ -5428,10 +5435,8 @@
     <string name="rb_C3080_2">نہیں</string>
     <string name="rb_C3080_DK">معلوم نہیں</string>
 
-    <string name="ed_C3081"></string>
-    <string name="ed_C3082"></string>
-    <string name="rb_C3083_1"> 6-1 گھنٹے میں </string>
-    <string name="rb_C3083_2"> 23-7 گھنٹوں میں </string>
+    <string name="rb_C3083_1">6–1 گھنٹے میں</string>
+    <string name="rb_C3083_2">23–7 گھنٹوں میں</string>
     <string name="rb_C3083_3"> 24 گھنٹو ں یا زیادہ</string>
     <string name="rb_C3083_4">وفات سے پہلے نہلایا نہیں</string>
     <string name="rb_C3083_DK">معلوم نہیں</string>
@@ -5451,7 +5456,6 @@
     <string name="rb_C3086_DK">معلوم نہیں</string>
     <string name="rb_C3086_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3087"></string>
     <string name="rb_C3088_1">ہاں</string>
     <string name="rb_C3088_2">نہیں</string>
     <string name="rb_C3088_DK">معلوم نہیں</string>
@@ -5462,8 +5466,6 @@
     <string name="rb_C3089_DK">معلوم نہیں</string>
     <string name="rb_C3089_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3090_1"></string>
-    <string name="ed_C3090_2"></string>
     <string name="rb_C3091_1">ہاں</string>
     <string name="rb_C3091_2">نہیں</string>
     <string name="rb_C3091_DK">معلوم نہیں</string>
@@ -5559,8 +5561,6 @@
     <string name="rb_C3107_6_2">نہیں</string>
     <string name="rb_C3107_6_DK">معلوم نہیں</string>
 
-    <string name="ed_C3107_OT"></string>
-
     <string name="rb_C3107_7_1">ہاں</string>
     <string name="rb_C3107_7_2">نہیں</string>
     <string name="rb_C3107_7_DK">معلوم نہیں</string>
@@ -5620,7 +5620,6 @@
     <string name="rb_C3107_22_1">ہاں</string>
     <string name="rb_C3107_22_2">نہیں</string>
     <string name="rb_C3107_22_DK">معلوم نہیں</string>
-    <string name="ed_C3107_OT2"></string>
 
     <string name="rb_C3108_1">ہاں ،کارڈ دیکھا تھا</string>
     <string name="rb_C3108_2">ہاں ،پھر کارڈ نہیں دیکھاتھا</string>
@@ -5708,17 +5707,14 @@
     <string name="rb_C3111_1_2">نہیں</string>
     <string name="rb_C3111_1_DK">معلوم نہیں</string>
 
-    <string name="ed_C3111_2"></string>
     <string name="rb_C3111_3_1">ہاں</string>
     <string name="rb_C3111_3_2">نہیں</string>
     <string name="rb_C3111_3_DK">معلوم نہیں</string>
 
-    <string name="ed_C3111_4"></string>
     <string name="rb_C3111_5_1">ہاں</string>
     <string name="rb_C3111_5_2">نہیں</string>
     <string name="rb_C3111_5_DK">معلوم نہیں</string>
 
-    <string name="ed_C3111_6"></string>
     <string name="rb_C3111_7_1">ہاں</string>
     <string name="rb_C3111_7_2">نہیں</string>
     <string name="rb_C3111_7_DK">معلوم نہیں</string>
@@ -5727,7 +5723,6 @@
     <string name="rb_C3111_8_2">نہیں</string>
     <string name="rb_C3111_8_DK">معلوم نہیں</string>
 
-    <string name="ed_C3111_9"></string>
     <string name="rb_C3112_1">ہاں</string>
     <string name="rb_C3112_2">نہیں</string>
     <string name="rb_C3112_DK">معلوم نہیں</string>
@@ -5736,15 +5731,14 @@
     <string name="rb_C3121_2">نہیں</string>
     <string name="rb_C3121_DK">معلوم نہیں</string>
 
-    <string name="rb_C3122_1"></string>
-    <string name="rb_C3122_2"></string>
-    <string name="rb_C3123_u_1">                                         دن </string>
-    <string name="rb_C3123_u_2">                                                     مہینے </string>
+    <string name="rb_C3122_1">ہاں</string>
+    <string name="rb_C3122_2">نہیں</string>
+
+    <string name="rb_C3123_u_1">دن</string>
+    <string name="rb_C3123_u_2">مہینے</string>
     <string name="rb_C3123_u_DK">معلوم نہیں</string>
     <string name="rb_C3123_u_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3123_b"></string>
-    <string name="ed_C3123_c"></string>
     <string name="rb_C3124_1">ہاں</string>
     <string name="rb_C3124_2">نہیں</string>
     <string name="rb_C3124_DK">معلوم نہیں</string>
@@ -5782,24 +5776,20 @@
     <string name="rb_C3130_DK">معلوم نہیں</string>
     <string name="rb_C3130_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3131"></string>
     <string name="rb_C3132_u_1">دن</string>
     <string name="rb_C3132_u_2">مہینے</string>
     <string name="rb_C3132_u_DK">معلوم نہیں</string>
     <string name="rb_C3132_u_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3132_a"></string>
-    <string name="ed_C3132_b"></string>
     <string name="rb_C3133_1">ہاں</string>
     <string name="rb_C3133_2">نہیں</string>
     <string name="rb_C3133_DK">معلوم نہیں</string>
     <string name="rb_C3133_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3134"></string>
     <string name="rb_C3135_1">ہاں</string>
     <string name="rb_C3135_2">نہیں</string>
-    <string name="rb_C3135_9">معلوم نہیں </string>
-    <string name="rb_C3135_8">جواب دینے سے انکار کردیا</string>
+    <string name="rb_C3135_DK">معلوم نہیں </string>
+    <string name="rb_C3135_RA">جواب دینے سے انکار کردیا</string>
 
     <string name="rb_C3136_1">ہاں</string>
     <string name="rb_C3136_2">نہیں</string>
@@ -5847,12 +5837,9 @@
     <string name="rb_C3144_u_DK">معلوم نہیں</string>
     <string name="rb_C3144_u_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3144"></string>
-    <string name="ed_C3144_a"></string>
-    <string name="ed_C3144_b"></string>
-    <string name="rb_C3145_1"> اوپر کے حصہ میں </string>
-    <string name="rb_C3145_2"> نچلے حصہ میں </string>
-    <string name="rb_C3145_3">پیٹ کے  اوپر اور نچلے حصہ میں </string>
+    <string name="rb_C3145_1">اوپر کے حصہ میں</string>
+    <string name="rb_C3145_2">نچلے حصہ میں</string>
+    <string name="rb_C3145_3">پیٹ کے اوپر اور نچلے حصہ میں</string>
     <string name="rb_C3145_DK">معلوم نہیں</string>
     <string name="rb_C3145_RA">جواب دینے سے انکار کیا</string>
 
@@ -5866,10 +5853,8 @@
     <string name="rb_C3147_u_DK">معلوم نہیں</string>
     <string name="rb_C3147_u_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3147_a"></string>
-    <string name="ed_C3147_b"></string>
     <string name="rb_C3148_1"> تیزی سے</string>
-    <string name="rb_C3148_2">آہستہ سے </string>
+    <string name="rb_C3148_2">آہستہ سے</string>
     <string name="rb_C3148_DK">معلوم نہیں</string>
     <string name="rb_C3148_RA">جواب دینے سے انکار کیا</string>
 
@@ -5883,8 +5868,6 @@
     <string name="rb_C3150_u_DK">معلوم نہیں</string>
     <string name="rb_C3150_u_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3150_a"></string>
-    <string name="ed_C3150_b"></string>
     <string name="rb_C3151_1">ہاں</string>
     <string name="rb_C3151_2">نہیں</string>
     <string name="rb_C3151_DK">معلوم نہیں</string>
@@ -5894,8 +5877,6 @@
     <string name="rb_C3152_u_DK">معلوم نہیں</string>
     <string name="rb_C3152_u_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3152_a"></string>
-    <string name="ed_C3152_b"></string>
     <string name="rb_C3153_1">ہاں</string>
     <string name="rb_C3153_2">نہیں</string>
     <string name="rb_C3153_DK">معلوم نہیں</string>
@@ -5932,9 +5913,6 @@
     <string name="rb_C3159_u_DK">معلوم نہیں</string>
     <string name="rb_C3159_u_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3159_a"></string>
-    <string name="ed_C3159_b"></string>
-    <string name="ed_C3159_c"></string>
     <string name="rb_C3160_1">مسلسل</string>
     <string name="rb_C3160_2">وقفہ وقفہ سے </string>
     <string name="rb_C3160_DK">معلوم نہیں</string>
@@ -5945,15 +5923,11 @@
     <string name="rb_C3161_DK">معلوم نہیں</string>
     <string name="rb_C3161_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3162_1"></string>
-    <string name="ed_C3162_2"></string>
     <string name="rb_C3163_u_1">دن</string>
     <string name="rb_C3163_u_2">مہینہ </string>
     <string name="rb_C3163_u_DK">معلوم نہیں</string>
     <string name="rb_C3163_u_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3163_a"></string>
-    <string name="ed_C3163_b"></string>
     <string name="rb_C3164_1">ہاں</string>
     <string name="rb_C3164_2">نہیں</string>
     <string name="rb_C3164_DK">معلوم نہیں</string>
@@ -5964,14 +5938,11 @@
     <string name="rb_C3165_u_3">معلوم نہیں </string>
     <string name="rb_C3165_u_4">جواب دینے سے انکار کردیا</string>
 
-    <string name="ed_C3165_a"></string>
-    <string name="ed_C3165_b"></string>
     <string name="rb_C3166_1">ہاں</string>
     <string name="rb_C3166_2">نہیں</string>
     <string name="rb_C3166_DK">معلوم نہیں</string>
     <string name="rb_C3166_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3167"></string>
     <string name="rb_C3168_1">ہاں</string>
     <string name="rb_C3168_2">نہیں</string>
     <string name="rb_C3168_DK">معلوم نہیں</string>
@@ -5992,7 +5963,6 @@
     <string name="rb_C3171_DK">معلوم نہیں</string>
     <string name="rb_C3171_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3172"></string>
     <string name="rb_C3173_1">ہاں</string>
     <string name="rb_C3173_2">نہیں</string>
     <string name="rb_C3173_DK">معلوم نہیں</string>
@@ -6008,8 +5978,6 @@
     <string name="rb_C3175_u_DK">معلوم نہیں</string>
     <string name="rb_C3175_u_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3175_a"></string>
-    <string name="ed_C3175_b"></string>
     <string name="rb_C3176_1">ہاں</string>
     <string name="rb_C3176_2">نہیں</string>
     <string name="rb_C3176_DK">معلوم نہیں</string>
@@ -6020,8 +5988,6 @@
     <string name="rb_C3177_u_DK">معلوم نہیں</string>
     <string name="rb_C3177_u_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3177_a"></string>
-    <string name="ed_C3177_b"></string>
     <string name="rb_C3178_1">ہاں</string>
     <string name="rb_C3178_2">نہیں</string>
     <string name="rb_C3178_DK">معلوم نہیں</string>
@@ -6032,8 +5998,6 @@
     <string name="rb_C3179_u_DK">معلوم نہیں</string>
     <string name="rb_C3179_u_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3179_a"></string>
-    <string name="ed_C3179_b"></string>
     <string name="rb_C3180_1">ہاں</string>
     <string name="rb_C3180_2">نہیں</string>
     <string name="rb_C3180_DK">معلوم نہیں</string>
@@ -6054,7 +6018,6 @@
     <string name="rb_C3183_DK">معلوم نہیں</string>
     <string name="rb_C3183_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3184"></string>
     <string name="rb_C3185_1">ہاں</string>
     <string name="rb_C3185_2">نہیں</string>
     <string name="rb_C3185_DK">معلوم نہیں</string>
@@ -6105,8 +6068,6 @@
     <string name="rb_C3193_u_DK">معلوم نہیں</string>
     <string name="rb_C3193_u_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3193_a"></string>
-    <string name="ed_C3193_b"></string>
     <string name="rb_C3194_1">ہاں</string>
     <string name="rb_C3194_2">نہیں</string>
     <string name="rb_C3194_DK">معلوم نہیں</string>
@@ -6126,7 +6087,6 @@
     <string name="rb_C3195_DK">معلوم نہیں</string>
     <string name="rb_C3195_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3196"></string>
     <string name="rb_C3197_1">ہاں</string>
     <string name="rb_C3197_2">نہیں</string>
     <string name="rb_C3197_DK">معلوم نہیں</string>
@@ -6157,8 +6117,6 @@
     <string name="rb_C3201_u_DK">معلوم نہیں</string>
     <string name="rb_C3201_u_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3201_a"></string>
-    <string name="ed_C3201_b"></string>
     <string name="rb_C3202_1">ہاں</string>
     <string name="rb_C3202_2">نہیں</string>
     <string name="rb_C3202_DK">معلوم نہیں</string>
@@ -6174,8 +6132,6 @@
     <string name="rb_C3204_u_DK">معلوم نہیں</string>
     <string name="rb_C3204_u_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3204_a"></string>
-    <string name="ed_C3204_b"></string>
     <string name="rb_C3205_1">ہاں</string>
     <string name="rb_C3205_2">نہیں</string>
     <string name="rb_C3205_DK">معلوم نہیں</string>
@@ -6196,8 +6152,6 @@
     <string name="rb_C3208_u_DK">معلوم نہیں</string>
     <string name="rb_C3208_u_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3208_a"></string>
-    <string name="ed_C3208_b"></string>
     <string name="rb_C3209_1">ہاں</string>
     <string name="rb_C3209_2">نہیں</string>
     <string name="rb_C3209_DK">معلوم نہیں</string>
@@ -6259,8 +6213,6 @@
     <string name="rb_C3220_u_DK">معلوم نہیں</string>
     <string name="rb_C3220_u_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3220_a"></string>
-    <string name="ed_C3220_b"></string>
     <string name="rb_C3221_1"> ٹھوس</string>
     <string name="rb_C3221_2"> مشروبات</string>
     <string name="rb_C3221_3">دونوں </string>
@@ -6415,8 +6367,6 @@
     <string name="rb_C3227_22_DK">معلوم نہیں</string>
     <string name="rb_C3227_22_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3228_1"></string>
-    <string name="ed_C3228_2"></string>
     <string name="rb_C3251_1_1">معمول</string>
     <string name="rb_C3251_1_2">درمیانی</string>
     <string name="rb_C3251_1_3">غیر معمولی</string>
@@ -6457,10 +6407,6 @@
     <string name="cb_C3256_12">رات کو دیر ہو چکی تھی  (ٹرانسپورٹ  یا   ہیلتھ  مہیا کرنے والا موجود نہیں تھا)</string>
     <string name="cb_C3256_OT">دیگر (وضاحت کریں)</string>
     <string name="cb_C3256_DK">معلوم نہیں</string>
-
-    <string name="ed_C3257_1"></string>
-    <string name="ed_C3257_2"></string>
-    <string name="ed_C3257_3"></string>
 
     <string name="rb_C3258_1_1">معمول</string>
     <string name="rb_C3258_1_2">درمیانی</string>
@@ -6660,7 +6606,6 @@
     <string name="rb_C3287_DK">معلوم نہیں</string>
     <string name="rb_C3287_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3288"></string>
     <string name="rb_C3301_1">ہاں</string>
     <string name="rb_C3301_2">نہیں</string>
     <string name="rb_C3301_DK">معلوم نہیں</string>
@@ -6713,15 +6658,13 @@
 
     <string name="rb_C3305_1">ہاں</string>
     <string name="rb_C3305_2">نہیں</string>
+
     <string name="rb_C3306_1check_1">ہاں</string>
     <string name="rb_C3306_1check_2">نہیں</string>
-    <string name="ed_C3306_1"></string>
+
     <string name="rb_C3306_2check_1">ہاں</string>
     <string name="rb_C3306_2check_2">نہیں</string>
-    <string name="ed_C3306_2"></string>
-    <string name="ed_C3307"></string>
-    <string name="ed_C3308"></string>
-    <string name="ed_C3309"></string>
+
     <string name="rb_C3310_1_1">ہاں</string>
     <string name="rb_C3310_1_2">نہیں</string>
     <string name="rb_C3310_1_DK">معلوم نہیں</string>
@@ -6792,7 +6735,6 @@
     <string name="rb_C3313_DK">معلوم نہیں</string>
     <string name="rb_C3313_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3314"></string>
     <string name="rb_C3351_1">ہاں</string>
     <string name="rb_C3351_2">نہیں</string>
     <string name="rb_C3351_DK">معلوم نہیں</string>
@@ -6800,20 +6742,13 @@
 
     <string name="rb_C3352_1">ہاں</string>
     <string name="rb_C3352_2">نہیں</string>
-    <string name="ed_C3353"></string>
-    <string name="ed_C3354"></string>
-    <string name="ed_C3355"></string>
-    <string name="ed_C3356"></string>
-    <string name="ed_C3357"></string>
-    <string name="ed_C3358"></string>
+
     <string name="rb_C3363_1">  ہاں ،   کارڈ دیکھا</string>
     <string name="rb_C3363_2"> ہاں ، کارڈ نہیں دیکھا</string>
     <string name="rb_C3363_3">رجسٹریشن نہیں ہوئی</string>
     <string name="rb_C3363_DK">معلوم نہیں</string>
     <string name="rb_C3363_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3364"></string>
-    <string name="ed_C3401"></string>
     <string name="rb_C3402_1">ہاں</string>
     <string name="rb_C3402_2">نہیں</string>
     <string name="rb_C3402_DK">معلوم نہیں</string>
@@ -6823,14 +6758,12 @@
     <string name="rb_C3403_3"> ہائر</string>
     <string name="rb_C3403_DK">معلوم نہیں</string>
 
-    <string name="ed_C3404"></string>
     <string name="rb_C3405_1"> ہاں ،شادی شدہ ہیں</string>
     <string name="rb_C3405_2">ہاں،مرد کے ساتھ رہےرہی ہے</string>
     <string name="rb_C3405_3">نہیں ،ساتھ نہیں رہتی</string>
     <string name="rb_C3405_4">نہیں، ماں وفات پاگئی تھی؟</string>
     <string name="rb_C3405_DK">معلوم نہیں</string>
 
-    <string name="ed_C3406"></string>
     <string name="rb_C3407_1">ہاں</string>
     <string name="rb_C3407_2">نہیں</string>
     <string name="rb_C3407_DK">معلوم نہیں</string>
@@ -6840,7 +6773,6 @@
     <string name="rb_C3408_3">ہائر</string>
     <string name="rb_C3408_DK">معلوم نہیں</string>
 
-    <string name="ed_C3409"></string>
     <string name="rb_C3410_1">ہاں</string>
     <string name="rb_C3410_2">نہیں</string>
     <string name="rb_C3410_DK">معلوم نہیں</string>
@@ -6852,11 +6784,12 @@
     <string name="rb_C3411_OT">دیگر (وضاحت کریں)</string>
     <string name="rb_C3411_DK">معلوم نہیں</string>
 
-    <string name="rb_C3412_L1"></string>
-    <string name="rb_C3412_L2"></string>
-    <string name="ed_C3413"></string>
+    <string name="rb_C3412_L1">Level 1</string>
+    <string name="rb_C3412_L2">Level 2</string>
+
     <string name="ed_C3414_1"></string>
     <string name="rb_C3414_2"></string>
+
     <string name="rb_C3451_1_1">ہاں</string>
     <string name="rb_C3451_1_2">نہیں</string>
     <string name="rb_C3451_1_DK">معلوم نہیں</string>
@@ -7025,7 +6958,6 @@
     <string name="rb_C3457_DK">معلوم نہیں</string>
     <string name="rb_C3457_RA">جواب دینے سے انکار کیا</string>
 
-    <string name="ed_C3471"></string>
     <string name="cb_C3472_1"> پیٹ</string>
     <string name="cb_C3472_2">کینسر</string>
     <string name="cb_C3472_3">پانی کی کمی</string>
@@ -7033,10 +6965,10 @@
     <string name="cb_C3472_5">دست</string>
     <string name="cb_C3472_6">بخار</string>
     <string name="cb_C3472_7">دل کی بیماری </string>
-    <string name="cb_C3472_8">پیلیا(پیلی آنکھیں اور پیلی جلد)</string>
-    <string name="cb_C3472_9">جگر    کی خرابی / فیل ہوجانا </string>
-    <string name="cb_C3472_10">  ملیریا</string>
-    <string name="cb_C3472_11">اوپر  میں سے کوئی لفظ موجود نہیں </string>
+    <string name="cb_C3472_8">پیلیا (پیلی آنکھیں اور پیلی جلد)</string>
+    <string name="cb_C3472_9">جگر کی خرابی / فیل ہوجانا</string>
+    <string name="cb_C3472_10">ملیریا</string>
+    <string name="cb_C3472_11">اوپر میں سے کوئی لفظ موجود نہیں</string>
     <string name="cb_C3472_DK">معلوم نہیں</string>
 
     <!-- Child Urdu Responses ENDS -->
@@ -7044,18 +6976,16 @@
     <!-- Child Urdu TEXT HINT's STARTS -->
     <string name="C3001_h">اگر ایک ہی وقت میں دو یا اس سے زیادہ بچے پیدا ہوئے ہیں تو یہ ایک سے زیادہ پیدائش کی حیثیت میں شمار ہوں گی چاہیے ایک یا ایک سے زیادہ بچوں کی وفات ہوئی ہو</string>
     <string name="C3003_h">اگر ماں  انٹرویو میں موجود ہے تو   یہ سوال پوچھے بغیر  "ہاں"  پر نشان لگائیں</string>
-    <string name="C3005u_h">صرف ایک یونٹ یا جواب لکھیں
-  	0-6    دن لکھیں،  اگر ایک دن یا   24  گھنٹے سے کم ہو تو 0     دن لکھیں      </string>
-    <string name="C3005w_h">  1-7   ہفتے لکھیں       </string>
-    <string name="C3005m_h">مہینے  لکھیں 2-60</string>
+    <string name="C3005u_h">صرف ایک یونٹ یا جواب لکھیں 0–6 دن لکھیں، اگر ایک دن یا 24 گھنٹے سے کم ہو تو 0 دن لکھیں</string>
+    <string name="C3005w_h">1–7 ہفتے لکھیں</string>
+    <string name="C3005m_h">2–60 مہینے لکھیں</string>
     <string name="C3006_h">سوال پڑہیں اور شروع کے پانچ جوابات کو آہستہ آہستہ پڑھیں ۔ جواب دہندہ تمام جوابات کو سنے اور پھر جواب دے</string>
     <string name="C3008_h">پڑھیں: " مرکز صحت پر" ۔۔۔ اگر اس کی زچگی صحت کی سہولت فراہم کرے والی جگہ پر پیدا ہو ئی</string>
     <string name="C3009_1_h">تصویریں دکھائیں، جواب دہندہ کو  وضاحت کریں کہ اگر جواب " نہیں" ہے  تب بھی کچھ مزید سوال پوچھیں جائیں گے ، صرف اس بات کو  یقینی بنانے کے لئے کہ کو   ئی  اہم بات  چھوٹ نہ گئی ہو۔ </string>
     <string name="C3009_2_h">اگر تصویریں موجود ہوں تو دکھائیں</string>
     <string name="C3009_3_h">اگر تصویریں موجود ہوں تو دکھائیں</string>
     <string name="C3009_4_h">اگر تصویریں موجود ہوں تو دکھائیں</string>
-    <string name="C3010_h">بچےکے پیدائش کے کارڈ  کے بارے میں پوچھیں ۔ اگر کارڈ موجود ہے تو کارڈ سے پیدائش کے وقت کا وزن ریکارڈ کریں۔ اگر کارڈ موجود نہیں ہے تو جواب دہندہ سے وزن معلوم کرکے لکھیں اگر اس کو معلوم ہو۔ وزن کو گرام میں چار ہندسوں میں لکھیں۔ ہوسکتا ہے جواب دہندہ وزن  کلو گرام میں بتا ئے ۔ اس صورت میں ڈیٹا انٹری کے لئے1          کلو گرام کو 1000 میں تبدیل کریں۔
- 	اگر "معلوم نہیں "ہے تو  "            9999" لکھیں اور "انکار" کی صورت میں  تو  "            8888" لکھیں۔</string>
+    <string name="C3010_h">بچے کے پیدائش کے کارڈ کے بارے میں پوچھیں۔ اگر کارڈ موجود ہے تو کارڈ سے پیدائش کے وقت کا وزن ریکارڈ کریں۔ اگر کارڈ موجود نہیں ہے تو جواب دہندہ سے وزن معلوم کرکے لکھیں اگر اس کو معلوم ہو۔ وزن کو گرام میں چار ہندسوں میں لکھیں۔ ہوسکتا ہے جواب دہندہ وزن کلوگرام میں بتا ئے۔ اس صورت میں ڈیٹا انٹری کے لئے 1 کلو گرام کو 1000 میں تبدیل کریں۔ اگر "معلوم نہیں" ہے تو "9999" لکھیں اور "انکار" کی صورت میں تو "8888" لکھیں۔</string>
     <string name="C3012_h">     (سے Q1202)  یہ صرف اس وقت  پوچھیں جب نام  پہلے معلوم نہ ہو</string>
     <string name="C3016_h">نہ پڑہیںat that level بچوں کی اموات کے لیے ،  " اگر  ایک سال سے کم مکمل ہے تو 00 لکھیں".</string>
     <string name="C3019_u_h">صرف ایک جواب لکھیں ،0-30 دن،   1-11 مہینہ،  1-11 سال۔</string>
@@ -7209,27 +7139,27 @@
     <string name="txt_W202">برائے مہربانی اپنی عمر بتایئے ۔ آپکی گزشتہ سالگرہ پر آپ /ماں کی عمر کتنی تھی ؟	:W202</string>
     <string name="ed_W202">مکمل عمر سالوں میں لکھیں</string>
 
-    <string name="txt_W203">اطمینان کیجئے کہ جوابدہندہ کی عمر 49-12 سال ہے ؟	:W203</string>
+    <string name="txt_W203">اطمینان کیجئے کہ جوابدہندہ کی عمر 49–12 سال ہے ؟</string>
     <string name="rb_W203_1">ہاں</string>
     <string name="rb_W203_2">نہیں</string>
 
-    <string name="txt_W204">کیا اس وقت آپ/ماں  شادی شدہ ہیں ؟	:W204</string>
+    <string name="txt_W204">کیا اس وقت آپ/ماں  شادی شدہ ہیں ؟</string>
     <string name="rb_W204_1">ہاں</string>
     <string name="rb_W204_2">نہیں</string>
 
-    <string name="txt_W205">کیا کبھی آپ/ماں کی شادی ہوئی  ؟	:W205</string>
+    <string name="txt_W205">کیا کبھی آپ/ماں کی شادی ہوئی ؟</string>
     <string name="rb_W205_1">ہاں</string>
     <string name="rb_W205_2">نہیں</string>
 
-    <string name="txt_W206">شادی کے وقت آپ/ماں کی عمر کیا تھی ؟	:W206</string>
+    <string name="txt_W206">شادی کے وقت آپ / ماں کی عمر کیا تھی ؟</string>
     <string name="rb_W206_1">ہاں</string>
     <string name="rb_W206_2">نہیں</string>
 
-    <string name="txt_W207">کیا آپ/ماں کبھی حاملہ ہوئی ہیں ؟	:W207</string>
+    <string name="txt_W207">کیا آپ / ماں کبھی حاملہ ہوئی ہیں ؟</string>
     <string name="rb_W207_1">ہاں</string>
     <string name="rb_W207_2">نہیں</string>
 
-    <string name="txt_W208">کیا آپ/ماں ابھی حاملہ ہیں ؟	:W208</string>
+    <string name="txt_W208">کیا آپ / ماں ابھی حاملہ ہیں ؟</string>
     <string name="rb_W208_1">ہاں</string>
     <string name="rb_W208_2">نہیں</string>
 
@@ -7266,6 +7196,16 @@
     <string name="Language">زبان منتخب کریں</string>
     <string name="English">انگریزی</string>
     <string name="Urdu">اردو</string>
+
+    <string-array name="province">
+        <item>بلوچستان</item>
+        <item>پنجاب</item>
+        <item>سندھ</item>
+        <item>خیبر پختونخواہ</item>
+        <item>فاٹا</item>
+        <item>گلگت بلتستان</item>
+        <item>آزاد جموں و کشمیر</item>
+    </string-array>
 
 
 </resources>

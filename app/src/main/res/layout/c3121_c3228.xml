@@ -2606,18 +2606,20 @@
                         <RadioButton
                             android:id="@+id/rb_C3165_u_DK"
                             style="@style/RadioButton"
-                            android:text="@string/rb_DK" />
+                            android:text="@string/rb_C3165_u_DK" />
 
                         <RadioButton
                             android:id="@+id/rb_C3165_u_RA"
                             style="@style/RadioButton"
-                            android:text="@string/rb_RA" />
+                            android:text="@string/rb_C3165_u_RA" />
 
                     </RadioGroup>
 
                 </LinearLayout>
+
             </androidx.appcompat.widget.CardView>
             <!--C3165_u Radio Button Ends-->
+
 
             <!--C3165_a Edit text Starts -->
             <androidx.appcompat.widget.CardView style="@style/Q_CardView">
