@@ -12,8 +12,9 @@
 
     <string name="rb_yes">Yes</string>
     <string name="rb_no">No</string>
-    <string name="rb_dk">Don\'t Know</string>
-    <string name="rb_ra">Refused to answer</string>
+    <string name="rb_dk">Don’t Know</string>
+    <string name="rb_RA">Refused to Answer</string>
+
     <string name="time">Times</string>
     <string name="fv">First Visit</string>
 
@@ -152,14 +153,18 @@
     <string name="txt_N2024_1">N2024_1:	Before the illness that led to death, was (the baby / the child) growing normally?	</string>
     <string name="txt_N2025u">N2025u: For how long was (s)he ill before death?	</string>
     <string name="txt_N2025d">N2025d: Days:	</string>
-    <string name="txt_N2026">N2026:	Did (s)he die suddenly? 	</string>
+
+    <string name="txt_N2026">Did (s)he die suddenly ?</string>
+    <string name="txt_N2026_h">"Suddenly" means, within twenty-four hours of the onset of illness</string>
+
     <string name="txt_N2051">N2051:	How many births, including stillbirths, did (you / the baby’s mother) have before this baby?	</string>
     <string name="txt_N2052">N2052:	During the pregnancy, did (you / the mother) see anyone for antenatal care?	</string>
     <string name="txt_N2053">N2053:	Whom did (you / she) see? 	</string>
     <string name="txt_N2054">N2054:	How many times did (you / the mother) receive antenatal care during this pregnancy?	</string>
     <string name="txt_N2055">N2055:	During which month of the pregnancy did (you / the mother) first receive antenatal care?	</string>
     <string name="txt_N2056">N2056:	During which month of the pregnancy did (you / the mother) last receive antenatal care?	</string>
-    <string name="txt_N2057">N2057:	As part of (your / the mother’s) antenatal care during this pregnancy, were any of the following done at least once:	</string>
+    <string name="txt_N2057">N2057:	As part of (your / the mother’s) antenatal care during this pregnancy, were any of the following done at least once:</string>
+    <string name="txt_N2057_h">Read all the answers and circle (Yes) or (No) or (Don\'t know) for each one. Local Acceptance: If the respondent asks, mention any extra protein and high energy foods.</string>
 
     <string name="txt_N2057_1">N2057_1: Was your blood pressure measured?</string>
     <string name="txt_N2057_2">N2057_2: Did you give a urine sample?</string>
@@ -189,11 +194,12 @@
     <string name="txt_N2074">N2074:	What was the color of the liquor when the water broke?	</string>
     <string name="txt_N2075">N2075:	Was the liquor foul smelling?	</string>
     <string name="txt_N2076">N2076:	Earlier, you told me that the baby was delivered at \'DELIVERY PLACE\'. Who decided that (this / a health provider or facility) was the right place to deliver the baby?	</string>
-    <string name="txt_N2077">N2077:	If she did not deliver or try to deliver with a health provider or facility (N2006=12 or N2006=1-2 and N2008≠1-3), ask: Did (you / the mother) have any concerns or problems that kept (you / her) from delivering with a health provider or facility?	</string>
+    <string name="txt_N2077">N2077:	If she did not deliver or try to deliver with a health provider or facility (N2006=12 or N2006=1—2 and N2008≠1—3), ask: Did (you / the mother) have any concerns or problems that kept (you / her) from delivering with a health provider or facility?	</string>
     <string name="txt_N2078">N2078:	What concerns or problems did (you / she) have?	</string>
 
 
     <string name="txt_N2080">N2080: Now I’d like to ask you about any symptoms (you / the mother) might have had during the late part of the pregnancy. Were the last 3 months of the pregnancy complicated by any of the following symptoms that started before labor?"></string>
+    <string name="txt_N2080_h">Explain to the respondent that labor begins when contractions occur every 20 minutes or less due to uterine contractions.—Read "mother," if the respondent is not a mother. Then read each symbol and tick "Yes", "No", "Don't Know" for each.</string>
 
     <string name="txt_N2080_1">N2080_1: Convulsions?</string>
     <string name="txt_N2080_2">N2080_2: High blood pressure?</string>
@@ -214,9 +220,10 @@
 
     <string name="txt_N2081">N2081: Did (you / the mother) seek care from any person or health facility for (any of) the pregnancy symptom(s) that started before labor?	</string>
     <string name="txt_N2082">N2082: Where did (you / she) seek this care?	</string>
-    <string name="txt_N2083">N2083: If more than one symptom started before labor and she sought care from a health provider (Q4003 = 1-4), ask:	</string>
+    <string name="txt_N2083">N2083: If more than one symptom started before labor and she sought care from a health provider (Q4003 = 1–4), ask:	</string>
     <string name="txt_N2084">N2084: For which symptom(s) did (you / she) go?	</string>
-    <string name="txt_N2085">N2085: If she never went to a health provider (Q4002 = 2 or Q4003 = only 5-7) for any of the pregnancy symptoms, ask: Did (you / the mother) have any concerns or problems that kept (you / her) from going to a health provider or facility for the problem(s) that started before labor?	</string>
+    <string name="txt_N2085">N2085: If she never went to a health provider (Q4002 = 2 or Q4003 = only 5–7) for any of the pregnancy symptoms, ask: Did (you / the mother) have any concerns or problems that kept (you / her) from going to a health provider or facility for the problem(s) that started before labor?	</string>
+    <string name="N2085_h">اگر  وہ   حمل کی علامات کے حوالے سے کبھی بھی صحت مہیا کرنے والے کے پاس نہیں گئی.  (Q4002 = 2 or Q4003 = only 5–7)  تو     پوچھو : 	:	N2085</string>
     <string name="txt_N2085_h2">	کیا    (آپ/ ماں(         کوڈلیوری یا زچگی   پہلے شروع  ہونے  والے   مسا ئل کے حوالے سے  صحت مہیا کرنے والے یا  مرکز صحت کے بارے میں جو تشویش/ مسئلہ تھے وہ حل ہوچکے تھے  ؟	:	N2085	</string>
     <string name="N2085_h2" translatable="false">	اگر  وہ   حمل کی علامات کے حوالے سے صحت مہیا کرنے والے   کے پاس گئی  تھی تو پوچھو   : (Q4003 = 1-4) 	:	N2085	</string>
 
@@ -253,14 +260,18 @@
     <string name="txt_N2092">N2092:	Who decided that seeing a health provider was the right thing to do?	</string>
     <string name="txt_N2093">N2093:	Refer to N2006 and N2008 to determine the delivery place and attendant. Discuss with respondent to confirm or correct the delivery place and attendant. Use option 3 or 4 if the woman delivered at home (N2006=1, 2) with a trained nurse or midwife (N2008=2, 3). 	</string>
     <string name="txt_N2094">N2094:	So, including where (you / the mother) received or sought care for the labor or delivery symptom(s) and for the delivery, how many health providers or facilities did (you / she) go to?	</string>
-    <string name="txt_N2094_h">	سوال نمبر(N2091)    میں صحت فراہم  کرنے والے اورصحت کی سہولتوں(4-1)   کو  شامل کریں  جہاں لیبر اور زچگی کی علامات کی دیکھ بھال کی گئی تھی۔ اس کے ساتھ ہی  سوال نمبر(N2093)    میں زچگی کی جگہ/   زچگی میں مدد کرنے والے   (13-3) کو بھی شامل کریں ۔ اس بات کی یقین دہانی کریں  کہ  #13     جواب  سوال نمبر(N2093) میں ہے، اگر عورت کی زچگی صحت فراہم کرنے والے  یا صحت کی سہولت کے راستے میں ہوئی  . دو بار گنتی نہ کریں:   صحت فراہم کرنے والے /صحت کی سہولت   جو(سN2091) اور (سN2093) میں موجود  ہوں تو ان کی دو بار   نہ گنیں ۔   	:	N2094	</string>
+    <string name="txt_N2094_h">	سوال نمبر(N2091)    میں صحت فراہم  کرنے والے اورصحت کی سہولتوں(4–1)   کو  شامل کریں  جہاں لیبر اور زچگی کی علامات کی دیکھ بھال کی گئی تھی۔ اس کے ساتھ ہی  سوال نمبر(N2093)    میں زچگی کی جگہ/   زچگی میں مدد کرنے والے   (13–3) کو بھی شامل کریں ۔ اس بات کی یقین دہانی کریں  کہ  #13     جواب  سوال نمبر(N2093) میں ہے، اگر عورت کی زچگی صحت فراہم کرنے والے  یا صحت کی سہولت کے راستے میں ہوئی  . دو بار گنتی نہ کریں:   صحت فراہم کرنے والے /صحت کی سہولت   جو(سN2091) اور (سN2093) میں موجود  ہوں تو ان کی دو بار   نہ گنیں ۔   	:	N2094	</string>
 
     <string name="txt_N2095">N2095:	Was there any particular symptom or symptoms for which (you / the mother) went to the (first) health provider?	</string>
     <string name="txt_N2095_h">	پڑھیں :   "پہلا صحت فراہم کنندہ "  اگر  وہ   ایک سے زیادہ  صحت فراہم کنندہ کے پاس گئی تھی	:	N2095	</string>
 
     <string name="txt_N2096">N2096:	For which symptom(s) did (you / she) go?	</string>
+
     <string name="txt_N2097">N2097:	How long after the labor or delivery symptom(s) began was it decided to go to the (first) health provider?	</string>
-    <string name="txt_N2098">N2098:	If she delivered at or was on the way to deliver at a health provider or facility (N2006=3-11 or N2006=1-2 and N2008=1-3), read: Earlier you said that (you / the mother) delivered at \'DELIVERY PLACE\'. (Confirm N2006 delivery place and N2008 birth attendant if at home.)	</string>
+
+    <string name="txt_N2098">N2098:	If she delivered at or was on the way to deliver at a health provider or facility (N2006=3–11 or N2006=1–2 and N2008=1–3), read: Earlier you said that (you / the mother) delivered at \'DELIVERY PLACE\'. (Confirm N2006 delivery place and N2008 birth attendant if at home.)	</string>
+    <string name="txt_N2098_2">اگر اس کی زچگی صحت فراہم کنندہ کے پاس یا مرکز صحت جاتے ہو ئے            راستہ میں  نہیں ہوئی ہو     )N2008≠1–3 اور   N2006=1–2     یا       N2006=12(     تو    پڑھو :    آخری  صحت فراہم کنندہ    یا    آخری صحت کی سہولت کونسی تھی جہاں    (آپ /ماں)    لیبر یا زچگی کی علامات کی دیکھ بھال کے لیے گئی تھیں.	:	N2098_2</string>
+
     <string name="txt_N2099">N2099:	Did (you / the mother) have to pay any money to travel to this provider?	</string>
     <string name="txt_N2100">N2100:	How did (you / the mother) arrange for the money to travel?	</string>
     <string name="txt_N2101">N2101:	What transportation method was used to go there?	</string>
@@ -284,26 +295,31 @@
 
     <string name="rb_N2001_1">Yes</string>
     <string name="rb_N2001_2">No</string>
-    <string name="rb_N2001_DK">Don’t know</string>
-    <string name="rb_N2001_RA">Refused to answer</string>
+    <string name="rb_N2001_DK">Don’t Know</string>
+    <string name="rb_N2001_RA">Refused to Answer</string>
+
     <string name="rb_N2002_1">First</string>
     <string name="rb_N2002_2">Second or later </string>
-    <string name="rb_N2002_DK">Don’t know</string>
-    <string name="rb_N2002_RA">Refused to answer</string>
+    <string name="rb_N2002_DK">Don’t Know</string>
+    <string name="rb_N2002_RA">Refused to Answer</string>
+
     <string name="rb_N2003_1">Yes</string>
     <string name="rb_N2003_2">No</string>
-    <string name="rb_N2003_DK">Don’t know</string>
-    <string name="rb_N2003_RA">Refused to answer</string>
+    <string name="rb_N2003_DK">Don’t Know</string>
+    <string name="rb_N2003_RA">Refused to Answer</string>
+
     <string name="rb_N2004_1">Before delivery</string>
     <string name="rb_N2004_2">During delivery</string>
     <string name="rb_N2004_3">After delivery</string>
-    <string name="rb_N2004_DK">Don’t know</string>
-    <string name="rb_N2004_RA">Refused to answer</string>
+    <string name="rb_N2004_DK">Don’t Know</string>
+    <string name="rb_N2004_RA">Refused to Answer</string>
+
     <string name="rb_N2005u_1">Days</string>
     <string name="rb_N2005u_2">Weeks</string>
     <string name="rb_N2005u_3">Months</string>
-    <string name="rb_N2005u_DK">Don’t know</string>
-    <string name="rb_N2005u_RA">Refused to answer</string>
+    <string name="rb_N2005u_DK">Don’t Know</string>
+    <string name="rb_N2005u_RA">Refused to Answer</string>
+
     <string name="rb_N2006_1">The mother’s home</string>
     <string name="rb_N2006_2">Other home</string>
     <string name="rb_N2006_3">Government hospital</string>
@@ -316,8 +332,9 @@
     <string name="rb_N2006_10">Other private medical (specify)</string>
     <string name="rb_N2006_11">On route to a health provider or facility</string>
     <string name="rb_N2006_OT">Other (specify) </string>
-    <string name="rb_N2006_DK">Don’t know</string>
-    <string name="rb_N2006_RA">Refused to answer</string>
+    <string name="rb_N2006_DK">Don’t Know</string>
+    <string name="rb_N2006_RA">Refused to Answer</string>
+
     <string name="rb_N2008_1">Doctor</string>
     <string name="rb_N2008_2">Nurse / Midwife</string>
     <string name="rb_N2008_3">Auxiliary midwife</string>
@@ -326,95 +343,117 @@
     <string name="rb_N2008_6">Relative / Friend</string>
     <string name="rb_N2008_OT">Other (specify) </string>
     <string name="rb_N2008_8">No one</string>
-    <string name="rb_N2008_DK">Don’t know</string>
+    <string name="rb_N2008_DK">Don’t Know</string>
+
     <string name="rb_N2009_1_1">Yes</string>
     <string name="rb_N2009_1_2">No</string>
     <string name="rb_N2009_1_DK"> Don’t know</string>
-    <string name="rb_N2009_1_RA">Refused to answer</string>
+    <string name="rb_N2009_1_RA">Refused to Answer</string>
+
     <string name="rb_N2009_2_1">Yes</string>
     <string name="rb_N2009_2_2">No</string>
-    <string name="rb_N2009_2_DK">Don’t know</string>
-    <string name="rb_N2009_2_RA">Refused to answer</string>
+    <string name="rb_N2009_2_DK">Don’t Know</string>
+    <string name="rb_N2009_2_RA">Refused to Answer</string>
+
     <string name="rb_N2009_3_1">Yes</string>
     <string name="rb_N2009_3_2">No</string>
-    <string name="rb_N2009_3_DK">Don’t know</string>
-    <string name="rb_N2009_3_RA">Refused to answer</string>
+    <string name="rb_N2009_3_DK">Don’t Know</string>
+    <string name="rb_N2009_3_RA">Refused to Answer</string>
+
     <string name="rb_N2009_4_1">Yes</string>
     <string name="rb_N2009_4_2">No</string>
-    <string name="rb_N2009_4_DK">Don’t know</string>
-    <string name="rb_N2009_4_RA">Refused to answer</string>
+    <string name="rb_N2009_4_DK">Don’t Know</string>
+    <string name="rb_N2009_4_RA">Refused to Answer</string>
+
     <string name="rb_N2011_1">Child’s health card</string>
     <string name="rb_N2011_2">Respondent’s recall (no health card was available or seen)</string>
+
     <string name="rb_N2012_1">Alive</string>
     <string name="rb_N2012_2">Dead</string>
-    <string name="rb_N2012_DK">Don’t know</string>
-    <string name="rb_N2012_RA">Refused to answer</string>
+    <string name="rb_N2012_DK">Don’t Know</string>
+    <string name="rb_N2012_RA">Refused to Answer</string>
+
     <string name="rb_N2013_1">Yes</string>
     <string name="rb_N2013_2">No</string>
-    <string name="rb_N2013_DK">Don’t know</string>
-    <string name="rb_N2013_RA">Refused to answer</string>
+    <string name="rb_N2013_DK">Don’t Know</string>
+    <string name="rb_N2013_RA">Refused to Answer</string>
+
     <string name="rb_N2014_1">Yes</string>
     <string name="rb_N2014_2">No</string>
-    <string name="rb_N2014_DK">Don’t know</string>
-    <string name="rb_N2014_RA">Refused to answer</string>
+    <string name="rb_N2014_DK">Don’t Know</string>
+    <string name="rb_N2014_RA">Refused to Answer</string>
+
     <string name="rb_N2015_1">Yes</string>
     <string name="rb_N2015_2">No</string>
-    <string name="rb_N2015_DK">Don’t know</string>
-    <string name="rb_N2015_RA">Refused to answer</string>
+    <string name="rb_N2015_DK">Don’t Know</string>
+    <string name="rb_N2015_RA">Refused to Answer</string>
+
     <string name="rb_N2016_1">Stillbirth</string>
     <string name="rb_N2016_2">Live birth</string>
+
     <string name="rb_N2017_1">Yes</string>
     <string name="rb_N2017_2">No</string>
-    <string name="rb_N2017_DK">Don’t know</string>
-    <string name="rb_N2017_RA">Refused to answer</string>
+    <string name="rb_N2017_DK">Don’t Know</string>
+    <string name="rb_N2017_RA">Refused to Answer</string>
+
     <string name="rb_N2018_1">Yes</string>
     <string name="rb_N2018_2">No</string>
-    <string name="rb_N2018_DK">Don’t know</string>
-    <string name="rb_N2018_RA">Refused to answer</string>
+    <string name="rb_N2018_DK">Don’t Know</string>
+    <string name="rb_N2018_RA">Refused to Answer</string>
+
     <string name="rb_N2019u_1">Hours </string>
     <string name="rb_N2019u_2">Days</string>
-    <string name="rb_N2019u_DK">Don’t know</string>
-    <string name="rb_N2019u_RA">Refused to answer</string>
+    <string name="rb_N2019u_DK">Don’t Know</string>
+    <string name="rb_N2019u_RA">Refused to Answer</string>
+
     <string name="rb_N2020_1">Yes</string>
     <string name="rb_N2020_2">No</string>
-    <string name="rb_N2020_DK">Don’t know</string>
-    <string name="rb_N2020_RA">Refused to answer</string>
+    <string name="rb_N2020_DK">Don’t Know</string>
+    <string name="rb_N2020_RA">Refused to Answer</string>
+
     <string name="rb_N2021_1">Yes</string>
     <string name="rb_N2021_2">No</string>
-    <string name="rb_N2021_DK">Don’t know</string>
-    <string name="rb_N2021_RA">Refused to answer</string>
+    <string name="rb_N2021_DK">Don’t Know</string>
+    <string name="rb_N2021_RA">Refused to Answer</string>
 
     <string name="rb_N2022_1">Yes</string>
     <string name="rb_N2022_2">No</string>
-    <string name="rb_N2022_DK">Don’t know</string>
-    <string name="rb_N2022_RA">Refused to answer</string>
+    <string name="rb_N2022_DK">Don’t Know</string>
+    <string name="rb_N2022_RA">Refused to Answer</string>
 
     <string name="rb_N2022_1_1">Yes</string>
     <string name="rb_N2022_1_2">No</string>
-    <string name="rb_N2022_1_DK">Don’t know</string>
-    <string name="rb_N2022_1_RA">Refused to answer</string>
+    <string name="rb_N2022_1_DK">Don’t Know</string>
+    <string name="rb_N2022_1_RA">Refused to Answer</string>
+
     <string name="rb_N2022_2_1">Yes</string>
     <string name="rb_N2022_2_2">No</string>
-    <string name="rb_N2022_2_DK">Don’t know</string>
-    <string name="rb_N2022_2_RA">Refused to answer</string>
+    <string name="rb_N2022_2_DK">Don’t Know</string>
+    <string name="rb_N2022_2_RA">Refused to Answer</string>
+
     <string name="rb_N2022_3_1">Yes</string>
     <string name="rb_N2022_3_2">No</string>
-    <string name="rb_N2022_3_DK">Don’t know</string>
-    <string name="rb_N2022_3_RA">Refused to answer</string>
+    <string name="rb_N2022_3_DK">Don’t Know</string>
+    <string name="rb_N2022_3_RA">Refused to Answer</string>
+
     <string name="rb_N2024_1_1">Yes</string>
     <string name="rb_N2024_1_2">No</string>
-    <string name="rb_N2024_1_DK">Don’t know</string>
-    <string name="rb_N2024_1_RA">Refused to answer</string>
+    <string name="rb_N2024_1_DK">Don’t Know</string>
+    <string name="rb_N2024_1_RA">Refused to Answer</string>
+
     <string name="rb_N2025u_1">Days</string>
-    <string name="rb_N2025u_DK">Don’t know</string>
-    <string name="rb_N2025u_RA">Refused to answer</string>
+    <string name="rb_N2025u_DK">Don’t Know</string>
+    <string name="rb_N2025u_RA">Refused to Answer</string>
+
     <string name="rb_N2026_1">Yes</string>
     <string name="rb_N2026_2">No</string>
-    <string name="rb_N2026_DK">Don’t know</string>
-    <string name="rb_N2026_RA">Refused to answer</string>
+    <string name="rb_N2026_DK">Don’t Know</string>
+    <string name="rb_N2026_RA">Refused to Answer</string>
+
     <string name="rb_N2052_1">Yes</string>
     <string name="rb_N2052_2">No</string>
-    <string name="rb_N2052_DK">Don’t know</string>
+    <string name="rb_N2052_DK">Don’t Know</string>
+
     <string name="cb_N2053_1">Doctor </string>
     <string name="cb_N2053_2">Nurse / Midwife </string>
     <string name="cb_N2053_3">Auxiliary midwife </string>
@@ -426,22 +465,28 @@
 
     <string name="rb_N2057_1_1">Yes</string>
     <string name="rb_N2057_1_2">No</string>
-    <string name="rb_N2057_1_DK">Don’t know</string>
+    <string name="rb_N2057_1_DK">Don’t Know</string>
+
     <string name="rb_N2057_2_1">Yes</string>
     <string name="rb_N2057_2_2">No</string>
-    <string name="rb_N2057_2_DK">Don’t know</string>
+    <string name="rb_N2057_2_DK">Don’t Know</string>
+
     <string name="rb_N2057_3_1">Yes</string>
     <string name="rb_N2057_3_2">No</string>
-    <string name="rb_N2057_3_DK">Don’t know</string>
+    <string name="rb_N2057_3_DK">Don’t Know</string>
+
     <string name="rb_N2057_4_1">Yes</string>
     <string name="rb_N2057_4_2">No</string>
-    <string name="rb_N2057_4_DK">Don’t know</string>
+    <string name="rb_N2057_4_DK">Don’t Know</string>
+
     <string name="rb_N2057_5_1">Yes</string>
     <string name="rb_N2057_5_2">No</string>
-    <string name="rb_N2057_5_DK">Don’t know</string>
+    <string name="rb_N2057_5_DK">Don’t Know</string>
+
     <string name="rb_N2057_6_1">Yes</string>
     <string name="rb_N2057_6_2">No</string>
-    <string name="rb_N2057_6_DK">Don’t know</string>
+    <string name="rb_N2057_6_DK">Don’t Know</string>
+
     <string name="cb_N2058_1">Vaginal bleeding </string>
     <string name="cb_N2058_2">Convulsions/fits </string>
     <string name="cb_N2058_3">Severe headache with blurred vision </string>
@@ -452,66 +497,82 @@
     <string name="cb_N2058_8">Broken water for 12 hours or more </string>
     <string name="cb_N2058_9">Bloody, sticky discharge 12 hrs or more </string>
     <string name="cb_N2058_10">No immediate danger sign mentioned </string>
+
     <string name="rb_N2059_1">Yes</string>
     <string name="rb_N2059_2">No</string>
-    <string name="rb_N2059_DK">Don’t know</string>
+    <string name="rb_N2059_DK">Don’t Know</string>
+
     <string name="rb_N2061_1">Yes</string>
     <string name="rb_N2061_2">No</string>
-    <string name="rb_N2061_DK">Don’t know</string>
+    <string name="rb_N2061_DK">Don’t Know</string>
+
     <string name="rb_N2063_1">Yes, usually or always</string>
     <string name="rb_N2063_2">Yes, sometimes</string>
     <string name="rb_N2063_3">Never</string>
-    <string name="rb_N2063_DK">Don’t know</string>
+    <string name="rb_N2063_DK">Don’t Know</string>
+
     <string name="rb_N2064_1">Yes</string>
     <string name="rb_N2064_2">No</string>
-    <string name="rb_N2064_DK">Don’t know</string>
+    <string name="rb_N2064_DK">Don’t Know</string>
+
     <string name="rb_N2066_1">Yes</string>
     <string name="rb_N2066_2">No</string>
-    <string name="rb_N2066_DK">Don’t know</string>
-    <string name="rb_N2066_RA">Refused to answer</string>
+    <string name="rb_N2066_DK">Don’t Know</string>
+    <string name="rb_N2066_RA">Refused to Answer</string>
+
     <string name="rb_N2069_1_1">Yes</string>
     <string name="rb_N2069_1_2">No</string>
-    <string name="rb_N2069_1_DK">Don’t know</string>
-    <string name="rb_N2069_1_RA">Refused to answer</string>
+    <string name="rb_N2069_1_DK">Don’t Know</string>
+    <string name="rb_N2069_1_RA">Refused to Answer</string>
+
     <string name="rb_N2069_2_1">Yes</string>
     <string name="rb_N2069_2_2">No</string>
-    <string name="rb_N2069_2_DK">Don’t know</string>
-    <string name="rb_N2069_2_RA">Refused to answer</string>
+    <string name="rb_N2069_2_DK">Don’t Know</string>
+    <string name="rb_N2069_2_RA">Refused to Answer</string>
+
     <string name="rb_N2069_3_1">Yes</string>
     <string name="rb_N2069_3_2">No</string>
-    <string name="rb_N2069_3_DK">Don’t know</string>
-    <string name="rb_N2069_3_RA">Refused to answer</string>
+    <string name="rb_N2069_3_DK">Don’t Know</string>
+    <string name="rb_N2069_3_RA">Refused to Answer</string>
+
     <string name="rb_N2070_1">Yes</string>
     <string name="rb_N2070_2">No</string>
-    <string name="rb_N2070_DK">Don’t know</string>
-    <string name="rb_N2070_RA">Refused to answer</string>
+    <string name="rb_N2070_DK">Don’t Know</string>
+    <string name="rb_N2070_RA">Refused to Answer</string>
+
     <string name="rb_N2071_1">Before</string>
     <string name="rb_N2071_2">During</string>
-    <string name="rb_N2071_DK"> Don’t know</string>
-    <string name="rb_N2071_RA">Refused to answer</string>
+    <string name="rb_N2071_DK">Don’t Know</string>
+    <string name="rb_N2071_RA">Refused to Answer</string>
+
     <string name="rb_N2073_1">Yes</string>
     <string name="rb_N2073_2">No</string>
-    <string name="rb_N2073_DK">Don’t know</string>
-    <string name="rb_N2073_RA">Refused to answer</string>
+    <string name="rb_N2073_DK">Don’t Know</string>
+    <string name="rb_N2073_RA">Refused to Answer</string>
+
     <string name="rb_N2074_1">Green or brown</string>
     <string name="rb_N2074_2">Clear (normal)</string>
-    <string name="rb_N2074_Ot">Other (specify) </string>
-    <string name="rb_N2074_DK">Don’t know</string>
-    <string name="rb_N2074_RA">Refused to answer</string>
+    <string name="rb_N2074_OT">Other (Specify) </string>
+    <string name="rb_N2074_DK">Don’t Know</string>
+    <string name="rb_N2074_RA">Refused to Answer</string>
+
     <string name="rb_N2075_1">Yes</string>
     <string name="rb_N2075_2">No</string>
-    <string name="rb_N2075_DK">Don’t know</string>
-    <string name="rb_N2075_RA">Refused to answer</string>
+    <string name="rb_N2075_DK">Don’t Know</string>
+    <string name="rb_N2075_RA">Refused to Answer</string>
+
     <string name="rb_N2076_1">The woman, herself </string>
     <string name="rb_N2076_2">Her husband/partner </string>
     <string name="rb_N2076_3">The woman and her husband/partner    jointly</string>
     <string name="rb_N2076_4">The woman’s mother</string>
     <string name="rb_N2076_5">The woman’s mother-in-law</string>
     <string name="rb_N2076_6">Someone else (specify)</string>
-    <string name="rb_N2076_DK">Don’t know</string>
+    <string name="rb_N2076_DK">Don’t Know</string>
+
     <string name="rb_N2077_1">Yes</string>
     <string name="rb_N2077_2">No</string>
-    <string name="rb_N2077_DK">Don’t know</string>
+    <string name="rb_N2077_DK">Don’t Know</string>
+
     <string name="cb_N2078_1">Did not think she was sick enough to need health care </string>
     <string name="cb_N2078_2">No one available to go with her </string>
     <string name="cb_N2078_3">Too much time from her regular duties </string>
@@ -530,72 +591,87 @@
 
     <string name="rb_N2080_1_1">Yes</string>
     <string name="rb_N2080_1_2">No</string>
-    <string name="rb_N2080_1_DK">Don’t know</string>
-    <string name="rb_N2080_1_RA">Refused to answer</string>
+    <string name="rb_N2080_1_DK">Don’t Know</string>
+    <string name="rb_N2080_1_RA">Refused to Answer</string>
+
     <string name="rb_N2080_2_1">Yes</string>
     <string name="rb_N2080_2_2">No</string>
-    <string name="rb_N2080_2_DK">Don’t know</string>
-    <string name="rb_N2080_2_RA">Refused to answer</string>
+    <string name="rb_N2080_2_DK">Don’t Know</string>
+    <string name="rb_N2080_2_RA">Refused to Answer</string>
+
     <string name="rb_N2080_3_1">Yes</string>
     <string name="rb_N2080_3_2">No</string>
-    <string name="rb_N2080_3_DK">Don’t know</string>
-    <string name="rb_N2080_3_RA">Refused to answer</string>
+    <string name="rb_N2080_3_DK">Don’t Know</string>
+    <string name="rb_N2080_3_RA">Refused to Answer</string>
+
     <string name="rb_N2080_4_1">Yes</string>
     <string name="rb_N2080_4_2">No</string>
-    <string name="rb_N2080_4_DK">Don’t know</string>
-    <string name="rb_N2080_4_RA">Refused to answer</string>
+    <string name="rb_N2080_4_DK">Don’t Know</string>
+    <string name="rb_N2080_4_RA">Refused to Answer</string>
+
     <string name="rb_N2080_5_1">Yes</string>
     <string name="rb_N2080_5_2">No</string>
-    <string name="rb_N2080_5_DK">Don’t know</string>
-    <string name="rb_N2080_5_RA">Refused to answer</string>
+    <string name="rb_N2080_5_DK">Don’t Know</string>
+    <string name="rb_N2080_5_RA">Refused to Answer</string>
+
     <string name="rb_N2080_6_1">Yes</string>
     <string name="rb_N2080_6_2">No</string>
-    <string name="rb_N2080_6_DK">Don’t know</string>
-    <string name="rb_N2080_6_RA">Refused to answer</string>
+    <string name="rb_N2080_6_DK">Don’t Know</string>
+    <string name="rb_N2080_6_RA">Refused to Answer</string>
+
     <string name="rb_N2080_7_1">Yes</string>
     <string name="rb_N2080_7_2">No</string>
-    <string name="rb_N2080_7_DK">Don’t know</string>
-    <string name="rb_N2080_7_RA">Refused to answer</string>
+    <string name="rb_N2080_7_DK">Don’t Know</string>
+    <string name="rb_N2080_7_RA">Refused to Answer</string>
+
     <string name="rb_N2080_8_1">Yes</string>
     <string name="rb_N2080_8_2">No</string>
-    <string name="rb_N2080_8_DK">Don’t know</string>
-    <string name="rb_N2080_8_RA">Refused to answer</string>
+    <string name="rb_N2080_8_DK">Don’t Know</string>
+    <string name="rb_N2080_8_RA">Refused to Answer</string>
+
     <string name="rb_N2080_9_1">Yes</string>
     <string name="rb_N2080_9_2">No</string>
-    <string name="rb_N2080_9_DK">Don’t know</string>
-    <string name="rb_N2080_9_RA">Refused to answer</string>
+    <string name="rb_N2080_9_DK">Don’t Know</string>
+    <string name="rb_N2080_9_RA">Refused to Answer</string>
+
     <string name="rb_N2080_10_1">Yes</string>
     <string name="rb_N2080_10_2">No</string>
-    <string name="rb_N2080_10_DK">Don’t know</string>
-    <string name="rb_N2080_10_RA">Refused to answer</string>
+    <string name="rb_N2080_10_DK">Don’t Know</string>
+    <string name="rb_N2080_10_RA">Refused to Answer</string>
+
     <string name="rb_N2080_11_1">Yes</string>
     <string name="rb_N2080_11_2">No</string>
-    <string name="rb_N2080_11_DK">Don’t know</string>
-    <string name="rb_N2080_11_RA">Refused to answer</string>
+    <string name="rb_N2080_11_DK">Don’t Know</string>
+    <string name="rb_N2080_11_RA">Refused to Answer</string>
+
     <string name="rb_N2080_12_1">Yes</string>
     <string name="rb_N2080_12_2">No</string>
-    <string name="rb_N2080_12_DK">Don’t know</string>
-    <string name="rb_N2080_12_RA">Refused to answer</string>
+    <string name="rb_N2080_12_DK">Don’t Know</string>
+    <string name="rb_N2080_12_RA">Refused to Answer</string>
+
     <string name="rb_N2080_13_1">Yes</string>
     <string name="rb_N2080_13_2">No</string>
-    <string name="rb_N2080_13_DK">Don’t know</string>
-    <string name="rb_N2080_13_RA">Refused to answer</string>
+    <string name="rb_N2080_13_DK">Don’t Know</string>
+    <string name="rb_N2080_13_RA">Refused to Answer</string>
+
     <string name="rb_N2080_14_1">Yes</string>
     <string name="rb_N2080_14_2">No</string>
-    <string name="rb_N2080_14_DK">Don’t know</string>
-    <string name="rb_N2080_14_RA">Refused to answer</string>
+    <string name="rb_N2080_14_DK">Don’t Know</string>
+    <string name="rb_N2080_14_RA">Refused to Answer</string>
+
     <string name="rb_N2080_15_1">Yes</string>
     <string name="rb_N2080_15_2">No</string>
-    <string name="rb_N2080_15_DK">Don’t know</string>
-    <string name="rb_N2080_15_RA">Refused to answer</string>
+    <string name="rb_N2080_15_DK">Don’t Know</string>
+    <string name="rb_N2080_15_RA">Refused to Answer</string>
+
     <string name="rb_N2080_16_1">Yes</string>
     <string name="rb_N2080_16_2">No</string>
-    <string name="rb_N2080_16_DK">Don’t know</string>
-    <string name="rb_N2080_16_RA">Refused to answer</string>
+    <string name="rb_N2080_16_DK">Don’t Know</string>
+    <string name="rb_N2080_16_RA">Refused to Answer</string>
 
     <string name="rb_N2081_1">Yes</string>
     <string name="rb_N2081_2">No</string>
-    <string name="rb_N2081_DK">Don’t know</string>
+    <string name="rb_N2081_DK">Don’t Know</string>
     <string name="cb_N2082_1">Hospital </string>
     <string name="cb_N2082_2">NGO or government clinic </string>
     <string name="cb_N2082_3">Private doctor/clinic </string>
@@ -606,7 +682,7 @@
     <string name="cb_N2082_DK">Don’t know </string>
     <string name="rb_N2083_1">Yes</string>
     <string name="rb_N2083_2">No</string>
-    <string name="rb_N2083_DK">Don’t know</string>
+    <string name="rb_N2083_DK">Don’t Know</string>
     <string name="rb_N2084_1">Convulsions</string>
     <string name="rb_N2084_2">High blood pressure</string>
     <string name="rb_N2084_3">Severe anemia or (pallor and SOB)</string>
@@ -621,10 +697,11 @@
     <string name="rb_N2084_12">Fever</string>
     <string name="rb_N2084_13">Smelly vaginal discharge</string>
     <string name="rb_N2084_14">Water broke >6 hrs bfr. labor</string>
+    <string name="rb_N2084_OT">Other(Specify)</string>
 
     <string name="rb_N2085_1">Yes</string>
     <string name="rb_N2085_2">No</string>
-    <string name="rb_N2085_DK">Don’t know</string>
+    <string name="rb_N2085_DK">Don’t Know</string>
     <string name="cb_N2086_1">Did not think was sick enough to need health care </string>
     <string name="cb_N2086_2">No one available to go with her </string>
     <string name="cb_N2086_3">Too much time from her regular duties </string>
@@ -641,93 +718,111 @@
     <string name="cb_N2086_DK">Don’t know </string>
     <string name="rb_N2087_1">Yes</string>
     <string name="rb_N2087_2">No</string>
-    <string name="rb_N2087_DK">Don’t know</string>
+    <string name="rb_N2087_DK">Don’t Know</string>
 
     <string name="rb_N2088_1_1">Yes</string>
     <string name="rb_N2088_1_2">No</string>
-    <string name="rb_N2088_1_DK">Don’t know</string>
-    <string name="rb_N2088_1_RA">Refused to answer</string>
+    <string name="rb_N2088_1_DK">Don’t Know</string>
+    <string name="rb_N2088_1_RA">Refused to Answer</string>
+
     <string name="rb_N2088_2_1">Yes</string>
     <string name="rb_N2088_2_2">No</string>
-    <string name="rb_N2088_2_DK">Don’t know</string>
-    <string name="rb_N2088_2_RA">Refused to answer</string>
+    <string name="rb_N2088_2_DK">Don’t Know</string>
+    <string name="rb_N2088_2_RA">Refused to Answer</string>
+
     <string name="rb_N2088_3_1">Yes</string>
     <string name="rb_N2088_3_2">No</string>
-    <string name="rb_N2088_3_DK">Don’t know</string>
-    <string name="rb_N2088_3_RA">Refused to answer</string>
+    <string name="rb_N2088_3_DK">Don’t Know</string>
+    <string name="rb_N2088_3_RA">Refused to Answer</string>
+
     <string name="rb_N2088_4_1">Yes</string>
     <string name="rb_N2088_4_2">No</string>
-    <string name="rb_N2088_4_DK">Don’t know</string>
-    <string name="rb_N2088_4_RA">Refused to answer</string>
+    <string name="rb_N2088_4_DK">Don’t Know</string>
+    <string name="rb_N2088_4_RA">Refused to Answer</string>
+
     <string name="rb_N2088_5_1">Yes</string>
     <string name="rb_N2088_5_2">No</string>
-    <string name="rb_N2088_5_DK">Don’t know</string>
-    <string name="rb_N2088_5_RA">Refused to answer</string>
+    <string name="rb_N2088_5_DK">Don’t Know</string>
+    <string name="rb_N2088_5_RA">Refused to Answer</string>
+
     <string name="rb_N2088_6_1">Yes</string>
     <string name="rb_N2088_6_2">No</string>
-    <string name="rb_N2088_6_DK">Don’t know</string>
-    <string name="rb_N2088_6_RA">Refused to answer</string>
+    <string name="rb_N2088_6_DK">Don’t Know</string>
+    <string name="rb_N2088_6_RA">Refused to Answer</string>
+
     <string name="rb_N2088_7_1">Yes</string>
     <string name="rb_N2088_7_2">No</string>
-    <string name="rb_N2088_7_DK">Don’t know</string>
-    <string name="rb_N2088_7_RA">Refused to answer</string>
+    <string name="rb_N2088_7_DK">Don’t Know</string>
+    <string name="rb_N2088_7_RA">Refused to Answer</string>
+
     <string name="rb_N2088_8_1">Yes</string>
     <string name="rb_N2088_8_2">No</string>
-    <string name="rb_N2088_8_DK">Don’t know</string>
-    <string name="rb_N2088_8_RA">Refused to answer</string>
+    <string name="rb_N2088_8_DK">Don’t Know</string>
+    <string name="rb_N2088_8_RA">Refused to Answer</string>
+
     <string name="rb_N2088_9_1">Yes</string>
     <string name="rb_N2088_9_2">No</string>
-    <string name="rb_N2088_9_DK">Don’t know</string>
-    <string name="rb_N2088_9_RA">Refused to answer</string>
+    <string name="rb_N2088_9_DK">Don’t Know</string>
+    <string name="rb_N2088_9_RA">Refused to Answer</string>
+
     <string name="rb_N2088_10_1">Yes</string>
     <string name="rb_N2088_10_2">No</string>
-    <string name="rb_N2088_10_DK">Don’t know</string>
-    <string name="rb_N2088_10_RA">Refused to answer</string>
+    <string name="rb_N2088_10_DK">Don’t Know</string>
+    <string name="rb_N2088_10_RA">Refused to Answer</string>
+
     <string name="rb_N2088_11_1">Yes</string>
     <string name="rb_N2088_11_2">No</string>
-    <string name="rb_N2088_11_DK">Don’t know</string>
-    <string name="rb_N2088_11_RA">Refused to answer</string>
+    <string name="rb_N2088_11_DK">Don’t Know</string>
+    <string name="rb_N2088_11_RA">Refused to Answer</string>
+
     <string name="rb_N2088_12_1">Yes</string>
     <string name="rb_N2088_12_2">No</string>
-    <string name="rb_N2088_12_DK">Don’t know</string>
-    <string name="rb_N2088_12_RA">Refused to answer</string>
+    <string name="rb_N2088_12_DK">Don’t Know</string>
+    <string name="rb_N2088_12_RA">Refused to Answer</string>
+
     <string name="rb_N2088_13_1">Yes</string>
     <string name="rb_N2088_13_2">No</string>
-    <string name="rb_N2088_13_DK">Don’t know</string>
-    <string name="rb_N2088_13_RA">Refused to answer</string>
+    <string name="rb_N2088_13_DK">Don’t Know</string>
+    <string name="rb_N2088_13_RA">Refused to Answer</string>
+
     <string name="rb_N2088_14_1">Yes</string>
     <string name="rb_N2088_14_2">No</string>
-    <string name="rb_N2088_14_DK">Don’t know</string>
-    <string name="rb_N2088_14_RA">Refused to answer</string>
+    <string name="rb_N2088_14_DK">Don’t Know</string>
+    <string name="rb_N2088_14_RA">Refused to Answer</string>
+
     <string name="rb_N2088_15_1">Yes</string>
     <string name="rb_N2088_15_2">No</string>
-    <string name="rb_N2088_15_DK">Don’t know</string>
-    <string name="rb_N2088_15_RA">Refused to answer</string>
+    <string name="rb_N2088_15_DK">Don’t Know</string>
+    <string name="rb_N2088_15_RA">Refused to Answer</string>
+
     <string name="rb_N2088_16_1">Yes</string>
     <string name="rb_N2088_16_2">No</string>
-    <string name="rb_N2088_16_DK">Don’t know</string>
-    <string name="rb_N2088_16_RA">Refused to answer</string>
+    <string name="rb_N2088_16_DK">Don’t Know</string>
+    <string name="rb_N2088_16_RA">Refused to Answer</string>
+
     <string name="rb_N2088_17_1">Yes</string>
     <string name="rb_N2088_17_2">No</string>
-    <string name="rb_N2088_17_DK">Don’t know</string>
-    <string name="rb_N2088_17_RA">Refused to answer</string>
+    <string name="rb_N2088_17_DK">Don’t Know</string>
+    <string name="rb_N2088_17_RA">Refused to Answer</string>
+
     <string name="rb_N2088_18_1">Yes</string>
     <string name="rb_N2088_18_2">No</string>
-    <string name="rb_N2088_18_DK">Don’t know</string>
-    <string name="rb_N2088_18_RA">Refused to answer</string>
+    <string name="rb_N2088_18_DK">Don’t Know</string>
+    <string name="rb_N2088_18_RA">Refused to Answer</string>
+
     <string name="rb_N2088_19_1">Yes</string>
     <string name="rb_N2088_19_2">No</string>
-    <string name="rb_N2088_19_DK">Don’t know</string>
-    <string name="rb_N2088_19_RA">Refused to answer</string>
+    <string name="rb_N2088_19_DK">Don’t Know</string>
+    <string name="rb_N2088_19_RA">Refused to Answer</string>
 
     <string name="rb_N2089_1">Home (without a trained community nurse or midwife)</string>
     <string name="rb_N2089_2">On route to a health provider or facility</string>
     <string name="rb_N2089_3">At home with a trained community nurse or midwife who came to attend her normal labor, or at the health provider or facility where she went for normal labor</string>
     <string name="rb_N2089_OT">Other (specify) </string>
-    <string name="rb_N2089_DK">Don’t know</string>
+    <string name="rb_N2089_DK">Don’t Know</string>
     <string name="rb_N2090_1">Yes</string>
     <string name="rb_N2090_2">No</string>
-    <string name="rb_N2090_DK">Don’t know</string>
+    <string name="rb_N2090_DK">Don’t Know</string>
     <string name="cb_N2091_1">Hospital </string>
     <string name="cb_N2091_2">NGO or government clinic </string>
     <string name="cb_N2091_3">Private doctor/clinic </string>
@@ -742,7 +837,7 @@
     <string name="rb_N2092_4">The woman’s mother</string>
     <string name="rb_N2092_5">The woman’s mother-in-law</string>
     <string name="rb_N2092_6">Someone else (specify) </string>
-    <string name="rb_N2092_DK">Don’t know</string>
+    <string name="rb_N2092_DK">Don’t Know</string>
     <string name="rb_N2093_1">Respondent’s home</string>
     <string name="rb_N2093_2">Other home</string>
     <string name="rb_N2093_3">Respondent’s home</string>
@@ -757,10 +852,10 @@
     <string name="rb_N2093_12">Other private medical (specify) </string>
     <string name="rb_N2093_13">On route to a health provider or facility</string>
     <string name="rb_N2093_OT">Other (specify) </string>
-    <string name="rb_N2093_DK">Don’t know</string>
+    <string name="rb_N2093_DK">Don’t Know</string>
     <string name="rb_N2095_1">Yes</string>
     <string name="rb_N2095_2">No</string>
-    <string name="rb_N2095_DK">Don’t know</string>
+    <string name="rb_N2095_DK">Don’t Know</string>
     <string name="cb_N2096_1">Convulsions</string>
     <string name="cb_N2096_2">High blood pressure</string>
     <string name="cb_N2096_3">Severe anemia or (pallor and SOB)</string>
@@ -791,10 +886,10 @@
     <string name="rb_N2098_10">Other private medical (specify) </string>
     <string name="rb_N2098_11">On route to a health provider or facility</string>
     <string name="rb_N2098_OT">Other (specify) </string>
-    <string name="rb_N2098_DK">Don’t know</string>
+    <string name="rb_N2098_DK">Don’t Know</string>
     <string name="rb_N2099_1">Yes</string>
     <string name="rb_N2099_2">No</string>
-    <string name="rb_N2099_DK">Don’t know</string>
+    <string name="rb_N2099_DK">Don’t Know</string>
     <string name="cb_N2100_1">Had available </string>
     <string name="cb_N2100_2">Borrowed </string>
     <string name="cb_N2100_3">Sold assets </string>
@@ -814,28 +909,31 @@
     <string name="rb_N2102_1">Yes, reached before delivering</string>
     <string name="rb_N2102_2">No, delivered on route to the last provider / before the last provider reached the mother</string>
     <string name="rb_N2102_3">No, could not reach the last provider, so returned home and delivered without a health provider</string>
-    <string name="rb_N2102_DK">Don’t know</string>
+    <string name="rb_N2102_DK">Don’t Know</string>
     <string name="rb_N2104_1">Yes</string>
     <string name="rb_N2104_2">No</string>
-    <string name="rb_N2104_DK">Don’t know</string>
+    <string name="rb_N2104_DK">Don’t Know</string>
     <string name="rb_N2105_1">Yes</string>
     <string name="rb_N2105_2">No</string>
-    <string name="rb_N2105_DK">Don’t know</string>
+    <string name="rb_N2105_DK">Don’t Know</string>
     <string name="rb_N2106_1">Yes</string>
     <string name="rb_N2106_2">No</string>
-    <string name="rb_N2106_DK">Don’t know</string>
+    <string name="rb_N2106_DK">Don’t Know</string>
 
     <string name="rb_N2107_1_1">Yes</string>
     <string name="rb_N2107_1_2">No</string>
-    <string name="rb_N2107_1_DK">Don’t know</string>
-    <string name="rb_N2107_1_RA">Refused to answer</string>
+    <string name="rb_N2107_1_DK">Don’t Know</string>
+    <string name="rb_N2107_1_RA">Refused to Answer</string>
+
     <string name="rb_N2107_2_1">Yes</string>
     <string name="rb_N2107_2_2">No</string>
-    <string name="rb_N2107_2_DK">Don’t know</string>
-    <string name="rb_N2107_2_RA">Refused to answer</string>
+    <string name="rb_N2107_2_DK">Don’t Know</string>
+    <string name="rb_N2107_2_RA">Refused to Answer</string>
+
     <string name="rb_N2107_3_1">Yes</string>
     <string name="rb_N2107_3_2">No</string>
-    <string name="rb_N2107_3_DK">Don’t know</string>
+    <string name="rb_N2107_3_DK">Don’t Know</string>
+    <string name="rb_N2107_3_RA">جواب دینے سے انکار کردیا</string>
 
 
     <!-- Questions starts  .....................  -->
@@ -945,6 +1043,7 @@
     <string name="txt_N2313_10">N2313_10: Patron/employer/benefactor</string>
     <string name="txt_N2313_11">N2313_11: Police</string>
     <string name="txt_N2313_OT">N2313_OT: Other (specify)</string>
+    <string name="txt_N2313_13">The Following Code</string>
 
 
     <string name="txt_N2314">N2314:  Did the child ever have a positive HIV test?	</string>
@@ -953,46 +1052,56 @@
     <string name="txt_N2317">N2317:  Was there any diagnosis by a health professional that (you / the child’s biological mother) had AIDS?	</string>
     <string name="txt_N2321">N2321:  Write the respondent’s exact words. After s/he has finished, read this back and ask her to correct any errors in what you wrote.	</string>
     <string name="txt_N2322">N2322:  Are any of the following words of interest mentioned in the above narrative?	</string>
+    <string name="txt_N2323">:	N2323</string>
 
 
     <!-- Responcestxt_ XML .....................  -->
 
     <string name="rb_N2251_1">Yes</string>
     <string name="rb_N2251_2">No</string>
-    <string name="rb_N2251_DK">Don’t know</string>
-    <string name="rb_N2251_RA">Refused to answer</string>
+    <string name="rb_N2251_DK">Don’t Know</string>
+    <string name="rb_N2251_RA">Refused to Answer</string>
+
     <string name="rb_N2252_1_1">Yes</string>
     <string name="rb_N2252_1_2">No</string>
-    <string name="rb_N2252_1_DK">Don’t know</string>
-    <string name="rb_N2252_1_RA">Refused to answer</string>
+    <string name="rb_N2252_1_DK">Don’t Know</string>
+    <string name="rb_N2252_1_RA">Refused to Answer</string>
+
     <string name="rb_N2252_2_1">Yes</string>
     <string name="rb_N2252_2_2">No</string>
-    <string name="rb_N2252_2_DK">Don’t know</string>
-    <string name="rb_N2252_2_RA">Refused to answer</string>
+    <string name="rb_N2252_2_DK">Don’t Know</string>
+    <string name="rb_N2252_2_RA">Refused to Answer</string>
+
     <string name="rb_N2252_3_1">Yes</string>
     <string name="rb_N2252_3_2">No</string>
-    <string name="rb_N2252_3_DK">Don’t know</string>
-    <string name="rb_N2252_3_RA">Refused to answer</string>
+    <string name="rb_N2252_3_DK">Don’t Know</string>
+    <string name="rb_N2252_3_RA">Refused to Answer</string>
+
     <string name="rb_N2252_4_1">Yes</string>
     <string name="rb_N2252_4_2">No</string>
-    <string name="rb_N2252_4_DK">Don’t know</string>
-    <string name="rb_N2252_4_RA">Refused to answer</string>
+    <string name="rb_N2252_4_DK">Don’t Know</string>
+    <string name="rb_N2252_4_RA">Refused to Answer</string>
+
     <string name="rb_N2252_5_1">Yes</string>
     <string name="rb_N2252_5_2">No</string>
-    <string name="rb_N2252_5_DK">Don’t know</string>
-    <string name="rb_N2252_5_RA">Refused to answer</string>
+    <string name="rb_N2252_5_DK">Don’t Know</string>
+    <string name="rb_N2252_5_RA">Refused to Answer</string>
+
     <string name="rb_N2252_6_1">Yes</string>
     <string name="rb_N2252_6_2">No</string>
-    <string name="rb_N2252_6_DK">Don’t know</string>
-    <string name="rb_N2252_6_RA">Refused to answer</string>
+    <string name="rb_N2252_6_DK">Don’t Know</string>
+    <string name="rb_N2252_6_RA">Refused to Answer</string>
+
     <string name="rb_N2252_7_1">Yes</string>
     <string name="rb_N2252_7_2">No</string>
-    <string name="rb_N2252_7_DK">Don’t know</string>
-    <string name="rb_N2252_7_RA">Refused to answer</string>
+    <string name="rb_N2252_7_DK">Don’t Know</string>
+    <string name="rb_N2252_7_RA">Refused to Answer</string>
+
     <string name="rb_N2253_1">Yes</string>
     <string name="rb_N2253_2">No</string>
-    <string name="rb_N2253_DK">Don’t know</string>
-    <string name="rb_N2253_RA">Refused to answer</string>
+    <string name="rb_N2253_DK">Don’t Know</string>
+    <string name="rb_N2253_RA">Refused to Answer</string>
+
     <string name="rb_N2254_1">Yes</string>
     <string name="rb_N2254_2">No</string>
     <string name="rb_N2255_1check_1">Yes</string>
@@ -1001,122 +1110,125 @@
     <string name="rb_N2255_2check_2">No</string>
     <string name="rb_N2259_1">Yes</string>
     <string name="rb_N2259_2">No</string>
-    <string name="rb_N2259_DK">Don’t know</string>
-    <string name="rb_N2259_RA">Refused to answer</string>
+    <string name="rb_N2259_DK">Don’t Know</string>
+    <string name="rb_N2259_RA">Refused to Answer</string>
+
     <string name="rb_N2271_1">Yes</string>
     <string name="rb_N2271_2">No</string>
-    <string name="rb_N2271_DK">Don’t know</string>
-    <string name="rb_N2271_RA">Refused to answer</string>
+    <string name="rb_N2271_DK">Don’t Know</string>
+    <string name="rb_N2271_RA">Refused to Answer</string>
+
     <string name="rb_N2272_1">Yes</string>
     <string name="rb_N2272_2">No</string>
     <string name="rb_N2283_1">Yes, card seen</string>
     <string name="rb_N2283_2">Yes, card not seen</string>
     <string name="rb_N2283_3">No registration</string>
-    <string name="rb_N2283_DK">Don’t know</string>
-    <string name="rb_N2283_RA">Refused to answer</string>
+    <string name="rb_N2283_DK">Don’t Know</string>
+    <string name="rb_N2283_RA">Refused to Answer</string>
+
     <string name="rb_N2292_1">Yes</string>
     <string name="rb_N2292_2">No</string>
-    <string name="rb_N2292_DK">Don’t know</string>
+    <string name="rb_N2292_DK">Don’t Know</string>
     <string name="rb_N2293_1">Primary</string>
     <string name="rb_N2293_2">Secondary</string>
     <string name="rb_N2293_3">Higher</string>
-    <string name="rb_N2293_DK">Don’t know</string>
+    <string name="rb_N2293_DK">Don’t Know</string>
     <string name="rb_N2295_1">Yes, married</string>
     <string name="rb_N2295_2">Yes, living with a man</string>
     <string name="rb_N2295_3">No, not in union</string>
     <string name="rb_N2295_4">No, mother was deceased then</string>
-    <string name="rb_N2295_DK">Don’t know</string>
+    <string name="rb_N2295_DK">Don’t Know</string>
     <string name="rb_N2297_1">Yes</string>
     <string name="rb_N2297_2">No</string>
-    <string name="rb_N2297_DK">Don’t know</string>
+    <string name="rb_N2297_DK">Don’t Know</string>
     <string name="rb_N2298_1">Primary</string>
     <string name="rb_N2298_2">Secondary</string>
     <string name="rb_N2298_3">Higher</string>
-    <string name="rb_N2298_DK">Don’t know</string>
+    <string name="rb_N2298_DK">Don’t Know</string>
     <string name="rb_N2300_1">Yes</string>
     <string name="rb_N2300_2">No</string>
-    <string name="rb_N2300_DK">Don’t know</string>
+    <string name="rb_N2300_DK">Don’t Know</string>
     <string name="rb_N2301_1">Her/His own home at that time (different from the current location)</string>
     <string name="rb_N2301_2">Her/His in-law’s home</string>
     <string name="rb_N2301_3">Her/His parent’s home</string>
     <string name="rb_N2301_4">Her/His brother’s home</string>
     <string name="ed_N2301_OT">Other (specify) </string>
-    <string name="rb_N2301_DK">Don’t know</string>
+    <string name="rb_N2301_DK">Don’t Know</string>
 
     <string name="rb_N2311_1_1">Yes</string>
     <string name="rb_N2311_1_2">No</string>
-    <string name="rb_N2311_1_DK">Don’t know</string>
+    <string name="rb_N2311_1_DK">Don’t Know</string>
     <string name="rb_N2311_2_1">Yes</string>
     <string name="rb_N2311_2_2">No</string>
-    <string name="rb_N2311_2_DK">Don’t know</string>
+    <string name="rb_N2311_2_DK">Don’t Know</string>
     <string name="rb_N2311_3_1">Yes</string>
     <string name="rb_N2311_3_2">No</string>
-    <string name="rb_N2311_3_DK">Don’t know</string>
+    <string name="rb_N2311_3_DK">Don’t Know</string>
     <string name="rb_N2311_4_1">Yes</string>
     <string name="rb_N2311_4_2">No</string>
-    <string name="rb_N2311_4_DK">Don’t know</string>
+    <string name="rb_N2311_4_DK">Don’t Know</string>
     <string name="rb_N2311_5_1">Yes</string>
     <string name="rb_N2311_5_2">No</string>
-    <string name="rb_N2311_5_DK">Don’t know</string>
+    <string name="rb_N2311_5_DK">Don’t Know</string>
     <string name="rb_N2311_6_1">Yes</string>
     <string name="rb_N2311_6_2">No</string>
-    <string name="rb_N2311_6_DK">Don’t know</string>
+    <string name="rb_N2311_6_DK">Don’t Know</string>
     <string name="rb_N2311_7_1">Yes</string>
     <string name="rb_N2311_7_2">No</string>
-    <string name="rb_N2311_7_DK">Don’t know</string>
+    <string name="rb_N2311_7_DK">Don’t Know</string>
     <string name="rb_N2311_8_1">Yes</string>
     <string name="rb_N2311_8_2">No</string>
-    <string name="rb_N2311_8_DK">Don’t know</string>
+    <string name="rb_N2311_8_DK">Don’t Know</string>
     <string name="rb_N2311_9_1">Yes</string>
     <string name="rb_N2311_9_2">No</string>
-    <string name="rb_N2311_9_DK">Don’t know</string>
+    <string name="rb_N2311_9_DK">Don’t Know</string>
     <string name="rb_N2311_10_1">Yes</string>
     <string name="rb_N2311_10_2">No</string>
-    <string name="rb_N2311_10_DK">Don’t know</string>
+    <string name="rb_N2311_10_DK">Don’t Know</string>
     <string name="rb_N2311_11_1">Yes</string>
     <string name="rb_N2311_11_2">No</string>
-    <string name="rb_N2311_11_DK">Don’t know</string>
+    <string name="rb_N2311_11_DK">Don’t Know</string>
     <string name="rb_N2311_12_1">Yes</string>
     <string name="rb_N2311_12_2">No</string>
-    <string name="rb_N2311_12_DK">Don’t know</string>
+    <string name="rb_N2311_12_DK">Don’t Know</string>
     <string name="rb_N2311_OT_1">Yes</string>
     <string name="rb_N2311_OT_2">No</string>
-    <string name="rb_N2311_OT_DK">Don’t know</string>
-    <string name="ed_N2311_OT">Other (Specify)</string>
+    <string name="rb_N2311_OT_DK">Don’t Know</string>
+    <string name="rb_N2311_OT">Other (Specify)</string>
     <string name="rb_N2311_14_1">One or more issues identified</string>
     <string name="rb_N2311_14_2">No issue identified</string>
 
     <string name="rb_N2312_1_1">Yes</string>
     <string name="rb_N2312_1_2">No</string>
-    <string name="rb_N2312_1_DK">Don’t know</string>
+    <string name="rb_N2312_1_DK">Don’t Know</string>
     <string name="rb_N2312_2_1">Yes</string>
     <string name="rb_N2312_2_2">No</string>
-    <string name="rb_N2312_2_DK">Don’t know</string>
+    <string name="rb_N2312_2_DK">Don’t Know</string>
     <string name="rb_N2312_3_1">Yes</string>
     <string name="rb_N2312_3_2">No</string>
-    <string name="rb_N2312_3_DK">Don’t know</string>
+    <string name="rb_N2312_3_DK">Don’t Know</string>
     <string name="rb_N2312_4_1">Yes</string>
     <string name="rb_N2312_4_2">No</string>
-    <string name="rb_N2312_4_DK">Don’t know</string>
+    <string name="rb_N2312_4_DK">Don’t Know</string>
     <string name="rb_N2312_5_1">Yes</string>
     <string name="rb_N2312_5_2">No</string>
-    <string name="rb_N2312_5_DK">Don’t know</string>
+    <string name="rb_N2312_5_DK">Don’t Know</string>
     <string name="rb_N2312_6_1">Yes</string>
     <string name="rb_N2312_6_2">No</string>
-    <string name="rb_N2312_6_DK">Don’t know</string>
+    <string name="rb_N2312_6_DK">Don’t Know</string>
     <string name="rb_N2312_7_1">Yes</string>
     <string name="rb_N2312_7_2">No</string>
-    <string name="rb_N2312_7_DK">Don’t know</string>
+    <string name="rb_N2312_7_DK">Don’t Know</string>
     <string name="rb_N2312_8_1">Yes</string>
     <string name="rb_N2312_8_2">No</string>
-    <string name="rb_N2312_8_DK">Don’t know</string>
+    <string name="rb_N2312_8_DK">Don’t Know</string>
     <string name="rb_N2312_OT_1">Yes</string>
     <string name="rb_N2312_OT_2">No</string>
-    <string name="rb_N2312_OT_DK">Don’t know</string>
+    <string name="rb_N2312_OT_DK">Don’t Know</string>
     <string name="ed_N2312_OT">Other (Specify)</string>
     <string name="rb_N2312_10_1">Yes</string>
     <string name="rb_N2312_10_2">No</string>
-    <string name="rb_N2312_10_DK">Don’t know</string>
+    <string name="rb_N2312_10_DK">Don’t Know</string>
 
 
     <!-- quesiotn txt_starts-->
@@ -1135,10 +1247,17 @@
     <string name="txt_N2119">N2119:	Did the baby have difficulty breathing? 	</string>
     <string name="txt_N2120">N2120:	Was anything done to try to help the baby breathe at birth?	</string>
     <string name="txt_N2121">N2121:	Did the baby cry immediately after birth, even if only a little bit? 	</string>
+
     <string name="txt_N2122">N2122:	How many minutes after birth did the baby first cry?	</string>
+    <string name="txt_N2122_h">If so, discuss it with the respondent. N2013 = "Yes" if it could be a "dead child". Therefore, in the "Still Child" determination section, correct N2013 = "No".</string>
+
     <string name="txt_N2123">N2123:	Did the baby stop being able to cry? 	</string>
+
     <string name="txt_N2124">N2124:	How many hours before death did the baby stop crying?	</string>
+
     <string name="txt_N2125">N2125:	Was the baby put in an incubator after the birth?	</string>
+    <string name="txt_N2125_h">For premature babies (N2066=1 or N2067 = nine months) if born at (N2006=3–10) health facility</string>
+
     <string name="txt_N2126">N2126:	After the birth, was the baby put directly on the bare skin of (your / the mother’s) chest?	</string>
     <string name="txt_N2127">N2127:	How long after the birth was the baby put on the bare skin of (your / the mother’s) chest?	</string>
     <string name="txt_N2128">N2128:	Before being placed on the bare skin of (your / the mother’s) chest, was the baby wrapped up?	</string>
@@ -1151,6 +1270,7 @@
 
 
     <string name="txt_N2135">N2135: On the day before the illness began, was the baby given any…? </string>
+    <string name="N2135_h">Read All answers: record "Yes" "no" or "don't know".</string>
 
     <string name="txt_N2135_1">N2135_1: Milk (other than breast milk) </string>
     <string name="txt_N2135_2">N2135_2: Plain water </string>
@@ -1247,7 +1367,10 @@
     <string name="txt_N2190_22">N2190_22: Was the injury intentionally inflicted by someone else?	</string>
     <string name="txt_N2191">N2191:	How long did ?NAME? survive after the injury?	</string>
     <string name="txt_N2192">N2192:	Check N2006 to determine if the baby was born in a health facility (codes 3-10): </string>
+
     <string name="txt_N2193">N2193:	Did the baby leave the delivery facility alive or did s/he die in the facility?	</string>
+    <string name="txt_N2193_h">8, 2 or 9 → N2211</string>
+
     <string name="txt_N2194">N2194:	How long after birth did the baby leave the facility?	</string>
     <string name="txt_N2195">N2195:	Before leaving the facility, did anyone physically examine the baby, for example, check the temperature or check the cord?	</string>
     <string name="txt_N2196">N2196:	Prior to being discharged, did a health worker counsel (you / the mother) on breastfeeding the baby?	</string>
@@ -1275,7 +1398,7 @@
     <string name="rb_N2111_DK">Don’t know  </string>
     <string name="rb_N2112_1">Yes</string>
     <string name="rb_N2112_2">No</string>
-    <string name="rb_N2112_DK">Don’t know</string>
+    <string name="rb_N2112_DK">Don’t Know</string>
     <string name="cb_N2113_1">Alcohol/other antiseptic </string>
     <string name="cb_N2113_2">Antibiotic ointment/cream/powder </string>
     <string name="cb_N2113_3">Castor oil, mustard oil or shea butter </string>
@@ -1284,54 +1407,65 @@
     <string name="cb_N2113_DK">Don’t know </string>
     <string name="rb_N2114_1">Yes</string>
     <string name="rb_N2114_2">No</string>
-    <string name="rb_N2114_DK">Don’t know</string>
-    <string name="rb_N2114_RA">Refused to answer</string>
+    <string name="rb_N2114_DK">Don’t Know</string>
+    <string name="rb_N2114_RA">Refused to Answer</string>
+
     <string name="rb_N2115_1">Yes</string>
     <string name="rb_N2115_2">No</string>
-    <string name="rb_N2115_DK">Don’t know</string>
-    <string name="rb_N2115_RA">Refused to answer</string>
+    <string name="rb_N2115_DK">Don’t Know</string>
+    <string name="rb_N2115_RA">Refused to Answer</string>
+
     <string name="rb_N2116_1_1">Yes</string>
     <string name="rb_N2116_1_2">No</string>
-    <string name="rb_N2116_1_DK">Don’t know</string>
-    <string name="rb_N2116_1_RA">Refused to answer</string>
+    <string name="rb_N2116_1_DK">Don’t Know</string>
+    <string name="rb_N2116_1_RA">Refused to Answer</string>
+
     <string name="rb_N2116_2_1">Yes</string>
     <string name="rb_N2116_2_2">No</string>
-    <string name="rb_N2116_2_DK">Don’t know</string>
-    <string name="rb_N2116_2_RA">Refused to answer</string>
+    <string name="rb_N2116_2_DK">Don’t Know</string>
+    <string name="rb_N2116_2_RA">Refused to Answer</string>
+
     <string name="rb_N2116_3_1">Yes</string>
     <string name="rb_N2116_3_2">No</string>
-    <string name="rb_N2116_3_DK">Don’t know</string>
-    <string name="rb_N2116_3_RA">Refused to answer</string>
+    <string name="rb_N2116_3_DK">Don’t Know</string>
+    <string name="rb_N2116_3_RA">Refused to Answer</string>
+
     <string name="rb_N2117_1">Yes</string>
     <string name="rb_N2117_2">No</string>
-    <string name="rb_N2117_DK">Don’t know</string>
-    <string name="rb_N2117_RA">Refused to answer</string>
+    <string name="rb_N2117_DK">Don’t Know</string>
+    <string name="rb_N2117_RA">Refused to Answer</string>
+
     <string name="rb_N2118_1">Yes</string>
     <string name="rb_N2118_2">No</string>
-    <string name="rb_N2118_DK">Don’t know</string>
-    <string name="rb_N2118_RA">Refused to answer</string>
+    <string name="rb_N2118_DK">Don’t Know</string>
+    <string name="rb_N2118_RA">Refused to Answer</string>
+
     <string name="rb_N2119_1">Yes</string>
     <string name="rb_N2119_2">No</string>
-    <string name="rb_N2119_DK">Don’t know</string>
-    <string name="rb_N2119_RA">Refused to answer</string>
+    <string name="rb_N2119_DK">Don’t Know</string>
+    <string name="rb_N2119_RA">Refused to Answer</string>
+
     <string name="rb_N2120_1">Yes</string>
     <string name="rb_N2120_2">No</string>
-    <string name="rb_N2120_DK">Don’t know</string>
-    <string name="rb_N2120_RA">Refused to answer</string>
+    <string name="rb_N2120_DK">Don’t Know</string>
+    <string name="rb_N2120_RA">Refused to Answer</string>
+
     <string name="rb_N2121_1">Yes</string>
     <string name="rb_N2121_2">No</string>
-    <string name="rb_N2121_DK">Don’t know</string>
-    <string name="rb_N2121_RA">Refused to answer</string>
+    <string name="rb_N2121_DK">Don’t Know</string>
+    <string name="rb_N2121_RA">Refused to Answer</string>
+
     <string name="rb_N2123_1">Yes</string>
     <string name="rb_N2123_2">No</string>
-    <string name="rb_N2123_DK">Don’t know</string>
-    <string name="rb_N2123_RA">Refused to answer</string>
+    <string name="rb_N2123_DK">Don’t Know</string>
+    <string name="rb_N2123_RA">Refused to Answer</string>
+
     <string name="rb_N2125_1">Yes</string>
     <string name="rb_N2125_2">No</string>
-    <string name="rb_N2125_DK">Don’t know</string>
+    <string name="rb_N2125_DK">Don’t Know</string>
     <string name="rb_N2126_1">Yes</string>
     <string name="rb_N2126_2">No</string>
-    <string name="rb_N2126_DK">Don’t know</string>
+    <string name="rb_N2126_DK">Don’t Know</string>
     <string name="rb_N2127_1">Immediately </string>
     <string name="rb_N2127_2">Less than 1 hour </string>
     <string name="rb_N2127_3">1 hour or more </string>
@@ -1343,10 +1477,10 @@
     <string name="rb_N2131_2">7-23 hours</string>
     <string name="rb_N2131_3">24 hours or more </string>
     <string name="rb_N2131_4">Not bathed before death</string>
-    <string name="rb_N2131_DK">Don’t know</string>
+    <string name="rb_N2131_DK">Don’t Know</string>
     <string name="rb_N2132_1">Yes</string>
     <string name="rb_N2132_2">No</string>
-    <string name="rb_N2132_DK">Don’t know</string>
+    <string name="rb_N2132_DK">Don’t Know</string>
     <string name="rb_N2133_1">Immediately </string>
     <string name="rb_N2133_2">Less than 1 hour </string>
     <string name="rb_N2133_3">1 hour or more </string>
@@ -1354,234 +1488,278 @@
     <string name="rb_N2133_DK"> Don’t know </string>
     <string name="rb_N2134_1">Yes</string>
     <string name="rb_N2134_2">No</string>
-    <string name="rb_N2134_DK">Don’t know</string>
+    <string name="rb_N2134_DK">Don’t Know</string>
 
     <string name="rb_N2135_1_1">Yes</string>
     <string name="rb_N2135_1_2">No</string>
-    <string name="rb_N2135_1_DK">Don’t know</string>
+    <string name="rb_N2135_1_DK">Don’t Know</string>
     <string name="rb_N2135_2_1">Yes</string>
     <string name="rb_N2135_2_2">No</string>
-    <string name="rb_N2135_2_DK">Don’t know</string>
+    <string name="rb_N2135_2_DK">Don’t Know</string>
     <string name="rb_N2135_3_1">Yes</string>
     <string name="rb_N2135_3_2">No</string>
-    <string name="rb_N2135_3_DK">Don’t know</string>
+    <string name="rb_N2135_3_DK">Don’t Know</string>
     <string name="rb_N2135_4_1">Yes</string>
     <string name="rb_N2135_4_2">No</string>
-    <string name="rb_N2135_4_DK">Don’t know</string>
+    <string name="rb_N2135_4_DK">Don’t Know</string>
     <string name="rb_N2135_5_1">Yes</string>
     <string name="rb_N2135_5_2">No</string>
-    <string name="rb_N2135_5_DK">Don’t know</string>
+    <string name="rb_N2135_5_DK">Don’t Know</string>
     <string name="rb_N2135_6_1">Yes</string>
     <string name="rb_N2135_6_2">No</string>
-    <string name="rb_N2135_6_DK">Don’t know</string>
+    <string name="rb_N2135_6_DK">Don’t Know</string>
     <string name="rb_N2135_7_1">Yes</string>
     <string name="rb_N2135_7_2">No</string>
-    <string name="rb_N2135_7_DK">Don’t know</string>
+    <string name="rb_N2135_7_DK">Don’t Know</string>
     <string name="rb_N2135_8_1">Yes</string>
     <string name="rb_N2135_8_2">No</string>
-    <string name="rb_N2135_8_DK">Don’t know</string>
+    <string name="rb_N2135_8_DK">Don’t Know</string>
     <string name="rb_N2135_9_1">Yes</string>
     <string name="rb_N2135_9_2">No</string>
-    <string name="rb_N2135_9_DK">Don’t know</string>
+    <string name="rb_N2135_9_DK">Don’t Know</string>
     <string name="rb_N2135_10_1">Yes</string>
     <string name="rb_N2135_10_2">No</string>
-    <string name="rb_N2135_10_DK">Don’t know</string>
+    <string name="rb_N2135_10_DK">Don’t Know</string>
     <string name="rb_N2135_11_1">Yes</string>
     <string name="rb_N2135_11_2">No</string>
-    <string name="rb_N2135_11_DK">Don’t know</string>
+    <string name="rb_N2135_11_DK">Don’t Know</string>
     <string name="rb_N2135_12_1">Yes</string>
     <string name="rb_N2135_12_2">No</string>
-    <string name="rb_N2135_12_DK">Don’t know</string>
+    <string name="rb_N2135_12_DK">Don’t Know</string>
 
     <string name="rb_N2136_1">Yes</string>
     <string name="rb_N2136_2">No</string>
-    <string name="rb_N2136_DK">Don’t know</string>
-    <string name="rb_N2136_RA">Refused to answer</string>
+    <string name="rb_N2136_DK">Don’t Know</string>
+    <string name="rb_N2136_RA">Refused to Answer</string>
+
     <string name="rb_N2137_1">Yes</string>
     <string name="rb_N2137_2">No</string>
-    <string name="rb_N2137_DK">Don’t know</string>
-    <string name="rb_N2137_RA">Refused to answer</string>
+    <string name="rb_N2137_DK">Don’t Know</string>
+    <string name="rb_N2137_RA">Refused to Answer</string>
+
     <string name="rb_N2138_1">Yes</string>
     <string name="rb_N2138_2">No</string>
-    <string name="rb_N2138_DK">Don’t know</string>
-    <string name="rb_N2138_RA">Refused to answer</string>
+    <string name="rb_N2138_DK">Don’t Know</string>
+    <string name="rb_N2138_RA">Refused to Answer</string>
+
     <string name="rb_N2140_1">Yes</string>
     <string name="rb_N2140_2">No</string>
-    <string name="rb_N2140_DK">Don’t know</string>
-    <string name="rb_N2140_RA">Refused to answer</string>
+    <string name="rb_N2140_DK">Don’t Know</string>
+    <string name="rb_N2140_RA">Refused to Answer</string>
+
     <string name="rb_N2141_1">Yes</string>
     <string name="rb_N2141_2">No</string>
-    <string name="rb_N2141_DK">Don’t know</string>
-    <string name="rb_N2141_RA">Refused to answer</string>
+    <string name="rb_N2141_DK">Don’t Know</string>
+    <string name="rb_N2141_RA">Refused to Answer</string>
+
     <string name="rb_N2142_1">Yes</string>
     <string name="rb_N2142_2">No</string>
-    <string name="rb_N2142_DK">Don’t know</string>
-    <string name="rb_N2142_RA">Refused to answer</string>
+    <string name="rb_N2142_DK">Don’t Know</string>
+    <string name="rb_N2142_RA">Refused to Answer</string>
+
     <string name="rb_N2143_1">Yes</string>
     <string name="rb_N2143_2">No</string>
-    <string name="rb_N2143_DK">Don’t know</string>
-    <string name="rb_N2143_RA">Refused to answer</string>
+    <string name="rb_N2143_DK">Don’t Know</string>
+    <string name="rb_N2143_RA">Refused to Answer</string>
+
     <string name="rb_N2144_1">Yes</string>
     <string name="rb_N2144_2"> No</string>
-    <string name="rb_N2144_DK">Don’t know</string>
-    <string name="rb_N2144_RA">Refused to answer</string>
+    <string name="rb_N2144_DK">Don’t Know</string>
+    <string name="rb_N2144_RA">Refused to Answer</string>
+
     <string name="rb_N2145_1">Yes</string>
     <string name="rb_N2145_2">No</string>
-    <string name="rb_N2145_DK">Don’t know</string>
-    <string name="rb_N2145_RA">Refused to answer</string>
+    <string name="rb_N2145_DK">Don’t Know</string>
+    <string name="rb_N2145_RA">Refused to Answer</string>
+
     <string name="rb_N2146_1">Yes</string>
     <string name="rb_N2146_2">No</string>
-    <string name="rb_N2146_DK">Don’t know</string>
-    <string name="rb_N2146_RA">Refused to answer</string>
+    <string name="rb_N2146_DK">Don’t Know</string>
+    <string name="rb_N2146_RA">Refused to Answer</string>
+
     <string name="rb_N2147_1">Yes</string>
     <string name="rb_N2147_2">No</string>
-    <string name="rb_N2147_DK">Don’t know</string>
-    <string name="rb_N2147_RA">Refused to answer</string>
+    <string name="rb_N2147_DK">Don’t Know</string>
+    <string name="rb_N2147_RA">Refused to Answer</string>
+
     <string name="rb_N2148_1">Yes</string>
     <string name="rb_N2148_2">No</string>
-    <string name="rb_N2148_DK">Don’t know</string>
-    <string name="rb_N2148_RA">Refused to answer</string>
+    <string name="rb_N2148_DK">Don’t Know</string>
+    <string name="rb_N2148_RA">Refused to Answer</string>
+
     <string name="rb_N2149_1">Yes</string>
     <string name="rb_N2149_2">No</string>
-    <string name="rb_N2149_DK">Don’t know</string>
+    <string name="rb_N2149_DK">Don’t Know</string>
     <string name="rb_N2149_RA">Refused to answer </string>
     <string name="rb_N2150_1">Yes</string>
     <string name="rb_N2150_2">No</string>
-    <string name="rb_N2150_DK">Don’t know</string>
-    <string name="rb_N2150_RA">Refused to answer</string>
+    <string name="rb_N2150_DK">Don’t Know</string>
+    <string name="rb_N2150_RA">Refused to Answer</string>
+
     <string name="rb_N2151_1">Yes</string>
     <string name="rb_N2151_2">No</string>
-    <string name="rb_N2151_DK">Don’t know</string>
-    <string name="rb_N2151_RA">Refused to answer</string>
+    <string name="rb_N2151_DK">Don’t Know</string>
+    <string name="rb_N2151_RA">Refused to Answer</string>
+
     <string name="rb_N2152_1">Yes</string>
     <string name="rb_N2152_2">No</string>
-    <string name="rb_N2152_DK">Don’t know</string>
-    <string name="rb_N2152_RA">Refused to answer</string>
+    <string name="rb_N2152_DK">Don’t Know</string>
+    <string name="rb_N2152_RA">Refused to Answer</string>
+
     <string name="rb_N2153_1">Yes</string>
     <string name="rb_N2153_2">No</string>
-    <string name="rb_N2153_DK">Don’t know</string>
-    <string name="rb_N2153_RA">Refused to answer</string>
+    <string name="rb_N2153_DK">Don’t Know</string>
+    <string name="rb_N2153_RA">Refused to Answer</string>
+
     <string name="rb_N2154_1">Yes</string>
     <string name="rb_N2154_2">No</string>
-    <string name="rb_N2154_DK">Don’t know</string>
-    <string name="rb_N2154_RA">Refused to answer</string>
+    <string name="rb_N2154_DK">Don’t Know</string>
+    <string name="rb_N2154_RA">Refused to Answer</string>
+
     <string name="rb_N2155_1">Yes</string>
     <string name="rb_N2155_2">No</string>
-    <string name="rb_N2155_DK">Don’t know</string>
-    <string name="rb_N2155_RA">Refused to answer</string>
+    <string name="rb_N2155_DK">Don’t Know</string>
+    <string name="rb_N2155_RA">Refused to Answer</string>
+
     <string name="rb_N2158_1">Yes</string>
     <string name="rb_N2158_2">No</string>
-    <string name="rb_N2158_DK">Don’t know</string>
-    <string name="rb_N2158_RA">Refused to answer</string>
+    <string name="rb_N2158_DK">Don’t Know</string>
+    <string name="rb_N2158_RA">Refused to Answer</string>
+
     <string name="rb_N2159_1">Yes</string>
     <string name="rb_N2159_2">No</string>
-    <string name="rb_N2159_DK">Don’t know</string>
-    <string name="rb_N2159_RA">Refused to answer</string>
+    <string name="rb_N2159_DK">Don’t Know</string>
+    <string name="rb_N2159_RA">Refused to Answer</string>
+
     <string name="rb_N2162_1">Yes</string>
     <string name="rb_N2162_2">No</string>
-    <string name="rb_N2162_DK">Don’t know</string>
-    <string name="rb_N2162_RA">Refused to answer</string>
+    <string name="rb_N2162_DK">Don’t Know</string>
+    <string name="rb_N2162_RA">Refused to Answer</string>
+
     <string name="rb_N2163_1">Yes</string>
     <string name="rb_N2163_2">No</string>
-    <string name="rb_N2163_DK">Don’t know</string>
-    <string name="rb_N2163_RA">Refused to answer</string>
+    <string name="rb_N2163_DK">Don’t Know</string>
+    <string name="rb_N2163_RA">Refused to Answer</string>
+
     <string name="rb_N2164_1">Yes</string>
     <string name="rb_N2164_2">No</string>
-    <string name="rb_N2164_DK">Don’t know</string>
-    <string name="rb_N2164_RA">Refused to answer</string>
+    <string name="rb_N2164_DK">Don’t Know</string>
+    <string name="rb_N2164_RA">Refused to Answer</string>
+
     <string name="rb_N2165_1">Yes</string>
     <string name="rb_N2165_2">No</string>
-    <string name="rb_N2165_DK">Don’t know</string>
-    <string name="rb_N2165_RA">Refused to answer</string>
+    <string name="rb_N2165_DK">Don’t Know</string>
+    <string name="rb_N2165_RA">Refused to Answer</string>
+
     <string name="rb_N2167_1">Yes</string>
     <string name="rb_N2167_2">No</string>
-    <string name="rb_N2167_DK">Don’t know</string>
-    <string name="rb_N2167_RA">Refused to answer</string>
+    <string name="rb_N2167_DK">Don’t Know</string>
+    <string name="rb_N2167_RA">Refused to Answer</string>
+
     <string name="rb_N2170_1">Yes</string>
     <string name="rb_N2170_2">No</string>
-    <string name="rb_N2170_DK">Don’t know</string>
-    <string name="rb_N2170_RA">Refused to answer</string>
+    <string name="rb_N2170_DK">Don’t Know</string>
+    <string name="rb_N2170_RA">Refused to Answer</string>
+
     <string name="rb_N2172_1">Yes</string>
     <string name="rb_N2172_2">No</string>
-    <string name="rb_N2172_DK">Don’t know</string>
-    <string name="rb_N2172_RA">Refused to answer</string>
+    <string name="rb_N2172_DK">Don’t Know</string>
+    <string name="rb_N2172_RA">Refused to Answer</string>
+
     <string name="rb_N2174_1">Yes</string>
     <string name="rb_N2174_2">No</string>
-    <string name="rb_N2174_DK">Don’t know</string>
-    <string name="rb_N2174_RA">Refused to answer</string>
+    <string name="rb_N2174_DK">Don’t Know</string>
+    <string name="rb_N2174_RA">Refused to Answer</string>
+
     <string name="rb_N2175_1">Yes</string>
     <string name="rb_N2175_2">No</string>
-    <string name="rb_N2175_DK">Don’t know</string>
-    <string name="rb_N2175_RA">Refused to answer</string>
+    <string name="rb_N2175_DK">Don’t Know</string>
+    <string name="rb_N2175_RA">Refused to Answer</string>
+
     <string name="rb_N2176_1">Yes</string>
     <string name="rb_N2176_2">No</string>
-    <string name="rb_N2176_DK">Don’t know</string>
-    <string name="rb_N2176_RA">Refused to answer</string>
+    <string name="rb_N2176_DK">Don’t Know</string>
+    <string name="rb_N2176_RA">Refused to Answer</string>
+
     <string name="rb_N2177a_1">Yes</string>
     <string name="rb_N2177a_2">No</string>
-    <string name="rb_N2177a_DK">Don’t know</string>
-    <string name="rb_N2177a_RA">Refused to answer</string>
+    <string name="rb_N2177a_DK">Don’t Know</string>
+    <string name="rb_N2177a_RA">Refused to Answer</string>
+
     <string name="rb_N2177_1">Yes</string>
     <string name="rb_N2177_2">No</string>
-    <string name="rb_N2177_DK">Don’t know</string>
-    <string name="rb_N2177_RA">Refused to answer</string>
+    <string name="rb_N2177_DK">Don’t Know</string>
+    <string name="rb_N2177_RA">Refused to Answer</string>
+
     <string name="rb_N2178_1">Yes</string>
     <string name="rb_N2178_2">No</string>
-    <string name="rb_N2178_DK">Don’t know</string>
-    <string name="rb_N2178_RA">Refused to answer</string>
+    <string name="rb_N2178_DK">Don’t Know</string>
+    <string name="rb_N2178_RA">Refused to Answer</string>
+
     <string name="rb_N2179_1">Yes</string>
     <string name="rb_N2179_2">No</string>
-    <string name="rb_N2179_DK">Don’t know</string>
-    <string name="rb_N2179_RA">Refused to answer</string>
+    <string name="rb_N2179_DK">Don’t Know</string>
+    <string name="rb_N2179_RA">Refused to Answer</string>
+
     <string name="rb_N2180_1">Yes</string>
     <string name="rb_N2180_2">No</string>
-    <string name="rb_N2180_DK">Don’t know</string>
-    <string name="rb_N2180_RA">Refused to answer</string>
+    <string name="rb_N2180_DK">Don’t Know</string>
+    <string name="rb_N2180_RA">Refused to Answer</string>
+
     <string name="rb_N2181_1">Yes</string>
     <string name="rb_N2181_2">No</string>
-    <string name="rb_N2181_DK">Don’t know</string>
-    <string name="rb_N2181_RA">Refused to answer</string>
+    <string name="rb_N2181_DK">Don’t Know</string>
+    <string name="rb_N2181_RA">Refused to Answer</string>
+
     <string name="rb_N2182_1">Yes</string>
     <string name="rb_N2182_2">No</string>
-    <string name="rb_N2182_DK">Don’t know</string>
-    <string name="rb_N2182_RA">Refused to answer</string>
+    <string name="rb_N2182_DK">Don’t Know</string>
+    <string name="rb_N2182_RA">Refused to Answer</string>
+
     <string name="rb_N2183_1">Yes</string>
     <string name="rb_N2183_2">No</string>
-    <string name="rb_N2183_DK">Don’t know</string>
-    <string name="rb_N2183_RA">Refused to answer</string>
+    <string name="rb_N2183_DK">Don’t Know</string>
+    <string name="rb_N2183_RA">Refused to Answer</string>
+
     <string name="rb_N2185_1">Yes</string>
     <string name="rb_N2185_2">No</string>
-    <string name="rb_N2185_DK">Don’t know</string>
-    <string name="rb_N2185_RA">Refused to answer</string>
+    <string name="rb_N2185_DK">Don’t Know</string>
+    <string name="rb_N2185_RA">Refused to Answer</string>
+
     <string name="rb_N2188_1">Yes</string>
     <string name="rb_N2188_2">No</string>
-    <string name="rb_N2188_DK">Don’t know</string>
-    <string name="rb_N2188_RA">Refused to answer</string>
+    <string name="rb_N2188_DK">Don’t Know</string>
+    <string name="rb_N2188_RA">Refused to Answer</string>
+
     <string name="rb_N2189_1">Yes</string>
     <string name="rb_N2189_2">No</string>
-    <string name="rb_N2189_DK">Don’t know</string>
-    <string name="rb_N2189_RA">Refused to answer</string>
+    <string name="rb_N2189_DK">Don’t Know</string>
+    <string name="rb_N2189_RA">Refused to Answer</string>
+
     <string name="rb_N2189a_1">Yes</string>
     <string name="rb_N2189a_2">No</string>
-    <string name="rb_N2189a_DK">Don’t know</string>
+    <string name="rb_N2189a_DK">Don’t Know</string>
     <string name="rb_N2189a_RA">Refused</string>
 
     <string name="rb_N2190_1">Yes</string>
     <string name="rb_N2190_2">No</string>
-    <string name="rb_N2190_DK">Don’t know</string>
-    <string name="rb_N2190_RA">Refused to answer</string>
+    <string name="rb_N2190_DK">Don’t Know</string>
+    <string name="rb_N2190_RA">Refused to Answer</string>
+
     <string name="rb_N2190_1_1">Yes</string>
     <string name="rb_N2190_1_2">No</string>
-    <string name="rb_N2190_1_DK">Don’t know</string>
-    <string name="rb_N2190_1_RA">Refused to answer</string>
+    <string name="rb_N2190_1_DK">Don’t Know</string>
+    <string name="rb_N2190_1_RA">Refused to Answer</string>
+
     <string name="rb_N2190_2_1">Pedestrian</string>
     <string name="rb_N2190_2_2">Driver or passenger in car or light vehicle</string>
     <string name="rb_N2190_2_3">Driver or passenger in bus or heavy vehicle</string>
     <string name="rb_N2190_2_4">Driver or passenger on a motorcycle</string>
     <string name="rb_N2190_2_5">Driver or passenger on a pedal cycle</string>
     <string name="rb_N2190_2_OT">Other</string>
-    <string name="rb_N2190_2_DK">Don’t know</string>
-    <string name="rb_N2190_2_RA">Refused to answer</string>
+    <string name="rb_N2190_2_DK">Don’t Know</string>
+    <string name="rb_N2190_2_RA">Refused to Answer</string>
+
     <string name="rb_N2190_3_1">Pedestrian</string>
     <string name="rb_N2190_3_2">Stationary object</string>
     <string name="rb_N2190_3_3">Car or light vehicle</string>
@@ -1589,114 +1767,134 @@
     <string name="rb_N2190_3_5">Motorcycle</string>
     <string name="rb_N2190_3_6">Pedal cycle</string>
     <string name="rb_N2190_3_OT">Other</string>
-    <string name="rb_N2190_3_DK">Don’t know</string>
-    <string name="rb_N2190_3_RA">Refused to answer</string>
+    <string name="rb_N2190_3_DK">Don’t Know</string>
+    <string name="rb_N2190_3_RA">Refused to Answer</string>
+
     <string name="rb_N2190_4_1">Yes</string>
     <string name="rb_N2190_4_2">No</string>
-    <string name="rb_N2190_4_DK">Don’t know</string>
-    <string name="rb_N2190_4_RA">Refused to answer</string>
+    <string name="rb_N2190_4_DK">Don’t Know</string>
+    <string name="rb_N2190_4_RA">Refused to Answer</string>
+
     <string name="rb_N2190_5_1">Yes</string>
     <string name="rb_N2190_5_2">No</string>
-    <string name="rb_N2190_5_DK">Don’t know</string>
-    <string name="rb_N2190_5_RA">Refused to answer</string>
+    <string name="rb_N2190_5_DK">Don’t Know</string>
+    <string name="rb_N2190_5_RA">Refused to Answer</string>
+
     <string name="rb_N2190_6_1">Yes</string>
     <string name="rb_N2190_6_2">No</string>
-    <string name="rb_N2190_6_DK">Don’t know</string>
-    <string name="rb_N2190_6_RA">Refused to answer</string>
+    <string name="rb_N2190_6_DK">Don’t Know</string>
+    <string name="rb_N2190_6_RA">Refused to Answer</string>
+
     <string name="rb_N2190_7_1">Yes</string>
     <string name="rb_N2190_7_2">No</string>
-    <string name="rb_N2190_7_DK">Don’t know</string>
-    <string name="rb_N2190_7_RA">Refused to answer</string>
+    <string name="rb_N2190_7_DK">Don’t Know</string>
+    <string name="rb_N2190_7_RA">Refused to Answer</string>
+
     <string name="rb_N2190_8_1">Yes</string>
     <string name="rb_N2190_8_2">No</string>
-    <string name="rb_N2190_8_DK">Don’t know</string>
-    <string name="rb_N2190_8_RA">Refused to answer</string>
+    <string name="rb_N2190_8_DK">Don’t Know</string>
+    <string name="rb_N2190_8_RA">Refused to Answer</string>
+
     <string name="rb_N2190_9_1">Yes</string>
     <string name="rb_N2190_9_2">No</string>
-    <string name="rb_N2190_9_DK">Don’t know</string>
-    <string name="rb_N2190_9_RA">Refused to answer</string>
+    <string name="rb_N2190_9_DK">Don’t Know</string>
+    <string name="rb_N2190_9_RA">Refused to Answer</string>
+
     <string name="rb_N2190_10_1">Dog</string>
     <string name="rb_N2190_10_2">Snake</string>
     <string name="rb_N2190_10_3">Insect or scorpion</string>
     <string name="rb_N2190_10_OT">Other</string>
     <string name="rb_N2190_10_DK">on’t know</string>
-    <string name="rb_N2190_10_RA">Refused to answer</string>
+    <string name="rb_N2190_10_RA">Refused to Answer</string>
+
     <string name="rb_N2190_11_1">Yes</string>
     <string name="rb_N2190_11_2">No</string>
-    <string name="rb_N2190_11_DK">Don’t know</string>
-    <string name="rb_N2190_11_RA">Refused to answer</string>
+    <string name="rb_N2190_11_DK">Don’t Know</string>
+    <string name="rb_N2190_11_RA">Refused to Answer</string>
+
     <string name="rb_N2190_12_1">Yes</string>
     <string name="rb_N2190_12_2">No</string>
-    <string name="rb_N2190_12_DK">Don’t know</string>
-    <string name="rb_N2190_12_RA">Refused to answer</string>
+    <string name="rb_N2190_12_DK">Don’t Know</string>
+    <string name="rb_N2190_12_RA">Refused to Answer</string>
+
     <string name="rb_N2190_13_1">Yes</string>
     <string name="rb_N2190_13_2">No</string>
-    <string name="rb_N2190_13_DK">Don’t know</string>
-    <string name="rb_N2190_13_RA">Refused to answer</string>
+    <string name="rb_N2190_13_DK">Don’t Know</string>
+    <string name="rb_N2190_13_RA">Refused to Answer</string>
+
     <string name="rb_N2190_14_1">Yes</string>
     <string name="rb_N2190_14_2">No</string>
-    <string name="rb_N2190_14_DK">Don’t know</string>
-    <string name="rb_N2190_14_RA">Refused to answer</string>
+    <string name="rb_N2190_14_DK">Don’t Know</string>
+    <string name="rb_N2190_14_RA">Refused to Answer</string>
+
     <string name="rb_N2190_15_1">Yes</string>
     <string name="rb_N2190_15_2">No</string>
-    <string name="rb_N2190_15_DK">Don’t know</string>
-    <string name="rb_N2190_15_RA">Refused to answer</string>
+    <string name="rb_N2190_15_DK">Don’t Know</string>
+    <string name="rb_N2190_15_RA">Refused to Answer</string>
+
     <string name="rb_N2190_16_1">Yes</string>
     <string name="rb_N2190_16_2">No</string>
-    <string name="rb_N2190_16_DK">Don’t know</string>
-    <string name="rb_N2190_16_RA">Refused to answer</string>
+    <string name="rb_N2190_16_DK">Don’t Know</string>
+    <string name="rb_N2190_16_RA">Refused to Answer</string>
+
     <string name="rb_N2190_17_1">Yes</string>
     <string name="rb_N2190_17_2">No</string>
-    <string name="rb_N2190_17_DK">Don’t know</string>
-    <string name="rb_N2190_17_RA">Refused to answer</string>
+    <string name="rb_N2190_17_DK">Don’t Know</string>
+    <string name="rb_N2190_17_RA">Refused to Answer</string>
+
     <string name="rb_N2190_18_1">Yes</string>
     <string name="rb_N2190_18_2">No</string>
-    <string name="rb_N2190_18_DK">Don’t know</string>
-    <string name="rb_N2190_18_RA">Refused to answer</string>
+    <string name="rb_N2190_18_DK">Don’t Know</string>
+    <string name="rb_N2190_18_RA">Refused to Answer</string>
+
     <string name="rb_N2190_19_1">Yes</string>
     <string name="rb_N2190_19_2">No</string>
-    <string name="rb_N2190_19_DK">Don’t know</string>
-    <string name="rb_N2190_19_RA">Refused to answer</string>
+    <string name="rb_N2190_19_DK">Don’t Know</string>
+    <string name="rb_N2190_19_RA">Refused to Answer</string>
+
     <string name="rb_N2190_20_1">Yes</string>
     <string name="rb_N2190_20_2">No</string>
-    <string name="rb_N2190_20_DK">Don’t know</string>
-    <string name="rb_N2190_20_RA">Refused to answer</string>
+    <string name="rb_N2190_20_DK">Don’t Know</string>
+    <string name="rb_N2190_20_RA">Refused to Answer</string>
+
     <string name="rb_N2190_21_1">Yes</string>
     <string name="rb_N2190_21_2">No</string>
-    <string name="rb_N2190_21_DK">Don’t know</string>
-    <string name="rb_N2190_21_RA">Refused to answer</string>
+    <string name="rb_N2190_21_DK">Don’t Know</string>
+    <string name="rb_N2190_21_RA">Refused to Answer</string>
+
     <string name="rb_N2190_22_1">Yes</string>
     <string name="rb_N2190_22_2">No</string>
-    <string name="rb_N2190_22_DK">Don’t know</string>
-    <string name="rb_N2190_22_RA">Refused to answer</string>
+    <string name="rb_N2190_22_DK">Don’t Know</string>
+    <string name="rb_N2190_22_RA">Refused to Answer</string>
+
     <string name="rb_N2192_1">Yes, born in a health facility</string>
     <string name="rb_N2192_2">Not born in a health facility</string>
-    <string name="rb_N2192_DK">Don’t know</string>
+    <string name="rb_N2192_DK">Don’t Know</string>
     <string name="rb_N2193_1">Yes, left alive</string>
     <string name="rb_N2193_2">Died in the facility</string>
-    <string name="rb_N2193_DK">Don’t know</string>
+    <string name="rb_N2193_DK">Don’t Know</string>
     <string name="rb_N2195_1">Yes</string>
     <string name="rb_N2195_2">No</string>
-    <string name="rb_N2195_DK">Don’t know</string>
+    <string name="rb_N2195_DK">Don’t Know</string>
     <string name="rb_N2196_1">Yes</string>
     <string name="rb_N2196_2">No</string>
-    <string name="rb_N2196_DK">Don’t know</string>
+    <string name="rb_N2196_DK">Don’t Know</string>
     <string name="rb_N2197_1">Yes</string>
     <string name="rb_N2197_2">No</string>
-    <string name="rb_N2197_DK">Don’t know</string>
+    <string name="rb_N2197_DK">Don’t Know</string>
     <string name="cb_N2198_1">Trained CHW or nurse at home/in the community </string>
     <string name="cb_N2198_2">Doctor or nurse at a health facility </string>
     <string name="cb_N2198_3">Never seen </string>
     <string name="cb_N2198_DK">Don’t know </string>
     <string name="rb_N2199_1">Yes</string>
     <string name="rb_N2199_2">No</string>
-    <string name="rb_N2199_DK">Don’t know</string>
+    <string name="rb_N2199_DK">Don’t Know</string>
     <string name="rb_N2200_1">Yes</string>
     <string name="rb_N2200_2">No</string>
-    <string name="rb_N2200_DK">Don’t know</string>
+    <string name="rb_N2200_DK">Don’t Know</string>
     <string name="rb_N2201_1">Yes</string>
     <string name="rb_N2201_2">No</string>
-    <string name="rb_N2201_DK">Don’t know</string>
+    <string name="rb_N2201_DK">Don’t Know</string>
     <string name="cb_N2202_1">Trained CHW or nurse at home/in the community </string>
     <string name="cb_N2202_2">Doctor or nurse at a health facility </string>
     <string name="cb_N2202_3">Never seen </string>
@@ -2480,11 +2678,12 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="txt_C3473">C3473: Interviewer: Use this space to write down your comments and observations about the interview</string>
     <string name="rb_C3002_1">Second or later</string>
     <string name="rb_C3002_2">Second or later</string>
-    <string name="rb_C3002_DK">Don’t know</string>
-    <string name="rb_C3002_RA">Refused to answer</string>
+    <string name="rb_C3002_DK">Don’t Know</string>
+    <string name="rb_C3002_RA">Refused to Answer</string>
+
     <string name="rb_C3003_1">Yes</string>
     <string name="rb_C3003_2">No</string>
-    <string name="rb_C3003_DK">Don’t know</string>
+    <string name="rb_C3003_DK">Don’t Know</string>
     <string name="rb_C3003_RA">Refused to answer	</string>
     <string name="rb_C3004_1">Before delivery	</string>
     <string name="rb_C3004_2">During delivery	</string>
@@ -2798,7 +2997,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
 
     <string name="rb_C3111_1">Yes</string>
     <string name="rb_C3111_2">No</string>
-    <string name="rb_C3111_DK">Don’t know</string>
+    <string name="rb_C3111_DK">Don’t Know</string>
     <string name="rb_C3111_1_1">Yes	</string>
     <string name="rb_C3111_1_2">No	</string>
     <string name="rb_C3111_1_DK">Don’t know	</string>
@@ -3731,7 +3930,8 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="no">No</string>
     <string name="dnt">Don\'t Know</string>
     <string name="ecn">Enter Complete Name</string>
-    <string name="ra">Refused to Answer</string>
+    <string name="RA">Refused to Answer</string>
+
     <string name="ot_someone">Someone else (specify)</string>
     <string name="ot_other">Other (Specify)</string>
     <string name="other">Other</string>
@@ -3792,9 +3992,12 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="A4453_10"><![CDATA[A4453_10:  Patron/Employer/Benefactor in the community?]]></string>
     <string name="A4453_11"><![CDATA[A4453_11:  Police?]]></string>
     <string name="A4453_12"><![CDATA[A4453_12:  Any OTHER people or groups in the community?]]></string>
+
     <string name="A4471"><![CDATA[4471: Note: This is an optional question, to be asked or not as determined by the study site.  Read: Thank you for answering the many questions that I’ve asked. Would you like to tell me about <NAME>’s illness in your own words? Also, is there anything else about her/his illness that I did not ask and you would like to tell me about?  After the respondent(s) finishes, ask: Is there anything else?  Write the respondent’s exact words. After s/he has finished, read this back and ask her to correct any errors in what you wrote.]]></string>
+
     <string name="A4473">4473:   Interviewer: Use this space to write down your comments and observations about the interview.</string>
     <string name="kilograms_kg">Kilograms Kg &amp; DK = 999</string>
+
     <string name="A4257">A4257: What was the name of the FIRST HEALTH PROVIDER where NAME went?</string>
     <string name="rb_A4257_1">Government hospital</string>
     <string name="rb_A4257_2">Government health center</string>
@@ -3807,9 +4010,13 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_A4257_9">Mobile Clinic</string>
     <string name="rb_A4257_10">Trained CHW, nurse or midwife (outside a health facility)</string>
     <string name="rb_A4257_11">Other private medical sector</string>
+    <string name="rb_A4257_DK">معلو م نہیں</string>
+
     <string name="rb_A4258_1">Yes, reached before died</string>
     <string name="rb_A4258_2">No, died on route to this provider / before this provider reached the deceased</string>
     <string name="rb_A4258_3">No, could not reach this provider, so returned home or took other action</string>
+    <string name="rb_A4258_DK">معلو م نہیں</string>
+
     <string name="A4258_1">A4258_1: For health care at a facility, \nask: \nDid NAME reach the FIRST HEALTH PROVIDER before s/he died?</string>
     <string name="A4258_Hint">If “No,” discuss with respondent to determine correct response: 2 or 3.</string>
     <string name="A4258_2">A4258_2: For health care outside a facility, \nask: \nDid the FIRST HEALTH PROVIDER reach (NAME) before s/he died?</string>
@@ -4150,23 +4357,23 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_A4002_4">Divorced</string>
     <string name="rb_A4002_5"> Widowed</string>
     <string name="rb_A4002_6">Too young to be married</string>
-    <string name="rb_A4002_DK">Don\'t Know</string>
+    <string name="rb_A4002_DK">Don’t Know</string>
     <string name="rb_A4002_RA">Refused to Answer</string>
 
     <string name="rb_A4003_1">Yes</string>
     <string name="rb_A4003_2">No</string>
-    <string name="rb_A4003_DK">Don\'t Know</string>
+    <string name="rb_A4003_DK">Don’t Know</string>
     <string name="rb_A4003_RA">Refused to Answer</string>
 
     <string name="rb_A4004_1">Primary</string>
     <string name="rb_A4004_2">Secondary</string>
     <string name="rb_A4004_3">Higher</string>
-    <string name="rb_A4004_DK">Don\'t Know</string>
+    <string name="rb_A4004_DK">Don’t Know</string>
     <string name="rb_A4004_RA">Refused to Answer</string>
 
     <string name="rb_A4006_1">Yes</string>
     <string name="rb_A4006_2">No</string>
-    <string name="rb_A4006_DK">Don\'t Know</string>
+    <string name="rb_A4006_DK">Don’t Know</string>
     <string name="rb_A4006_RA">Refused to Answer</string>
 
     <string name="rb_A4007_1">Unemployed</string>
@@ -4175,53 +4382,503 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_A4007_4">Pensioner</string>
     <string name="rb_A4007_5">Student</string>
     <string name="rb_A4007_OT">Other (Specify)</string>
-    <string name="rb_A4007_DK">Don\'t Know</string>
+    <string name="rb_A4007_DK">Don’t Know</string>
     <string name="rb_A4007_RA">Refused to Answer</string>
 
     <string name="rb_A4008_1">Yes</string>
     <string name="rb_A4008_2">No</string>
-    <string name="rb_A4008_DK">Don\'t Know</string>
+    <string name="rb_A4008_DK">Don’t Know</string>
     <string name="rb_A4008_RA">Refused to Answer</string>
 
     <string name="rb_A4009a_1">Yes</string>
     <string name="rb_A4009a_2">No</string>
-    <string name="rb_A4009a_DK">Don\'t Know</string>
+    <string name="rb_A4009a_DK">Don’t Know</string>
     <string name="rb_A4009a_RA">Refused to Answer</string>
 
     <string name="rb_A4010_1">Cigarettes</string>
     <string name="rb_A4010_2">Pipe</string>
     <string name="rb_A4010_3">Chewing tobacco</string>
     <string name="rb_A4010_OT">Other (Specify)</string>
-    <string name="rb_A4010_DK">Don\'t Know</string>
+    <string name="rb_A4010_DK">Don’t Know</string>
     <string name="rb_A4010_RA">Refused to Answer</string>
+
+    <string name="rb_A4013u_DK">Don’t Know</string>
+    <string name="rb_A4013u_RA">Refused to Answer</string>
+
+    <string name="ed_A4013d">Day</string>
+    <string name="ed_A4013m">Month</string>
+    <string name="ed_A4013y">Year</string>
+
+    <string name="rb_A4014_1">Yes</string>
+    <string name="rb_A4014_2">No</string>
+    <string name="rb_A4014_DK">Don’t Know</string>
+
+    <string name="rb_A4051_1">Yes</string>
+    <string name="rb_A4051_2">No</string>
+    <string name="rb_A4051_DK">Don’t Know</string>
+    <string name="rb_A4051_RA">Refused to Answer</string>
+
+    <string name="rb_A4052_u_1">Day(s)</string>
+    <string name="rb_A4052_u_2">Month(s)</string>
+    <string name="rb_A4052_u_DK">Don’t Know</string>
+    <string name="rb_A4052_u_RA">Refused to Answer</string>
+
+    <string name="rb_A4053_1">Yes</string>
+    <string name="rb_A4053_2">No</string>
+    <string name="rb_A4053_DK">Don’t Know</string>
+    <string name="rb_A4053_RA">Refused to Answer</string>
 
     <string name="rb_A4054_1">Mild</string>
     <string name="rb_A4054_2">Moderate</string>
     <string name="rb_A4054_3">Severe</string>
+    <string name="rb_A4054_DK">Don’t Know</string>
+    <string name="rb_A4054_RA">Refused to Answer</string>
 
     <string name="rb_A4055_1">Continuous</string>
     <string name="rb_A4055_2">On and off</string>
     <string name="rb_A4055_3">Only at night</string>
+    <string name="rb_A4055_DK">Don’t Know</string>
+    <string name="rb_A4055_RA">Refused to Answer</string>
+
+    <string name="rb_A4056_1">Yes</string>
+    <string name="rb_A4056_2">No</string>
+    <string name="rb_A4056_DK">Don’t Know</string>
+    <string name="rb_A4056_RA">Refused to Answer</string>
+
+    <string name="rb_A4057_1">Yes</string>
+    <string name="rb_A4057_2">No</string>
+    <string name="rb_A4057_DK">Don’t Know</string>
+    <string name="rb_A4057_RA">Refused to Answer</string>
+
+    <string name="rb_A4058_1">Yes</string>
+    <string name="rb_A4058_2">No</string>
+    <string name="rb_A4058_DK">Don’t Know</string>
+    <string name="rb_A4058_RA">Refused to Answer</string>
+
+    <string name="rb_A4059_u_1">Day(s)</string>
+    <string name="rb_A4059_u_2">Month(s)</string>
+    <string name="rb_A4059_u_DK">Don’t Know</string>
+    <string name="rb_A4059_u_RA">Refused to Answer</string>
+
+    <string name="rb_A4060_1">Yes</string>
+    <string name="rb_A4060_2">No</string>
+    <string name="rb_A4060_DK">Don’t Know</string>
+    <string name="rb_A4060_RA">Refused to Answer</string>
+
+    <string name="rb_A4061_1">Yes</string>
+    <string name="rb_A4061_2">No</string>
+    <string name="rb_A4061_DK">Don’t Know</string>
+    <string name="rb_A4061_RA">Refused to Answer</string>
+
+    <string name="rb_A4062_1">Yes</string>
+    <string name="rb_A4062_2">No</string>
+    <string name="rb_A4062_DK">Don’t Know</string>
+    <string name="rb_A4062_RA">Refused to Answer</string>
+
+    <string name="rb_A4063_1">Yes</string>
+    <string name="rb_A4063_2">No</string>
+    <string name="rb_A4063_DK">Don’t Know</string>
+    <string name="rb_A4063_RA">Refused to Answer</string>
+
+    <string name="rb_A4064_u_1">Day(s)</string>
+    <string name="rb_A4064_u_2">Month(s)</string>
+    <string name="rb_A4064_u_DK">Don’t Know</string>
+    <string name="rb_A4064_u_RA">Refused to Answer</string>
+
+    <string name="rb_A4064_a"></string>
+    <string name="rb_A4064_b"></string>
+
+    <string name="rb_A4064_1_1">Yes</string>
+    <string name="rb_A4064_1_2">No</string>
+    <string name="rb_A4064_1_DK">Don’t Know</string>
+    <string name="rb_A4064_1_RA">Refused to Answer</string>
+
+    <string name="rb_A4065_1">Yes</string>
+    <string name="rb_A4065_2">No</string>
+    <string name="rb_A4065_DK">Don’t Know</string>
+    <string name="rb_A4065_RA">Refused to Answer</string>
+
+    <string name="rb_A4066_1">Yes</string>
+    <string name="rb_A4066_2">No</string>
+    <string name="rb_A4066_DK">Don’t Know</string>
+    <string name="rb_A4066_RA">Refused to Answer</string>
+
+    <string name="rb_A4067_1">Yes</string>
+    <string name="rb_A4067_2">No</string>
+    <string name="rb_A4067_DK">Don’t Know</string>
+    <string name="rb_A4067_RA">Refused to Answer</string>
+
+    <string name="rb_A4068_1">Yes</string>
+    <string name="rb_A4068_2">No</string>
+    <string name="rb_A4068_DK">Don’t Know</string>
+    <string name="rb_A4068_RA">Refused to Answer</string>
+
+    <string name="rb_A4069_u_1">Hour(s)</string>
+    <string name="rb_A4069_u_2">Month(s)</string>
+    <string name="rb_A4069_u_3">Year(s)</string>
+    <string name="rb_A4069_u_DK">Don’t Know</string>
+    <string name="rb_A4069_u_RA">Refused to Answer</string>
 
     <string name="rb_A4070_1">Upper abdomen</string>
     <string name="rb_A4070_2">Lower abdomen</string>
     <string name="rb_A4070_3">Upper and lower abdomen</string>
+    <string name="rb_A4070_DK">Don’t Know</string>
+    <string name="rb_A4070_RA">Refused to Answer</string>
+
+    <string name="rb_A4071_1">Yes</string>
+    <string name="rb_A4071_2">No</string>
+    <string name="rb_A4071_DK">Don’t Know</string>
+    <string name="rb_A4071_RA">Refused to Answer</string>
+
+    <string name="rb_A4072_u_1">Day(s)</string>
+    <string name="rb_A4072_u_2">Month(s)</string>
+    <string name="rb_A4072_u_DK">Don’t Know</string>
+    <string name="rb_A4072_u_RA">Refused to Answer</string>
+
 
     <string name="rb_A4073_1">Rapidly</string>
     <string name="rb_A4073_2">Slowly</string>
+    <string name="rb_A4073_DK">Don’t Know</string>
+    <string name="rb_A4073_RA">Refused to Answer</string>
+
+    <string name="rb_A4074_1">Yes</string>
+    <string name="rb_A4074_2">No</string>
+    <string name="rb_A4074_DK">Don’t Know</string>
+    <string name="rb_A4074_RA">Refused to Answer</string>
+
+    <string name="rb_A4075_u_1">Day(s)</string>
+    <string name="rb_A4075_u_2">Month(s)</string>
+    <string name="rb_A4075_u_DK">Don’t Know</string>
+    <string name="rb_A4075_u_RA">Refused to Answer</string>
+
+    <string name="rb_A4076_1">Yes</string>
+    <string name="rb_A4076_2">No</string>
+    <string name="rb_A4076_DK">Don’t Know</string>
+    <string name="rb_A4076_RA">Refused to Answer</string>
+
+    <string name="rb_A4077_u_1">Day(s)</string>
+    <string name="rb_A4077_u_2">Month(s)</string>
+    <string name="rb_A4077_u_DK">Don’t Know</string>
+    <string name="rb_A4077_u_RA">Refused to Answer</string>
+
+    <string name="rb_A4078_1">Yes</string>
+    <string name="rb_A4078_2">No</string>
+    <string name="rb_A4078_DK">Don’t Know</string>
+    <string name="rb_A4078_RA">Refused to Answer</string>
+
+    <string name="rb_A4079_1">Yes</string>
+    <string name="rb_A4079_2">No</string>
+    <string name="rb_A4079_DK">Don’t Know</string>
+    <string name="rb_A4079_RA">Refused to Answer</string>
+
+    <string name="rb_A4080_1">Yes</string>
+    <string name="rb_A4080_2">No</string>
+    <string name="rb_A4080_DK">Don’t Know</string>
+    <string name="rb_A4080_RA">Refused to Answer</string>
+
+    <string name="rb_A4081_1">Yes</string>
+    <string name="rb_A4081_2">No</string>
+    <string name="rb_A4081_DK">Don’t Know</string>
+    <string name="rb_A4081_RA">Refused to Answer</string>
+
+    <string name="rb_A4082_u_1">Day</string>
+    <string name="rb_A4082_u_2">Month</string>
+    <string name="rb_A4082_u_3">Year</string>
+    <string name="rb_A4082_u_DK">Don’t Know</string>
+    <string name="rb_A4082_u_RA">Refused to Answer</string>
 
     <string name="rb_A4083_1">Continuous</string>
     <string name="rb_A4083_2">On and off</string>
+    <string name="rb_A4083_DK">Don’t Know</string>
+    <string name="rb_A4083_RA">Refused to Answer</string>
+
+    <string name="rb_A4084_1">Yes</string>
+    <string name="rb_A4084_2">No</string>
+    <string name="rb_A4084_DK">Don’t Know</string>
+    <string name="rb_A4084_RA">Refused to Answer</string>
+
+    <string name="rb_A4085_u_1">Day(s)</string>
+    <string name="rb_A4085_u_2">Month(s)</string>
+    <string name="rb_A4085_u_DK">Don’t Know</string>
+    <string name="rb_A4085_u_RA">Refused to Answer</string>
+
+    <string name="rb_A4086_1">Yes</string>
+    <string name="rb_A4086_2">No</string>
+    <string name="rb_A4086_DK">Don’t Know</string>
+    <string name="rb_A4086_RA">Refused to Answer</string>
+
+    <string name="rb_A4087_u_1">Day(s)</string>
+    <string name="rb_A4087_u_2">Month(s)</string>
+    <string name="rb_A4087_u_DK">Don’t Know</string>
+    <string name="rb_A4087_u_RA">Refused to Answer</string>
+
+    <string name="rb_A4088_1">Yes</string>
+    <string name="rb_A4088_2">No</string>
+    <string name="rb_A4088_DK">Don’t Know</string>
+    <string name="rb_A4088_RA">Refused to Answer</string>
+
+    <string name="rb_A4089_1">Yes</string>
+    <string name="rb_A4089_2">No</string>
+    <string name="rb_A4089_DK">Don’t Know</string>
+    <string name="rb_A4089_RA">Refused to Answer</string>
+
+    <string name="rb_A4090_1">Yes</string>
+    <string name="rb_A4090_2">No</string>
+    <string name="rb_A4090_DK">Don’t Know</string>
+    <string name="rb_A4090_RA">Refused to Answer</string>
+
+    <string name="rb_A4091_1">Yes</string>
+    <string name="rb_A4091_2">No</string>
+    <string name="rb_A4091_DK">Don’t Know</string>
+    <string name="rb_A4091_RA">Refused to Answer</string>
+
+    <string name="rb_A4092_1">Yes</string>
+    <string name="rb_A4092_2">No</string>
+    <string name="rb_A4092_DK">Don’t Know</string>
+    <string name="rb_A4092_RA">Refused to Answer</string>
+
+    <string name="rb_A4094_u_3">دن</string>
+    <string name="rb_A4094_u_DK">Don’t Know</string>
+    <string name="rb_A4094_u_RA">Refused to Answer</string>
+
+    <string name="rb_A4095_1">Yes</string>
+    <string name="rb_A4095_2">No</string>
+    <string name="rb_A4095_DK">Don’t Know</string>
+    <string name="rb_A4095_RA">Refused to Answer</string>
+
+    <string name="rb_A4096_1">Yes</string>
+    <string name="rb_A4096_2">No</string>
+    <string name="rb_A4096_DK">Don’t Know</string>
+    <string name="rb_A4096_RA">Refused to Answer</string>
+
+    <string name="rb_A4097_u_1">Day(s)</string>
+    <string name="rb_A4097_u_2">Month(s)</string>
+    <string name="rb_A4097_u_DK">Don’t Know</string>
+    <string name="rb_A4097_u_RA">Refused to Answer</string>
+
+    <string name="rb_A4098_1">Yes</string>
+    <string name="rb_A4098_2">No</string>
+    <string name="rb_A4098_DK">Don’t Know</string>
+    <string name="rb_A4098_RA">Refused to Answer</string>
+
+    <string name="rb_A4099_u_1">Day(s)</string>
+    <string name="rb_A4099_u_2">Month(s)</string>
+    <string name="rb_A4099_u_DK">Don’t Know</string>
+    <string name="rb_A4099_u_RA">Refused to Answer</string>
+
+    <string name="rb_A4100_1">Yes</string>
+    <string name="rb_A4100_2">No</string>
+    <string name="rb_A4100_DK">Don’t Know</string>
+    <string name="rb_A4100_RA">Refused to Answer</string>
+
+    <string name="rb_A4101_u_1">Day(s)</string>
+    <string name="rb_A4101_u_2">Month(s)</string>
+    <string name="rb_A4101_u_DK">Don’t Know</string>
+    <string name="rb_A4101_u_RA">Refused to Answer</string>
+
+    <string name="rb_A4102_1">Yes</string>
+    <string name="rb_A4102_2">No</string>
+    <string name="rb_A4102_DK">Don’t Know</string>
+    <string name="rb_A4102_RA">Refused to Answer</string>
+
+    <string name="rb_A4103_1">Yes</string>
+    <string name="rb_A4103_2">No</string>
+    <string name="rb_A4103_DK">Don’t Know</string>
+    <string name="rb_A4103_RA">Refused to Answer</string>
+
+    <string name="rb_A4104_1">Yes</string>
+    <string name="rb_A4104_2">No</string>
+    <string name="rb_A4104_DK">Don’t Know</string>
+    <string name="rb_A4104_RA">Refused to Answer</string>
+
+    <string name="rb_A4105_1">Yes</string>
+    <string name="rb_A4105_2">No</string>
+    <string name="rb_A4105_DK">Don’t Know</string>
+    <string name="rb_A4105_RA">Refused to Answer</string>
+
+    <string name="rb_A4106_1">Yes</string>
+    <string name="rb_A4106_2">No</string>
+    <string name="rb_A4106_DK">Don’t Know</string>
+    <string name="rb_A4106_RA">Refused to Answer</string>
+
+    <string name="rb_A4108_1">Yes</string>
+    <string name="rb_A4108_2">No</string>
+    <string name="rb_A4108_DK">Don’t Know</string>
+    <string name="rb_A4108_RA">Refused to Answer</string>
+
+    <string name="rb_A4109_1">Yes</string>
+    <string name="rb_A4109_2">No</string>
+    <string name="rb_A4109_DK">Don’t Know</string>
+    <string name="rb_A4109_RA">Refused to Answer</string>
+
+    <string name="rb_A4110_1">Yes</string>
+    <string name="rb_A4110_2">No</string>
+    <string name="rb_A4110_DK">Don’t Know</string>
+    <string name="rb_A4110_RA">Refused to Answer</string>
+
+    <string name="rb_A4111_1">Yes</string>
+    <string name="rb_A4111_2">No</string>
+    <string name="rb_A4111_DK">Don’t Know</string>
+    <string name="rb_A4111_RA">Refused to Answer</string>
+
+    <string name="rb_A4112_1">Yes</string>
+    <string name="rb_A4112_2">No</string>
+    <string name="rb_A4112_DK">Don’t Know</string>
+    <string name="rb_A4112_RA">Refused to Answer</string>
+
+    <string name="rb_A4113_1">Yes</string>
+    <string name="rb_A4113_2">No</string>
+    <string name="rb_A4113_DK">Don’t Know</string>
+    <string name="rb_A4113_RA">Refused to Answer</string>
+
+    <string name="rb_A4114_1">Yes</string>
+    <string name="rb_A4114_2">No</string>
+    <string name="rb_A4114_DK">Don’t Know</string>
+    <string name="rb_A4114_RA">Refused to Answer</string>
+
+    <string name="rb_A4115_1">Yes</string>
+    <string name="rb_A4115_2">No</string>
+    <string name="rb_A4115_DK">Don’t Know</string>
+    <string name="rb_A4115_RA">Refused to Answer</string>
+
+    <string name="rb_A4116_1">Yes</string>
+    <string name="rb_A4116_2">No</string>
+    <string name="rb_A4116_DK">Don’t Know</string>
+    <string name="rb_A4116_RA">Refused to Answer</string>
+
+    <string name="rb_A4117_u_1">Day(s)</string>
+    <string name="rb_A4117_u_2">Month(s)</string>
+    <string name="rb_A4117_u_DK">Don’t Know</string>
+    <string name="rb_A4117_u_RA">Refused to Answer</string>
+
+    <string name="rb_A4118_1">Yes</string>
+    <string name="rb_A4118_2">No</string>
+    <string name="rb_A4118_DK">Don’t Know</string>
+    <string name="rb_A4118_RA">Refused to Answer</string>
 
     <string name="rb_A4119_1">Face</string>
     <string name="rb_A4119_2">Trunk/Abdomen</string>
     <string name="rb_A4119_3">Extremities</string>
     <string name="rb_A4119_4">Everywhere</string>
+    <string name="rb_A4119_DK">Don’t Know</string>
+    <string name="rb_A4119_RA">Refused to Answer</string>
 
     <string name="rb_A4120_1">Face</string>
     <string name="rb_A4120_2">Trunk/Abdomen</string>
     <string name="rb_A4120_3">Extremities</string>
     <string name="rb_A4120_4">Everywhere</string>
+    <string name="rb_A4120_DK">Don’t Know</string>
+    <string name="rb_A4120_RA">Refused to Answer</string>
+
+    <string name="rb_A4122_1">Yes</string>
+    <string name="rb_A4122_2">No</string>
+    <string name="rb_A4122_DK">Don’t Know</string>
+    <string name="rb_A4122_RA">Refused to Answer</string>
+
+    <string name="rb_A4123_1">Yes</string>
+    <string name="rb_A4123_2">No</string>
+    <string name="rb_A4123_DK">Don’t Know</string>
+    <string name="rb_A4123_RA">Refused to Answer</string>
+
+    <string name="rb_A4124_1">Yes</string>
+    <string name="rb_A4124_2">No</string>
+    <string name="rb_A4124_DK">Don’t Know</string>
+    <string name="rb_A4124_RA">Refused to Answer</string>
+
+    <string name="rb_A4125_1">Yes</string>
+    <string name="rb_A4125_2">No</string>
+    <string name="rb_A4125_DK">Don’t Know</string>
+    <string name="rb_A4125_RA">Refused to Answer</string>
+
+    <string name="rb_A4126_1">Yes</string>
+    <string name="rb_A4126_2">No</string>
+    <string name="rb_A4126_DK">Don’t Know</string>
+    <string name="rb_A4126_RA">Refused to Answer</string>
+
+    <string name="rb_A4127_u_1">Day(s)</string>
+    <string name="rb_A4127_u_2">Month(s)</string>
+    <string name="rb_A4127_u_DK">Don’t Know</string>
+    <string name="rb_A4127_u_RA">Refused to Answer</string>
+
+    <string name="rb_A4128_1">Yes</string>
+    <string name="rb_A4128_2">No</string>
+    <string name="rb_A4128_DK">Don’t Know</string>
+    <string name="rb_A4128_RA">Refused to Answer</string>
+
+    <string name="rb_A4129_1">Yes</string>
+    <string name="rb_A4129_2">No</string>
+    <string name="rb_A4129_DK">Don’t Know</string>
+    <string name="rb_A4129_RA">Refused to Answer</string>
+
+    <string name="rb_A4130_u_1">Day(s)</string>
+    <string name="rb_A4130_u_2">Month(s)</string>
+    <string name="rb_A4130_u_DK">Don’t Know</string>
+    <string name="rb_A4130_u_RA">Refused to Answer</string>
+
+    <string name="rb_A4131_1">Yes</string>
+    <string name="rb_A4131_2">No</string>
+    <string name="rb_A4131_DK">Don’t Know</string>
+    <string name="rb_A4131_RA">Refused to Answer</string>
+
+    <string name="rb_A4132_1">Yes</string>
+    <string name="rb_A4132_2">No</string>
+    <string name="rb_A4132_DK">Don’t Know</string>
+    <string name="rb_A4132_RA">Refused to Answer</string>
+
+    <string name="rb_A4133_1">Yes</string>
+    <string name="rb_A4133_2">No</string>
+    <string name="rb_A4133_DK">Don’t Know</string>
+    <string name="rb_A4133_RA">Refused to Answer</string>
+
+    <string name="rb_A4134_u_1">Day(s)</string>
+    <string name="rb_A4134_u_2">Month(s)</string>
+    <string name="rb_A4134_u_DK">Don’t Know</string>
+    <string name="rb_A4134_u_RA">Refused to Answer</string>
+
+    <string name="rb_A4135_1">Yes</string>
+    <string name="rb_A4135_2">No</string>
+    <string name="rb_A4135_DK">Don’t Know</string>
+    <string name="rb_A4135_RA">Refused to Answer</string>
+
+    <string name="rb_A4136_1">Yes</string>
+    <string name="rb_A4136_2">No</string>
+    <string name="rb_A4136_DK">Don’t Know</string>
+    <string name="rb_A4136_RA">Refused to Answer</string>
+
+    <string name="rb_A4138_1">Yes</string>
+    <string name="rb_A4138_2">No</string>
+    <string name="rb_A4138_DK">Don’t Know</string>
+    <string name="rb_A4138_RA">Refused to Answer</string>
+
+    <string name="rb_A4139_1">Yes</string>
+    <string name="rb_A4139_2">No</string>
+    <string name="rb_A4139_DK">Don’t Know</string>
+    <string name="rb_A4139_RA">Refused to Answer</string>
+
+    <string name="rb_A4140_1">Yes</string>
+    <string name="rb_A4140_2">No</string>
+    <string name="rb_A4140_DK">Don’t Know</string>
+    <string name="rb_A4140_RA">Refused to Answer</string>
+
+    <string name="rb_A4144_1">Yes</string>
+    <string name="rb_A4144_2">No</string>
+    <string name="rb_A4144_DK">Don’t Know</string>
+    <string name="rb_A4144_RA">Refused to Answer</string>
+
+    <string name="rb_A4145_1">Yes</string>
+    <string name="rb_A4145_2">No</string>
+    <string name="rb_A4145_DK">Don’t Know</string>
+    <string name="rb_A4145_RA">Refused to Answer</string>
+
+    <string name="rb_A4146_1">Yes</string>
+    <string name="rb_A4146_2">No</string>
+    <string name="rb_A4146_DK">Don’t Know</string>
+    <string name="rb_A4146_RA">Refused to Answer</string>
+
+    <string name="rb_A4147_1">Yes</string>
+    <string name="rb_A4147_2">No</string>
+    <string name="rb_A4147_DK">Don’t Know</string>
+    <string name="rb_A4147_RA">Refused to Answer</string>
 
     <string name="rb_A4148_1">Right side</string>
     <string name="rb_A4148_2">Left side</string>
@@ -4230,23 +4887,253 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_A4148_5">One leg only</string>
     <string name="rb_A4148_6">One arm only</string>
     <string name="rb_A4148_7">Whole body</string>
+    <string name="rb_A4148_OT">Other (Specify)</string>
+    <string name="rb_A4148_DK">Don’t Know</string>
+    <string name="rb_A4148_RA">Refused to Answer</string>
+
+    <string name="rb_A4149_1">ہاں</string>
+    <string name="rb_A4149_2">نہیں</string>
+    <string name="rb_A4149_DK">معلوم نہیں</string>
+    <string name="rb_A4149_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4150_u_1">دن</string>
+    <string name="rb_A4150_u_2">مہینے</string>
+    <string name="rb_A4150_u_DK">معلوم نہیں</string>
+    <string name="rb_A4150_u_RA">جواب دینے سے انکار کردیا</string>
 
     <string name="rb_A4151_1">Solids</string>
     <string name="rb_A4151_2">Liquids</string>
     <string name="rb_A4151_3">Both</string>
 
+    <string name="rb_A4152_1">ہاں</string>
+    <string name="rb_A4152_2">نہیں</string>
+    <string name="rb_A4152_DK">معلوم نہیں</string>
+    <string name="rb_A4152_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4153_1">ہاں</string>
+    <string name="rb_A4153_2">نہیں</string>
+    <string name="rb_A4153_DK">معلوم نہیں</string>
+    <string name="rb_A4153_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4154_1">ہاں</string>
+    <string name="rb_A4154_2">نہیں</string>
+    <string name="rb_A4154_DK">معلوم نہیں</string>
+    <string name="rb_A4154_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4155_1">ہاں</string>
+    <string name="rb_A4155_2">نہیں</string>
+    <string name="rb_A4155_DK">معلوم نہیں</string>
+    <string name="rb_A4155_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4156_1">ہاں</string>
+    <string name="rb_A4156_2">نہیں</string>
+    <string name="rb_A4156_DK">معلوم نہیں</string>
+    <string name="rb_A4156_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4157_1">ہاں</string>
+    <string name="rb_A4157_2">نہیں</string>
+    <string name="rb_A4157_DK">معلوم نہیں</string>
+    <string name="rb_A4157_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4158_1">ہاں</string>
+    <string name="rb_A4158_2">نہیں</string>
+    <string name="rb_A4158_DK">معلوم نہیں</string>
+    <string name="rb_A4158_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4159_1">ہاں</string>
+    <string name="rb_A4159_2">نہیں</string>
+    <string name="rb_A4159_DK">معلوم نہیں</string>
+    <string name="rb_A4159_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4160_1">ہاں</string>
+    <string name="rb_A4160_2">نہیں</string>
+    <string name="rb_A4160_DK">معلوم نہیں</string>
+    <string name="rb_A4160_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4161_1">ہاں</string>
+    <string name="rb_A4161_2">نہیں</string>
+    <string name="rb_A4161_DK">معلوم نہیں</string>
+    <string name="rb_A4161_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4161_1_1">ہاں</string>
+    <string name="rb_A4161_1_2">نہیں</string>
+    <string name="rb_A4161_1_DK">معلوم نہیں</string>
+    <string name="rb_A4161_1_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4162_1">ہاں</string>
+    <string name="rb_A4162_2">نہیں</string>
+    <string name="rb_A4162_DK">معلوم نہیں</string>
+    <string name="rb_A4162_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4163_1_1">ہاں</string>
+    <string name="rb_A4163_1_2">نہیں</string>
+    <string name="rb_A4163_1_DK">معلوم نہیں</string>
+    <string name="rb_A4163_1_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4163_1">ہاں</string>
+    <string name="rb_A4163_2">نہیں</string>
+    <string name="rb_A4163_DK">معلوم نہیں</string>
+    <string name="rb_A4163_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4166_1">ہاں</string>
+    <string name="rb_A4166_2">نہیں</string>
+    <string name="rb_A4166_3_DK">معلوم نہیں</string>
+    <string name="rb_A4166_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4167_1">ہاں</string>
+    <string name="rb_A4167_2">نہیں</string>
+    <string name="rb_A4167_DK">معلوم نہیں</string>
+    <string name="rb_A4167_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4168_1_1">ہاں</string>
+    <string name="rb_A4168_1_2">نہیں</string>
+    <string name="rb_A4168_1_DK">معلوم نہیں</string>
+    <string name="rb_A4168_1_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4168_3_1">ہاں</string>
+    <string name="rb_A4168_3_2">نہیں</string>
+    <string name="rb_A4168_3_DK">معلوم نہیں</string>
+    <string name="rb_A4168_3_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4168_1">ہاں</string>
+    <string name="rb_A4168_2">نہیں</string>
+    <string name="rb_A4168_DK">معلوم نہیں</string>
+    <string name="rb_A4168_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4173_1_1">ہاں</string>
+    <string name="rb_A4173_1_2">نہیں</string>
+    <string name="rb_A4173_1_DK">معلوم نہیں</string>
+    <string name="rb_A4173_1_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4173_1">ہاں</string>
+    <string name="rb_A4173_2">نہیں</string>
+    <string name="rb_A4173_DK">معلوم نہیں</string>
+    <string name="rb_A4173_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4173_2_1">ہاں</string>
+    <string name="rb_A4173_2_2">نہیں</string>
+    <string name="rb_A4173_2_DK">معلوم نہیں</string>
+    <string name="rb_A4173_2_RA">جواب دینے سے انکار کردیا</string>
+
     <string name="rb_A4178_2_1">Yes (She was not pregnant, and she did not recently deliver, have abortion, or miscarry)</string>
     <string name="rb_A4178_2_2">No (She was pregnant or she recently delivered, had an abortion, or miscarried)</string>
+    <string name="rb_A4178_2_DK">معلوم نہیں</string>
+    <string name="rb_A4178_2_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4178_1">ہاں</string>
+    <string name="rb_A4178_2">نہیں</string>
+    <string name="rb_A4178_DK">معلوم نہیں</string>
+    <string name="rb_A4178_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4179_1">ہاں</string>
+    <string name="rb_A4179_2">نہیں</string>
+    <string name="rb_A4179_DK">معلوم نہیں</string>
+    <string name="rb_A4179_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4180_1">ہاں</string>
+    <string name="rb_A4180_2">نہیں</string>
+    <string name="rb_A4180_DK">معلوم نہیں</string>
+    <string name="rb_A4180_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4182_1">ہاں</string>
+    <string name="rb_A4182_2">نہیں</string>
+    <string name="rb_A4182_DK">معلوم نہیں</string>
+    <string name="rb_A4182_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4183_1">ہاں</string>
+    <string name="rb_A4183_2">نہیں</string>
+    <string name="rb_A4183_DK">معلوم نہیں</string>
+    <string name="rb_A4183_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4184_1">ہاں</string>
+    <string name="rb_A4184_2">نہیں</string>
+    <string name="rb_A4184_DK">معلوم نہیں</string>
+    <string name="rb_A4184_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4185_1">ہاں</string>
+    <string name="rb_A4185_2">نہیں</string>
+    <string name="rb_A4185_DK">معلوم نہیں</string>
+    <string name="rb_A4185_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4186_1">ہاں</string>
+    <string name="rb_A4186_2">نہیں</string>
+    <string name="rb_A4186_DK">معلوم نہیں</string>
+    <string name="rb_A4186_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4186_1_1">ہاں</string>
+    <string name="rb_A4186_1_2">نہیں</string>
+    <string name="rb_A4186_1_DK">معلوم نہیں</string>
+    <string name="rb_A4186_1_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4187_1">ہاں</string>
+    <string name="rb_A4187_2">نہیں</string>
+    <string name="rb_A4187_DK">معلوم نہیں</string>
+    <string name="rb_A4187_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4188_1">ہاں</string>
+    <string name="rb_A4188_2">نہیں</string>
+    <string name="rb_A4188_DK">معلوم نہیں</string>
+    <string name="rb_A4188_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4189_1">ہاں</string>
+    <string name="rb_A4189_2">نہیں</string>
+    <string name="rb_A4189_DK">معلوم نہیں</string>
+    <string name="rb_A4189_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4190_1">ہاں</string>
+    <string name="rb_A4190_2">نہیں</string>
+    <string name="rb_A4190_DK">معلوم نہیں</string>
+    <string name="rb_A4190_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4191_1">ہاں</string>
+    <string name="rb_A4191_2">نہیں</string>
+    <string name="rb_A4191_DK">معلوم نہیں</string>
+    <string name="rb_A4191_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4193_1">ہاں</string>
+    <string name="rb_A4193_2">نہیں</string>
+    <string name="rb_A4193_DK">معلوم نہیں</string>
+    <string name="rb_A4193_RA">جواب دینے سے انکار کردیا</string>
 
     <string name="rb_A4193_1_1">Oral medicine</string>
     <string name="rb_A4193_1_2">Traditional vaginal herbal application</string>
     <string name="rb_A4193_1_3">Vaginal tablet</string>
     <string name="rb_A4193_1_4">Instrumentation</string>
+    <string name="rb_A4193_1_DK">معلوم نہیں</string>
+    <string name="rb_A4193_1_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4194_1">ہاں</string>
+    <string name="rb_A4194_2">نہیں</string>
+    <string name="rb_A4194_DK">معلوم نہیں</string>
+    <string name="rb_A4194_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4195_1">ہاں</string>
+    <string name="rb_A4195_2">نہیں</string>
+    <string name="rb_A4195_DK">معلوم نہیں</string>
+    <string name="rb_A4195_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4196_1">ہاں</string>
+    <string name="rb_A4196_2">نہیں</string>
+    <string name="rb_A4196_DK">معلوم نہیں</string>
+    <string name="rb_A4196_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4197_1">ہاں</string>
+    <string name="rb_A4197_2">نہیں</string>
+    <string name="rb_A4197_DK">معلوم نہیں</string>
+    <string name="rb_A4197_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4198_1_1">ہاں</string>
+    <string name="rb_A4198_1_2">نہیں</string>
+    <string name="rb_A4198_1_DK">معلوم نہیں</string>
+    <string name="rb_A4198_1_RA">جواب دینے سے انکار کردیا</string>
 
     <string name="rb_A4198_1">Hospital</string>
     <string name="rb_A4198_2">Other Health Facility</string>
     <string name="rb_A4198_3">Home</string>
     <string name="rb_A4198_4">On route to hospital or facility</string>
+    <string name="rb_A4198_OT">دیگر </string>
+    <string name="rb_A4198_DK">معلوم نہیں</string>
+    <string name="rb_A4198_RA">جواب دینے سے انکار کردیا</string>
 
     <string name="rb_A4200_1">Doctor</string>
     <string name="rb_A4200_2">Midwife</string>
@@ -4254,6 +5141,44 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_A4200_4">Relative</string>
     <string name="rb_A4200_5">Self (the mother)</string>
     <string name="rb_A4200_6">Traditional birth attendant</string>
+    <string name="rb_A4200_OT">دیگر </string>
+    <string name="rb_A4200_DK">معلوم نہیں</string>
+    <string name="rb_A4200_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4202_1">ہاں</string>
+    <string name="rb_A4202_2">نہیں</string>
+    <string name="rb_A4202_DK">معلوم نہیں</string>
+    <string name="rb_A4202_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4203_1">ہاں</string>
+    <string name="rb_A4203_2">نہیں</string>
+    <string name="rb_A4203_DK">معلوم نہیں</string>
+    <string name="rb_A4203_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4204_1">ہاں</string>
+    <string name="rb_A4204_2">نہیں</string>
+    <string name="rb_A4204_DK">معلوم نہیں</string>
+    <string name="rb_A4204_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4205_1">ہاں</string>
+    <string name="rb_A4205_2">نہیں</string>
+    <string name="rb_A4205_DK">معلوم نہیں</string>
+    <string name="rb_A4205_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4205_1_1">ہاں</string>
+    <string name="rb_A4205_1_2">نہیں</string>
+    <string name="rb_A4205_1_DK">معلوم نہیں</string>
+    <string name="rb_A4205_1_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_1">ہاں</string>
+    <string name="rb_A4206_2">نہیں</string>
+    <string name="rb_A4206_DK">معلوم نہیں</string>
+    <string name="rb_A4206_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_1_1">ہاں</string>
+    <string name="rb_A4206_1_2">نہیں</string>
+    <string name="rb_A4206_1_DK">معلوم نہیں</string>
+    <string name="rb_A4206_1_RA">جواب دینے سے انکار کردیا</string>
 
     <string name="rb_A4206_2_1">Pedestrian	</string>
     <string name="rb_A4206_2_2">Driver or passenger in car or light vehicle</string>
@@ -4261,7 +5186,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_A4206_2_4">Driver or passenger on a motorcycle</string>
     <string name="rb_A4206_2_5">Driver or passenger on a pedal cycle</string>
     <string name="rb_A4206_2_OT">Other (Specify)</string>
-    <string name="rb_A4206_2_DK">Don\'t Know</string>
+    <string name="rb_A4206_2_DK">Don’t Know</string>
     <string name="rb_A4206_2_RA">Refused to Answer</string>
 
     <string name="rb_A4206_3_1">Pedestrian</string>
@@ -4271,18 +5196,123 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_A4206_3_5">Motorcycle</string>
     <string name="rb_A4206_3_6">Pedal cycle</string>
     <string name="rb_A4206_3_OT">Other (Specify)</string>
-    <string name="rb_A4206_3_DK">Don\'t Know</string>
+    <string name="rb_A4206_3_DK">Don’t Know</string>
     <string name="rb_A4206_3_RA">Refused to Answer</string>
+
+    <string name="rb_A4206_4_1">ہاں</string>
+    <string name="rb_A4206_4_2">نہیں</string>
+    <string name="rb_A4206_4_DK">معلوم نہیں</string>
+    <string name="rb_A4206_4_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_5_1">ہاں</string>
+    <string name="rb_A4206_5_2">نہیں</string>
+    <string name="rb_A4206_5_DK">معلوم نہیں</string>
+    <string name="rb_A4206_5_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_6_1">ہاں</string>
+    <string name="rb_A4206_6_2">نہیں</string>
+    <string name="rb_A4206_6_DK">معلوم نہیں</string>
+    <string name="rb_A4206_6_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_7_1">ہاں</string>
+    <string name="rb_A4206_7_2">نہیں</string>
+    <string name="rb_A4206_7_DK">معلوم نہیں</string>
+    <string name="rb_A4206_7_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_8_1">ہاں</string>
+    <string name="rb_A4206_8_2">نہیں</string>
+    <string name="rb_A4206_8_DK">معلوم نہیں</string>
+    <string name="rb_A4206_8_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_9_1">ہاں</string>
+    <string name="rb_A4206_9_2">نہیں</string>
+    <string name="rb_A4206_9_DK">معلوم نہیں</string>
+    <string name="rb_A4206_9_RA">جواب دینے سے انکار کردیا</string>
 
     <string name="rb_A4206_10_1">Dog</string>
     <string name="rb_A4206_10_2">Snake</string>
     <string name="rb_A4206_10_3">Insect or scorpion</string>
+    <string name="rb_A4206_10_OT">Other (Specify)</string>
+    <string name="rb_A4206_10_DK">معلوم نہیں</string>
+    <string name="rb_A4206_10_RA">جواب دینے سے انکار کردیا</string>
 
+    <string name="rb_A4206_11_1">ہاں</string>
+    <string name="rb_A4206_11_2">نہیں</string>
+    <string name="rb_A4206_11_DK">معلوم نہیں</string>
+    <string name="rb_A4206_11_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_12_1">ہاں</string>
+    <string name="rb_A4206_12_2">نہیں</string>
+    <string name="rb_A4206_12_DK">معلوم نہیں</string>
+    <string name="rb_A4206_12_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_13_1">ہاں</string>
+    <string name="rb_A4206_13_2">نہیں</string>
+    <string name="rb_A4206_13_DK">معلوم نہیں</string>
+    <string name="rb_A4206_13_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_14_1">ہاں</string>
+    <string name="rb_A4206_14_2">نہیں</string>
+    <string name="rb_A4206_14_DK">معلوم نہیں</string>
+    <string name="rb_A4206_14_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_15_1">ہاں</string>
+    <string name="rb_A4206_15_2">نہیں</string>
+    <string name="rb_A4206_15_DK">معلوم نہیں</string>
+    <string name="rb_A4206_15_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_16_1">ہاں</string>
+    <string name="rb_A4206_16_2">نہیں</string>
+    <string name="rb_A4206_16_DK">معلوم نہیں</string>
+    <string name="rb_A4206_16_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_17_1">ہاں</string>
+    <string name="rb_A4206_17_2">نہیں</string>
+    <string name="rb_A4206_17_DK">معلوم نہیں</string>
+    <string name="rb_A4206_17_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_18_1">ہاں</string>
+    <string name="rb_A4206_18_2">نہیں</string>
+    <string name="rb_A4206_18_DK">معلوم نہیں</string>
+    <string name="rb_A4206_18_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_19_1">ہاں</string>
+    <string name="rb_A4206_19_2">نہیں</string>
+    <string name="rb_A4206_19_DK">معلوم نہیں</string>
+    <string name="rb_A4206_19_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_20_1">ہاں</string>
+    <string name="rb_A4206_20_2">نہیں</string>
+    <string name="rb_A4206_20_DK">معلوم نہیں</string>
+    <string name="rb_A4206_20_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_21_1">ہاں</string>
+    <string name="rb_A4206_21_2">نہیں</string>
+    <string name="rb_A4206_21_DK">معلوم نہیں</string>
+    <string name="rb_A4206_21_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_22_1">ہاں</string>
+    <string name="rb_A4206_22_2">نہیں</string>
+    <string name="rb_A4206_22_DK">معلوم نہیں</string>
+    <string name="rb_A4206_22_RA">جواب دینے سے انکار کردیا</string>
+
+
+    <string name="rb_A4251_1">ہاں</string>
     <string name="rb_A4251_2">No—care not needed, given or sought</string>
+    <string name="rb_A4251_DK">معلوم نہیں</string>
 
     <string name="rb_A4253_1">Adult deceased him/herself</string>
     <string name="rb_A4253_2">Adult deceased’s spouse/partner</string>
     <string name="rb_A4253_3">Someone else</string>
+    <string name="rb_A4253_DK">معلوم نہیں</string>
+
+    <string name="rb_A4254_1_1">ہاں</string>
+    <string name="rb_A4254_1_2">نہیں</string>
+    <string name="rb_A4254_1_DK">معلوم نہیں</string>
+
+    <string name="rb_A4254_2_1">ہاں</string>
+    <string name="rb_A4254_2_2">نہیں</string>
+    <string name="rb_A4254_2_DK">معلوم نہیں</string>
 
     <string name="cb_A4255_1">Did not think adult was sick enough to need health care</string>
     <string name="cb_A4255_2">No one available to accompany</string>
@@ -4296,6 +5326,8 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="cb_A4255_10">Thought s/he was too sick to travel</string>
     <string name="cb_A4255_11">Thought s/he will die no matter what</string>
     <string name="cb_A4255_12">Was late at night (transportation or provider not available)</string>
+    <string name="cb_A4255_OT">دیگر (وضاحت کریں)</string>
+    <string name="cb_A4255_DK"> معلوم نہیں</string>
 
     <string name="cb_A4276_1">Provider didn’t say referral so important</string>
     <string name="cb_A4276_2">Thought no more care needed</string>
@@ -4313,11 +5345,11 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="cb_A4276_14">Was late at night</string>
     <string name="cb_A4276_15">The adult died before going</string>
     <string name="cb_A4276_OT">Other (Specify)</string>
-    <string name="cb_A4276_DK">Don\'t Know</string>
+    <string name="cb_A4276_DK">Don’t Know</string>
 
     <string name="rb_A4277_1">Yes</string>
     <string name="rb_A4277_2">No</string>
-    <string name="rb_A4277_DK">Don\'t Know</string>
+    <string name="rb_A4277_DK">Don’t Know</string>
 
     <string name="cb_A4278_1">Had available</string>
     <string name="cb_A4278_2">Borrowed</string>
@@ -4325,25 +5357,380 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="cb_A4278_4">Help from kin/relatives</string>
     <string name="cb_A4278_5">Community fund</string>
     <string name="cb_A4278_6">Govt. scheme</string>
+    <string name="cb_A4278_OT">Other (Specify)</string>
+    <string name="cb_A4278_DK">  معلوم نہیں</string>
 
     <string name="cb_A4279_1">Walk</string>
     <string name="cb_A4279_2">Bicycle / Animal Cart / Boat</string>
     <string name="cb_A4279_3">Bus</string>
     <string name="cb_A4279_4">Taxi/Auto/Tractor/motorcycle</string>
     <string name="cb_A4279_5">Ambulance</string>
+    <string name="cb_A4279_OT">Other (Specify)</string>
     <string name="cb_A4279_7">Could not arrange transport</string>
+    <string name="cb_A4279_DK">معلوم نہیں</string>
+
+    <string name="rb_A4280_1">ہاں</string>
+    <string name="rb_A4280_2">نہیں</string>
+    <string name="rb_A4280_DK">معلوم نہیں</string>
+    <string name="rb_A4280_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4281_1">ہاں</string>
+    <string name="rb_A4281_2">نہیں</string>
+    <string name="rb_A4281_DK">معلوم نہیں</string>
+    <string name="rb_A4281_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4282_1">ہاں</string>
+    <string name="rb_A4282_2">نہیں</string>
+    <string name="rb_A4282_DK">معلوم نہیں</string>
+    <string name="rb_A4282_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4283_1">ہاں</string>
+    <string name="rb_A4283_2">نہیں</string>
+    <string name="rb_A4283_DK">معلوم نہیں</string>
+    <string name="rb_A4283_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4301_1">ہاں</string>
+    <string name="rb_A4301_2">نہیں</string>
+    <string name="rb_A4301_DK">معلوم نہیں</string>
+    <string name="rb_A4301_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4302_1_1">ہاں</string>
+    <string name="rb_A4302_1_2">نہیں</string>
+    <string name="rb_A4302_1_DK">معلوم نہیں</string>
+    <string name="rb_A4302_1_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4302_2_1">ہاں</string>
+    <string name="rb_A4302_2_2">نہیں</string>
+    <string name="rb_A4302_2_DK">معلوم نہیں</string>
+    <string name="rb_A4302_2_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4302_3_1">ہاں</string>
+    <string name="rb_A4302_3_2">نہیں</string>
+    <string name="rb_A4302_3_DK">معلوم نہیں</string>
+    <string name="rb_A4302_3_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4302_4_1">ہاں</string>
+    <string name="rb_A4302_4_2">نہیں</string>
+    <string name="rb_A4302_4_DK">معلوم نہیں</string>
+    <string name="rb_A4302_4_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4302_5_1">ہاں</string>
+    <string name="rb_A4302_5_2">نہیں</string>
+    <string name="rb_A4302_5_DK">معلوم نہیں</string>
+    <string name="rb_A4302_5_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4302_6_1">ہاں</string>
+    <string name="rb_A4302_6_2">نہیں</string>
+    <string name="rb_A4302_6_DK">معلوم نہیں</string>
+    <string name="rb_A4302_6_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4302_7_1">ہاں</string>
+    <string name="rb_A4302_7_2">نہیں</string>
+    <string name="rb_A4302_7_DK">معلوم نہیں</string>
+    <string name="rb_A4302_7_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4303_1">ہاں</string>
+    <string name="rb_A4303_2">نہیں</string>
+    <string name="rb_A4303_DK">معلوم نہیں</string>
+    <string name="rb_A4303_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4304_1">ہاں</string>
+    <string name="rb_A4304_2">نہیں</string>
+    <string name="rb_A4304_DK">معلوم نہیں</string>
+    <string name="rb_A4304_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4305_1">ہاں</string>
+    <string name="rb_A4305_2">نہیں</string>
+
+    <string name="rb_A4306_1check_1">ہاں</string>
+    <string name="rb_A4306_1check_2">نہیں</string>
+
+    <string name="rb_A4306_2check_1">ہاں</string>
+    <string name="rb_A4306_2check_2">نہیں</string>
+
+    <string name="rb_A4310_1_1">ہاں</string>
+    <string name="rb_A4310_1_2">نہیں</string>
+    <string name="rb_A4310_1_DK">معلوم نہیں</string>
+    <string name="rb_A4310_1_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4310_2_1">ہاں</string>
+    <string name="rb_A4310_2_2">نہیں</string>
+    <string name="rb_A4310_2_DK">معلوم نہیں</string>
+    <string name="rb_A4310_2_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4310_3_1">ہاں</string>
+    <string name="rb_A4310_3_2">نہیں</string>
+    <string name="rb_A4310_3_DK">معلوم نہیں</string>
+    <string name="rb_A4310_3_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4310_4_1">ہاں</string>
+    <string name="rb_A4310_4_2">نہیں</string>
+    <string name="rb_A4310_4_DK">معلوم نہیں</string>
+    <string name="rb_A4310_4_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4310_5_1">ہاں</string>
+    <string name="rb_A4310_5_2">نہیں</string>
+    <string name="rb_A4310_5_DK">معلوم نہیں</string>
+    <string name="rb_A4310_5_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4310_6_1">ہاں</string>
+    <string name="rb_A4310_6_2">نہیں</string>
+    <string name="rb_A4310_6_DK">معلوم نہیں</string>
+    <string name="rb_A4310_6_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4310_7_1">ہاں</string>
+    <string name="rb_A4310_7_2">نہیں</string>
+    <string name="rb_A4310_7_DK">معلوم نہیں</string>
+    <string name="rb_A4310_7_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4310_8_1">ہاں</string>
+    <string name="rb_A4310_8_2">نہیں</string>
+    <string name="rb_A4310_8_DK">معلوم نہیں</string>
+    <string name="rb_A4310_8_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4310_9_1">ہاں</string>
+    <string name="rb_A4310_9_2">نہیں</string>
+    <string name="rb_A4310_9_DK">معلوم نہیں</string>
+    <string name="rb_A4310_9_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4310_10_1">ہاں</string>
+    <string name="rb_A4310_10_2">نہیں</string>
+    <string name="rb_A4310_10_DK">معلوم نہیں</string>
+    <string name="rb_A4310_10_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4310_11_1">ہاں</string>
+    <string name="rb_A4310_11_2">نہیں</string>
+    <string name="rb_A4310_11_DK">معلوم نہیں</string>
+    <string name="rb_A4310_11_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4311_1_1">ہاں</string>
+    <string name="rb_A4311_1_2">نہیں</string>
+    <string name="rb_A4311_1_DK">معلوم نہیں</string>
+    <string name="rb_A4311_1_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4311_2_1">ہاں</string>
+    <string name="rb_A4311_2_2">نہیں</string>
+    <string name="rb_A4311_2_DK">معلوم نہیں</string>
+    <string name="rb_A4311_2_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4311_3_1">ہاں</string>
+    <string name="rb_A4311_3_2">نہیں</string>
+    <string name="rb_A4311_3_DK">معلوم نہیں</string>
+    <string name="rb_A4311_3_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4311_4_1">ہاں</string>
+    <string name="rb_A4311_4_2">نہیں</string>
+    <string name="rb_A4311_4_DK">معلوم نہیں</string>
+    <string name="rb_A4311_4_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4311_5_1">ہاں</string>
+    <string name="rb_A4311_5_2">نہیں</string>
+    <string name="rb_A4311_5_DK">معلوم نہیں</string>
+    <string name="rb_A4311_5_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4312_1">ہاں</string>
+    <string name="rb_A4312_2">نہیں</string>
+    <string name="rb_A4312_DK">معلوم نہیں</string>
+    <string name="rb_A4312_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4313_1">ہاں</string>
+    <string name="rb_A4313_2">نہیں</string>
+    <string name="rb_A4313_DK">معلوم نہیں</string>
+    <string name="rb_A4313_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4314_1">ہاں</string>
+    <string name="rb_A4314_2">نہیں</string>
+    <string name="rb_A4314_DK">معلوم نہیں</string>
+    <string name="rb_A4314_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4351_1">ہاں</string>
+    <string name="rb_A4351_2">نہیں</string>
+    <string name="rb_A4351_DK">معلوم نہیں</string>
+    <string name="rb_A4351_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4352_1">ہاں</string>
+    <string name="rb_A4352_2">نہیں</string>
 
     <string name="rb_A4363_1">Yes, card seen</string>
     <string name="rb_A4363_2">Yes, card not seen</string>
     <string name="rb_A4363_3">No registration</string>
+    <string name="rb_A4363_DK">معلوم نہیں</string>
+    <string name="rb_A4363_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4401_1">ہاں</string>
+    <string name="rb_A4401_2">نہیں</string>
+    <string name="rb_A4401_DK">معلوم نہیں</string>
 
     <string name="rb_A4402_1">Her/His own home at that time (different from the current location)</string>
     <string name="rb_A4402_2">Her/His in-law’s home</string>
     <string name="rb_A4402_3">Her/His parent’s home</string>
     <string name="rb_A4402_4">Her/His brother’s home</string>
+    <string name="rb_A4402_OT">دیگر (وضاحت کریں)</string>
+    <string name="rb_A4402_DK">معلوم نہیں</string>
 
     <string name="rb_A4403_L1">Level 1</string>
     <string name="rb_A4403_L2">Level 2</string>
+
+    <string name="rb_A4451_1_1">ہاں</string>
+    <string name="rb_A4451_1_2">نہیں</string>
+    <string name="rb_A4451_1_DK">معلوم نہیں</string>
+
+    <string name="rb_A4451_2_1">ہاں</string>
+    <string name="rb_A4451_2_2">نہیں</string>
+    <string name="rb_A4451_2_DK">معلوم نہیں</string>
+
+    <string name="rb_A4451_3_1">ہاں</string>
+    <string name="rb_A4451_3_2">نہیں</string>
+    <string name="rb_A4451_3_DK">معلوم نہیں</string>
+
+    <string name="rb_A4451_4_1">ہاں</string>
+    <string name="rb_A4451_4_2">نہیں</string>
+    <string name="rb_A4451_4_DK">معلوم نہیں</string>
+
+    <string name="rb_A4451_5_1">ہاں</string>
+    <string name="rb_A4451_5_2">نہیں</string>
+    <string name="rb_A4451_5_DK">معلوم نہیں</string>
+
+    <string name="rb_A4451_6_1">ہاں</string>
+    <string name="rb_A4451_6_2">نہیں</string>
+    <string name="rb_A4451_6_DK">معلوم نہیں</string>
+
+    <string name="rb_A4451_7_1">ہاں</string>
+    <string name="rb_A4451_7_2">نہیں</string>
+    <string name="rb_A4451_7_DK">معلوم نہیں</string>
+
+    <string name="rb_A4451_8_1">ہاں</string>
+    <string name="rb_A4451_8_2">نہیں</string>
+    <string name="rb_A4451_8_DK">معلوم نہیں</string>
+
+    <string name="rb_A4451_9_1">ہاں</string>
+    <string name="rb_A4451_9_2">نہیں</string>
+    <string name="rb_A4451_9_DK">معلوم نہیں</string>
+
+    <string name="rb_A4451_10_1">ہاں</string>
+    <string name="rb_A4451_10_2">نہیں</string>
+    <string name="rb_A4451_10_DK">معلوم نہیں</string>
+
+    <string name="rb_A4451_11_1">ہاں</string>
+    <string name="rb_A4451_11_2">نہیں</string>
+    <string name="rb_A4451_11_DK">معلوم نہیں</string>
+
+    <string name="rb_A4451_12_1">ہاں</string>
+    <string name="rb_A4451_12_2">نہیں</string>
+    <string name="rb_A4451_12_DK">معلوم نہیں</string>
+
+    <string name="rb_A4451_13_OT">دیگر</string>
+
+    <string name="rb_A4451_14_1"> ایک یا ایک سے زیادہ مسائل کی نشاندہی  </string>
+    <string name="rb_A4451_14_2">مسائل کی کوئی نشاندہی نہیں کی گئی</string>
+
+    <string name="rb_A4452_1_1">ہاں</string>
+    <string name="rb_A4452_1_2">نہیں</string>
+    <string name="rb_A4452_1_DK">معلوم نہیں</string>
+
+    <string name="rb_A4452_2_1">ہاں</string>
+    <string name="rb_A4452_2_2">نہیں</string>
+    <string name="rb_A4452_2_DK">معلوم نہیں</string>
+
+    <string name="rb_A4452_3_1">ہاں</string>
+    <string name="rb_A4452_3_2">نہیں</string>
+    <string name="rb_A4452_3_DK">معلوم نہیں</string>
+
+    <string name="rb_A4452_4_1">ہاں</string>
+    <string name="rb_A4452_4_2">نہیں</string>
+    <string name="rb_A4452_4_DK">معلوم نہیں</string>
+
+    <string name="rb_A4452_5_1">ہاں</string>
+    <string name="rb_A4452_5_2">نہیں</string>
+    <string name="rb_A4452_5_DK">معلوم نہیں</string>
+
+    <string name="rb_A4452_6_1">ہاں</string>
+    <string name="rb_A4452_6_2">نہیں</string>
+    <string name="rb_A4452_6_DK">معلوم نہیں</string>
+
+    <string name="rb_A4452_7_1">ہاں</string>
+    <string name="rb_A4452_7_2">نہیں</string>
+    <string name="rb_A4452_7_DK">معلوم نہیں</string>
+
+    <string name="rb_A4452_8_1">ہاں</string>
+    <string name="rb_A4452_8_2">نہیں</string>
+    <string name="rb_A4452_8_DK">معلوم نہیں</string>
+
+    <string name="rb_A4452_9_OT">دیگر</string>
+
+    <string name="rb_A4452_10_1">ایک گروپ کی شناخت</string>
+    <string name="rb_A4452_10_2">دو یا س سے زائد گروپوں کی شناخت</string>
+    <string name="rb_A4452_10_3">کسی گروپ کی شناخت نہیں ہوئی</string>
+
+    <string name="rb_A4453_1_1">ہاں</string>
+    <string name="rb_A4453_1_2">نہیں</string>
+    <string name="rb_A4453_1_DK">معلوم نہیں</string>
+
+    <string name="rb_A4453_2_1">ہاں</string>
+    <string name="rb_A4453_2_2">نہیں</string>
+    <string name="rb_A4453_2_DK">معلوم نہیں</string>
+
+    <string name="rb_A4453_3_1">ہاں</string>
+    <string name="rb_A4453_3_2">نہیں</string>
+    <string name="rb_A4453_3_DK">معلوم نہیں</string>
+
+    <string name="rb_A4453_4_1">ہاں</string>
+    <string name="rb_A4453_4_2">نہیں</string>
+    <string name="rb_A4453_4_DK">معلوم نہیں</string>
+
+    <string name="rb_A4453_5_1">ہاں</string>
+    <string name="rb_A4453_5_2">نہیں</string>
+    <string name="rb_A4453_5_DK">معلوم نہیں</string>
+
+    <string name="rb_A4453_6_1">ہاں</string>
+    <string name="rb_A4453_6_2">نہیں</string>
+    <string name="rb_A4453_6_DK">معلوم نہیں</string>
+
+    <string name="rb_A4453_7_1">ہاں</string>
+    <string name="rb_A4453_7_2">نہیں</string>
+    <string name="rb_A4453_7_DK">معلوم نہیں</string>
+
+    <string name="rb_A4453_8_1">ہاں</string>
+    <string name="rb_A4453_8_2">نہیں</string>
+    <string name="rb_A4453_8_DK">معلوم نہیں</string>
+
+    <string name="rb_A4453_9_1">ہاں</string>
+    <string name="rb_A4453_9_2">نہیں</string>
+    <string name="rb_A4453_9_DK">معلوم نہیں</string>
+
+    <string name="rb_A4453_10_1">ہاں</string>
+    <string name="rb_A4453_10_2">نہیں</string>
+    <string name="rb_A4453_10_DK">معلوم نہیں</string>
+
+    <string name="rb_A4453_11_1">ہاں</string>
+    <string name="rb_A4453_11_2">نہیں</string>
+    <string name="rb_A4453_11_DK">معلوم نہیں</string>
+
+    <string name="rb_A4453_12_OT">دیگر </string>
+
+    <string name="rb_A4453_13_1"> ایک گروپ کی شناخت</string>
+    <string name="rb_A4453_13_2">دو یا س سے زائد گروپوں کی شناخت</string>
+    <string name="rb_A4453_13_3">کسی گروپ کی شناخت نہیں ہوئی</string>
+
+    <string name="rb_A4454_1">ہاں</string>
+    <string name="rb_A4454_2">نہیں</string>
+    <string name="rb_A4454_DK">معلوم نہیں</string>
+    <string name="rb_A4454_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4455_1">ہاں</string>
+    <string name="rb_A4455_2">نہیں</string>
+    <string name="rb_A4455_DK">معلوم نہیں</string>
+    <string name="rb_A4455_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4456_1">ہاں</string>
+    <string name="rb_A4456_2">نہیں</string>
+    <string name="rb_A4456_DK">معلوم نہیں</string>
+    <string name="rb_A4456_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4457_1">ہاں</string>
+    <string name="rb_A4457_2">نہیں</string>
+    <string name="rb_A4457_DK">معلوم نہیں</string>
+    <string name="rb_A4457_RA">جواب دینے سے انکار کردیا</string>
 
     <string name="rb_A4451_1">One or more issues identified</string>
     <string name="rb_A4451_2">No issue identified</string>
@@ -4384,6 +5771,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="cb_A4472_10">Renal (kidney) failure</string>
     <string name="cb_A4472_11">Suicide</string>
     <string name="cb_A4472_12">None of the above words were mentioned</string>
+    <string name="cb_A4472_DK">معلوم نہیں</string>
     <!-- ADULT SECTION ENDS HERE .....................  -->
 
     <!-- 0 to 27 ends .....................  -->
@@ -4700,8 +6088,18 @@ Examples of statements for the reading test:
     <string name="A4263_1">A4263_1: Did the FIRST HEALTH PROVIDER tell you or NAME about illness signs and symptoms for which NAME needs to return immediately?</string>
     <string name="A4263_2">A4263_2: Did the FIRST HEALTH PROVIDER tell you or NAME about illness signs and symptoms for follow-up if NAME did not improve after leaving?</string>
     <string name="A4264">A4264: Did NAME leave the FIRST HEALTH PROVIDER alive?</string>
+
     <string name="rb_A4264_1">Yes, left alive</string>
     <string name="rb_A4264_2">No, died at this provider</string>
+
+    <string name="rb_A4274_1">ہاں</string>
+    <string name="rb_A4274_2">نہیں</string>
+    <string name="rb_A4274_DK">معلوم نہیں</string>
+
+    <string name="rb_A4275_1">ہاں</string>
+    <string name="rb_A4275_2">نہیں</string>
+    <string name="rb_A4275_DK">معلوم نہیں</string>
+
     <string name="A4266">A4266: What was the name of the LAST HEALTH PROVIDER where NAME went?</string>
     <string name="A4267_1">A4267_1: For health care at a facility, \nask: \nDid NAME reach the LAST HEALTH PROVIDER before s/he died?</string>
     <string name="A4267_2">A4267_2: For health care outside a facility, \nask: \nDid NAME reach the LAST HEALTH PROVIDER before s/he died?</string>
@@ -4856,38 +6254,38 @@ Examples of statements for the reading test:
     <string name="ed_W202">	مکمل عمر سالوں میں لکھیں</string>
 
     <string name="txt_W203">	اطمینان کیجئے کہ جوابدہندہ کی عمر 49-12 سال ہے ؟	:W203	</string>
-    <string name="rb_W203_1">ہاں</string>
-    <string name="rb_W203_2">نہیں</string>
+    <string name="rb_W203_1">Yes</string>
+    <string name="rb_W203_2">No</string>
 
     <string name="txt_W204">	کیا اس وقت آپ/ماں  شادی شدہ ہیں ؟	:W204	</string>
-    <string name="rb_W204_1">ہاں</string>
-    <string name="rb_W204_2">نہیں</string>
+    <string name="rb_W204_1">Yes</string>
+    <string name="rb_W204_2">No</string>
 
     <string name="txt_W205">	کیا کبھی آپ/ماں کی شادی ہوئی  ؟	:W205	</string>
-    <string name="rb_W205_1">ہاں</string>
-    <string name="rb_W205_2">نہیں</string>
+    <string name="rb_W205_1">Yes</string>
+    <string name="rb_W205_2">No</string>
 
     <string name="txt_W206">	شادی کے وقت آپ/ماں کی عمر کیا تھی ؟	:W206	</string>
-    <string name="rb_W206_1">ہاں</string>
-    <string name="rb_W206_2">نہیں</string>
+    <string name="rb_W206_1">Yes</string>
+    <string name="rb_W206_2">No</string>
 
     <string name="txt_W207">	کیا آپ/ماں کبھی حاملہ ہوئی ہیں ؟	:W207	</string>
-    <string name="rb_W207_1">ہاں</string>
-    <string name="rb_W207_2">نہیں</string>
+    <string name="rb_W207_1">Yes</string>
+    <string name="rb_W207_2">No</string>
 
     <string name="txt_W208">	کیا آپ/ماں ابھی حاملہ ہیں ؟	:W208	</string>
-    <string name="rb_W208_1">ہاں</string>
-    <string name="rb_W208_2">نہیں</string>
+    <string name="rb_W208_1">Yes</string>
+    <string name="rb_W208_2">No</string>
 
     <string name="txt_W209">	موجودہ حمل کے دوران ،کیا آپ کو فولاد کی گولیا ں یا وٹامن کی گولیاں جس میں فولاد شامل ہو دی گئیں یا آپ نے خریدیں ؟	:W209	</string>
-    <string name="rb_W209_1">ہاں</string>
-    <string name="rb_W209_2">نہیں</string>
+    <string name="rb_W209_1">Yes</string>
+    <string name="rb_W209_2">No</string>
 
     <string name="txt_W210">	اگر ہاں ،خریدی یا فراہم کی گئیں ؟	:W210	</string>
     <string name="cb_W210_1">کلینک پر ملی</string>
     <string name="cb_W210_2">خریدی</string>
     <string name="cb_W210_3">ملی نہ خریدی</string>
-    <string name="cb_W210_DK">معلوم نہیں</string>
+    <string name="cb_W210_DK">Don’t Know</string>
     <string name="cb_W210_RA">جواب نہیں دیا</string>
 
     <string name="txt_W211">	آپ/ماں اپنی زندگی میں کتنی مرتبہ حاملہ ہوئیں؟	:W211	</string>
