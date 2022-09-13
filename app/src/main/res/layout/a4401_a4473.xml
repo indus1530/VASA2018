@@ -1757,8 +1757,9 @@
                         style="@style/Button_collder"
                         android:layout_margin="10dp"
                         android:background="@color/green1"
-                        android:onClick="@{() -> callback.BtnCapture()}"
                         android:text="CAPTURE IMAGE" />
+
+                    <!--android:onClick="@{() -> callback.BtnCapture()}"-->
 
                 </LinearLayout>
 

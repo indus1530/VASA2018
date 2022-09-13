@@ -1,16 +1,17 @@
 package com.irfansyed.VAS.VASMonitring.N;
 
 import android.content.Intent;
-import androidx.databinding.DataBindingUtil;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
-import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.databinding.DataBindingUtil;
 
 import com.irfansyed.VAS.VASMonitring.GS.InterviewEnd;
 import com.irfansyed.VAS.VASMonitring.Other.globale;
@@ -179,10 +180,11 @@ public class N2321_N2322 extends AppCompatActivity {
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == CONTENT_REQUEST) {
             if (resultCode == RESULT_OK) {
 
-                bi.txtCapCount.setText("Pictures Attached: " + String.valueOf(count));
+                bi.txtCapCount.setText("Pictures Attached: " + count);
 
                 Toast.makeText(this, "Image capture done!!", Toast.LENGTH_SHORT).show();
                 bi.btnContinue.setEnabled(true);
@@ -230,11 +232,7 @@ public class N2321_N2322 extends AppCompatActivity {
         }
 
         //ll_N2323
-        if (!Gothrough.IamHiden(bi.llN2323)) {
-            return false;
-        }
-
-        return true;
+        return Gothrough.IamHiden(bi.llN2323);
     }
 
     @Override

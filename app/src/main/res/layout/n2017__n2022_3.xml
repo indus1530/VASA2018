@@ -267,7 +267,7 @@
                                     style="@style/EditText_number"
                                     android:hint="in hours]: Less than 1 hour = ‘00’ hours"
                                     android:maxLength="2"
-                                    android:text='@{rbN2019u1.checked ? edN2019h.getText.toString : ""}' />
+                                    android:text='@{rbN2019u1.checked ? edN2019h.getText().toString() : ""}' />
 
                             </LinearLayout>
 
@@ -299,7 +299,7 @@
                                     style="@style/EditText_number"
                                     android:hint="in days]: 1 week = 7 days"
                                     android:maxLength="2"
-                                    android:text='@{rbN2019u2.checked ? edN2019d.getText.toString : ""}' />
+                                    android:text='@{rbN2019u2.checked ? edN2019d.getText().toString() : ""}' />
 
                             </LinearLayout>
 

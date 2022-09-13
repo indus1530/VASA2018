@@ -237,7 +237,7 @@
                             style="@style/EditText_number"
                             android:hint="@string/days"
                             android:maxLength="2"
-                            android:text='@{rbN2025u1.checked ? edN2025d.getText.toString : ""  }' />
+                            android:text='@{rbN2025u1.checked ? edN2025d.getText().toString() : ""  }' />
 
                     </LinearLayout>
 

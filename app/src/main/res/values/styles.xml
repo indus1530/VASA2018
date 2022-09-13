@@ -125,24 +125,19 @@
 
     <!-- TextView   Starts. -->
     <style name="TextView">
-
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">18sp</item>
         <item name="android:textColor">@color/black</item>
-
         <item name="android:focusable">true</item>
-
         <item name="android:clickable">true</item>
         <item name="android:focusableInTouchMode">true</item>
         <item name="android:layout_marginLeft">3dp</item>
         <item name="android:layout_marginRight">3dp</item>
         <item name="android:layout_marginTop">3dp</item>
         <item name="android:layout_marginBottom">10dp</item>
-
         <item name="android:typeface">normal</item>
         <item name="android:textStyle">bold</item>
-
     </style>
 
     <style name="TextView_Hint">

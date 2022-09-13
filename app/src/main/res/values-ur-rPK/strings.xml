@@ -4722,7 +4722,13 @@
     <string name="txt_C3099">پیدائش کے بعد کیا بچہ  24 گھنٹوں سے زیادہ  بے حس  یا بےہوش   رہا تھا ؟	:	C3099</string>
     <string name="txt_C3101">مہلک بیماری شروع ہونے سے پہلے،  کیا (نام) مچھر دانی  کے اندر سوتا تھا؟	:	C3101</string>
     <string name="txt_C3102">(آپ /ماں)  عموماً کہاں کھانا  پکاتی ہے؟	:	C3102</string>
-    <string name="txt_C3103">کیا ماں بچے کو عموما کھانا پکاتے ہوئے گود میں یا ساتھ بیٹھتی تھی ؟	:	C3103</string>
+
+    <string name="Q_c103">C103: </string>
+    <string name="c103">کیا ماں بچے کو عموما کھانا پکاتے ہوئے گود میں یا ساتھ بیٹھتی تھی ؟</string>
+    <string name="c103a">ہاں</string>
+    <string name="c103b">نہیں</string>
+    <string name="c10398">معلوم نہیں</string>
+
     <string name="txt_C3104">کیا بچے نے کبھی ماں کا دودھ پیا تھا ؟	:	C3104</string>
     <string name="txt_C3105">پیدائش کے کتنے دیر بعد پہلی دفعہ بچہ کو  اپنا دودھ پلایا  تھا؟	:	C3105</string>
 
@@ -5521,9 +5527,6 @@
     <string name="rb_C3102_2"> گھر کے باہر</string>
     <string name="rb_C3102_3">گھر کے باہر ایک مخصوص جگہ میں </string>
     <string name="rb_C3102_DK"> معلوم نہیں</string>
-    <string name="rb_C3103_1">ہاں</string>
-    <string name="rb_C3103_2">نہیں</string>
-    <string name="rb_C3103_DK">معلوم نہیں</string>
 
     <string name="rb_C3104_1">ہاں</string>
     <string name="rb_C3104_2">نہیں</string>
@@ -5937,8 +5940,8 @@
 
     <string name="rb_C3165_u_1">دن</string>
     <string name="rb_C3165_u_2">مہینہ </string>
-    <string name="rb_C3165_u_3">معلوم نہیں </string>
-    <string name="rb_C3165_u_4">جواب دینے سے انکار کردیا</string>
+    <string name="rb_C3165_u_DK">معلوم نہیں</string>
+    <string name="rb_C3165_u_RA">جواب دینے سے انکار کردیا</string>
 
     <string name="rb_C3166_1">ہاں</string>
     <string name="rb_C3166_2">نہیں</string>

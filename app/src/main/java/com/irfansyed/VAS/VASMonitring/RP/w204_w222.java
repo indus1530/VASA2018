@@ -3,8 +3,6 @@ package com.irfansyed.VAS.VASMonitring.RP;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
@@ -15,6 +13,9 @@ import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.irfansyed.VAS.VASMonitring.Other.globale;
 import com.irfansyed.VAS.VASMonitring.R;
@@ -554,8 +555,7 @@ public class w204_w222 extends AppCompatActivity implements RadioButton.OnChecke
                     if(ed_W222_3.getText().toString().trim().equals("98"))
                     {
                         days_22=0;
-                    }
-                    else {
+                    } else {
 
                         days_22 = Integer.parseInt(ed_W222_3.getText().toString().trim()) * 1;
 
@@ -564,8 +564,8 @@ public class w204_w222 extends AppCompatActivity implements RadioButton.OnChecke
 
                 days_22 = days_22 + month_22 + year_22;
 
-                lst_w21.add(Integer.toString(days_21)+"_"+mult_w21);
-                lst_w22.add(Integer.toString(days_22)+"_"+mult_w22);
+                lst_w21.add(days_21 + "_" + mult_w21);
+                lst_w22.add(days_22 + "_" + mult_w22);
 
 
                 int number_preg = Integer.parseInt(ed_W215.getText().toString());
@@ -809,10 +809,7 @@ public class w204_w222 extends AppCompatActivity implements RadioButton.OnChecke
             return false;
         }
 
-        if (Gothrough.IamHiden(ll_W215) == false) {
-            return false;
-        }
-        return true;
+        return Gothrough.IamHiden(ll_W215) != false;
 
     }
 
@@ -1107,23 +1104,16 @@ public class w204_w222 extends AppCompatActivity implements RadioButton.OnChecke
             DBHelper db = new DBHelper(this);
             Cursor res = db.getData("Q1101_Q1610", study_id);
 
-            if (res.getCount() > 0)
-
-            {
+            if (res.getCount() > 0) {
                 res.moveToFirst();
-
                 if (Integer.valueOf(res.getString(res.getColumnIndex("Q1609"))).equals(1)) {
-
                     Intent c = new Intent(this, com.irfansyed.VAS.VASMonitring.N.N2001_N2011.class);
                     c.putExtra("study_id", study_id);
                     startActivity(c);
-
                 } else if (Integer.valueOf(res.getString(res.getColumnIndex("Q1609"))).equals(2)) {
-
                     Intent c = new Intent(this, com.irfansyed.VAS.VASMonitring.C.C3001_C3011.class);
                     c.putExtra("study_id", study_id);
                     startActivity(c);
-
                 } else if (Integer.valueOf(res.getString(res.getColumnIndex("Q1609"))).equals(3) ||
                         Integer.valueOf(res.getString(res.getColumnIndex("Q1609"))).equals(4)) {
 

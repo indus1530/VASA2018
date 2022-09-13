@@ -1,11 +1,12 @@
 package com.irfansyed.VAS.VASMonitring.A;
 
+import static utils.ClearAllcontrol.ClearAll;
+
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
-import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -16,6 +17,8 @@ import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.irfansyed.VAS.VASMonitring.GS.InterviewEnd;
 import com.irfansyed.VAS.VASMonitring.Other.globale;
 import com.irfansyed.VAS.VASMonitring.R;
@@ -25,8 +28,6 @@ import java.io.File;
 import data.LocalDataManager;
 import utils.ClearAllcontrol;
 import utils.Gothrough;
-
-import static utils.ClearAllcontrol.ClearAll;
 
 public class A4401_A4473 extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
 
@@ -659,10 +660,11 @@ public class A4401_A4473 extends AppCompatActivity implements RadioButton.OnChec
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == CONTENT_REQUEST) {
             if (resultCode == RESULT_OK) {
 
-                txt_cap_count.setText("Pictures Attached: " + String.valueOf(count));
+                txt_cap_count.setText("Pictures Attached: " + count);
 
                 Toast.makeText(this, "Image capture done!!", Toast.LENGTH_SHORT).show();
                 btn_next14.setEnabled(true);

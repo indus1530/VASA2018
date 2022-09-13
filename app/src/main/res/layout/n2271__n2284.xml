@@ -365,7 +365,7 @@
                             android:id="@+id/ed_N2284"
                             style="@style/EditText_number"
                             android:hint="@string/txt_N2284"
-                            android:text='@{rbN22831.checked ? edN2284.getText.toString : ""}' />
+                            android:text='@{rbN22831.checked ? edN2284.getText().toString() : ""}' />
 
                     </LinearLayout>
 

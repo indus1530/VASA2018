@@ -356,7 +356,7 @@
                                     style="@style/EditText_number"
                                     android:hint="@string/time"
                                     android:maxLength="2"
-                                    android:text='@{cbN21981.checked ? edN21981T.getText.toString : ""}'
+                                    android:text='@{cbN21981.checked ? edN21981T.getText().toString() : ""}'
                                     android:visibility="@{cbN21981.checked ? View.VISIBLE : View.GONE}" />
 
                                 <EditText
@@ -364,7 +364,7 @@
                                     style="@style/EditText_number"
                                     android:hint="@string/fv"
                                     android:maxLength="2"
-                                    android:text='@{cbN21981.checked ? edN21981FV.getText.toString : ""}'
+                                    android:text='@{cbN21981.checked ? edN21981FV.getText().toString() : ""}'
                                     android:visibility="@{cbN21981.checked ? View.VISIBLE : View.GONE}" />
 
                                 <CheckBox
@@ -379,7 +379,7 @@
                                     style="@style/EditText_number"
                                     android:hint="@string/time"
                                     android:maxLength="2"
-                                    android:text='@{cbN21982.checked ? edN21982T.getText.toString : ""}'
+                                    android:text='@{cbN21982.checked ? edN21982T.getText().toString() : ""}'
                                     android:visibility="@{cbN21982.checked ? View.VISIBLE : View.GONE}" />
 
                                 <EditText
@@ -387,7 +387,7 @@
                                     style="@style/EditText_number"
                                     android:hint="@string/fv"
                                     android:maxLength="2"
-                                    android:text='@{cbN21982.checked ? edN21982FV.getText.toString : ""}'
+                                    android:text='@{cbN21982.checked ? edN21982FV.getText().toString() : ""}'
                                     android:visibility="@{cbN21982.checked ? View.VISIBLE : View.GONE}" />
 
                                 <CheckBox
@@ -562,7 +562,7 @@
                                 style="@style/EditText_number"
                                 android:hint="@string/time"
                                 android:maxLength="2"
-                                android:text='@{cbN22021.checked ? edN22021T.getText.toString : ""}'
+                                android:text='@{cbN22021.checked ? edN22021T.getText().toString() : ""}'
                                 android:visibility="@{cbN22021.checked ? View.VISIBLE : View.GONE}" />
 
                             <EditText
@@ -570,7 +570,7 @@
                                 style="@style/EditText_number"
                                 android:hint="@string/fv"
                                 android:maxLength="2"
-                                android:text='@{cbN22021.checked ? edN22021FV.getText.toString : ""}'
+                                android:text='@{cbN22021.checked ? edN22021FV.getText().toString() : ""}'
                                 android:visibility="@{cbN22021.checked ? View.VISIBLE : View.GONE}" />
 
                             <CheckBox
@@ -585,7 +585,7 @@
                                 style="@style/EditText_number"
                                 android:hint="@string/time"
                                 android:maxLength="2"
-                                android:text='@{cbN22022.checked ? edN22022T.getText.toString : ""}'
+                                android:text='@{cbN22022.checked ? edN22022T.getText().toString() : ""}'
                                 android:visibility="@{cbN22022.checked ? View.VISIBLE : View.GONE}" />
 
                             <EditText
@@ -593,7 +593,7 @@
                                 style="@style/EditText_number"
                                 android:hint="@string/fv"
                                 android:maxLength="2"
-                                android:text='@{cbN22022.checked ? edN22022FV.getText.toString : ""}'
+                                android:text='@{cbN22022.checked ? edN22022FV.getText().toString() : ""}'
                                 android:visibility="@{cbN22022.checked ? View.VISIBLE : View.GONE}" />
 
                             <CheckBox

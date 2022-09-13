@@ -2517,7 +2517,13 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="txt_C3099">C3099: Did the baby become unresponsive or unconscious more than 24 hours after birth?</string>
     <string name="txt_C3101">C3101: Before (her / his) fatal illness began, did (NAME) sleep under an insecticide treated bed net?</string>
     <string name="txt_C3102">C3102: Where (do you / does the mother) cook?</string>
-    <string name="txt_C3103">C3103: When (you / the mother) cooked, was (NAME) usually beside or carried by (you / her)?</string>
+
+    <string name="Q_c103">C103: </string>
+    <string name="c103">When (you / the mother) cooked, was (NAME) usually beside or carried by (you / her) ?</string>
+    <string name="c103a">Yes</string>
+    <string name="c103b">No</string>
+    <string name="c10398">Don’t Know</string>
+
     <string name="txt_C3104">C3104: Was (NAME) ever breastfed? </string>
 
     <string name="txt_C3105">C3105: How long after birth was the baby first put to the breast?</string>
@@ -3310,9 +3316,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3102_2">Outside the house</string>
     <string name="rb_C3102_3">in a structure outside the house</string>
     <string name="rb_C3102_DK">Don’t Know</string>
-    <string name="rb_C3103_1">Yes</string>
-    <string name="rb_C3103_2">No</string>
-    <string name="rb_C3103_DK">Don’t Know</string>
+
     <string name="rb_C3104_1">Yes</string>
     <string name="rb_C3104_2">No</string>
     <string name="rb_C3104_DK">Don’t Know</string>

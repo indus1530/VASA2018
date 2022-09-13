@@ -599,7 +599,7 @@
                                 android:id="@+id/ed_N2311_OT"
                                 style="@style/EditText_varchar"
                                 android:hint="@string/ot_other"
-                                android:text='@{rbN2311OT1.checked ? edN2311OT.getText.toString : ""}'
+                                android:text='@{rbN2311OT1.checked ? edN2311OT.getText().toString() : ""}'
                                 android:visibility="@{rbN2311OT1.checked ? View.VISIBLE : View.GONE}" />
 
                         </LinearLayout>
@@ -973,7 +973,7 @@
                                 android:id="@+id/ed_N2312_OT"
                                 style="@style/EditText_varchar"
                                 android:hint="@string/ot_other"
-                                android:text='@{rbN2312OT1.checked ? edN2312OT.getText.toString : ""}'
+                                android:text='@{rbN2312OT1.checked ? edN2312OT.getText().toString() : ""}'
                                 android:visibility="@{rbN2312OT1.checked ? View.VISIBLE : View.GONE}" />
 
                         </LinearLayout>
@@ -1461,7 +1461,7 @@
                                 android:id="@+id/ed_N2313_OT"
                                 style="@style/EditText_varchar"
                                 android:hint="@string/ot_other"
-                                android:text='@{rbN2313OT1.checked ? edN2313OT.getText.toString : ""}'
+                                android:text='@{rbN2313OT1.checked ? edN2313OT.getText().toString() : ""}'
                                 android:visibility="@{rbN2313OT1.checked ? View.VISIBLE : View.GONE}" />
 
                         </LinearLayout>

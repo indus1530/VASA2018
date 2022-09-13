@@ -5,7 +5,6 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
-import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -13,6 +12,8 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.irfansyed.VAS.VASMonitring.GS.InterviewEnd;
 import com.irfansyed.VAS.VASMonitring.Other.globale;
@@ -139,10 +140,11 @@ public class C3471_C3472 extends AppCompatActivity implements View.OnClickListen
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == CONTENT_REQUEST) {
             if (resultCode == RESULT_OK) {
 
-                txt_cap_count.setText("Pictures Attached: " + String.valueOf(count));
+                txt_cap_count.setText("Pictures Attached: " + count);
 
                 Toast.makeText(this, "Image capture done!!", Toast.LENGTH_SHORT).show();
                 btn_next.setEnabled(true);
