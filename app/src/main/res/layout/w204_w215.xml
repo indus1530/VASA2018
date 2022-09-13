@@ -33,7 +33,7 @@
 
 
             <!--W201 Edit text Starts -->
-            <androidx.appcompat.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                 <LinearLayout
                     android:id="@+id/ll_W201"
@@ -62,11 +62,11 @@
 
                 </LinearLayout>
 
-            </androidx.appcompat.widget.CardView>
+            </androidx.cardview.widget.CardView>
             <!--W201 Edit text Ends-->
 
             <!--W202 Edit text Starts -->
-            <androidx.appcompat.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                 <LinearLayout
                     android:id="@+id/ll_W202"
@@ -86,11 +86,11 @@
 
                 </LinearLayout>
 
-            </androidx.appcompat.widget.CardView>
+            </androidx.cardview.widget.CardView>
             <!--W202 Edit text Ends-->
 
             <!--W203 Radio Button Starts -->
-            <androidx.appcompat.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                 <LinearLayout
                     android:id="@+id/ll_W203"
@@ -115,16 +115,15 @@
                             android:text="@string/rb_W203_2" />
 
 
-
                     </RadioGroup>
 
                 </LinearLayout>
 
-            </androidx.appcompat.widget.CardView>
+            </androidx.cardview.widget.CardView>
             <!--W203 Radio Button Ends-->
 
             <!--W204 Radio Button Starts -->
-            <androidx.appcompat.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                 <LinearLayout
                     android:id="@+id/ll_W204"
@@ -149,21 +148,16 @@
                             android:text="@string/rb_W204_2" />
 
 
-
-
-
-
-
                     </RadioGroup>
 
                 </LinearLayout>
 
-            </androidx.appcompat.widget.CardView>
+            </androidx.cardview.widget.CardView>
             <!--W204 Radio Button Ends-->
 
 
             <!--W205 Radio Button Starts -->
-            <androidx.appcompat.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                 <LinearLayout
                     android:id="@+id/ll_W205"
@@ -188,18 +182,17 @@
                             android:text="@string/rb_W205_2" />
 
 
-
                     </RadioGroup>
 
                 </LinearLayout>
 
-            </androidx.appcompat.widget.CardView>
+            </androidx.cardview.widget.CardView>
             <!--W205 Radio Button Ends-->
 
 
 
             <!--W206 Radio Button Starts -->
-            <androidx.appcompat.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                 <LinearLayout
                     android:id="@+id/ll_W206"
@@ -212,18 +205,17 @@
 
                     <EditText
                         android:id="@+id/ed_w206"
-                        style="@style/EditText_number"
-                        />
+                        style="@style/EditText_number" />
 
 
                 </LinearLayout>
 
-            </androidx.appcompat.widget.CardView>
+            </androidx.cardview.widget.CardView>
             <!--W206 Radio Button Ends-->
 
 
             <!--W207 Radio Button Starts -->
-            <androidx.appcompat.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                 <LinearLayout
                     android:id="@+id/ll_W207"
@@ -248,19 +240,16 @@
                             android:text="@string/rb_W207_2" />
 
 
-
-
-
                     </RadioGroup>
 
                 </LinearLayout>
 
-            </androidx.appcompat.widget.CardView>
+            </androidx.cardview.widget.CardView>
             <!--W207 Radio Button Ends-->
 
 
             <!--W208 Radio Button Starts -->
-            <androidx.appcompat.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                 <LinearLayout
                     android:id="@+id/ll_W208"
@@ -285,20 +274,17 @@
                             android:text="@string/rb_W208_2" />
 
 
-
-
-
                     </RadioGroup>
 
                 </LinearLayout>
 
-            </androidx.appcompat.widget.CardView>
+            </androidx.cardview.widget.CardView>
             <!--W208 Radio Button Ends-->
 
 
 
             <!--W209 Radio Button Starts -->
-            <androidx.appcompat.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                 <LinearLayout
                     android:id="@+id/ll_W209"
@@ -323,20 +309,17 @@
                             android:text="@string/rb_W209_2" />
 
 
-
-
-
                     </RadioGroup>
 
                 </LinearLayout>
 
-            </androidx.appcompat.widget.CardView>
+            </androidx.cardview.widget.CardView>
             <!--W209 Radio Button Ends-->
 
 
 
             <!--W210 Checkbox Starts -->
-            <androidx.appcompat.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                 <LinearLayout
                     android:id="@+id/ll_W210"
@@ -369,24 +352,22 @@
                     <CheckBox
                         android:id="@+id/cb_W210_dk"
                         style="@style/CheckBox"
-                        android:text="@string/cb_W210_DK"
-                        />
+                        android:text="@string/cb_W210_DK" />
 
                     <CheckBox
                         android:id="@+id/cb_W210_RA"
                         style="@style/CheckBox"
-                        android:text="@string/cb_W210_RA"
-                        />
+                        android:text="@string/cb_W210_RA" />
 
                 </LinearLayout>
 
-            </androidx.appcompat.widget.CardView>
+            </androidx.cardview.widget.CardView>
             <!--W210 Checkbox Ends-->
 
 
 
             <!--W211 Edit text Starts -->
-            <androidx.appcompat.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                 <LinearLayout
                     android:id="@+id/ll_W211"
@@ -397,19 +378,19 @@
                         android:id="@+id/txt_W211"
                         style="@style/TextView"
                         android:text="@string/txt_W211" />
+
                     <EditText
                         android:id="@+id/ed_W211"
-                        style="@style/EditText_number"
-                         />
+                        style="@style/EditText_number" />
 
                 </LinearLayout>
 
-            </androidx.appcompat.widget.CardView>
+            </androidx.cardview.widget.CardView>
             <!--W211 Edit text Ends-->
 
 
             <!--W212 Edit text Starts -->
-            <androidx.appcompat.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                 <LinearLayout
                     android:id="@+id/ll_W212"
@@ -419,20 +400,20 @@
                         android:id="@+id/txt_W212"
                         style="@style/TextView"
                         android:text="@string/txt_W212" />
+
                     <EditText
                         android:id="@+id/ed_W212"
                         style="@style/EditText_number"
-                        android:maxLength="2"
-                        />
+                        android:maxLength="2" />
 
                 </LinearLayout>
 
-            </androidx.appcompat.widget.CardView>
+            </androidx.cardview.widget.CardView>
             <!--W212 Edit text Ends-->
 
 
             <!--W213 Edit text Starts -->
-            <androidx.appcompat.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                 <LinearLayout
                     android:id="@+id/ll_W213"
@@ -443,20 +424,20 @@
                         android:id="@+id/txt_W213"
                         style="@style/TextView"
                         android:text="@string/txt_W213" />
+
                     <EditText
                         android:id="@+id/ed_W213"
                         style="@style/EditText_number"
-                        android:maxLength="2"
-                        />
+                        android:maxLength="2" />
 
                 </LinearLayout>
 
-            </androidx.appcompat.widget.CardView>
+            </androidx.cardview.widget.CardView>
             <!--W213 Edit text Ends-->
 
 
             <!--W214 Edit text Starts -->
-            <androidx.appcompat.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                 <LinearLayout
                     android:id="@+id/ll_W214"
@@ -466,25 +447,26 @@
                         android:id="@+id/txt_W214"
                         style="@style/TextView"
                         android:text="@string/txt_W214" />
+
                     <EditText
                         android:id="@+id/ed_W214"
                         style="@style/EditText_number"
-                        android:maxLength="2"
-                        />
+                        android:maxLength="2" />
 
                 </LinearLayout>
 
-            </androidx.appcompat.widget.CardView>
+            </androidx.cardview.widget.CardView>
             <!--W214 Edit text Ends-->
 
 
 
             <!--W215 Edit text Starts -->
-            <androidx.appcompat.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                 <LinearLayout
                     android:id="@+id/ll_W215"
                     style="@style/Q_Linerlayout_v">
+
                     <TextView
                         android:id="@+id/txt_W215"
                         style="@style/TextView"
@@ -494,37 +476,33 @@
                         android:id="@+id/ed_W215"
                         style="@style/EditText_number"
                         android:digits="0123456789"
-                        android:maxLength="1"
-                        />
+                        android:maxLength="1" />
 
                 </LinearLayout>
 
-            </androidx.appcompat.widget.CardView>
+            </androidx.cardview.widget.CardView>
             <!--W215 Edit text Ends-->
 
 
-
-
-            <androidx.appcompat.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
-                <LinearLayout
-                    style="@style/Q_Linerlayout_v"
+
+                <LinearLayout style="@style/Q_Linerlayout_v"
 
                     >
 
-                <Button
+                    <Button
 
-                    android:id="@+id/btn_next"
-                    style="@style/Button_collder"
-                    android:layout_margin="10dp"
-                    android:text="Next to Add Pregnancy" />
-
+                        android:id="@+id/btn_next"
+                        style="@style/Button_collder"
+                        android:layout_margin="10dp"
+                        android:text="Next to Add Pregnancy" />
 
 
                 </LinearLayout>
 
-            </androidx.appcompat.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
 
 

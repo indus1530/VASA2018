@@ -28,7 +28,7 @@
             android:orientation="vertical">
 
             <!-- EditText study_id Starts -->
-            <androidx.appcompat.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                 <LinearLayout
                     android:id="@+id/ll_study_id"
@@ -50,11 +50,11 @@
 
                 </LinearLayout>
 
-            </androidx.appcompat.widget.CardView>
+            </androidx.cardview.widget.CardView>
             <!-- EditText study_id Ends -->
 
             <!-- EditText C3471 Starts -->
-            <androidx.appcompat.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                 <LinearLayout
@@ -72,11 +72,11 @@
 
                 </LinearLayout>
 
-            </androidx.appcompat.widget.CardView>
+            </androidx.cardview.widget.CardView>
             <!-- EditText C3471 Ends -->
 
             <!-- EditText BTN Capture Starts -->
-            <androidx.appcompat.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                 <LinearLayout style="@style/Q_Linerlayout_v">
 
@@ -95,11 +95,11 @@
 
                 </LinearLayout>
 
-            </androidx.appcompat.widget.CardView>
+            </androidx.cardview.widget.CardView>
             <!-- EditText BTN Capture Ends -->
 
             <!--C3472 Radio Button and Edit text Starts -->
-            <androidx.appcompat.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                 <LinearLayout
                     android:id="@+id/ll_C3472"
@@ -184,11 +184,11 @@
 
                 </LinearLayout>
 
-            </androidx.appcompat.widget.CardView>
+            </androidx.cardview.widget.CardView>
             <!--C3472 Radio Button and Edit text Ends-->
 
             <!-- C3473 EditText Starts -->
-            <androidx.appcompat.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                 <LinearLayout
                     android:id="@+id/ll_C3473"
@@ -204,7 +204,7 @@
 
                 </LinearLayout>
 
-            </androidx.appcompat.widget.CardView>
+            </androidx.cardview.widget.CardView>
             <!-- C3473 EditText Ends -->
 
 

@@ -179,7 +179,7 @@
     <string name="txt_N2061">N2061:	At any time before this pregnancy, did (you / the mother) receive any tetanus injection, either to protect yourself or another baby?</string>
     <string name="txt_N2062">N2062:	Before this pregnancy, how many other times did (you / she) receive a tetanus injection?</string>
     <string name="txt_N2063">N2063:	During this pregnancy, did (you / the mother) sleep under an insecticide treated bed net?</string>
-    <string name="txt_N2064">N2064:	During this pregnancy, did (you / the mother) take any drug such as \'MOH RECOMMENDED DRUGS\' to prevent (you / her) from getting malaria?</string>
+    <string name="txt_N2064">N2064:	During this pregnancy, did (you / the mother) take any drug such as ‘MOH RECOMMENDED DRUGS‘ to prevent (you / her) from getting malaria?</string>
     <string name="txt_N2065">N2065:	During this pregnancy, how many times did (you / she) take this drug?</string>
     <string name="txt_N2066">N2066:	Was the baby born more than one month early?</string>
     <string name="txt_N2067">N2067:	How many months long was the pregnancy before the child was born? </string>
@@ -193,7 +193,7 @@
     <string name="txt_N2073">N2073:	Was the baby born 24 hours or more after the water broke?</string>
     <string name="txt_N2074">N2074:	What was the color of the liquor when the water broke?</string>
     <string name="txt_N2075">N2075:	Was the liquor foul smelling?</string>
-    <string name="txt_N2076">N2076:	Earlier, you told me that the baby was delivered at \'DELIVERY PLACE\'. Who decided that (this / a health provider or facility) was the right place to deliver the baby?</string>
+    <string name="txt_N2076">N2076:	Earlier, you told me that the baby was delivered at ‘DELIVERY PLACE‘. Who decided that (this / a health provider or facility) was the right place to deliver the baby?</string>
     <string name="txt_N2077">N2077:	If she did not deliver or try to deliver with a health provider or facility (N2006=12 or N2006=1—2 and N2008≠1—3), ask: Did (you / the mother) have any concerns or problems that kept (you / her) from delivering with a health provider or facility?</string>
     <string name="txt_N2078">N2078:	What concerns or problems did (you / she) have?</string>
 
@@ -269,19 +269,19 @@
 
     <string name="txt_N2097">N2097:	How long after the labor or delivery symptom(s) began was it decided to go to the (first) health provider?</string>
 
-    <string name="txt_N2098">N2098:	If she delivered at or was on the way to deliver at a health provider or facility (N2006=3–11 or N2006=1–2 and N2008=1–3), read: Earlier you said that (you / the mother) delivered at \'DELIVERY PLACE\'. (Confirm N2006 delivery place and N2008 birth attendant if at home.)</string>
+    <string name="txt_N2098">N2098:	If she delivered at or was on the way to deliver at a health provider or facility (N2006=3–11 or N2006=1–2 and N2008=1–3), read: Earlier you said that (you / the mother) delivered at ‘DELIVERY PLACE‘. (Confirm N2006 delivery place and N2008 birth attendant if at home.)</string>
     <string name="txt_N2098_2">اگر اس کی زچگی صحت فراہم کنندہ کے پاس یا مرکز صحت جاتے ہو ئے            راستہ میں  نہیں ہوئی ہو     )N2008≠1–3 اور   N2006=1–2     یا       N2006=12(     تو    پڑھو :    آخری  صحت فراہم کنندہ    یا    آخری صحت کی سہولت کونسی تھی جہاں    (آپ /ماں)    لیبر یا زچگی کی علامات کی دیکھ بھال کے لیے گئی تھیں.	:	N2098_2</string>
 
     <string name="txt_N2099">N2099:	Did (you / the mother) have to pay any money to travel to this provider?</string>
     <string name="txt_N2100">N2100:	How did (you / the mother) arrange for the money to travel?</string>
     <string name="txt_N2101">N2101:	What transportation method was used to go there?</string>
-    <string name="txt_N2102">N2102:	Did (you / the mother) reach the \'HEALTH PROVIDER\' before delivering the baby?</string>
-    <string name="txt_N2103">N2103:	After deciding to seek care for (the labor or delivery symptoms / the delivery), how long did it take ((you / the mother) to reach the \'LAST HEALTH PROVIDER\' / for the \'LAST HEALTH PROVIDER\' to reach (you / the mother))?"></string>
+    <string name="txt_N2102">N2102:	Did (you / the mother) reach the ‘HEALTH PROVIDER‘ before delivering the baby?</string>
+    <string name="txt_N2103">N2103:	After deciding to seek care for (the labor or delivery symptoms / the delivery), how long did it take ((you / the mother) to reach the ‘LAST HEALTH PROVIDER‘ / for the ‘LAST HEALTH PROVIDER‘ to reach (you / the mother))?"></string>
     <string name="txt_N2103_h">	پڑھیں :    "صحت فراہم کنندہ کا  (آپ /ماں)  تک پہنچنا"  اگر  صحت فراہم کرنے والے نے   ماں کو گھر پر یا مرکز صحت کے باہر کسی اور جگہ دیکھا  	:	N2103</string>
 
     <string name="txt_N2104">N2104:	(Were you / Was the mother) admitted to the hospital?</string>
-    <string name="txt_N2105">N2105:	Did the \'LAST HEALTH PROVIDER\' refer (you / the mother) to another health provider or facility?</string>
-    <string name="txt_N2106">N2106:	Was the baby delivered by the \'LAST HEALTH PROVIDER\'?</string>
+    <string name="txt_N2105">N2105:	Did the ‘LAST HEALTH PROVIDER‘ refer (you / the mother) to another health provider or facility?</string>
+    <string name="txt_N2106">N2106:	Was the baby delivered by the ‘LAST HEALTH PROVIDER‘?</string>
 
 
     <string name="txt_N2107">N2107: Now, I’d like to ask about symptoms after the delivery of the baby. Did (you / the mother) have any of the following symptoms that started within 6 weeks after the delivery?"></string>
@@ -979,7 +979,7 @@
     <string name="txt_N2300">N2300:	Is this the house (where we are now) where (you / the mother) stayed during the (last days of the pregnancy )?</string>
     <string name="txt_N2301">N2301:	Where did (you / the mother) stay at that time?</string>
     <string name="txt_N2302">N2302:	What is the address of the place where (you / she) stayed?</string>
-    <string name="txt_N2303">N2303:	At the time of the illness events, how long had (you / the mother / your \'RELATIVES\' / the mother’s \'RELATIVES\') been living continuously in (this / that) community?</string>
+    <string name="txt_N2303">N2303:	At the time of the illness events, how long had (you / the mother / your ‘RELATIVES‘ / the mother’s ‘RELATIVES‘) been living continuously in (this / that) community?</string>
     <string name="txt_N2304">N2304:	In an emergency, how long would it take to reach the nearest health facility from (this / that) location?</string>
 
 
@@ -2326,7 +2326,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_N2247_RA">جواب دینے سے انکار کیا</string>
 
 
-    <!-- Neonate Urdu Text HINT's STARTS -->
+    <!-- Neonate Urdu Text HINT‘s STARTS -->
     <string name="N2003_h">If the mother is present at the interview, mark "yes" without asking this question</string>
     <string name="N2005u_h">Write only one unit or answer</string>
     <string name="N2005d_h">If less than 24 hours, write 0 days, if one day or 0–6 days</string>
@@ -2338,7 +2338,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="N2009_2_h">  کلو سے کم) 2.5( وزن </string>
     <string name="N2009_3_h"> کلو سے کم) 1 ( وزن</string>
     <string name="N2009_4_h">کلو سے زیادہ) 4.5  ( وزن</string>
-    <string name="N2010_h">وزن  کلو گرام میں بتا ئے ۔ اس صورت میں ڈیٹا انٹری کے لئے1          کلو گرام کو 1000 میں تبدیل کریں۔   اگر "معلوم نہیں "ہے تو  "            9999" لکھیں اور "انکار" کی صورت میں  تو  "  8888" لکھیں۔</string>
+    <string name="N2010_h">وزن کلو گرام میں بتا ئے۔ اس صورت میں ڈیٹا انٹری کے لئے 1 کلو گرام کو 1000 میں تبدیل کریں۔ اگر "معلوم نہیں" ہے تو "9999" لکھیں اور "انکار" کی صورت میں تو "8888" لکھیں۔</string>
     <string name="N2016_h">اگر "زندہ" اور سوال N2013-N2015   = " نہیں " یا اگر "مردہ"اور سوال N2013-N2014 یا  N2015="ہاں"  ، تو ڈسکس کریں اور صحیح جواب لکھیں۔</string>
     <string name="N2019u_h">اگر 23–0 گھنٹے ہوں تو  "گھنٹوں " پر لکھیں یا اگر 60–1 دن ہو تو  " دنوں "  پر لکھیں</string>
     <string name="N2019h_h">اگر ایک گھنٹہ سے کم=‘00’ گھنٹے لکھیں</string>
@@ -4732,7 +4732,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="cb_C3472_11">None of the above words were mentioned </string>
     <string name="cb_C3472_DK">DK </string>
 
-    <!-- Child Urdu TEXT HINT's STARTS -->
+    <!-- Child Urdu TEXT HINT‘s STARTS -->
     <string name="C3001_h">اگر ایک ہی وقت میں دو یا اس سے زیادہ بچے پیدا ہوئے ہیں تو یہ ایک سے زیادہ پیدائش کی حیثیت میں شمار ہوں گی چاہیے ایک یا ایک سے زیادہ بچوں کی وفات ہوئی ہو</string>
     <string name="C3003_h">اگر ماں  انٹرویو میں موجود ہے تو   یہ سوال پوچھے بغیر  "ہاں"  پر نشان لگائیں</string>
     <string name="C3005u_h">صرف ایک یونٹ یا جواب لکھیں 0–6 دن لکھیں، اگر ایک دن یا 24 گھنٹے سے کم ہو تو 0 دن لکھیں</string>
@@ -4911,7 +4911,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="weight_hint">Enter 9999 for Don‘t Know. Enter 8888 for refuse</string>
     <string name="education_hint">If less than 1 year record ‘00’ &amp; if Don‘t Know ‘99’</string>
     <string name="work_hint">Occupation or Work</string>
-    <string name="years_hint">Enter 1 or more years &amp; Don‘t Know \'99\'</string>
+    <string name="years_hint">Enter 1 or more years &amp; Don‘t Know ‘99‘</string>
     <string name="record_days_if_less_than_30_days_if_24_hours_00"><![CDATA[Record < 30 days, if < 24 hours,  Record 00]]></string>
     <string name="rb_other">Other</string>
     <string name="A4451_1"><![CDATA[A4451_1: Education/Schools?]]></string>
@@ -4939,7 +4939,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="A4452_9"><![CDATA[A4452_9: Any OTHER?]]></string>
 
     <string name="A4453_1"><![CDATA[A4453_1:  RELIGIOUS?]]></string>
-    <string name="A4453_2"><![CDATA[A4453_2:  WOMEN\'S?]]></string>
+    <string name="A4453_2"><![CDATA[A4453_2:  WOMEN‘S?]]></string>
     <string name="A4453_3"><![CDATA[A4453_3:  SAVINGS or MICROCREDIT PROGRAM?]]></string>
     <string name="A4453_4"><![CDATA[A4453_4:  Any other community group, such as a vocational training group, community cooperative, political group, sports club, youth or student group?]]></string>
     <string name="A4453_5"><![CDATA[A4453_5:  Community or Political Leader?]]></string>
@@ -6774,7 +6774,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="txt_Q1409">Q1409:	What is the highest [GRADE/ YEAR] you completed at that level?</string>
     <string name="txt_Q1410">Now I would like you to read this sentence to me. (Show card to respondent) \n\nExamples of statements for the reading test: \n\t1. The child is reading a book. \n\t2. This year the rain came late. \n\t3. Parents should look after their children.</string>
     <string name="txt_Q1411">How many people live at (this / that) household ?</string>
-    <string name="txt_Q1411_h">Read: How many people live "in this house," if you're talking about a family home</string>
+    <string name="txt_Q1411_h">Read: How many people live "in this house," if you‘re talking about a family home</string>
     <string name="txt_Q1412">How many rooms are used for sleeping in the household ?</string>
     <string name="txt_Q1413">Does the household have a separate room for cooking ?</string>
 
@@ -6891,16 +6891,16 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_Q1413_DK"> Don’t know</string>
 
 
-    <string name="rb_Q1414_1">بجلی</string>
-    <string name="rb_Q1414_2">ریڈیو</string>
-    <string name="rb_Q1414_3">ٹیلی وژن</string>
-    <string name="rb_Q1414_4">ریفرجیٹر</string>
-    <string name="rb_Q1414_5">ٹیلی فون</string>
-    <string name="rb_Q1414_6">موبائل</string>
-    <string name="rb_Q1414_7">کمپیوٹر</string>
-    <string name="rb_Q1414_8">سائیکل</string>
-    <string name="rb_Q1414_9">موٹر سائیکل</string>
-    <string name="rb_Q1414_10">گاڑی یا ٹرک</string>
+    <string name="rb_Q1414_1">Electricity</string>
+    <string name="rb_Q1414_2">Radio</string>
+    <string name="rb_Q1414_3">Television</string>
+    <string name="rb_Q1414_4">Refrigerator</string>
+    <string name="rb_Q1414_5">Fixed Line Telephone</string>
+    <string name="rb_Q1414_6">Mobile Telephone</string>
+    <string name="rb_Q1414_7">Computer</string>
+    <string name="rb_Q1414_8">Bicycle</string>
+    <string name="rb_Q1414_9">Motorcycle / Scooter</string>
+    <string name="rb_Q1414_10">Car / Truck</string>
 
     <string name="rb_Q1415_1">Piped water inside the house</string>
     <string name="rb_Q1415_2">Piped water outside the house/yard</string>

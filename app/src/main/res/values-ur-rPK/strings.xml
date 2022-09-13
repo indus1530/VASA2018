@@ -283,6 +283,7 @@
     <string name="rb_Q1413_1">ہاں</string>
     <string name="rb_Q1413_2">نہیں</string>
     <string name="rb_Q1413_DK">معلوم نہیں</string>
+
     <string name="rb_Q1414_1">بجلی</string>
     <string name="rb_Q1414_2">ریڈیو</string>
     <string name="rb_Q1414_3">ٹیلی وژن</string>
@@ -293,6 +294,7 @@
     <string name="rb_Q1414_8">سائیکل</string>
     <string name="rb_Q1414_9">موٹر سائیکل</string>
     <string name="rb_Q1414_10">گاڑی یا ٹرک</string>
+
     <string name="rb_Q1415_1">گھر  میں نلکا	</string>
     <string name="rb_Q1415_2">صحن/گھر کے باہر میونسپل کمیٹی کا نلکا</string>
     <string name="rb_Q1415_3">پڑوسی کے گھر میونسپل کمیٹی کا نلکا</string>

@@ -23,7 +23,7 @@
                 >
 
                 <!-- Radio Buttons Q1503 Starts -->
-                  <androidx.appcompat.widget.CardView style="@style/Q_CardView">
+                  <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                       <LinearLayout
@@ -116,11 +116,11 @@
 
                       </LinearLayout>
 
-                  </androidx.appcompat.widget.CardView>
+                  </androidx.cardview.widget.CardView>
                   <!--  Buttons Q1503 Ends -->
 
                 <!--Q1503_OT Edit text Starts -->
-                <androidx.appcompat.widget.CardView style="@style/Q_CardView">
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
                         android:id="@+id/ll_Q1503_OT"
@@ -133,7 +133,7 @@
 
                     </LinearLayout>
 
-                </androidx.appcompat.widget.CardView>
+                </androidx.cardview.widget.CardView>
                 <!--Q1503_OT Edit text Ends-->
 
 

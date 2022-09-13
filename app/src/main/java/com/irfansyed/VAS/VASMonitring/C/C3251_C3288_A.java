@@ -1,10 +1,11 @@
 package com.irfansyed.VAS.VASMonitring.C;
 
 import android.content.Intent;
-import androidx.databinding.DataBindingUtil;
 import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.databinding.DataBindingUtil;
 
 import com.irfansyed.VAS.VASMonitring.Other.globale;
 import com.irfansyed.VAS.VASMonitring.R;
@@ -12,6 +13,8 @@ import com.irfansyed.VAS.VASMonitring.databinding.C3251C3288ABinding;
 
 import data.DBHelper;
 import utils.Gothrough;
+
+
 
 public class C3251_C3288_A extends AppCompatActivity {
 
@@ -25,14 +28,10 @@ public class C3251_C3288_A extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         bi = DataBindingUtil.setContentView(this, R.layout.c3251_c3288_a);
         bi.setCallback(this);
-
         this.setTitle(getString(R.string.h_c_sec_10));
-
         study_id = getIntent().getExtras().getString("study_id");
-
         bi.edStudyId.setText(getIntent().getExtras().getString("study_id"));
         bi.edStudyId.setEnabled(false);
 

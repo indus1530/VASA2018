@@ -1,11 +1,12 @@
 package utils;
 
-import androidx.appcompat.widget.CardView;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.RadioGroup;
+
+import androidx.cardview.widget.CardView;
 
 
 public class ClearAllcontrol {
