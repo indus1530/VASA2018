@@ -155,51 +155,50 @@
             </androidx.cardview.widget.CardView>
             <!--C3102 Radio Button Ends-->
 
-            <!--C3103 Radio Button Starts -->
+
+            <!--c103 Radio Button Starts -->
             <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                 <LinearLayout
-                    android:id="@+id/ll_C3103"
+                    android:id="@+id/ll_c103"
                     style="@style/Q_Linerlayout_v">
 
                     <TextView
-                        android:id="@+id/txt_C3103"
+                        android:id="@+id/txt_c103"
                         style="@style/TextView"
-                        android:text="@string/txt_C3103" />
+                        android:text="@string/c103" />
 
 
                     <RadioGroup style="@style/RadioGroup">
 
                         <RadioButton
-
-                            android:id="@+id/rb_C3103_1"
+                            android:id="@+id/c103a"
                             style="@style/RadioButton"
-                            android:text="@string/rb_C3103_1" />
+                            android:text="@string/c103a" />
 
                         <RadioButton
-
-                            android:id="@+id/rb_C3103_2"
+                            android:id="@+id/c103b"
                             style="@style/RadioButton"
-                            android:text="@string/rb_C3103_2" />
+                            android:text="@string/c103b" />
 
                         <RadioButton
-
-                            android:id="@+id/rb_C3103_DK"
+                            android:id="@+id/c10398"
                             style="@style/RadioButton"
-                            android:text="@string/rb_C3103_DK" />
+                            android:text="@string/c10398" />
 
                         <RadioButton
-
-                            android:id="@+id/rb_C3103_RA"
+                            android:id="@+id/c10399"
                             style="@style/RadioButton"
-                            android:text="@string/ra" />
+                            android:text="@string/c10399" />
 
                     </RadioGroup>
 
                 </LinearLayout>
+
             </androidx.cardview.widget.CardView>
-            <!--C3103 Radio Button Ends-->
+            <!--c103 Radio Button Ends-->
+
 
             <!--C3104 Radio Button Starts -->
             <androidx.cardview.widget.CardView style="@style/Q_CardView">

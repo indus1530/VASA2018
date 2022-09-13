@@ -3,7 +3,6 @@ package com.irfansyed.VAS.VASMonitring.C;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
 import android.text.InputFilter;
 import android.view.View;
 import android.widget.Button;
@@ -13,6 +12,8 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.irfansyed.VAS.VASMonitring.Other.globale;
 import com.irfansyed.VAS.VASMonitring.R;
@@ -617,7 +618,7 @@ public class C3051_C3099 extends AppCompatActivity implements RadioButton.OnChec
         cb_C3065_4 = findViewById(R.id.cb_C3065_4);
         cb_C3065_5 = findViewById(R.id.cb_C3065_5);
         cb_C3065_6 = findViewById(R.id.cb_C3065_6);
-        cb_C3065_7 = findViewById(R.id.cb_C3065_7);
+        cb_C3065_7 = findViewById(R.id.cb_C3065_OT);
         cb_C3065_DK = findViewById(R.id.cb_C3065_DK);
 
         rb_C3066_1 = findViewById(R.id.rb_C3066_1);
@@ -1058,7 +1059,7 @@ public class C3051_C3099 extends AppCompatActivity implements RadioButton.OnChec
                 || compoundButton.getId() == R.id.cb_C3065_4
                 || compoundButton.getId() == R.id.cb_C3065_5
                 || compoundButton.getId() == R.id.cb_C3065_6
-                || compoundButton.getId() == R.id.cb_C3065_7
+                || compoundButton.getId() == R.id.cb_C3065_OT
                 || compoundButton.getId() == R.id.cb_C3065_DK) {
 
             if (rb_C3064_1.isChecked()) {
