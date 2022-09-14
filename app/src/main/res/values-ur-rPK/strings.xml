@@ -24,7 +24,9 @@
     <string name="no">نہیں</string>
     <string name="dnt">معلوم نہیں</string>
     <string name="ra">جواب دینے سے انکار کیا</string>
+    <string name="ecn">مکمل نام درج کریں۔</string>
 
+    <string name="ot_someone">کوئی اور (وضاحت کریں)</string>
     <string name="ot">دیگر</string>
     <string name="ot_other">دیگر (وضاحت کریں)</string>
     <string name="other">دیگر </string>
@@ -32,10 +34,13 @@
     <string name="minutes">منٹ</string>
     <string name="hours">گھنٹے</string>
     <string name="days">دن</string>
+    <string name="weeks">ہفتے</string>
     <string name="months">مہینہ</string>
     <string name="years">سال</string>
     <string name="conflict">تضاد</string>
     <string name="next">اگلا حصا</string>
+    <string name="days_hint">1–99</string>
+    <string name="kg">کلوگرام</string>
 
     <!--HEADINGS-->
 
@@ -133,6 +138,10 @@
 
 
     <!-- GeneRAl Section Urdu Text STARTS -->
+
+    <!-- General Info -->
+    <string name="zero_to_30_days">0–30 دن درج کریں۔ 1 دن یا 24 گھنٹے سے کم = 0 دن؛ 1 ہفتہ = 7 دن.</string>
+    <string name="one_to_60_months">1–60 ماہ درج کریں۔</string>
 
     <string name="txt_Q1101">کیا یہ ایچ آئی وی /ایڈز سے متاثر  علاقہ ہے ؟	:	Q1101</string>
     <string name="txt_Q1102">کیا یہ ملیریا سے متاثر  علاقہ ہے؟	:	Q1102</string>
@@ -404,7 +413,7 @@
 
     <!-- GeneRAl Section Urdu Responses ENDS -->
 
-    <!-- GeneRAl Section Urdu HINT's STARTS -->
+    <!-- GeneRAl Section Urdu HINT‘s STARTS -->
 
     <string name="C1204_h"> مرنے والے ،والی کا دن، مہینہ اور پیداش کا سال نقل کریں </string>
     <string name="C1205_h">مرنے والے ،والی کا دن، مہینہ اور مرنے کا سال نقل کریں</string>
@@ -426,7 +435,7 @@
     <string name="C1606_h">بیان کردہ تاریخ اگر ریکارڈ کی گئی تاریخ سے  متضاد ہے تو جواب دہندہ سے صحیح وفات کی تاریخ کی تصدیق کر کے  درج کریں ۔ (آپ ریکارڈ  میں دی ہوئی تاریخ (س1205)   کو تبدیلی نہیں کرسکتے )</string>
     <string name="C1609_h">اگر معلوم ہو تو حساب کی ہو ئی  (س1602-س1604) ،یا بتائی ہوئی عمر (س1606) استعمال کریں۔</string>
 
-    <!-- GeneRAl Section Urdu HINT's ENDS -->
+    <!-- GeneRAl Section Urdu HINT‘s ENDS -->
 
     <!-- Adult Urdu Text STARTS -->
 
@@ -471,7 +480,10 @@
     <string name="A4063">انتقال سے پہلے والے ہفتے میں کیا اس نے الٹیاں کی تھیں ؟	:	A4063 </string>
     <string name="A4064_u">مرنے سے کتنےعرصہ  پہلے ،اس نے الٹیاں کیں تھی ؟	:	A4064_u</string>
     <string name="A4064_a">مرنے سے کتنے دن پہلے ،اس نے الٹیاں کیں تھی ؟	:	A4064_a</string>
+
     <string name="A4064_b">مرنے سے کتنے مہینےپہلے ،اس نے الٹیاں کیں تھی ؟	:	A4064_b</string>
+    <string name="days_h">0–29 دن درج کریں۔ 1 دن یا 24 گھنٹے سے کم = 0 دن۔ 1 ہفتہ = 7 دن۔ پتہ نہیں = 99</string>
+
     <string name="A4064_1">کیا  الٹی میں  خون آیا تھا ؟	:	A4064_1</string>
     <string name="A4065">کیا الٹی کا رنگ کالا تھا؟	:	A4065</string>
     <string name="A4066">کیا اس کو کسی قسم کی پیٹ  میں تکلیف تھی؟	:	A4066</string>
@@ -720,8 +732,13 @@
     <string name="A4271">: (نام) کو کہاں منتقل کیا گیا تھا؟   </string>
     <string name="A4272_1"> : کیا (آخری صحت فراہم کنندہ ) نے آپ کو بیماری کی علامات کے بارے میں کچھ بتایا تھا  جس کے لئے۔ (نام ) کو   فوراً   ضرورت تھی واپس (ہسپتال) جانے کی؟</string>
     <string name="A4272_2"> : کیا (آخری صحت فراہم کنندہ ) نے آپ کو بیماری کی علامات کے بارے میں کچھ بتایا تھا  جس کے لئے۔ (نام)  طبی معائنہ لئے واپس  آ ئے اگر  اسکی حالت بہتر نہیں ہوتی؟</string>
+
     <string name="A4273"> :کیا (نام) نے جب "(آخری صحت فراہم کنندہ )  " کو چھوڑا تھا تو کیا  وہ زندہ تھی /تھا ؟ </string>
+
     <string name="A4274">کیا آپ (بچے کو /نام) کو  (تمام ) صحت فراہم کنندہ کے پاس لے گئے جہاں  اس کو ریفر   یا بھیجا  گیا تھا؟	:	A4274</string>
+
+    <string name="A4275">کیا آپ کو کوئی مسائل/تشویش تھی جس کے پیش نظر آپ (نام) کو اس صحت فراہم کرنے والے کے پاس نہیں لے گئے جہاں کے لیے  اسے بھیجا (ریفریل کیا) گیا تھا</string>
+
     <string name="A4275_1">اگر کسی بھی صحت فراہم کرنے والے /ریفریل کے پاس نہیں لے گئے توپوچھیں: کیا آپ کو کوئی مسائل/تشویش تھی جس کے پیش نظر آپ (نام) کو اس صحت فراہم کرنے والے کے پاس نہیں لے گئے جہاں کے لیے  اسے بھیجا (ریفریل کیا )گیا تھا۔	:A4275_1</string>
     <string name="A4275_2">اگر (تمام) ریفر کئے گئے صحت فراہم کرنے والوں کے پاس لے گئے تو پوچھیں: کیا  آپ کو صحت کے حوالے سے  صحت مہیا کرنے والے کے بارے میں جو تشویش/مسائل تھے وہ حل ہوچکے تھے جہاں (نام) کو بھیجا  ( ریفر )کیا گیا تھا  ؟	:A4275_2</string>
     <string name="A4276">کیا  آپ کو صحت کے حوالے سے  صحت مہیا کرنے والے کے بارے میں جو تشویش/مسائل تھے وہ حل ہوچکے تھے جہاں (نام) کو ریفر کیا گیا تھا  ؟	:	A4276</string>
@@ -789,20 +806,39 @@
     <string name="A4404">جب بیماری شروع ہوئی تو کتنے عرصے سے (نام/نام  کے رشتہ دار) مسلسل اسی کمیونٹی میں رہ  رہے تھے؟	:	A4404</string>
     <string name="A4405">ہنگامی صورتحال میں  اس  مقام سے قریبی صحت کی سہولت تک پہنچے کے لیے کتنا وقت لگتا ہے ؟	:	A4405</string>
 
-    <string name="A4451"> (نام ) کی موت سے 12 ماہ پہلے کیا (گاؤں یا پڑوسیوں) میں لوگوں نے مندرجہ ذیل مسائل میں ایک دوسرے کے ساتھ  مل کر کام کیا جو تمام کمیونٹی یا کمیونٹی کے حصہ کو متاثر کرتا؟؟	:A4451</string>
-    <string name="A4451_1">تعلیم /اسکول؟	:1</string>
-    <string name="A4451_2">صحت کی سہولیات /کلینک؟	:2</string>
-    <string name="A4451_3">ملازمت کے مواقع؟	:3</string>
-    <string name="A4451_4">کریڈٹ فنانس؟	:4</string>
-    <string name="A4451_5">سڑک؟	:5</string>
-    <string name="A4451_6">عوامی نقل و حمل؟	:6</string>
-    <string name="A4451_7">پانی کی تقسیم؟	:7</string>
-    <string name="A4451_8">صفائی کی خدمات؟	:8</string>
-    <string name="A4451_9">زراعت؟	:9</string>
-    <string name="A4451_10">جسٹس/تصادم حل؟	:10</string>
-    <string name="A4451_11">سیکیورٹی/پولیس کی خدمات؟	:11</string>
-    <string name="A4451_12">مسجد/ گرجا گھر / مندر؟	:12</string>
-    <string name="A4451_13">دیگر؟	:13</string>
+
+    <!-- HINTS STARTS -->
+    <string name="days_hint1">0–6 دن درج کریں۔ 1 دن یا 24 گھنٹے سے کم = 0 دن۔</string>
+    <string name="weeks_hint">1–7 ہفتے درج کریں۔</string>
+    <string name="weeks_hint1">2–60 مہینے داخل کریں۔</string>
+    <string name="months_hint">1–60 مہینے داخل کریں۔</string>
+    <string name="weight_hint">پتہ نہیں کے لیے 9999 درج کریں۔ انکار کے لیے 8888 درج کریں۔</string>
+    <string name="education_hint">اگر 1 سال سے کم کا ریکارڈ ‘00‘ اور اگر ‘99‘ نہیں جانتے</string>
+    <string name="work_hint">پیشہ یا کام</string>
+    <string name="years_hint">1 یا اس سے زیادہ سال درج کریں اور ‘99‘ نہیں جانتے</string>
+    <string name="record_days_if_less_than_30_days_if_24_hours_00">30 دن سے کم ریکارڈ کریں، اگر 24 گھنٹے سے زیادہ ہوں تو 00 ریکارڈ کریں۔</string>
+    <string name="rb_other">دیگر (وضاحت کریں)</string>
+
+    <string name="A4451"> (نام ) کی موت سے 12 ماہ پہلے کیا (گاؤں یا پڑوسیوں) میں لوگوں نے مندرجہ ذیل مسائل میں ایک دوسرے کے ساتھ  مل کر کام کیا جو تمام کمیونٹی یا کمیونٹی کے حصہ کو متاثر کرتا ؟	:A4451</string>
+    <string name="A4451_1">تعلیم / اسکول</string>
+    <string name="A4451_2">صحت کی سہولیات / کلینک</string>
+    <string name="A4451_3">ملازمت کے مواقع</string>
+    <string name="A4451_4">کریڈٹ فنانس</string>
+    <string name="A4451_5">سڑک</string>
+    <string name="A4451_6">عوامی نقل و حمل</string>
+    <string name="A4451_7">پانی کی تقسیم</string>
+    <string name="A4451_8">صفائی کی خدمات</string>
+    <string name="A4451_9">زراعت</string>
+    <string name="A4451_10">جسٹس / تصادم حل</string>
+    <string name="A4451_11">سیکیورٹی / پولیس کی خدمات</string>
+    <string name="A4451_12">مسجد / گرجا گھر / مندر</string>
+    <string name="A4451_13">دیگر</string>
+
+    <string name="rb_A4451_1">One or more issues identified</string>
+    <string name="rb_A4451_2">No issue identified</string>
+    <string name="rb_A4451_10">Justice/conflict resolution</string>
+    <string name="rb_A4451_11">Security/police services</string>
+    <string name="rb_A4451_12">Mosque/church/temple</string>
 
     <string name="A4452">(نام ) کی موت سے 12 ماہ پہلے کیا (آپ یا ماں / نام )  نے کمیونٹی میں  مندرجہ ذیل گروپس میں سرگرمی سے حصہ لیا تھا؟	:A4452</string>
     <string name="A4452_1">پیشہ وارانہ تربیتی گروپ؟	:1</string>
@@ -814,6 +850,15 @@
     <string name="A4452_7">نوجوان /طلب علم کلب؟	:7</string>
     <string name="A4452_8">خواتین کے گروپ؟	:8</string>
     <string name="A4452_9">دیگر؟	:9</string>
+
+    <string name="rb_A4452_1">One group identified</string>
+    <string name="rb_A4452_2">Two or more groups identified</string>
+    <string name="rb_A4452_3">No groups identified</string>
+    <string name="rb_A4452_4">Political group</string>
+    <string name="rb_A4452_5">Religious group</string>
+    <string name="rb_A4452_6">Sports club</string>
+    <string name="rb_A4452_7">Youth / student club</string>
+    <string name="rb_A4452_8">Women’s group</string>
 
     <string name="A4453">کیا (نام) نے کمیونٹی میں مندرجہ ذیل لوگوں یا گروپوں میں سے کسی کو (حمل / یا  بچے کی مہلک بیماری /اس کی بیماری) کے دوران مدد کے لئے قائل یا راغب کیا تھا؟	:A4453</string>
     <string name="A4453_1">مذہبی گروپ؟	:1</string>
@@ -829,6 +874,18 @@
     <string name="A4453_11">پولیس؟	:11</string>
     <string name="A4453_12">دیگر؟	:12</string>
 
+    <string name="rb_A4453_1">One person/group identified</string>
+    <string name="rb_A4453_2">Two or more persons/groups identified</string>
+    <string name="rb_A4453_3">No person/group identified</string>
+    <string name="rb_A4453_4">Any other community group, such as a vocational training group, community cooperative, political group, sports club, youth or student group</string>
+    <string name="rb_A4453_5">Community or political leader</string>
+    <string name="rb_A4453_6">Religious leader</string>
+    <string name="rb_A4453_7">Family</string>
+    <string name="rb_A4453_8">Neighbors</string>
+    <string name="rb_A4453_9">Friends</string>
+    <string name="rb_A4453_10">Patron/employer/benefactor</string>
+    <string name="rb_A4453_11">Police</string>
+
     <string name="A4454">کیاکبھی مرنے والے کا HIV ٹیسٹ مثبت(ve+) آیا تھا؟	:	A4454</string>
     <string name="A4455">کیا کسی ماہر صحت کنندہ نے مرنے والے کو کو ایڈز کی  بیماری تشخیص کی تھی  ؟	:	A4455</string>
     <string name="A4456">کیاکبھی مرنے والے کا HIVایڈز    ٹیسٹ مثبت(ve-) آیا تھا؟	:	A4456</string>
@@ -836,6 +893,7 @@
     <string name="A4471">پڑھیں: آپ کا بہت شکریہ کہ آپ  نے میرے پوچھے گئے سوالات کا جواب دیا ۔کیا آپ مجھے (نام) کی بیماری کے بارے میں اپنے الفاظ میں کچھ بتائیں گی/گے؟ اس کے علاوہ کیا (نام) کی بیماری کے بارے میں کچھ ایسی معلومات ہیں جو میں نے نہ پوچھی ہوں اور آپ اس  کے  بارے میں مزید  بتانا چاہیں ؟	:	A4471</string>
     <string name="A4472">کیا اوپر دے گے وضاحتی بیانیے  میں   مندرجہ زیل میں سے کوئی بھی  الفاظ جو ہماری دلچسپی کے ہوں   بیان  ہوئے ہیں ؟	:	A4472</string>
     <string name="A4473">انٹرویور: انٹرویو کو بارے میں اپنا تبصرہ اور مشاہدہ لکھیں:	A4473</string>
+    <string name="kilograms_kg">کلوگرام کے لیے Kg درج کریں اور نہیں جانتے کے لیے 999 درج کریں۔</string>
 
     <!-- Adult Urdu Text ENDS -->
 
@@ -2262,7 +2320,7 @@
 
     <!-- Adult Urdu Responses ENDS -->
 
-    <!-- Adult Urdu HINT's STARTS -->
+    <!-- Adult Urdu HINT‘s STARTS -->
 
     <string name="A4005_h">اگر ایک سال سے کم مکمل ہے تو 00 لکھیں</string>
     <string name="A4006_h">"ہاں" لکھیں  اگر جواب دہندہ کو معلوم ہے کہ (نام) کو دونوں لکھنا پڑھنا یا صرف لکھنا یا صرف پڑھنا آتا  تھا  ۔</string>
@@ -2371,7 +2429,7 @@
     <string name="A4453_h">تمام مسائل کو پڑھیں اور "ہاں" ، "نہیں" یا "معلوم نہیں" پر نشان لگائیں. </string>
     <string name="A4473_h">انٹرویور: انٹرویو کو بارے میں اپنا تبصرہ اور مشاہدہ لکھیں</string>
 
-    <!-- Adult Urdu Hint's ENDS -->
+    <!-- Adult Urdu Hint‘s ENDS -->
 
     <!-- Neonate Urdu Text STARTS -->
 
@@ -2732,6 +2790,7 @@
     <string name="txt_N2311_12">  مسجد/ گرجا گھر /مندر؟	:	N2311_12</string>
     <string name="txt_N2311_OT">دیگر؟	:	N2311_13</string>
     <string name="txt_N2311_14">دیگر وضاحت؟	:	N2311_14</string>
+
     <string name="txt_N2312">  (نام ) کی موت سے 12 ماہ پہلے کیا (آپ  یا  ماں )  نے کمیونٹی میں  مندرجہ ذیل گروپس میں سرگرمی سے حصہ لیا تھا؟	:	N2312</string>
     <string name="txt_N2312_1">پیشہ وارانہ تربیتی گروپ؟	:	N2312_1</string>
     <string name="txt_N2312_2"> بچت گروپ یا مائیکرو کریڈٹ پروگرام؟	:	N2312_2</string>
@@ -2743,6 +2802,20 @@
     <string name="txt_N2312_8">  خواتین کے گروپ؟	:	N2312_8</string>
     <string name="txt_N2312_OT">  دیگر گروپس؟	:	N2312_9</string>
     <string name="txt_N2312_10">  مندرجہ ذیل کوڈ گروپس؟	:	N2312_10</string>
+
+    <string name="N231a">مذہبی گروپ</string>
+    <string name="N231b">خواتین کا گروپ</string>
+    <string name="N231c">بچت گروپ یا مائیکرو کریڈٹ پروگرام</string>
+    <string name="N231d">کوئی دوسرا کمیونٹی گروپ، جیسے پیشہ ورانہ تربیتی گروپ، کمیونٹی کوآپریٹو، سیاسی گروپ، اسپورٹس کلب، نوجوان یا طالب علم گروپ</string>
+    <string name="N231e">برادری یا سیاسی رہنما</string>
+    <string name="N231f">مذہبی رہنما</string>
+    <string name="N231g">خاندان</string>
+    <string name="N231h">پڑوسی</string>
+    <string name="N231i">دوست</string>
+    <string name="N231j">سرپرست / آجر / مددگار</string>
+    <string name="N231k">پولیس</string>
+
+
     <string name="txt_N2313">کیا  (آپ /وہ /(نام) کمیونٹی میں مندرجہ ذیل لوگوں یا گروپوں میں سے کسی کو  (حمل /یا  بچے کی مہلک بیماری /اس کی بیماری) کےدوران  مدد کے لئے  قا ئل   یا راغب کیا تھا ؟	:	N2313</string>
     <string name="txt_N2313_1">مذہبی گروپ ؟	:	N2313_1</string>
     <string name="txt_N2313_2">عوتوں کا گروپ ؟	:	N2313_2</string>
@@ -2761,8 +2834,17 @@
     <string name="txt_N2315">کیا کسی ماہر صحت کنندہ نے بچہ کو ایڈز کی  بیماری تشخیص کی تھی ؟	:	N2315</string>
     <string name="txt_N2316">کیا (آپ /بچہ کی حقیقی ماں) کا کبھی ایڈز کا ٹیسٹ مثبت (+ve) آیا تھا؟	:	N2316</string>
     <string name="txt_N2317">کیا کسی ماہر صحت کنندہ نے (آپ /بچہ کی حقیقی ماں  ) کو ایڈز ت کی بیماری تشخیص کی تھی ؟	:	N2317</string>
+
     <string name="txt_N2321">جواب دہندہ کے عین  الفاظ کے  مطابق لکھیں ۔ اسکا جواب  ختم ہونے کے بعد ، اس کو دوبارہ پڑھیں اور اور اس سے پوچھیں کہ اگر آپ کے لکھنے میں کوئی غلطی ہو گئی  ہو تو  اسے ٹھیک کردے؟	:	N2321</string>
+
     <string name="txt_N2322">کیا اوپر دے گے وضاحتی بیانیہ میں  مندرجہ زیل میں سے کوئی بھی  الفاظ جو ہماری دلچسپی کے ہوں   بیان  ہوئے ہیں ؟	:	N2322</string>
+    <string name="rb_N2322_1">دم گھٹنا</string>
+    <string name="rb_N2322_2">انکیوبیٹر</string>
+    <string name="rb_N2322_3">پھیپھڑوں کا مسئلہ</string>
+    <string name="rb_N2322_4">قبل از وقت ترسیل</string>
+    <string name="rb_N2322_5">سانس کی تکلیف</string>
+    <string name="rb_N2322_6">مذکورہ بالا الفاظ میں سے کسی کا بھی ذکر نہیں کیا گیا۔</string>
+
     <string name="txt_N2323">:	N2323</string>
     <string name="txt_N2211">پہلی بار کب محسوس ہوا کہ وہ (نام)  بیمار تھا/تھی؟	:	N2211_1</string>
     <string name="txt_N2211_1">  1. معمول کے مطابق کھانا پینا،بہت کم کھانا پینا یا بلکل کھانا پینا نہیں .	:	N2211_1</string>
@@ -2834,6 +2916,10 @@
     <string name="txt_N2246">کیا ہسپتال /مرکز صحت میں تشخیصی ٹیسٹ ،  یا  دوائیاں لینے میں کوئی دشواری پیش آئی تھی	:	N2246</string>
     <string name="txt_N2247">انتقال سے پہلے کے آخری دنوں میں ،کیا کسی نے مدد مانگنے کے لیے ٹیلیفون یا موبائل فون  کا استعمال کیا تھا	:	N2247</string>
     <string name="txt_N2248">اس (نام) کی موت ( بیماری /علامت کی شناخت / (آخری   کاروا ئی N2213 ) / پہلے یا آخری صحت فراہم کنندہ کو چھوڑنے )کے کتنے دنوں کے  بعد واقع ہوئی؟ 	:	N2248</string>
+
+    <string name="rb_nml">نارمل</string>
+    <string name="rb_mdm">درمیانہ</string>
+    <string name="rb_abnrml">غیر معمول</string>
 
     <!-- Neonate Urdu Text ENDS -->
 
@@ -3005,6 +3091,7 @@
     <string name="cb_N2053_3">دائی</string>
     <string name="cb_N2053_4">روایتی دائی</string>
     <string name="cb_N2053_5">کمیونٹی ہیلتھ ورکر</string>
+    <string name="cb_N2053_6">Community health worker </string>
     <string name="cb_N2053_OT">دیگر وضاحت کریں</string>
     <string name="cb_N2053_DK">معلوم نہیں</string>
 
@@ -4279,6 +4366,7 @@
     <string name="rb_N2312_10_1">ایک گروپ کی شناخت</string>
     <string name="rb_N2312_10_2">دو یا اس سے زائد گروپوں کی شناخت</string>
     <string name="rb_N2312_10_3">کسی گروپ کی شناخت نہیں ہوئی</string>
+    <string name="rb_N2312_10_DK">معلوم نہیں</string>
 
     <string name="rb_N2313_1_1">ہاں</string>
     <string name="rb_N2313_1_2">نہیں</string>
@@ -4539,7 +4627,7 @@
     <!-- Neonate Urdu Responses ENDS -->
 
 
-    <!-- Neonate Urdu Text HINT's STARTS -->
+    <!-- Neonate Urdu Text HINT‘s STARTS -->
     <string name="N2003_h">اگر ماں انٹرویو میں موجود ہے تو یہ سوال پوچھے بغیر  "ہاں"  پر نشان لگائیں </string>
     <string name="N2005u_h">صرف ایک یونٹ یا جواب لکھیں</string>
     <string name="N2005d_h">24 گھنٹے سے کم ہو تو 0  دن لکھیں  دن لکھیں ، اگر ایک دن یا 0-6  </string>
@@ -4632,7 +4720,7 @@
     <string name="N2313_h">تمام مسائل کو پڑھیں اور ہاں"  نہیں  "  معلوم نہیں"   پر نشان لگائیں</string>
     <string name="N2321_h">یہ ایک اختیار ی سوال ہے جس کو پوچھنے کا فیصلہ اسٹیڈی کی جگہ کے مطابق کیا جائیگا </string>
     <string name="N2323_h">انٹرویور: انٹرویو کو بارے میں اپنا تبصرہ اور مشاہدہ لکھیں</string>
-    <!-- Neonate Urdu Text HINT's ENDS -->
+    <!-- Neonate Urdu Text HINT‘s ENDS -->
 
     <!-- Child Urdu Text STARTS -->
     <string name="txt_C3001">کیا ایک سے زیادہ بچوں کی پیدائش ہوئی تھی ؟	:	C3001</string>
@@ -4723,11 +4811,12 @@
     <string name="txt_C3101">مہلک بیماری شروع ہونے سے پہلے،  کیا (نام) مچھر دانی  کے اندر سوتا تھا؟	:	C3101</string>
     <string name="txt_C3102">(آپ /ماں)  عموماً کہاں کھانا  پکاتی ہے؟	:	C3102</string>
 
-    <string name="Q_c103">C103: </string>
+    <string name="Q_c103">C103</string>
     <string name="c103">کیا ماں بچے کو عموما کھانا پکاتے ہوئے گود میں یا ساتھ بیٹھتی تھی ؟</string>
     <string name="c103a">ہاں</string>
     <string name="c103b">نہیں</string>
     <string name="c10398">معلوم نہیں</string>
+    <string name="c10399">جواب دینے سے انکار کیا</string>
 
     <string name="txt_C3104">کیا بچے نے کبھی ماں کا دودھ پیا تھا ؟	:	C3104</string>
     <string name="txt_C3105">پیدائش کے کتنے دیر بعد پہلی دفعہ بچہ کو  اپنا دودھ پلایا  تھا؟	:	C3105</string>
@@ -6978,7 +7067,7 @@
 
     <!-- Child Urdu Responses ENDS -->
 
-    <!-- Child Urdu TEXT HINT's STARTS -->
+    <!-- Child Urdu TEXT HINT‘s STARTS -->
     <string name="C3001_h">اگر ایک ہی وقت میں دو یا اس سے زیادہ بچے پیدا ہوئے ہیں تو یہ ایک سے زیادہ پیدائش کی حیثیت میں شمار ہوں گی چاہیے ایک یا ایک سے زیادہ بچوں کی وفات ہوئی ہو</string>
     <string name="C3003_h">اگر ماں  انٹرویو میں موجود ہے تو   یہ سوال پوچھے بغیر  "ہاں"  پر نشان لگائیں</string>
     <string name="C3005u_h">صرف ایک یونٹ یا جواب لکھیں 0–6 دن لکھیں، اگر ایک دن یا 24 گھنٹے سے کم ہو تو 0 دن لکھیں</string>
@@ -7129,7 +7218,7 @@
     <string name="C3453_13_h">تمام مسائل کو پڑھیں اور "ہاں" ، "نہیں" یا "معلوم نہیں" پر نشان لگائیں </string>
     <string name="C3473_h">انٹرویور: انٹرویو کے بارے میں اپنا تبصرہ اور مشاہدہ لکھیں</string>
 
-    <!-- Child Urdu TEXT HINT's ENDS -->
+    <!-- Child Urdu TEXT HINT‘s ENDS -->
 
     <!-- Reproductive Urdu TEXT & RESPONSE STARTS -->
 
@@ -7187,9 +7276,43 @@
 
     <string name="txt_W213">پہلےبچے کی پیدائش کے وقت آپ کی عمر کیاتھی؟	:W213</string>
     <string name="ed_W213">عمر سالوں میں</string>
+
+
+    <string name="txt_W214">	آپ/ماں پچھلے پانچ سال میں کتنی مرتبہ حاملہ ہوئیں؟	:W214</string>
+
+    <string name="txt_W215">	آپ کی پچھلے پانچ سال کل کتنی زچگیاں ہوئیں؟	:W215</string>
+
+    <string name="txt_W217">حمل کے نتیجے کی تاریخ</string>
+    <string name="ed_W217_d">Day</string>
+    <string name="ed_W217_m">Month</string>
+    <string name="ed_W217_y">Year</string>
+
+    <string name="txt_W218">نتیجہ</string>
+    <string name="rb_W218_1">حمل ضائع</string>
+    <string name="rb_W218_2">مردہ بچے کی پیدائش</string>
+    <string name="rb_W218_3">زندہ بچے کی  پیدائش</string>
+    <string name="rb_W218_4">جڑواں بچوں کی پیدائش </string>
+    <string name="rb_W218_5">جڑواں مردہ بچوں کی پیدائش</string>
+    <string name="rb_W218_6">یک زندہ ایک مردہ بچوں کی پیدائش</string>
+
+
+    <string name="txt_W219"> بچے کی موجودہ صورت حال </string>
+    <string name="rb_W219_1">حیات</string>
+    <string name="rb_W219_2">فوت</string>
+
+    <string name="txt_W221">زندہ بچے کی عمر</string>
+    <string name="Year">Year</string>
+    <string name="Month">Month</string>
+    <string name="Day">Day</string>
+
+    <string name="txt_W222">وفات کے وقت بچے کی عمر</string>
+
     <string name="public_sector">عوامی سیکٹر</string>
     <string name="private_sector">نجی صحت کے سیکٹر</string>
     <string name="C3065_hint1"><![CDATA[Inst_2: If no labor/delivery complications: ((C3051≠1 and C3052=9,10) and (C3057≠1 or C3058≠2) and (C3059≠1 or C3060≠2) and C3061≠1 and C3062<12 and C3063≠1) → C3071.]]></string>
+
+    <string name="no_car_not_needed_given_or_sought_a4254_n_don_t_know_a4284">No - car not needed , given or sought → A4254   Don‘t Know → A4284</string>
+    <string name="enter_1_unit_only_0_30_days_or_1_60_months_nless_than_1_day_or_24_hours_0_days_n1_week_7_days">Enter 1 unit only: 0–30 days or 1-60 months.  Less than 1 day or 24 hours = 0 days.  1 week = 7 days.</string>
 
     <!-- Reproductive Urdu TEXT & RESPONSE ENDS -->
 
@@ -7201,6 +7324,13 @@
     <string name="Language">زبان منتخب کریں</string>
     <string name="English">انگریزی</string>
     <string name="Urdu">اردو</string>
+
+
+    <string name="txt_Q1201_1">صوبہ</string>
+    <string name="txt_Q1201_2">ضلع</string>
+
+    <string name="province_prompt">صوبہ منتخب کریں۔</string>
+    <string name="district_prompt">ضلع منتخب کریں۔</string>
 
     <string-array name="province">
         <item>بلوچستان</item>

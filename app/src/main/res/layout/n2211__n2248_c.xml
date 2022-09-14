@@ -2,7 +2,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".N.N2211_N2248_C">
+    tools:context=".ui.N2211_N2248_C">
 
     <data>
 
@@ -10,7 +10,7 @@
 
         <variable
             name="callback"
-            type="com.irfansyed.VAS.VASMonitring.N.N2211_N2248_C" />
+            type="edu.aku.abdulsajid.vasa2018.ui.N2211_N2248_C" />
     </data>
 
     <LinearLayout

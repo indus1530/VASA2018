@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.irfansyed.VAS.VASMonitring.Upload.SurveyCompletedActivity">
+    tools:context="edu.aku.abdulsajid.vasa2018.Upload.SurveyCompletedActivity">
 
     <LinearLayout
         android:id="@+id/frag_container"

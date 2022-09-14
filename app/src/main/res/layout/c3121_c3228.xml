@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".C.C3121_C3228">
+    tools:context=".ui.C3121_C3228">
 
     <ScrollView
         android:layout_width="match_parent"

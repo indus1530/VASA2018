@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent" android:orientation="vertical"
-    tools:context="com.irfansyed.VAS.VASMonitring.Core.LoginActivity"
+    tools:context="edu.aku.abdulsajid.vasa2018.Core.LoginActivity"
     android:weightSum="5"
     android:background="@color/U_main"
 

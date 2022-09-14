@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VASA2018.iml" filepath="$PROJECT_DIR$/.idea/modules/VASA2018.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/VASA2018.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/VASA2018.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vasa2018.iml" filepath="$PROJECT_DIR$/.idea/modules/vasa2018.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/vasa2018.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/vasa2018.app.iml" />
     </modules>
   </component>
 </project>

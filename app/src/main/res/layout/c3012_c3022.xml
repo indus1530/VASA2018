@@ -7,7 +7,7 @@
     android:layout_marginTop="10dp"
     android:background="#EEEEEE"
     android:orientation="vertical"
-    tools:context=".C.C3012_C3022">
+    tools:context=".ui.C3012_C3022">
 
 
     <ScrollView

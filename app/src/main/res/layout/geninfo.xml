@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
 
-    tools:context=".A.A4401_A4473">
+    tools:context=".ui.A4401_A4473">
 
     <RelativeLayout
         android:layout_width="match_parent"

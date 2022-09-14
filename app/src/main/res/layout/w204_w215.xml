@@ -484,21 +484,15 @@
             <!--W215 Edit text Ends-->
 
 
-            <androidx.cardview.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
-                >
-
-                <LinearLayout style="@style/Q_Linerlayout_v"
-
-                    >
+                <LinearLayout style="@style/Q_Linerlayout_v">
 
                     <Button
-
                         android:id="@+id/btn_next"
                         style="@style/Button_collder"
                         android:layout_margin="10dp"
                         android:text="Next to Add Pregnancy" />
-
 
                 </LinearLayout>
 

@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".C.C3101_C3112">
+    tools:context=".ui.C3101_C3112">
+
 
     <ScrollView
         android:layout_width="match_parent"
@@ -17,7 +18,9 @@
         android:paddingLeft="5dp"
         android:paddingRight="5dp"
         android:paddingTop="5dp"
-        android:scrollbarSize="50dip">
+        android:scrollbarSize="5dip">
+
+
         <!-- Parent layout starts -->
         <LinearLayout
             android:layout_width="match_parent"
@@ -51,9 +54,9 @@
             </androidx.cardview.widget.CardView>
             <!-- EditText study_id Ends -->
 
-            <!--C3101 Radio Button Starts -->
-            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
+            <!--C3101 Radio -->
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                 <LinearLayout
                     android:id="@+id/ll_C3101"
@@ -73,30 +76,24 @@
                         android:text="Inst_2: If age > 4 years →  C3107" />
 
 
-                    <RadioGroup style="@style/RadioGroup"
-
-                        >
+                    <RadioGroup style="@style/RadioGroup">
 
                         <RadioButton
-
                             android:id="@+id/rb_C3101_1"
                             style="@style/RadioButton"
                             android:text="@string/rb_C3101_1" />
 
                         <RadioButton
-
                             android:id="@+id/rb_C3101_2"
                             style="@style/RadioButton"
                             android:text="@string/rb_C3101_2" />
 
                         <RadioButton
-
                             android:id="@+id/rb_C3101_3"
                             style="@style/RadioButton"
                             android:text="@string/rb_C3101_3" />
 
                         <RadioButton
-
                             android:id="@+id/rb_C3101_DK"
                             style="@style/RadioButton"
                             android:text="@string/rb_C3101_DK" />
@@ -104,47 +101,41 @@
                     </RadioGroup>
 
                 </LinearLayout>
+
             </androidx.cardview.widget.CardView>
-            <!--C3101 Radio Button Ends-->
+            <!--C3101 Radio -->
 
-            <!--C3102 Radio Button Starts -->
+
+            <!--C3102 Radio -->
             <androidx.cardview.widget.CardView style="@style/Q_CardView">
-
 
                 <LinearLayout
                     android:id="@+id/ll_C3102"
-                    style="@style/Q_Linerlayout_v">
+                    style="@style/Q_Linerlayout_new">
 
                     <TextView
                         android:id="@+id/txt_C3102"
                         style="@style/TextView"
                         android:text="@string/txt_C3102" />
 
-
-                    <RadioGroup style="@style/RadioGroup"
-
-                        >
+                    <RadioGroup style="@style/RadioGroup">
 
                         <RadioButton
-
                             android:id="@+id/rb_C3102_1"
                             style="@style/RadioButton"
                             android:text="@string/rb_C3102_1" />
 
                         <RadioButton
-
                             android:id="@+id/rb_C3102_2"
                             style="@style/RadioButton"
                             android:text="@string/rb_C3102_2" />
 
                         <RadioButton
-
                             android:id="@+id/rb_C3102_3"
                             style="@style/RadioButton"
                             android:text="@string/rb_C3102_3" />
 
                         <RadioButton
-
                             android:id="@+id/rb_C3102_DK"
                             style="@style/RadioButton"
                             android:text="@string/rb_C3102_DK" />
@@ -152,17 +143,19 @@
                     </RadioGroup>
 
                 </LinearLayout>
+
             </androidx.cardview.widget.CardView>
-            <!--C3102 Radio Button Ends-->
+            <!--C3102 Radio -->
 
 
-            <!--c103 Radio Button Starts -->
+            <!--c103 Radio -->
             <androidx.cardview.widget.CardView style="@style/Q_CardView">
-
 
                 <LinearLayout
                     android:id="@+id/ll_c103"
-                    style="@style/Q_Linerlayout_v">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
                     <TextView
                         android:id="@+id/txt_c103"
@@ -170,26 +163,38 @@
                         android:text="@string/c103" />
 
 
-                    <RadioGroup style="@style/RadioGroup">
+                    <RadioGroup
+                        android:id="@+id/c103"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
 
                         <RadioButton
                             android:id="@+id/c103a"
-                            style="@style/RadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
                             android:text="@string/c103a" />
 
                         <RadioButton
                             android:id="@+id/c103b"
-                            style="@style/RadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
                             android:text="@string/c103b" />
 
                         <RadioButton
                             android:id="@+id/c10398"
-                            style="@style/RadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
                             android:text="@string/c10398" />
 
                         <RadioButton
                             android:id="@+id/c10399"
-                            style="@style/RadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
                             android:text="@string/c10399" />
 
                     </RadioGroup>
@@ -197,7 +202,7 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
-            <!--c103 Radio Button Ends-->
+            <!--c103 Radio -->
 
 
             <!--C3104 Radio Button Starts -->
