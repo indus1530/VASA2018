@@ -12,6 +12,8 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.validatorcrawler.aliazaz.Validator;
+
 import java.util.Collection;
 
 import edu.aku.abdulsajid.vasa2018.Global.C.C3051_C3099;
@@ -730,6 +732,7 @@ public class C3251_C3288_C extends AppCompatActivity {
     }
 
     public Boolean validateField() {
+        if (!Validator.emptyCheckingContainer(this, bi.GrpName)) return false;
 
         if (skip_flag != 9) {
 

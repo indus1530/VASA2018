@@ -69,6 +69,10 @@ dependencies {
 
     implementation 'com.android.volley:volley:1.2.1'
     implementation 'com.google.firebase:firebase-crashlytics-buildtools:2.9.1'
+
+    // EditText Picker (Ali)
+    implementation 'com.github.AliAzaz:Edittext-Library:2.0.0'
+    implementation 'com.github.AliAzaz:AndroidValidatorCrawler:1.0.3'
     /*implementation('com.crashlytics.sdk.android:crashlytics:17.2.2@aar') {
         transitive = true
     }
