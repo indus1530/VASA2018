@@ -672,6 +672,7 @@
     <string name="rb_N2081_1">Yes</string>
     <string name="rb_N2081_2">No</string>
     <string name="rb_N2081_DK">Don’t Know</string>
+
     <string name="cb_N2082_1">Hospital </string>
     <string name="cb_N2082_2">NGO or government clinic </string>
     <string name="cb_N2082_3">Private doctor/clinic </string>
@@ -679,10 +680,12 @@
     <string name="cb_N2082_5">TBA/village doctor/quack/other non-formal or traditional provider </string>
     <string name="cb_N2082_6">Relative, neighbor, friend </string>
     <string name="cb_N2082_OT">Other (specify) </string>
-    <string name="cb_N2082_DK">Don’t know </string>
+    <string name="cb_N2082_DK">Don’t Know</string>
+
     <string name="rb_N2083_1">Yes</string>
     <string name="rb_N2083_2">No</string>
     <string name="rb_N2083_DK">Don’t Know</string>
+
     <string name="rb_N2084_1">Convulsions</string>
     <string name="rb_N2084_2">High blood pressure</string>
     <string name="rb_N2084_3">Severe anemia or (pallor and SOB)</string>
@@ -702,6 +705,7 @@
     <string name="rb_N2085_1">Yes</string>
     <string name="rb_N2085_2">No</string>
     <string name="rb_N2085_DK">Don’t Know</string>
+
     <string name="cb_N2086_1">Did not think was sick enough to need health care </string>
     <string name="cb_N2086_2">No one available to go with her </string>
     <string name="cb_N2086_3">Too much time from her regular duties </string>
@@ -820,9 +824,11 @@
     <string name="rb_N2089_3">At home with a trained community nurse or midwife who came to attend her normal labor, or at the health provider or facility where she went for normal labor</string>
     <string name="rb_N2089_OT">Other (specify) </string>
     <string name="rb_N2089_DK">Don’t Know</string>
+
     <string name="rb_N2090_1">Yes</string>
     <string name="rb_N2090_2">No</string>
     <string name="rb_N2090_DK">Don’t Know</string>
+
     <string name="cb_N2091_1">Hospital </string>
     <string name="cb_N2091_2">NGO or government clinic </string>
     <string name="cb_N2091_3">Private doctor/clinic </string>
@@ -838,6 +844,7 @@
     <string name="rb_N2092_5">The woman’s mother-in-law</string>
     <string name="rb_N2092_6">Someone else (specify) </string>
     <string name="rb_N2092_DK">Don’t Know</string>
+
     <string name="rb_N2093_1">Respondent’s home</string>
     <string name="rb_N2093_2">Other home</string>
     <string name="rb_N2093_3">Respondent’s home</string>
@@ -853,9 +860,11 @@
     <string name="rb_N2093_13">On route to a health provider or facility</string>
     <string name="rb_N2093_OT">Other (specify) </string>
     <string name="rb_N2093_DK">Don’t Know</string>
+
     <string name="rb_N2095_1">Yes</string>
     <string name="rb_N2095_2">No</string>
     <string name="rb_N2095_DK">Don’t Know</string>
+
     <string name="cb_N2096_1">Convulsions</string>
     <string name="cb_N2096_2">High blood pressure</string>
     <string name="cb_N2096_3">Severe anemia or (pallor and SOB)</string>
@@ -887,9 +896,11 @@
     <string name="rb_N2098_11">On route to a health provider or facility</string>
     <string name="rb_N2098_OT">Other (specify) </string>
     <string name="rb_N2098_DK">Don’t Know</string>
+
     <string name="rb_N2099_1">Yes</string>
     <string name="rb_N2099_2">No</string>
     <string name="rb_N2099_DK">Don’t Know</string>
+
     <string name="cb_N2100_1">Had available </string>
     <string name="cb_N2100_2">Borrowed </string>
     <string name="cb_N2100_3">Sold assets </string>
@@ -910,12 +921,15 @@
     <string name="rb_N2102_2">No, delivered on route to the last provider / before the last provider reached the mother</string>
     <string name="rb_N2102_3">No, could not reach the last provider, so returned home and delivered without a health provider</string>
     <string name="rb_N2102_DK">Don’t Know</string>
+
     <string name="rb_N2104_1">Yes</string>
     <string name="rb_N2104_2">No</string>
     <string name="rb_N2104_DK">Don’t Know</string>
+
     <string name="rb_N2105_1">Yes</string>
     <string name="rb_N2105_2">No</string>
     <string name="rb_N2105_DK">Don’t Know</string>
+
     <string name="rb_N2106_1">Yes</string>
     <string name="rb_N2106_2">No</string>
     <string name="rb_N2106_DK">Don’t Know</string>
@@ -933,7 +947,7 @@
     <string name="rb_N2107_3_1">Yes</string>
     <string name="rb_N2107_3_2">No</string>
     <string name="rb_N2107_3_DK">Don’t Know</string>
-    <string name="rb_N2107_3_RA">جواب دینے سے انکار کردیا</string>
+    <string name="rb_N2107_3_RA">Refused to Answer</string>
 
 
     <!-- Questions starts  .....................  -->
@@ -1135,25 +1149,31 @@
     <string name="rb_N2292_1">Yes</string>
     <string name="rb_N2292_2">No</string>
     <string name="rb_N2292_DK">Don’t Know</string>
+
     <string name="rb_N2293_1">Primary</string>
     <string name="rb_N2293_2">Secondary</string>
     <string name="rb_N2293_3">Higher</string>
     <string name="rb_N2293_DK">Don’t Know</string>
+
     <string name="rb_N2295_1">Yes, married</string>
     <string name="rb_N2295_2">Yes, living with a man</string>
     <string name="rb_N2295_3">No, not in union</string>
     <string name="rb_N2295_4">No, mother was deceased then</string>
     <string name="rb_N2295_DK">Don’t Know</string>
+
     <string name="rb_N2297_1">Yes</string>
     <string name="rb_N2297_2">No</string>
     <string name="rb_N2297_DK">Don’t Know</string>
+
     <string name="rb_N2298_1">Primary</string>
     <string name="rb_N2298_2">Secondary</string>
     <string name="rb_N2298_3">Higher</string>
     <string name="rb_N2298_DK">Don’t Know</string>
+
     <string name="rb_N2300_1">Yes</string>
     <string name="rb_N2300_2">No</string>
     <string name="rb_N2300_DK">Don’t Know</string>
+
     <string name="rb_N2301_1">Her/His own home at that time (different from the current location)</string>
     <string name="rb_N2301_2">Her/His in-law’s home</string>
     <string name="rb_N2301_3">Her/His parent’s home</string>
@@ -1164,42 +1184,55 @@
     <string name="rb_N2311_1_1">Yes</string>
     <string name="rb_N2311_1_2">No</string>
     <string name="rb_N2311_1_DK">Don’t Know</string>
+
     <string name="rb_N2311_2_1">Yes</string>
     <string name="rb_N2311_2_2">No</string>
     <string name="rb_N2311_2_DK">Don’t Know</string>
+
     <string name="rb_N2311_3_1">Yes</string>
     <string name="rb_N2311_3_2">No</string>
     <string name="rb_N2311_3_DK">Don’t Know</string>
+
     <string name="rb_N2311_4_1">Yes</string>
     <string name="rb_N2311_4_2">No</string>
     <string name="rb_N2311_4_DK">Don’t Know</string>
+
     <string name="rb_N2311_5_1">Yes</string>
     <string name="rb_N2311_5_2">No</string>
     <string name="rb_N2311_5_DK">Don’t Know</string>
+
     <string name="rb_N2311_6_1">Yes</string>
     <string name="rb_N2311_6_2">No</string>
     <string name="rb_N2311_6_DK">Don’t Know</string>
+
     <string name="rb_N2311_7_1">Yes</string>
     <string name="rb_N2311_7_2">No</string>
     <string name="rb_N2311_7_DK">Don’t Know</string>
+
     <string name="rb_N2311_8_1">Yes</string>
     <string name="rb_N2311_8_2">No</string>
     <string name="rb_N2311_8_DK">Don’t Know</string>
+
     <string name="rb_N2311_9_1">Yes</string>
     <string name="rb_N2311_9_2">No</string>
     <string name="rb_N2311_9_DK">Don’t Know</string>
+
     <string name="rb_N2311_10_1">Yes</string>
     <string name="rb_N2311_10_2">No</string>
     <string name="rb_N2311_10_DK">Don’t Know</string>
+
     <string name="rb_N2311_11_1">Yes</string>
     <string name="rb_N2311_11_2">No</string>
     <string name="rb_N2311_11_DK">Don’t Know</string>
+
     <string name="rb_N2311_12_1">Yes</string>
     <string name="rb_N2311_12_2">No</string>
     <string name="rb_N2311_12_DK">Don’t Know</string>
+
     <string name="rb_N2311_OT_1">Yes</string>
     <string name="rb_N2311_OT_2">No</string>
     <string name="rb_N2311_OT_DK">Don’t Know</string>
+
     <string name="rb_N2311_OT">Other (Specify)</string>
     <string name="rb_N2311_14_1">One or more issues identified</string>
     <string name="rb_N2311_14_2">No issue identified</string>
@@ -1207,27 +1240,35 @@
     <string name="rb_N2312_1_1">Yes</string>
     <string name="rb_N2312_1_2">No</string>
     <string name="rb_N2312_1_DK">Don’t Know</string>
+
     <string name="rb_N2312_2_1">Yes</string>
     <string name="rb_N2312_2_2">No</string>
     <string name="rb_N2312_2_DK">Don’t Know</string>
+
     <string name="rb_N2312_3_1">Yes</string>
     <string name="rb_N2312_3_2">No</string>
     <string name="rb_N2312_3_DK">Don’t Know</string>
+
     <string name="rb_N2312_4_1">Yes</string>
     <string name="rb_N2312_4_2">No</string>
     <string name="rb_N2312_4_DK">Don’t Know</string>
+
     <string name="rb_N2312_5_1">Yes</string>
     <string name="rb_N2312_5_2">No</string>
     <string name="rb_N2312_5_DK">Don’t Know</string>
+
     <string name="rb_N2312_6_1">Yes</string>
     <string name="rb_N2312_6_2">No</string>
     <string name="rb_N2312_6_DK">Don’t Know</string>
+
     <string name="rb_N2312_7_1">Yes</string>
     <string name="rb_N2312_7_2">No</string>
     <string name="rb_N2312_7_DK">Don’t Know</string>
+
     <string name="rb_N2312_8_1">Yes</string>
     <string name="rb_N2312_8_2">No</string>
     <string name="rb_N2312_8_DK">Don’t Know</string>
+
     <string name="rb_N2312_OT_1">Yes</string>
     <string name="rb_N2312_OT_2">No</string>
     <string name="rb_N2312_OT_DK">Don’t Know</string>
@@ -1311,26 +1352,26 @@
     <string name="rb_N2317_DK">Don’t Know</string>
     <string name="rb_N2317_RA">Refused to Answer</string>
 
-    <string name="cb_N2322_1">دم گھٹنا</string>
-    <string name="cb_N2322_2">انکیو بیٹر</string>
-    <string name="cb_N2322_3">پھپھڑوں کا مسئلہ</string>
-    <string name="cb_N2322_4">وقت سے پہلے ڈیلیوری</string>
-    <string name="cb_N2322_5">سانس میں تکلیف</string>
-    <string name="cb_N2322_6">ان میں سے کوئی لفظ موجو د نہیں</string>
+    <string name="cb_N2322_1">Suffocation</string>
+    <string name="cb_N2322_2">Incubator</string>
+    <string name="cb_N2322_3">Lung Problem</string>
+    <string name="cb_N2322_4">Premature delivery</string>
+    <string name="cb_N2322_5">Shortness of Breath</string>
+    <string name="cb_N2322_6">None of These Words Exist</string>
     <string name="cb_N2322_DK">Don’t Know</string>
 
-    <string name="rb_N2211_1_1">معمول</string>
-    <string name="rb_N2211_1_2">درمیانی</string>
-    <string name="rb_N2211_1_3">غیر معمولی</string>
+    <string name="rb_N2211_1_1">Normal</string>
+    <string name="rb_N2211_1_2">Medium</string>
+    <string name="rb_N2211_1_3">Unusual</string>
     <string name="rb_N2211_1_DK">Don’t Know</string>
 
-    <string name="rb_N2211_2_1">معمول</string>
-    <string name="rb_N2211_2_2">درمیانی</string>
-    <string name="rb_N2211_2_3">غیر معمولی</string>
+    <string name="rb_N2211_2_1">Normal</string>
+    <string name="rb_N2211_2_2">Medium</string>
+    <string name="rb_N2211_2_3">Unusual</string>
     <string name="rb_N2211_2_DK">Don’t Know</string>
 
-    <string name="rb_N2212_1"> ہاں</string>
-    <string name="rb_N2212_2">نہیں ،.-------دیکھ بھال کی ضرورت نہیں تھی،نہ ہی تلاش کی</string>
+    <string name="rb_N2212_1">Yes</string>
+    <string name="rb_N2212_2">No, Care was not required, nor sought</string>
     <string name="rb_N2212_DK">Don’t Know</string>
 
 
@@ -1502,6 +1543,7 @@
     <string name="rb_N2112_1">Yes</string>
     <string name="rb_N2112_2">No</string>
     <string name="rb_N2112_DK">Don’t Know</string>
+
     <string name="cb_N2113_1">Alcohol/other antiseptic </string>
     <string name="cb_N2113_2">Antibiotic ointment/cream/powder </string>
     <string name="cb_N2113_3">Castor oil, mustard oil or shea butter </string>
@@ -1566,9 +1608,11 @@
     <string name="rb_N2125_1">Yes</string>
     <string name="rb_N2125_2">No</string>
     <string name="rb_N2125_DK">Don’t Know</string>
+
     <string name="rb_N2126_1">Yes</string>
     <string name="rb_N2126_2">No</string>
     <string name="rb_N2126_DK">Don’t Know</string>
+
     <string name="rb_N2127_1">Immediately </string>
     <string name="rb_N2127_2">Less than 1 hour </string>
     <string name="rb_N2127_3">1 hour or more </string>
@@ -1581,9 +1625,11 @@
     <string name="rb_N2131_3">24 hours or more </string>
     <string name="rb_N2131_4">Not bathed before death</string>
     <string name="rb_N2131_DK">Don’t Know</string>
+
     <string name="rb_N2132_1">Yes</string>
     <string name="rb_N2132_2">No</string>
     <string name="rb_N2132_DK">Don’t Know</string>
+
     <string name="rb_N2133_1">Immediately </string>
     <string name="rb_N2133_2">Less than 1 hour </string>
     <string name="rb_N2133_3">1 hour or more </string>
@@ -1596,36 +1642,47 @@
     <string name="rb_N2135_1_1">Yes</string>
     <string name="rb_N2135_1_2">No</string>
     <string name="rb_N2135_1_DK">Don’t Know</string>
+
     <string name="rb_N2135_2_1">Yes</string>
     <string name="rb_N2135_2_2">No</string>
     <string name="rb_N2135_2_DK">Don’t Know</string>
+
     <string name="rb_N2135_3_1">Yes</string>
     <string name="rb_N2135_3_2">No</string>
     <string name="rb_N2135_3_DK">Don’t Know</string>
+
     <string name="rb_N2135_4_1">Yes</string>
     <string name="rb_N2135_4_2">No</string>
     <string name="rb_N2135_4_DK">Don’t Know</string>
+
     <string name="rb_N2135_5_1">Yes</string>
     <string name="rb_N2135_5_2">No</string>
     <string name="rb_N2135_5_DK">Don’t Know</string>
+
     <string name="rb_N2135_6_1">Yes</string>
     <string name="rb_N2135_6_2">No</string>
     <string name="rb_N2135_6_DK">Don’t Know</string>
+
     <string name="rb_N2135_7_1">Yes</string>
     <string name="rb_N2135_7_2">No</string>
     <string name="rb_N2135_7_DK">Don’t Know</string>
+
     <string name="rb_N2135_8_1">Yes</string>
     <string name="rb_N2135_8_2">No</string>
     <string name="rb_N2135_8_DK">Don’t Know</string>
+
     <string name="rb_N2135_9_1">Yes</string>
     <string name="rb_N2135_9_2">No</string>
     <string name="rb_N2135_9_DK">Don’t Know</string>
+
     <string name="rb_N2135_10_1">Yes</string>
     <string name="rb_N2135_10_2">No</string>
     <string name="rb_N2135_10_DK">Don’t Know</string>
+
     <string name="rb_N2135_11_1">Yes</string>
     <string name="rb_N2135_11_2">No</string>
     <string name="rb_N2135_11_DK">Don’t Know</string>
+
     <string name="rb_N2135_12_1">Yes</string>
     <string name="rb_N2135_12_2">No</string>
     <string name="rb_N2135_12_DK">Don’t Know</string>
@@ -1694,6 +1751,7 @@
     <string name="rb_N2149_2">No</string>
     <string name="rb_N2149_DK">Don’t Know</string>
     <string name="rb_N2149_RA">Refused to answer </string>
+
     <string name="rb_N2150_1">Yes</string>
     <string name="rb_N2150_2">No</string>
     <string name="rb_N2150_DK">Don’t Know</string>
@@ -1702,6 +1760,7 @@
     <string name="rb_N2151_1">Yes</string>
     <string name="rb_N2151_2">No</string>
     <string name="rb_N2151_DK">Don’t Know</string>
+
     <string name="rb_N2151_RA">Refused to Answer</string>
 
     <string name="rb_N2152_1">Yes</string>
@@ -1772,86 +1831,103 @@
     <string name="rb_N2174_1">Yes</string>
     <string name="rb_N2174_2">No</string>
     <string name="rb_N2174_DK">Don’t Know</string>
+
     <string name="rb_N2174_RA">Refused to Answer</string>
 
     <string name="rb_N2175_1">Yes</string>
     <string name="rb_N2175_2">No</string>
     <string name="rb_N2175_DK">Don’t Know</string>
+
     <string name="rb_N2175_RA">Refused to Answer</string>
 
     <string name="rb_N2176_1">Yes</string>
     <string name="rb_N2176_2">No</string>
     <string name="rb_N2176_DK">Don’t Know</string>
+
     <string name="rb_N2176_RA">Refused to Answer</string>
 
     <string name="rb_N2177a_1">Yes</string>
     <string name="rb_N2177a_2">No</string>
     <string name="rb_N2177a_DK">Don’t Know</string>
+
     <string name="rb_N2177a_RA">Refused to Answer</string>
 
     <string name="rb_N2177_1">Yes</string>
     <string name="rb_N2177_2">No</string>
     <string name="rb_N2177_DK">Don’t Know</string>
+
     <string name="rb_N2177_RA">Refused to Answer</string>
 
     <string name="rb_N2178_1">Yes</string>
     <string name="rb_N2178_2">No</string>
     <string name="rb_N2178_DK">Don’t Know</string>
+
     <string name="rb_N2178_RA">Refused to Answer</string>
 
     <string name="rb_N2179_1">Yes</string>
     <string name="rb_N2179_2">No</string>
     <string name="rb_N2179_DK">Don’t Know</string>
+
     <string name="rb_N2179_RA">Refused to Answer</string>
 
     <string name="rb_N2180_1">Yes</string>
     <string name="rb_N2180_2">No</string>
     <string name="rb_N2180_DK">Don’t Know</string>
+
     <string name="rb_N2180_RA">Refused to Answer</string>
 
     <string name="rb_N2181_1">Yes</string>
     <string name="rb_N2181_2">No</string>
     <string name="rb_N2181_DK">Don’t Know</string>
+
     <string name="rb_N2181_RA">Refused to Answer</string>
 
     <string name="rb_N2182_1">Yes</string>
     <string name="rb_N2182_2">No</string>
     <string name="rb_N2182_DK">Don’t Know</string>
+
     <string name="rb_N2182_RA">Refused to Answer</string>
 
     <string name="rb_N2183_1">Yes</string>
     <string name="rb_N2183_2">No</string>
     <string name="rb_N2183_DK">Don’t Know</string>
+
     <string name="rb_N2183_RA">Refused to Answer</string>
 
     <string name="rb_N2185_1">Yes</string>
     <string name="rb_N2185_2">No</string>
     <string name="rb_N2185_DK">Don’t Know</string>
+
     <string name="rb_N2185_RA">Refused to Answer</string>
 
     <string name="rb_N2188_1">Yes</string>
     <string name="rb_N2188_2">No</string>
     <string name="rb_N2188_DK">Don’t Know</string>
+
     <string name="rb_N2188_RA">Refused to Answer</string>
 
     <string name="rb_N2189_1">Yes</string>
     <string name="rb_N2189_2">No</string>
     <string name="rb_N2189_DK">Don’t Know</string>
+
     <string name="rb_N2189_RA">Refused to Answer</string>
 
     <string name="rb_N2189a_1">Yes</string>
     <string name="rb_N2189a_2">No</string>
     <string name="rb_N2189a_DK">Don’t Know</string>
+
     <string name="rb_N2189a_RA">Refused</string>
 
     <string name="rb_N2190_1">Yes</string>
     <string name="rb_N2190_2">No</string>
     <string name="rb_N2190_DK">Don’t Know</string>
+
     <string name="rb_N2190_RA">Refused to Answer</string>
 
     <string name="rb_N2190_1_1">Yes</string>
     <string name="rb_N2190_1_2">No</string>
     <string name="rb_N2190_1_DK">Don’t Know</string>
+
     <string name="rb_N2190_1_RA">Refused to Answer</string>
 
     <string name="rb_N2190_2_1">Pedestrian</string>
@@ -1861,6 +1937,7 @@
     <string name="rb_N2190_2_5">Driver or passenger on a pedal cycle</string>
     <string name="rb_N2190_2_OT">Other</string>
     <string name="rb_N2190_2_DK">Don’t Know</string>
+
     <string name="rb_N2190_2_RA">Refused to Answer</string>
 
     <string name="rb_N2190_3_1">Pedestrian</string>
@@ -1871,36 +1948,43 @@
     <string name="rb_N2190_3_6">Pedal cycle</string>
     <string name="rb_N2190_3_OT">Other</string>
     <string name="rb_N2190_3_DK">Don’t Know</string>
+
     <string name="rb_N2190_3_RA">Refused to Answer</string>
 
     <string name="rb_N2190_4_1">Yes</string>
     <string name="rb_N2190_4_2">No</string>
     <string name="rb_N2190_4_DK">Don’t Know</string>
+
     <string name="rb_N2190_4_RA">Refused to Answer</string>
 
     <string name="rb_N2190_5_1">Yes</string>
     <string name="rb_N2190_5_2">No</string>
     <string name="rb_N2190_5_DK">Don’t Know</string>
+
     <string name="rb_N2190_5_RA">Refused to Answer</string>
 
     <string name="rb_N2190_6_1">Yes</string>
     <string name="rb_N2190_6_2">No</string>
     <string name="rb_N2190_6_DK">Don’t Know</string>
+
     <string name="rb_N2190_6_RA">Refused to Answer</string>
 
     <string name="rb_N2190_7_1">Yes</string>
     <string name="rb_N2190_7_2">No</string>
     <string name="rb_N2190_7_DK">Don’t Know</string>
+
     <string name="rb_N2190_7_RA">Refused to Answer</string>
 
     <string name="rb_N2190_8_1">Yes</string>
     <string name="rb_N2190_8_2">No</string>
     <string name="rb_N2190_8_DK">Don’t Know</string>
+
     <string name="rb_N2190_8_RA">Refused to Answer</string>
 
     <string name="rb_N2190_9_1">Yes</string>
     <string name="rb_N2190_9_2">No</string>
     <string name="rb_N2190_9_DK">Don’t Know</string>
+
     <string name="rb_N2190_9_RA">Refused to Answer</string>
 
     <string name="rb_N2190_10_1">Dog</string>
@@ -1913,78 +1997,95 @@
     <string name="rb_N2190_11_1">Yes</string>
     <string name="rb_N2190_11_2">No</string>
     <string name="rb_N2190_11_DK">Don’t Know</string>
+
     <string name="rb_N2190_11_RA">Refused to Answer</string>
 
     <string name="rb_N2190_12_1">Yes</string>
     <string name="rb_N2190_12_2">No</string>
     <string name="rb_N2190_12_DK">Don’t Know</string>
+
     <string name="rb_N2190_12_RA">Refused to Answer</string>
 
     <string name="rb_N2190_13_1">Yes</string>
     <string name="rb_N2190_13_2">No</string>
     <string name="rb_N2190_13_DK">Don’t Know</string>
+
     <string name="rb_N2190_13_RA">Refused to Answer</string>
 
     <string name="rb_N2190_14_1">Yes</string>
     <string name="rb_N2190_14_2">No</string>
     <string name="rb_N2190_14_DK">Don’t Know</string>
+
     <string name="rb_N2190_14_RA">Refused to Answer</string>
 
     <string name="rb_N2190_15_1">Yes</string>
     <string name="rb_N2190_15_2">No</string>
     <string name="rb_N2190_15_DK">Don’t Know</string>
+
     <string name="rb_N2190_15_RA">Refused to Answer</string>
 
     <string name="rb_N2190_16_1">Yes</string>
     <string name="rb_N2190_16_2">No</string>
     <string name="rb_N2190_16_DK">Don’t Know</string>
+
     <string name="rb_N2190_16_RA">Refused to Answer</string>
 
     <string name="rb_N2190_17_1">Yes</string>
     <string name="rb_N2190_17_2">No</string>
     <string name="rb_N2190_17_DK">Don’t Know</string>
+
     <string name="rb_N2190_17_RA">Refused to Answer</string>
 
     <string name="rb_N2190_18_1">Yes</string>
     <string name="rb_N2190_18_2">No</string>
     <string name="rb_N2190_18_DK">Don’t Know</string>
+
     <string name="rb_N2190_18_RA">Refused to Answer</string>
 
     <string name="rb_N2190_19_1">Yes</string>
     <string name="rb_N2190_19_2">No</string>
     <string name="rb_N2190_19_DK">Don’t Know</string>
+
     <string name="rb_N2190_19_RA">Refused to Answer</string>
 
     <string name="rb_N2190_20_1">Yes</string>
     <string name="rb_N2190_20_2">No</string>
     <string name="rb_N2190_20_DK">Don’t Know</string>
+
     <string name="rb_N2190_20_RA">Refused to Answer</string>
 
     <string name="rb_N2190_21_1">Yes</string>
     <string name="rb_N2190_21_2">No</string>
     <string name="rb_N2190_21_DK">Don’t Know</string>
+
     <string name="rb_N2190_21_RA">Refused to Answer</string>
 
     <string name="rb_N2190_22_1">Yes</string>
     <string name="rb_N2190_22_2">No</string>
     <string name="rb_N2190_22_DK">Don’t Know</string>
+
     <string name="rb_N2190_22_RA">Refused to Answer</string>
 
     <string name="rb_N2192_1">Yes, born in a health facility</string>
     <string name="rb_N2192_2">Not born in a health facility</string>
     <string name="rb_N2192_DK">Don’t Know</string>
+
     <string name="rb_N2193_1">Yes, left alive</string>
     <string name="rb_N2193_2">Died in the facility</string>
     <string name="rb_N2193_DK">Don’t Know</string>
+
     <string name="rb_N2195_1">Yes</string>
     <string name="rb_N2195_2">No</string>
     <string name="rb_N2195_DK">Don’t Know</string>
+
     <string name="rb_N2196_1">Yes</string>
     <string name="rb_N2196_2">No</string>
     <string name="rb_N2196_DK">Don’t Know</string>
+
     <string name="rb_N2197_1">Yes</string>
     <string name="rb_N2197_2">No</string>
     <string name="rb_N2197_DK">Don’t Know</string>
+
     <string name="cb_N2198_1">Trained CHW or nurse at home/in the community </string>
     <string name="cb_N2198_2">Doctor or nurse at a health facility </string>
     <string name="cb_N2198_3">Never seen </string>
@@ -1992,12 +2093,15 @@
     <string name="rb_N2199_1">Yes</string>
     <string name="rb_N2199_2">No</string>
     <string name="rb_N2199_DK">Don’t Know</string>
+
     <string name="rb_N2200_1">Yes</string>
     <string name="rb_N2200_2">No</string>
     <string name="rb_N2200_DK">Don’t Know</string>
+
     <string name="rb_N2201_1">Yes</string>
     <string name="rb_N2201_2">No</string>
     <string name="rb_N2201_DK">Don’t Know</string>
+
     <string name="cb_N2202_1">Trained CHW or nurse at home/in the community </string>
     <string name="cb_N2202_2">Doctor or nurse at a health facility </string>
     <string name="cb_N2202_3">Never seen </string>
@@ -2304,21 +2408,25 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_N2244_1">Yes</string>
     <string name="rb_N2244_2">No</string>
     <string name="rb_N2244_DK">Don’t Know</string>
+
     <string name="rb_N2244_RA">Refused to Answer</string>
 
     <string name="rb_N2245_1">Yes</string>
     <string name="rb_N2245_2">No</string>
     <string name="rb_N2245_DK">Don’t Know</string>
+
     <string name="rb_N2245_RA">Refused to Answer</string>
 
     <string name="rb_N2246_1">Yes</string>
     <string name="rb_N2246_2">No</string>
     <string name="rb_N2246_DK">Don’t Know</string>
+
     <string name="rb_N2246_RA">Refused to Answer</string>
 
     <string name="rb_N2247_1">Yes</string>
     <string name="rb_N2247_2">No</string>
     <string name="rb_N2247_DK">Don’t Know</string>
+
     <string name="rb_N2247_RA">Refused to Answer</string>
 
 
@@ -2423,6 +2531,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3001_1">Yes</string>
     <string name="rb_C3001_2">No</string>
     <string name="rb_C3001_DK">Don’t Know</string>
+
     <string name="rb_C3001_RA">Refused to Answer</string>
 
     <string name="txt_C3001">C3001: Was the child part of a multiple birth?</string>
@@ -2957,23 +3066,27 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3002_1">Second or later</string>
     <string name="rb_C3002_2">Second or later</string>
     <string name="rb_C3002_DK">Don’t Know</string>
+
     <string name="rb_C3002_RA">Refused to Answer</string>
 
     <string name="rb_C3003_1">Yes</string>
     <string name="rb_C3003_2">No</string>
     <string name="rb_C3003_DK">Don’t Know</string>
+
     <string name="rb_C3003_RA">Refused to Answer</string>
 
     <string name="rb_C3004_1">Before delivery</string>
     <string name="rb_C3004_2">During delivery</string>
     <string name="rb_C3004_3">After delivery</string>
     <string name="rb_C3004_DK">Don’t Know</string>
+
     <string name="rb_C3004_RA">Refused to Answer</string>
 
     <string name="rb_C3005u_1">Day(s)</string>
     <string name="rb_C3005u_2">Week(s)</string>
     <string name="rb_C3005u_3">Month(s)</string>
     <string name="rb_C3005u_DK">Don’t Know</string>
+
     <string name="rb_C3005u_RA">Refused to Answer</string>
 
     <string name="ed_C3005d">Day(s)</string>
@@ -2993,6 +3106,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3006_11">On route to a health provider or facility</string>
     <string name="rb_C3006_OT">Other (specify) </string>
     <string name="rb_C3006_DK">Don’t Know</string>
+
     <string name="rb_C3006_RA">Refused to Answer</string>
 
     <string name="rb_C3008_1">Doctor</string>
@@ -3008,21 +3122,25 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3009_1_1">Yes</string>
     <string name="rb_C3009_1_2">No</string>
     <string name="rb_C3009_1_DK">Don’t Know</string>
+
     <string name="rb_C3009_1_RA">Refused to Answer</string>
 
     <string name="rb_C3009_2_1">Yes</string>
     <string name="rb_C3009_2_2">No</string>
     <string name="rb_C3009_2_DK">Don’t Know</string>
+
     <string name="rb_C3009_2_RA">Refused to Answer</string>
 
     <string name="rb_C3009_3_1">Yes</string>
     <string name="rb_C3009_3_2">No</string>
     <string name="rb_C3009_3_DK">Don’t Know</string>
+
     <string name="rb_C3009_3_RA">Refused to Answer</string>
 
     <string name="rb_C3009_4_1">Yes</string>
     <string name="rb_C3009_4_2">No</string>
     <string name="rb_C3009_4_DK">Don’t Know</string>
+
     <string name="rb_C3009_4_RA">Refused to Answer</string>
 
     <string name="rb_C3011_1">Child’s health card</string>
@@ -3031,12 +3149,14 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3013_1">Yes</string>
     <string name="rb_C3013_2">No</string>
     <string name="rb_C3013_DK">Don’t Know</string>
+
     <string name="rb_C3013_RA">Refused to Answer</string>
 
     <string name="rb_C3015_1">Primary</string>
     <string name="rb_C3015_2">Secondary</string>
     <string name="rb_C3015_3">Higher</string>
     <string name="rb_C3015_DK">Don’t Know</string>
+
     <string name="rb_C3015_RA">Refused to Answer</string>
 
     <string name="rb_C3017_1">Yes</string>
@@ -3051,31 +3171,37 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3018_5">Student</string>
     <string name="rb_C3018_OT">Other</string>
     <string name="rb_C3018_DK">Don’t Know</string>
+
     <string name="rb_C3018_RA">Refused to Answer</string>
 
     <string name="rb_C3019_u_1">Days</string>
     <string name="rb_C3019_u_2">Months</string>
     <string name="rb_C3019_u_3">Years</string>
     <string name="rb_C3019_u_DK">Don’t Know</string>
+
     <string name="rb_C3019_u_RA">Refused to Answer</string>
 
     <string name="rb_C3020_1">Yes</string>
     <string name="rb_C3020_2">No</string>
     <string name="rb_C3020_DK">Don’t Know</string>
+
     <string name="rb_C3020_RA">Refused to Answer</string>
 
     <string name="rb_C3021u_1">Days</string>
     <string name="rb_C3021u_2">Months</string>
     <string name="rb_C3021u_3">Years</string>
     <string name="rb_C3021u_DK">Don’t Know</string>
+
     <string name="rb_C3021u_RA">Refused to Answer</string>
 
     <string name="rb_C3022_1">Yes</string>
     <string name="rb_C3022_2">No</string>
     <string name="rb_C3022_DK">Don’t Know</string>
+
     <string name="rb_C3051_1">Yes</string>
     <string name="rb_C3051_2">No</string>
     <string name="rb_C3051_DK">Don’t Know</string>
+
     <string name="rb_C3051_RA">Refused to Answer</string>
 
     <string name="rb_C3053_1">Yes </string>
@@ -3085,34 +3211,41 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3053a_1">Yes</string>
     <string name="rb_C3053a_2">No</string>
     <string name="rb_C3053a_DK">Don’t Know</string>
+
     <string name="rb_C3053a_RA">Refused to Answer</string>
 
     <string name="rb_C3054_1">Yes</string>
     <string name="rb_C3054_2">No</string>
     <string name="rb_C3054_DK">Don’t Know</string>
+
     <string name="rb_C3054_RA">Refused to Answer</string>
 
     <string name="rb_C3055_1">Yes</string>
     <string name="rb_C3055_2">No</string>
     <string name="rb_C3055_DK">Don’t Know</string>
+
     <string name="rb_C3055_RA">Refused to Answer</string>
 
     <string name="rb_C3056_1">Yes</string>
     <string name="rb_C3056_2">No</string>
     <string name="rb_C3056_DK">Don’t Know</string>
+
     <string name="rb_C3056_RA">Refused to Answer</string>
 
     <string name="rb_C3057_1">Yes</string>
     <string name="rb_C3057_2">No</string>
     <string name="rb_C3057_DK">Don’t Know</string>
+
     <string name="rb_C3057_RA">Refused to Answer</string>
 
     <string name="rb_C3058_1">Yes</string>
     <string name="rb_C3058_2">No</string>
     <string name="rb_C3058_DK">Don’t Know</string>
+
     <string name="rb_C3059_1">Yes</string>
     <string name="rb_C3059_2">No</string>
     <string name="rb_C3059_DK">Don’t Know</string>
+
     <string name="rb_C3059_RA">Refused to Answer</string>
 
     <string name="rb_C3060_1">Yes</string>
@@ -3178,36 +3311,43 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3071_1">Yes</string>
     <string name="rb_C3071_2">No</string>
     <string name="rb_C3071_DK">Don’t Know</string>
+
     <string name="rb_C3071_RA">Refused to Answer</string>
 
     <string name="rb_C3072_1">Yes</string>
     <string name="rb_C3072_2">No</string>
     <string name="rb_C3072_DK">Don’t Know</string>
+
     <string name="rb_C3072_RA">Refused to Answer</string>
 
     <string name="rb_C3073_1_1">Yes</string>
     <string name="rb_C3073_1_2">No</string>
     <string name="rb_C3073_1_DK">Don’t Know</string>
+
     <string name="rb_C3073_1_RA">Refused to Answer</string>
 
     <string name="rb_C3073_2_1">Yes</string>
     <string name="rb_C3073_2_2">No</string>
     <string name="rb_C3073_2_DK">Don’t Know</string>
+
     <string name="rb_C3073_2_RA">Refused to Answer</string>
 
     <string name="rb_C3073_3_1">Yes</string>
     <string name="rb_C3073_3_2">No</string>
     <string name="rb_C3073_3_DK">Don’t Know</string>
+
     <string name="rb_C3073_3_RA">Refused to Answer</string>
 
     <string name="rb_C3074_1">Yes</string>
     <string name="rb_C3074_2">No</string>
     <string name="rb_C3074_DK">Don’t Know</string>
+
     <string name="rb_C3074_RA">Refused to Answer</string>
 
     <string name="rb_C3075_1">Yes</string>
     <string name="rb_C3075_2">No</string>
     <string name="rb_C3075_DK">Don’t Know</string>
+
     <string name="rb_C3075_RA">Refused to Answer</string>
 
     <string name="rb_C3076_1">Within 5 minutes</string>
@@ -3215,100 +3355,121 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3076_3">More than 30 minutes</string>
     <string name="rb_C3076_4">Never</string>
     <string name="rb_C3076_DK">Don’t Know</string>
+
     <string name="rb_C3076_RA">Refused to Answer</string>
 
     <string name="rb_C3077_1">Yes</string>
     <string name="rb_C3077_2">No</string>
     <string name="rb_C3077_DK">Don’t Know</string>
+
     <string name="rb_C3078_1">Yes</string>
     <string name="rb_C3078_2">No</string>
     <string name="rb_C3078_DK">Don’t Know</string>
+
     <string name="rb_C3079_1">Immediately</string>
     <string name="rb_C3079_2">Less than 1 hour</string>
     <string name="rb_C3079_3">1 hour or more</string>
     <string name="rb_C3079_DK">Don’t Know</string>
+
     <string name="rb_C3080_1">Yes</string>
     <string name="rb_C3080_2">No</string>
     <string name="rb_C3080_DK">Don’t Know</string>
+
     <string name="rb_C3083_1">Less than 6 hours</string>
     <string name="rb_C3083_2">7-23 hours</string>
     <string name="rb_C3083_3">24 hours or more </string>
     <string name="rb_C3083_4">Not bathed before death</string>
     <string name="rb_C3083_DK">Don’t Know</string>
+
     <string name="rb_C3084_1">Yes</string>
     <string name="rb_C3084_2">No</string>
     <string name="rb_C3084_DK">Don’t Know</string>
+
     <string name="rb_C3084_RA">Refused to Answer</string>
 
     <string name="rb_C3085_1">Yes</string>
     <string name="rb_C3085_2">No</string>
     <string name="rb_C3085_DK">Don’t Know</string>
+
     <string name="rb_C3085_RA">Refused to Answer</string>
 
     <string name="rb_C3086_1">Yes</string>
     <string name="rb_C3086_2">No</string>
     <string name="rb_C3086_DK">Don’t Know</string>
+
     <string name="rb_C3086_RA">Refused to Answer</string>
 
     <string name="rb_C3088_1">Yes</string>
     <string name="rb_C3088_2">No</string>
     <string name="rb_C3088_DK">Don’t Know</string>
+
     <string name="rb_C3088_RA">Refused to Answer</string>
 
     <string name="rb_C3089_1">Yes</string>
     <string name="rb_C3089_2">No</string>
     <string name="rb_C3089_DK">Don’t Know</string>
+
     <string name="rb_C3089_RA">Refused to Answer</string>
 
     <string name="rb_C3091_1">Yes</string>
     <string name="rb_C3091_2">No</string>
     <string name="rb_C3091_DK">Don’t Know</string>
+
     <string name="rb_C3091_RA">Refused to Answer</string>
 
     <string name="rb_C3092_1">Yes</string>
     <string name="rb_C3092_2">No</string>
     <string name="rb_C3092_DK">Don’t Know</string>
+
     <string name="rb_C3092_RA">Refused to Answer</string>
 
     <string name="rb_C3093_1">Yes</string>
     <string name="rb_C3093_2">No</string>
     <string name="rb_C3093_DK">Don’t Know</string>
+
     <string name="rb_C3093_RA">Refused to Answer</string>
 
     <string name="rb_C3094_1">Yes</string>
     <string name="rb_C3094_2">No</string>
     <string name="rb_C3094_DK">Don’t Know</string>
+
     <string name="rb_C3094_RA">Refused to Answer</string>
 
     <string name="rb_C3095_1">Yes</string>
     <string name="rb_C3095_2">No</string>
     <string name="rb_C3095_DK">Don’t Know</string>
+
     <string name="rb_C3095_RA">Refused to Answer</string>
 
     <string name="rb_C3096_1">Yes</string>
     <string name="rb_C3096_2">No</string>
     <string name="rb_C3096_DK">Don’t Know</string>
+
     <string name="rb_C3096_RA">Refused to Answer</string>
 
     <string name="rb_C3097_1">Yes</string>
     <string name="rb_C3097_2">No</string>
     <string name="rb_C3097_DK">Don’t Know</string>
+
     <string name="rb_C3097_RA">Refused to Answer</string>
 
     <string name="rb_C3098_1">Yes</string>
     <string name="rb_C3098_2">No</string>
     <string name="rb_C3098_DK">Don’t Know</string>
+
     <string name="rb_C3098_RA">Refused to Answer</string>
 
     <string name="rb_C3099_1">Yes</string>
     <string name="rb_C3099_2">No</string>
     <string name="rb_C3099_DK">Don’t Know</string>
+
     <string name="rb_C3099_RA">Refused to Answer</string>
 
     <string name="rb_C3101_1">Yes, usually or always</string>
     <string name="rb_C3101_2">Yes, sometimes</string>
     <string name="rb_C3101_3">Never</string>
     <string name="rb_C3101_DK">Don’t Know</string>
+
     <string name="rb_C3102_1">inside the house</string>
     <string name="rb_C3102_2">Outside the house</string>
     <string name="rb_C3102_3">in a structure outside the house</string>
@@ -3317,11 +3478,13 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3104_1">Yes</string>
     <string name="rb_C3104_2">No</string>
     <string name="rb_C3104_DK">Don’t Know</string>
+
     <string name="rb_C3105_1">mmediately</string>
     <string name="rb_C3105_2">Less than 1 hour</string>
     <string name="rb_C3105_3"> 1 hour or more</string>
     <string name="rb_C3105_4">1 day or more</string>
     <string name="rb_C3105_DK">Don’t Know</string>
+
     <string name="rb_C3106_1">Yes</string>
     <string name="rb_C3106_2">No</string>
     <string name="rb_C3106_DK">Don’t Know</string>
@@ -3417,71 +3580,85 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3109_1_1">Yes</string>
     <string name="rb_C3109_1_2">No</string>
     <string name="rb_C3109_1_DK">Don’t Know</string>
+
     <string name="rb_C3109_1_RA">Refused to Answer</string>
 
     <string name="rb_C3109_2_1">Yes</string>
     <string name="rb_C3109_2_2">No</string>
     <string name="rb_C3109_2_DK">Don’t Know</string>
+
     <string name="rb_C3109_2_RA">Refused to Answer</string>
 
     <string name="rb_C3109_3_1">Yes</string>
     <string name="rb_C3109_3_2">No</string>
     <string name="rb_C3109_3_DK">Don’t Know</string>
+
     <string name="rb_C3109_3_RA">Refused to Answer</string>
 
     <string name="rb_C3109_4_1">Yes</string>
     <string name="rb_C3109_4_2">No</string>
     <string name="rb_C3109_4_DK">Don’t Know</string>
+
     <string name="rb_C3109_4_RA">Refused to Answer</string>
 
     <string name="rb_C3109_5_1">Yes</string>
     <string name="rb_C3109_5_2">No</string>
     <string name="rb_C3109_5_DK">Don’t Know</string>
+
     <string name="rb_C3109_5_RA">Refused to Answer</string>
 
     <string name="rb_C3109_6_1">Yes</string>
     <string name="rb_C3109_6_2">No</string>
     <string name="rb_C3109_6_DK">Don’t Know</string>
+
     <string name="rb_C3109_6_RA">Refused to Answer</string>
 
     <string name="rb_C3109_7_1">Yes</string>
     <string name="rb_C3109_7_2">No</string>
     <string name="rb_C3109_7_DK">Don’t Know</string>
+
     <string name="rb_C3109_7_RA">Refused to Answer</string>
 
     <string name="rb_C3109_8_1">Yes</string>
     <string name="rb_C3109_8_2">No</string>
     <string name="rb_C3109_8_DK">Don’t Know</string>
+
     <string name="rb_C3109_8_RA">Refused to Answer</string>
 
     <string name="rb_C3109_9_1">Yes</string>
     <string name="rb_C3109_9_2">No</string>
     <string name="rb_C3109_9_DK">Don’t Know</string>
+
     <string name="rb_C3109_9_RA">Refused to Answer</string>
 
     <string name="rb_C3109_10_1">Yes</string>
     <string name="rb_C3109_10_2">No</string>
     <string name="rb_C3109_10_DK">Don’t Know</string>
+
     <string name="rb_C3109_10_RA">Refused to Answer</string>
 
     <string name="rb_C3109_11_1">Yes</string>
     <string name="rb_C3109_11_2">No</string>
     <string name="rb_C3109_11_DK">Don’t Know</string>
+
     <string name="rb_C3109_11_RA">Refused to Answer</string>
 
     <string name="rb_C3109_12_1">Yes</string>
     <string name="rb_C3109_12_2">No</string>
     <string name="rb_C3109_12_DK">Don’t Know</string>
+
     <string name="rb_C3109_12_RA">Refused to Answer</string>
 
     <string name="rb_C3109_13_1">Yes</string>
     <string name="rb_C3109_13_2">No</string>
     <string name="rb_C3109_13_DK">Don’t Know</string>
+
     <string name="rb_C3109_13_RA">Refused to Answer</string>
 
     <string name="rb_C3109_14_1">Yes</string>
     <string name="rb_C3109_14_2">No</string>
     <string name="rb_C3109_14_DK">Don’t Know</string>
+
     <string name="rb_C3109_14_RA">Refused to Answer</string>
 
     <string name="rb_C3110_1">Yes</string>
@@ -3491,18 +3668,23 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3111_1">Yes</string>
     <string name="rb_C3111_2">No</string>
     <string name="rb_C3111_DK">Don’t Know</string>
+
     <string name="rb_C3111_1_1">Yes</string>
     <string name="rb_C3111_1_2">No</string>
     <string name="rb_C3111_1_DK">Don’t Know</string>
+
     <string name="rb_C3111_3_1">Yes</string>
     <string name="rb_C3111_3_2">No</string>
     <string name="rb_C3111_3_DK">Don’t Know</string>
+
     <string name="rb_C3111_5_1">Yes</string>
     <string name="rb_C3111_5_2">No</string>
     <string name="rb_C3111_5_DK">Don’t Know</string>
+
     <string name="rb_C3111_7_1">Yes</string>
     <string name="rb_C3111_7_2">No</string>
     <string name="rb_C3111_7_DK">Don’t Know</string>
+
     <string name="rb_C3111_8_1">Yes</string>
     <string name="rb_C3111_8_2">No</string>
     <string name="rb_C3111_8_DK">Don’t Know</string>
@@ -3521,43 +3703,51 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3123_u_1">Days</string>
     <string name="rb_C3123_u_2">Months</string>
     <string name="rb_C3123_u_DK">Don’t Know</string>
+
     <string name="rb_C3123_u_RA">Refused to Answer</string>
 
     <string name="rb_C3124_1">Yes</string>
     <string name="rb_C3124_2">No</string>
     <string name="rb_C3124_DK">Don’t Know</string>
+
     <string name="rb_C3124_RA">Refused to Answer</string>
 
     <string name="rb_C3125_1">Mild</string>
     <string name="rb_C3125_2">Moderate</string>
     <string name="rb_C3125_3">Severe</string>
     <string name="rb_C3125_DK">Don’t Know</string>
+
     <string name="rb_C3125_RA">Refused to Answer</string>
 
     <string name="rb_C3126_1">Continuous</string>
     <string name="rb_C3126_2">On and off</string>
     <string name="rb_C3126_3">Only at night</string>
     <string name="rb_C3126_DK">Don’t Know</string>
+
     <string name="rb_C3126_RA">Refused to Answer</string>
 
     <string name="rb_C3127_1">Yes</string>
     <string name="rb_C3127_2">No</string>
     <string name="rb_C3127_DK">Don’t Know</string>
+
     <string name="rb_C3127_RA">Refused to Answer</string>
 
     <string name="rb_C3128_1">Yes</string>
     <string name="rb_C3128_2">No</string>
     <string name="rb_C3128_DK">Don’t Know</string>
+
     <string name="rb_C3128_RA">Refused to Answer</string>
 
     <string name="rb_C3129_1">Yes</string>
     <string name="rb_C3129_2">No</string>
     <string name="rb_C3129_DK">Don’t Know</string>
+
     <string name="rb_C3129_RA">Refused to Answer</string>
 
     <string name="rb_C3130_1">Yes</string>
     <string name="rb_C3130_2">No</string>
     <string name="rb_C3130_DK">Don’t Know</string>
+
     <string name="rb_C3130_RA">Refused to Answer</string>
 
     <string name="rb_C3132_u_1">Days</string>
@@ -3568,63 +3758,75 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3133_1">Yes</string>
     <string name="rb_C3133_2">No</string>
     <string name="rb_C3133_DK">Don’t Know</string>
+
     <string name="rb_C3133_RA">Refused to Answer</string>
 
     <string name="rb_C3135_1">Yes</string>
     <string name="rb_C3135_2">No</string>
     <string name="rb_C3135_DK">Don’t Know</string>
+
     <string name="rb_C3135_RA">Refused to Answer</string>
 
     <string name="rb_C3136_1">Yes</string>
     <string name="rb_C3136_2">No</string>
     <string name="rb_C3136_DK">Don’t Know</string>
+
     <string name="rb_C3136_RA">Refused to Answer</string>
 
     <string name="rb_C3137_1">Yes</string>
     <string name="rb_C3137_2">No</string>
     <string name="rb_C3137_DK">Don’t Know</string>
+
     <string name="rb_C3137_RA">Refused to Answer</string>
 
     <string name="rb_C3138_1">Yes</string>
     <string name="rb_C3138_2">No</string>
     <string name="rb_C3138_DK">Don’t Know</string>
+
     <string name="rb_C3138_RA">Refused to Answer</string>
 
     <string name="rb_C3139_1">Yes</string>
     <string name="rb_C3139_2">No</string>
     <string name="rb_C3139_DK">Don’t Know</string>
+
     <string name="rb_C3139_RA">Refused to Answer</string>
 
     <string name="rb_C3140_1">Yes</string>
     <string name="rb_C3140_2">No</string>
     <string name="rb_C3140_DK">Don’t Know</string>
+
     <string name="rb_C3140_RA">Refused to Answer</string>
 
     <string name="rb_C3141_1">Yes</string>
     <string name="rb_C3141_2">No</string>
     <string name="rb_C3141_DK">Don’t Know</string>
+
     <string name="rb_C3141_RA">Refused to Answer</string>
 
     <string name="rb_C3142_1">Yes</string>
     <string name="rb_C3142_2">No</string>
     <string name="rb_C3142_DK">Don’t Know</string>
+
     <string name="rb_C3142_RA">Refused to Answer</string>
 
     <string name="rb_C3143_1">Yes</string>
     <string name="rb_C3143_2">No</string>
     <string name="rb_C3143_DK">Don’t Know</string>
+
     <string name="rb_C3143_RA">Refused to Answer</string>
 
     <string name="rb_C3144_u_1">Hours</string>
     <string name="rb_C3144_u_2"> Days</string>
     <string name="rb_C3144_u_3"> Months</string>
     <string name="rb_C3144_u_DK">Don’t Know</string>
+
     <string name="rb_C3144_u_RA">Refused to Answer</string>
 
     <string name="rb_C3145_1">Upper abdomen</string>
     <string name="rb_C3145_2">Lower abdomen</string>
     <string name="rb_C3145_3">Upper and lower abdomen</string>
     <string name="rb_C3145_DK">Don’t Know</string>
+
     <string name="rb_C3145_RA">Refused to Answer</string>
 
     <string name="rb_C3146_1">Yes</string>
@@ -3640,220 +3842,264 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3148_1">Rapidly</string>
     <string name="rb_C3148_2">Slowly</string>
     <string name="rb_C3148_DK">Don’t Know</string>
+
     <string name="rb_C3148_RA">Refused to Answer</string>
 
     <string name="rb_C3149_1">Yes</string>
     <string name="rb_C3149_2">No</string>
     <string name="rb_C3149_DK">Don’t Know</string>
+
     <string name="rb_C3149_RA">Refused to Answer</string>
 
     <string name="rb_C3150_u_1">Days </string>
     <string name="rb_C3150_u_2">Months</string>
     <string name="rb_C3150_u_DK">Don’t Know</string>
+
     <string name="rb_C3150_u_RA">Refused to Answer</string>
 
     <string name="rb_C3151_1">Yes</string>
     <string name="rb_C3151_2">No</string>
     <string name="rb_C3151_DK">Don’t Know</string>
+
     <string name="rb_C3152_u_1">Days</string>
     <string name="rb_C3152_u_2">Months</string>
     <string name="rb_C3152_u_DK">Don’t Know</string>
+
     <string name="rb_C3152_u_RA">Refused to Answer</string>
 
     <string name="rb_C3153_1">Yes</string>
     <string name="rb_C3153_2">No</string>
     <string name="rb_C3153_DK">Don’t Know</string>
+
     <string name="rb_C3153_RA">Refused to Answer</string>
 
     <string name="rb_C3154_1">Yes</string>
     <string name="rb_C3154_2">No</string>
     <string name="rb_C3154_DK">Don’t Know</string>
+
     <string name="rb_C3154_RA">Refused to Answer</string>
 
     <string name="rb_C3155_1">Yes</string>
     <string name="rb_C3155_2">No</string>
     <string name="rb_C3155_DK">Don’t Know</string>
+
     <string name="rb_C3155_RA">Refused to Answer</string>
 
     <string name="rb_C3156_1">Yes</string>
     <string name="rb_C3156_2">No</string>
     <string name="rb_C3156_DK">Don’t Know</string>
+
     <string name="rb_C3156_RA">Refused to Answer</string>
 
     <string name="rb_C3157_1">Yes</string>
     <string name="rb_C3157_2">No</string>
     <string name="rb_C3157_DK">Don’t Know</string>
+
     <string name="rb_C3157_RA">Refused to Answer</string>
 
     <string name="rb_C3158_1">Yes</string>
     <string name="rb_C3158_2">No</string>
     <string name="rb_C3158_DK">Don’t Know</string>
+
     <string name="rb_C3158_RA">Refused to Answer</string>
 
     <string name="rb_C3159_u_1">Days</string>
     <string name="rb_C3159_u_2">Months</string>
     <string name="rb_C3159_u_3">Years</string>
     <string name="rb_C3159_u_DK">Don’t Know</string>
+
     <string name="rb_C3159_u_RA">Refused to Answer</string>
 
     <string name="rb_C3160_1"> Continuous</string>
     <string name="rb_C3160_2">On and off</string>
     <string name="rb_C3160_DK">Don’t Know</string>
+
     <string name="rb_C3160_RA">Refused to Answer</string>
 
     <string name="rb_C3161_1">Yes</string>
     <string name="rb_C3161_2">No</string>
     <string name="rb_C3161_DK">Don’t Know</string>
+
     <string name="rb_C3161_RA">Refused to Answer</string>
 
     <string name="rb_C3163_u_1">Days</string>
     <string name="rb_C3163_u_2">Months</string>
     <string name="rb_C3163_u_DK">Don’t Know</string>
+
     <string name="rb_C3163_u_RA">Refused to Answer</string>
 
     <string name="rb_C3164_1">Yes</string>
     <string name="rb_C3164_2">No</string>
     <string name="rb_C3164_DK">Don’t Know</string>
+
     <string name="rb_C3164_RA">Refused to Answer</string>
 
     <string name="rb_C3165_u_1">Days</string>
     <string name="rb_C3165_u_2">Months</string>
-    <string name="rb_C3165_u_DK">Don’t know</string>
+    <string name="rb_C3165_u_DK">Don’t Know</string>
+
     <string name="rb_C3165_u_RA">Refused to answer</string>
 
     <string name="rb_C3166_1">Yes</string>
     <string name="rb_C3166_2">No</string>
     <string name="rb_C3166_DK">Don’t Know</string>
+
     <string name="rb_C3166_RA">Refused to Answer</string>
 
     <string name="rb_C3168_1">Yes</string>
     <string name="rb_C3168_2">No</string>
     <string name="rb_C3168_DK">Don’t Know</string>
+
     <string name="rb_C3168_RA">Refused to Answer</string>
 
     <string name="rb_C3169_1">Yes</string>
     <string name="rb_C3169_2">No</string>
     <string name="rb_C3169_DK">Don’t Know</string>
+
     <string name="rb_C3169_RA">Refused to Answer</string>
 
     <string name="rb_C3170_1">Yes</string>
     <string name="rb_C3170_2">No</string>
     <string name="rb_C3170_DK">Don’t Know</string>
+
     <string name="rb_C3170_RA">Refused to Answer</string>
 
     <string name="rb_C3171_1">Yes</string>
     <string name="rb_C3171_2">No</string>
     <string name="rb_C3171_DK">Don’t Know</string>
+
     <string name="rb_C3171_RA">Refused to Answer</string>
 
     <string name="rb_C3173_1">Yes</string>
     <string name="rb_C3173_2">No</string>
     <string name="rb_C3173_DK">Don’t Know</string>
+
     <string name="rb_C3173_RA">Refused to Answer</string>
 
     <string name="rb_C3174_1">Yes</string>
     <string name="rb_C3174_2">No</string>
     <string name="rb_C3174_DK">Don’t Know</string>
+
     <string name="rb_C3174_RA">Refused to Answer</string>
 
     <string name="rb_C3175_u_1">Days</string>
     <string name="rb_C3175_u_2">Months</string>
     <string name="rb_C3175_u_DK">Don’t Know</string>
+
     <string name="rb_C3175_u_RA">Refused to Answer</string>
 
     <string name="rb_C3176_1">Yes</string>
     <string name="rb_C3176_2">No</string>
     <string name="rb_C3176_DK">Don’t Know</string>
+
     <string name="rb_C3176_RA">Refused to Answer</string>
 
     <string name="rb_C3177_u_1">Days</string>
     <string name="rb_C3177_u_2">Months</string>
     <string name="rb_C3177_u_DK">Don’t Know</string>
+
     <string name="rb_C3177_u_RA">Refused to Answer</string>
 
     <string name="rb_C3178_1">Yes</string>
     <string name="rb_C3178_2">No</string>
     <string name="rb_C3178_DK">Don’t Know</string>
+
     <string name="rb_C3178_RA">Refused to Answer</string>
 
     <string name="rb_C3179_u_1">Hours</string>
     <string name="rb_C3179_u_2">Days</string>
     <string name="rb_C3179_u_DK">Don’t Know</string>
+
     <string name="rb_C3179_u_RA">Refused to Answer</string>
 
     <string name="rb_C3180_1">Yes</string>
     <string name="rb_C3180_2">No</string>
     <string name="rb_C3180_DK">Don’t Know</string>
+
     <string name="rb_C3180_RA">Refused to Answer</string>
 
     <string name="rb_C3181_1">Yes</string>
     <string name="rb_C3181_2">No</string>
     <string name="rb_C3181_DK">Don’t Know</string>
+
     <string name="rb_C3181_RA">Refused to Answer</string>
 
     <string name="rb_C3182_1">Yes</string>
     <string name="rb_C3182_2">No</string>
     <string name="rb_C3182_DK">Don’t Know</string>
+
     <string name="rb_C3182_RA">Refused to Answer</string>
 
     <string name="rb_C3183_1">Yes</string>
     <string name="rb_C3183_2">No</string>
     <string name="rb_C3183_DK">Don’t Know</string>
+
     <string name="rb_C3183_RA">Refused to Answer</string>
 
     <string name="rb_C3185_1">Yes</string>
     <string name="rb_C3185_2">No</string>
     <string name="rb_C3185_DK">Don’t Know</string>
+
     <string name="rb_C3185_RA">Refused to Answer</string>
 
     <string name="rb_C3186_1_1">Yes</string>
     <string name="rb_C3186_1_2">No</string>
     <string name="rb_C3186_1_DK">Don’t Know</string>
+
     <string name="rb_C3186_1_RA">Refused to Answer</string>
 
     <string name="rb_C3186_1">Yes</string>
     <string name="rb_C3186_2">No</string>
     <string name="rb_C3186_DK">Don’t Know</string>
+
     <string name="rb_C3186_RA">Refused to Answer</string>
 
     <string name="rb_C3187_1">Yes</string>
     <string name="rb_C3187_2">No</string>
     <string name="rb_C3187_DK">Don’t Know</string>
+
     <string name="rb_C3187_RA">Refused to Answer</string>
 
     <string name="rb_C3188_1">Yes</string>
     <string name="rb_C3188_2">No</string>
     <string name="rb_C3188_DK">Don’t Know</string>
+
     <string name="rb_C3188_RA">Refused to Answer</string>
 
     <string name="rb_C3189_1">Yes</string>
     <string name="rb_C3189_2">No</string>
     <string name="rb_C3189_DK">Don’t Know</string>
+
     <string name="rb_C3189_RA">Refused to Answer</string>
 
     <string name="rb_C3190_1">Yes</string>
     <string name="rb_C3190_2">No</string>
     <string name="rb_C3190_DK">Don’t Know</string>
+
     <string name="rb_C3190_RA">Refused to Answer</string>
 
     <string name="rb_C3191_1">Yes</string>
     <string name="rb_C3191_2">No</string>
     <string name="rb_C3191_DK">Don’t Know</string>
+
     <string name="rb_C3191_RA">Refused to Answer</string>
 
     <string name="rb_C3192_1">Yes</string>
     <string name="rb_C3192_2">No</string>
     <string name="rb_C3192_DK">Don’t Know</string>
+
     <string name="rb_C3192_RA">Refused to Answer</string>
 
     <string name="rb_C3193_u_3">Days</string>
     <string name="rb_C3193_u_4">Months</string>
     <string name="rb_C3193_u_DK">Don’t Know</string>
+
     <string name="rb_C3193_u_RA">Refused to Answer</string>
 
     <string name="rb_C3194_1">Yes</string>
     <string name="rb_C3194_2">No</string>
     <string name="rb_C3194_DK">Don’t Know</string>
+
     <string name="rb_C3194_RA">Refused to Answer</string>
 
     <string name="rb_C3195A_1">Face</string>
@@ -3861,6 +4107,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3195A_3">Extremities</string>
     <string name="rb_C3195A_4">Everywhere</string>
     <string name="rb_C3195A_DK">Don’t Know</string>
+
     <string name="rb_C3195A_RA">Refused to Answer</string>
 
     <string name="rb_C3195_1">Face</string>
@@ -3868,31 +4115,37 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3195_3">Extremities</string>
     <string name="rb_C3195_4">Everywhere</string>
     <string name="rb_C3195_DK">Don’t Know</string>
+
     <string name="rb_C3195_RA">Refused to Answer</string>
 
     <string name="rb_C3197_1">Yes</string>
     <string name="rb_C3197_2">No</string>
     <string name="rb_C3197_DK">Don’t Know</string>
+
     <string name="rb_C3197_RA">Refused to Answer</string>
 
     <string name="rb_C3198_1">Yes</string>
     <string name="rb_C3198_2">No</string>
     <string name="rb_C3198_DK">Don’t Know</string>
+
     <string name="rb_C3198_RA">Refused to Answer</string>
 
     <string name="rb_C3199_1_1">Yes</string>
     <string name="rb_C3199_1_2">No</string>
     <string name="rb_C3199_1_DK">Don’t Know</string>
+
     <string name="rb_C3199_1_RA">Refused to Answer</string>
 
     <string name="rb_C3199_1">Yes</string>
     <string name="rb_C3199_2">No</string>
     <string name="rb_C3199_DK">Don’t Know</string>
+
     <string name="rb_C3199_RA">Refused to Answer</string>
 
     <string name="rb_C3200_1">Yes</string>
     <string name="rb_C3200_2">No</string>
     <string name="rb_C3200_DK">Don’t Know</string>
+
     <string name="rb_C3200_RA">Refused to Answer</string>
 
     <string name="rb_C3201_u_1">Days</string>
@@ -3903,6 +4156,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3202_1">Yes</string>
     <string name="rb_C3202_2">No</string>
     <string name="rb_C3202_DK">Don’t Know</string>
+
     <string name="rb_C3202_RA">Refused to Answer</string>
 
     <string name="rb_C3203_1"> Yes</string>
@@ -3913,16 +4167,19 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3204_u_1">Days</string>
     <string name="rb_C3204_u_2">Months</string>
     <string name="rb_C3204_u_DK">Don’t Know</string>
+
     <string name="rb_C3204_u_RA">Refused to Answer</string>
 
     <string name="rb_C3205_1">Yes</string>
     <string name="rb_C3205_2">No</string>
     <string name="rb_C3205_DK">Don’t Know</string>
+
     <string name="rb_C3205_RA">Refused to Answer</string>
 
     <string name="rb_C3206_1">Yes</string>
     <string name="rb_C3206_2">No</string>
     <string name="rb_C3206_DK">Don’t Know</string>
+
     <string name="rb_C3206_RA">Refused to Answer</string>
 
     <string name="rb_C3207_1">Yes</string>
@@ -3933,45 +4190,54 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3208_u_0">Days</string>
     <string name="rb_C3208_u_1">Months</string>
     <string name="rb_C3208_u_DK">Don’t Know</string>
+
     <string name="rb_C3208_u_RA">Refused to Answer</string>
 
     <string name="rb_C3209_1">Yes</string>
     <string name="rb_C3209_2">No</string>
     <string name="rb_C3209_DK">Don’t Know</string>
+
     <string name="rb_C3209_RA">efused to answer</string>
     <string name="rb_C3210_1">Yes</string>
     <string name="rb_C3210_2">No</string>
     <string name="rb_C3210_DK">Don’t Know</string>
+
     <string name="rb_C3210_RA">Refused to Answer</string>
 
     <string name="rb_C3212_1">Yes</string>
     <string name="rb_C3212_2">No</string>
     <string name="rb_C3212_DK">Don’t Know</string>
+
     <string name="rb_C3212_RA">Refused to Answer</string>
 
     <string name="rb_C3213_1">Yes</string>
     <string name="rb_C3213_2">No</string>
     <string name="rb_C3213_DK">Don’t Know</string>
+
     <string name="rb_C3213_RA">Refused to Answer</string>
 
     <string name="rb_C3214_1">Yes</string>
     <string name="rb_C3214_2">No</string>
     <string name="rb_C3214_DK">Don’t Know</string>
+
     <string name="rb_C3214_RA">Refused to Answer</string>
 
     <string name="rb_C3215_1">Yes</string>
     <string name="rb_C3215_2">No</string>
     <string name="rb_C3215_DK">Don’t Know</string>
+
     <string name="rb_C3215_RA">Refused to Answer</string>
 
     <string name="rb_C3216_1">Yes</string>
     <string name="rb_C3216_2">No</string>
     <string name="rb_C3216_DK">Don’t Know</string>
+
     <string name="rb_C3216_RA">Refused to Answer</string>
 
     <string name="rb_C3217_1">Yes</string>
     <string name="rb_C3217_2">No</string>
     <string name="rb_C3217_DK">Don’t Know</string>
+
     <string name="rb_C3217_RA">Refused to Answer</string>
 
     <string name="rb_C3218_1">Right side</string>
@@ -3983,16 +4249,19 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3218_7">Whole body</string>
     <string name="rb_C3218_OT">Other</string>
     <string name="rb_C3218_DK">Don’t Know</string>
+
     <string name="rb_C3218_RA">Refused to Answer</string>
 
     <string name="rb_C3219_1">Yes</string>
     <string name="rb_C3219_2">No</string>
     <string name="rb_C3219_DK">Don’t Know</string>
+
     <string name="rb_C3219_RA">Refused to Answer</string>
 
     <string name="rb_C3220_u_1">Days</string>
     <string name="rb_C3220_u_2">Months</string>
     <string name="rb_C3220_u_DK">Don’t Know</string>
+
     <string name="rb_C3220_u_RA">Refused to Answer</string>
 
     <string name="rb_C3221_1">Solids</string>
@@ -4001,36 +4270,43 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3222_1">Yes</string>
     <string name="rb_C3222_2">No</string>
     <string name="rb_C3222_DK">Don’t Know</string>
+
     <string name="rb_C3222_RA">Refused to Answer</string>
 
     <string name="rb_C3223_1">Yes</string>
     <string name="rb_C3223_2">No</string>
     <string name="rb_C3223_DK">Don’t Know</string>
+
     <string name="rb_C3223_RA">Refused to Answer</string>
 
     <string name="rb_C3224_1">Yes</string>
     <string name="rb_C3224_2">No</string>
     <string name="rb_C3224_DK">Don’t Know</string>
+
     <string name="rb_C3224_RA">Refused to Answer</string>
 
     <string name="rb_C3225_1">Yes</string>
     <string name="rb_C3225_2">No</string>
     <string name="rb_C3225_DK">Don’t Know</string>
+
     <string name="rb_C3225_RA">Refused to Answer</string>
 
     <string name="rb_C3226_1">Yes</string>
     <string name="rb_C3226_2">No</string>
     <string name="rb_C3226_DK">Don’t Know</string>
+
     <string name="rb_C3226_RA">Refused to Answer</string>
 
     <string name="rb_C3227_1">Yes</string>
     <string name="rb_C3227_2">No</string>
     <string name="rb_C3227_DK">Don’t Know</string>
+
     <string name="rb_C3227_RA">Refused to Answer</string>
 
     <string name="rb_C3227_1_1">Yes</string>
     <string name="rb_C3227_1_2">No</string>
     <string name="rb_C3227_1_DK">Don’t Know</string>
+
     <string name="rb_C3227_1_RA">Refused to Answer</string>
 
     <string name="rb_C3227_2_1">Pedestrian</string>
@@ -4040,6 +4316,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3227_2_5">Driver or passenger on a pedal cycle</string>
     <string name="rb_C3227_2_OT">Other</string>
     <string name="rb_C3227_2_DK">Don’t Know</string>
+
     <string name="rb_C3227_2_RA">Refused to Answer</string>
 
     <string name="rb_C3227_3_1">Pedestrian</string>
@@ -4050,36 +4327,43 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3227_3_6">Pedal cycle</string>
     <string name="rb_C3227_3_OT">Other</string>
     <string name="rb_C3227_3_DK">Don’t Know</string>
+
     <string name="rb_C3227_3_RA">Refused to Answer</string>
 
     <string name="rb_C3227_4_1">Yes</string>
     <string name="rb_C3227_4_2">No</string>
     <string name="rb_C3227_4_DK">Don’t Know</string>
+
     <string name="rb_C3227_4_RA">Refused to Answer</string>
 
     <string name="rb_C3227_5_1">Yes</string>
     <string name="rb_C3227_5_2">No</string>
     <string name="rb_C3227_5_DK">Don’t Know</string>
+
     <string name="rb_C3227_5_RA">Refused to Answer</string>
 
     <string name="rb_C3227_6_1">Yes</string>
     <string name="rb_C3227_6_2">No</string>
     <string name="rb_C3227_6_DK">Don’t Know</string>
+
     <string name="rb_C3227_6_RA">Refused to Answer</string>
 
     <string name="rb_C3227_7_1">Yes</string>
     <string name="rb_C3227_7_2">No</string>
     <string name="rb_C3227_7_DK">Don’t Know</string>
+
     <string name="rb_C3227_7_RA">Refused to Answer</string>
 
     <string name="rb_C3227_8_1">Yes</string>
     <string name="rb_C3227_8_2">No</string>
     <string name="rb_C3227_8_DK">Don’t Know</string>
+
     <string name="rb_C3227_8_RA">Refused to Answer</string>
 
     <string name="rb_C3227_9_1">Yes</string>
     <string name="rb_C3227_9_2">No</string>
     <string name="rb_C3227_9_DK">Don’t Know</string>
+
     <string name="rb_C3227_9_RA">Refused to Answer</string>
 
     <string name="rb_C3227_10_1">Dog</string>
@@ -4087,6 +4371,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3227_10_3">Insect or scorpion</string>
     <string name="rb_C3227_10_OT">Other</string>
     <string name="rb_C3227_10_DK">Don’t Know</string>
+
     <string name="rb_C3227_10_RA">Refused to Answer</string>
 
     <string name="rb_C3227_11_1"> Yes</string>
@@ -4096,56 +4381,67 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3227_12_1">Yes</string>
     <string name="rb_C3227_12_2">No</string>
     <string name="rb_C3227_12_DK">Don’t Know</string>
+
     <string name="rb_C3227_12_RA">Refused to Answer</string>
 
     <string name="rb_C3227_13_1">Yes</string>
     <string name="rb_C3227_13_2">No</string>
     <string name="rb_C3227_13_DK">Don’t Know</string>
+
     <string name="rb_C3227_13_RA">Refused to Answer</string>
 
     <string name="rb_C3227_14_1">Yes</string>
     <string name="rb_C3227_14_2">No</string>
     <string name="rb_C3227_14_DK">Don’t Know</string>
+
     <string name="rb_C3227_14_RA">Refused to Answer</string>
 
     <string name="rb_C3227_15_1">Yes</string>
     <string name="rb_C3227_15_2">No</string>
     <string name="rb_C3227_15_DK">Don’t Know</string>
+
     <string name="rb_C3227_15_RA">Refused to Answer</string>
 
     <string name="rb_C3227_16_1">Yes</string>
     <string name="rb_C3227_16_2">No</string>
     <string name="rb_C3227_16_DK">Don’t Know</string>
+
     <string name="rb_C3227_16_RA">Refused to Answer</string>
 
     <string name="rb_C3227_17_1">Yes</string>
     <string name="rb_C3227_17_2">No</string>
     <string name="rb_C3227_17_DK">Don’t Know</string>
+
     <string name="rb_C3227_17_RA">Refused to Answer</string>
 
     <string name="rb_C3227_18_1">Yes</string>
     <string name="rb_C3227_18_2">No</string>
     <string name="rb_C3227_18_DK">Don’t Know</string>
+
     <string name="rb_C3227_18_RA">Refused to Answer</string>
 
     <string name="rb_C3227_19_1">Yes</string>
     <string name="rb_C3227_19_2">No</string>
     <string name="rb_C3227_19_DK">Don’t Know</string>
+
     <string name="rb_C3227_19_RA">Refused to Answer</string>
 
     <string name="rb_C3227_20_1">Yes</string>
     <string name="rb_C3227_20_2">No</string>
     <string name="rb_C3227_20_DK">Don’t Know</string>
+
     <string name="rb_C3227_20_RA">Refused to Answer</string>
 
     <string name="rb_C3227_21_1">Yes</string>
     <string name="rb_C3227_21_2">No</string>
     <string name="rb_C3227_21_DK">Don’t Know</string>
+
     <string name="rb_C3227_21_RA">Refused to Answer</string>
 
     <string name="rb_C3227_22_1">Yes</string>
     <string name="rb_C3227_22_2">No</string>
     <string name="rb_C3227_22_DK">Don’t Know</string>
+
     <string name="rb_C3227_22_RA">Refused to Answer</string>
 
     <string name="rb_C3251_1_1">Normal</string>
@@ -4161,6 +4457,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3252_1">Yes</string>
     <string name="rb_C3252_2">No—care not needed, given or sought</string>
     <string name="rb_C3252_DK">Don’t Know</string>
+
     <string name="rb_C3254_1">Child’s mother</string>
     <string name="rb_C3254_2">Child’s father</string>
     <string name="rb_C3254_3">Child’s mother and father, jointly</string>
@@ -4168,6 +4465,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3254_5">Child’s paternal grandmother</string>
     <string name="rb_C3254_OT">Someone else (specify)</string>
     <string name="rb_C3254_DK">Don’t Know</string>
+
     <string name="rb_C3255_1">Yes</string>
     <string name="rb_C3255_2">No</string>
     <string name="rb_C3255_DK">Don’t Know</string>
@@ -4201,10 +4499,12 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3258_1_2">Modern</string>
     <string name="rb_C3258_1_3">Svr</string>
     <string name="rb_C3258_1_DK">Don’t Know</string>
+
     <string name="rb_C3258_2_1">Normal</string>
     <string name="rb_C3258_2_2">Modern</string>
     <string name="rb_C3258_2_3">Svr</string>
     <string name="rb_C3258_2_DK">Don’t Know</string>
+
     <string name="rb_C3259_1_1">Government hospital</string>
     <string name="rb_C3259_1_2">Government health center</string>
     <string name="rb_C3259_1_3">Government health post</string>
@@ -4217,16 +4517,20 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3259_1_10">Trained CHW, nurse or midwife (outside a health facility)</string>
     <string name="rb_C3259_1_11">Other private medical sector</string>
     <string name="rb_C3259_1_DK">Don’t Know</string>
+
     <string name="rb_C3260_1">Yes, reached before died</string>
     <string name="rb_C3260_2">No, died on route to this provider / before this provider reached the deceased</string>
     <string name="rb_C3260_3">No, could not reach this provider, so returned home or took other action</string>
     <string name="rb_C3260_DK">Don’t Know</string>
+
     <string name="rb_C3262_1">Yes</string>
     <string name="rb_C3262_2">No</string>
     <string name="rb_C3262_DK">Don’t Know</string>
+
     <string name="rb_C3263_1">Yes</string>
     <string name="rb_C3263_2">No</string>
     <string name="rb_C3263_DK">Don’t Know</string>
+
     <string name="rb_C3264_1_1">Government hospital</string>
     <string name="rb_C3264_1_2">Government health center</string>
     <string name="rb_C3264_1_3">Government health post</string>
@@ -4239,30 +4543,37 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3264_1_10">Trained CHW, nurse or midwife (outside a health facility)</string>
     <string name="rb_C3264_1_11">Other private medical sector</string>
     <string name="rb_C3264_1_DK">Don’t Know</string>
+
     <string name="rb_C3265_1_1">Yes</string>
     <string name="rb_C3265_1_2">No</string>
     <string name="rb_C3265_1_DK">Don’t Know</string>
+
     <string name="rb_C3265_2_1">Yes</string>
     <string name="rb_C3265_2_2">No</string>
     <string name="rb_C3265_2_DK">Don’t Know</string>
+
     <string name="rb_C3266_1">Yes, left alive</string>
     <string name="rb_C3266_2">No, died at this provider</string>
     <string name="rb_C3267_1_1">Normal</string>
     <string name="rb_C3267_1_2">Modern</string>
     <string name="rb_C3267_1_3">Svr</string>
     <string name="rb_C3267_1_DK">Don’t Know</string>
+
     <string name="rb_C3267_2_1">Normal</string>
     <string name="rb_C3267_2_2">Modern</string>
     <string name="rb_C3267_2_3">Svr</string>
     <string name="rb_C3267_2_DK">Don’t Know</string>
+
     <string name="rb_C3268_1_1">Normal</string>
     <string name="rb_C3268_1_2">Modern</string>
     <string name="rb_C3268_1_3">Svr</string>
     <string name="rb_C3268_1_DK">Don’t Know</string>
+
     <string name="rb_C3268_2_1">Normal</string>
     <string name="rb_C3268_2_2">Modern</string>
     <string name="rb_C3268_2_3">Svr</string>
     <string name="rb_C3268_2_DK">Don’t Know</string>
+
     <string name="rb_C3269_1_1">Government hospital</string>
     <string name="rb_C3269_1_2">Government health center</string>
     <string name="rb_C3269_1_3">Government health post</string>
@@ -4275,16 +4586,20 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3269_1_10">Trained CHW, nurse or midwife (outside a health facility)</string>
     <string name="rb_C3269_1_11">Other private medical sector</string>
     <string name="rb_C3269_1_DK">Don’t Know</string>
+
     <string name="rb_C3270_1">Yes, reached before died</string>
     <string name="rb_C3270_2">No, died on route to this provider / before this provider reached the deceased</string>
     <string name="rb_C3270_3">No, could not reach this provider, so returned home or took other action</string>
     <string name="rb_C3270_DK">Don’t Know</string>
+
     <string name="rb_C3272_1">Yes</string>
     <string name="rb_C3272_2">No</string>
     <string name="rb_C3272_DK">Don’t Know</string>
+
     <string name="rb_C3273_1">Yes</string>
     <string name="rb_C3273_2">No</string>
     <string name="rb_C3273_DK">Don’t Know</string>
+
     <string name="rb_C3274_1_1">Government hospital</string>
     <string name="rb_C3274_1_2">Government health center</string>
     <string name="rb_C3274_1_3">Government health post</string>
@@ -4297,18 +4612,22 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3274_1_10">Trained CHW, nurse or midwife (outside a health facility)</string>
     <string name="rb_C3274_1_11">Other private medical sector</string>
     <string name="rb_C3274_1_DK">Don’t Know</string>
+
     <string name="rb_C3275_1_1">Yes</string>
     <string name="rb_C3275_1_2">No</string>
     <string name="rb_C3275_1_DK">Don’t Know</string>
+
     <string name="rb_C3275_2_1">Yes</string>
     <string name="rb_C3275_2_2">No</string>
     <string name="rb_C3275_2_DK">Don’t Know</string>
+
     <string name="rb_C3276_1">Yes, left alive</string>
     <string name="rb_C3276_2">No, died at this provider</string>
     <string name="rb_C3277_1_1">Normal</string>
     <string name="rb_C3277_1_2">Modern</string>
     <string name="rb_C3277_1_3">Svr</string>
     <string name="rb_C3277_1_DK">Don’t Know</string>
+
     <string name="rb_C3277_2_1">Normal</string>
     <string name="rb_C3277_2_2">Modern</string>
     <string name="rb_C3277_2_3">Svr</string>
@@ -4317,9 +4636,11 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3278_1">Yes</string>
     <string name="rb_C3278_2">No</string>
     <string name="rb_C3278_DK">Don’t Know</string>
+
     <string name="rb_C3279_1">Yes</string>
     <string name="rb_C3279_2">No</string>
     <string name="rb_C3279_DK">Don’t Know</string>
+
     <string name="cb_C3280_1">Provider didn’t say referral so important</string>
     <string name="cb_C3280_2">Thought no more care needed</string>
     <string name="cb_C3280_3">No one available to accompany</string>
@@ -4336,12 +4657,14 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="cb_C3280_14">Was late at night</string>
     <string name="cb_C3280_15">The child/adult died before going</string>
     <string name="cb_C3280_DK">Don’t Know</string>
+
     <string name="cb_C3280_OT">Other</string>
 
 
     <string name="rb_C3281_1">Yes</string>
     <string name="rb_C3281_2">No</string>
     <string name="rb_C3281_DK">Don’t Know</string>
+
     <string name="cb_C3282_1">Had available</string>
     <string name="cb_C3282_2">Borrowed</string>
     <string name="cb_C3282_3">Sold assets</string>
@@ -4350,6 +4673,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="cb_C3282_6">Govt. scheme</string>
     <string name="cb_C3282_7">Other</string>
     <string name="cb_C3282_DK">Don’t Know</string>
+
     <string name="cb_C3283_1">Walk</string>
     <string name="cb_C3283_2">Bicycle/animal/cart/ boat</string>
     <string name="cb_C3283_3">Bus</string>
@@ -4358,69 +4682,83 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="cb_C3283_6">Other</string>
     <string name="cb_C3283_7">could not arrange transport</string>
     <string name="cb_C3283_DK">Don’t Know</string>
+
     <string name="rb_C3284_1">Yes</string>
     <string name="rb_C3284_2">No</string>
     <string name="rb_C3284_DK">Don’t Know</string>
+
     <string name="rb_C3284_RA">Refused to Answer</string>
 
     <string name="rb_C3285_1">Yes</string>
     <string name="rb_C3285_2">No</string>
     <string name="rb_C3285_DK">Don’t Know</string>
+
     <string name="rb_C3285_RA">Refused to Answer</string>
 
     <string name="rb_C3286_1">Yes</string>
     <string name="rb_C3286_2">No</string>
     <string name="rb_C3286_DK">Don’t Know</string>
+
     <string name="rb_C3286_RA">Refused to Answer</string>
 
     <string name="rb_C3287_1">Yes</string>
     <string name="rb_C3287_2">No</string>
     <string name="rb_C3287_DK">Don’t Know</string>
+
     <string name="rb_C3287_RA">Refused to Answer</string>
 
     <string name="rb_C3301_1">Yes</string>
     <string name="rb_C3301_2">No</string>
     <string name="rb_C3301_DK">Don’t Know</string>
+
     <string name="rb_C3301_RA">Refused to Answer</string>
 
     <string name="rb_C3302_1_1">Yes</string>
     <string name="rb_C3302_1_2">No</string>
     <string name="rb_C3302_1_DK">Don’t Know</string>
+
     <string name="rb_C3302_1_RA">Refused to Answer</string>
 
     <string name="rb_C3302_2_1">Yes</string>
     <string name="rb_C3302_2_2">No</string>
     <string name="rb_C3302_2_DK">Don’t Know</string>
+
     <string name="rb_C3302_2_RA">Refused to Answer</string>
 
     <string name="rb_C3302_3_1">Yes</string>
     <string name="rb_C3302_3_2">No</string>
     <string name="rb_C3302_3_DK">Don’t Know</string>
+
     <string name="rb_C3302_3_RA">Refused to Answer</string>
 
     <string name="rb_C3302_4_1">Yes</string>
     <string name="rb_C3302_4_2">No</string>
     <string name="rb_C3302_4_DK">Don’t Know</string>
+
     <string name="rb_C3302_4_RA">Refused to Answer</string>
 
     <string name="rb_C3302_5_1">Yes</string>
     <string name="rb_C3302_5_2">No</string>
     <string name="rb_C3302_5_DK">Don’t Know</string>
+
     <string name="rb_C3302_5_RA">Refused to Answer</string>
 
     <string name="rb_C3302_6_1">Yes</string>
     <string name="rb_C3302_6_2">No</string>
     <string name="rb_C3302_6_DK">Don’t Know</string>
+
     <string name="rb_C3302_6_RA">Refused to Answer</string>
 
     <string name="rb_C3302_7_1">Yes</string>
     <string name="rb_C3302_7_2">No</string>
     <string name="rb_C3302_7_DK">Don’t Know</string>
+
     <string name="rb_C3302_7_RA">Refused to Answer</string>
 
     <string name="rb_C3303_1">Yes</string>
     <string name="rb_C3303_2">No</string>
     <string name="rb_C3303_DK">Don’t Know</string>
+
     <string name="rb_C3303_RA"> Refused to answer</string>
     <string name="rb_C3304_1">Yes</string>
     <string name="rb_C3304_2">No</string>
@@ -4436,51 +4774,61 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3310_1_1">Yes</string>
     <string name="rb_C3310_1_2">No</string>
     <string name="rb_C3310_1_DK">Don’t Know</string>
+
     <string name="rb_C3310_1_RA">Refused to Answer</string>
 
     <string name="rb_C3310_2_1">Yes</string>
     <string name="rb_C3310_2_2">No</string>
     <string name="rb_C3310_2_DK">Don’t Know</string>
+
     <string name="rb_C3310_2_RA">Refused to Answer</string>
 
     <string name="rb_C3310_3_1">Yes</string>
     <string name="rb_C3310_3_2">No</string>
     <string name="rb_C3310_3_DK">Don’t Know</string>
+
     <string name="rb_C3310_3_RA">Refused to Answer</string>
 
     <string name="rb_C3310_4_1">Yes</string>
     <string name="rb_C3310_4_2">No</string>
     <string name="rb_C3310_4_DK">Don’t Know</string>
+
     <string name="rb_C3310_4_RA">Refused to Answer</string>
 
     <string name="rb_C3310_5_1">Yes</string>
     <string name="rb_C3310_5_2">No</string>
     <string name="rb_C3310_5_DK">Don’t Know</string>
+
     <string name="rb_C3310_5_RA">Refused to Answer</string>
 
     <string name="rb_C3310_6_1">Yes</string>
     <string name="rb_C3310_6_2">No</string>
     <string name="rb_C3310_6_DK">Don’t Know</string>
+
     <string name="rb_C3310_6_RA">Refused to Answer</string>
 
     <string name="rb_C3310_7_1">Yes</string>
     <string name="rb_C3310_7_2">No</string>
     <string name="rb_C3310_7_DK">Don’t Know</string>
+
     <string name="rb_C3310_7_RA">Refused to Answer</string>
 
     <string name="rb_C3310_8_1">Yes</string>
     <string name="rb_C3310_8_2">No</string>
     <string name="rb_C3310_8_DK">Don’t Know</string>
+
     <string name="rb_C3310_8_RA">Refused to Answer</string>
 
     <string name="rb_C3310_9_1">Yes</string>
     <string name="rb_C3310_9_2">No</string>
     <string name="rb_C3310_9_DK">Don’t Know</string>
+
     <string name="rb_C3310_9_RA">Refused to Answer</string>
 
     <string name="rb_C3310_10_1">Yes</string>
     <string name="rb_C3310_10_2">No</string>
     <string name="rb_C3310_10_DK">Don’t Know</string>
+
     <string name="rb_C3310_10_RA">Refused to Answer</string>
 
     <string name="rb_C3310_11_1">Yes</string>
@@ -4491,21 +4839,25 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3311_1">Yes</string>
     <string name="rb_C3311_2">No</string>
     <string name="rb_C3311_DK">Don’t Know</string>
+
     <string name="rb_C3311_RA">Refused to Answer</string>
 
     <string name="rb_C3312_1">Yes</string>
     <string name="rb_C3312_2">No</string>
     <string name="rb_C3312_DK">Don’t Know</string>
+
     <string name="rb_C3312_RA">Refused to Answer</string>
 
     <string name="rb_C3313_1">Yes</string>
     <string name="rb_C3313_2">No</string>
     <string name="rb_C3313_DK">Don’t Know</string>
+
     <string name="rb_C3313_RA">Refused to Answer</string>
 
     <string name="rb_C3351_1">Yes</string>
     <string name="rb_C3351_2">No</string>
     <string name="rb_C3351_DK">Don’t Know</string>
+
     <string name="rb_C3351_RA">Refused to Answer</string>
 
     <string name="rb_C3352_1">Yes</string>
@@ -4514,27 +4866,33 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3363_2">Yes, card not seen</string>
     <string name="rb_C3363_3">No registration</string>
     <string name="rb_C3363_DK">Don’t Know</string>
+
     <string name="rb_C3363_RA">Refused to Answer</string>
 
     <string name="rb_C3402_1">Yes</string>
     <string name="rb_C3402_2">No</string>
     <string name="rb_C3402_DK">Don’t Know</string>
+
     <string name="rb_C3403_1">Primary</string>
     <string name="rb_C3403_2">Secondary</string>
     <string name="rb_C3403_3">Higher</string>
     <string name="rb_C3403_DK">Don’t Know</string>
+
     <string name="rb_C3405_1">Yes, married</string>
     <string name="rb_C3405_2">Yes, living with a man</string>
     <string name="rb_C3405_3">No, not in union</string>
     <string name="rb_C3405_4">No, mother was deceased then</string>
     <string name="rb_C3405_DK">Don’t Know</string>
+
     <string name="rb_C3407_1">Yes</string>
     <string name="rb_C3407_2">No</string>
     <string name="rb_C3407_DK">Don’t Know</string>
+
     <string name="rb_C3408_1">Primary</string>
     <string name="rb_C3408_2">Secondary</string>
     <string name="rb_C3408_3">Higher</string>
     <string name="rb_C3408_DK">Don’t Know</string>
+
     <string name="rb_C3410_1">Yes</string>
     <string name="rb_C3410_2">No</string>
     <string name="rb_C3410_DK"> Don’t know</string>
@@ -4603,6 +4961,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3451_13_1">Yes</string>
     <string name="rb_C3451_13_2">No</string>
     <string name="rb_C3451_13_DK">Don’t Know</string>
+
     <string name="rb_C3451_OT">دیگر (وضاحت کریں)</string>
 
     <string name="rb_C3451_14_1"> ایک یا ایک سے زیادہ مسائل کی نشاندہی  </string>
@@ -4703,21 +5062,25 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_C3454_1">Yes</string>
     <string name="rb_C3454_2">No</string>
     <string name="rb_C3454_DK">Don’t Know</string>
+
     <string name="rb_C3454_RA">Refused to Answer</string>
 
     <string name="rb_C3455_1">Yes</string>
     <string name="rb_C3455_2">No</string>
     <string name="rb_C3455_DK">Don’t Know</string>
+
     <string name="rb_C3455_RA">Refused to Answer</string>
 
     <string name="rb_C3456_1">Yes</string>
     <string name="rb_C3456_2">No</string>
     <string name="rb_C3456_DK">Don’t Know</string>
+
     <string name="rb_C3456_RA">Refused to Answer</string>
 
     <string name="rb_C3457_1">Yes</string>
     <string name="rb_C3457_2">No</string>
     <string name="rb_C3457_DK">Don’t Know</string>
+
     <string name="rb_C3457_RA">Refused to Answer</string>
 
     <string name="cb_C3472_1">Abdomen</string>
@@ -5320,22 +5683,26 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_A4002_5"> Widowed</string>
     <string name="rb_A4002_6">Too young to be married</string>
     <string name="rb_A4002_DK">Don’t Know</string>
+
     <string name="rb_A4002_RA">Refused to Answer</string>
 
     <string name="rb_A4003_1">Yes</string>
     <string name="rb_A4003_2">No</string>
     <string name="rb_A4003_DK">Don’t Know</string>
+
     <string name="rb_A4003_RA">Refused to Answer</string>
 
     <string name="rb_A4004_1">Primary</string>
     <string name="rb_A4004_2">Secondary</string>
     <string name="rb_A4004_3">Higher</string>
     <string name="rb_A4004_DK">Don’t Know</string>
+
     <string name="rb_A4004_RA">Refused to Answer</string>
 
     <string name="rb_A4006_1">Yes</string>
     <string name="rb_A4006_2">No</string>
     <string name="rb_A4006_DK">Don’t Know</string>
+
     <string name="rb_A4006_RA">Refused to Answer</string>
 
     <string name="rb_A4007_1">Unemployed</string>
@@ -5345,16 +5712,19 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_A4007_5">Student</string>
     <string name="rb_A4007_OT">Other (Specify)</string>
     <string name="rb_A4007_DK">Don’t Know</string>
+
     <string name="rb_A4007_RA">Refused to Answer</string>
 
     <string name="rb_A4008_1">Yes</string>
     <string name="rb_A4008_2">No</string>
     <string name="rb_A4008_DK">Don’t Know</string>
+
     <string name="rb_A4008_RA">Refused to Answer</string>
 
     <string name="rb_A4009a_1">Yes</string>
     <string name="rb_A4009a_2">No</string>
     <string name="rb_A4009a_DK">Don’t Know</string>
+
     <string name="rb_A4009a_RA">Refused to Answer</string>
 
     <string name="rb_A4010_1">Cigarettes</string>
@@ -5362,9 +5732,11 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_A4010_3">Chewing tobacco</string>
     <string name="rb_A4010_OT">Other (Specify)</string>
     <string name="rb_A4010_DK">Don’t Know</string>
+
     <string name="rb_A4010_RA">Refused to Answer</string>
 
     <string name="rb_A4013u_DK">Don’t Know</string>
+
     <string name="rb_A4013u_RA">Refused to Answer</string>
 
     <string name="ed_A4013d">Day</string>
@@ -5378,73 +5750,87 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_A4051_1">Yes</string>
     <string name="rb_A4051_2">No</string>
     <string name="rb_A4051_DK">Don’t Know</string>
+
     <string name="rb_A4051_RA">Refused to Answer</string>
 
     <string name="rb_A4052_u_1">Day(s)</string>
     <string name="rb_A4052_u_2">Month(s)</string>
     <string name="rb_A4052_u_DK">Don’t Know</string>
+
     <string name="rb_A4052_u_RA">Refused to Answer</string>
 
     <string name="rb_A4053_1">Yes</string>
     <string name="rb_A4053_2">No</string>
     <string name="rb_A4053_DK">Don’t Know</string>
+
     <string name="rb_A4053_RA">Refused to Answer</string>
 
     <string name="rb_A4054_1">Mild</string>
     <string name="rb_A4054_2">Moderate</string>
     <string name="rb_A4054_3">Severe</string>
     <string name="rb_A4054_DK">Don’t Know</string>
+
     <string name="rb_A4054_RA">Refused to Answer</string>
 
     <string name="rb_A4055_1">Continuous</string>
     <string name="rb_A4055_2">On and off</string>
     <string name="rb_A4055_3">Only at night</string>
     <string name="rb_A4055_DK">Don’t Know</string>
+
     <string name="rb_A4055_RA">Refused to Answer</string>
 
     <string name="rb_A4056_1">Yes</string>
     <string name="rb_A4056_2">No</string>
     <string name="rb_A4056_DK">Don’t Know</string>
+
     <string name="rb_A4056_RA">Refused to Answer</string>
 
     <string name="rb_A4057_1">Yes</string>
     <string name="rb_A4057_2">No</string>
     <string name="rb_A4057_DK">Don’t Know</string>
+
     <string name="rb_A4057_RA">Refused to Answer</string>
 
     <string name="rb_A4058_1">Yes</string>
     <string name="rb_A4058_2">No</string>
     <string name="rb_A4058_DK">Don’t Know</string>
+
     <string name="rb_A4058_RA">Refused to Answer</string>
 
     <string name="rb_A4059_u_1">Day(s)</string>
     <string name="rb_A4059_u_2">Month(s)</string>
     <string name="rb_A4059_u_DK">Don’t Know</string>
+
     <string name="rb_A4059_u_RA">Refused to Answer</string>
 
     <string name="rb_A4060_1">Yes</string>
     <string name="rb_A4060_2">No</string>
     <string name="rb_A4060_DK">Don’t Know</string>
+
     <string name="rb_A4060_RA">Refused to Answer</string>
 
     <string name="rb_A4061_1">Yes</string>
     <string name="rb_A4061_2">No</string>
     <string name="rb_A4061_DK">Don’t Know</string>
+
     <string name="rb_A4061_RA">Refused to Answer</string>
 
     <string name="rb_A4062_1">Yes</string>
     <string name="rb_A4062_2">No</string>
     <string name="rb_A4062_DK">Don’t Know</string>
+
     <string name="rb_A4062_RA">Refused to Answer</string>
 
     <string name="rb_A4063_1">Yes</string>
     <string name="rb_A4063_2">No</string>
     <string name="rb_A4063_DK">Don’t Know</string>
+
     <string name="rb_A4063_RA">Refused to Answer</string>
 
     <string name="rb_A4064_u_1">Day(s)</string>
     <string name="rb_A4064_u_2">Month(s)</string>
     <string name="rb_A4064_u_DK">Don’t Know</string>
+
     <string name="rb_A4064_u_RA">Refused to Answer</string>
 
     <string name="rb_A4064_a"></string>
@@ -5453,269 +5839,322 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_A4064_1_1">Yes</string>
     <string name="rb_A4064_1_2">No</string>
     <string name="rb_A4064_1_DK">Don’t Know</string>
+
     <string name="rb_A4064_1_RA">Refused to Answer</string>
 
     <string name="rb_A4065_1">Yes</string>
     <string name="rb_A4065_2">No</string>
     <string name="rb_A4065_DK">Don’t Know</string>
+
     <string name="rb_A4065_RA">Refused to Answer</string>
 
     <string name="rb_A4066_1">Yes</string>
     <string name="rb_A4066_2">No</string>
     <string name="rb_A4066_DK">Don’t Know</string>
+
     <string name="rb_A4066_RA">Refused to Answer</string>
 
     <string name="rb_A4067_1">Yes</string>
     <string name="rb_A4067_2">No</string>
     <string name="rb_A4067_DK">Don’t Know</string>
+
     <string name="rb_A4067_RA">Refused to Answer</string>
 
     <string name="rb_A4068_1">Yes</string>
     <string name="rb_A4068_2">No</string>
     <string name="rb_A4068_DK">Don’t Know</string>
+
     <string name="rb_A4068_RA">Refused to Answer</string>
 
     <string name="rb_A4069_u_1">Hour(s)</string>
     <string name="rb_A4069_u_2">Month(s)</string>
     <string name="rb_A4069_u_3">Year(s)</string>
     <string name="rb_A4069_u_DK">Don’t Know</string>
+
     <string name="rb_A4069_u_RA">Refused to Answer</string>
 
     <string name="rb_A4070_1">Upper abdomen</string>
     <string name="rb_A4070_2">Lower abdomen</string>
     <string name="rb_A4070_3">Upper and lower abdomen</string>
     <string name="rb_A4070_DK">Don’t Know</string>
+
     <string name="rb_A4070_RA">Refused to Answer</string>
 
     <string name="rb_A4071_1">Yes</string>
     <string name="rb_A4071_2">No</string>
     <string name="rb_A4071_DK">Don’t Know</string>
+
     <string name="rb_A4071_RA">Refused to Answer</string>
 
     <string name="rb_A4072_u_1">Day(s)</string>
     <string name="rb_A4072_u_2">Month(s)</string>
     <string name="rb_A4072_u_DK">Don’t Know</string>
+
     <string name="rb_A4072_u_RA">Refused to Answer</string>
 
 
     <string name="rb_A4073_1">Rapidly</string>
     <string name="rb_A4073_2">Slowly</string>
     <string name="rb_A4073_DK">Don’t Know</string>
+
     <string name="rb_A4073_RA">Refused to Answer</string>
 
     <string name="rb_A4074_1">Yes</string>
     <string name="rb_A4074_2">No</string>
     <string name="rb_A4074_DK">Don’t Know</string>
+
     <string name="rb_A4074_RA">Refused to Answer</string>
 
     <string name="rb_A4075_u_1">Day(s)</string>
     <string name="rb_A4075_u_2">Month(s)</string>
     <string name="rb_A4075_u_DK">Don’t Know</string>
+
     <string name="rb_A4075_u_RA">Refused to Answer</string>
 
     <string name="rb_A4076_1">Yes</string>
     <string name="rb_A4076_2">No</string>
     <string name="rb_A4076_DK">Don’t Know</string>
+
     <string name="rb_A4076_RA">Refused to Answer</string>
 
     <string name="rb_A4077_u_1">Day(s)</string>
     <string name="rb_A4077_u_2">Month(s)</string>
     <string name="rb_A4077_u_DK">Don’t Know</string>
+
     <string name="rb_A4077_u_RA">Refused to Answer</string>
 
     <string name="rb_A4078_1">Yes</string>
     <string name="rb_A4078_2">No</string>
     <string name="rb_A4078_DK">Don’t Know</string>
+
     <string name="rb_A4078_RA">Refused to Answer</string>
 
     <string name="rb_A4079_1">Yes</string>
     <string name="rb_A4079_2">No</string>
     <string name="rb_A4079_DK">Don’t Know</string>
+
     <string name="rb_A4079_RA">Refused to Answer</string>
 
     <string name="rb_A4080_1">Yes</string>
     <string name="rb_A4080_2">No</string>
     <string name="rb_A4080_DK">Don’t Know</string>
+
     <string name="rb_A4080_RA">Refused to Answer</string>
 
     <string name="rb_A4081_1">Yes</string>
     <string name="rb_A4081_2">No</string>
     <string name="rb_A4081_DK">Don’t Know</string>
+
     <string name="rb_A4081_RA">Refused to Answer</string>
 
     <string name="rb_A4082_u_1">Day</string>
     <string name="rb_A4082_u_2">Month</string>
     <string name="rb_A4082_u_3">Year</string>
     <string name="rb_A4082_u_DK">Don’t Know</string>
+
     <string name="rb_A4082_u_RA">Refused to Answer</string>
 
     <string name="rb_A4083_1">Continuous</string>
     <string name="rb_A4083_2">On and off</string>
     <string name="rb_A4083_DK">Don’t Know</string>
+
     <string name="rb_A4083_RA">Refused to Answer</string>
 
     <string name="rb_A4084_1">Yes</string>
     <string name="rb_A4084_2">No</string>
     <string name="rb_A4084_DK">Don’t Know</string>
+
     <string name="rb_A4084_RA">Refused to Answer</string>
 
     <string name="rb_A4085_u_1">Day(s)</string>
     <string name="rb_A4085_u_2">Month(s)</string>
     <string name="rb_A4085_u_DK">Don’t Know</string>
+
     <string name="rb_A4085_u_RA">Refused to Answer</string>
 
     <string name="rb_A4086_1">Yes</string>
     <string name="rb_A4086_2">No</string>
     <string name="rb_A4086_DK">Don’t Know</string>
+
     <string name="rb_A4086_RA">Refused to Answer</string>
 
     <string name="rb_A4087_u_1">Day(s)</string>
     <string name="rb_A4087_u_2">Month(s)</string>
     <string name="rb_A4087_u_DK">Don’t Know</string>
+
     <string name="rb_A4087_u_RA">Refused to Answer</string>
 
     <string name="rb_A4088_1">Yes</string>
     <string name="rb_A4088_2">No</string>
     <string name="rb_A4088_DK">Don’t Know</string>
+
     <string name="rb_A4088_RA">Refused to Answer</string>
 
     <string name="rb_A4089_1">Yes</string>
     <string name="rb_A4089_2">No</string>
     <string name="rb_A4089_DK">Don’t Know</string>
+
     <string name="rb_A4089_RA">Refused to Answer</string>
 
     <string name="rb_A4090_1">Yes</string>
     <string name="rb_A4090_2">No</string>
     <string name="rb_A4090_DK">Don’t Know</string>
+
     <string name="rb_A4090_RA">Refused to Answer</string>
 
     <string name="rb_A4091_1">Yes</string>
     <string name="rb_A4091_2">No</string>
     <string name="rb_A4091_DK">Don’t Know</string>
+
     <string name="rb_A4091_RA">Refused to Answer</string>
 
     <string name="rb_A4092_1">Yes</string>
     <string name="rb_A4092_2">No</string>
     <string name="rb_A4092_DK">Don’t Know</string>
+
     <string name="rb_A4092_RA">Refused to Answer</string>
 
     <string name="rb_A4094_u_3">دن</string>
     <string name="rb_A4094_u_DK">Don’t Know</string>
+
     <string name="rb_A4094_u_RA">Refused to Answer</string>
 
     <string name="rb_A4095_1">Yes</string>
     <string name="rb_A4095_2">No</string>
     <string name="rb_A4095_DK">Don’t Know</string>
+
     <string name="rb_A4095_RA">Refused to Answer</string>
 
     <string name="rb_A4096_1">Yes</string>
     <string name="rb_A4096_2">No</string>
     <string name="rb_A4096_DK">Don’t Know</string>
+
     <string name="rb_A4096_RA">Refused to Answer</string>
 
     <string name="rb_A4097_u_1">Day(s)</string>
     <string name="rb_A4097_u_2">Month(s)</string>
     <string name="rb_A4097_u_DK">Don’t Know</string>
+
     <string name="rb_A4097_u_RA">Refused to Answer</string>
 
     <string name="rb_A4098_1">Yes</string>
     <string name="rb_A4098_2">No</string>
     <string name="rb_A4098_DK">Don’t Know</string>
+
     <string name="rb_A4098_RA">Refused to Answer</string>
 
     <string name="rb_A4099_u_1">Day(s)</string>
     <string name="rb_A4099_u_2">Month(s)</string>
     <string name="rb_A4099_u_DK">Don’t Know</string>
+
     <string name="rb_A4099_u_RA">Refused to Answer</string>
 
     <string name="rb_A4100_1">Yes</string>
     <string name="rb_A4100_2">No</string>
     <string name="rb_A4100_DK">Don’t Know</string>
+
     <string name="rb_A4100_RA">Refused to Answer</string>
 
     <string name="rb_A4101_u_1">Day(s)</string>
     <string name="rb_A4101_u_2">Month(s)</string>
     <string name="rb_A4101_u_DK">Don’t Know</string>
+
     <string name="rb_A4101_u_RA">Refused to Answer</string>
 
     <string name="rb_A4102_1">Yes</string>
     <string name="rb_A4102_2">No</string>
     <string name="rb_A4102_DK">Don’t Know</string>
+
     <string name="rb_A4102_RA">Refused to Answer</string>
 
     <string name="rb_A4103_1">Yes</string>
     <string name="rb_A4103_2">No</string>
     <string name="rb_A4103_DK">Don’t Know</string>
+
     <string name="rb_A4103_RA">Refused to Answer</string>
 
     <string name="rb_A4104_1">Yes</string>
     <string name="rb_A4104_2">No</string>
     <string name="rb_A4104_DK">Don’t Know</string>
+
     <string name="rb_A4104_RA">Refused to Answer</string>
 
     <string name="rb_A4105_1">Yes</string>
     <string name="rb_A4105_2">No</string>
     <string name="rb_A4105_DK">Don’t Know</string>
+
     <string name="rb_A4105_RA">Refused to Answer</string>
 
     <string name="rb_A4106_1">Yes</string>
     <string name="rb_A4106_2">No</string>
     <string name="rb_A4106_DK">Don’t Know</string>
+
     <string name="rb_A4106_RA">Refused to Answer</string>
 
     <string name="rb_A4108_1">Yes</string>
     <string name="rb_A4108_2">No</string>
     <string name="rb_A4108_DK">Don’t Know</string>
+
     <string name="rb_A4108_RA">Refused to Answer</string>
 
     <string name="rb_A4109_1">Yes</string>
     <string name="rb_A4109_2">No</string>
     <string name="rb_A4109_DK">Don’t Know</string>
+
     <string name="rb_A4109_RA">Refused to Answer</string>
 
     <string name="rb_A4110_1">Yes</string>
     <string name="rb_A4110_2">No</string>
     <string name="rb_A4110_DK">Don’t Know</string>
+
     <string name="rb_A4110_RA">Refused to Answer</string>
 
     <string name="rb_A4111_1">Yes</string>
     <string name="rb_A4111_2">No</string>
     <string name="rb_A4111_DK">Don’t Know</string>
+
     <string name="rb_A4111_RA">Refused to Answer</string>
 
     <string name="rb_A4112_1">Yes</string>
     <string name="rb_A4112_2">No</string>
     <string name="rb_A4112_DK">Don’t Know</string>
+
     <string name="rb_A4112_RA">Refused to Answer</string>
 
     <string name="rb_A4113_1">Yes</string>
     <string name="rb_A4113_2">No</string>
     <string name="rb_A4113_DK">Don’t Know</string>
+
     <string name="rb_A4113_RA">Refused to Answer</string>
 
     <string name="rb_A4114_1">Yes</string>
     <string name="rb_A4114_2">No</string>
     <string name="rb_A4114_DK">Don’t Know</string>
+
     <string name="rb_A4114_RA">Refused to Answer</string>
 
     <string name="rb_A4115_1">Yes</string>
     <string name="rb_A4115_2">No</string>
     <string name="rb_A4115_DK">Don’t Know</string>
+
     <string name="rb_A4115_RA">Refused to Answer</string>
 
     <string name="rb_A4116_1">Yes</string>
     <string name="rb_A4116_2">No</string>
     <string name="rb_A4116_DK">Don’t Know</string>
+
     <string name="rb_A4116_RA">Refused to Answer</string>
 
     <string name="rb_A4117_u_1">Day(s)</string>
     <string name="rb_A4117_u_2">Month(s)</string>
     <string name="rb_A4117_u_DK">Don’t Know</string>
+
     <string name="rb_A4117_u_RA">Refused to Answer</string>
 
     <string name="rb_A4118_1">Yes</string>
     <string name="rb_A4118_2">No</string>
     <string name="rb_A4118_DK">Don’t Know</string>
+
     <string name="rb_A4118_RA">Refused to Answer</string>
 
     <string name="rb_A4119_1">Face</string>
@@ -5723,6 +6162,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_A4119_3">Extremities</string>
     <string name="rb_A4119_4">Everywhere</string>
     <string name="rb_A4119_DK">Don’t Know</string>
+
     <string name="rb_A4119_RA">Refused to Answer</string>
 
     <string name="rb_A4120_1">Face</string>
@@ -5730,116 +6170,139 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_A4120_3">Extremities</string>
     <string name="rb_A4120_4">Everywhere</string>
     <string name="rb_A4120_DK">Don’t Know</string>
+
     <string name="rb_A4120_RA">Refused to Answer</string>
 
     <string name="rb_A4122_1">Yes</string>
     <string name="rb_A4122_2">No</string>
     <string name="rb_A4122_DK">Don’t Know</string>
+
     <string name="rb_A4122_RA">Refused to Answer</string>
 
     <string name="rb_A4123_1">Yes</string>
     <string name="rb_A4123_2">No</string>
     <string name="rb_A4123_DK">Don’t Know</string>
+
     <string name="rb_A4123_RA">Refused to Answer</string>
 
     <string name="rb_A4124_1">Yes</string>
     <string name="rb_A4124_2">No</string>
     <string name="rb_A4124_DK">Don’t Know</string>
+
     <string name="rb_A4124_RA">Refused to Answer</string>
 
     <string name="rb_A4125_1">Yes</string>
     <string name="rb_A4125_2">No</string>
     <string name="rb_A4125_DK">Don’t Know</string>
+
     <string name="rb_A4125_RA">Refused to Answer</string>
 
     <string name="rb_A4126_1">Yes</string>
     <string name="rb_A4126_2">No</string>
     <string name="rb_A4126_DK">Don’t Know</string>
+
     <string name="rb_A4126_RA">Refused to Answer</string>
 
     <string name="rb_A4127_u_1">Day(s)</string>
     <string name="rb_A4127_u_2">Month(s)</string>
     <string name="rb_A4127_u_DK">Don’t Know</string>
+
     <string name="rb_A4127_u_RA">Refused to Answer</string>
 
     <string name="rb_A4128_1">Yes</string>
     <string name="rb_A4128_2">No</string>
     <string name="rb_A4128_DK">Don’t Know</string>
+
     <string name="rb_A4128_RA">Refused to Answer</string>
 
     <string name="rb_A4129_1">Yes</string>
     <string name="rb_A4129_2">No</string>
     <string name="rb_A4129_DK">Don’t Know</string>
+
     <string name="rb_A4129_RA">Refused to Answer</string>
 
     <string name="rb_A4130_u_1">Day(s)</string>
     <string name="rb_A4130_u_2">Month(s)</string>
     <string name="rb_A4130_u_DK">Don’t Know</string>
+
     <string name="rb_A4130_u_RA">Refused to Answer</string>
 
     <string name="rb_A4131_1">Yes</string>
     <string name="rb_A4131_2">No</string>
     <string name="rb_A4131_DK">Don’t Know</string>
+
     <string name="rb_A4131_RA">Refused to Answer</string>
 
     <string name="rb_A4132_1">Yes</string>
     <string name="rb_A4132_2">No</string>
     <string name="rb_A4132_DK">Don’t Know</string>
+
     <string name="rb_A4132_RA">Refused to Answer</string>
 
     <string name="rb_A4133_1">Yes</string>
     <string name="rb_A4133_2">No</string>
     <string name="rb_A4133_DK">Don’t Know</string>
+
     <string name="rb_A4133_RA">Refused to Answer</string>
 
     <string name="rb_A4134_u_1">Day(s)</string>
     <string name="rb_A4134_u_2">Month(s)</string>
     <string name="rb_A4134_u_DK">Don’t Know</string>
+
     <string name="rb_A4134_u_RA">Refused to Answer</string>
 
     <string name="rb_A4135_1">Yes</string>
     <string name="rb_A4135_2">No</string>
     <string name="rb_A4135_DK">Don’t Know</string>
+
     <string name="rb_A4135_RA">Refused to Answer</string>
 
     <string name="rb_A4136_1">Yes</string>
     <string name="rb_A4136_2">No</string>
     <string name="rb_A4136_DK">Don’t Know</string>
+
     <string name="rb_A4136_RA">Refused to Answer</string>
 
     <string name="rb_A4138_1">Yes</string>
     <string name="rb_A4138_2">No</string>
     <string name="rb_A4138_DK">Don’t Know</string>
+
     <string name="rb_A4138_RA">Refused to Answer</string>
 
     <string name="rb_A4139_1">Yes</string>
     <string name="rb_A4139_2">No</string>
     <string name="rb_A4139_DK">Don’t Know</string>
+
     <string name="rb_A4139_RA">Refused to Answer</string>
 
     <string name="rb_A4140_1">Yes</string>
     <string name="rb_A4140_2">No</string>
     <string name="rb_A4140_DK">Don’t Know</string>
+
     <string name="rb_A4140_RA">Refused to Answer</string>
 
     <string name="rb_A4144_1">Yes</string>
     <string name="rb_A4144_2">No</string>
     <string name="rb_A4144_DK">Don’t Know</string>
+
     <string name="rb_A4144_RA">Refused to Answer</string>
 
     <string name="rb_A4145_1">Yes</string>
     <string name="rb_A4145_2">No</string>
     <string name="rb_A4145_DK">Don’t Know</string>
+
     <string name="rb_A4145_RA">Refused to Answer</string>
 
     <string name="rb_A4146_1">Yes</string>
     <string name="rb_A4146_2">No</string>
     <string name="rb_A4146_DK">Don’t Know</string>
+
     <string name="rb_A4146_RA">Refused to Answer</string>
 
     <string name="rb_A4147_1">Yes</string>
     <string name="rb_A4147_2">No</string>
     <string name="rb_A4147_DK">Don’t Know</string>
+
     <string name="rb_A4147_RA">Refused to Answer</string>
 
     <string name="rb_A4148_1">Right side</string>
@@ -5851,17 +6314,20 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_A4148_7">Whole body</string>
     <string name="rb_A4148_OT">Other (Specify)</string>
     <string name="rb_A4148_DK">Don’t Know</string>
+
     <string name="rb_A4148_RA">Refused to Answer</string>
 
     <string name="rb_A4149_1">Yes</string>
     <string name="rb_A4149_2">No</string>
     <string name="rb_A4149_DK">Don’t Know</string>
-    <string name="rb_A4149_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4149_RA">Refused to Answer</string>
 
     <string name="rb_A4150_u_1">دن</string>
     <string name="rb_A4150_u_2">مہینے</string>
     <string name="rb_A4150_u_DK">Don’t Know</string>
-    <string name="rb_A4150_u_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4150_u_RA">Refused to Answer</string>
 
     <string name="rb_A4151_1">Solids</string>
     <string name="rb_A4151_2">Liquids</string>
@@ -5870,224 +6336,268 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_A4152_1">Yes</string>
     <string name="rb_A4152_2">No</string>
     <string name="rb_A4152_DK">Don’t Know</string>
-    <string name="rb_A4152_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4152_RA">Refused to Answer</string>
 
     <string name="rb_A4153_1">Yes</string>
     <string name="rb_A4153_2">No</string>
     <string name="rb_A4153_DK">Don’t Know</string>
-    <string name="rb_A4153_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4153_RA">Refused to Answer</string>
 
     <string name="rb_A4154_1">Yes</string>
     <string name="rb_A4154_2">No</string>
     <string name="rb_A4154_DK">Don’t Know</string>
-    <string name="rb_A4154_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4154_RA">Refused to Answer</string>
 
     <string name="rb_A4155_1">Yes</string>
     <string name="rb_A4155_2">No</string>
     <string name="rb_A4155_DK">Don’t Know</string>
-    <string name="rb_A4155_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4155_RA">Refused to Answer</string>
 
     <string name="rb_A4156_1">Yes</string>
     <string name="rb_A4156_2">No</string>
     <string name="rb_A4156_DK">Don’t Know</string>
-    <string name="rb_A4156_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4156_RA">Refused to Answer</string>
 
     <string name="rb_A4157_1">Yes</string>
     <string name="rb_A4157_2">No</string>
     <string name="rb_A4157_DK">Don’t Know</string>
-    <string name="rb_A4157_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4157_RA">Refused to Answer</string>
 
     <string name="rb_A4158_1">Yes</string>
     <string name="rb_A4158_2">No</string>
     <string name="rb_A4158_DK">Don’t Know</string>
-    <string name="rb_A4158_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4158_RA">Refused to Answer</string>
 
     <string name="rb_A4159_1">Yes</string>
     <string name="rb_A4159_2">No</string>
     <string name="rb_A4159_DK">Don’t Know</string>
-    <string name="rb_A4159_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4159_RA">Refused to Answer</string>
 
     <string name="rb_A4160_1">Yes</string>
     <string name="rb_A4160_2">No</string>
     <string name="rb_A4160_DK">Don’t Know</string>
-    <string name="rb_A4160_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4160_RA">Refused to Answer</string>
 
     <string name="rb_A4161_1">Yes</string>
     <string name="rb_A4161_2">No</string>
     <string name="rb_A4161_DK">Don’t Know</string>
-    <string name="rb_A4161_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4161_RA">Refused to Answer</string>
 
     <string name="rb_A4161_1_1">Yes</string>
     <string name="rb_A4161_1_2">No</string>
     <string name="rb_A4161_1_DK">Don’t Know</string>
-    <string name="rb_A4161_1_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4161_1_RA">Refused to Answer</string>
 
     <string name="rb_A4162_1">Yes</string>
     <string name="rb_A4162_2">No</string>
     <string name="rb_A4162_DK">Don’t Know</string>
-    <string name="rb_A4162_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4162_RA">Refused to Answer</string>
 
     <string name="rb_A4163_1_1">Yes</string>
     <string name="rb_A4163_1_2">No</string>
     <string name="rb_A4163_1_DK">Don’t Know</string>
-    <string name="rb_A4163_1_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4163_1_RA">Refused to Answer</string>
 
     <string name="rb_A4163_1">Yes</string>
     <string name="rb_A4163_2">No</string>
     <string name="rb_A4163_DK">Don’t Know</string>
-    <string name="rb_A4163_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4163_RA">Refused to Answer</string>
 
     <string name="rb_A4166_1">Yes</string>
     <string name="rb_A4166_2">No</string>
     <string name="rb_A4166_3_DK">Don’t Know</string>
-    <string name="rb_A4166_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4166_RA">Refused to Answer</string>
 
     <string name="rb_A4167_1">Yes</string>
     <string name="rb_A4167_2">No</string>
     <string name="rb_A4167_DK">Don’t Know</string>
-    <string name="rb_A4167_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4167_RA">Refused to Answer</string>
 
     <string name="rb_A4168_1_1">Yes</string>
     <string name="rb_A4168_1_2">No</string>
     <string name="rb_A4168_1_DK">Don’t Know</string>
-    <string name="rb_A4168_1_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4168_1_RA">Refused to Answer</string>
 
     <string name="rb_A4168_3_1">Yes</string>
     <string name="rb_A4168_3_2">No</string>
     <string name="rb_A4168_3_DK">Don’t Know</string>
-    <string name="rb_A4168_3_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4168_3_RA">Refused to Answer</string>
 
     <string name="rb_A4168_1">Yes</string>
     <string name="rb_A4168_2">No</string>
     <string name="rb_A4168_DK">Don’t Know</string>
-    <string name="rb_A4168_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4168_RA">Refused to Answer</string>
 
     <string name="rb_A4173_1_1">Yes</string>
     <string name="rb_A4173_1_2">No</string>
     <string name="rb_A4173_1_DK">Don’t Know</string>
-    <string name="rb_A4173_1_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4173_1_RA">Refused to Answer</string>
 
     <string name="rb_A4173_1">Yes</string>
     <string name="rb_A4173_2">No</string>
     <string name="rb_A4173_DK">Don’t Know</string>
-    <string name="rb_A4173_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4173_RA">Refused to Answer</string>
 
     <string name="rb_A4173_2_1">Yes</string>
     <string name="rb_A4173_2_2">No</string>
     <string name="rb_A4173_2_DK">Don’t Know</string>
-    <string name="rb_A4173_2_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4173_2_RA">Refused to Answer</string>
 
     <string name="rb_A4178_2_1">Yes (She was not pregnant, and she did not recently deliver, have abortion, or miscarry)</string>
     <string name="rb_A4178_2_2">No (She was pregnant or she recently delivered, had an abortion, or miscarried)</string>
     <string name="rb_A4178_2_DK">Don’t Know</string>
-    <string name="rb_A4178_2_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4178_2_RA">Refused to Answer</string>
 
     <string name="rb_A4178_1">Yes</string>
     <string name="rb_A4178_2">No</string>
     <string name="rb_A4178_DK">Don’t Know</string>
-    <string name="rb_A4178_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4178_RA">Refused to Answer</string>
 
     <string name="rb_A4179_1">Yes</string>
     <string name="rb_A4179_2">No</string>
     <string name="rb_A4179_DK">Don’t Know</string>
-    <string name="rb_A4179_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4179_RA">Refused to Answer</string>
 
     <string name="rb_A4180_1">Yes</string>
     <string name="rb_A4180_2">No</string>
     <string name="rb_A4180_DK">Don’t Know</string>
-    <string name="rb_A4180_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4180_RA">Refused to Answer</string>
 
     <string name="rb_A4182_1">Yes</string>
     <string name="rb_A4182_2">No</string>
     <string name="rb_A4182_DK">Don’t Know</string>
-    <string name="rb_A4182_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4182_RA">Refused to Answer</string>
 
     <string name="rb_A4183_1">Yes</string>
     <string name="rb_A4183_2">No</string>
     <string name="rb_A4183_DK">Don’t Know</string>
-    <string name="rb_A4183_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4183_RA">Refused to Answer</string>
 
     <string name="rb_A4184_1">Yes</string>
     <string name="rb_A4184_2">No</string>
     <string name="rb_A4184_DK">Don’t Know</string>
-    <string name="rb_A4184_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4184_RA">Refused to Answer</string>
 
     <string name="rb_A4185_1">Yes</string>
     <string name="rb_A4185_2">No</string>
     <string name="rb_A4185_DK">Don’t Know</string>
-    <string name="rb_A4185_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4185_RA">Refused to Answer</string>
 
     <string name="rb_A4186_1">Yes</string>
     <string name="rb_A4186_2">No</string>
     <string name="rb_A4186_DK">Don’t Know</string>
-    <string name="rb_A4186_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4186_RA">Refused to Answer</string>
 
     <string name="rb_A4186_1_1">Yes</string>
     <string name="rb_A4186_1_2">No</string>
     <string name="rb_A4186_1_DK">Don’t Know</string>
-    <string name="rb_A4186_1_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4186_1_RA">Refused to Answer</string>
 
     <string name="rb_A4187_1">Yes</string>
     <string name="rb_A4187_2">No</string>
     <string name="rb_A4187_DK">Don’t Know</string>
-    <string name="rb_A4187_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4187_RA">Refused to Answer</string>
 
     <string name="rb_A4188_1">Yes</string>
     <string name="rb_A4188_2">No</string>
     <string name="rb_A4188_DK">Don’t Know</string>
-    <string name="rb_A4188_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4188_RA">Refused to Answer</string>
 
     <string name="rb_A4189_1">Yes</string>
     <string name="rb_A4189_2">No</string>
     <string name="rb_A4189_DK">Don’t Know</string>
-    <string name="rb_A4189_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4189_RA">Refused to Answer</string>
 
     <string name="rb_A4190_1">Yes</string>
     <string name="rb_A4190_2">No</string>
     <string name="rb_A4190_DK">Don’t Know</string>
-    <string name="rb_A4190_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4190_RA">Refused to Answer</string>
 
     <string name="rb_A4191_1">Yes</string>
     <string name="rb_A4191_2">No</string>
     <string name="rb_A4191_DK">Don’t Know</string>
-    <string name="rb_A4191_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4191_RA">Refused to Answer</string>
 
     <string name="rb_A4193_1">Yes</string>
     <string name="rb_A4193_2">No</string>
     <string name="rb_A4193_DK">Don’t Know</string>
-    <string name="rb_A4193_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4193_RA">Refused to Answer</string>
 
     <string name="rb_A4193_1_1">Oral medicine</string>
     <string name="rb_A4193_1_2">Traditional vaginal herbal application</string>
     <string name="rb_A4193_1_3">Vaginal tablet</string>
     <string name="rb_A4193_1_4">Instrumentation</string>
     <string name="rb_A4193_1_DK">Don’t Know</string>
-    <string name="rb_A4193_1_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4193_1_RA">Refused to Answer</string>
 
     <string name="rb_A4194_1">Yes</string>
     <string name="rb_A4194_2">No</string>
     <string name="rb_A4194_DK">Don’t Know</string>
-    <string name="rb_A4194_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4194_RA">Refused to Answer</string>
 
     <string name="rb_A4195_1">Yes</string>
     <string name="rb_A4195_2">No</string>
     <string name="rb_A4195_DK">Don’t Know</string>
-    <string name="rb_A4195_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4195_RA">Refused to Answer</string>
 
     <string name="rb_A4196_1">Yes</string>
     <string name="rb_A4196_2">No</string>
     <string name="rb_A4196_DK">Don’t Know</string>
-    <string name="rb_A4196_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4196_RA">Refused to Answer</string>
 
     <string name="rb_A4197_1">Yes</string>
     <string name="rb_A4197_2">No</string>
     <string name="rb_A4197_DK">Don’t Know</string>
-    <string name="rb_A4197_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4197_RA">Refused to Answer</string>
 
     <string name="rb_A4198_1_1">Yes</string>
     <string name="rb_A4198_1_2">No</string>
     <string name="rb_A4198_1_DK">Don’t Know</string>
-    <string name="rb_A4198_1_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4198_1_RA">Refused to Answer</string>
 
     <string name="rb_A4198_1">Hospital</string>
     <string name="rb_A4198_2">Other Health Facility</string>
@@ -6095,7 +6605,8 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_A4198_4">On route to hospital or facility</string>
     <string name="rb_A4198_OT">دیگر </string>
     <string name="rb_A4198_DK">Don’t Know</string>
-    <string name="rb_A4198_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4198_RA">Refused to Answer</string>
 
     <string name="rb_A4200_1">Doctor</string>
     <string name="rb_A4200_2">Midwife</string>
@@ -6105,42 +6616,50 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_A4200_6">Traditional birth attendant</string>
     <string name="rb_A4200_OT">دیگر </string>
     <string name="rb_A4200_DK">Don’t Know</string>
-    <string name="rb_A4200_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4200_RA">Refused to Answer</string>
 
     <string name="rb_A4202_1">Yes</string>
     <string name="rb_A4202_2">No</string>
     <string name="rb_A4202_DK">Don’t Know</string>
-    <string name="rb_A4202_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4202_RA">Refused to Answer</string>
 
     <string name="rb_A4203_1">Yes</string>
     <string name="rb_A4203_2">No</string>
     <string name="rb_A4203_DK">Don’t Know</string>
-    <string name="rb_A4203_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4203_RA">Refused to Answer</string>
 
     <string name="rb_A4204_1">Yes</string>
     <string name="rb_A4204_2">No</string>
     <string name="rb_A4204_DK">Don’t Know</string>
-    <string name="rb_A4204_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4204_RA">Refused to Answer</string>
 
     <string name="rb_A4205_1">Yes</string>
     <string name="rb_A4205_2">No</string>
     <string name="rb_A4205_DK">Don’t Know</string>
-    <string name="rb_A4205_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4205_RA">Refused to Answer</string>
 
     <string name="rb_A4205_1_1">Yes</string>
     <string name="rb_A4205_1_2">No</string>
     <string name="rb_A4205_1_DK">Don’t Know</string>
-    <string name="rb_A4205_1_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4205_1_RA">Refused to Answer</string>
 
     <string name="rb_A4206_1">Yes</string>
     <string name="rb_A4206_2">No</string>
     <string name="rb_A4206_DK">Don’t Know</string>
-    <string name="rb_A4206_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_RA">Refused to Answer</string>
 
     <string name="rb_A4206_1_1">Yes</string>
     <string name="rb_A4206_1_2">No</string>
     <string name="rb_A4206_1_DK">Don’t Know</string>
-    <string name="rb_A4206_1_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_1_RA">Refused to Answer</string>
 
     <string name="rb_A4206_2_1">Pedestrian</string>
     <string name="rb_A4206_2_2">Driver or passenger in car or light vehicle</string>
@@ -6149,6 +6668,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_A4206_2_5">Driver or passenger on a pedal cycle</string>
     <string name="rb_A4206_2_OT">Other (Specify)</string>
     <string name="rb_A4206_2_DK">Don’t Know</string>
+
     <string name="rb_A4206_2_RA">Refused to Answer</string>
 
     <string name="rb_A4206_3_1">Pedestrian</string>
@@ -6159,104 +6679,124 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_A4206_3_6">Pedal cycle</string>
     <string name="rb_A4206_3_OT">Other (Specify)</string>
     <string name="rb_A4206_3_DK">Don’t Know</string>
+
     <string name="rb_A4206_3_RA">Refused to Answer</string>
 
     <string name="rb_A4206_4_1">Yes</string>
     <string name="rb_A4206_4_2">No</string>
     <string name="rb_A4206_4_DK">Don’t Know</string>
-    <string name="rb_A4206_4_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_4_RA">Refused to Answer</string>
 
     <string name="rb_A4206_5_1">Yes</string>
     <string name="rb_A4206_5_2">No</string>
     <string name="rb_A4206_5_DK">Don’t Know</string>
-    <string name="rb_A4206_5_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_5_RA">Refused to Answer</string>
 
     <string name="rb_A4206_6_1">Yes</string>
     <string name="rb_A4206_6_2">No</string>
     <string name="rb_A4206_6_DK">Don’t Know</string>
-    <string name="rb_A4206_6_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_6_RA">Refused to Answer</string>
 
     <string name="rb_A4206_7_1">Yes</string>
     <string name="rb_A4206_7_2">No</string>
     <string name="rb_A4206_7_DK">Don’t Know</string>
-    <string name="rb_A4206_7_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_7_RA">Refused to Answer</string>
 
     <string name="rb_A4206_8_1">Yes</string>
     <string name="rb_A4206_8_2">No</string>
     <string name="rb_A4206_8_DK">Don’t Know</string>
-    <string name="rb_A4206_8_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_8_RA">Refused to Answer</string>
 
     <string name="rb_A4206_9_1">Yes</string>
     <string name="rb_A4206_9_2">No</string>
     <string name="rb_A4206_9_DK">Don’t Know</string>
-    <string name="rb_A4206_9_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_9_RA">Refused to Answer</string>
 
     <string name="rb_A4206_10_1">Dog</string>
     <string name="rb_A4206_10_2">Snake</string>
     <string name="rb_A4206_10_3">Insect or scorpion</string>
     <string name="rb_A4206_10_OT">Other (Specify)</string>
     <string name="rb_A4206_10_DK">Don’t Know</string>
-    <string name="rb_A4206_10_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_10_RA">Refused to Answer</string>
 
     <string name="rb_A4206_11_1">Yes</string>
     <string name="rb_A4206_11_2">No</string>
     <string name="rb_A4206_11_DK">Don’t Know</string>
-    <string name="rb_A4206_11_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_11_RA">Refused to Answer</string>
 
     <string name="rb_A4206_12_1">Yes</string>
     <string name="rb_A4206_12_2">No</string>
     <string name="rb_A4206_12_DK">Don’t Know</string>
-    <string name="rb_A4206_12_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_12_RA">Refused to Answer</string>
 
     <string name="rb_A4206_13_1">Yes</string>
     <string name="rb_A4206_13_2">No</string>
     <string name="rb_A4206_13_DK">Don’t Know</string>
-    <string name="rb_A4206_13_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_13_RA">Refused to Answer</string>
 
     <string name="rb_A4206_14_1">Yes</string>
     <string name="rb_A4206_14_2">No</string>
     <string name="rb_A4206_14_DK">Don’t Know</string>
-    <string name="rb_A4206_14_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_14_RA">Refused to Answer</string>
 
     <string name="rb_A4206_15_1">Yes</string>
     <string name="rb_A4206_15_2">No</string>
     <string name="rb_A4206_15_DK">Don’t Know</string>
-    <string name="rb_A4206_15_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_15_RA">Refused to Answer</string>
 
     <string name="rb_A4206_16_1">Yes</string>
     <string name="rb_A4206_16_2">No</string>
     <string name="rb_A4206_16_DK">Don’t Know</string>
-    <string name="rb_A4206_16_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_16_RA">Refused to Answer</string>
 
     <string name="rb_A4206_17_1">Yes</string>
     <string name="rb_A4206_17_2">No</string>
     <string name="rb_A4206_17_DK">Don’t Know</string>
-    <string name="rb_A4206_17_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_17_RA">Refused to Answer</string>
 
     <string name="rb_A4206_18_1">Yes</string>
     <string name="rb_A4206_18_2">No</string>
     <string name="rb_A4206_18_DK">Don’t Know</string>
-    <string name="rb_A4206_18_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_18_RA">Refused to Answer</string>
 
     <string name="rb_A4206_19_1">Yes</string>
     <string name="rb_A4206_19_2">No</string>
     <string name="rb_A4206_19_DK">Don’t Know</string>
-    <string name="rb_A4206_19_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_19_RA">Refused to Answer</string>
 
     <string name="rb_A4206_20_1">Yes</string>
     <string name="rb_A4206_20_2">No</string>
     <string name="rb_A4206_20_DK">Don’t Know</string>
-    <string name="rb_A4206_20_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_20_RA">Refused to Answer</string>
 
     <string name="rb_A4206_21_1">Yes</string>
     <string name="rb_A4206_21_2">No</string>
     <string name="rb_A4206_21_DK">Don’t Know</string>
-    <string name="rb_A4206_21_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_21_RA">Refused to Answer</string>
 
     <string name="rb_A4206_22_1">Yes</string>
     <string name="rb_A4206_22_2">No</string>
     <string name="rb_A4206_22_DK">Don’t Know</string>
-    <string name="rb_A4206_22_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4206_22_RA">Refused to Answer</string>
 
 
     <string name="rb_A4251_1">Yes</string>
@@ -6334,72 +6874,86 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_A4280_1">Yes</string>
     <string name="rb_A4280_2">No</string>
     <string name="rb_A4280_DK">Don’t Know</string>
-    <string name="rb_A4280_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4280_RA">Refused to Answer</string>
 
     <string name="rb_A4281_1">Yes</string>
     <string name="rb_A4281_2">No</string>
     <string name="rb_A4281_DK">Don’t Know</string>
-    <string name="rb_A4281_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4281_RA">Refused to Answer</string>
 
     <string name="rb_A4282_1">Yes</string>
     <string name="rb_A4282_2">No</string>
     <string name="rb_A4282_DK">Don’t Know</string>
-    <string name="rb_A4282_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4282_RA">Refused to Answer</string>
 
     <string name="rb_A4283_1">Yes</string>
     <string name="rb_A4283_2">No</string>
     <string name="rb_A4283_DK">Don’t Know</string>
-    <string name="rb_A4283_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4283_RA">Refused to Answer</string>
 
     <string name="rb_A4301_1">Yes</string>
     <string name="rb_A4301_2">No</string>
     <string name="rb_A4301_DK">Don’t Know</string>
-    <string name="rb_A4301_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4301_RA">Refused to Answer</string>
 
     <string name="rb_A4302_1_1">Yes</string>
     <string name="rb_A4302_1_2">No</string>
     <string name="rb_A4302_1_DK">Don’t Know</string>
-    <string name="rb_A4302_1_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4302_1_RA">Refused to Answer</string>
 
     <string name="rb_A4302_2_1">Yes</string>
     <string name="rb_A4302_2_2">No</string>
     <string name="rb_A4302_2_DK">Don’t Know</string>
-    <string name="rb_A4302_2_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4302_2_RA">Refused to Answer</string>
 
     <string name="rb_A4302_3_1">Yes</string>
     <string name="rb_A4302_3_2">No</string>
     <string name="rb_A4302_3_DK">Don’t Know</string>
-    <string name="rb_A4302_3_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4302_3_RA">Refused to Answer</string>
 
     <string name="rb_A4302_4_1">Yes</string>
     <string name="rb_A4302_4_2">No</string>
     <string name="rb_A4302_4_DK">Don’t Know</string>
-    <string name="rb_A4302_4_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4302_4_RA">Refused to Answer</string>
 
     <string name="rb_A4302_5_1">Yes</string>
     <string name="rb_A4302_5_2">No</string>
     <string name="rb_A4302_5_DK">Don’t Know</string>
-    <string name="rb_A4302_5_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4302_5_RA">Refused to Answer</string>
 
     <string name="rb_A4302_6_1">Yes</string>
     <string name="rb_A4302_6_2">No</string>
     <string name="rb_A4302_6_DK">Don’t Know</string>
-    <string name="rb_A4302_6_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4302_6_RA">Refused to Answer</string>
 
     <string name="rb_A4302_7_1">Yes</string>
     <string name="rb_A4302_7_2">No</string>
     <string name="rb_A4302_7_DK">Don’t Know</string>
-    <string name="rb_A4302_7_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4302_7_RA">Refused to Answer</string>
 
     <string name="rb_A4303_1">Yes</string>
     <string name="rb_A4303_2">No</string>
     <string name="rb_A4303_DK">Don’t Know</string>
-    <string name="rb_A4303_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4303_RA">Refused to Answer</string>
 
     <string name="rb_A4304_1">Yes</string>
     <string name="rb_A4304_2">No</string>
     <string name="rb_A4304_DK">Don’t Know</string>
-    <string name="rb_A4304_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4304_RA">Refused to Answer</string>
 
     <string name="rb_A4305_1">Yes</string>
     <string name="rb_A4305_2">No</string>
@@ -6413,102 +6967,122 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_A4310_1_1">Yes</string>
     <string name="rb_A4310_1_2">No</string>
     <string name="rb_A4310_1_DK">Don’t Know</string>
-    <string name="rb_A4310_1_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4310_1_RA">Refused to Answer</string>
 
     <string name="rb_A4310_2_1">Yes</string>
     <string name="rb_A4310_2_2">No</string>
     <string name="rb_A4310_2_DK">Don’t Know</string>
-    <string name="rb_A4310_2_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4310_2_RA">Refused to Answer</string>
 
     <string name="rb_A4310_3_1">Yes</string>
     <string name="rb_A4310_3_2">No</string>
     <string name="rb_A4310_3_DK">Don’t Know</string>
-    <string name="rb_A4310_3_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4310_3_RA">Refused to Answer</string>
 
     <string name="rb_A4310_4_1">Yes</string>
     <string name="rb_A4310_4_2">No</string>
     <string name="rb_A4310_4_DK">Don’t Know</string>
-    <string name="rb_A4310_4_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4310_4_RA">Refused to Answer</string>
 
     <string name="rb_A4310_5_1">Yes</string>
     <string name="rb_A4310_5_2">No</string>
     <string name="rb_A4310_5_DK">Don’t Know</string>
-    <string name="rb_A4310_5_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4310_5_RA">Refused to Answer</string>
 
     <string name="rb_A4310_6_1">Yes</string>
     <string name="rb_A4310_6_2">No</string>
     <string name="rb_A4310_6_DK">Don’t Know</string>
-    <string name="rb_A4310_6_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4310_6_RA">Refused to Answer</string>
 
     <string name="rb_A4310_7_1">Yes</string>
     <string name="rb_A4310_7_2">No</string>
     <string name="rb_A4310_7_DK">Don’t Know</string>
-    <string name="rb_A4310_7_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4310_7_RA">Refused to Answer</string>
 
     <string name="rb_A4310_8_1">Yes</string>
     <string name="rb_A4310_8_2">No</string>
     <string name="rb_A4310_8_DK">Don’t Know</string>
-    <string name="rb_A4310_8_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4310_8_RA">Refused to Answer</string>
 
     <string name="rb_A4310_9_1">Yes</string>
     <string name="rb_A4310_9_2">No</string>
     <string name="rb_A4310_9_DK">Don’t Know</string>
-    <string name="rb_A4310_9_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4310_9_RA">Refused to Answer</string>
 
     <string name="rb_A4310_10_1">Yes</string>
     <string name="rb_A4310_10_2">No</string>
     <string name="rb_A4310_10_DK">Don’t Know</string>
-    <string name="rb_A4310_10_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4310_10_RA">Refused to Answer</string>
 
     <string name="rb_A4310_11_1">Yes</string>
     <string name="rb_A4310_11_2">No</string>
     <string name="rb_A4310_11_DK">Don’t Know</string>
-    <string name="rb_A4310_11_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4310_11_RA">Refused to Answer</string>
 
     <string name="rb_A4311_1_1">Yes</string>
     <string name="rb_A4311_1_2">No</string>
     <string name="rb_A4311_1_DK">Don’t Know</string>
-    <string name="rb_A4311_1_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4311_1_RA">Refused to Answer</string>
 
     <string name="rb_A4311_2_1">Yes</string>
     <string name="rb_A4311_2_2">No</string>
     <string name="rb_A4311_2_DK">Don’t Know</string>
-    <string name="rb_A4311_2_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4311_2_RA">Refused to Answer</string>
 
     <string name="rb_A4311_3_1">Yes</string>
     <string name="rb_A4311_3_2">No</string>
     <string name="rb_A4311_3_DK">Don’t Know</string>
-    <string name="rb_A4311_3_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4311_3_RA">Refused to Answer</string>
 
     <string name="rb_A4311_4_1">Yes</string>
     <string name="rb_A4311_4_2">No</string>
     <string name="rb_A4311_4_DK">Don’t Know</string>
-    <string name="rb_A4311_4_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4311_4_RA">Refused to Answer</string>
 
     <string name="rb_A4311_5_1">Yes</string>
     <string name="rb_A4311_5_2">No</string>
     <string name="rb_A4311_5_DK">Don’t Know</string>
-    <string name="rb_A4311_5_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4311_5_RA">Refused to Answer</string>
 
     <string name="rb_A4312_1">Yes</string>
     <string name="rb_A4312_2">No</string>
     <string name="rb_A4312_DK">Don’t Know</string>
-    <string name="rb_A4312_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4312_RA">Refused to Answer</string>
 
     <string name="rb_A4313_1">Yes</string>
     <string name="rb_A4313_2">No</string>
     <string name="rb_A4313_DK">Don’t Know</string>
-    <string name="rb_A4313_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4313_RA">Refused to Answer</string>
 
     <string name="rb_A4314_1">Yes</string>
     <string name="rb_A4314_2">No</string>
     <string name="rb_A4314_DK">Don’t Know</string>
-    <string name="rb_A4314_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4314_RA">Refused to Answer</string>
 
     <string name="rb_A4351_1">Yes</string>
     <string name="rb_A4351_2">No</string>
     <string name="rb_A4351_DK">Don’t Know</string>
-    <string name="rb_A4351_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4351_RA">Refused to Answer</string>
 
     <string name="rb_A4352_1">Yes</string>
     <string name="rb_A4352_2">No</string>
@@ -6517,7 +7091,8 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_A4363_2">Yes, card not seen</string>
     <string name="rb_A4363_3">No registration</string>
     <string name="rb_A4363_DK">Don’t Know</string>
-    <string name="rb_A4363_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4363_RA">Refused to Answer</string>
 
     <string name="rb_A4401_1">Yes</string>
     <string name="rb_A4401_2">No</string>
@@ -6677,22 +7252,26 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_A4454_1">Yes</string>
     <string name="rb_A4454_2">No</string>
     <string name="rb_A4454_DK">Don’t Know</string>
-    <string name="rb_A4454_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4454_RA">Refused to Answer</string>
 
     <string name="rb_A4455_1">Yes</string>
     <string name="rb_A4455_2">No</string>
     <string name="rb_A4455_DK">Don’t Know</string>
-    <string name="rb_A4455_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4455_RA">Refused to Answer</string>
 
     <string name="rb_A4456_1">Yes</string>
     <string name="rb_A4456_2">No</string>
     <string name="rb_A4456_DK">Don’t Know</string>
-    <string name="rb_A4456_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4456_RA">Refused to Answer</string>
 
     <string name="rb_A4457_1">Yes</string>
     <string name="rb_A4457_2">No</string>
     <string name="rb_A4457_DK">Don’t Know</string>
-    <string name="rb_A4457_RA">جواب دینے سے انکار کردیا</string>
+
+    <string name="rb_A4457_RA">Refused to Answer</string>
 
     <string name="rb_A4451_1">One or more issues identified</string>
     <string name="rb_A4451_2">No issue identified</string>
@@ -6857,6 +7436,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_Q1402_1">Male</string>
     <string name="rb_Q1402_2">Female</string>
     <string name="rb_Q1402_DK">Don’t Know</string>
+
     <string name="rb_Q1403_1">Spouse</string>
     <string name="rb_Q1403_2">Mother</string>
     <string name="rb_Q1403_3">Father</string>
@@ -6876,13 +7456,16 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_Q1404_1">Yes</string>
     <string name="rb_Q1404_2">No</string>
     <string name="rb_Q1404_DK">Don’t Know</string>
+
     <string name="rb_Q1407_1">Yes</string>
     <string name="rb_Q1407_2">No</string>
     <string name="rb_Q1407_DK">Don’t Know</string>
+
     <string name="rb_Q1408_1">Primary </string>
     <string name="rb_Q1408_2">Secondary </string>
     <string name="rb_Q1408_3">Higher than secondary</string>
     <string name="rb_Q1408_DK">Don’t Know</string>
+
     <string name="rb_Q1410_1">Unable to read anything</string>
     <string name="rb_Q1410_2">Can only read parts of the statement </string>
     <string name="rb_Q1410_3">Can read the entire statement </string>
@@ -6917,6 +7500,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_Q1415_11">Tanker truck / loaded on drums?</string>
     <string name="rb_Q1415_12">Bottled water?</string>
     <string name="rb_Q1415_DK">Don’t Know</string>
+
     <string name="rb_Q1416_1">Flush toilet inside the house?</string>
     <string name="rb_Q1416_2">Flush toilet outside the house?</string>
     <string name="rb_Q1416_3">Toilet without flushing</string>
@@ -6926,6 +7510,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_Q1416_7">No latrine/toilet</string>
     <string name="rb_Q1416_OT">Other (specify) </string>
     <string name="rb_Q1416_DK">Don’t Know</string>
+
     <string name="rb_Q1417_1">Electricity</string>
     <string name="rb_Q1417_2">Natural gas</string>
     <string name="rb_Q1417_3">Petrol/paraffin/kerosene</string>
@@ -6936,6 +7521,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_Q1417_8">No food cooked in the household</string>
     <string name="rb_Q1417_OT">Other (specify) </string>
     <string name="rb_Q1417_DK">Don’t Know</string>
+
     <string name="rb_Q1418_1">Electricity</string>
     <string name="rb_Q1418_2">Generator / Solar </string>
     <string name="rb_Q1418_3">Gas</string>
@@ -6946,6 +7532,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_Q1418_8">PILHAS </string>
     <string name="rb_Q1418_OT">Other (specify) </string>
     <string name="rb_Q1418_DK">Don’t Know</string>
+
     <string name="rb_Q1419_1">Earth beaten? Clay</string>
     <string name="rb_Q1419_2">Earth not beaten</string>
     <string name="rb_Q1419_3">Rudimentary wood</string>
@@ -6955,6 +7542,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_Q1419_7"> Cement</string>
     <string name="rb_Q1419_OT">Other (specify) </string>
     <string name="rb_Q1419_DK">Don’t Know</string>
+
     <string name="rb_Q1420_1">No roof</string>
     <string name="rb_Q1420_2">Grass/stem/palm</string>
     <string name="rb_Q1420_3">Sheets of Zinc</string>
@@ -6963,6 +7551,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_Q1420_6">Concrete slab (cement)</string>
     <string name="rb_Q1420_OT">Other (specify) </string>
     <string name="rb_Q1420_DK">Don’t Know</string>
+
     <string name="rb_Q1421_1">No wall</string>
     <string name="rb_Q1421_2">Cane/sticks/bamboo/palm</string>
     <string name="rb_Q1421_3">Tin/cardboard/paper/bags</string>
@@ -6974,6 +7563,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_Q1421_9">Cement block</string>
     <string name="rb_Q1421_OT">Other (specify) </string>
     <string name="rb_Q1421_DK">Don’t Know</string>
+
     <string name="rb_Q1501_1">Yes</string>
     <string name="rb_Q1501_2">No</string>
     <string name="rb_Q1503_1">Spouse </string>
@@ -6994,15 +7584,18 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_Q1601_1">Male</string>
     <string name="rb_Q1601_2">Female</string>
     <string name="rb_Q1601_DK">Don’t Know</string>
+
     <string name="rb_Q1602_1">Yes</string>
     <string name="rb_Q1602_2">No</string>
     <string name="rb_Q1602_DK">Don’t Know</string>
+
     <string name="rb_Q1604_1">Hospital</string>
     <string name="rb_Q1604_2">Other health provider or facility</string>
     <string name="rb_Q1604_3">On route to a health provider or facility</string>
     <string name="rb_Q1604_4">Home</string>
     <string name="rb_Q1604_OT">Other (specify) </string>
     <string name="rb_Q1604_DK">Don’t Know</string>
+
     <string name="rb_Q1605_1">Yes</string>
     <string name="rb_Q1605_2">No</string>
     <string name="rb_Q1609_1">Less than 28 days old</string>
@@ -7228,55 +7821,68 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_W208_1">Yes</string>
     <string name="rb_W208_2">No</string>
 
-    <string name="txt_W209">	موجودہ حمل کے دوران ،کیا آپ کو فولاد کی گولیا ں یا وٹامن کی گولیاں جس میں فولاد شامل ہو دی گئیں یا آپ نے خریدیں ؟	:W209</string>
+    <string name="txt_W209">موجودہ حمل کے دوران ،کیا آپ کو فولاد کی گولیاں یا وٹامن کی گولیاں جس میں فولاد شامل ہو دی گئیں یا آپ نے خریدیں ؟</string>
     <string name="rb_W209_1">Yes</string>
     <string name="rb_W209_2">No</string>
 
-    <string name="txt_W210">	اگر ہاں ،خریدی یا فراہم کی گئیں ؟	:W210</string>
-    <string name="cb_W210_1">کلینک پر ملی</string>
-    <string name="cb_W210_2">خریدی</string>
-    <string name="cb_W210_3">ملی نہ خریدی</string>
-    <string name="cb_W210_DK">Don’t Know</string>
-    <string name="cb_W210_RA">جواب نہیں دیا</string>
+    <string name="Q_w210">W210</string>
+    <string name="w210">If yes, purchased or supplied?</string>
+    <string name="w210a">Found at the clinic</string>
+    <string name="w210b">Bought</string>
+    <string name="w210c">Neither found nor Bought</string>
+    <string name="w21098">Don’t Know</string>
+    <string name="w21099">Refused to Answer</string>
 
-    <string name="txt_W211">	آپ/ماں اپنی زندگی میں کتنی مرتبہ حاملہ ہوئیں؟	:W211</string>
-    <string name="ed_W211">	حمل کی تعداد</string>
+    <string name="Q_w211">W211</string>
+    <string name="w211">How many times have you/mother been pregnant in your life ?</string>
+    <string name="w211a">Number of Pregnancies</string>
 
-    <string name="txt_W212">	آپ کی زندگی میں کل کتنی زچگیاں ہوئیں؟	:W212</string>
-    <string name="ed_W212">	زچگیوں کی تعداد</string>
+    <string name="Q_w212">W212</string>
+    <string name="w212">How many births have you had in your life ?</string>
+    <string name="w212a">Maternal Birth count</string>
 
-    <string name="txt_W213">	پہلےبچے کی پیدائش کے وقت آپ کی عمر کیاتھی؟	:W213</string>
-    <string name="ed_W213">	عمر سالوں میں</string>
+    <string name="Q_w213">W213</string>
+    <string name="w213">How old were you when your first child was born?</string>
+    <string name="w213a">Age in years</string>
 
+    <string name="Q_w214">W214</string>
+    <string name="w214">How many times have You/Mother been pregnant in the last five years ?</string>
 
-    <string name="txt_W214">	آپ/ماں پچھلے پانچ سال میں کتنی مرتبہ حاملہ ہوئیں؟	:W214</string>
+    <string name="Q_w215">W215</string>
+    <string name="w215">How many births have you had in the last five years ?</string>
 
-    <string name="txt_W215">	آپ کی پچھلے پانچ سال کل کتنی زچگیاں ہوئیں؟	:W215</string>
+    <string name="Q_w217">W217</string>
+    <string name="w217">Date of Pregnancy Outcome ?</string>
+    <string name="w217d">Day</string>
+    <string name="w217m">Month</string>
+    <string name="w217y">Year</string>
 
-    <string name="txt_W217">حمل کے نتیجے کی تاریخ</string>
-    <string name="ed_W217_d">Day</string>
-    <string name="ed_W217_m">Month</string>
-    <string name="ed_W217_y">Year</string>
+    <string name="Q_w218">W218</string>
+    <string name="w218">Conclusion</string>
+    <string name="w218a">Miscarriage</string>
+    <string name="w218b">Stillbirth</string>
+    <string name="w218c">Live Birth</string>
+    <string name="w218d">Birth of Twins</string>
+    <string name="w218e">Stillbirth of Twins</string>
+    <string name="w218f">Twins One Live &amp; Still Births</string>
 
-    <string name="txt_W218">نتیجہ</string>
-    <string name="rb_W218_1">حمل ضائع</string>
-    <string name="rb_W218_2">مردہ بچے کی پیدائش</string>
-    <string name="rb_W218_3">زندہ بچے کی  پیدائش</string>
-    <string name="rb_W218_4">جڑواں بچوں کی پیدائش </string>
-    <string name="rb_W218_5">جڑواں مردہ بچوں کی پیدائش</string>
-    <string name="rb_W218_6">یک زندہ ایک مردہ بچوں کی پیدائش</string>
+    <string name="Q_w219">W219</string>
+    <string name="w219">The Child’s Current Situation</string>
+    <string name="w219a">Live</string>
+    <string name="w219b">Dead</string>
 
+    <string name="Q_w221">W221</string>
+    <string name="w221">Age of Living Child</string>
+    <string name="w221y">Year(s)</string>
+    <string name="w221m">Month(s)</string>
+    <string name="w221d">Day(s)</string>
 
-    <string name="txt_W219"> بچے کی موجودہ صورت حال </string>
-    <string name="rb_W219_1">حیات</string>
-    <string name="rb_W219_2">فوت</string>
+    <string name="Q_w222">W222</string>
+    <string name="w222">Child’s Age at Death</string>
+    <string name="w222y">Year(s)</string>
+    <string name="w222m">Month(s)</string>
+    <string name="w222d">Day(s)</string>
 
-    <string name="txt_W221">زندہ بچے کی عمر</string>
-    <string name="Year">Year</string>
-    <string name="Month">Month</string>
-    <string name="Day">Day</string>
-
-    <string name="txt_W222">وفات کے وقت بچے کی عمر</string>
     <string name="public_sector">Public sector:</string>
     <string name="private_sector">Private medical sector:</string>
     <string name="A4275_1">A4275_1: If not taken to (all) the referral provider(s), \\nask:   \\nDid you or NAME have any concerns or problems that kept him/her from going to a health provider where s/he was refrered?</string>

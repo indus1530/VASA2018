@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".ui.N2080_N2107">
+
 
     <data>
 
@@ -11,7 +11,9 @@
         <variable
             name="callback"
             type="edu.aku.abdulsajid.vasa2018.ui.N2080_N2107" />
+
     </data>
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -42,6 +44,7 @@
 
                 </RelativeLayout>-->
 
+
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -52,9 +55,11 @@
             android:paddingTop="5sp"
             android:paddingRight="5sp"
             android:paddingBottom="5sp"
-            android:scrollbarSize="10dip">
+            android:scrollbarSize="5dip">
+
 
             <LinearLayout style="@style/Q_Linerlayout_v">
+
 
                 <!-- EditText study_id Starts -->
                 <androidx.cardview.widget.CardView style="@style/Q_CardView">
@@ -76,9 +81,12 @@
                             android:hint="@string/study_id"
                             android:inputType="date"
                             app:met_mask="####-###-##" />
+
                     </LinearLayout>
+
                 </androidx.cardview.widget.CardView>
                 <!-- EditText study_id Ends -->
+
 
                 <!-- Radio Buttons N2080 Starts -->
                 <androidx.cardview.widget.CardView style="@style/Q_CardView">
@@ -98,6 +106,7 @@
                 </androidx.cardview.widget.CardView>
                 <!-- Radio Buttons N2080 Starts -->
 
+
                 <!-- Radio Buttons N2080_16 Starts -->
                 <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
@@ -107,7 +116,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2080_16"
                             style="@style/TextView"
                             android:text="@string/txt_N2080_16" />
 
@@ -121,6 +129,7 @@
                 </androidx.cardview.widget.CardView>
                 <!-- Radio Buttons N2080_16 Ends -->
 
+
                 <!-- Radio Buttons N2080_1 Starts -->
                 <LinearLayout
                     android:id="@+id/ll_N2080_N2080"
@@ -133,10 +142,12 @@
 
                         <LinearLayout
                             android:id="@+id/ll_N2080_1"
-                            style="@style/Q_Linerlayout_v">
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
 
                             <TextView
-                                android:id="@+id/txt_N2080_1"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2080_1" />
 
@@ -178,7 +189,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2080_2"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2080_2" />
 
@@ -220,7 +230,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2080_3"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2080_3" />
 
@@ -262,7 +271,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2080_4"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2080_4" />
 
@@ -304,7 +312,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2080_5"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2080_5" />
 
@@ -346,7 +353,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2080_6"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2080_6" />
 
@@ -388,7 +394,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2080_7"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2080_7" />
 
@@ -430,7 +435,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2080_8"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2080_8" />
 
@@ -472,7 +476,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2080_9"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2080_9" />
 
@@ -514,7 +517,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2080_10"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2080_10" />
 
@@ -556,7 +558,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2080_11"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2080_11" />
 
@@ -598,7 +599,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2080_12"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2080_12" />
 
@@ -640,7 +640,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2080_13"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2080_13" />
 
@@ -682,7 +681,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2080_14"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2080_14" />
 
@@ -724,7 +722,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2080_15"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2080_15" />
 
@@ -766,6 +763,7 @@
                 </LinearLayout>
                 <!-- Radio Buttons N2080_15 Ends -->
 
+
                 <!-- Radio Buttons N2081 Starts -->
                 <LinearLayout
                     android:id="@+id/ll_N2081_N2087"
@@ -782,7 +780,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2081"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2081" />
 
@@ -1250,7 +1247,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2087"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2087" />
 
@@ -1282,6 +1278,7 @@
                 </LinearLayout>
                 <!-- Radio Buttons N2087 Ends -->
 
+
                 <!-- Radio Buttons N2088 Starts -->
                 <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
@@ -1301,6 +1298,7 @@
                 </androidx.cardview.widget.CardView>
                 <!-- Radio Buttons N2088 Ends -->
 
+
                 <!-- Radio Buttons N2088_19 Starts -->
                 <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
@@ -1310,7 +1308,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2088_19"
                             style="@style/TextView"
                             android:text="@string/txt_N2088_19" />
 
@@ -1323,6 +1320,7 @@
 
                 </androidx.cardview.widget.CardView>
                 <!-- Radio Buttons N2088_19 Ends -->
+
 
                 <!-- Radio Buttons N2088_1 Starts -->
                 <LinearLayout
@@ -1339,7 +1337,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2088_1"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2088_1" />
 
@@ -1381,7 +1378,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2088_2"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2088_2" />
 
@@ -1423,7 +1419,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2088_3"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2088_3" />
 
@@ -1465,7 +1460,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2088_4"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2088_4" />
 
@@ -1507,7 +1501,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2088_5"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2088_5" />
 
@@ -1548,7 +1541,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2088_6"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2088_6" />
 
@@ -1590,7 +1582,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2088_7"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2088_7" />
 
@@ -1632,7 +1623,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2088_8"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2088_8" />
 
@@ -1674,7 +1664,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2088_9"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2088_9" />
 
@@ -1716,7 +1705,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2088_10"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2088_10" />
 
@@ -1758,7 +1746,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2088_11"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2088_11" />
 
@@ -1800,7 +1787,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2088_12"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2088_12" />
 
@@ -1842,7 +1828,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2088_13"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2088_13" />
 
@@ -1884,7 +1869,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2088_14"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2088_14" />
 
@@ -1926,7 +1910,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2088_15"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2088_15" />
 
@@ -1968,7 +1951,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2088_16"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2088_16" />
 
@@ -2010,7 +1992,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2088_17"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2088_17" />
 
@@ -2051,7 +2032,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2088_18"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2088_18" />
 
@@ -2093,13 +2073,14 @@
                 </LinearLayout>
                 <!-- Others N2080_18 Ends -->
 
+
                 <!-- Radio Buttons N2089 Starts -->
-                <LinearLayout
+                <!--<LinearLayout
                     android:id="@+id/ll_N2089_N2106"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
-                    <!--android:visibility="@{cbN2088191.checked ? View.GONE : View.VISIBLE}"-->
+                    &lt;!&ndash;android:visibility="@{cbN2088191.checked ? View.GONE : View.VISIBLE}"&ndash;&gt;
 
                     <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
@@ -2109,7 +2090,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2089"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2089" />
 
@@ -2162,9 +2142,9 @@
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
-                    <!-- Radio Buttons N2089 Ends -->
+                    &lt;!&ndash; Radio Buttons N2089 Ends &ndash;&gt;
 
-                    <!-- Radio Buttons N2090 Starts -->
+                    &lt;!&ndash; Radio Buttons N2090 Starts &ndash;&gt;
                     <LinearLayout
                         android:id="@+id/ll_N2090_N2092"
                         android:layout_width="match_parent"
@@ -2215,9 +2195,9 @@
                             </LinearLayout>
 
                         </androidx.cardview.widget.CardView>
-                        <!-- Radio Buttons N2090 Ends -->
+                        &lt;!&ndash; Radio Buttons N2090 Ends &ndash;&gt;
 
-                        <!-- Check Box N2091 Starts -->
+                        &lt;!&ndash; Check Box N2091 Starts &ndash;&gt;
                         <LinearLayout
                             android:id="@+id/ll_N2091_N2092"
                             android:layout_width="match_parent"
@@ -2298,11 +2278,11 @@
                                 </LinearLayout>
 
                             </androidx.cardview.widget.CardView>
-                            <!-- Check Box N2091 Ends -->
+                            &lt;!&ndash; Check Box N2091 Ends &ndash;&gt;
 
-                            <!-- Radio Buttons N2092 Starts -->
+                            &lt;!&ndash; Radio Buttons N2092 Starts &ndash;&gt;
                             <androidx.cardview.widget.CardView style="@style/Q_CardView">
-                                <!--android:visibility="@{cbN20915.checked || cbN20916.checked || cbN2091OT.checked || cbN2091DK.checked ? View.GONE : View.VISIBLE}"-->
+                                &lt;!&ndash;android:visibility="@{cbN20915.checked || cbN20916.checked || cbN2091OT.checked || cbN2091DK.checked ? View.GONE : View.VISIBLE}"&ndash;&gt;
 
                                 <LinearLayout
                                     android:id="@+id/ll_N2092"
@@ -2372,9 +2352,9 @@
 
                         </LinearLayout>
                     </LinearLayout>
-                    <!-- Radio Buttons N2092 Ends -->
+                    &lt;!&ndash; Radio Buttons N2092 Ends &ndash;&gt;
 
-                    <!-- Radio Buttons N2093 Starts -->
+                    &lt;!&ndash; Radio Buttons N2093 Starts &ndash;&gt;
                     <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
@@ -2383,7 +2363,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2093"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2093" />
 
@@ -2492,9 +2471,9 @@
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
-                    <!-- Radio Buttons N2093 Ends -->
+                    &lt;!&ndash; Radio Buttons N2093 Ends &ndash;&gt;
 
-                    <!-- EditText N2094 Starts -->
+                    &lt;!&ndash; EditText N2094 Starts &ndash;&gt;
                     <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
@@ -2503,7 +2482,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2094"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2094" />
 
@@ -2520,9 +2498,9 @@
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
-                    <!-- EditText N2094 Ends -->
+                    &lt;!&ndash; EditText N2094 Ends &ndash;&gt;
 
-                    <!-- EditText N2094 - Hint Starts -->
+                    &lt;!&ndash; EditText N2094 - Hint Starts &ndash;&gt;
                     <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                         <LinearLayout style="@style/Q_Linerlayout_v">
@@ -2542,9 +2520,9 @@
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
-                    <!-- EditText N2094 - Hint Ends -->
+                    &lt;!&ndash; EditText N2094 - Hint Ends &ndash;&gt;
 
-                    <!-- Radio Buttons N2095 Starts -->
+                    &lt;!&ndash; Radio Buttons N2095 Starts &ndash;&gt;
                     <LinearLayout
                         android:id="@+id/ll_N2095_N2106"
                         android:layout_width="match_parent"
@@ -2567,7 +2545,7 @@
                                 android:visibility="@{rbN20902.checked || rbN2090DK.checked ? View.GONE : View.VISIBLE}">
 
                                 <androidx.cardview.widget.CardView style="@style/Q_CardView">
-                                    <!--android:visibility="@{rbN20893.checked ? View.GONE : View.VISIBLE}"-->
+                                    &lt;!&ndash;android:visibility="@{rbN20893.checked ? View.GONE : View.VISIBLE}"&ndash;&gt;
 
                                     <LinearLayout
                                         android:id="@+id/ll_N2095"
@@ -2610,9 +2588,9 @@
                                     </LinearLayout>
 
                                 </androidx.cardview.widget.CardView>
-                                <!-- Radio Buttons N2095 Ends -->
+                                &lt;!&ndash; Radio Buttons N2095 Ends &ndash;&gt;
 
-                                <!-- Radio Buttons N2096 Starts -->
+                                &lt;!&ndash; Radio Buttons N2096 Starts &ndash;&gt;
                                 <androidx.cardview.widget.CardView
                                     style="@style/Q_CardView"
                                     android:visibility="@{rbN20951.checked ? View.VISIBLE : View.GONE}">
@@ -2716,19 +2694,19 @@
                                             style="@style/CheckBox"
                                             android:text="@string/other" />
 
-                                        <!--<EditText-->
-                                        <!--android:id="@+id/ed_N2096_OT"-->
-                                        <!--style="@style/EditText_varchar"-->
-                                        <!--android:hint="Other" />-->
+                                        &lt;!&ndash;<EditText&ndash;&gt;
+                                        &lt;!&ndash;android:id="@+id/ed_N2096_OT"&ndash;&gt;
+                                        &lt;!&ndash;style="@style/EditText_varchar"&ndash;&gt;
+                                        &lt;!&ndash;android:hint="Other" />&ndash;&gt;
 
                                     </LinearLayout>
 
                                 </androidx.cardview.widget.CardView>
 
                             </LinearLayout>
-                            <!-- Radio Buttons N2096 Ends -->
+                            &lt;!&ndash; Radio Buttons N2096 Ends &ndash;&gt;
 
-                            <!-- EditText N2097_1 Starts -->
+                            &lt;!&ndash; EditText N2097_1 Starts &ndash;&gt;
                             <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                                 <LinearLayout
@@ -2763,16 +2741,16 @@
                             </androidx.cardview.widget.CardView>
 
                         </LinearLayout>
-                        <!-- EditText N2097_1 Ends -->
+                        &lt;!&ndash; EditText N2097_1 Ends &ndash;&gt;
 
-                        <!--<LinearLayout
+                        &lt;!&ndash;<LinearLayout
                             android:id="@+id/ll_N2096_N4017_B"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:orientation="vertical"
-                            android:visibility="@{rbN20893.checked || rbN20951.checked ? View.VISIBLE : View.GONE}">-->
+                            android:visibility="@{rbN20893.checked || rbN20951.checked ? View.VISIBLE : View.GONE}">&ndash;&gt;
 
-                        <!-- Radio Buttons N2098 Starts -->
+                        &lt;!&ndash; Radio Buttons N2098 Starts &ndash;&gt;
                         <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                             <LinearLayout
@@ -2885,9 +2863,9 @@
                             </LinearLayout>
 
                         </androidx.cardview.widget.CardView>
-                        <!-- Radio Buttons N2098 Ends -->
+                        &lt;!&ndash; Radio Buttons N2098 Ends &ndash;&gt;
 
-                        <!-- Radio Buttons N2099 Starts -->
+                        &lt;!&ndash; Radio Buttons N2099 Starts &ndash;&gt;
                         <LinearLayout
                             android:id="@+id/ll_N2099_N2101"
                             android:layout_width="match_parent"
@@ -2934,9 +2912,9 @@
                                 </LinearLayout>
 
                             </androidx.cardview.widget.CardView>
-                            <!-- Radio Buttons N2099 Ends -->
+                            &lt;!&ndash; Radio Buttons N2099 Ends &ndash;&gt;
 
-                            <!-- Check Box N2100 Starts -->
+                            &lt;!&ndash; Check Box N2100 Starts &ndash;&gt;
                             <LinearLayout
                                 android:id="@+id/ll_N2100_N2100"
                                 android:layout_width="match_parent"
@@ -3002,11 +2980,11 @@
                                     </LinearLayout>
 
                                 </androidx.cardview.widget.CardView>
-                                <!-- Check Box N2100 Ends -->
+                                &lt;!&ndash; Check Box N2100 Ends &ndash;&gt;
 
                             </LinearLayout>
 
-                            <!-- Check Box N2101 Starts -->
+                            &lt;!&ndash; Check Box N2101 Starts &ndash;&gt;
                             <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                                 <LinearLayout
@@ -3067,9 +3045,9 @@
                             </androidx.cardview.widget.CardView>
 
                         </LinearLayout>
-                        <!-- Check Box N2101 Ends -->
+                        &lt;!&ndash; Check Box N2101 Ends &ndash;&gt;
 
-                        <!-- Radio Buttons N2102 Starts -->
+                        &lt;!&ndash; Radio Buttons N2102 Starts &ndash;&gt;
                         <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                             <LinearLayout
@@ -3118,9 +3096,9 @@
                             </LinearLayout>
 
                         </androidx.cardview.widget.CardView>
-                        <!-- Radio Buttons N2102 Ends -->
+                        &lt;!&ndash; Radio Buttons N2102 Ends &ndash;&gt;
 
-                        <!-- EditText N2103_1 Starts -->
+                        &lt;!&ndash; EditText N2103_1 Starts &ndash;&gt;
                         <LinearLayout
                             android:id="@+id/ll_N2103_N2106"
                             android:layout_width="match_parent"
@@ -3158,9 +3136,9 @@
                                 </LinearLayout>
 
                             </androidx.cardview.widget.CardView>
-                            <!-- EditText N2103_1 Ends -->
+                            &lt;!&ndash; EditText N2103_1 Ends &ndash;&gt;
 
-                            <!-- Radio Buttons N2104 Starts -->
+                            &lt;!&ndash; Radio Buttons N2104 Starts &ndash;&gt;
                             <androidx.cardview.widget.CardView
                                 style="@style/Q_CardView"
                                 android:visibility="@{rbN20983.checked || rbN20987.checked ? View.VISIBLE : View.GONE}">
@@ -3196,9 +3174,9 @@
                                 </LinearLayout>
 
                             </androidx.cardview.widget.CardView>
-                            <!-- Radio Buttons N2104 Ends -->
+                            &lt;!&ndash; Radio Buttons N2104 Ends &ndash;&gt;
 
-                            <!-- Radio Buttons N2105 Starts -->
+                            &lt;!&ndash; Radio Buttons N2105 Starts &ndash;&gt;
                             <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                                 <LinearLayout
@@ -3232,9 +3210,9 @@
                                 </LinearLayout>
 
                             </androidx.cardview.widget.CardView>
-                            <!-- Radio Buttons N2105 Ends -->
+                            &lt;!&ndash; Radio Buttons N2105 Ends &ndash;&gt;
 
-                            <!-- Radio Buttons N2106 Starts -->
+                            &lt;!&ndash; Radio Buttons N2106 Starts &ndash;&gt;
                             <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                                 <LinearLayout
@@ -3271,11 +3249,13 @@
 
                         </LinearLayout>
 
-                        <!--</LinearLayout>-->
+                        &lt;!&ndash;</LinearLayout>&ndash;&gt;
 
                     </LinearLayout>
-                </LinearLayout>
+
+                </LinearLayout>-->
                 <!-- Radio Buttons N2106 Ends -->
+
 
                 <!-- Radio Buttons N2107_1 Starts -->
                 <!--<LinearLayout
@@ -3285,105 +3265,103 @@
                     android:orientation="vertical"
                     android:visibility="@{rbN20951.checked ? View.VISIBLE : View.GONE}">-->
 
-                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+                <!-- <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
-                    <LinearLayout
-                        android:id="@+id/ll_N2107_1"
-                        style="@style/Q_Linerlayout_v">
+                     <LinearLayout
+                         android:id="@+id/ll_N2107_1"
+                         style="@style/Q_Linerlayout_v">
 
-                        <TextView
-                            android:id="@+id/txt_N2107"
-                            style="@style/TextView"
-                            android:text="@string/txt_N2107" />
+ <TextView
+                             style="@style/TextView"
+                             android:text="@string/txt_N2107" />
 
-                        <TextView
-                            android:id="@+id/txt_N2107_1"
-                            style="@style/TextView"
-                            android:text="@string/txt_N2107_1" />
+ <TextView
+                             style="@style/TextView"
+                             android:text="@string/txt_N2107_1" />
 
-                        <TextView
-                            style="@style/TextView_Hint"
-                            android:text="@string/N2107_h" />
+                         <TextView
+                             style="@style/TextView_Hint"
+                             android:text="@string/N2107_h" />
 
-                        <RadioGroup style="@style/RadioGroup">
+                         <RadioGroup style="@style/RadioGroup">
 
-                            <RadioButton
-                                android:id="@+id/rb_N2107_1_1"
-                                style="@style/RadioButton"
-                                android:text="@string/yes" />
+                             <RadioButton
+                                 android:id="@+id/rb_N2107_1_1"
+                                 style="@style/RadioButton"
+                                 android:text="@string/yes" />
 
-                            <RadioButton
-                                android:id="@+id/rb_N2107_1_2"
-                                style="@style/RadioButton"
-                                android:text="@string/no" />
+                             <RadioButton
+                                 android:id="@+id/rb_N2107_1_2"
+                                 style="@style/RadioButton"
+                                 android:text="@string/no" />
 
-                            <RadioButton
-                                android:id="@+id/rb_N2107_1_DK"
-                                style="@style/RadioButton"
-                                android:text="@string/dnt" />
+                             <RadioButton
+                                 android:id="@+id/rb_N2107_1_DK"
+                                 style="@style/RadioButton"
+                                 android:text="@string/dnt" />
 
-                            <RadioButton
-                                android:id="@+id/rb_N2107_1_RA"
-                                style="@style/RadioButton"
-                                android:text="@string/ra" />
+                             <RadioButton
+                                 android:id="@+id/rb_N2107_1_RA"
+                                 style="@style/RadioButton"
+                                 android:text="@string/ra" />
 
-                        </RadioGroup>
+                         </RadioGroup>
 
-                    </LinearLayout>
+                     </LinearLayout>
 
-                </androidx.cardview.widget.CardView>
-                <!-- Radio Buttons N2107_1 Ends -->
+                 </androidx.cardview.widget.CardView>
+                 &lt;!&ndash; Radio Buttons N2107_1 Ends &ndash;&gt;
 
-                <!-- Radio Buttons N2107_2 Starts -->
-                <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
-                    <LinearLayout
-                        android:id="@+id/ll_N2107_2"
-                        style="@style/Q_Linerlayout_v">
+                 &lt;!&ndash; Radio Buttons N2107_2 Starts &ndash;&gt;
+                 <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
-                        <TextView
-                            android:id="@+id/txt_N2107_2"
-                            style="@style/TextView"
-                            android:text="@string/txt_N2107_2" />
+                     <LinearLayout
+                         android:id="@+id/ll_N2107_2"
+                         style="@style/Q_Linerlayout_v">
 
-                        <RadioGroup style="@style/RadioGroup">
+ <TextView
+                             style="@style/TextView"
+                             android:text="@string/txt_N2107_2" />
 
-                            <RadioButton
-                                android:id="@+id/rb_N2107_2_1"
-                                style="@style/RadioButton"
-                                android:text="@string/yes" />
+                         <RadioGroup style="@style/RadioGroup">
 
-                            <RadioButton
-                                android:id="@+id/rb_N2107_2_2"
-                                style="@style/RadioButton"
-                                android:text="@string/no" />
+                             <RadioButton
+                                 android:id="@+id/rb_N2107_2_1"
+                                 style="@style/RadioButton"
+                                 android:text="@string/yes" />
 
-                            <RadioButton
-                                android:id="@+id/rb_N2107_2_DK"
-                                style="@style/RadioButton"
-                                android:text="@string/dnt" />
+                             <RadioButton
+                                 android:id="@+id/rb_N2107_2_2"
+                                 style="@style/RadioButton"
+                                 android:text="@string/no" />
 
-                            <RadioButton
-                                android:id="@+id/rb_N2107_2_RA"
-                                style="@style/RadioButton"
-                                android:text="@string/ra" />
+                             <RadioButton
+                                 android:id="@+id/rb_N2107_2_DK"
+                                 style="@style/RadioButton"
+                                 android:text="@string/dnt" />
 
-                        </RadioGroup>
+                             <RadioButton
+                                 android:id="@+id/rb_N2107_2_RA"
+                                 style="@style/RadioButton"
+                                 android:text="@string/ra" />
 
-                    </LinearLayout>
+                         </RadioGroup>
 
-                </androidx.cardview.widget.CardView>
+                     </LinearLayout>
+
+                 </androidx.cardview.widget.CardView>-->
                 <!-- Radio Buttons N2107_2 Ends -->
 
+
                 <!-- Radio Buttons N2107_3 Starts -->
-                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+                <!--<androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
                         android:id="@+id/ll_N2107_3"
                         style="@style/Q_Linerlayout_v">
 
-                        <TextView
-                            android:id="@+id/txt_N2107_3"
+<TextView
                             style="@style/TextView"
                             android:text="@string/txt_N2107_3" />
 
@@ -3417,10 +3395,12 @@
 
                     </LinearLayout>
 
-                </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>-->
+
 
                 <!--</LinearLayout>-->
                 <!-- Radio Buttons N2107_3 Ends -->
+
 
                 <!--  = = = = =  END OF FORM FIELDS  = = = = = -->
                 <!-- Next Buttons Starts -->
@@ -3438,9 +3418,14 @@
                 </androidx.cardview.widget.CardView>
                 <!-- Next Buttons Ends -->
 
+
             </LinearLayout>
+
 
         </ScrollView>
 
+
     </LinearLayout>
+
+
 </layout>

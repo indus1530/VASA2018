@@ -48,10 +48,10 @@
             android:layout_marginBottom="5sp"
             android:fadeScrollbars="false"
             android:fillViewport="true"
-            android:paddingBottom="5sp"
             android:paddingLeft="5sp"
-            android:paddingRight="5sp"
             android:paddingTop="5sp"
+            android:paddingRight="5sp"
+            android:paddingBottom="5sp"
             android:scrollbarSize="10dip">
 
             <LinearLayout style="@style/Q_Linerlayout_v">
@@ -90,7 +90,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2321"
                             style="@style/TextView"
                             android:text="@string/txt_N2321" />
 
@@ -120,7 +119,7 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_cap_count"
+                            android:id="@+id/txtCapCount"
                             style="@style/TextViewInstructions"
                             android:text="Pictures Attached: 0" />
 
@@ -145,7 +144,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2322"
                             style="@style/TextView"
                             android:text="@string/txt_N2322" />
 

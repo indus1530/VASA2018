@@ -76,13 +76,17 @@ the child was delivered: A) and did not fill C3064-C3070→ C3259;    B) and fil
                             android:text="@string/txt_C3253" />
 
                     </LinearLayout>
+
                 </androidx.cardview.widget.CardView>
+
 
                 <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
-                        android:id="@+id/ll_C3253_1"
-                        style="@style/Q_Linerlayout_v">
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
 
                         <TextView
                             style="@style/TextViewHead"
@@ -90,21 +94,29 @@ the child was delivered: A) and did not fill C3064-C3070→ C3259;    B) and fil
 
                         <RadioGroup
                             android:id="@+id/rg_C3253_1"
-                            style="@style/RadioGroup">
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
 
                             <RadioButton
                                 android:id="@+id/rb_C3253_1_1"
-                                style="@style/RadioButton"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
                                 android:text="@string/rb_C3253_1_1" />
 
                             <RadioButton
                                 android:id="@+id/rb_C3253_1_2"
-                                style="@style/RadioButton"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
                                 android:text="@string/rb_C3253_1_2" />
 
                             <RadioButton
                                 android:id="@+id/rb_C3253_1_3"
-                                style="@style/RadioButton"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
                                 android:text="@string/rb_C3253_1_3" />
 
                         </RadioGroup>

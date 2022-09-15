@@ -246,10 +246,9 @@
                         android:id="@+id/ll_N2295"
                         style="@style/Q_Linerlayout_v">
 
-                        <TextView
-                            android:id="@+id/txt_N2295"
-                            style="@style/TextView"
-                            android:text="@string/txt_N2295" />
+<TextView
+    style="@style/TextView"
+    android:text="@string/txt_N2295" />
 
                         <TextView
                             style="@style/TextView_Hint"
@@ -457,7 +456,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2300"
                             style="@style/TextView"
                             android:text="@string/txt_N2300" />
 

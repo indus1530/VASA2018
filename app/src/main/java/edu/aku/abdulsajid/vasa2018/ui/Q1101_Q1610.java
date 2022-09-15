@@ -636,21 +636,21 @@ public class Q1101_Q1610 extends AppCompatActivity implements RadioButton.OnChec
 
                     } else if (Integer.valueOf(res.getString(res.getColumnIndex("Q1609"))).equals(2)) {
 
-                        Intent c = new Intent(this, w204_w222.class);
+                        Intent c = new Intent(this, SectionWActivity.class);
                         c.putExtra("study_id", study_id);
                         //c.putExtra("section", "C3001_C3011");
                         startActivity(c);
 
                     } else if (Integer.valueOf(res.getString(res.getColumnIndex("Q1609"))).equals(3) || Integer.valueOf(res.getString(res.getColumnIndex("Q1609"))).equals(4)) {
 
-                        Intent c = new Intent(this, w204_w222.class);
+                        Intent c = new Intent(this, SectionWActivity.class);
                         c.putExtra("study_id", study_id);
                         //c.putExtra("section", "C3012_C3022");
                         startActivity(c);
 
                     } else if (Integer.valueOf(res.getString(res.getColumnIndex("Q1609"))).equals(1)) {
 
-                        Intent c = new Intent(this, w204_w222.class);
+                        Intent c = new Intent(this, SectionWActivity.class);
                         c.putExtra("study_id", study_id);
                         //c.putExtra("section", "N2001_N2011");
                         startActivity(c);

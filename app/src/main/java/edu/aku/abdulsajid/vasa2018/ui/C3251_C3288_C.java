@@ -4,8 +4,6 @@ import static edu.aku.abdulsajid.vasa2018.ui.C3251_C3288_A.c3251A_ID;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.CompoundButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
@@ -191,7 +189,7 @@ public class C3251_C3288_C extends AppCompatActivity {
             }
         });
 
-        bi.rgC3260.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+        /*bi.rgC3260.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, int i) {
                 if (i == bi.rbC32602.getId()) {
@@ -567,7 +565,7 @@ public class C3251_C3288_C extends AppCompatActivity {
 
             bi.llC3259C3263A.setVisibility(View.GONE);
             bi.llC3254C3263B.setVisibility(View.GONE);
-        }
+        }*/
 
     }
 
@@ -610,7 +608,7 @@ public class C3251_C3288_C extends AppCompatActivity {
         C3251C.setC3256OTx(bi.edC3256OT.getText().toString().trim().length() > 0 ? bi.edC3256OT.getText().toString() : "-1");
         C3251C.setC3256Dk(bi.cbC3256DK.isChecked() ? "99" : "-1");
 
-        C3251C.setC32571(bi.edC32571.getText().toString().trim().length() > 0 ? bi.edC32571.getText().toString() : "-1");
+        /*C3251C.setC32571(bi.edC32571.getText().toString().trim().length() > 0 ? bi.edC32571.getText().toString() : "-1");
         C3251C.setC32572(bi.edC32572.getText().toString().trim().length() > 0 ? bi.edC32572.getText().toString() : "-1");
         C3251C.setC32573(bi.edC32573.getText().toString().trim().length() > 0 ? bi.edC32573.getText().toString() : "-1");
 
@@ -643,7 +641,7 @@ public class C3251_C3288_C extends AppCompatActivity {
         C3251C.setC32671(bi.rbC326711.isChecked() ? "1" : bi.rbC326712.isChecked() ? "2" : bi.rbC326713.isChecked() ? "3" : bi.rbC32671DK.isChecked() ? "9" : "-1");
         C3251C.setC32672(bi.rbC326721.isChecked() ? "1" : bi.rbC326722.isChecked() ? "2" : bi.rbC326723.isChecked() ? "3" : bi.rbC32672DK.isChecked() ? "9" : "-1");
 
-        /*Repeat*/
+        *//*Repeat*//*
 
         C3251C.setC32681(bi.rbC326811.isChecked() ? "1" : bi.rbC326812.isChecked() ? "2" : bi.rbC326813.isChecked() ? "3" : bi.rbC32681DK.isChecked() ? "9" : "-1");
         C3251C.setC32682(bi.rbC326821.isChecked() ? "1" : bi.rbC326822.isChecked() ? "2" : bi.rbC326823.isChecked() ? "3" : bi.rbC32682DK.isChecked() ? "9" : "-1");
@@ -721,7 +719,7 @@ public class C3251_C3288_C extends AppCompatActivity {
         C3251C.setC3285(bi.rbC32851.isChecked() ? "1" : bi.rbC32852.isChecked() ? "2" : bi.rbC3285DK.isChecked() ? "9" : bi.rbC3285RA.isChecked() ? "8" : "-1");
         C3251C.setC3286(bi.rbC32861.isChecked() ? "1" : bi.rbC32862.isChecked() ? "2" : bi.rbC3286DK.isChecked() ? "9" : bi.rbC3286RA.isChecked() ? "8" : "-1");
 
-        C3251C.setC3287(bi.rbC32871.isChecked() ? "1" : bi.rbC32872.isChecked() ? "2" : bi.rbC3287DK.isChecked() ? "9" : bi.rbC3287RA.isChecked() ? "8" : "-1");
+        C3251C.setC3287(bi.rbC32871.isChecked() ? "1" : bi.rbC32872.isChecked() ? "2" : bi.rbC3287DK.isChecked() ? "9" : bi.rbC3287RA.isChecked() ? "8" : "-1");*/
 
         C3251C.setC3288(bi.edC3288.getText().toString().trim().length() > 0 ? bi.edC3288.getText().toString() : "-1");
 
@@ -755,9 +753,9 @@ public class C3251_C3288_C extends AppCompatActivity {
 
             if (flag_c3064 && flag_c3070) {
                 //ll_C3255
-                if (!Gothrough.IamHiden(bi.llC3255)) {
+                /*if (!Gothrough.IamHiden(bi.llC3255)) {
                     return false;
-                }
+                }*/
 
                 if (bi.rbC32551.isChecked()) {
                     //ll_C3256
@@ -777,7 +775,7 @@ public class C3251_C3288_C extends AppCompatActivity {
 
                     if (flag_c3064 && flag_c3070) {
                         //ll_C3257
-                        if (!Gothrough.IamHiden(bi.llC3257)) {
+                       /* if (!Gothrough.IamHiden(bi.llC3257)) {
                             return false;
                         }
 
@@ -788,12 +786,12 @@ public class C3251_C3288_C extends AppCompatActivity {
                         //ll_C3258_2
                         if (!Gothrough.IamHiden(bi.llC32582)) {
                             return false;
-                        }
+                        }*/
                     }
 
                     if (flag_c3070) {
                         //ll_C3259
-                        if (!Gothrough.IamHiden(bi.llC3259)) {
+                       /* if (!Gothrough.IamHiden(bi.llC3259)) {
                             return false;
                         }
                         if (!Gothrough.TextHidden(
@@ -804,10 +802,10 @@ public class C3251_C3288_C extends AppCompatActivity {
                         //ll_C3260
                         if (!Gothrough.IamHiden(bi.llC3260)) {
                             return false;
-                        }
+                        }*/
                     }
 
-                    if (bi.rbC32601.isChecked()) {
+                    /*if (bi.rbC32601.isChecked()) {
 
                         if (flag_c3070) {
                             //ll_C3261_1
@@ -948,9 +946,9 @@ public class C3251_C3288_C extends AppCompatActivity {
                             }
                         }
 
-                    }
+                    }*/
 
-                    if (!bi.rbC32602.isChecked()) {
+                    /*if (!bi.rbC32602.isChecked()) {
 
                         if (bi.rbC32631.isChecked() || bi.rbC32731.isChecked()) {
                             //ll_C3278
@@ -1016,6 +1014,7 @@ public class C3251_C3288_C extends AppCompatActivity {
                 //ll_C3287
                 if (!Gothrough.IamHiden(bi.llC3287)) {
                     return false;
+                }*/
                 }
 
             }

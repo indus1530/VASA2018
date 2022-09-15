@@ -90,10 +90,9 @@
                         android:id="@+id/ll_N2001"
                         style="@style/Q_Linerlayout_v">
 
-                        <TextView
-                            android:id="@+id/txt_N2001"
-                            style="@style/TextView"
-                            android:text="@string/txt_N2001" />
+<TextView
+    style="@style/TextView"
+    android:text="@string/txt_N2001" />
 
                         <RadioGroup
                             android:id="@+id/rg_N2001"
@@ -137,7 +136,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2002"
                             style="@style/TextView"
                             android:text="@string/txt_N2002" />
 
@@ -181,7 +179,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2003"
                             style="@style/TextView"
                             android:text="@string/txt_N2003" />
 
@@ -442,7 +439,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2006"
                             style="@style/TextView"
                             android:text="@string/txt_N2006" />
 
@@ -566,7 +562,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2008"
                             style="@style/TextView"
                             android:text="@string/txt_N2008" />
 
@@ -646,7 +641,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2009_1"
                             style="@style/TextView"
                             android:text="@string/txt_N2009_1" />
 
@@ -908,7 +902,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2010"
                             style="@style/TextView"
                             android:text="@string/txt_N2010" />
 
@@ -937,7 +930,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2011"
                             style="@style/TextView"
                             android:text="@string/txt_N2011" />
 

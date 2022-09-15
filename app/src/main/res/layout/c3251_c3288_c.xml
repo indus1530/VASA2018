@@ -28,15 +28,20 @@
 
             <LinearLayout
                 android:id="@+id/GrpName"
-                style="@style/Q_Linerlayout_v">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
 
 
                 <!-- EditText study_id -->
                 <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
-                        android:id="@+id/ll_study_id"
-                        style="@style/Q_Linerlayout_v">
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
 
                         <TextView
                             style="@style/TextView"
@@ -147,8 +152,10 @@
                         <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                             <LinearLayout
-                                android:id="@+id/ll_C3255"
-                                style="@style/Q_Linerlayout_v">
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:padding="10dp">
 
                                 <TextView
                                     style="@style/TextView"
@@ -186,9 +193,10 @@
                             </LinearLayout>
 
                         </androidx.cardview.widget.CardView>
-                        <!-- Radio Buttons C3255 Ends -->
+                        <!-- Radio C3255 -->
 
-                        <!-- Radio Buttons C3256 Starts -->
+
+                        <!-- Radio C3256 -->
                         <androidx.cardview.widget.CardView
                             style="@style/Q_CardView"
                             android:visibility="@{rbC32551.checked ? View.VISIBLE :View.GONE}">
@@ -303,7 +311,7 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
 
 
                     <!-- EditText C3257 Starts -->
-                    <LinearLayout
+                    <!--<LinearLayout
                         android:id="@+id/ll_C3257_C3288_A"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -352,9 +360,9 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                     </LinearLayout>
 
                                 </androidx.cardview.widget.CardView>
-                                <!-- EditText C3257 Ends -->
+                                &lt;!&ndash; EditText C3257 Ends &ndash;&gt;
 
-                                <!-- Radio Buttons C3258_1 Starts -->
+                                &lt;!&ndash; Radio Buttons C3258_1 Starts &ndash;&gt;
                                 <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                                     <LinearLayout
@@ -392,9 +400,9 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                     </LinearLayout>
 
                                 </androidx.cardview.widget.CardView>
-                                <!-- Radio Buttons C3258_1 Ends -->
+                                &lt;!&ndash; Radio Buttons C3258_1 Ends &ndash;&gt;
 
-                                <!-- Radio Buttons C3258_2 Starts -->
+                                &lt;!&ndash; Radio Buttons C3258_2 Starts &ndash;&gt;
                                 <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
@@ -433,11 +441,11 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                     </LinearLayout>
 
                                 </androidx.cardview.widget.CardView>
-                                <!-- Radio Buttons C3258_2 Ends -->
+                                &lt;!&ndash; Radio Buttons C3258_2 Ends &ndash;&gt;
 
                             </LinearLayout>
 
-                            <!-- Radio Buttons C3259 Starts -->
+                            &lt;!&ndash; Radio Buttons C3259 Starts &ndash;&gt;
                             <LinearLayout
                                 android:id="@+id/ll_C3259_C3263_A"
                                 android:layout_width="match_parent"
@@ -536,9 +544,9 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                     </LinearLayout>
 
                                 </androidx.cardview.widget.CardView>
-                                <!-- Radio Buttons C3259 Ends -->
+                                &lt;!&ndash; Radio Buttons C3259 Ends &ndash;&gt;
 
-                                <!-- Radio Buttons C3260 Starts -->
+                                &lt;!&ndash; Radio Buttons C3260 Starts &ndash;&gt;
                                 <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
@@ -581,9 +589,9 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                 </androidx.cardview.widget.CardView>
 
                             </LinearLayout>
-                            <!-- Radio Buttons C3260 Ends -->
+                            &lt;!&ndash; Radio Buttons C3260 Ends &ndash;&gt;
 
-                            <!-- EditText C3260_1 Starts -->
+                            &lt;!&ndash; EditText C3260_1 Starts &ndash;&gt;
                             <LinearLayout
                                 android:id="@+id/ll_C3261_C3277_A"
                                 android:layout_width="match_parent"
@@ -621,9 +629,9 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                         </LinearLayout>
 
                                     </androidx.cardview.widget.CardView>
-                                    <!-- EditText C3261_1 Ends -->
+                                    &lt;!&ndash; EditText C3261_1 Ends &ndash;&gt;
 
-                                    <!-- EditText C3261_2 Starts -->
+                                    &lt;!&ndash; EditText C3261_2 Starts &ndash;&gt;
                                     <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
@@ -649,9 +657,9 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                         </LinearLayout>
 
                                     </androidx.cardview.widget.CardView>
-                                    <!-- EditText C3261_2 Ends -->
+                                    &lt;!&ndash; EditText C3261_2 Ends &ndash;&gt;
 
-                                    <!-- Radio Buttons C3262 Starts -->
+                                    &lt;!&ndash; Radio Buttons C3262 Starts &ndash;&gt;
                                     <androidx.cardview.widget.CardView
                                         style="@style/Q_CardView"
                                         android:visibility="@{rbC325911.checked || rbC325917.checked ? View.VISIBLE : View.GONE }">
@@ -689,7 +697,7 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                     </androidx.cardview.widget.CardView>
 
                                 </LinearLayout>
-                                <!-- Radio Buttons C3262 Ends -->
+                                &lt;!&ndash; Radio Buttons C3262 Ends &ndash;&gt;
 
                             </LinearLayout>
 
@@ -716,7 +724,7 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
 
-                                <!-- Radio Buttons C3263 Starts -->
+                                &lt;!&ndash; Radio Buttons C3263 Starts &ndash;&gt;
                                 <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                                     <LinearLayout
@@ -755,9 +763,9 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                     </LinearLayout>
 
                                 </androidx.cardview.widget.CardView>
-                                <!-- Radio Buttons C3263 Ends -->
+                                &lt;!&ndash; Radio Buttons C3263 Ends &ndash;&gt;
 
-                                <!-- Radio Buttons C3264 Starts -->
+                                &lt;!&ndash; Radio Buttons C3264 Starts &ndash;&gt;
                                 <androidx.cardview.widget.CardView
                                     style="@style/Q_CardView"
                                     android:visibility="@{rbC32631.checked? View.VISIBLE : View.GONE }">
@@ -848,9 +856,9 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                     </LinearLayout>
 
                                 </androidx.cardview.widget.CardView>
-                                <!-- Radio Buttons C3264 Ends -->
+                                &lt;!&ndash; Radio Buttons C3264 Ends &ndash;&gt;
 
-                                <!-- Radio Buttons C3265_1 Starts -->
+                                &lt;!&ndash; Radio Buttons C3265_1 Starts &ndash;&gt;
                                 <LinearLayout
                                     android:id="@+id/ll_C3265_C3265"
                                     android:layout_width="match_parent"
@@ -891,9 +899,9 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                         </LinearLayout>
 
                                     </androidx.cardview.widget.CardView>
-                                    <!-- Radio Buttons C3265_1 Ends -->
+                                    &lt;!&ndash; Radio Buttons C3265_1 Ends &ndash;&gt;
 
-                                    <!-- Radio Buttons C3265_2 Starts -->
+                                    &lt;!&ndash; Radio Buttons C3265_2 Starts &ndash;&gt;
                                     <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
@@ -929,9 +937,9 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                     </androidx.cardview.widget.CardView>
 
                                 </LinearLayout>
-                                <!-- Radio Buttons C3265_2 Ends -->
+                                &lt;!&ndash; Radio Buttons C3265_2 Ends &ndash;&gt;
 
-                                <!-- Radio Buttons C3266 Starts -->
+                                &lt;!&ndash; Radio Buttons C3266 Starts &ndash;&gt;
                                 <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
@@ -962,9 +970,9 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                     </LinearLayout>
 
                                 </androidx.cardview.widget.CardView>
-                                <!-- Radio Buttons C3266 Ends -->
+                                &lt;!&ndash; Radio Buttons C3266 Ends &ndash;&gt;
 
-                                <!-- Radio Buttons C3267_1 Starts -->
+                                &lt;!&ndash; Radio Buttons C3267_1 Starts &ndash;&gt;
                                 <LinearLayout
                                     android:id="@+id/ll_C3267_1_C3277_2"
                                     android:layout_width="match_parent"
@@ -1010,9 +1018,9 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                         </LinearLayout>
 
                                     </androidx.cardview.widget.CardView>
-                                    <!-- Radio Buttons C3267_1 Ends -->
+                                    &lt;!&ndash; Radio Buttons C3267_1 Ends &ndash;&gt;
 
-                                    <!-- Radio Buttons C3267_2 Starts -->
+                                    &lt;!&ndash; Radio Buttons C3267_2 Starts &ndash;&gt;
                                     <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
@@ -1051,9 +1059,9 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                         </LinearLayout>
 
                                     </androidx.cardview.widget.CardView>
-                                    <!-- Radio Buttons C3267_2 Ends -->
+                                    &lt;!&ndash; Radio Buttons C3267_2 Ends &ndash;&gt;
 
-                                    <!-- Radio Buttons C3268_1 Starts -->
+                                    &lt;!&ndash; Radio Buttons C3268_1 Starts &ndash;&gt;
                                     <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
@@ -1092,9 +1100,9 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                         </LinearLayout>
 
                                     </androidx.cardview.widget.CardView>
-                                    <!-- Radio Buttons C3268_1 Ends -->
+                                    &lt;!&ndash; Radio Buttons C3268_1 Ends &ndash;&gt;
 
-                                    <!-- Radio Buttons C3268_2 Starts -->
+                                    &lt;!&ndash; Radio Buttons C3268_2 Starts &ndash;&gt;
                                     <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
@@ -1133,9 +1141,9 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                         </LinearLayout>
 
                                     </androidx.cardview.widget.CardView>
-                                    <!-- Radio Buttons C3268_2 Ends -->
+                                    &lt;!&ndash; Radio Buttons C3268_2 Ends &ndash;&gt;
 
-                                    <!-- Radio Buttons C3269 Starts -->
+                                    &lt;!&ndash; Radio Buttons C3269 Starts &ndash;&gt;
                                     <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
@@ -1221,9 +1229,9 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                         </LinearLayout>
 
                                     </androidx.cardview.widget.CardView>
-                                    <!-- Radio Buttons C3269 Ends -->
+                                    &lt;!&ndash; Radio Buttons C3269 Ends &ndash;&gt;
 
-                                    <!-- Radio Buttons C3270 Starts -->
+                                    &lt;!&ndash; Radio Buttons C3270 Starts &ndash;&gt;
                                     <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
@@ -1264,9 +1272,9 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                         </LinearLayout>
 
                                     </androidx.cardview.widget.CardView>
-                                    <!-- Radio Buttons C3270 Ends -->
+                                    &lt;!&ndash; Radio Buttons C3270 Ends &ndash;&gt;
 
-                                    <!-- EditText C3271_1 Starts -->
+                                    &lt;!&ndash; EditText C3271_1 Starts &ndash;&gt;
                                     <LinearLayout
                                         android:id="@+id/ll_C3271_C3277"
                                         android:layout_width="match_parent"
@@ -1295,9 +1303,9 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                             </LinearLayout>
 
                                         </androidx.cardview.widget.CardView>
-                                        <!-- EditText C3271_1 Ends -->
+                                        &lt;!&ndash; EditText C3271_1 Ends &ndash;&gt;
 
-                                        <!-- EditText C3271_2 Starts -->
+                                        &lt;!&ndash; EditText C3271_2 Starts &ndash;&gt;
                                         <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
@@ -1319,9 +1327,9 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                             </LinearLayout>
 
                                         </androidx.cardview.widget.CardView>
-                                        <!-- EditText C3271_2 Ends -->
+                                        &lt;!&ndash; EditText C3271_2 Ends &ndash;&gt;
 
-                                        <!-- Radio Buttons C3272 Starts -->
+                                        &lt;!&ndash; Radio Buttons C3272 Starts &ndash;&gt;
                                         <androidx.cardview.widget.CardView
                                             style="@style/Q_CardView"
                                             android:visibility="@{rbC326911.checked || rbC326917.checked ? View.VISIBLE : View.GONE }">
@@ -1358,9 +1366,9 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                             </LinearLayout>
 
                                         </androidx.cardview.widget.CardView>
-                                        <!-- Radio Buttons C3272 Ends -->
+                                        &lt;!&ndash; Radio Buttons C3272 Ends &ndash;&gt;
 
-                                        <!-- Radio Buttons C3273 Starts -->
+                                        &lt;!&ndash; Radio Buttons C3273 Starts &ndash;&gt;
                                         <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
@@ -1401,9 +1409,9 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                             </LinearLayout>
 
                                         </androidx.cardview.widget.CardView>
-                                        <!-- Radio Buttons C3273 Ends -->
+                                        &lt;!&ndash; Radio Buttons C3273 Ends &ndash;&gt;
 
-                                        <!-- Radio Buttons C3274 Starts -->
+                                        &lt;!&ndash; Radio Buttons C3274 Starts &ndash;&gt;
                                         <androidx.cardview.widget.CardView
                                             style="@style/Q_CardView"
                                             android:visibility="@{rbC32731.checked? View.VISIBLE : View.GONE }">
@@ -1493,9 +1501,9 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                             </LinearLayout>
 
                                         </androidx.cardview.widget.CardView>
-                                        <!-- Radio Buttons C3274 Ends -->
+                                        &lt;!&ndash; Radio Buttons C3274 Ends &ndash;&gt;
 
-                                        <!-- Radio Buttons C3275_1 Starts -->
+                                        &lt;!&ndash; Radio Buttons C3275_1 Starts &ndash;&gt;
                                         <LinearLayout
                                             android:id="@+id/ll_C3275_C3275"
                                             android:layout_width="match_parent"
@@ -1537,9 +1545,9 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                                 </LinearLayout>
 
                                             </androidx.cardview.widget.CardView>
-                                            <!-- Radio Buttons C3275_1 Ends -->
+                                            &lt;!&ndash; Radio Buttons C3275_1 Ends &ndash;&gt;
 
-                                            <!-- Radio Buttons C3275_2 Starts -->
+                                            &lt;!&ndash; Radio Buttons C3275_2 Starts &ndash;&gt;
                                             <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
@@ -1575,9 +1583,9 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
 
                                             </androidx.cardview.widget.CardView>
                                         </LinearLayout>
-                                        <!-- Radio Buttons C3275_2 Ends -->
+                                        &lt;!&ndash; Radio Buttons C3275_2 Ends &ndash;&gt;
 
-                                        <!-- Radio Buttons C3276 Starts -->
+                                        &lt;!&ndash; Radio Buttons C3276 Starts &ndash;&gt;
                                         <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
@@ -1609,9 +1617,9 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                             </LinearLayout>
 
                                         </androidx.cardview.widget.CardView>
-                                        <!-- Radio Buttons C3276 Ends -->
+                                        &lt;!&ndash; Radio Buttons C3276 Ends &ndash;&gt;
 
-                                        <!-- Radio Buttons C3277_1 Starts -->
+                                        &lt;!&ndash; Radio Buttons C3277_1 Starts &ndash;&gt;
                                         <LinearLayout
                                             android:id="@+id/ll_C3277_1_C3277_2"
                                             android:layout_width="match_parent"
@@ -1658,9 +1666,9 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                                 </LinearLayout>
 
                                             </androidx.cardview.widget.CardView>
-                                            <!-- Radio Buttons C3277_1 Ends -->
+                                            &lt;!&ndash; Radio Buttons C3277_1 Ends &ndash;&gt;
 
-                                            <!-- Radio Buttons C3277_2 Starts -->
+                                            &lt;!&ndash; Radio Buttons C3277_2 Starts &ndash;&gt;
                                             <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
@@ -1708,9 +1716,9 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                 </LinearLayout>
 
                             </LinearLayout>
-                            <!-- Radio Buttons C3277_2 Ends -->
+                            &lt;!&ndash; Radio Buttons C3277_2 Ends &ndash;&gt;
 
-                            <!-- Radio Buttons C3278 Starts -->
+                            &lt;!&ndash; Radio Buttons C3278 Starts &ndash;&gt;
                             <LinearLayout
                                 android:id="@+id/ll_C3278_C3286"
                                 android:layout_width="match_parent"
@@ -1761,9 +1769,9 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                         </LinearLayout>
 
                                     </androidx.cardview.widget.CardView>
-                                    <!-- Radio Buttons C3278 Ends -->
+                                    &lt;!&ndash; Radio Buttons C3278 Ends &ndash;&gt;
 
-                                    <!-- Radio Buttons C3279 Starts -->
+                                    &lt;!&ndash; Radio Buttons C3279 Starts &ndash;&gt;
                                     <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                                         <LinearLayout
@@ -1802,9 +1810,9 @@ Inst_4: If C3253 ≠ “Health provider” (Never took to a health provider) →
                                         </LinearLayout>
 
                                     </androidx.cardview.widget.CardView>
-                                    <!-- Radio Buttons C3279 Ends -->
+                                    &lt;!&ndash; Radio Buttons C3279 Ends &ndash;&gt;
 
-                                    <!-- Radio Buttons C3280 Starts -->
+                                    &lt;!&ndash; Radio Buttons C3280 Starts &ndash;&gt;
                                     <androidx.cardview.widget.CardView
                                         style="@style/Q_CardView"
                                         android:visibility="@{rbC32791.checked ? View.VISIBLE : View.GONE}">
@@ -1947,9 +1955,9 @@ Otherwise →C3287" />
                                     </androidx.cardview.widget.CardView>
 
                                 </LinearLayout>
-                                <!-- Radio Buttons C3280 Ends -->
+                                &lt;!&ndash; Radio Buttons C3280 Ends &ndash;&gt;
 
-                                <!-- Radio Buttons C3281 Starts -->
+                                &lt;!&ndash; Radio Buttons C3281 Starts &ndash;&gt;
                                 <LinearLayout
                                     android:id="@+id/ll_C3281_C3286"
                                     android:layout_width="match_parent"
@@ -1998,9 +2006,9 @@ Otherwise →C3287" />
                                         </LinearLayout>
 
                                     </androidx.cardview.widget.CardView>
-                                    <!-- Radio Buttons C3281 Ends -->
+                                    &lt;!&ndash; Radio Buttons C3281 Ends &ndash;&gt;
 
-                                    <!-- Radio Buttons C3282 Starts -->
+                                    &lt;!&ndash; Radio Buttons C3282 Starts &ndash;&gt;
                                     <androidx.cardview.widget.CardView
                                         style="@style/Q_CardView"
                                         android:visibility="@{rbC32811.checked ? View.VISIBLE : View.GONE}">
@@ -2062,9 +2070,9 @@ Otherwise →C3287" />
                                         </LinearLayout>
 
                                     </androidx.cardview.widget.CardView>
-                                    <!-- Radio Buttons C3282 Ends -->
+                                    &lt;!&ndash; Radio Buttons C3282 Ends &ndash;&gt;
 
-                                    <!-- Radio Buttons C3283 Starts -->
+                                    &lt;!&ndash; Radio Buttons C3283 Starts &ndash;&gt;
                                     <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                                         <LinearLayout
@@ -2127,9 +2135,9 @@ Otherwise →C3287" />
                                         </LinearLayout>
 
                                     </androidx.cardview.widget.CardView>
-                                    <!-- Radio Buttons C3283 Ends -->
+                                    &lt;!&ndash; Radio Buttons C3283 Ends &ndash;&gt;
 
-                                    <!-- Radio Buttons C3284 Starts -->
+                                    &lt;!&ndash; Radio Buttons C3284 Starts &ndash;&gt;
                                     <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                                         <LinearLayout
@@ -2167,9 +2175,9 @@ Otherwise →C3287" />
                                         </LinearLayout>
 
                                     </androidx.cardview.widget.CardView>
-                                    <!-- Radio Buttons C3284 Ends -->
+                                    &lt;!&ndash; Radio Buttons C3284 Ends &ndash;&gt;
 
-                                    <!-- Radio Buttons C3285 Starts -->
+                                    &lt;!&ndash; Radio Buttons C3285 Starts &ndash;&gt;
                                     <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                                         <LinearLayout
@@ -2207,9 +2215,9 @@ Otherwise →C3287" />
                                         </LinearLayout>
 
                                     </androidx.cardview.widget.CardView>
-                                    <!-- Radio Buttons C3285 Ends -->
+                                    &lt;!&ndash; Radio Buttons C3285 Ends &ndash;&gt;
 
-                                    <!-- Radio Buttons C3286 Starts -->
+                                    &lt;!&ndash; Radio Buttons C3286 Starts &ndash;&gt;
                                     <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                                         <LinearLayout
@@ -2253,9 +2261,9 @@ Otherwise →C3287" />
                             </LinearLayout>
 
                         </LinearLayout>
-                        <!-- Radio Buttons C3286 Ends -->
+                        &lt;!&ndash; Radio Buttons C3286 Ends &ndash;&gt;
 
-                        <!-- Radio Buttons C3287 Starts -->
+                        &lt;!&ndash; Radio Buttons C3287 Starts &ndash;&gt;
                         <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                             <LinearLayout
@@ -2293,9 +2301,9 @@ Otherwise →C3287" />
                             </LinearLayout>
 
                         </androidx.cardview.widget.CardView>
-                        <!-- Radio Buttons C3287 Ends -->
+                        &lt;!&ndash; Radio Buttons C3287 Ends &ndash;&gt;
 
-                    </LinearLayout>
+                    </LinearLayout>-->
 
                 </LinearLayout>
 

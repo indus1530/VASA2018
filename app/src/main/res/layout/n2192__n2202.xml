@@ -88,10 +88,9 @@
                         android:id="@+id/ll_N2192"
                         style="@style/Q_Linerlayout_v">
 
-                        <TextView
-                            android:id="@+id/txt_N2192"
-                            style="@style/TextView"
-                            android:text="@string/txt_N2192" />
+<TextView
+    style="@style/TextView"
+    android:text="@string/txt_N2192" />
 
                         <TextView
                             style="@style/TextView_Hint"

@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".ui.N2110_N2189a">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
 
@@ -48,10 +45,10 @@
             android:layout_marginBottom="5sp"
             android:fadeScrollbars="false"
             android:fillViewport="true"
-            android:paddingBottom="5sp"
             android:paddingLeft="5sp"
-            android:paddingRight="5sp"
             android:paddingTop="5sp"
+            android:paddingRight="5sp"
+            android:paddingBottom="5sp"
             android:scrollbarSize="10dip">
 
             <LinearLayout style="@style/Q_Linerlayout_v">
@@ -71,9 +68,9 @@
                             android:id="@+id/ed_study_id"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:hint="@string/study_id"
                             android:clickable="false"
                             android:focusable="false"
+                            android:hint="@string/study_id"
                             android:inputType="date"
                             app:met_mask="####-###-##" />
                     </LinearLayout>
@@ -95,7 +92,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2110"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2110" />
 
@@ -148,7 +144,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2111"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2111" />
 
@@ -199,11 +194,9 @@
                 <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
-                        android:id="@+id/ll_N2112"
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2112"
                             style="@style/TextView"
                             android:text="@string/txt_N2112" />
 
@@ -247,7 +240,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2113"
                             style="@style/TextView"
                             android:text="@string/txt_N2113" />
 
@@ -301,7 +293,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2114"
                             style="@style/TextView"
                             android:text="@string/txt_N2114" />
 
@@ -339,11 +330,9 @@
 
 
                     <LinearLayout
-                        android:id="@+id/ll_N2115"
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2115"
                             style="@style/TextView"
                             android:text="@string/txt_N2115" />
 
@@ -397,7 +386,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2116_1"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2116_1" />
 
@@ -434,11 +422,9 @@
                     <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                         <LinearLayout
-                            android:id="@+id/ll_N2116_2"
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2116_2"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2116_2" />
 
@@ -485,11 +471,9 @@
                         android:visibility="@{rbN211621.checked ? View.GONE : View.VISIBLE}">
 
                         <LinearLayout
-                            android:id="@+id/ll_N2116_3"
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2116_3"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2116_3" />
 
@@ -534,7 +518,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2117"
                             style="@style/TextView"
                             android:text="@string/txt_N2117" />
 
@@ -571,11 +554,9 @@
                 <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
-                        android:id="@+id/ll_N2118"
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2118"
                             style="@style/TextView"
                             android:text="@string/txt_N2118" />
 
@@ -620,11 +601,9 @@
                     android:visibility="@{rbN21182.checked ? View.GONE : View.VISIBLE}">
 
                     <LinearLayout
-                        android:id="@+id/ll_N2119"
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2119"
                             style="@style/TextView"
                             android:text="@string/txt_N2119" />
 
@@ -667,7 +646,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2120"
                             style="@style/TextView"
                             android:text="@string/txt_N2120" />
 
@@ -704,11 +682,9 @@
                 <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
-                        android:id="@+id/ll_N2121"
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2121"
                             style="@style/TextView"
                             android:text="@string/txt_N2121" />
 
@@ -758,7 +734,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2122"
                             style="@style/TextView"
                             android:text="@string/txt_N2122" />
 
@@ -784,11 +759,9 @@
                     <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                         <LinearLayout
-                            android:id="@+id/ll_N2123"
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2123"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2123" />
 
@@ -837,7 +810,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2124"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2124" />
 
@@ -868,7 +840,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2125"
                             style="@style/TextView"
                             android:text="@string/txt_N2125" />
 
@@ -908,7 +879,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2126"
                             style="@style/TextView"
                             android:text="@string/txt_N2126" />
 
@@ -968,7 +938,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2127"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2127" />
 
@@ -1012,7 +981,8 @@
                     </androidx.cardview.widget.CardView>
                     <!-- Radio Buttons N2127 Ends -->
 
-                    <!-- Radio Buttons N2128 Starts -->
+
+                    <!-- Radio N2128 -->
                     <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                         <LinearLayout
@@ -1020,7 +990,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2128"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2128" />
 
@@ -1050,7 +1019,8 @@
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
-                    <!-- Radio Buttons N2128 Ends -->
+                    <!-- Radio N2128 -->
+
 
                     <!-- EditText N2129 Starts -->
                     <LinearLayout
@@ -1082,7 +1052,8 @@
                             </LinearLayout>
 
                         </androidx.cardview.widget.CardView>
-                        <!-- EditText N2129 Ends -->
+                        <!-- EditText N2129 -->
+
 
                         <!-- EditText N2130 Starts -->
                         <androidx.cardview.widget.CardView style="@style/Q_CardView">
@@ -1121,7 +1092,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2131"
                             style="@style/TextView"
                             android:text="@string/txt_N2131" />
 
@@ -1167,7 +1137,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2132"
                             style="@style/TextView"
                             android:text="@string/txt_N2132" />
 
@@ -1216,7 +1185,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2133"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2133" />
 
@@ -1276,7 +1244,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2134"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2134" />
 
@@ -1314,7 +1281,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2135_1"
                             style="@style/TextView"
                             android:text="@string/txt_N2135_1" />
 
@@ -1354,7 +1320,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2135_2"
                             style="@style/TextView"
                             android:text="@string/txt_N2135_2" />
 
@@ -1390,7 +1355,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2135_3"
                             style="@style/TextView"
                             android:text="@string/txt_N2135_3" />
 
@@ -1426,7 +1390,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2135_4"
                             style="@style/TextView"
                             android:text="@string/txt_N2135_4" />
 
@@ -1462,7 +1425,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2135_5"
                             style="@style/TextView"
                             android:text="@string/txt_N2135_5" />
 
@@ -1498,7 +1460,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2135_6"
                             style="@style/TextView"
                             android:text="@string/txt_N2135_6" />
 
@@ -1534,7 +1495,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2135_7"
                             style="@style/TextView"
                             android:text="@string/txt_N2135_7" />
 
@@ -1570,7 +1530,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2135_8"
                             style="@style/TextView"
                             android:text="@string/txt_N2135_8" />
 
@@ -1606,7 +1565,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2135_9"
                             style="@style/TextView"
                             android:text="@string/txt_N2135_9" />
 
@@ -1642,7 +1600,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2135_10"
                             style="@style/TextView"
                             android:text="@string/txt_N2135_10" />
 
@@ -1678,7 +1635,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2135_11"
                             style="@style/TextView"
                             android:text="@string/txt_N2135_11" />
 
@@ -1716,7 +1672,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2135_12_OT"
                             style="@style/TextView"
                             android:text="Other" />
 
@@ -1739,7 +1694,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2136"
                             style="@style/TextView"
                             android:text="@string/txt_N2136" />
 
@@ -1788,7 +1742,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2137"
                             style="@style/TextView"
                             android:text="@string/txt_N2137" />
 
@@ -1842,7 +1795,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2138"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2138" />
 
@@ -1967,7 +1919,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2141"
                             style="@style/TextView"
                             android:text="@string/txt_N2141" />
 
@@ -2021,7 +1972,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2142"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2142" />
 
@@ -2070,7 +2020,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2143"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2143" />
 
@@ -2115,7 +2064,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2144"
                             style="@style/TextView"
                             android:text="@string/txt_N2144" />
 
@@ -2167,7 +2115,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2145"
                             style="@style/TextView"
                             android:text="@string/txt_N2145" />
 
@@ -2221,7 +2168,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2146"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2146" />
 
@@ -2270,7 +2216,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2147"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2147" />
 
@@ -2313,7 +2258,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2148"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2148" />
 
@@ -2357,7 +2301,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2149"
                             style="@style/TextView"
                             android:text="@string/txt_N2149" />
 
@@ -2398,7 +2341,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2150"
                             style="@style/TextView"
                             android:text="@string/txt_N2150" />
 
@@ -2439,7 +2381,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2151"
                             style="@style/TextView"
                             android:text="@string/txt_N2151" />
 
@@ -2498,7 +2439,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2152"
                             style="@style/TextView"
                             android:text="@string/txt_N2152" />
 
@@ -2541,7 +2481,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2153"
                             style="@style/TextView"
                             android:text="@string/txt_N2153" />
 
@@ -2592,7 +2531,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2154"
                             style="@style/TextView"
                             android:text="@string/txt_N2154" />
 
@@ -2633,7 +2571,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2155"
                             style="@style/TextView"
                             android:text="@string/txt_N2155" />
 
@@ -2687,7 +2624,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2156"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2156" />
 
@@ -2714,7 +2650,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2157"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2157" />
 
@@ -2741,7 +2676,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2158"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2158" />
 
@@ -2784,7 +2718,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2159"
                             style="@style/TextView"
                             android:text="@string/txt_N2159" />
 
@@ -2834,7 +2767,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2160"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2160" />
 
@@ -2862,7 +2794,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2161"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2161" />
 
@@ -2892,7 +2823,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2162"
                             style="@style/TextView"
                             android:text="@string/txt_N2162" />
 
@@ -2946,7 +2876,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2163"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2163" />
 
@@ -2987,7 +2916,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2164"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2164" />
 
@@ -3030,7 +2958,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2165"
                             style="@style/TextView"
                             android:text="@string/txt_N2165" />
 
@@ -3084,7 +3011,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2166"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2166" />
 
@@ -3112,7 +3038,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2166_1"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2166_1" />
 
@@ -3134,11 +3059,9 @@
                 <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
-                        android:id="@+id/ll_N2167"
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2167"
                             style="@style/TextView"
                             android:text="@string/txt_N2167" />
 
@@ -3196,7 +3119,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2168"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2168" />
 
@@ -3224,7 +3146,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2169"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2169" />
 
@@ -3250,11 +3171,9 @@
                 <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
-                        android:id="@+id/ll_N2170"
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2170"
                             style="@style/TextView"
                             android:text="@string/txt_N2170" />
 
@@ -3303,7 +3222,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2171"
                             style="@style/TextView"
                             android:text="@string/txt_N2171" />
 
@@ -3327,7 +3245,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2172"
                             style="@style/TextView"
                             android:text="@string/txt_N2172" />
 
@@ -3440,7 +3357,6 @@
                         android:layout_marginTop="15sp">
 
                         <TextView
-                            android:id="@+id/txt_N2174"
                             style="@style/TextView"
                             android:text="@string/txt_N2174" />
 
@@ -3480,7 +3396,6 @@
                         android:layout_marginTop="15sp">
 
                         <TextView
-                            android:id="@+id/txt_N2175"
                             style="@style/TextView"
                             android:text="@string/txt_N2175" />
 
@@ -3521,7 +3436,6 @@
                         android:layout_marginTop="15sp">
 
                         <TextView
-                            android:id="@+id/txt_N2176"
                             style="@style/TextView"
                             android:text="@string/txt_N2176" />
 
@@ -3563,7 +3477,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2177a"
                             style="@style/TextView"
                             android:text="@string/txt_N2177a" />
 
@@ -3614,7 +3527,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2177"
                             style="@style/TextView"
                             android:text="@string/txt_N2177" />
 
@@ -3665,7 +3577,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2178"
                             style="@style/TextView"
                             android:text="@string/txt_N2178" />
 
@@ -3706,7 +3617,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2179"
                             style="@style/TextView"
                             android:text="@string/txt_N2179" />
 
@@ -3747,7 +3657,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2180"
                             style="@style/TextView"
                             android:text="@string/txt_N2180" />
 
@@ -3788,7 +3697,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2181"
                             style="@style/TextView"
                             android:text="@string/txt_N2181" />
 
@@ -3829,7 +3737,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2182"
                             style="@style/TextView"
                             android:text="@string/txt_N2182" />
 
@@ -3866,11 +3773,9 @@
                 <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
-                        android:id="@+id/ll_N2183"
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2183"
                             style="@style/TextView"
                             android:text="@string/txt_N2183" />
 
@@ -3919,7 +3824,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2184"
                             style="@style/TextView"
                             android:text="@string/txt_N2184" />
 
@@ -3939,11 +3843,9 @@
                 <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
-                        android:id="@+id/ll_N2185"
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2185"
                             style="@style/TextView"
                             android:text="@string/txt_N2185" />
 
@@ -3997,7 +3899,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2186"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2186" />
 
@@ -4021,7 +3922,6 @@
                             style="@style/Q_Linerlayout_v">
 
                             <TextView
-                                android:id="@+id/txt_N2187"
                                 style="@style/TextView"
                                 android:text="@string/txt_N2187" />
 
@@ -4047,7 +3947,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2188"
                             style="@style/TextView"
                             android:text="@string/txt_N2188" />
 
@@ -4088,7 +3987,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2189"
                             style="@style/TextView"
                             android:text="@string/txt_N2189" />
 
@@ -4121,6 +4019,7 @@
                 </androidx.cardview.widget.CardView>
                 <!-- Radio Buttons N2189 Ends -->
 
+
                 <!-- Radio Buttons N2189a Starts -->
                 <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
@@ -4129,7 +4028,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2189a"
                             style="@style/TextView"
                             android:text="@string/txt_N2189a" />
 
@@ -4183,4 +4081,5 @@
         </ScrollView>
 
     </LinearLayout>
+
 </layout>

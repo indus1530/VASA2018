@@ -4459,7 +4459,7 @@
     <string name="rb_N2211_2_DK">معلوم نہیں</string>
 
     <string name="rb_N2212_1"> ہاں</string>
-    <string name="rb_N2212_2">نہیں ،.-------دیکھ بھال کی ضرورت نہیں تھی،نہ ہی تلاش کی</string>
+    <string name="rb_N2212_2">نہیں، دیکھ بھال کی ضرورت نہیں تھی،نہ ہی تلاش کی</string>
     <string name="rb_N2212_DK">معلوم نہیں</string>
 
     <string name="rb_N2214_1">بچہ کی ماں</string>
@@ -7261,55 +7261,67 @@
     <string name="rb_W209_1">ہاں</string>
     <string name="rb_W209_2">نہیں</string>
 
-    <string name="txt_W210">اگر ہاں ،خریدی یا فراہم کی گئیں ؟	:W210</string>
-    <string name="cb_W210_1">کلینک پر ملی</string>
-    <string name="cb_W210_2">خریدی</string>
-    <string name="cb_W210_3">ملی نہ خریدی</string>
-    <string name="cb_W210_DK">معلوم نہیں</string>
-    <string name="cb_W210_RA">جواب نہیں دیا</string>
+    <string name="Q_w210">W210</string>
+    <string name="w210">اگر ہاں ،خریدی یا فراہم کی گئیں ؟</string>
+    <string name="w210a">کلینک پر ملی</string>
+    <string name="w210b">خریدی</string>
+    <string name="w210c">ملی نہ خریدی</string>
+    <string name="w21098">معلوم نہیں</string>
+    <string name="w21099">جواب نہیں دیا</string>
 
-    <string name="txt_W211">آپ/ماں اپنی زندگی میں کتنی مرتبہ حاملہ ہوئیں؟	:W211</string>
-    <string name="ed_W211">حمل کی تعداد</string>
+    <string name="Q_w211">W211</string>
+    <string name="w211">آپ / ماں اپنی زندگی میں کتنی مرتبہ حاملہ ہوئیں ؟</string>
+    <string name="w211a">حمل کی تعداد</string>
 
-    <string name="txt_W212">آپ کی زندگی میں کل کتنی زچگیاں ہوئیں؟	:W212</string>
-    <string name="ed_W212">زچگیوں کی تعداد</string>
+    <string name="Q_w212">W212</string>
+    <string name="w212">آپ کی زندگی میں کل کتنی زچگیاں ہوئیں ؟</string>
+    <string name="w212a">زچگیوں کی تعداد</string>
 
-    <string name="txt_W213">پہلےبچے کی پیدائش کے وقت آپ کی عمر کیاتھی؟	:W213</string>
-    <string name="ed_W213">عمر سالوں میں</string>
+    <string name="Q_w213">W213</string>
+    <string name="w213">پہلے بچے کی پیدائش کے وقت آپ کی عمر کیا تھی ؟</string>
+    <string name="w213a">عمر سالوں میں</string>
 
+    <string name="Q_w214">W214</string>
+    <string name="w214">آپ / ماں پچھلے پانچ سال میں کتنی مرتبہ حاملہ ہوئیں ؟</string>
 
-    <string name="txt_W214">	آپ/ماں پچھلے پانچ سال میں کتنی مرتبہ حاملہ ہوئیں؟	:W214</string>
+    <string name="Q_w215">W215</string>
+    <string name="w215">آپ کی پچھلے پانچ سال کل کتنی زچگیاں ہوئیں ؟</string>
 
-    <string name="txt_W215">	آپ کی پچھلے پانچ سال کل کتنی زچگیاں ہوئیں؟	:W215</string>
+    <string name="Q_w217">W217</string>
+    <string name="w217">حمل کے نتیجے کی تاریخ ؟</string>
+    <string name="w217d">دن</string>
+    <string name="w217m">مہینہ</string>
+    <string name="w217y">سال</string>
 
-    <string name="txt_W217">حمل کے نتیجے کی تاریخ</string>
-    <string name="ed_W217_d">Day</string>
-    <string name="ed_W217_m">Month</string>
-    <string name="ed_W217_y">Year</string>
+    <string name="Q_w218">W218</string>
+    <string name="w218">نتیجہ</string>
+    <string name="w218a">حمل ضائع</string>
+    <string name="w218b">مردہ بچے کی پیدائش</string>
+    <string name="w218c">زندہ بچے کی  پیدائش</string>
+    <string name="w218d">جڑواں بچوں کی پیدائش </string>
+    <string name="w218e">جڑواں مردہ بچوں کی پیدائش</string>
+    <string name="w218f">ایک زندہ ایک مردہ بچوں کی پیدائش</string>
 
-    <string name="txt_W218">نتیجہ</string>
-    <string name="rb_W218_1">حمل ضائع</string>
-    <string name="rb_W218_2">مردہ بچے کی پیدائش</string>
-    <string name="rb_W218_3">زندہ بچے کی  پیدائش</string>
-    <string name="rb_W218_4">جڑواں بچوں کی پیدائش </string>
-    <string name="rb_W218_5">جڑواں مردہ بچوں کی پیدائش</string>
-    <string name="rb_W218_6">یک زندہ ایک مردہ بچوں کی پیدائش</string>
+    <string name="Q_w219">W219</string>
+    <string name="w219">بچے کی موجودہ صورت حال</string>
+    <string name="w219a">حیات</string>
+    <string name="w219b">فوت</string>
 
+    <string name="Q_w221">W221</string>
+    <string name="w221">زندہ بچے کی عمر</string>
+    <string name="w221y">سال</string>
+    <string name="w221m">مہینے</string>
+    <string name="w221d">دن</string>
 
-    <string name="txt_W219"> بچے کی موجودہ صورت حال </string>
-    <string name="rb_W219_1">حیات</string>
-    <string name="rb_W219_2">فوت</string>
-
-    <string name="txt_W221">زندہ بچے کی عمر</string>
-    <string name="Year">Year</string>
-    <string name="Month">Month</string>
-    <string name="Day">Day</string>
-
-    <string name="txt_W222">وفات کے وقت بچے کی عمر</string>
+    <string name="Q_w222">W222</string>
+    <string name="w222">وفات کے وقت بچے کی عمر</string>
+    <string name="w222y">سال</string>
+    <string name="w222m">مہینے</string>
+    <string name="w222d">دن</string>
 
     <string name="public_sector">عوامی سیکٹر</string>
     <string name="private_sector">نجی صحت کے سیکٹر</string>
-    <string name="C3065_hint1"><![CDATA[Inst_2: If no labor/delivery complications: ((C3051≠1 and C3052=9,10) and (C3057≠1 or C3058≠2) and (C3059≠1 or C3060≠2) and C3061≠1 and C3062<12 and C3063≠1) → C3071.]]></string>
+    <string name="C3065_hint1">Inst_2: If no labor / delivery complications: ((C3051≠1 and C3052=9,10) and (C3057≠1 or C3058≠2) and (C3059≠1 or C3060≠2) and C3061≠1 and C3062&lt;12 and C3063≠1) → C3071.</string>
 
     <string name="no_car_not_needed_given_or_sought_a4254_n_don_t_know_a4284">No - car not needed , given or sought → A4254   Don‘t Know → A4284</string>
     <string name="enter_1_unit_only_0_30_days_or_1_60_months_nless_than_1_day_or_24_hours_0_days_n1_week_7_days">Enter 1 unit only: 0–30 days or 1-60 months.  Less than 1 day or 24 hours = 0 days.  1 week = 7 days.</string>

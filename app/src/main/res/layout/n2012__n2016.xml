@@ -89,10 +89,9 @@
                         android:id="@+id/ll_N2012"
                         style="@style/Q_Linerlayout_v">
 
-                        <TextView
-                            android:id="@+id/txt_N2012"
-                            style="@style/TextView"
-                            android:text="@string/txt_N2012" />
+<TextView
+    style="@style/TextView"
+    android:text="@string/txt_N2012" />
 
                         <RadioGroup style="@style/RadioGroup">
 
@@ -132,7 +131,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2013"
                             style="@style/TextView"
                             android:text="@string/txt_N2013" />
 
@@ -174,7 +172,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2014"
                             style="@style/TextView"
                             android:text="@string/txt_N2014" />
 
@@ -216,7 +213,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2015"
                             style="@style/TextView"
                             android:text="@string/txt_N2015" />
 
@@ -258,7 +254,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2016"
                             style="@style/TextView"
                             android:text="@string/txt_N2016" />
 

@@ -158,77 +158,65 @@ public class N2080_N2107 extends AppCompatActivity {
             }
         });
 
-        bi.cbN208819.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                if (b) {
-                    ClearAllcontrol.ClearAll(bi.llN2088N2088); //ll_N2088_N2088
-                    bi.llN2088N2088.setVisibility(View.GONE);
+        bi.cbN208819.setOnCheckedChangeListener((compoundButton, b) -> {
+            if (b) {
+                ClearAllcontrol.ClearAll(bi.llN2088N2088); //ll_N2088_N2088
+                bi.llN2088N2088.setVisibility(View.GONE);
 
-                    ClearAllcontrol.ClearAll(bi.llN2089N2106); //ll_N2089_N2106
-                    bi.llN2089N2106.setVisibility(View.GONE);
+               /* ClearAllcontrol.ClearAll(bi.llN2089N2106); //ll_N2089_N2106
+                bi.llN2089N2106.setVisibility(View.GONE);
 
-                    ClearAllcontrol.ClearAll(bi.llN2095); //ll_N2095
-                    bi.llN2095.setVisibility(View.GONE);
+                ClearAllcontrol.ClearAll(bi.llN2095); //ll_N2095
+                bi.llN2095.setVisibility(View.GONE);
 
-                    ClearAllcontrol.ClearAll(bi.llN2096); //ll_N2096
-                    bi.llN2096.setVisibility(View.GONE);
-                } else {
-                    bi.llN2088N2088.setVisibility(View.VISIBLE);
-                    bi.llN2089N2106.setVisibility(View.VISIBLE);
+                ClearAllcontrol.ClearAll(bi.llN2096); //ll_N2096
+                bi.llN2096.setVisibility(View.GONE);*/
+            } else {
+                bi.llN2088N2088.setVisibility(View.VISIBLE);
+                /*bi.llN2089N2106.setVisibility(View.VISIBLE);
 
-                    bi.llN2095.setVisibility(View.VISIBLE); //ll_N2095
-                    bi.llN2096.setVisibility(View.VISIBLE); //ll_N2096
-                }
+                bi.llN2095.setVisibility(View.VISIBLE); //ll_N2095
+                bi.llN2096.setVisibility(View.VISIBLE); //ll_N2096*/
             }
         });
 
-        bi.rgN2089.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(RadioGroup radioGroup, int i) {
-                if (i == bi.rbN20893.getId()) {
-                    ClearAllcontrol.ClearAll(bi.llN2090N2092); //ll_N2090_N2092
-                    ClearAllcontrol.ClearAll(bi.llN2095N2097); //ll_N2095_N2097
+        /*bi.rgN2089.setOnCheckedChangeListener((RadioGroup.OnCheckedChangeListener) (radioGroup, i) -> {
+            if (i == bi.rbN20893.getId()) {
+                ClearAllcontrol.ClearAll(bi.llN2090N2092); //ll_N2090_N2092
+                ClearAllcontrol.ClearAll(bi.llN2095N2097); //ll_N2095_N2097
+            }
+        });*/
+
+        /*bi.rgN2090.setOnCheckedChangeListener((RadioGroup.OnCheckedChangeListener) (radioGroup, i) -> {
+            if (i == bi.rbN20901.getId()) {
+                ClearAllcontrol.ClearAll(bi.llN2091N2092); //ll_N2091_N2092
+            } else {
+                ClearAllcontrol.ClearAll(bi.llN2095N2096); //ll_N2095_N2096
+            }
+
+            if (!bi.rbN20901.isChecked() && (bi.rbN20931.isChecked() || bi.rbN20932.isChecked() || bi.rbN2093OT.isChecked() || bi.rbN2093DK.isChecked())) {
+                ClearAllcontrol.ClearAll(bi.llN2095N2106); //ll_N2095_N2106
+            }
+        });*/
+
+        /*CompoundButton.OnCheckedChangeListener cbx2091 = (compoundButton, b) -> {
+            if (b) {
+                bi.rgN2092.clearCheck();
+                bi.llN2092.setVisibility(View.GONE); //ll_N2092
+            } else {
+                if (!bi.cbN2091OT.isChecked() && !bi.cbN20916.isChecked() && !bi.cbN20915.isChecked() && !bi.cbN2091DK.isChecked()) {
+                    bi.llN2092.setVisibility(View.VISIBLE);
                 }
             }
-        });
 
-        bi.rgN2090.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(RadioGroup radioGroup, int i) {
-                if (i == bi.rbN20901.getId()) {
-                    ClearAllcontrol.ClearAll(bi.llN2091N2092); //ll_N2091_N2092
-                } else {
-                    ClearAllcontrol.ClearAll(bi.llN2095N2096); //ll_N2095_N2096
-                }
-
-                if (!bi.rbN20901.isChecked() && (bi.rbN20931.isChecked() || bi.rbN20932.isChecked() || bi.rbN2093OT.isChecked() || bi.rbN2093DK.isChecked())) {
-                    ClearAllcontrol.ClearAll(bi.llN2095N2106); //ll_N2095_N2106
-                }
-
-            }
-        });
-
-        CompoundButton.OnCheckedChangeListener cbx2091 = new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                if (b) {
-                    bi.rgN2092.clearCheck();
-                    bi.llN2092.setVisibility(View.GONE); //ll_N2092
-                } else {
-                    if (!bi.cbN2091OT.isChecked() && !bi.cbN20916.isChecked() && !bi.cbN20915.isChecked() && !bi.cbN2091DK.isChecked()) {
-                        bi.llN2092.setVisibility(View.VISIBLE);
-                    }
-                }
-
-                if (bi.cbN2091OT.isChecked()) {
-                    bi.edN2091OT.setVisibility(View.VISIBLE);
-                } else {
-                    bi.edN2091OT.setVisibility(View.GONE);
-                    bi.edN2091OT.setText(null);
-                }
+            if (bi.cbN2091OT.isChecked()) {
+                bi.edN2091OT.setVisibility(View.VISIBLE);
+            } else {
+                bi.edN2091OT.setVisibility(View.GONE);
+                bi.edN2091OT.setText(null);
             }
         };
+
         bi.cbN20915.setOnCheckedChangeListener(cbx2091);
         bi.cbN20916.setOnCheckedChangeListener(cbx2091);
         bi.cbN2091OT.setOnCheckedChangeListener(cbx2091);
@@ -250,9 +238,9 @@ public class N2080_N2107 extends AppCompatActivity {
             public void onCheckedChanged(RadioGroup radioGroup, int i) {
                 if (i != bi.rbN20951.getId()) {
                     ClearAllcontrol.ClearAll(bi.llN2096); //ll_N2096
-                    /*ClearAllcontrol.ClearAll(bi.llN2096N4017A); //ll_N2096_N4017_A
+                    *//*ClearAllcontrol.ClearAll(bi.llN2096N4017A); //ll_N2096_N4017_A
                     ClearAllcontrol.ClearAll(bi.llN2096N4017B); //ll_N2096_N4017_B
-                    ClearAllcontrol.ClearAll(bi.llN2096N4017C); //ll_N2096_N4017_C*/
+                    ClearAllcontrol.ClearAll(bi.llN2096N4017C); //ll_N2096_N4017_C*//*
                 }
             }
         });
@@ -285,7 +273,7 @@ public class N2080_N2107 extends AppCompatActivity {
                     ClearAllcontrol.ClearAll(bi.llN2103N2106); //ll_N2103_N2106
                 }
             }
-        });
+        });*/
 
     }
 
@@ -399,7 +387,7 @@ public class N2080_N2107 extends AppCompatActivity {
         n2080.setN208818(bi.rbN2088181.isChecked() ? "1" : bi.rbN2088182.isChecked() ? "2" : bi.rbN208818DK.isChecked() ? "9" : bi.rbN208818RA.isChecked() ? "8" : bi.cbN208819.isChecked() ? "2" : "-1");
         n2080.setN208818x(bi.edN208818.getText().toString().trim().length() > 0 ? bi.edN208818.getText().toString() : "-1");
         n2080.setN208819(bi.cbN208819.isChecked() ? "1" : "-1");
-        n2080.setN2089(bi.rbN20891.isChecked() ? "1" : bi.rbN20892.isChecked() ? "2" : bi.rbN20893.isChecked() ? "3" : bi.rbN2089OT.isChecked() ? "4" : bi.rbN2089DK.isChecked() ? "9" : "-1");
+       /* n2080.setN2089(bi.rbN20891.isChecked() ? "1" : bi.rbN20892.isChecked() ? "2" : bi.rbN20893.isChecked() ? "3" : bi.rbN2089OT.isChecked() ? "4" : bi.rbN2089DK.isChecked() ? "9" : "-1");
         n2080.setN2089x(bi.edN2089OT.getText().toString().trim().length() > 0 ? bi.edN2089OT.getText().toString() : "-1");
         n2080.setN2090(bi.rbN20901.isChecked() ? "1" : bi.rbN20902.isChecked() ? "2" : bi.rbN2090DK.isChecked() ? "9" : "-1");
 
@@ -430,11 +418,11 @@ public class N2080_N2107 extends AppCompatActivity {
         n2080.setN2094(bi.edN2094.getText().toString().trim().length() > 0 ? bi.edN2094.getText().toString() : "-1");
         n2080.setN2095(bi.rbN20951.isChecked() ? "1" : bi.rbN20952.isChecked() ? "2" : bi.rbN2095DK.isChecked() ? "9" : "-1");
 
-        /*n2080.setN2096(bi.rbN20961.isChecked() ? "1" : bi.rbN20962.isChecked() ? "2" : bi.rbN20963.isChecked() ? "3"
+        *//*n2080.setN2096(bi.rbN20961.isChecked() ? "1" : bi.rbN20962.isChecked() ? "2" : bi.rbN20963.isChecked() ? "3"
                 : bi.rbN20964.isChecked() ? "4" : bi.rbN20965.isChecked() ? "5" : bi.rbN20966.isChecked() ? "6" : bi.rbN20967.isChecked() ? "7"
                 : bi.rbN20968.isChecked() ? "8" : bi.rbN20969.isChecked() ? "9" : bi.rbN209610.isChecked() ? "10" : bi.rbN209611.isChecked() ? "11"
                 : bi.rbN209612.isChecked() ? "12" : bi.rbN209613.isChecked() ? "13" : bi.rbN209614.isChecked() ? "14" : bi.rbN209615.isChecked() ? "15"
-                : bi.rbN209616.isChecked() ? "16" : bi.rbN209617.isChecked() ? "17" : bi.rbN2096OT.isChecked() ? "18" : "-1");*/
+                : bi.rbN209616.isChecked() ? "16" : bi.rbN209617.isChecked() ? "17" : bi.rbN2096OT.isChecked() ? "18" : "-1");*//*
 
         n2080.setN20961(bi.cbN20961.isChecked() ? "1" : "-1");
         n2080.setN20962(bi.cbN20962.isChecked() ? "2" : "-1");
@@ -497,10 +485,10 @@ public class N2080_N2107 extends AppCompatActivity {
 
         n2080.setN2104(bi.rbN21041.isChecked() ? "1" : bi.rbN21042.isChecked() ? "2" : bi.rbN2104DK.isChecked() ? "9" : "-1");
         n2080.setN2105(bi.rbN21051.isChecked() ? "1" : bi.rbN21052.isChecked() ? "2" : bi.rbN2105DK.isChecked() ? "9" : "-1");
-        n2080.setN2106(bi.rbN21061.isChecked() ? "1" : bi.rbN21062.isChecked() ? "2" : bi.rbN2106DK.isChecked() ? "9" : "-1");
-        n2080.setN21071(bi.rbN210711.isChecked() ? "1" : bi.rbN210712.isChecked() ? "2" : bi.rbN21071DK.isChecked() ? "9" : "-1");
-        n2080.setN21072(bi.rbN210721.isChecked() ? "1" : bi.rbN210722.isChecked() ? "2" : bi.rbN21072DK.isChecked() ? "9" : "-1");
-        n2080.setN21073(bi.rbN210731.isChecked() ? "1" : bi.rbN210732.isChecked() ? "2" : bi.rbN21073DK.isChecked() ? "9" : "-1");
+        n2080.setN2106(bi.rbN21061.isChecked() ? "1" : bi.rbN21062.isChecked() ? "2" : bi.rbN2106DK.isChecked() ? "9" : "-1");*/
+       /* n2080.setN21071(bi.rbN210711.isChecked() ? "1" : bi.rbN210712.isChecked() ? "2" : bi.rbN21071DK.isChecked() ? "9" : "-1");
+        n2080.setN21072(bi.rbN210721.isChecked() ? "1" : bi.rbN210722.isChecked() ? "2" : bi.rbN21072DK.isChecked() ? "9" : "-1");*/
+        /* n2080.setN21073(bi.rbN210731.isChecked() ? "1" : bi.rbN210732.isChecked() ? "2" : bi.rbN21073DK.isChecked() ? "9" : "-1");*/
 
         n2080.setSTUDYID(bi.edStudyId.getText().toString());
 
@@ -515,14 +503,10 @@ public class N2080_N2107 extends AppCompatActivity {
 
         if (!bi.cbN208016.isChecked()) {
             //ll_N2080_1
-            if (!Gothrough.IamHiden(bi.llN20801)) {
-                return false;
-            }
+            if (!Gothrough.IamHiden(bi.llN20801)) return false;
 
             //ll_N2080_2
-            if (!Gothrough.IamHiden(bi.llN20802)) {
-                return false;
-            }
+            if (!Gothrough.IamHiden(bi.llN20802)) return false;
 
             //ll_N2080_3
             if (!Gothrough.IamHiden(bi.llN20803)) {
@@ -755,7 +739,7 @@ public class N2080_N2107 extends AppCompatActivity {
             }
 
             //ll_N2089
-            if (!Gothrough.IamHiden(bi.llN2089)) {
+            /*if (!Gothrough.IamHiden(bi.llN2089)) {
                 return false;
             }
             if (!Gothrough.TextHidden(
@@ -891,25 +875,25 @@ public class N2080_N2107 extends AppCompatActivity {
                         return false;
                     }
                 }
-            }
+            }*/
         }
 
 //        if (bi.rbN20951.isChecked()) {
 
         //ll_N2107_1
-        if (!Gothrough.IamHiden(bi.llN21071)) {
+       /* if (!Gothrough.IamHiden(bi.llN21071)) {
             return false;
         }
 
         //ll_N2107_2
         if (!Gothrough.IamHiden(bi.llN21072)) {
             return false;
-        }
+        }*/
 
         //ll_N2107_3
-        if (!Gothrough.IamHiden(bi.llN21073)) {
+        /*if (!Gothrough.IamHiden(bi.llN21073)) {
             return false;
-        }
+        }*/
 
 //        }
 

@@ -87,10 +87,9 @@
                         android:id="@+id/ll_N2023"
                         style="@style/Q_Linerlayout_v">
 
-                        <TextView
-                            android:id="@+id/txt_N2023"
-                            style="@style/TextView"
-                            android:text="@string/txt_N2023" />
+<TextView
+    style="@style/TextView"
+    android:text="@string/txt_N2023" />
 
                         <TextView
                             style="@style/TextView_Hint"
@@ -113,7 +112,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2024"
                             style="@style/TextView"
                             android:text="@string/txt_N2024" />
 
@@ -139,7 +137,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2024_1"
                             style="@style/TextView"
                             android:text="@string/txt_N2024_1" />
 
@@ -185,7 +182,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2025u"
                             style="@style/TextView"
                             android:text="@string/txt_N2025u" />
 
@@ -224,7 +220,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2025d"
                             style="@style/TextView"
                             android:text="@string/days" />
 
@@ -251,7 +246,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2026"
                             style="@style/TextView"
                             android:text="@string/txt_N2026" />
 

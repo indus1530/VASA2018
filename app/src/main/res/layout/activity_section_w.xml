@@ -1,0 +1,695 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="callback"
+            type="edu.aku.abdulsajid.vasa2018.ui.SectionWActivity" />
+    </data>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="5dp"
+            android:fadeScrollbars="false"
+            android:fillViewport="true"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp"
+            android:scrollbarSize="5dip">
+            <!-- Parent layout starts -->
+
+
+            <LinearLayout
+                android:id="@+id/GrpName"
+                style="@style/Q_Linerlayout_v">
+
+
+                <!--W201 EditText-->
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+
+                    <LinearLayout
+                        android:id="@+id/ll_W201"
+                        style="@style/Q_Linerlayout_v">
+
+
+                        <TextView
+                            android:id="@+id/txt_W201"
+                            style="@style/TextView"
+                            android:text="@string/txt_W201" />
+
+                        <EditText
+                            android:id="@+id/ed_W201_d"
+                            style="@style/EditText_number"
+                            android:hint="@string/txt_W201_d_h" />
+
+                        <EditText
+                            android:id="@+id/ed_W201_m"
+                            style="@style/EditText_number"
+                            android:hint="@string/txt_W201_m_h" />
+
+                        <EditText
+                            android:id="@+id/ed_W201_y"
+                            style="@style/EditText_number"
+                            android:hint="@string/txt_W201_y_h" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <!--W201 EditText-->
+
+
+                <!--W202 EditText-->
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+
+                    <LinearLayout
+                        android:id="@+id/ll_W202"
+                        style="@style/Q_Linerlayout_v">
+
+
+                        <TextView
+                            android:id="@+id/txt_W202"
+                            style="@style/TextView"
+                            android:text="@string/txt_W202" />
+
+                        <EditText
+                            android:id="@+id/ed_W202"
+                            style="@style/EditText_number"
+                            android:hint="@string/ed_W202" />
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <!--W202 EditText-->
+
+
+                <!--W203 Radio-->
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+
+                    <LinearLayout
+                        android:id="@+id/ll_W203"
+                        style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/txt_W203"
+                            style="@style/TextView"
+                            android:text="@string/txt_W203" />
+
+
+                        <RadioGroup style="@style/RadioGroup">
+
+                            <RadioButton
+                                android:id="@+id/rb_W203_1"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_W203_1" />
+
+                            <RadioButton
+                                android:id="@+id/rb_W203_2"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_W203_2" />
+
+
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <!--W203 Radio-->
+
+
+                <!--W204 Radio Button Starts -->
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+
+                    <LinearLayout
+                        android:id="@+id/ll_W204"
+                        style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/txt_W204"
+                            style="@style/TextView"
+                            android:text="@string/txt_W204" />
+
+
+                        <RadioGroup style="@style/RadioGroup">
+
+                            <RadioButton
+                                android:id="@+id/rb_W204_1"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_W204_1" />
+
+                            <RadioButton
+                                android:id="@+id/rb_W204_2"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_W204_2" />
+
+
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <!--W204 Radio Button Ends-->
+
+
+                <!--W205 Radio Button Starts -->
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+
+                    <LinearLayout
+                        android:id="@+id/ll_W205"
+                        style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/txt_W205"
+                            style="@style/TextView"
+                            android:text="@string/txt_W205" />
+
+
+                        <RadioGroup style="@style/RadioGroup">
+
+                            <RadioButton
+                                android:id="@+id/rb_W205_1"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_W205_1" />
+
+                            <RadioButton
+                                android:id="@+id/rb_W205_2"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_W205_2" />
+
+
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <!--W205 Radio Button Ends-->
+
+
+                <!--W206 Radio Button Starts -->
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+
+                    <LinearLayout
+                        android:id="@+id/ll_W206"
+                        style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/txt_W206"
+                            style="@style/TextView"
+                            android:text="@string/txt_W206" />
+
+                        <EditText
+                            android:id="@+id/ed_w206"
+                            style="@style/EditText_number" />
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <!--W206 Radio Button Ends-->
+
+
+                <!--W207 Radio Button Starts -->
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+
+                    <LinearLayout
+                        android:id="@+id/ll_W207"
+                        style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/txt_W207"
+                            style="@style/TextView"
+                            android:text="@string/txt_W207" />
+
+
+                        <RadioGroup style="@style/RadioGroup">
+
+                            <RadioButton
+                                android:id="@+id/rb_W207_1"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_W207_1" />
+
+                            <RadioButton
+                                android:id="@+id/rb_W207_2"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_W207_2" />
+
+
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <!--W207 Radio Button Ends-->
+
+
+                <!--W208 Radio Button Starts -->
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+
+                    <LinearLayout
+                        android:id="@+id/ll_W208"
+                        style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/txt_W208"
+                            style="@style/TextView"
+                            android:text="@string/txt_W208" />
+
+
+                        <RadioGroup style="@style/RadioGroup">
+
+                            <RadioButton
+                                android:id="@+id/rb_W208_1"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_W208_1" />
+
+                            <RadioButton
+                                android:id="@+id/rb_W208_2"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_W208_2" />
+
+
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <!--W208 Radio Button Ends-->
+
+
+                <!--W209 Radio Button Starts -->
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+
+                    <LinearLayout
+                        android:id="@+id/ll_W209"
+                        style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/txt_W209"
+                            style="@style/TextView"
+                            android:text="@string/txt_W209" />
+
+
+                        <RadioGroup style="@style/RadioGroup">
+
+                            <RadioButton
+                                android:id="@+id/rb_W209_1"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_W209_1" />
+
+                            <RadioButton
+                                android:id="@+id/rb_W209_2"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_W209_2" />
+
+
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <!--W209 Radio Button Ends-->
+
+
+                <!--W210 Checkbox Starts -->
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/TextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="@string/Q_w210" />
+
+                            <TextView
+                                style="@style/TextView"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/w210" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/w210check"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:tag="0">
+
+                            <CheckBox
+                                android:id="@+id/w210a"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/w210a" />
+
+                            <CheckBox
+                                android:id="@+id/w210b"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/w210b" />
+
+                            <CheckBox
+                                android:id="@+id/w210c"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/w210c" />
+
+                            <CheckBox
+                                android:id="@+id/w21098"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/w21098" />
+
+                            <CheckBox
+                                android:id="@+id/w21099"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/w21099" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <!--W210 Checkbox Ends-->
+
+
+                <!--W211 EditText-->
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/TextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="@string/Q_w211" />
+
+                            <TextView
+                                style="@style/TextView"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/w211" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/subTextView"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="@string/w211a" />
+
+                            <com.edittextpicker.aliazaz.EditTextPicker
+                                android:id="@+id/w211"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:hint="##"
+                                android:inputType="number"
+                                android:maxLength="2"
+                                app:maxValue="12"
+                                app:minValue="1"
+                                app:type="range" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <!--W211 EditText-->
+
+
+                <!--W212 EditText-->
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/TextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="@string/Q_w212" />
+
+                            <TextView
+                                style="@style/TextView"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/w212" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/subTextView"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="@string/w212a" />
+
+                            <com.edittextpicker.aliazaz.EditTextPicker
+                                android:id="@+id/w212"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:hint="##"
+                                android:inputType="number"
+                                android:maxLength="2"
+                                app:maxValue="12"
+                                app:minValue="1"
+                                app:type="range" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <!--W212 EditText-->
+
+
+                <!--W213 EditText-->
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/TextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="@string/Q_w213" />
+
+                            <TextView
+                                style="@style/TextView"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/w213" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/subTextView"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="@string/w213a" />
+
+                            <com.edittextpicker.aliazaz.EditTextPicker
+                                android:id="@+id/w213"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:hint="##"
+                                android:inputType="number"
+                                android:maxLength="2"
+                                app:maxValue="12"
+                                app:minValue="1"
+                                app:type="range" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <!--W213 EditText-->
+
+
+                <!--W214 EditText-->
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/TextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="@string/Q_w214" />
+
+                            <TextView
+                                style="@style/TextView"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/w214" />
+
+                        </LinearLayout>
+
+                        <com.edittextpicker.aliazaz.EditTextPicker
+                            android:id="@+id/w214"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:hint="##"
+                            android:inputType="number"
+                            android:maxLength="2"
+                            app:maxValue="12"
+                            app:minValue="1"
+                            app:type="range" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <!--W214 EditText-->
+
+
+                <!--w215 EditText-->
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/TextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="@string/Q_w215" />
+
+                            <TextView
+                                style="@style/TextView"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/w215" />
+
+                        </LinearLayout>
+
+                        <com.edittextpicker.aliazaz.EditTextPicker
+                            android:id="@+id/w215"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:hint="##"
+                            android:inputType="number"
+                            android:maxLength="2"
+                            app:maxValue="12"
+                            app:minValue="1"
+                            app:type="range" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <!--w215 EditText-->
+
+
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <Button
+                            android:id="@+id/btn_next"
+                            style="@style/Button_collder"
+                            android:layout_margin="10dp"
+                            android:text="Next to Add Pregnancy" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</layout>

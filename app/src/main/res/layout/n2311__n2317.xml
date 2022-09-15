@@ -1574,10 +1574,9 @@
                         android:id="@+id/ll_N2316"
                         style="@style/Q_Linerlayout_v">
 
-                        <TextView
-                            android:id="@+id/txt_N2316"
-                            style="@style/TextView"
-                            android:text="@string/txt_N2316" />
+<TextView
+    style="@style/TextView"
+    android:text="@string/txt_N2316" />
 
                         <RadioGroup
                             android:id="@+id/rg_N2316"
@@ -1618,7 +1617,6 @@
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/txt_N2317"
                             style="@style/TextView"
                             android:text="@string/txt_N2317" />
 

@@ -419,9 +419,9 @@ public class N2110_N2189a extends AppCompatActivity {
         }
 
         //ll_N2112
-        if (!Gothrough.IamHiden(bi.llN2112)) {
+        /*if (!Gothrough.IamHiden(bi.llN2112)) {
             return false;
-        }
+        }*/
 
         if (bi.rbN21121.isChecked()) {
             //ll_N2113
@@ -439,9 +439,9 @@ public class N2110_N2189a extends AppCompatActivity {
             return false;
         }
         //ll_N2115
-        if (!Gothrough.IamHiden(bi.llN2115)) {
+        /*if (!Gothrough.IamHiden(bi.llN2115)) {
             return false;
-        }
+        }*/
 
         if (bi.rbN21151.isChecked()) {
             //ll_N2116_1
@@ -449,15 +449,15 @@ public class N2110_N2189a extends AppCompatActivity {
                 return false;
             }
             //ll_N2116_2
-            if (!Gothrough.IamHiden(bi.llN21162)) {
+            /*if (!Gothrough.IamHiden(bi.llN21162)) {
                 return false;
-            }
+            }*/
 
             if (!bi.rbN211621.isChecked()) {
                 //ll_N2116_3
-                if (!Gothrough.IamHiden(bi.llN21163)) {
+                /*if (!Gothrough.IamHiden(bi.llN21163)) {
                     return false;
-                }
+                }*/
             }
         }
 
@@ -466,15 +466,15 @@ public class N2110_N2189a extends AppCompatActivity {
             return false;
         }
         //ll_N2118
-        if (!Gothrough.IamHiden(bi.llN2118)) {
+        /*if (!Gothrough.IamHiden(bi.llN2118)) {
             return false;
-        }
+        }*/
 
         if (!bi.rbN21182.isChecked()) {
             //ll_N2119
-            if (!Gothrough.IamHiden(bi.llN2119)) {
+           /* if (!Gothrough.IamHiden(bi.llN2119)) {
                 return false;
-            }
+            }*/
         }
 
         //ll_N2120
@@ -482,9 +482,9 @@ public class N2110_N2189a extends AppCompatActivity {
             return false;
         }
         //ll_N2121
-        if (!Gothrough.IamHiden(bi.llN2121)) {
+        /*if (!Gothrough.IamHiden(bi.llN2121)) {
             return false;
-        }
+        }*/
 
         if (!bi.rbN21211.isChecked()) {
             //ll_N2122
@@ -495,9 +495,9 @@ public class N2110_N2189a extends AppCompatActivity {
 
         if (!bi.edN2122.getText().toString().trim().equals("98")) {
             //ll_N2123
-            if (!Gothrough.IamHiden(bi.llN2123)) {
+            /*if (!Gothrough.IamHiden(bi.llN2123)) {
                 return false;
-            }
+            }*/
 
             if (bi.rbN21231.isChecked()) {
                 //ll_N2124
@@ -794,7 +794,7 @@ public class N2110_N2189a extends AppCompatActivity {
         }
 
         //ll_N2167
-        if (!Gothrough.IamHiden(bi.llN2167)) {
+        if (!Gothrough.IamHiden(bi.rgN2167)) {
             return false;
         }
 
@@ -810,7 +810,7 @@ public class N2110_N2189a extends AppCompatActivity {
         }
 
         //ll_N2170
-        if (!Gothrough.IamHiden(bi.llN2170)) {
+        if (!Gothrough.IamHiden(bi.rgN2170)) {
             return false;
         }
 
@@ -866,7 +866,7 @@ public class N2110_N2189a extends AppCompatActivity {
             return false;
         }
         //ll_N2183
-        if (!Gothrough.IamHiden(bi.llN2183)) {
+        if (!Gothrough.IamHiden(bi.rgN2183)) {
             return false;
         }
 
@@ -878,7 +878,7 @@ public class N2110_N2189a extends AppCompatActivity {
         }
 
         //ll_N2185
-        if (!Gothrough.IamHiden(bi.llN2185)) {
+        if (!Gothrough.IamHiden(bi.rgN2185)) {
             return false;
         }
 

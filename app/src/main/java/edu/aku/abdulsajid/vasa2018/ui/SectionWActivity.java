@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
-import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.LinearLayout;
@@ -16,8 +15,10 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.databinding.DataBindingUtil;
 
 import com.santalu.widget.MaskEditText;
+import com.validatorcrawler.aliazaz.Validator;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,67 +29,12 @@ import edu.aku.abdulsajid.vasa2018.Other.globale;
 import edu.aku.abdulsajid.vasa2018.R;
 import edu.aku.abdulsajid.vasa2018.data.DBHelper;
 import edu.aku.abdulsajid.vasa2018.data.LocalDataManager;
+import edu.aku.abdulsajid.vasa2018.databinding.ActivitySectionWBinding;
 import edu.aku.abdulsajid.vasa2018.utils.ClearAllcontrol;
 import edu.aku.abdulsajid.vasa2018.utils.Gothrough;
 
 
-public class w204_w222 extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
-
-    //region Declaration
-    Button
-            btn_next;
-
-    LinearLayout
-            ll_W201,
-            ll_W202,
-            ll_W203,
-            ll_W204,
-            ll_W205,
-            ll_W206,
-            ll_W207,
-            ll_W208,
-            ll_W209,
-            ll_W210,
-            ll_W211,
-            ll_W212,
-            ll_W213,
-            ll_W214,
-            ll_W215;
-
-    RadioButton
-            rb_W203_1,
-            rb_W203_2,
-            rb_W204_1,
-            rb_W204_2,
-            rb_W205_1,
-            rb_W205_2,
-            rb_W207_1,
-            rb_W207_2,
-            rb_W208_1,
-            rb_W208_2,
-            rb_W209_1,
-            rb_W209_2;
-
-
-    CheckBox
-            cb_W210_1,
-            cb_W210_2,
-            cb_W210_3,
-            cb_W210_dk,
-            cb_W210_RA;
-
-    EditText
-            ed_W201_d,
-            ed_W201_m,
-            ed_W201_y,
-            ed_W202,
-            ed_W206,
-            ed_W211,
-            ed_W212,
-            ed_W213,
-            ed_W214,
-            ed_W215;
-
+public class SectionWActivity extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
     String
             study_id,
             W201_d,
@@ -131,101 +77,18 @@ public class w204_w222 extends AppCompatActivity implements RadioButton.OnChecke
             mult_w22;
     String section;
 
+    ActivitySectionWBinding bi;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.w204_w215);
+        bi = DataBindingUtil.setContentView(this, R.layout.activity_section_w);
+        bi.setCallback(this);
 
         Intent getStudyId = getIntent();
         study_id = getStudyId.getExtras().getString("study_id");
         section = getStudyId.getExtras().getString("section");
 
-
-        this.initialize();
-        this.event_call();
-
-
-    }
-
-    void initialize() {
-
-
-        btn_next = findViewById(R.id.btn_next);
-
-        ll_W201 = findViewById(R.id.ll_W201);
-        ll_W202 = findViewById(R.id.ll_W202);
-        ll_W203 = findViewById(R.id.ll_W203);
-        ll_W204 = findViewById(R.id.ll_W204);
-        ll_W205 = findViewById(R.id.ll_W205);
-        ll_W206 = findViewById(R.id.ll_W206);
-        ll_W207 = findViewById(R.id.ll_W207);
-        ll_W208 = findViewById(R.id.ll_W208);
-        ll_W209 = findViewById(R.id.ll_W209);
-        ll_W210 = findViewById(R.id.ll_W210);
-        ll_W211 = findViewById(R.id.ll_W211);
-        ll_W212 = findViewById(R.id.ll_W212);
-        ll_W213 = findViewById(R.id.ll_W213);
-        ll_W214 = findViewById(R.id.ll_W214);
-        ll_W215 = findViewById(R.id.ll_W215);
-
-
-        rb_W203_1 = findViewById(R.id.rb_W203_1);
-        rb_W203_2 = findViewById(R.id.rb_W203_2);
-
-        rb_W204_1 = findViewById(R.id.rb_W204_1);
-        rb_W204_2 = findViewById(R.id.rb_W204_2);
-        rb_W205_1 = findViewById(R.id.rb_W205_1);
-        rb_W205_2 = findViewById(R.id.rb_W205_2);
-
-        rb_W207_1 = findViewById(R.id.rb_W207_1);
-        rb_W207_2 = findViewById(R.id.rb_W207_2);
-        rb_W208_1 = findViewById(R.id.rb_W208_1);
-        rb_W208_2 = findViewById(R.id.rb_W208_2);
-        rb_W209_1 = findViewById(R.id.rb_W209_1);
-        rb_W209_2 = findViewById(R.id.rb_W209_2);
-
-
-        cb_W210_1 = findViewById(R.id.cb_W210_1);
-        cb_W210_2 = findViewById(R.id.cb_W210_2);
-        cb_W210_3 = findViewById(R.id.cb_W210_3);
-        cb_W210_dk = findViewById(R.id.cb_W210_dk);
-        cb_W210_RA = findViewById(R.id.cb_W210_RA);
-
-        ed_W201_d = findViewById(R.id.ed_W201_d);
-        ed_W201_m = findViewById(R.id.ed_W201_m);
-        ed_W201_y = findViewById(R.id.ed_W201_y);
-        ed_W202 = findViewById(R.id.ed_W202);
-        ed_W206 = findViewById(R.id.ed_w206);
-        ed_W211 = findViewById(R.id.ed_W211);
-        ed_W212 = findViewById(R.id.ed_W212);
-        ed_W213 = findViewById(R.id.ed_W213);
-        ed_W214 = findViewById(R.id.ed_W214);
-        ed_W215 = findViewById(R.id.ed_W215);
-
-    }
-
-    void event_call() {
-        btn_next.setOnClickListener(this);
-
-
-        rb_W204_1.setOnCheckedChangeListener(this);
-        rb_W204_2.setOnCheckedChangeListener(this);
-        rb_W205_1.setOnCheckedChangeListener(this);
-        rb_W205_2.setOnCheckedChangeListener(this);
-
-        rb_W207_1.setOnCheckedChangeListener(this);
-        rb_W207_2.setOnCheckedChangeListener(this);
-        rb_W208_1.setOnCheckedChangeListener(this);
-        rb_W208_2.setOnCheckedChangeListener(this);
-
-        rb_W209_1.setOnCheckedChangeListener(this);
-        rb_W209_2.setOnCheckedChangeListener(this);
-
-        cb_W210_1.setOnCheckedChangeListener(this);
-        cb_W210_2.setOnCheckedChangeListener(this);
-        cb_W210_3.setOnCheckedChangeListener(this);
-        cb_W210_RA.setOnCheckedChangeListener(this);
-        cb_W210_dk.setOnCheckedChangeListener(this);
     }
 
     void show_dailuge() {
@@ -275,9 +138,9 @@ public class w204_w222 extends AppCompatActivity implements RadioButton.OnChecke
 
         ll_W217 = v.findViewById(R.id.ll_W217);
         ll_W218 = v.findViewById(R.id.ll_W218);
-        ll_W219 = v.findViewById(R.id.ll_W219);
+        /*ll_W219 = v.findViewById(R.id.ll_W219);
         ll_W221 = v.findViewById(R.id.ll_W221);
-        ll_W222 = v.findViewById(R.id.ll_W222);
+        ll_W222 = v.findViewById(R.id.ll_W222);*/
 
         ed_w217 = v.findViewById(R.id.ed_w217);
 
@@ -287,21 +150,21 @@ public class w204_w222 extends AppCompatActivity implements RadioButton.OnChecke
         txt_genral.setText("Enter Detail for Pregnancy No: (" + preg + ")");
 
 
-        rb_W218_1 = v.findViewById(R.id.rb_W218_1);
-        rb_W218_2 = v.findViewById(R.id.rb_W218_2);
-        rb_W218_3 = v.findViewById(R.id.rb_W218_3);
-        rb_W218_4 = v.findViewById(R.id.rb_W218_4);
-        rb_W218_5 = v.findViewById(R.id.rb_W218_5);
-        rb_W218_6 = v.findViewById(R.id.rb_W218_6);
-        rb_W219_1 = v.findViewById(R.id.rb_W219_1);
-        rb_W219_2 = v.findViewById(R.id.rb_W219_2);
+        rb_W218_1 = v.findViewById(R.id.w218a);
+        rb_W218_2 = v.findViewById(R.id.w218b);
+        rb_W218_3 = v.findViewById(R.id.w218c);
+        rb_W218_4 = v.findViewById(R.id.w218d);
+        rb_W218_5 = v.findViewById(R.id.w218e);
+        rb_W218_6 = v.findViewById(R.id.w218f);
+        rb_W219_1 = v.findViewById(R.id.w219a);
+        rb_W219_2 = v.findViewById(R.id.w219b);
 
         ed_W221_1 = v.findViewById(R.id.ed_W221_1);
         ed_W221_2 = v.findViewById(R.id.ed_W221_2);
         ed_W221_3 = v.findViewById(R.id.ed_W221_3);
-        ed_W222_1 = v.findViewById(R.id.ed_W222_1);
+       /* ed_W222_1 = v.findViewById(R.id.ed_W222_1);
         ed_W222_2 = v.findViewById(R.id.ed_W222_2);
-        ed_W222_3 = v.findViewById(R.id.ed_W222_3);
+        ed_W222_3 = v.findViewById(R.id.ed_W222_3);*/
 
         final Button btn_add = v.findViewById(R.id.btn_add);
         final Button btn_add_mutiple = v.findViewById(R.id.btn_add_mutiple);
@@ -313,17 +176,14 @@ public class w204_w222 extends AppCompatActivity implements RadioButton.OnChecke
             public void onClick(View view) {
 
 
-                if (!Gothrough.IamHiden(ll_W217) || !Gothrough.IamHiden(ll_W218) || !Gothrough.IamHiden(ll_W219) || !Gothrough.IamHiden(ll_W221) || !Gothrough.IamHiden(ll_W222)) {
-                    Toast.makeText(w204_w222.this, "Select Mendatory Field", Toast.LENGTH_LONG).show();
+                if (!Gothrough.IamHiden(ll_W217) /*|| !Gothrough.IamHiden(ll_W218) || !Gothrough.IamHiden(ll_W219) || !Gothrough.IamHiden(ll_W221) || !Gothrough.IamHiden(ll_W222)*/) {
+                    Toast.makeText(SectionWActivity.this, "Select Mendatory Field", Toast.LENGTH_LONG).show();
                     return;
                 }
 
 
-
-
-
                 if (rb_W219_1.isChecked()) {
-                    mult_w19="1";
+                    mult_w19 = "1";
                 } else if (rb_W219_2.isChecked()) {
                     mult_w19="2";
                 } else {
@@ -451,7 +311,7 @@ public class w204_w222 extends AppCompatActivity implements RadioButton.OnChecke
 
 
                 if (!Gothrough.IamHiden(ll_W217) || !Gothrough.IamHiden(ll_W218) || !Gothrough.IamHiden(ll_W219) || !Gothrough.IamHiden(ll_W221) || !Gothrough.IamHiden(ll_W222)) {
-                    Toast.makeText(w204_w222.this, "Select Mendatory Field", Toast.LENGTH_LONG).show();
+                    Toast.makeText(SectionWActivity.this, "Select Mendatory Field", Toast.LENGTH_LONG).show();
                     return;
                 }
 
@@ -570,12 +430,12 @@ public class w204_w222 extends AppCompatActivity implements RadioButton.OnChecke
                 lst_w22.add(days_22 + "_" + mult_w22);
 
 
-                int number_preg = Integer.parseInt(ed_W215.getText().toString());
+                int number_preg = Integer.parseInt(bi.w215.getText().toString());
 
                 if (lst_w17.size() < number_preg) {
-                    btn_next.setText("Add Next Pregnancy No:(" + lst_w17.size() + ")");
+                    bi.btnNext.setText("Add Next Pregnancy No:(" + lst_w17.size() + ")");
                 } else {
-                    btn_next.setText("Next Section");
+                    bi.btnNext.setText("Next Section");
                 }
 
                 b.cancel();
@@ -763,56 +623,7 @@ public class w204_w222 extends AppCompatActivity implements RadioButton.OnChecke
     }
 
     boolean validateField() {
-
-
-        if (Gothrough.IamHiden(ll_W201) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_W202) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_W203) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_W204) == false) {
-            return false;
-        }
-        if (Gothrough.IamHiden(ll_W205) == false) {
-            return false;
-        }
-        if (Gothrough.IamHiden(ll_W206) == false) {
-            return false;
-        }
-        if (Gothrough.IamHiden(ll_W207) == false) {
-            return false;
-        }
-        if (Gothrough.IamHiden(ll_W208) == false) {
-            return false;
-        }
-        if (Gothrough.IamHiden(ll_W209) == false) {
-            return false;
-        }
-        if (Gothrough.IamHiden(ll_W210) == false) {
-            return false;
-        }
-        if (Gothrough.IamHiden(ll_W211) == false) {
-            return false;
-        }
-        if (Gothrough.IamHiden(ll_W212) == false) {
-            return false;
-        }
-        if (Gothrough.IamHiden(ll_W213) == false) {
-            return false;
-        }
-        if (Gothrough.IamHiden(ll_W214) == false) {
-            return false;
-        }
-
-        return Gothrough.IamHiden(ll_W215) != false;
-
+        return Validator.emptyCheckingContainer(this, bi.GrpName);
     }
 
     void value_assignment() {
@@ -840,7 +651,7 @@ public class w204_w222 extends AppCompatActivity implements RadioButton.OnChecke
         W215 = "-1";
 
 
-        if (ed_W201_d.getText().toString().length() > 0) {
+        if (bi.edW201D.getText().toString().length() > 0) {
 
             W201_d = ed_W201_d.getText().toString().trim();
         }
@@ -914,22 +725,22 @@ public class w204_w222 extends AppCompatActivity implements RadioButton.OnChecke
             W206 = ed_W206.getText().toString().trim();
         }
 
-        if (ed_W211.getText().toString().trim().length() > 0) {
-            W211 = ed_W211.getText().toString().trim();
+        if (bi.w211.getText().toString().trim().length() > 0) {
+            W211 = bi.w211.getText().toString().trim();
         }
-        if (ed_W212.getText().toString().trim().length() > 0) {
-            W212 = ed_W212.getText().toString().trim();
+        if (bi.w212.getText().toString().trim().length() > 0) {
+            W212 = bi.w212.getText().toString().trim();
         }
-        if (ed_W213.getText().toString().trim().length() > 0) {
-            W213 = ed_W213.getText().toString().trim();
-        }
-
-        if (ed_W214.getText().toString().trim().length() > 0) {
-            W214 = ed_W214.getText().toString().trim();
+        if (bi.w213.getText().toString().trim().length() > 0) {
+            W213 = bi.w213.getText().toString().trim();
         }
 
-        if (ed_W215.getText().toString().trim().length() > 0) {
-            W215 = ed_W215.getText().toString().trim();
+        if (bi.w214.getText().toString().trim().length() > 0) {
+            W214 = bi.w214.getText().toString().trim();
+        }
+
+        if (bi.w215.getText().toString().trim().length() > 0) {
+            W215 = bi.w215.getText().toString().trim();
         }
     }
 
@@ -1054,7 +865,7 @@ public class w204_w222 extends AppCompatActivity implements RadioButton.OnChecke
 
             if (validateField() == false) {
 
-                Toast.makeText(w204_w222.this, "Please Enter Mendatory Fields ", Toast.LENGTH_LONG).show();
+                Toast.makeText(SectionWActivity.this, "Please Enter Mendatory Fields ", Toast.LENGTH_LONG).show();
                 return;
             }
 

@@ -63,7 +63,7 @@ import edu.aku.abdulsajid.vasa2018.ui.N2271_N2284;
 import edu.aku.abdulsajid.vasa2018.ui.N2291_N2304;
 import edu.aku.abdulsajid.vasa2018.ui.N2311_N2317;
 import edu.aku.abdulsajid.vasa2018.ui.N2321_N2322;
-import edu.aku.abdulsajid.vasa2018.ui.w204_w222;
+import edu.aku.abdulsajid.vasa2018.ui.SectionWActivity;
 
 
 public class SurveyPendingActivity extends AppCompatActivity {
@@ -269,7 +269,7 @@ class SurveyPendingCustomAdapter extends RecyclerView.Adapter {
 
                             if(curentSection == 20){
 
-                                intent= new Intent(mContext, w204_w222.class);
+                                intent = new Intent(mContext, SectionWActivity.class);
                                 intent.putExtra("study_id", study_id);
                                 mContext.startActivity(intent);
                             }
@@ -353,7 +353,7 @@ class SurveyPendingCustomAdapter extends RecyclerView.Adapter {
 
                             if(curentSection == 20){
 
-                                intent= new Intent(mContext, w204_w222.class);
+                                intent = new Intent(mContext, SectionWActivity.class);
                                 intent.putExtra("study_id", study_id);
                                 mContext.startActivity(intent);
                             }
@@ -451,7 +451,7 @@ class SurveyPendingCustomAdapter extends RecyclerView.Adapter {
 
                             if(curentSection == 20){
 
-                                intent= new Intent(mContext, w204_w222.class);
+                                intent = new Intent(mContext, SectionWActivity.class);
                                 intent.putExtra("study_id", study_id);
                                 mContext.startActivity(intent);
                             }
