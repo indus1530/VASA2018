@@ -34,7 +34,7 @@ import edu.aku.abdulsajid.vasa2018.utils.ClearAllcontrol;
 import edu.aku.abdulsajid.vasa2018.utils.Gothrough;
 
 
-public class SectionWActivity extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
+public class SectionWActivity extends AppCompatActivity {
     String
             study_id,
             W201_d,
@@ -170,325 +170,285 @@ public class SectionWActivity extends AppCompatActivity implements RadioButton.O
         final Button btn_add_mutiple = v.findViewById(R.id.btn_add_mutiple);
 
 
-
-        btn_add_mutiple.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        btn_add_mutiple.setOnClickListener(view -> {
 
 
-                if (!Gothrough.IamHiden(ll_W217) /*|| !Gothrough.IamHiden(ll_W218) || !Gothrough.IamHiden(ll_W219) || !Gothrough.IamHiden(ll_W221) || !Gothrough.IamHiden(ll_W222)*/) {
-                    Toast.makeText(SectionWActivity.this, "Select Mendatory Field", Toast.LENGTH_LONG).show();
-                    return;
-                }
+            if (!Gothrough.IamHiden(ll_W217) /*|| !Gothrough.IamHiden(ll_W218) || !Gothrough.IamHiden(ll_W219) || !Gothrough.IamHiden(ll_W221) || !Gothrough.IamHiden(ll_W222)*/) {
+                Toast.makeText(SectionWActivity.this, "Select Mendatory Field", Toast.LENGTH_LONG).show();
+                return;
+            }
 
 
-                if (rb_W219_1.isChecked()) {
-                    mult_w19 = "1";
-                } else if (rb_W219_2.isChecked()) {
-                    mult_w19="2";
+            if (rb_W219_1.isChecked()) {
+                mult_w19 = "1";
+            } else if (rb_W219_2.isChecked()) {
+                mult_w19 = "2";
+            } else {
+                mult_w19 = "-1";
+            }
+
+            int year_21 = 0;
+            int month_21 = 0;
+            int days_21 = 0;
+
+            if (ed_W221_1.getText().toString().trim().length() > 0) {
+                if (ed_W221_1.getText().toString().equals("98")) {
+                    year_21 = 00;
                 } else {
-                    mult_w19="-1";
+                    year_21 = Integer.parseInt(ed_W221_1.getText().toString().trim()) * 365;
+                }
+            }
+
+
+            if (ed_W221_2.getText().toString().trim().length() > 0) {
+                if (ed_W221_2.getText().toString().equals("98")) {
+                    month_21 = 00;
+                } else {
+                    month_21 = Integer.parseInt(ed_W221_2.getText().toString().trim()) * 30;
+                }
+            }
+
+            if (ed_W221_1.getText().toString().trim().length() > 0) {
+                if (ed_W221_1.getText().toString().equals("98")) {
+                    days_21 = 00;
+                } else {
+                    days_21 = Integer.parseInt(ed_W221_3.getText().toString().trim()) * 1;
+                }
+            }
+
+
+            days_21 = days_21 + month_21 + year_21;
+
+            mult_w21 = Integer.toString(days_21);
+
+
+            int year_22 = 0;
+            int month_22 = 0;
+            int days_22 = 0;
+
+            if (ed_W222_1.getText().toString().trim().length() > 0) {
+                if (ed_W222_1.getText().toString().equals("98")) {
+
+                    year_22 = 00;
+
+                } else {
+                    year_22 = Integer.parseInt(ed_W222_1.getText().toString().trim()) * 365;
+                }
+            }
+
+            if (ed_W222_2.getText().toString().trim().length() > 0) {
+
+                if (ed_W222_2.getText().toString().equals("98")) {
+                    month_22 = 00;
+                } else {
+                    month_22 = Integer.parseInt(ed_W222_2.getText().toString().trim()) * 30;
                 }
 
-                int year_21 = 0;
-                int month_21 = 0;
-                int days_21 = 0;
+            }
 
-                if (ed_W221_1.getText().toString().trim().length() > 0) {
-                    if(ed_W221_1.getText().toString().equals("98"))
-                    {
-                        year_21=00;
-                    }
-                    else {
-                        year_21 = Integer.parseInt(ed_W221_1.getText().toString().trim()) * 365;
-                    }
-                }
+            if (ed_W222_3.getText().toString().trim().length() > 0) {
 
+                if (ed_W222_3.getText().toString().trim().equals("98")) {
+                    days_22 = 0;
+                } else {
 
-                if (ed_W221_2.getText().toString().trim().length() > 0) {
-                    if(ed_W221_2.getText().toString().equals("98"))
-                    {
-                        month_21=00;
-                    }
-                    else {
-                        month_21 = Integer.parseInt(ed_W221_2.getText().toString().trim()) * 30;
-                    }
-                }
-
-                if (ed_W221_1.getText().toString().trim().length() > 0) {
-                    if(ed_W221_1.getText().toString().equals("98")) {
-                        days_21 = 00;
-                    }
-                    else
-                    {
-                        days_21 = Integer.parseInt(ed_W221_3.getText().toString().trim()) * 1;
-                    }
-                }
-
-
-                days_21 = days_21 + month_21 + year_21;
-
-                mult_w21=Integer.toString(days_21);
-
-
-                int year_22 = 0;
-                int month_22 = 0;
-                int days_22 = 0;
-
-                if (ed_W222_1.getText().toString().trim().length() > 0) {
-                    if(ed_W222_1.getText().toString().equals("98")) {
-
-                        year_22=00;
-
-                    }
-                    else
-                    {
-                        year_22 = Integer.parseInt(ed_W222_1.getText().toString().trim()) * 365;
-                    }
-                }
-
-                if (ed_W222_2.getText().toString().trim().length() > 0) {
-
-                    if(ed_W222_2.getText().toString().equals("98")) {
-                        month_22=00;
-                    }
-                    else {
-                        month_22 = Integer.parseInt(ed_W222_2.getText().toString().trim()) * 30;
-                    }
+                    days_22 = Integer.parseInt(ed_W222_3.getText().toString().trim()) * 1;
 
                 }
+            }
 
-                if (ed_W222_3.getText().toString().trim().length() > 0) {
+            days_22 = days_22 + month_22 + year_22;
 
-                    if(ed_W222_3.getText().toString().trim().equals("98"))
-                    {
-                        days_22=0;
-                    }
-                    else {
+            mult_w22 = Integer.toString(days_22);
+            //  lst_w21.add(Integer.toString(days_21));
+            //  lst_w22.add(Integer.toString(days_22));
 
-                        days_22 = Integer.parseInt(ed_W222_3.getText().toString().trim()) * 1;
 
-                    }
+            // int number_preg = Integer.parseInt(ed_W215.getText().toString());
+
+
+            btn_add.setVisibility(View.VISIBLE);
+            btn_add_mutiple.setVisibility(View.GONE);
+
+
+            rb_W219_1.setChecked(false);
+            rb_W219_2.setChecked(false);
+            ed_W221_1.setText("");
+            ed_W221_2.setText("");
+            ed_W221_3.setText("");
+            ed_W222_1.setText("");
+            ed_W222_2.setText("");
+            ed_W222_3.setText("");
+
+
+        });
+
+
+        btn_add.setOnClickListener(view -> {
+
+
+            if (!Gothrough.IamHiden(ll_W217) || !Gothrough.IamHiden(ll_W218) || !Gothrough.IamHiden(ll_W219) || !Gothrough.IamHiden(ll_W221) || !Gothrough.IamHiden(ll_W222)) {
+                Toast.makeText(SectionWActivity.this, "Select Mendatory Field", Toast.LENGTH_LONG).show();
+                return;
+            }
+
+
+            if (ed_w217.getText().toString().trim().length() > 0) {
+                lst_w17.add(ed_w217.getText().toString().trim());
+            } else {
+                lst_w17.add("-1");
+            }
+
+            if (rb_W218_1.isChecked()) {
+                lst_w18.add("1");
+            } else if (rb_W218_2.isChecked()) {
+                lst_w18.add("2");
+            } else if (rb_W218_3.isChecked()) {
+                lst_w18.add("3");
+            } else if (rb_W218_4.isChecked()) {
+                lst_w18.add("4");
+            } else if (rb_W218_5.isChecked()) {
+                lst_w18.add("5");
+            } else if (rb_W218_6.isChecked()) {
+                lst_w18.add("6");
+            } else {
+                lst_w18.add("-1");
+            }
+
+            if (rb_W219_1.isChecked()) {
+                lst_w19.add("1" + "_" + mult_w19);
+            } else if (rb_W219_2.isChecked()) {
+                lst_w19.add("2" + "_" + mult_w19);
+            } else {
+                lst_w19.add("-1" + "_" + mult_w19);
+            }
+
+            int year_21 = 0;
+            int month_21 = 0;
+            int days_21 = 0;
+
+            if (ed_W221_1.getText().toString().trim().length() > 0) {
+                if (ed_W221_1.getText().toString().equals("98")) {
+                    year_21 = 00;
+                } else {
+                    year_21 = Integer.parseInt(ed_W221_1.getText().toString().trim()) * 365;
+                }
+            }
+
+
+            if (ed_W221_2.getText().toString().trim().length() > 0) {
+                if (ed_W221_2.getText().toString().equals("98")) {
+                    month_21 = 00;
+                } else {
+                    month_21 = Integer.parseInt(ed_W221_2.getText().toString().trim()) * 30;
+                }
+            }
+
+            if (ed_W221_1.getText().toString().trim().length() > 0) {
+                if (ed_W221_1.getText().toString().equals("98")) {
+                    days_21 = 00;
+                } else {
+                    days_21 = Integer.parseInt(ed_W221_3.getText().toString().trim()) * 1;
+                }
+            }
+
+
+            days_21 = days_21 + month_21 + year_21;
+
+
+            int year_22 = 0;
+            int month_22 = 0;
+            int days_22 = 0;
+
+            if (ed_W222_1.getText().toString().trim().length() > 0) {
+                if (ed_W222_1.getText().toString().equals("98")) {
+
+                    year_22 = 00;
+
+                } else {
+                    year_22 = Integer.parseInt(ed_W222_1.getText().toString().trim()) * 365;
+                }
+            }
+
+            if (ed_W222_2.getText().toString().trim().length() > 0) {
+
+                if (ed_W222_2.getText().toString().equals("98")) {
+                    month_22 = 00;
+                } else {
+                    month_22 = Integer.parseInt(ed_W222_2.getText().toString().trim()) * 30;
                 }
 
-                days_22 = days_22 + month_22 + year_22;
+            }
 
-                mult_w22=Integer.toString(days_22);
-                //  lst_w21.add(Integer.toString(days_21));
-                //  lst_w22.add(Integer.toString(days_22));
+            if (ed_W222_3.getText().toString().trim().length() > 0) {
+
+                if (ed_W222_3.getText().toString().trim().equals("98")) {
+                    days_22 = 0;
+                } else {
+
+                    days_22 = Integer.parseInt(ed_W222_3.getText().toString().trim()) * 1;
+
+                }
+            }
+
+            days_22 = days_22 + month_22 + year_22;
+
+            lst_w21.add(days_21 + "_" + mult_w21);
+            lst_w22.add(days_22 + "_" + mult_w22);
 
 
-                // int number_preg = Integer.parseInt(ed_W215.getText().toString());
+            int number_preg = Integer.parseInt(bi.w215.getText().toString());
+
+            if (lst_w17.size() < number_preg) {
+                bi.btnNext.setText("Add Next Pregnancy No:(" + lst_w17.size() + ")");
+            } else {
+                bi.btnNext.setText("Next Section");
+            }
+
+            b.cancel();
+        });
 
 
+        rb_W218_1.setOnClickListener(v1 -> {
+            boolean checked = ((RadioButton) v1).isChecked();
+            // Check which radiobutton was pressed
+            if (checked) {
+
+                ll_W219.setVisibility(View.GONE);
+                ll_W221.setVisibility(View.GONE);
+                ll_W222.setVisibility(View.GONE);
+
+                ClearAllcontrol.ClearAll(ll_W219);
+                ClearAllcontrol.ClearAll(ll_W221);
+                ClearAllcontrol.ClearAll(ll_W222);
                 btn_add.setVisibility(View.VISIBLE);
                 btn_add_mutiple.setVisibility(View.GONE);
-
-
-
-                rb_W219_1.setChecked(false);
-                rb_W219_2.setChecked(false);
-                ed_W221_1.setText("");
-                ed_W221_2.setText("");
-                ed_W221_3.setText("");
-                ed_W222_1.setText("");
-                ed_W222_2.setText("");
-                ed_W222_3.setText("");
-
-
+            } else {
+                ll_W219.setVisibility(View.VISIBLE);
+                ll_W221.setVisibility(View.VISIBLE);
+                ll_W222.setVisibility(View.VISIBLE);
             }
         });
 
 
+        rb_W218_2.setOnClickListener(v12 -> {
+            boolean checked = ((RadioButton) v12).isChecked();
+            // Check which radiobutton was pressed
+            if (checked) {
 
+                ll_W219.setVisibility(View.GONE);
+                ll_W221.setVisibility(View.GONE);
+                ll_W222.setVisibility(View.GONE);
 
-
-
-
-        btn_add.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-
-                if (!Gothrough.IamHiden(ll_W217) || !Gothrough.IamHiden(ll_W218) || !Gothrough.IamHiden(ll_W219) || !Gothrough.IamHiden(ll_W221) || !Gothrough.IamHiden(ll_W222)) {
-                    Toast.makeText(SectionWActivity.this, "Select Mendatory Field", Toast.LENGTH_LONG).show();
-                    return;
-                }
-
-
-                if (ed_w217.getText().toString().trim().length() > 0) {
-                    lst_w17.add(ed_w217.getText().toString().trim());
-                } else {
-                    lst_w17.add("-1");
-                }
-
-                if (rb_W218_1.isChecked()) {
-                    lst_w18.add("1");
-                } else if (rb_W218_2.isChecked()) {
-                    lst_w18.add("2");
-                } else if (rb_W218_3.isChecked()) {
-                    lst_w18.add("3");
-                } else if (rb_W218_4.isChecked()) {
-                    lst_w18.add("4");
-                } else if (rb_W218_5.isChecked()) {
-                    lst_w18.add("5");
-                } else if (rb_W218_6.isChecked()) {
-                    lst_w18.add("6");
-                } else {
-                    lst_w18.add("-1");
-                }
-
-                if (rb_W219_1.isChecked()) {
-                    lst_w19.add("1"+"_"+mult_w19);
-                } else if (rb_W219_2.isChecked()) {
-                    lst_w19.add("2"+"_"+mult_w19);
-                } else {
-                    lst_w19.add("-1"+"_"+mult_w19);
-                }
-
-                int year_21 = 0;
-                int month_21 = 0;
-                int days_21 = 0;
-
-                if (ed_W221_1.getText().toString().trim().length() > 0) {
-                    if(ed_W221_1.getText().toString().equals("98"))
-                    {
-                        year_21=00;
-                    }
-                    else {
-                        year_21 = Integer.parseInt(ed_W221_1.getText().toString().trim()) * 365;
-                    }
-                }
-
-
-                if (ed_W221_2.getText().toString().trim().length() > 0) {
-                    if(ed_W221_2.getText().toString().equals("98"))
-                    {
-                        month_21=00;
-                    }
-                    else {
-                        month_21 = Integer.parseInt(ed_W221_2.getText().toString().trim()) * 30;
-                    }
-                }
-
-                if (ed_W221_1.getText().toString().trim().length() > 0) {
-                    if(ed_W221_1.getText().toString().equals("98")) {
-                        days_21 = 00;
-                    }
-                    else
-                    {
-                        days_21 = Integer.parseInt(ed_W221_3.getText().toString().trim()) * 1;
-                    }
-                }
-
-
-                days_21 = days_21 + month_21 + year_21;
-
-
-                int year_22 = 0;
-                int month_22 = 0;
-                int days_22 = 0;
-
-                if (ed_W222_1.getText().toString().trim().length() > 0) {
-                    if(ed_W222_1.getText().toString().equals("98")) {
-
-                        year_22=00;
-
-                    }
-                    else
-                    {
-                        year_22 = Integer.parseInt(ed_W222_1.getText().toString().trim()) * 365;
-                    }
-                }
-
-                if (ed_W222_2.getText().toString().trim().length() > 0) {
-
-                    if(ed_W222_2.getText().toString().equals("98")) {
-                        month_22=00;
-                    }
-                    else {
-                        month_22 = Integer.parseInt(ed_W222_2.getText().toString().trim()) * 30;
-                    }
-
-                }
-
-                if (ed_W222_3.getText().toString().trim().length() > 0) {
-
-                    if(ed_W222_3.getText().toString().trim().equals("98"))
-                    {
-                        days_22=0;
-                    } else {
-
-                        days_22 = Integer.parseInt(ed_W222_3.getText().toString().trim()) * 1;
-
-                    }
-                }
-
-                days_22 = days_22 + month_22 + year_22;
-
-                lst_w21.add(days_21 + "_" + mult_w21);
-                lst_w22.add(days_22 + "_" + mult_w22);
-
-
-                int number_preg = Integer.parseInt(bi.w215.getText().toString());
-
-                if (lst_w17.size() < number_preg) {
-                    bi.btnNext.setText("Add Next Pregnancy No:(" + lst_w17.size() + ")");
-                } else {
-                    bi.btnNext.setText("Next Section");
-                }
-
-                b.cancel();
-            }
-        });
-
-
-        rb_W218_1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                boolean checked = ((RadioButton) v).isChecked();
-                // Check which radiobutton was pressed
-                if (checked) {
-
-                    ll_W219.setVisibility(View.GONE);
-                    ll_W221.setVisibility(View.GONE);
-                    ll_W222.setVisibility(View.GONE);
-
-                    ClearAllcontrol.ClearAll(ll_W219);
-                    ClearAllcontrol.ClearAll(ll_W221);
-                    ClearAllcontrol.ClearAll(ll_W222);
-                    btn_add.setVisibility(View.VISIBLE);
-                    btn_add_mutiple.setVisibility(View.GONE);
-                } else {
-                    ll_W219.setVisibility(View.VISIBLE);
-                    ll_W221.setVisibility(View.VISIBLE);
-                    ll_W222.setVisibility(View.VISIBLE);
-                }
-            }
-        });
-
-
-        rb_W218_2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                boolean checked = ((RadioButton) v).isChecked();
-                // Check which radiobutton was pressed
-                if (checked) {
-
-                    ll_W219.setVisibility(View.GONE);
-                    ll_W221.setVisibility(View.GONE);
-                    ll_W222.setVisibility(View.GONE);
-
-                    ClearAllcontrol.ClearAll(ll_W219);
-                    ClearAllcontrol.ClearAll(ll_W221);
-                    ClearAllcontrol.ClearAll(ll_W222);
-                    btn_add.setVisibility(View.VISIBLE);
-                    btn_add_mutiple.setVisibility(View.GONE);
-                } else {
-                    ll_W219.setVisibility(View.VISIBLE);
-                    ll_W221.setVisibility(View.VISIBLE);
-                    ll_W222.setVisibility(View.VISIBLE);
-                }
+                ClearAllcontrol.ClearAll(ll_W219);
+                ClearAllcontrol.ClearAll(ll_W221);
+                ClearAllcontrol.ClearAll(ll_W222);
+                btn_add.setVisibility(View.VISIBLE);
+                btn_add_mutiple.setVisibility(View.GONE);
+            } else {
+                ll_W219.setVisibility(View.VISIBLE);
+                ll_W221.setVisibility(View.VISIBLE);
+                ll_W222.setVisibility(View.VISIBLE);
             }
         });
         //show dialog
