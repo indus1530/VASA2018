@@ -7325,10 +7325,25 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="txt_Q1101">Q1101:	Is this an area of high HIV/AIDS prevalence?</string>
     <string name="txt_Q1102">Q1102:	Is this a region of high malaria prevalence?</string>
     <string name="txt_Q1103">Q1103:	During which season did the child/she/he die?</string>
-    <string name="txt_Q1201">Q1201:	Address of the household</string>
-    <string name="txt_Q1202">Q1202:	Name of the deceased (if known)</string>
 
-    <string name="txt_Q1203">Q1203:	Sex of deceased</string>
+    <string name="Q_q1201">Q1201</string>
+    <string name="q1201">Address of the Household</string>
+    <string name="q1201a">Province</string>
+    <string name="q1201b">District</string>
+    <string name="q1201c">Admin Position</string>
+    <string name="q1201d">Local</string>
+    <string name="q1201e">Community</string>
+    <string name="q1201f">EA</string>
+    <string name="q1201g">Location of the Household</string>
+
+    <string name="Q_q1202">Q1202</string>
+    <string name="q1202">Name of the deceased (if known)</string>
+
+    <string name="Q_q1203">Q1203</string>
+    <string name="q1203">Gender of Deceased</string>
+    <string name="q1203a">Male</string>
+    <string name="q1203b">Female</string>
+
     <string name="txt_Q1204">Q1204:	Date of birth of the deceased</string>
     <string name="txt_Q1205">Q1205:	Date of death of the deceased</string>
     <string name="txt_Q1206">Q1206:	Last known age of the deceased</string>
@@ -7404,15 +7419,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_Q1103_1">Wet</string>
     <string name="rb_Q1103_2">Dry</string>
     <string name="rb_Q1103_3">DK</string>
-    <string name="rb_Q1201_1"> صوبہ </string>
-    <string name="rb_Q1201_2"> ضلع </string>
-    <string name="rb_Q1201_3"> ایڈمن پوزیشن </string>
-    <string name="rb_Q1201_4"> مقامی </string>
-    <string name="rb_Q1201_5"> برادری </string>
-    <string name="rb_Q1201_6">  ای اے </string>
-    <string name="rb_Q1201_7">گھرانے کا محل و وقوع</string>
-    <string name="rb_Q1203_1">Male</string>
-    <string name="rb_Q1203_2">Female</string>
+
     <string name="rb_Q1207_1">Stillbirth</string>
     <string name="rb_Q1207_2">Neonatal death</string>
     <string name="rb_Q1207_3">Not known from the record</string>

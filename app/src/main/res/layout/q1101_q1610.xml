@@ -202,22 +202,30 @@
             <!-- Spinner Q1201_1 Province Ends -->
 
 
-
             <!-- Spinner Q1201_2 District Starts -->
-            <androidx.cardview.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvQ12012"
+                style="@style/Q_CardView">
 
                 <LinearLayout
-                    android:id="@+id/ll_Q1201_2"
-                    style="@style/Q_Linerlayout_v">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
 
                     <TextView
                         style="@style/TextView"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
                         android:text="@string/txt_Q1201_2" />
 
                     <Spinner
                         android:id="@+id/sp_district"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
                         android:prompt="@string/district_prompt"
                         android:entries="@array/province"
                         android:spinnerMode="dropdown" />
@@ -229,26 +237,34 @@
 
 
             <!-- EditText Q1201 Starts -->
-            <androidx.cardview.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvQ1201"
+                style="@style/Q_CardView">
 
                 <LinearLayout
-                    android:id="@+id/ll_Q1201"
-                    style="@style/Q_Linerlayout_v">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
 
-                    <TextView
-                        android:id="@+id/txt_Q1201"
-                        style="@style/TextView"
-                        android:text="@string/txt_Q1201" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
 
-                    <!--<EditText
-                        android:id="@+id/ed_Q1201_1"
-                        style="@style/EditText_varchar"
-                        android:hint="Province" />
+                        <TextView
+                            style="@style/TextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/Q_q1201" />
 
-                    <EditText
-                        android:id="@+id/ed_Q1201_2"
-                        style="@style/EditText_varchar"
-                        android:hint="District" />-->
+                        <TextView
+                            style="@style/TextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/q1201" />
+
+                    </LinearLayout>
 
                     <EditText
                         android:id="@+id/ed_Q1201_3"
@@ -276,62 +292,106 @@
             </androidx.cardview.widget.CardView>
             <!-- EditText Q1201 Ends -->
 
+
             <!-- EditText Q1202 Starts -->
-            <androidx.cardview.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvQ1202"
+                style="@style/Q_CardView">
 
                 <LinearLayout
-                    android:id="@+id/ll_Q1202"
-                    style="@style/Q_Linerlayout_v">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
 
-                    <TextView
-                        android:id="@+id/txt_Q1202"
-                        style="@style/TextView"
-                        android:text="@string/txt_Q1202" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/TextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/Q_q1202" />
+
+                        <TextView
+                            style="@style/TextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/q1202" />
+
+                    </LinearLayout>
 
                     <EditText
-                        android:id="@+id/ed_Q1202"
+                        android:id="@+id/q1202"
                         style="@style/EditText_Name"
-                        android:hint="@string/txt_Q1202" />
+                        android:hint="@string/q1202" />
 
 
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
-            <!-- EditText Q1202 Ends -->
+            <!--Q1202 EditText-->
 
 
-            <!-- Radio Buttons Q1203 Starts -->
+            <!--Q1203 Radio-->
             <androidx.cardview.widget.CardView
-                android:id="@+id/cv_Q1402"
+                android:id="@+id/cvQ1203"
                 style="@style/Q_CardView">
 
                 <LinearLayout
-                    android:id="@+id/ll_Q1203"
-                    style="@style/Q_Linerlayout_v">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
 
-                    <TextView
-                        android:id="@+id/txt_Q1203"
-                        style="@style/TextView"
-                        android:text="@string/txt_Q1203" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
 
-                    <RadioGroup style="@style/RadioGroup">
+                        <TextView
+                            style="@style/TextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/Q_q1203" />
+
+                        <TextView
+                            style="@style/TextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/q1203" />
+
+                    </LinearLayout>
+
+                    <RadioGroup
+                        android:id="@+id/q1203"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
 
                         <RadioButton
-                            android:id="@+id/rb_Q1203_1"
-                            style="@style/RadioButton"
-                            android:text="@string/rb_Q1203_1" />
+                            android:id="@+id/q1203a"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="@string/q1203a" />
 
                         <RadioButton
-                            android:id="@+id/rb_Q1203_2"
-                            style="@style/RadioButton"
-                            android:text="@string/rb_Q1203_2" />
+                            android:id="@+id/q1203b"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="@string/q1203b" />
 
                     </RadioGroup>
 
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
-            <!-- Radio Buttons Q1203 Ends -->
+            <!--Q1203 Radio-->
+
 
             <!-- EditText Q1204 Starts -->
             <androidx.cardview.widget.CardView style="@style/Q_CardView">

@@ -146,9 +146,25 @@
     <string name="txt_Q1101">کیا یہ ایچ آئی وی /ایڈز سے متاثر  علاقہ ہے ؟	:	Q1101</string>
     <string name="txt_Q1102">کیا یہ ملیریا سے متاثر  علاقہ ہے؟	:	Q1102</string>
     <string name="txt_Q1103">کس موسم کے دوران متوفی کی وفات ہوئی ؟	:	Q1103</string>
-    <string name="txt_Q1201">گھرانے کا پتہ:	Q1201</string>
-    <string name="txt_Q1202">مرنے والے کا نام (اگر معلوم ہے)	:	Q1202</string>
-    <string name="txt_Q1203">مرنے والے کی جنس	:	Q1203</string>
+
+    <string name="Q_q1201">Q1201</string>
+    <string name="q1201">گھرانے کا پتہ:</string>
+    <string name="q1201a">صوبہ</string>
+    <string name="q1201b">ضلع</string>
+    <string name="q1201c">ایڈمن پوزیشن</string>
+    <string name="q1201d">مقامی</string>
+    <string name="q1201e">برادری</string>
+    <string name="q1201f"> ای اے</string>
+    <string name="q1201g">گھرانے کا محل و وقوع</string>
+
+    <string name="Q_q1202">Q1202</string>
+    <string name="q1202">مرنے والے کا نام (اگر معلوم ہے)</string>
+
+    <string name="Q_q1203">Q1203</string>
+    <string name="q1203">مرنے والے کی جنس</string>
+    <string name="q1203a">لڑکا / مرد</string>
+    <string name="q1203b">لڑکی / عورت</string>
+
     <string name="txt_Q1204">مرنے والے کی تاریخ پیدائش	:	Q1204</string>
     <string name="txt_Q1205">وفات پانے والے کی موت کی تاریخ	:	Q1205</string>
     <string name="txt_Q1206">وفات پانے والے کی عمر 	:	Q1206</string>
@@ -229,16 +245,6 @@
     <string name="rb_Q1103_2">سوکھا</string>
     <string name="rb_Q1103_3">معلوم نہیں</string>
 
-    <string name="rb_Q1201_1">صوبہ</string>
-    <string name="rb_Q1201_2">ضلع</string>
-    <string name="rb_Q1201_3">ایڈمن پوزیشن</string>
-    <string name="rb_Q1201_4">مقامی</string>
-    <string name="rb_Q1201_5">برادری</string>
-    <string name="rb_Q1201_6"> ای اے</string>
-    <string name="rb_Q1201_7">گھرانے کا محل و وقوع</string>
-
-    <string name="rb_Q1203_1">لڑکا /مرد</string>
-    <string name="rb_Q1203_2">لڑکی/عورت</string>
     <string name="rb_Q1207_1">مردہ</string>
     <string name="rb_Q1207_2">نوزائیدہ</string>
     <string name="rb_Q1207_3">ریکارڈ سے معلوم نہیں ہوا</string>
