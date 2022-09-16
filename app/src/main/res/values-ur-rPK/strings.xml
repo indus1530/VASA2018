@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name"><big>V A S A</big> <i><u><small>2018</small></u></i></string>
-    <string name="study_id">Study ID</string>
+    <string name="study_id">مطالعہ کی شناخت</string>
     <string name="navigation_drawer_open">Open Navigation Drawer</string>
     <string name="navigation_drawer_close">Close Navigation Drawer</string>
     <string name="hello_blank_fragment">Hello Blank Fragment</string>

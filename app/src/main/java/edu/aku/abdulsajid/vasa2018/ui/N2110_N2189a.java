@@ -3,15 +3,14 @@ package edu.aku.abdulsajid.vasa2018.ui;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextWatcher;
-import android.view.View;
 import android.widget.Button;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
+
+import com.validatorcrawler.aliazaz.Validator;
 
 import edu.aku.abdulsajid.vasa2018.Global.N.N2001_N2011;
 import edu.aku.abdulsajid.vasa2018.Global.N.N2051_N2078;
@@ -20,7 +19,6 @@ import edu.aku.abdulsajid.vasa2018.R;
 import edu.aku.abdulsajid.vasa2018.data.DBHelper;
 import edu.aku.abdulsajid.vasa2018.databinding.N2110N2189aBinding;
 import edu.aku.abdulsajid.vasa2018.utils.ClearAllcontrol;
-import edu.aku.abdulsajid.vasa2018.utils.Gothrough;
 
 public class N2110_N2189a extends AppCompatActivity {
 
@@ -113,7 +111,7 @@ public class N2110_N2189a extends AppCompatActivity {
             }
         });
 
-        bi.edN2122.addTextChangedListener(new TextWatcher() {
+        /*bi.edN2122.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
 
@@ -252,7 +250,7 @@ public class N2110_N2189a extends AppCompatActivity {
         if ((!flag_n2066 && !flag_n2067) || !flag_n2006_2) {
             ClearAllcontrol.ClearAll(bi.llN2129N2130); //ll_N2129_N2130
             bi.llN2129N2130.setVisibility(View.GONE);
-        }
+        }*/
 
     }
 
@@ -301,7 +299,7 @@ public class N2110_N2189a extends AppCompatActivity {
         n2110.setN2120(bi.rbN21201.isChecked() ? "1" : bi.rbN21202.isChecked() ? "2" : bi.rbN2120DK.isChecked() ? "9" : bi.rbN2120RA.isChecked() ? "8" : "-1");
         n2110.setN2121(bi.rbN21211.isChecked() ? "1" : bi.rbN21212.isChecked() ? "2" : bi.rbN2121DK.isChecked() ? "9" : bi.rbN2121RA.isChecked() ? "8" : "-1");
         n2110.setN2122(bi.edN2122.getText().toString().trim().length() > 0 ? bi.edN2122.getText().toString() : "-1");
-        n2110.setN2123(bi.rbN21231.isChecked() ? "1" : bi.rbN21232.isChecked() ? "2" : bi.rbN2123DK.isChecked() ? "9" : bi.rbN2123RA.isChecked() ? "8" : "-1");
+        /*n2110.setN2123(bi.rbN21231.isChecked() ? "1" : bi.rbN21232.isChecked() ? "2" : bi.rbN2123DK.isChecked() ? "9" : bi.rbN2123RA.isChecked() ? "8" : "-1");
         n2110.setN2124(bi.edN2124.getText().toString().trim().length() > 0 ? bi.edN2124.getText().toString() : "-1");
         n2110.setN2125(bi.rbN21251.isChecked() ? "1" : bi.rbN21252.isChecked() ? "2" : bi.rbN2125DK.isChecked() ? "9" : "-1");
         n2110.setN2126(bi.rbN21261.isChecked() ? "1" : bi.rbN21262.isChecked() ? "2" : bi.rbN2126DK.isChecked() ? "9" : "-1");
@@ -362,8 +360,8 @@ public class N2110_N2189a extends AppCompatActivity {
         n2110.setN2165(bi.rbN21651.isChecked() ? "1" : bi.rbN21652.isChecked() ? "2" : bi.rbN2165DK.isChecked() ? "9" : bi.rbN2165RA.isChecked() ? "8" : "-1");
         n2110.setN2166(bi.edN2166.getText().toString().trim().length() > 0 ? bi.edN2166.getText().toString() : "-1");
         n2110.setN21661(bi.edN21661.getText().toString().trim().length() > 0 ? bi.edN21661.getText().toString() : "-1");
-        n2110.setN2167(bi.rbN21671.isChecked() ? "1" : bi.rbN21672.isChecked() ? "2" : bi.rbN2167DK.isChecked() ? "9" : bi.rbN2167RA.isChecked() ? "8" : "-1");
-        n2110.setN2168(bi.edN2168.getText().toString().trim().length() > 0 ? bi.edN2168.getText().toString() : "-1");
+        n2110.setN2167(bi.rbN21671.isChecked() ? "1" : bi.rbN21672.isChecked() ? "2" : bi.rbN2167DK.isChecked() ? "9" : bi.rbN2167RA.isChecked() ? "8" : "-1");*/
+        /*n2110.setN2168(bi.edN2168.getText().toString().trim().length() > 0 ? bi.edN2168.getText().toString() : "-1");
         n2110.setN2169(bi.edN2169.getText().toString().trim().length() > 0 ? bi.edN2169.getText().toString() : "-1");
         n2110.setN2170(bi.rbN21701.isChecked() ? "1" : bi.rbN21702.isChecked() ? "2" : bi.rbN2170DK.isChecked() ? "9" : bi.rbN2170RA.isChecked() ? "8" : "-1");
         n2110.setN2171(bi.edN2171.getText().toString().trim().length() > 0 ? bi.edN2171.getText().toString() : "-1");
@@ -371,22 +369,22 @@ public class N2110_N2189a extends AppCompatActivity {
 //        n2110.setN2173(bi.rbN21731.isChecked() ? "1" : bi.rbN21732.isChecked() ? "2" : bi.rbN2173DK.isChecked() ? "9" : bi.rbN2173RA.isChecked() ? "8" : "-1");
         n2110.setN2174(bi.rbN21741.isChecked() ? "1" : bi.rbN21742.isChecked() ? "2" : bi.rbN2174DK.isChecked() ? "9" : bi.rbN2174RA.isChecked() ? "8" : "-1");
         n2110.setN2175(bi.rbN21751.isChecked() ? "1" : bi.rbN21752.isChecked() ? "2" : bi.rbN2175DK.isChecked() ? "9" : bi.rbN2175RA.isChecked() ? "8" : "-1");
-        n2110.setN2176(bi.rbN21761.isChecked() ? "1" : bi.rbN21762.isChecked() ? "2" : bi.rbN2176DK.isChecked() ? "9" : bi.rbN2176RA.isChecked() ? "8" : "-1");
-        n2110.setN2177(bi.rbN21771.isChecked() ? "1" : bi.rbN21772.isChecked() ? "2" : bi.rbN2177DK.isChecked() ? "9" : bi.rbN2177RA.isChecked() ? "8" : "-1");
+        n2110.setN2176(bi.rbN21761.isChecked() ? "1" : bi.rbN21762.isChecked() ? "2" : bi.rbN2176DK.isChecked() ? "9" : bi.rbN2176RA.isChecked() ? "8" : "-1");*/
+        /*n2110.setN2177(bi.rbN21771.isChecked() ? "1" : bi.rbN21772.isChecked() ? "2" : bi.rbN2177DK.isChecked() ? "9" : bi.rbN2177RA.isChecked() ? "8" : "-1");
         n2110.setN2177A(bi.rbN2177a1.isChecked() ? "1" : bi.rbN2177a2.isChecked() ? "2" : bi.rbN2177aDK.isChecked() ? "9" : bi.rbN2177aRA.isChecked() ? "8" : "-1");
         n2110.setN2178(bi.rbN21781.isChecked() ? "1" : bi.rbN21782.isChecked() ? "2" : bi.rbN2178DK.isChecked() ? "9" : bi.rbN2178RA.isChecked() ? "8" : "-1");
         n2110.setN2179(bi.rbN21791.isChecked() ? "1" : bi.rbN21792.isChecked() ? "2" : bi.rbN2179DK.isChecked() ? "9" : bi.rbN2179RA.isChecked() ? "8" : "-1");
         n2110.setN2180(bi.rbN21801.isChecked() ? "1" : bi.rbN21802.isChecked() ? "2" : bi.rbN2180DK.isChecked() ? "9" : bi.rbN2180RA.isChecked() ? "8" : "-1");
-        n2110.setN2181(bi.rbN21811.isChecked() ? "1" : bi.rbN21812.isChecked() ? "2" : bi.rbN2181DK.isChecked() ? "9" : bi.rbN2181RA.isChecked() ? "8" : "-1");
-        n2110.setN2182(bi.rbN21821.isChecked() ? "1" : bi.rbN21822.isChecked() ? "2" : bi.rbN2182DK.isChecked() ? "9" : bi.rbN2182RA.isChecked() ? "8" : "-1");
+        n2110.setN2181(bi.rbN21811.isChecked() ? "1" : bi.rbN21812.isChecked() ? "2" : bi.rbN2181DK.isChecked() ? "9" : bi.rbN2181RA.isChecked() ? "8" : "-1");*/
+        /*n2110.setN2182(bi.rbN21821.isChecked() ? "1" : bi.rbN21822.isChecked() ? "2" : bi.rbN2182DK.isChecked() ? "9" : bi.rbN2182RA.isChecked() ? "8" : "-1");
         n2110.setN2183(bi.rbN21831.isChecked() ? "1" : bi.rbN21832.isChecked() ? "2" : bi.rbN2183DK.isChecked() ? "9" : bi.rbN2183RA.isChecked() ? "8" : "-1");
         n2110.setN2184(bi.edN2184.getText().toString().trim().length() > 0 ? bi.edN2184.getText().toString() : "-1");
-        n2110.setN2185(bi.rbN21851.isChecked() ? "1" : bi.rbN21852.isChecked() ? "2" : bi.rbN2185DK.isChecked() ? "9" : bi.rbN2185RA.isChecked() ? "8" : "-1");
-        n2110.setN2186(bi.edN2186.getText().toString().trim().length() > 0 ? bi.edN2186.getText().toString() : "-1");
+        n2110.setN2185(bi.rbN21851.isChecked() ? "1" : bi.rbN21852.isChecked() ? "2" : bi.rbN2185DK.isChecked() ? "9" : bi.rbN2185RA.isChecked() ? "8" : "-1");*/
+        /*n2110.setN2186(bi.edN2186.getText().toString().trim().length() > 0 ? bi.edN2186.getText().toString() : "-1");
         n2110.setN2187(bi.edN2187.getText().toString().trim().length() > 0 ? bi.edN2187.getText().toString() : "-1");
         n2110.setN2188(bi.rbN21881.isChecked() ? "1" : bi.rbN21882.isChecked() ? "2" : bi.rbN2188DK.isChecked() ? "9" : bi.rbN2188RA.isChecked() ? "8" : "-1");
         n2110.setN2189(bi.rbN21891.isChecked() ? "1" : bi.rbN21892.isChecked() ? "2" : bi.rbN2189DK.isChecked() ? "9" : bi.rbN2189RA.isChecked() ? "8" : "-1");
-        n2110.setN2189A(bi.rbN2189a1.isChecked() ? "1" : bi.rbN2189a2.isChecked() ? "2" : bi.rbN2189aDK.isChecked() ? "9" : bi.rbN2189aRA.isChecked() ? "8" : "-1");
+        n2110.setN2189A(bi.rbN2189a1.isChecked() ? "1" : bi.rbN2189a2.isChecked() ? "2" : bi.rbN2189aDK.isChecked() ? "9" : bi.rbN2189aRA.isChecked() ? "8" : "-1");*/
 
 
         n2110.setSTUDYID(bi.edStudyId.getText().toString());
@@ -397,512 +395,7 @@ public class N2110_N2189a extends AppCompatActivity {
     }
 
     public Boolean validateField() {
-
-        if (flag_n2006) {
-            //ll_N2110
-            if (!Gothrough.IamHiden(bi.llN2110)) {
-                return false;
-            }
-            if (!Gothrough.TextHidden(
-                    bi.rbN2110OT.isChecked() ? bi.edN2110OT : null)) {
-                return false;
-            }
-
-            //ll_N2111
-            if (!Gothrough.IamHiden(bi.llN2111)) {
-                return false;
-            }
-            if (!Gothrough.TextHidden(
-                    bi.rbN2111OT.isChecked() ? bi.edN2111OT : null)) {
-                return false;
-            }
-        }
-
-        //ll_N2112
-        /*if (!Gothrough.IamHiden(bi.llN2112)) {
-            return false;
-        }*/
-
-        if (bi.rbN21121.isChecked()) {
-            //ll_N2113
-            if (!Gothrough.IamHiden(bi.llN2113)) {
-                return false;
-            }
-            if (!Gothrough.TextHidden(
-                    bi.cbN2113OT.isChecked() ? bi.edN2113OT : null)) {
-                return false;
-            }
-        }
-
-        //ll_N2114
-        if (!Gothrough.IamHiden(bi.llN2114)) {
-            return false;
-        }
-        //ll_N2115
-        /*if (!Gothrough.IamHiden(bi.llN2115)) {
-            return false;
-        }*/
-
-        if (bi.rbN21151.isChecked()) {
-            //ll_N2116_1
-            if (!Gothrough.IamHiden(bi.llN21161)) {
-                return false;
-            }
-            //ll_N2116_2
-            /*if (!Gothrough.IamHiden(bi.llN21162)) {
-                return false;
-            }*/
-
-            if (!bi.rbN211621.isChecked()) {
-                //ll_N2116_3
-                /*if (!Gothrough.IamHiden(bi.llN21163)) {
-                    return false;
-                }*/
-            }
-        }
-
-        //ll_N2117
-        if (!Gothrough.IamHiden(bi.llN2117)) {
-            return false;
-        }
-        //ll_N2118
-        /*if (!Gothrough.IamHiden(bi.llN2118)) {
-            return false;
-        }*/
-
-        if (!bi.rbN21182.isChecked()) {
-            //ll_N2119
-           /* if (!Gothrough.IamHiden(bi.llN2119)) {
-                return false;
-            }*/
-        }
-
-        //ll_N2120
-        if (!Gothrough.IamHiden(bi.llN2120)) {
-            return false;
-        }
-        //ll_N2121
-        /*if (!Gothrough.IamHiden(bi.llN2121)) {
-            return false;
-        }*/
-
-        if (!bi.rbN21211.isChecked()) {
-            //ll_N2122
-            if (!Gothrough.IamHiden(bi.llN2122)) {
-                return false;
-            }
-        }
-
-        if (!bi.edN2122.getText().toString().trim().equals("98")) {
-            //ll_N2123
-            /*if (!Gothrough.IamHiden(bi.llN2123)) {
-                return false;
-            }*/
-
-            if (bi.rbN21231.isChecked()) {
-                //ll_N2124
-                if (!Gothrough.IamHiden(bi.llN2124)) {
-                    return false;
-                }
-            }
-        }
-
-        //ll_N2125
-        if (!Gothrough.IamHiden(bi.llN2125)) {
-            return false;
-        }
-        //ll_N2126
-        if (!Gothrough.IamHiden(bi.llN2126)) {
-            return false;
-        }
-
-        if (bi.rbN21261.isChecked()) {
-            //ll_N2127
-            if (!Gothrough.IamHiden(bi.llN2127)) {
-                return false;
-            }
-            if (!Gothrough.TextHidden(
-                    bi.rbN21273.isChecked() ? bi.edN21273 : null)) {
-                return false;
-            }
-
-            //ll_N2128
-            if (!Gothrough.IamHiden(bi.llN2128)) {
-                return false;
-            }
-
-            if (flag_n2066 && flag_n2067) {
-                if (flag_n2006_2) {
-                    //ll_N2129
-                    if (!Gothrough.IamHiden(bi.llN2129)) {
-                        return false;
-                    }
-                    //ll_N2130
-                    if (!Gothrough.IamHiden(bi.llN2130)) {
-                        return false;
-                    }
-                }
-            }
-        }
-
-        //ll_N2131
-        if (!Gothrough.IamHiden(bi.llN2131)) {
-            return false;
-        }
-        //ll_N2132
-        if (!Gothrough.IamHiden(bi.llN2132)) {
-            return false;
-        }
-
-        if (bi.rbN21321.isChecked()) {
-            //ll_N2133
-            if (!Gothrough.IamHiden(bi.llN2133)) {
-                return false;
-            }
-            if (!Gothrough.TextHidden(
-                    bi.rbN21333.isChecked() ? bi.edN21333 : bi.rbN21334.isChecked() ? bi.edN21334 : null)) {
-                return false;
-            }
-
-
-            //ll_N2134
-            if (!Gothrough.IamHiden(bi.llN2134)) {
-                return false;
-            }
-        }
-
-        //ll_N2135_1
-        if (!Gothrough.IamHiden(bi.llN21351)) {
-            return false;
-        }
-        //ll_N2135_2
-        if (!Gothrough.IamHiden(bi.llN21352)) {
-            return false;
-        }
-        //ll_N2135_3
-        if (!Gothrough.IamHiden(bi.llN21353)) {
-            return false;
-        }
-        //ll_N2135_4
-        if (!Gothrough.IamHiden(bi.llN21354)) {
-            return false;
-        }
-        //ll_N2135_5
-        if (!Gothrough.IamHiden(bi.llN21355)) {
-            return false;
-        }
-        //ll_N2135_6
-        if (!Gothrough.IamHiden(bi.llN21356)) {
-            return false;
-        }
-        //ll_N2135_7
-        if (!Gothrough.IamHiden(bi.llN21357)) {
-            return false;
-        }
-        //ll_N2135_8
-        if (!Gothrough.IamHiden(bi.llN21358)) {
-            return false;
-        }
-        //ll_N2135_9
-        if (!Gothrough.IamHiden(bi.llN21359)) {
-            return false;
-        }
-        //ll_N2135_10
-        if (!Gothrough.IamHiden(bi.llN213510)) {
-            return false;
-        }
-        //ll_N2135_11
-        if (!Gothrough.IamHiden(bi.llN213511)) {
-            return false;
-        }
-        if (!Gothrough.TextHidden(
-                bi.rbN2135111.isChecked() ? bi.edN213512OT : null)) {
-            return false;
-        }
-
-        //ll_N2136
-        if (!Gothrough.IamHiden(bi.llN2136)) {
-            return false;
-        }
-
-        if (!bi.rbN21361.isChecked()) {
-            //ll_N2137
-            if (!Gothrough.IamHiden(bi.llN2137)) {
-                return false;
-            }
-        }
-
-        if (bi.rbN21361.isChecked() || bi.rbN21371.isChecked()) {
-            //ll_N2138
-            if (!Gothrough.IamHiden(bi.llN2138)) {
-                return false;
-            }
-
-            if (bi.rbN21381.isChecked()) {
-                //ll_N2139
-                if (!Gothrough.IamHiden(bi.llN2139)) {
-                    return false;
-                }
-                //ll_N2140
-                if (!Gothrough.IamHiden(bi.llN2140)) {
-                    return false;
-                }
-            }
-        }
-
-        //ll_N2141
-        if (!Gothrough.IamHiden(bi.llN2141)) {
-            return false;
-        }
-
-        if (bi.rbN21411.isChecked()) {
-            //ll_N2142
-            if (!Gothrough.IamHiden(bi.llN2142)) {
-                return false;
-            }
-
-            if (!bi.rbN21421.isChecked()) {
-                //ll_N2143
-                if (!Gothrough.IamHiden(bi.llN2143)) {
-                    return false;
-                }
-            }
-        }
-
-        //ll_N2144
-        if (!Gothrough.IamHiden(bi.llN2144)) {
-            return false;
-        }
-        //ll_N2145
-        if (!Gothrough.IamHiden(bi.llN2145)) {
-            return false;
-        }
-
-        if (bi.rbN21451.isChecked()) {
-            //ll_N2146
-            if (!Gothrough.IamHiden(bi.llN2146)) {
-                return false;
-            }
-
-            if (!bi.rbN21461.isChecked()) {
-                //ll_N2147
-                if (!Gothrough.IamHiden(bi.llN2147)) {
-                    return false;
-                }
-            }
-
-            //ll_N2148
-            if (!Gothrough.IamHiden(bi.llN2148)) {
-                return false;
-            }
-        }
-
-        //ll_N2149
-        if (!Gothrough.IamHiden(bi.llN2149)) {
-            return false;
-        }
-        //ll_N2150
-        if (!Gothrough.IamHiden(bi.llN2150)) {
-            return false;
-        }
-        //ll_N2151
-        if (!Gothrough.IamHiden(bi.llN2151)) {
-            return false;
-        }
-
-        if (bi.rbN21511.isChecked()) {
-            //ll_N2152
-            if (!Gothrough.IamHiden(bi.llN2152)) {
-                return false;
-            }
-        }
-
-        //ll_N2153
-        if (!Gothrough.IamHiden(bi.llN2153)) {
-            return false;
-        }
-        //ll_N2154
-        if (!Gothrough.IamHiden(bi.llN2154)) {
-            return false;
-        }
-        //ll_N2155
-        if (!Gothrough.IamHiden(bi.llN2155)) {
-            return false;
-        }
-
-        if (bi.rbN21551.isChecked()) {
-            //ll_N2156
-            if (!Gothrough.IamHiden(bi.llN2156)) {
-                return false;
-            }
-            //ll_N2157
-            if (!Gothrough.IamHiden(bi.llN2157)) {
-                return false;
-            }
-            //ll_N2158
-            if (!Gothrough.IamHiden(bi.llN2158)) {
-                return false;
-            }
-        }
-
-        //ll_N2159
-        if (!Gothrough.IamHiden(bi.llN2159)) {
-            return false;
-        }
-
-        if (bi.rbN21591.isChecked()) {
-            //ll_N2160
-            if (!Gothrough.IamHiden(bi.llN2160)) {
-                return false;
-            }
-            //ll_N2161
-            if (!Gothrough.IamHiden(bi.llN2161)) {
-                return false;
-            }
-        }
-
-        //ll_N2162
-        if (!Gothrough.IamHiden(bi.llN2162)) {
-            return false;
-        }
-
-        if (bi.rbN21621.isChecked()) {
-            //ll_N2163
-            if (!Gothrough.IamHiden(bi.llN2163)) {
-                return false;
-            }
-            //ll_N2164
-            if (!Gothrough.IamHiden(bi.llN2164)) {
-                return false;
-            }
-        }
-
-        //ll_N2165
-        if (!Gothrough.IamHiden(bi.llN2165)) {
-            return false;
-        }
-
-        if (bi.rbN21651.isChecked()) {
-            //ll_N2166
-            if (!Gothrough.IamHiden(bi.llN2166)) {
-                return false;
-            }
-            //ll_N2166_1
-            if (!Gothrough.IamHiden(bi.llN21661)) {
-                return false;
-            }
-        }
-
-        //ll_N2167
-        if (!Gothrough.IamHiden(bi.rgN2167)) {
-            return false;
-        }
-
-        if (bi.rbN21671.isChecked()) {
-            //ll_N2168
-            if (!Gothrough.IamHiden(bi.llN2168)) {
-                return false;
-            }
-            //ll_N2169
-            if (!Gothrough.IamHiden(bi.llN2169)) {
-                return false;
-            }
-        }
-
-        //ll_N2170
-        if (!Gothrough.IamHiden(bi.rgN2170)) {
-            return false;
-        }
-
-        if (bi.rbN21701.isChecked()) {
-            //ll_N2171
-            if (!Gothrough.IamHiden(bi.llN2171)) {
-                return false;
-            }
-        }
-
-        //ll_N2172
-        if (!Gothrough.IamHiden(bi.llN2172)) {
-            return false;
-        }
-        //ll_N2174
-        if (!Gothrough.IamHiden(bi.llN2174)) {
-            return false;
-        }
-        //ll_N2175
-        if (!Gothrough.IamHiden(bi.llN2175)) {
-            return false;
-        }
-        //ll_N2176
-        if (!Gothrough.IamHiden(bi.llN2176)) {
-            return false;
-        }
-        //ll_N2177a
-        if (!Gothrough.IamHiden(bi.llN2177a)) {
-            return false;
-        }
-        //ll_N2177
-        if (!Gothrough.IamHiden(bi.llN2177)) {
-            return false;
-        }
-        //ll_N2178
-        if (!Gothrough.IamHiden(bi.llN2178)) {
-            return false;
-        }
-        //ll_N2179
-        if (!Gothrough.IamHiden(bi.llN2179)) {
-            return false;
-        }
-        //ll_N2180
-        if (!Gothrough.IamHiden(bi.llN2180)) {
-            return false;
-        }
-        //ll_N2181
-        if (!Gothrough.IamHiden(bi.llN2181)) {
-            return false;
-        }
-        //ll_N2182
-        if (!Gothrough.IamHiden(bi.llN2182)) {
-            return false;
-        }
-        //ll_N2183
-        if (!Gothrough.IamHiden(bi.rgN2183)) {
-            return false;
-        }
-
-        if (bi.rbN21831.isChecked()) {
-            //ll_N2184
-            if (!Gothrough.IamHiden(bi.llN2184)) {
-                return false;
-            }
-        }
-
-        //ll_N2185
-        if (!Gothrough.IamHiden(bi.rgN2185)) {
-            return false;
-        }
-
-        if (bi.rbN21851.isChecked()) {
-            //ll_N2186
-            if (!Gothrough.IamHiden(bi.llN2186)) {
-                return false;
-            }
-            //ll_N2187
-            if (!Gothrough.IamHiden(bi.llN2187)) {
-                return false;
-            }
-        }
-
-        //ll_N2188
-        if (!Gothrough.IamHiden(bi.llN2188)) {
-            return false;
-        }
-        //ll_N2189
-        if (!Gothrough.IamHiden(bi.llN2189)) {
-            return false;
-        }
-        //ll_N2189a
-        return Gothrough.IamHiden(bi.llN2189a);
+        return Validator.emptyCheckingContainer(this, bi.GrpName);
     }
 
     @Override
@@ -910,7 +403,7 @@ public class N2110_N2189a extends AppCompatActivity {
         globale.interviewExit(this, this, bi.edStudyId.getText().toString(), 8);
     }
 
-    public void BtnChest() {
+    /*public void BtnChest() {
         changeMediaUI(bi.btnChest, R.raw.look_chest_i);
     }
 
@@ -924,7 +417,7 @@ public class N2110_N2189a extends AppCompatActivity {
 
     public void BtnWheez() {
         changeMediaUI(bi.btnWheez, R.raw.breath_sounds_w);
-    }
+    }*/
 
     private void changeMediaUI(final Button btn, final int resID) {
 
@@ -963,7 +456,7 @@ public class N2110_N2189a extends AppCompatActivity {
     }
 
     private void btnDefaultState() {
-        bi.btnChest.setBackgroundColor(getResources().getColor(R.color.gray));
+        /*bi.btnChest.setBackgroundColor(getResources().getColor(R.color.gray));
         bi.btnChest.setTextColor(getResources().getColor(R.color.black));
 
         bi.btnGrunt.setBackgroundColor(getResources().getColor(R.color.gray));
@@ -973,7 +466,7 @@ public class N2110_N2189a extends AppCompatActivity {
         bi.btnStri.setTextColor(getResources().getColor(R.color.black));
 
         bi.btnWheez.setBackgroundColor(getResources().getColor(R.color.gray));
-        bi.btnWheez.setTextColor(getResources().getColor(R.color.black));
+        bi.btnWheez.setTextColor(getResources().getColor(R.color.black));*/
     }
 
 }

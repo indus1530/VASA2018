@@ -1142,7 +1142,7 @@ public class Q1101_Q1610 extends AppCompatActivity implements RadioButton.OnChec
         ll_Q1201 = findViewById(R.id.ll_Q1201);
         ll_Q1202 = findViewById(R.id.ll_Q1202);
 
-        ll_Q1201_1 = findViewById(R.id.ll_Q1201_1);
+
         ll_Q1201_2 = findViewById(R.id.ll_Q1201_2);
 
         ll_Q1203 = findViewById(R.id.ll_Q1203);
