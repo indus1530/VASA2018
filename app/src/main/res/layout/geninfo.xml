@@ -169,7 +169,7 @@
                     <TextView
                         android:id="@+id/txt_Q1201"
                         style="@style/TextView"
-                        android:text="@string/txt_Q1201" />
+                        android:text="@string/q1201" />
 
 
                     <EditText
@@ -205,13 +205,13 @@
                     <TextView
                         android:id="@+id/txt_Q1202"
                         style="@style/TextView"
-                        android:text="@string/txt_Q1202" />
+                        android:text="@string/q1202" />
 
 
                     <EditText
                         android:id="@+id/ed_Q1202"
                         style="@style/EditText_Name"
-                        android:hint="@string/txt_Q1202" />
+                        android:hint="@string/q1202" />
 
 
                 </LinearLayout>
@@ -230,19 +230,19 @@
                     <TextView
                         android:id="@+id/txt_Q1203"
                         style="@style/TextView"
-                        android:text="@string/txt_Q1203" />
+                        android:text="@string/q1203" />
 
                     <RadioGroup style="@style/RadioGroup">
 
                         <RadioButton
                             android:id="@+id/rb_Q1203_1"
                             style="@style/RadioButton"
-                            android:text="@string/rb_Q1203_1" />
+                            android:text="@string/q1203a" />
 
                         <RadioButton
                             android:id="@+id/rb_Q1203_2"
                             style="@style/RadioButton"
-                            android:text="@string/rb_Q1203_2" />
+                            android:text="@string/q1203b" />
 
                     </RadioGroup>
 
