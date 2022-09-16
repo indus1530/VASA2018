@@ -7220,46 +7220,52 @@
 
     <!-- Child Urdu TEXT HINT‘s ENDS -->
 
+
     <!-- Reproductive Urdu TEXT & RESPONSE STARTS -->
+    <string name="Q_w201">W201</string>
+    <string name="w201">آپ / ماں کی تاریخ پیدائش کیا ہے ؟</string>
+    <string name="w201d">دن</string>
+    <string name="w201m">مہینہ</string>
+    <string name="w201y">سال</string>
+    <string name="w201info">اگر نہیں جانتے دن = 98، مہینہ = 98 اور سال = 9998</string>
 
-    <string name="txt_W201">آپ/ماں کی تاریخ پیدائش کیا ہے ؟	:W201</string>
-    <string name="ed_W201_d">دن</string>
-    <string name="ed_W201_m">مہینہ</string>
-    <string name="ed_W201_y">سال</string>
-    <string name="txt_W201_d_h">اگر دن معلوم نہیں تو 98 لکھیں</string>
-    <string name="txt_W201_m_h">اگر مہینہ معلوم نہیں تو 98 لکھیں</string>
-    <string name="txt_W201_y_h">سال معلوم نہیں تو 9998 لکھیں</string>
+    <string name="Q_w202">W202</string>
+    <string name="w202">برائے مہربانی اپنی عمر بتایئے۔ آپ کی گزشتہ سالگرہ پر آپ / ماں کی عمر کتنی تھی ؟</string>
+    <string name="w202a">مکمل عمر سالوں میں لکھیں</string>
 
-    <string name="txt_W202">برائے مہربانی اپنی عمر بتایئے ۔ آپکی گزشتہ سالگرہ پر آپ /ماں کی عمر کتنی تھی ؟	:W202</string>
-    <string name="ed_W202">مکمل عمر سالوں میں لکھیں</string>
+    <string name="Q_w203">W203</string>
+    <string name="w203">اطمینان کیجئے کہ جواب دہندہ کی عمر 49–12 سال ہے ؟</string>
+    <string name="w203a">ہاں</string>
+    <string name="w203b">نہیں</string>
 
-    <string name="txt_W203">اطمینان کیجئے کہ جوابدہندہ کی عمر 49–12 سال ہے ؟</string>
-    <string name="rb_W203_1">ہاں</string>
-    <string name="rb_W203_2">نہیں</string>
+    <string name="Q_w204">W204</string>
+    <string name="w204">کیا اس وقت آپ / ماں شادی شدہ ہیں ؟</string>
+    <string name="w204a">ہاں</string>
+    <string name="w204b">نہیں</string>
 
-    <string name="txt_W204">کیا اس وقت آپ/ماں  شادی شدہ ہیں ؟</string>
-    <string name="rb_W204_1">ہاں</string>
-    <string name="rb_W204_2">نہیں</string>
+    <string name="Q_w205">W205</string>
+    <string name="w205">کیا کبھی آپ / ماں کی شادی ہوئی ؟</string>
+    <string name="w205a">ہاں</string>
+    <string name="w205b">نہیں</string>
 
-    <string name="txt_W205">کیا کبھی آپ/ماں کی شادی ہوئی ؟</string>
-    <string name="rb_W205_1">ہاں</string>
-    <string name="rb_W205_2">نہیں</string>
+    <string name="Q_w206">W206</string>
+    <string name="w206">شادی کے وقت آپ / ماں کی عمر کیا تھی ؟</string>
+    <string name="w206a">مکمل عمر سالوں میں لکھیں</string>
 
-    <string name="txt_W206">شادی کے وقت آپ / ماں کی عمر کیا تھی ؟</string>
-    <string name="rb_W206_1">ہاں</string>
-    <string name="rb_W206_2">نہیں</string>
+    <string name="Q_w207">W207</string>
+    <string name="w207">کیا آپ / ماں کبھی حاملہ ہوئی ہیں ؟</string>
+    <string name="w207a">ہاں</string>
+    <string name="w207b">نہیں</string>
 
-    <string name="txt_W207">کیا آپ / ماں کبھی حاملہ ہوئی ہیں ؟</string>
-    <string name="rb_W207_1">ہاں</string>
-    <string name="rb_W207_2">نہیں</string>
+    <string name="Q_w208">W208</string>
+    <string name="w208">کیا آپ / ماں ابھی حاملہ ہیں ؟</string>
+    <string name="w208a">ہاں</string>
+    <string name="w208b">نہیں</string>
 
-    <string name="txt_W208">کیا آپ / ماں ابھی حاملہ ہیں ؟</string>
-    <string name="rb_W208_1">ہاں</string>
-    <string name="rb_W208_2">نہیں</string>
-
-    <string name="txt_W209">موجودہ حمل کے دوران ،کیا آپ کو فولاد کی گولیا ں یا وٹامن کی گولیاں جس میں فولاد شامل ہو دی گئیں یا آپ نے خریدیں ؟	:W209</string>
-    <string name="rb_W209_1">ہاں</string>
-    <string name="rb_W209_2">نہیں</string>
+    <string name="Q_w209">W209</string>
+    <string name="w209">موجودہ حمل کے دوران، کیا آپ کو فولاد یا وٹامن کی گولیاں جس میں فولاد شامل ہو دی گئیں یا آپ نے خریدی ؟</string>
+    <string name="w209a">ہاں</string>
+    <string name="w209b">نہیں</string>
 
     <string name="Q_w210">W210</string>
     <string name="w210">اگر ہاں ،خریدی یا فراہم کی گئیں ؟</string>

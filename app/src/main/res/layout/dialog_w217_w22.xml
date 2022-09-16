@@ -1,48 +1,62 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:weightSum="100">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <ScrollView
+
+    <data>
+
+        <variable
+            name="value"
+            type="int" />
+    </data>
+
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="90"
-        android:scrollbarAlwaysDrawHorizontalTrack="true"
-        android:scrollbars="vertical">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical">
+
 
             <LinearLayout
+                android:id="@+id/GrpName"
                 style="@style/Q_Linerlayout_v"
-
                 android:layout_marginBottom="60dp">
-                <!--W217 Edit text Starts -->
-                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+
+
+                <!--pregno EditText-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cvpregno"
+                    style="@style/Q_CardView">
 
                     <LinearLayout
-                        android:id="@+id/ll_ggg"
-                        style="@style/Q_Linerlayout_v">
-
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
 
                         <TextView
-                            android:id="@+id/txt_pregno"
-                            style="@style/TextView"
+                            android:id="@+id/pregno"
+                            style="@style/TextViewHead"
+                            android:gravity="center"
                             android:text="Enter Detail of Pregnancy No:(1) "
                             android:textColor="@color/black"
                             android:textStyle="bold" />
 
-
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
+                <!--pregno EditText-->
 
-                <!--W217 Edit text Starts -->
-                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+
+                <!--W217 EditText-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cvw217"
+                    style="@style/Q_CardView">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -139,10 +153,13 @@
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
+                <!--W217 EditText-->
 
 
                 <!--W218 Radio Button Starts -->
-                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cvw218"
+                    style="@style/Q_CardView">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -219,7 +236,9 @@
 
 
                 <!--W219 Radio-->
-                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cvw219"
+                    style="@style/Q_CardView">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -275,7 +294,9 @@
 
 
                 <!--W221 EditText-->
-                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cvw221"
+                    style="@style/Q_CardView">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -315,7 +336,7 @@
                                 android:text="@string/w221y" />
 
                             <com.edittextpicker.aliazaz.EditTextPicker
-                                android:id="@+id/ed_W221_1"
+                                android:id="@+id/w221y"
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
@@ -335,7 +356,7 @@
                                 android:text="@string/w221m" />
 
                             <com.edittextpicker.aliazaz.EditTextPicker
-                                android:id="@+id/ed_W221_2"
+                                android:id="@+id/w221m"
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
@@ -355,7 +376,7 @@
                                 android:text="@string/w221d" />
 
                             <com.edittextpicker.aliazaz.EditTextPicker
-                                android:id="@+id/ed_W221_3"
+                                android:id="@+id/w221d"
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
@@ -376,7 +397,9 @@
 
 
                 <!--w222 EditText-->
-                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cvw222"
+                    style="@style/Q_CardView">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -416,7 +439,7 @@
                                 android:text="@string/w222y" />
 
                             <com.edittextpicker.aliazaz.EditTextPicker
-                                android:id="@+id/ed_w222_1"
+                                android:id="@+id/w222y"
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
@@ -436,7 +459,7 @@
                                 android:text="@string/w222m" />
 
                             <com.edittextpicker.aliazaz.EditTextPicker
-                                android:id="@+id/ed_w222_2"
+                                android:id="@+id/w222m"
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
@@ -456,7 +479,7 @@
                                 android:text="@string/w222d" />
 
                             <com.edittextpicker.aliazaz.EditTextPicker
-                                android:id="@+id/ed_w222_3"
+                                android:id="@+id/w222d"
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
@@ -477,37 +500,42 @@
 
             </LinearLayout>
 
+
+        </ScrollView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/addPregnancy"
+                style="@style/Button_collder"
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:layout_margin="10dp"
+                android:background="@color/U_main"
+                android:padding="10dp"
+                android:text="Add Pregnancy"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/addChild"
+                style="@style/Button_collder"
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:layout_margin="10dp"
+                android:background="@color/blueprid"
+                android:padding="10dp"
+                android:text="Add Another child"
+                android:textSize="14sp" />
+
         </LinearLayout>
-
-
-    </ScrollView>
-
-
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
-        android:layout_weight="10"
-        android:orientation="horizontal"
-        android:weightSum="2">
-
-        <Button
-            android:id="@+id/btn_add"
-            style="@style/Button_collder"
-            android:layout_marginTop="2dp"
-            android:layout_weight="1"
-            android:text="Add Pregnancy"
-            android:textSize="14sp" />
-
-        <Button
-            android:id="@+id/btn_add_mutiple"
-            style="@style/Button_collder"
-            android:layout_marginTop="2dp"
-            android:layout_weight="1"
-            android:text="Add Another child"
-            android:textSize="14sp" />
 
     </LinearLayout>
 
 
-</LinearLayout>
+</layout>

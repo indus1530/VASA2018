@@ -7785,45 +7785,50 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
 
 
     <!-- Reproductive Urdu TEXT & RESPONSE STARTS -->
+    <string name="Q_w201">W201</string>
+    <string name="w201">What is Your/Mother’s Date of Birth ?</string>
+    <string name="w201d">Day</string>
+    <string name="w201m">Month</string>
+    <string name="w201y">Year</string>
+    <string name="w201info">If Don’t Know day = 98, month = 98 &amp; year = 9998</string>
 
-    <string name="txt_W201">	آپ/ماں کی تاریخ پیدائش کیا ہے ؟	:W201</string>
-    <string name="ed_W201_d">	دن</string>
-    <string name="ed_W201_m">	مہینہ</string>
-    <string name="ed_W201_y">	سال</string>
-    <string name="txt_W201_d_h">	اگر دن معلوم نہیں تو 98 لکھیں</string>
-    <string name="txt_W201_m_h">	اگر مہینہ معلوم نہیں تو 98 لکھیں</string>
-    <string name="txt_W201_y_h">	سال معلوم نہیں تو 9998 لکھیں</string>
+    <string name="Q_w202">w202</string>
+    <string name="w202">Please state your age. How old were You/Mother on your last birthday ?</string>
+    <string name="w202a">Write Age in Years</string>
 
-    <string name="txt_W202">	برائے مہربانی اپنی عمر بتایئے ۔ آپکی گزشتہ سالگرہ پر آپ /ماں کی عمر کتنی تھی ؟	:W202</string>
-    <string name="ed_W202">	مکمل عمر سالوں میں لکھیں</string>
+    <string name="Q_w203">w203</string>
+    <string name="w203">Please confirm that the age of the respondent is 12–49 years.</string>
+    <string name="w203a">Yes</string>
+    <string name="w203b">No</string>
 
-    <string name="txt_W203">	اطمینان کیجئے کہ جوابدہندہ کی عمر 49-12 سال ہے ؟	:W203</string>
-    <string name="rb_W203_1">Yes</string>
-    <string name="rb_W203_2">No</string>
+    <string name="Q_w204">w204</string>
+    <string name="w204">Are You/Mother currently married ?</string>
+    <string name="w204a">Yes</string>
+    <string name="w204b">No</string>
 
-    <string name="txt_W204">	کیا اس وقت آپ/ماں  شادی شدہ ہیں ؟	:W204</string>
-    <string name="rb_W204_1">Yes</string>
-    <string name="rb_W204_2">No</string>
+    <string name="Q_w205">w205</string>
+    <string name="w205">Have You/Mother ever been married ?</string>
+    <string name="w205a">Yes</string>
+    <string name="w205b">No</string>
 
-    <string name="txt_W205">	کیا کبھی آپ/ماں کی شادی ہوئی  ؟	:W205</string>
-    <string name="rb_W205_1">Yes</string>
-    <string name="rb_W205_2">No</string>
+    <string name="Q_w206">w206</string>
+    <string name="w206">How old were You/Mother at the time of marriage ?</string>
+    <string name="w206a">Write Age in Years</string>
 
-    <string name="txt_W206">	شادی کے وقت آپ/ماں کی عمر کیا تھی ؟	:W206</string>
-    <string name="rb_W206_1">Yes</string>
-    <string name="rb_W206_2">No</string>
+    <string name="Q_w207">w207</string>
+    <string name="w207">Have You/Mother ever been Pregnant ?</string>
+    <string name="w207a">Yes</string>
+    <string name="w207b">No</string>
 
-    <string name="txt_W207">	کیا آپ/ماں کبھی حاملہ ہوئی ہیں ؟	:W207</string>
-    <string name="rb_W207_1">Yes</string>
-    <string name="rb_W207_2">No</string>
+    <string name="Q_w208">w208</string>
+    <string name="w208">Are You/Mother Pregnant Now ?</string>
+    <string name="w208a">Yes</string>
+    <string name="w208b">No</string>
 
-    <string name="txt_W208">	کیا آپ/ماں ابھی حاملہ ہیں ؟	:W208</string>
-    <string name="rb_W208_1">Yes</string>
-    <string name="rb_W208_2">No</string>
-
-    <string name="txt_W209">موجودہ حمل کے دوران ،کیا آپ کو فولاد کی گولیاں یا وٹامن کی گولیاں جس میں فولاد شامل ہو دی گئیں یا آپ نے خریدیں ؟</string>
-    <string name="rb_W209_1">Yes</string>
-    <string name="rb_W209_2">No</string>
+    <string name="Q_w209">w209</string>
+    <string name="w209">During the current pregnancy, were you given or purchased iron or vitamin tablets containing iron?</string>
+    <string name="w209a">Yes</string>
+    <string name="w209b">No</string>
 
     <string name="Q_w210">W210</string>
     <string name="w210">If yes, purchased or supplied?</string>

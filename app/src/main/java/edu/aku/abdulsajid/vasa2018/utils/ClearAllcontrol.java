@@ -1,6 +1,7 @@
 package edu.aku.abdulsajid.vasa2018.utils;
 
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.LinearLayout;
@@ -12,14 +13,14 @@ import androidx.cardview.widget.CardView;
 public class ClearAllcontrol {
 
 
-    public static void ClearAll(LinearLayout lv) {
+    public static void ClearAll(ViewGroup vg) {
 
         /// Checkbox Celar*************************************
 
         try {
 
-            for (int i = 0, count = lv.getChildCount(); i < count; ++i) {
-                View view = lv.getChildAt(i);
+            for (int i = 0, count = vg.getChildCount(); i < count; ++i) {
+                View view = vg.getChildAt(i);
                 if (view instanceof CheckBox) {
                     ((CheckBox) view).setChecked(false);
 
