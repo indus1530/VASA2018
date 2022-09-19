@@ -18,12 +18,18 @@
     <string name="time">Times</string>
     <string name="fv">First Visit</string>
 
-    <!--HEADINGS-->
+    <string name="Main_Menu">Main Menu</string>
+    <string name="Start_Interview">Start Interview</string>
+    <string name="Upload_Data">Upload Data</string>
+    <string name="Pending_Interviews">Pending Interviews</string>
+    <string name="Language">select Language</string>
+    <string name="English">English</string>
+    <string name="Urdu">Urdu</string>
 
     <!--Neonates-->
     <string name="h_n_sec_2">SECTION 2: BACKGROUND</string>
-    <string name="h_n_sec_2_1">2.1 GENERAL DELIVERY CONTEXT (for 0-27 day olds) </string>
-    <string name="h_n_sec_2_2">2.2 STILLBIRTH / NEONATAL DEATH DETERMINATION (for 0-27 day olds) </string>
+    <string name="h_n_sec_2_1">2.1 GENERAL DELIVERY CONTEXT (for 0–27 day olds) </string>
+    <string name="h_n_sec_2_2">2.2 STILLBIRTH / NEONATAL DEATH DETERMINATION (for 0–27 day olds) </string>
     <string name="h_n_sec_2_3">2.3 GENERAL SIGNS AND SYMPTOMS FOR STILLBIRTHS </string>
     <string name="h_n_sec_2_4">2.4 BACKGROUNDAND FATAL ILLNESS DURATION (FOR NEONATAL DEATHS) </string>
     <string name="h_n_sec_3">SECTION 3: MATERNAL HISTORY (FOR STILLBIRTHS AND NEONATAL DEATHS) </string>
@@ -105,6 +111,477 @@
     <string name="ed_text">ed_text</string>
     <string name="cmb_text">cmb_text</string>
     <string name="date_text">date_text</string>
+
+
+    <!-- General Info -->
+    <string name="zero_to_30_days">Enter 0–30 days. Less than 1 day or 24 hours = 0 days; 1 week = 7 days.</string>
+    <string name="one_to_60_months">Enter 1-60 months</string>
+
+
+    <string name="Q_q12011">Q12011</string>
+    <string name="q12011">Province</string>
+    <string name="Q_q12012">Q12012</string>
+    <string name="q12012">District</string>
+
+    <string name="province_prompt">Select Province</string>
+    <string name="district_prompt">Select District</string>
+
+    <string-array name="province">
+        <item>Balochistan</item>
+        <item>Punjab</item>
+        <item>Sindh</item>
+        <item>Khyber Pakhtunkhwa</item>
+        <item>FATA</item>
+        <item>Gilgit Baltistan</item>
+        <item>Azad jammu &amp; Kashmir</item>
+    </string-array>
+
+    <string name="Q_q1101">Q1101</string>
+    <string name="q1101">Is this an Area of high HIV/AIDS Prevalence ?</string>
+    <string name="q1101a">High</string>
+    <string name="q1101b">Low</string>
+    <string name="q1101c">Very low</string>
+
+    <string name="Q_q1102">Q1102</string>
+    <string name="q1102">Is this a Region of High Malaria Prevalence ?</string>
+    <string name="q1102a">High</string>
+    <string name="q1102b">Low</string>
+    <string name="q1102c">Very low</string>
+
+    <string name="Q_q1103">Q1103</string>
+    <string name="q1103">During which season did the Child/She/He Die ?</string>
+    <string name="q1103a">Wet</string>
+    <string name="q1103b">Dry</string>
+    <string name="q1103c">DK</string>
+
+    <string name="Q_q1201">Q1201</string>
+    <string name="q1201">Address of the Household</string>
+    <string name="q1201a">Province</string>
+    <string name="q1201b">District</string>
+    <string name="q1201c">Admin Position</string>
+    <string name="q1201d">Local</string>
+    <string name="q1201e">Community</string>
+    <string name="q1201f">EA</string>
+    <string name="q1201g">Location of the Household</string>
+
+    <string name="Q_q1202">Q1202</string>
+    <string name="q1202">Name of the deceased (if known)</string>
+
+    <string name="Q_q1203">Q1203</string>
+    <string name="q1203">Gender of Deceased</string>
+    <string name="q1203a">Male</string>
+    <string name="q1203b">Female</string>
+
+    <string name="Q_q1204">Q1204</string>
+    <string name="q1204">Date of Birth of the deceased</string>
+    <string name="q1204d">Day</string>
+    <string name="q1204m">Month</string>
+    <string name="q1204y">Year</string>
+
+    <string name="Q_q1205">Q1205</string>
+    <string name="q1205">Date of Death of the deceased</string>
+    <string name="q1205d">Day</string>
+    <string name="q1205m">Month</string>
+    <string name="q1205y">Year</string>
+
+    <string name="Q_q1206">Q1206</string>
+    <string name="q1206">Last known age of the deceased</string>
+    <string name="q1206d">Day(s)</string>
+    <string name="q1206m">Month(s)</string>
+    <string name="q1206y">Year(s)</string>
+
+    <string name="Q_q1207">Q1207</string>
+    <string name="q1207">Was this a stillbirth or neonatal death ?</string>
+    <string name="q1207a">Stillbirth</string>
+    <string name="q1207b">Neonatal death</string>
+    <string name="q1207c">Not known from the record</string>
+
+    <string name="Q_q1208">Q1208</string>
+    <string name="q1208">Name of mother</string>
+    
+    <string name="Q_q1209">Q1209</string>
+    <string name="q1209">Name of father or household head</string>
+
+    <string name="Q_q1301">Q1301</string>
+    <string name="q1301">Language of the interview</string>
+
+    <string name="Q_q1302">Q1302</string>
+    <string name="q1302">Interviewer ID number</string>
+
+    <string name="Q_q1307">Q1307</string>
+    <string name="q1307">Date interview started</string>
+
+    <string name="Q_q1308">Q1308</string>
+    <string name="q1308">Time interview started</string>
+
+    <string name="Q_q1309">Q1309</string>
+    <string name="q1309">Date interview finished</string>
+
+    <string name="Q_q1310">Q1310</string>
+    <string name="q1310">Time interview finished</string>
+
+    <string name="Q_q1311">Q1311</string>
+    <string name="q1311">Interview Result Codes:</string>
+
+    <string name="Q_q1312">Q1312</string>
+    <string name="q1312">Date form checked by Supervisor</string>
+
+    <string name="Q_q1313">Q1313</string>
+    <string name="q1313">Date Entered in Computer</string>
+
+    <string name="Q_q1401">Q1401</string>
+    <string name="q1401">What is the respondent’s name ?</string>
+
+    <string name="Q_q1402">Q1402</string>
+    <string name="q1402">Record the sex of the respondent.</string>
+    <string name="q1402a">Male</string>
+    <string name="q1402b">Female</string>
+    <string name="q140298">Don’t Know</string>
+
+    <string name="Q_q1403">Q1403</string>
+    <string name="q1403">What is the respondent’s relationship to the deceased ?</string>
+    <string name="q1403a">Spouse</string>
+    <string name="q1403b">Mother</string>
+    <string name="q1403c">Father</string>
+    <string name="q1403d">Grandmother</string>
+    <string name="q1403e">Grandfather</string>
+    <string name="q1403f">Son</string>
+    <string name="q1403g">Daughter</string>
+    <string name="q1403h">Aunt</string>
+    <string name="q1403i">Uncle</string>
+    <string name="q1403j">Brother</string>
+    <string name="q1403k">Sister</string>
+    <string name="q1403l">Birth Attendant (specify type) </string>
+    <string name="q140394">Other Male (Specify) </string>
+    <string name="q140395">Other Female (Specify) </string>
+    <string name="q140396">Other (Specify) </string>
+
+    <string name="Q_q1404">Q1404</string>
+    <string name="q1404">Did the respondent live with the deceased in the period leading to her/his death?</string>
+    <string name="q1404a">Yes</string>
+    <string name="q1404b">No</string>
+    <string name="q140498">Don’t Know</string>
+
+    <string name="Q_q1405">Q1405</string>
+    <string name="q1405">Did respondent give consent?</string>
+    <string name="q1405a">Yes</string>
+    <string name="q1405b">No</string>
+
+    <string name="Q_q1406">Q1406</string>
+    <string name="q1406">How Old Are You ?</string>
+
+    <string name="Q_q1407">Q1407</string>
+    <string name="q1407">Have You Ever Attended School ?</string>
+    <string name="q1407info">2 or 9 → Q1410</string>
+    <string name="q1407a">Yes</string>
+    <string name="q1407b">No</string>
+    <string name="q140798">Don’t Know</string>
+
+    <string name="Q_q1408">Q1408</string>
+    <string name="q1408">What is the highest level of school you attended?</string>
+    <string name="q1408a">Primary </string>
+    <string name="q1408b">Secondary </string>
+    <string name="q1408c">Higher than secondary</string>
+    <string name="q140898">Don’t Know</string>
+
+    <string name="Q_q1409">Q1409</string>
+    <string name="q1409">What is the highest [GRADE/ YEAR] you completed at that level ?</string>
+
+    <string name="Q_q1410">Q1410</string>
+    <string name="q1410">Now I would like you to read this sentence to me. (Show card to respondent) \n\nExamples of statements for the reading test: \n\t1. The child is reading a book. \n\t2. This year the rain came late. \n\t3. Parents should look after their children.</string>
+    <string name="q1410a">Unable to read anything</string>
+    <string name="q1410b">Can only read parts of the statement </string>
+    <string name="q1410c">Can read the entire statement </string>
+    <string name="q1410d">No statement in the language requested (Specify the language)</string>
+    <string name="q1410e">Blind/mute, problems with vision/speech</string>
+
+    <string name="Q_q1411">Q1411</string>
+    <string name="q1411">How many people live at (this / that) household ?</string>
+    <string name="q1411info">Read: How many people live "in this house," if you‘re talking about a family home</string>
+
+    <string name="Q_q1412">Q1412</string>
+    <string name="q1412">How many rooms are used for sleeping in the household ?</string>
+
+    <string name="Q_q1413">Q1413</string>
+    <string name="q1413">Does the household have a separate room for cooking ?</string>
+    <string name="q1413a">Yes</string>
+    <string name="q1413b">No</string>
+    <string name="q141398">Don’t Know</string>
+
+    <string name="Q_q1414">Q1414</string>
+    <string name="q1414yes">Yes</string>
+    <string name="q1414no">No</string>
+    <string name="q141498">Don’t Know</string>
+    <string name="q1414">Does the household have:</string>
+    <string name="q1414a">Electricity</string>
+    <string name="q1414b">Radio</string>
+    <string name="q1414c">Television</string>
+    <string name="q1414d">Refrigerator</string>
+    <string name="q1414e">Fixed Line Telephone</string>
+    <string name="q1414f">Mobile Telephone</string>
+    <string name="q1414g">Computer</string>
+    <string name="q1414h">Bicycle</string>
+    <string name="q1414i">Motorcycle / Scooter</string>
+    <string name="q1414j">Car / Truck</string>
+
+    <string name="Q_q1415">Q1415</string>
+    <string name="txt_Q1415">Q1415:	What is the main source of drinking water in this household?</string>
+    <string name="rb_Q1415_1">Piped water inside the house</string>
+    <string name="rb_Q1415_2">Piped water outside the house/yard</string>
+    <string name="rb_Q1415_3">Piped water in the neighbor’s house</string>
+    <string name="rb_Q1415_4">Public tap/standpipe?</string>
+    <string name="rb_Q1415_5">Borehole/protected well with manual pump?</string>
+    <string name="rb_Q1415_6">Protected well without manual pump</string>
+    <string name="rb_Q1415_7">Unprotected well?</string>
+    <string name="rb_Q1415_8">Spring water?</string>
+    <string name="rb_Q1415_9">Surface water (river, lake, ponds)?</string>
+    <string name="rb_Q1415_10">Rainwater?</string>
+    <string name="rb_Q1415_11">Tanker truck / loaded on drums?</string>
+    <string name="rb_Q1415_12">Bottled water?</string>
+    <string name="rb_Q1415_DK">Don’t Know</string>
+
+    <string name="txt_Q1416">Q1416:	What type of toilet do members of the household usually use?</string>
+    <string name="txt_Q1417">Q1417:	What is the main source of energy or fuel the household uses for cooking?</string>
+    <string name="txt_Q1418">Q1418:	What is the main source of energy the household uses for lighting?</string>
+    <string name="txt_Q1419">Q1419:	What is the main material used for the floor of the house?</string>
+    <string name="txt_Q1420">Q1420:	What is the main material used for the roof of the house?</string>
+    <string name="txt_Q1421">Q1421:	What is the main material used for the exterior walls of the house?</string>
+    <string name="txt_Q1501">Q1501:	Are there other people present during the interview?</string>
+    <string name="txt_Q1502">Q1502:	In addition to the respondent, how many people are present during the interview? (Please do not include the respondent in the count)</string>
+    <string name="txt_Q1503">Q1503:	What is each other person’s relationship to the deceased person?</string>
+    <string name="txt_Q1601">Q1601:	What was the sex of the deceased?</string>
+    <string name="txt_Q1602">Q1602:	Is the date of birth known?</string>
+    <string name="txt_Q1603">Q1603:	When was the deceased born?</string>
+    <string name="txt_Q1604">Q1604:	Where did the deceased die?</string>
+    <string name="txt_Q1605">Q1605:	Is the date of death known?</string>
+    <string name="txt_Q1606">Q1606:	What was the date of death?</string>
+    <string name="txt_Q1607">Q1607:	CALCULATE THE AGE AT DEATH</string>
+    <string name="txt_Q1608">Q1608:	How old was the deceased at the time of death?</string>
+    <string name="txt_Q1609">Q1609:	Mark the deceased’s age group at the time of death.</string>
+    <string name="txt_Q1610">Q1610:	If less than 28 days old at death, record the age in days, hours or minutes:</string>
+
+    <string name="rb_Q1311_1">Completed (Final result code)</string>
+    <string name="rb_Q1311_2">Partially completed (Final result code)</string>
+    <string name="rb_Q1311_3">Eligible respondent postponed interview</string>
+    <string name="rb_Q1311_4">No eligible respondent at home at time of visit</string>
+    <string name="rb_Q1311_5">Eligible respondent refused interview</string>
+    <string name="rb_Q1311_6">No eligible respondent lives in the household or neighborhood</string>
+    <string name="rb_Q1311_7">No household member at home</string>
+    <string name="rb_Q1311_8">Dwelling vacant / destroyed / not found</string>
+    <string name="rb_Q1311_9">In progress (Interim result code)</string>
+    <string name="rb_Q1311_10">Person reported dead is actually alive</string>
+    <string name="rb_Q1311_11">Duplicate report of death – interview already conducted</string>
+    <string name="rb_Q1311_12">Death not eligible</string>
+
+
+
+    <string name="rb_Q1416_1">Flush toilet inside the house?</string>
+    <string name="rb_Q1416_2">Flush toilet outside the house?</string>
+    <string name="rb_Q1416_3">Toilet without flushing</string>
+    <string name="rb_Q1416_4">Improved latrine</string>
+    <string name="rb_Q1416_5">Improved traditional latrine</string>
+    <string name="rb_Q1416_6">Unimproved latrine</string>
+    <string name="rb_Q1416_7">No latrine/toilet</string>
+    <string name="rb_Q1416_OT">Other (specify) </string>
+    <string name="rb_Q1416_DK">Don’t Know</string>
+
+    <string name="rb_Q1417_1">Electricity</string>
+    <string name="rb_Q1417_2">Natural gas</string>
+    <string name="rb_Q1417_3">Petrol/paraffin/kerosene</string>
+    <string name="rb_Q1417_4">Mineral coal</string>
+    <string name="rb_Q1417_5">Charcoal</string>
+    <string name="rb_Q1417_6">Firewood</string>
+    <string name="rb_Q1417_7">Animal dung</string>
+    <string name="rb_Q1417_8">No food cooked in the household</string>
+    <string name="rb_Q1417_OT">Other (specify) </string>
+    <string name="rb_Q1417_DK">Don’t Know</string>
+
+    <string name="rb_Q1418_1">Electricity</string>
+    <string name="rb_Q1418_2">Generator / Solar </string>
+    <string name="rb_Q1418_3">Gas</string>
+    <string name="rb_Q1418_4">Petrol/paraffin/kerosene</string>
+    <string name="rb_Q1418_5">Candles </string>
+    <string name="rb_Q1418_6">Batteries</string>
+    <string name="rb_Q1418_7">Firewood</string>
+    <string name="rb_Q1418_8">PILHAS </string>
+    <string name="rb_Q1418_OT">Other (specify) </string>
+    <string name="rb_Q1418_DK">Don’t Know</string>
+
+    <string name="rb_Q1419_1">Earth beaten? Clay</string>
+    <string name="rb_Q1419_2">Earth not beaten</string>
+    <string name="rb_Q1419_3">Rudimentary wood</string>
+    <string name="rb_Q1419_4">Adobe</string>
+    <string name="rb_Q1419_5">Parquet or polished wood</string>
+    <string name="rb_Q1419_6">Tiles</string>
+    <string name="rb_Q1419_7"> Cement</string>
+    <string name="rb_Q1419_OT">Other (specify) </string>
+    <string name="rb_Q1419_DK">Don’t Know</string>
+
+    <string name="rb_Q1420_1">No roof</string>
+    <string name="rb_Q1420_2">Grass/stem/palm</string>
+    <string name="rb_Q1420_3">Sheets of Zinc</string>
+    <string name="rb_Q1420_4">Sheets of Lusalites</string>
+    <string name="rb_Q1420_5">Tiles</string>
+    <string name="rb_Q1420_6">Concrete slab (cement)</string>
+    <string name="rb_Q1420_OT">Other (specify) </string>
+    <string name="rb_Q1420_DK">Don’t Know</string>
+
+    <string name="rb_Q1421_1">No wall</string>
+    <string name="rb_Q1421_2">Cane/sticks/bamboo/palm</string>
+    <string name="rb_Q1421_3">Tin/cardboard/paper/bags</string>
+    <string name="rb_Q1421_4">Matched paws</string>
+    <string name="rb_Q1421_5">Bark</string>
+    <string name="rb_Q1421_6">Wood / Zinc</string>
+    <string name="rb_Q1421_7">Block of adobe</string>
+    <string name="rb_Q1421_8">Bricks </string>
+    <string name="rb_Q1421_9">Cement block</string>
+    <string name="rb_Q1421_OT">Other (specify) </string>
+    <string name="rb_Q1421_DK">Don’t Know</string>
+
+    <string name="rb_Q1501_1">Yes</string>
+    <string name="rb_Q1501_2">No</string>
+    <string name="rb_Q1503_1">Spouse </string>
+    <string name="rb_Q1503_2">Mother </string>
+    <string name="rb_Q1503_3">Father </string>
+    <string name="rb_Q1503_4">Grandmother </string>
+    <string name="rb_Q1503_5">Grandfather </string>
+    <string name="rb_Q1503_6">Son </string>
+    <string name="rb_Q1503_7">Daughter </string>
+    <string name="rb_Q1503_8">Aunt </string>
+    <string name="rb_Q1503_9">Uncle </string>
+    <string name="rb_Q1503_10">Brother </string>
+    <string name="rb_Q1503_11">Sister </string>
+    <string name="rb_Q1503_12">Birth attendant (specify type) </string>
+    <string name="rb_Q1503_OTM">Other male (specify) </string>
+    <string name="rb_Q1503_OTF">Other female (specify) </string>
+    <string name="rb_Q1503_OT">Other (specify) </string>
+    <string name="rb_Q1601_1">Male</string>
+    <string name="rb_Q1601_2">Female</string>
+    <string name="rb_Q1601_DK">Don’t Know</string>
+
+    <string name="rb_Q1602_1">Yes</string>
+    <string name="rb_Q1602_2">No</string>
+    <string name="rb_Q1602_DK">Don’t Know</string>
+
+    <string name="rb_Q1604_1">Hospital</string>
+    <string name="rb_Q1604_2">Other health provider or facility</string>
+    <string name="rb_Q1604_3">On route to a health provider or facility</string>
+    <string name="rb_Q1604_4">Home</string>
+    <string name="rb_Q1604_OT">Other (specify) </string>
+    <string name="rb_Q1604_DK">Don’t Know</string>
+
+    <string name="rb_Q1605_1">Yes</string>
+    <string name="rb_Q1605_2">No</string>
+    <string name="rb_Q1609_1">Less than 28 days old</string>
+    <string name="rb_Q1609_2">1-11 months old</string>
+    <string name="rb_Q1609_3">12 months-4 years old</string>
+    <string name="rb_Q1609_4">5-11 years old</string>
+    <string name="rb_Q1609_5">12 years or more</string>
+
+
+    <!-- W -->
+    <string name="Q_w201">W201</string>
+    <string name="w201">What is Your/Mother’s Date of Birth ?</string>
+    <string name="w201d">Day</string>
+    <string name="w201m">Month</string>
+    <string name="w201y">Year</string>
+    <string name="w201info">If Don’t Know day = 98, month = 98 &amp; year = 9998</string>
+
+    <string name="Q_w202">w202</string>
+    <string name="w202">Please state your age. How old were You/Mother on your last birthday ?</string>
+    <string name="w202a">Write Age in Years</string>
+
+    <string name="Q_w203">w203</string>
+    <string name="w203">Please confirm that the age of the respondent is 12–49 years.</string>
+    <string name="w203a">Yes</string>
+    <string name="w203b">No</string>
+
+    <string name="Q_w204">w204</string>
+    <string name="w204">Are You/Mother currently married ?</string>
+    <string name="w204a">Yes</string>
+    <string name="w204b">No</string>
+
+    <string name="Q_w205">w205</string>
+    <string name="w205">Have You/Mother ever been married ?</string>
+    <string name="w205a">Yes</string>
+    <string name="w205b">No</string>
+
+    <string name="Q_w206">w206</string>
+    <string name="w206">How old were You/Mother at the time of marriage ?</string>
+    <string name="w206a">Write Age in Years</string>
+
+    <string name="Q_w207">w207</string>
+    <string name="w207">Have You/Mother ever been Pregnant ?</string>
+    <string name="w207a">Yes</string>
+    <string name="w207b">No</string>
+
+    <string name="Q_w208">w208</string>
+    <string name="w208">Are You/Mother Pregnant Now ?</string>
+    <string name="w208a">Yes</string>
+    <string name="w208b">No</string>
+
+    <string name="Q_w209">w209</string>
+    <string name="w209">During the current pregnancy, were you given or purchased iron or vitamin tablets containing iron?</string>
+    <string name="w209a">Yes</string>
+    <string name="w209b">No</string>
+
+    <string name="Q_w210">W210</string>
+    <string name="w210">If yes, purchased or supplied?</string>
+    <string name="w210a">Found at the clinic</string>
+    <string name="w210b">Bought</string>
+    <string name="w210c">Neither found nor Bought</string>
+    <string name="w21098">Don’t Know</string>
+    <string name="w21099">Refused to Answer</string>
+
+    <string name="Q_w211">W211</string>
+    <string name="w211">How many times have you/mother been pregnant in your life ?</string>
+    <string name="w211a">Number of Pregnancies</string>
+
+    <string name="Q_w212">W212</string>
+    <string name="w212">How many births have you had in your life ?</string>
+    <string name="w212a">Maternal Birth count</string>
+
+    <string name="Q_w213">W213</string>
+    <string name="w213">How old were you when your first child was born?</string>
+    <string name="w213a">Age in years</string>
+
+    <string name="Q_w214">W214</string>
+    <string name="w214">How many times have You/Mother been pregnant in the last five years ?</string>
+
+    <string name="Q_w215">W215</string>
+    <string name="w215">How many births have you had in the last five years ?</string>
+
+    <string name="Q_w217">W217</string>
+    <string name="w217">Date of Pregnancy Outcome ?</string>
+    <string name="w217d">Day</string>
+    <string name="w217m">Month</string>
+    <string name="w217y">Year</string>
+
+    <string name="Q_w218">W218</string>
+    <string name="w218">Conclusion</string>
+    <string name="w218a">Miscarriage</string>
+    <string name="w218b">Stillbirth</string>
+    <string name="w218c">Live Birth</string>
+    <string name="w218d">Birth of Twins</string>
+    <string name="w218e">Stillbirth of Twins</string>
+    <string name="w218f">Twins One Live &amp; Still Births</string>
+
+    <string name="Q_w219">W219</string>
+    <string name="w219">The Child’s Current Situation</string>
+    <string name="w219a">Live</string>
+    <string name="w219b">Dead</string>
+
+    <string name="Q_w221">W221</string>
+    <string name="w221">Age of Living Child</string>
+    <string name="w221y">Year(s)</string>
+    <string name="w221m">Month(s)</string>
+    <string name="w221d">Day(s)</string>
+
+    <string name="Q_w222">W222</string>
+    <string name="w222">Child’s Age at Death</string>
+    <string name="w222y">Year(s)</string>
+    <string name="w222m">Month(s)</string>
+    <string name="w222d">Day(s)</string>
 
 
     <!-- Genral Info File starts  -->
@@ -7317,300 +7794,6 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
 
     <!-- 0 to 27 ends .....................  -->
 
-
-    <!-- General Info -->
-    <string name="zero_to_30_days">Enter 0–30 days. Less than 1 day or 24 hours = 0 days; 1 week = 7 days.</string>
-    <string name="one_to_60_months">Enter 1-60 months</string>
-
-    <string name="txt_Q1101">Q1101:	Is this an area of high HIV/AIDS prevalence?</string>
-    <string name="txt_Q1102">Q1102:	Is this a region of high malaria prevalence?</string>
-    <string name="txt_Q1103">Q1103:	During which season did the child/she/he die?</string>
-
-    <string name="Q_q1201">Q1201</string>
-    <string name="q1201">Address of the Household</string>
-    <string name="q1201a">Province</string>
-    <string name="q1201b">District</string>
-    <string name="q1201c">Admin Position</string>
-    <string name="q1201d">Local</string>
-    <string name="q1201e">Community</string>
-    <string name="q1201f">EA</string>
-    <string name="q1201g">Location of the Household</string>
-
-    <string name="Q_q1202">Q1202</string>
-    <string name="q1202">Name of the deceased (if known)</string>
-
-    <string name="Q_q1203">Q1203</string>
-    <string name="q1203">Gender of Deceased</string>
-    <string name="q1203a">Male</string>
-    <string name="q1203b">Female</string>
-
-    <string name="txt_Q1204">Q1204:	Date of birth of the deceased</string>
-    <string name="txt_Q1205">Q1205:	Date of death of the deceased</string>
-    <string name="txt_Q1206">Q1206:	Last known age of the deceased</string>
-    <string name="txt_Q1207">Q1207:	Was this a stillbirth or neonatal death? </string>
-    <string name="txt_Q1208">Q1208:	Name of mother</string>
-    <string name="txt_Q1209">Q1209:	Name of father or household head</string>
-    <string name="txt_Q1301">Q1301:	Language of the interview</string>
-    <string name="txt_Q1302">Q1302:	Interviewer ID number</string>
-    <string name="txt_Q1307">Q1307:	Date interview started</string>
-    <string name="txt_Q1308">Q1308:	Time interview started</string>
-    <string name="txt_Q1309">Q1309:	Date interview finished</string>
-    <string name="txt_Q1310">Q1310:	Time interview finished</string>
-    <string name="txt_Q1311">Q1311:	Interview Result Codes:</string>
-    <string name="txt_Q1312">Q1312:	Date form checked by supervisor </string>
-    <string name="txt_Q1313">Q1313:	Date entered in computer</string>
-    <string name="txt_Q1405">Q1405:	Did respondent give consent?</string>
-    <string name="txt_Q1401">Q1401:	What is the respondent’s name?</string>
-    <string name="txt_Q1402">Q1402:	Record the sex of the respondent.</string>
-    <string name="txt_Q1403">Q1403:	What is the respondent’s relationship to the deceased?</string>
-    <string name="txt_Q1404">Q1404:	Did the respondent live with the deceased in the period leading to her/his death?</string>
-    <string name="txt_Q1406">Q1406:	How old are you?</string>
-    <string name="txt_Q1407">Q1407:	Have you ever attended school?</string>
-    <string name="txt_Q1408">Q1408:	What is the highest level of school you attended?</string>
-    <string name="txt_Q1409">Q1409:	What is the highest [GRADE/ YEAR] you completed at that level?</string>
-    <string name="txt_Q1410">Now I would like you to read this sentence to me. (Show card to respondent) \n\nExamples of statements for the reading test: \n\t1. The child is reading a book. \n\t2. This year the rain came late. \n\t3. Parents should look after their children.</string>
-    <string name="txt_Q1411">How many people live at (this / that) household ?</string>
-    <string name="txt_Q1411_h">Read: How many people live "in this house," if you‘re talking about a family home</string>
-    <string name="txt_Q1412">How many rooms are used for sleeping in the household ?</string>
-    <string name="txt_Q1413">Does the household have a separate room for cooking ?</string>
-
-    <string name="Q_Q1414">Q1414</string>
-    <string name="txt_Q1414">Does the household have:</string>
-    <string name="txt_Q1414_1">Electricity</string>
-    <string name="txt_Q1414_2">Radio</string>
-    <string name="txt_Q1414_3">Television</string>
-    <string name="txt_Q1414_4">Refrigerator</string>
-    <string name="txt_Q1414_5">Fixed Line Telephone</string>
-    <string name="txt_Q1414_6">Mobile Telephone</string>
-    <string name="txt_Q1414_7">Computer</string>
-    <string name="txt_Q1414_8">Bicycle</string>
-    <string name="txt_Q1414_9">Motorcycle / Scooter</string>
-    <string name="txt_Q1414_10">Car / Truck</string>
-
-
-    <string name="txt_Q1415">Q1415:	What is the main source of drinking water in this household?</string>
-    <string name="txt_Q1416">Q1416:	What type of toilet do members of the household usually use?</string>
-    <string name="txt_Q1417">Q1417:	What is the main source of energy or fuel the household uses for cooking?</string>
-    <string name="txt_Q1418">Q1418:	What is the main source of energy the household uses for lighting?</string>
-    <string name="txt_Q1419">Q1419:	What is the main material used for the floor of the house?</string>
-    <string name="txt_Q1420">Q1420:	What is the main material used for the roof of the house?</string>
-    <string name="txt_Q1421">Q1421:	What is the main material used for the exterior walls of the house?</string>
-    <string name="txt_Q1501">Q1501:	Are there other people present during the interview?</string>
-    <string name="txt_Q1502">Q1502:	In addition to the respondent, how many people are present during the interview? (Please do not include the respondent in the count)</string>
-    <string name="txt_Q1503">Q1503:	What is each other person’s relationship to the deceased person?</string>
-    <string name="txt_Q1601">Q1601:	What was the sex of the deceased?</string>
-    <string name="txt_Q1602">Q1602:	Is the date of birth known?</string>
-    <string name="txt_Q1603">Q1603:	When was the deceased born?</string>
-    <string name="txt_Q1604">Q1604:	Where did the deceased die?</string>
-    <string name="txt_Q1605">Q1605:	Is the date of death known?</string>
-    <string name="txt_Q1606">Q1606:	What was the date of death?</string>
-    <string name="txt_Q1607">Q1607:	CALCULATE THE AGE AT DEATH</string>
-    <string name="txt_Q1608">Q1608:	How old was the deceased at the time of death?</string>
-    <string name="txt_Q1609">Q1609:	Mark the deceased’s age group at the time of death.</string>
-    <string name="txt_Q1610">Q1610:	If less than 28 days old at death, record the age in days, hours or minutes:</string>
-
-
-    <string name="rb_Q1101_1">High</string>
-    <string name="rb_Q1101_2">Low</string>
-    <string name="rb_Q1101_3">Very low</string>
-    <string name="rb_Q1102_1">High</string>
-    <string name="rb_Q1102_2">Low</string>
-    <string name="rb_Q1102_3">Very low</string>
-    <string name="rb_Q1103_1">Wet</string>
-    <string name="rb_Q1103_2">Dry</string>
-    <string name="rb_Q1103_3">DK</string>
-
-    <string name="rb_Q1207_1">Stillbirth</string>
-    <string name="rb_Q1207_2">Neonatal death</string>
-    <string name="rb_Q1207_3">Not known from the record</string>
-
-    <string name="rb_Q1311_1">Completed (Final result code)</string>
-    <string name="rb_Q1311_2">Partially completed (Final result code)</string>
-    <string name="rb_Q1311_3">Eligible respondent postponed interview</string>
-    <string name="rb_Q1311_4">No eligible respondent at home at time of visit</string>
-    <string name="rb_Q1311_5">Eligible respondent refused interview</string>
-    <string name="rb_Q1311_6">No eligible respondent lives in the household or neighborhood</string>
-    <string name="rb_Q1311_7">No household member at home</string>
-    <string name="rb_Q1311_8">Dwelling vacant / destroyed / not found</string>
-    <string name="rb_Q1311_9">In progress (Interim result code)</string>
-    <string name="rb_Q1311_10">Person reported dead is actually alive</string>
-    <string name="rb_Q1311_11">Duplicate report of death – interview already conducted</string>
-    <string name="rb_Q1311_12">Death not eligible</string>
-
-
-    <string name="rb_Q1405_1">Yes</string>
-    <string name="rb_Q1405_2">No</string>
-    <string name="rb_Q1402_1">Male</string>
-    <string name="rb_Q1402_2">Female</string>
-    <string name="rb_Q1402_DK">Don’t Know</string>
-
-    <string name="rb_Q1403_1">Spouse</string>
-    <string name="rb_Q1403_2">Mother</string>
-    <string name="rb_Q1403_3">Father</string>
-    <string name="rb_Q1403_4">Grandmother</string>
-    <string name="rb_Q1403_5">Grandfather</string>
-    <string name="rb_Q1403_6">Son</string>
-    <string name="rb_Q1403_7">Daughter</string>
-    <string name="rb_Q1403_8">Aunt</string>
-    <string name="rb_Q1403_9">Uncle</string>
-    <string name="rb_Q1403_10">Brother</string>
-    <string name="rb_Q1403_11">Sister</string>
-    <string name="rb_Q1403_12">Birth attendant (specify type) </string>
-    <string name="rb_Q1403_OTM">Other male (specify) </string>
-    <string name="rb_Q1403_OTF">Other female (specify) </string>
-    <string name="rb_Q1403_OT">Other (specify) </string>
-
-    <string name="rb_Q1404_1">Yes</string>
-    <string name="rb_Q1404_2">No</string>
-    <string name="rb_Q1404_DK">Don’t Know</string>
-
-    <string name="rb_Q1407_1">Yes</string>
-    <string name="rb_Q1407_2">No</string>
-    <string name="rb_Q1407_DK">Don’t Know</string>
-
-    <string name="rb_Q1408_1">Primary </string>
-    <string name="rb_Q1408_2">Secondary </string>
-    <string name="rb_Q1408_3">Higher than secondary</string>
-    <string name="rb_Q1408_DK">Don’t Know</string>
-
-    <string name="rb_Q1410_1">Unable to read anything</string>
-    <string name="rb_Q1410_2">Can only read parts of the statement </string>
-    <string name="rb_Q1410_3">Can read the entire statement </string>
-    <string name="rb_Q1410_4">No statement in the language requested (Specify the language)</string>
-    <string name="rb_Q1410_5">Blind/mute, problems with vision/speech</string>
-    <string name="rb_Q1413_1">Yes</string>
-    <string name="rb_Q1413_2">No</string>
-    <string name="rb_Q1413_DK"> Don’t know</string>
-
-
-    <string name="rb_Q1414_1">Electricity</string>
-    <string name="rb_Q1414_2">Radio</string>
-    <string name="rb_Q1414_3">Television</string>
-    <string name="rb_Q1414_4">Refrigerator</string>
-    <string name="rb_Q1414_5">Fixed Line Telephone</string>
-    <string name="rb_Q1414_6">Mobile Telephone</string>
-    <string name="rb_Q1414_7">Computer</string>
-    <string name="rb_Q1414_8">Bicycle</string>
-    <string name="rb_Q1414_9">Motorcycle / Scooter</string>
-    <string name="rb_Q1414_10">Car / Truck</string>
-
-    <string name="rb_Q1415_1">Piped water inside the house</string>
-    <string name="rb_Q1415_2">Piped water outside the house/yard</string>
-    <string name="rb_Q1415_3">Piped water in the neighbor’s house</string>
-    <string name="rb_Q1415_4">Public tap/standpipe?</string>
-    <string name="rb_Q1415_5">Borehole/protected well with manual pump?</string>
-    <string name="rb_Q1415_6">Protected well without manual pump</string>
-    <string name="rb_Q1415_7">Unprotected well?</string>
-    <string name="rb_Q1415_8">Spring water?</string>
-    <string name="rb_Q1415_9">Surface water (river, lake, ponds)?</string>
-    <string name="rb_Q1415_10">Rainwater?</string>
-    <string name="rb_Q1415_11">Tanker truck / loaded on drums?</string>
-    <string name="rb_Q1415_12">Bottled water?</string>
-    <string name="rb_Q1415_DK">Don’t Know</string>
-
-    <string name="rb_Q1416_1">Flush toilet inside the house?</string>
-    <string name="rb_Q1416_2">Flush toilet outside the house?</string>
-    <string name="rb_Q1416_3">Toilet without flushing</string>
-    <string name="rb_Q1416_4">Improved latrine</string>
-    <string name="rb_Q1416_5">Improved traditional latrine</string>
-    <string name="rb_Q1416_6">Unimproved latrine</string>
-    <string name="rb_Q1416_7">No latrine/toilet</string>
-    <string name="rb_Q1416_OT">Other (specify) </string>
-    <string name="rb_Q1416_DK">Don’t Know</string>
-
-    <string name="rb_Q1417_1">Electricity</string>
-    <string name="rb_Q1417_2">Natural gas</string>
-    <string name="rb_Q1417_3">Petrol/paraffin/kerosene</string>
-    <string name="rb_Q1417_4">Mineral coal</string>
-    <string name="rb_Q1417_5">Charcoal</string>
-    <string name="rb_Q1417_6">Firewood</string>
-    <string name="rb_Q1417_7">Animal dung</string>
-    <string name="rb_Q1417_8">No food cooked in the household</string>
-    <string name="rb_Q1417_OT">Other (specify) </string>
-    <string name="rb_Q1417_DK">Don’t Know</string>
-
-    <string name="rb_Q1418_1">Electricity</string>
-    <string name="rb_Q1418_2">Generator / Solar </string>
-    <string name="rb_Q1418_3">Gas</string>
-    <string name="rb_Q1418_4">Petrol/paraffin/kerosene</string>
-    <string name="rb_Q1418_5">Candles </string>
-    <string name="rb_Q1418_6">Batteries</string>
-    <string name="rb_Q1418_7">Firewood</string>
-    <string name="rb_Q1418_8">PILHAS </string>
-    <string name="rb_Q1418_OT">Other (specify) </string>
-    <string name="rb_Q1418_DK">Don’t Know</string>
-
-    <string name="rb_Q1419_1">Earth beaten? Clay</string>
-    <string name="rb_Q1419_2">Earth not beaten</string>
-    <string name="rb_Q1419_3">Rudimentary wood</string>
-    <string name="rb_Q1419_4">Adobe</string>
-    <string name="rb_Q1419_5">Parquet or polished wood</string>
-    <string name="rb_Q1419_6">Tiles</string>
-    <string name="rb_Q1419_7"> Cement</string>
-    <string name="rb_Q1419_OT">Other (specify) </string>
-    <string name="rb_Q1419_DK">Don’t Know</string>
-
-    <string name="rb_Q1420_1">No roof</string>
-    <string name="rb_Q1420_2">Grass/stem/palm</string>
-    <string name="rb_Q1420_3">Sheets of Zinc</string>
-    <string name="rb_Q1420_4">Sheets of Lusalites</string>
-    <string name="rb_Q1420_5">Tiles</string>
-    <string name="rb_Q1420_6">Concrete slab (cement)</string>
-    <string name="rb_Q1420_OT">Other (specify) </string>
-    <string name="rb_Q1420_DK">Don’t Know</string>
-
-    <string name="rb_Q1421_1">No wall</string>
-    <string name="rb_Q1421_2">Cane/sticks/bamboo/palm</string>
-    <string name="rb_Q1421_3">Tin/cardboard/paper/bags</string>
-    <string name="rb_Q1421_4">Matched paws</string>
-    <string name="rb_Q1421_5">Bark</string>
-    <string name="rb_Q1421_6">Wood / Zinc</string>
-    <string name="rb_Q1421_7">Block of adobe</string>
-    <string name="rb_Q1421_8">Bricks </string>
-    <string name="rb_Q1421_9">Cement block</string>
-    <string name="rb_Q1421_OT">Other (specify) </string>
-    <string name="rb_Q1421_DK">Don’t Know</string>
-
-    <string name="rb_Q1501_1">Yes</string>
-    <string name="rb_Q1501_2">No</string>
-    <string name="rb_Q1503_1">Spouse </string>
-    <string name="rb_Q1503_2">Mother </string>
-    <string name="rb_Q1503_3">Father </string>
-    <string name="rb_Q1503_4">Grandmother </string>
-    <string name="rb_Q1503_5">Grandfather </string>
-    <string name="rb_Q1503_6">Son </string>
-    <string name="rb_Q1503_7">Daughter </string>
-    <string name="rb_Q1503_8">Aunt </string>
-    <string name="rb_Q1503_9">Uncle </string>
-    <string name="rb_Q1503_10">Brother </string>
-    <string name="rb_Q1503_11">Sister </string>
-    <string name="rb_Q1503_12">Birth attendant (specify type) </string>
-    <string name="rb_Q1503_OTM">Other male (specify) </string>
-    <string name="rb_Q1503_OTF">Other female (specify) </string>
-    <string name="rb_Q1503_OT">Other (specify) </string>
-    <string name="rb_Q1601_1">Male</string>
-    <string name="rb_Q1601_2">Female</string>
-    <string name="rb_Q1601_DK">Don’t Know</string>
-
-    <string name="rb_Q1602_1">Yes</string>
-    <string name="rb_Q1602_2">No</string>
-    <string name="rb_Q1602_DK">Don’t Know</string>
-
-    <string name="rb_Q1604_1">Hospital</string>
-    <string name="rb_Q1604_2">Other health provider or facility</string>
-    <string name="rb_Q1604_3">On route to a health provider or facility</string>
-    <string name="rb_Q1604_4">Home</string>
-    <string name="rb_Q1604_OT">Other (specify) </string>
-    <string name="rb_Q1604_DK">Don’t Know</string>
-
-    <string name="rb_Q1605_1">Yes</string>
-    <string name="rb_Q1605_2">No</string>
-    <string name="rb_Q1609_1">Less than 28 days old</string>
-    <string name="rb_Q1609_2">1-11 months old</string>
-    <string name="rb_Q1609_3">12 months-4 years old</string>
-    <string name="rb_Q1609_4">5-11 years old</string>
-    <string name="rb_Q1609_5">12 years or more</string>
-
     <string name="C1204_h">	 مرنے والے ،والی کا دن، مہینہ اور پیداش کا سال نقل کریں </string>
     <string name="C1205_h">	مرنے والے ،والی کا دن، مہینہ اور مرنے کا سال نقل کریں</string>
     <string name="C1206_h">	وفات پانے والے کی عمر ریکارڈ کریں۔اور اگر 28 دن سے کم ہے تو دنوں میں ریکارڈ کریں اور اگر 24 گھنٹے سے کم ہے تو 00 دن ریکارڈ کریں</string>
@@ -7790,111 +7973,6 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="A4453_h">	تمام مسائل کو پڑھیں اور "ہاں" ، "نہیں" یا "معلوم نہیں" پر نشان لگائیں. </string>
     <string name="A4473_h">	انٹرویور: انٹرویو کو بارے میں اپنا تبصرہ اور مشاہدہ لکھیں</string>
 
-
-    <!-- Reproductive Urdu TEXT & RESPONSE STARTS -->
-    <string name="Q_w201">W201</string>
-    <string name="w201">What is Your/Mother’s Date of Birth ?</string>
-    <string name="w201d">Day</string>
-    <string name="w201m">Month</string>
-    <string name="w201y">Year</string>
-    <string name="w201info">If Don’t Know day = 98, month = 98 &amp; year = 9998</string>
-
-    <string name="Q_w202">w202</string>
-    <string name="w202">Please state your age. How old were You/Mother on your last birthday ?</string>
-    <string name="w202a">Write Age in Years</string>
-
-    <string name="Q_w203">w203</string>
-    <string name="w203">Please confirm that the age of the respondent is 12–49 years.</string>
-    <string name="w203a">Yes</string>
-    <string name="w203b">No</string>
-
-    <string name="Q_w204">w204</string>
-    <string name="w204">Are You/Mother currently married ?</string>
-    <string name="w204a">Yes</string>
-    <string name="w204b">No</string>
-
-    <string name="Q_w205">w205</string>
-    <string name="w205">Have You/Mother ever been married ?</string>
-    <string name="w205a">Yes</string>
-    <string name="w205b">No</string>
-
-    <string name="Q_w206">w206</string>
-    <string name="w206">How old were You/Mother at the time of marriage ?</string>
-    <string name="w206a">Write Age in Years</string>
-
-    <string name="Q_w207">w207</string>
-    <string name="w207">Have You/Mother ever been Pregnant ?</string>
-    <string name="w207a">Yes</string>
-    <string name="w207b">No</string>
-
-    <string name="Q_w208">w208</string>
-    <string name="w208">Are You/Mother Pregnant Now ?</string>
-    <string name="w208a">Yes</string>
-    <string name="w208b">No</string>
-
-    <string name="Q_w209">w209</string>
-    <string name="w209">During the current pregnancy, were you given or purchased iron or vitamin tablets containing iron?</string>
-    <string name="w209a">Yes</string>
-    <string name="w209b">No</string>
-
-    <string name="Q_w210">W210</string>
-    <string name="w210">If yes, purchased or supplied?</string>
-    <string name="w210a">Found at the clinic</string>
-    <string name="w210b">Bought</string>
-    <string name="w210c">Neither found nor Bought</string>
-    <string name="w21098">Don’t Know</string>
-    <string name="w21099">Refused to Answer</string>
-
-    <string name="Q_w211">W211</string>
-    <string name="w211">How many times have you/mother been pregnant in your life ?</string>
-    <string name="w211a">Number of Pregnancies</string>
-
-    <string name="Q_w212">W212</string>
-    <string name="w212">How many births have you had in your life ?</string>
-    <string name="w212a">Maternal Birth count</string>
-
-    <string name="Q_w213">W213</string>
-    <string name="w213">How old were you when your first child was born?</string>
-    <string name="w213a">Age in years</string>
-
-    <string name="Q_w214">W214</string>
-    <string name="w214">How many times have You/Mother been pregnant in the last five years ?</string>
-
-    <string name="Q_w215">W215</string>
-    <string name="w215">How many births have you had in the last five years ?</string>
-
-    <string name="Q_w217">W217</string>
-    <string name="w217">Date of Pregnancy Outcome ?</string>
-    <string name="w217d">Day</string>
-    <string name="w217m">Month</string>
-    <string name="w217y">Year</string>
-
-    <string name="Q_w218">W218</string>
-    <string name="w218">Conclusion</string>
-    <string name="w218a">Miscarriage</string>
-    <string name="w218b">Stillbirth</string>
-    <string name="w218c">Live Birth</string>
-    <string name="w218d">Birth of Twins</string>
-    <string name="w218e">Stillbirth of Twins</string>
-    <string name="w218f">Twins One Live &amp; Still Births</string>
-
-    <string name="Q_w219">W219</string>
-    <string name="w219">The Child’s Current Situation</string>
-    <string name="w219a">Live</string>
-    <string name="w219b">Dead</string>
-
-    <string name="Q_w221">W221</string>
-    <string name="w221">Age of Living Child</string>
-    <string name="w221y">Year(s)</string>
-    <string name="w221m">Month(s)</string>
-    <string name="w221d">Day(s)</string>
-
-    <string name="Q_w222">W222</string>
-    <string name="w222">Child’s Age at Death</string>
-    <string name="w222y">Year(s)</string>
-    <string name="w222m">Month(s)</string>
-    <string name="w222d">Day(s)</string>
-
     <string name="public_sector">Public sector:</string>
     <string name="private_sector">Private medical sector:</string>
     <string name="A4275_1">A4275_1: If not taken to (all) the referral provider(s), \\nask:   \\nDid you or NAME have any concerns or problems that kept him/her from going to a health provider where s/he was refrered?</string>
@@ -7905,37 +7983,5 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="no_car_not_needed_given_or_sought_a4254_n_don_t_know_a4284">No - car not needed , given or sought → A4254   Don‘t Know → A4284</string>
     <string name="C3065_hint1"><![CDATA[Inst_2: If no labor/delivery complications: ((C3051≠1 and C3052=9,10) and (C3057≠1 or C3058≠2) and (C3059≠1 or C3060≠2) and C3061≠1 and C3062<12 and C3063≠1) → C3071.]]></string>
     <string name="enter_1_unit_only_0_30_days_or_1_60_months_nless_than_1_day_or_24_hours_0_days_n1_week_7_days">Enter 1 unit only: 0-30 days or 1-60 months.  Less than 1 day or 24 hours = 0 days.  1 week = 7 days.</string>
-
-
-    <!-- Reproductive Urdu TEXT & RESPONSE ENDS -->
-
-
-    <!-- menu strings -->
-
-    <string name="Main_Menu">Main Menu</string>
-    <string name="Start_Interview">Start Interview</string>
-    <string name="Upload_Data">Upload Data</string>
-    <string name="Pending_Interviews">Pending Interviews</string>
-    <string name="Language">select Language</string>
-    <string name="English">English</string>
-    <string name="Urdu">Urdu</string>
-
-
-    <string name="txt_Q1201_1">Province</string>
-    <string name="txt_Q1201_2">District</string>
-
-    <string name="province_prompt">Select Province</string>
-    <string name="district_prompt">Select District</string>
-
-    <string-array name="province">
-        <item>Balochistan</item>
-        <item>Punjab</item>
-        <item>Sindh</item>
-        <item>Khyber Pakhtunkhwa</item>
-        <item>FATA</item>
-        <item>Gilgit Baltistan</item>
-        <item>Azad jammu &amp; Kashmir</item>
-    </string-array>
-
-
+    
 </resources>

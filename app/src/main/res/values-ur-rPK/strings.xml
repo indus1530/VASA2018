@@ -42,6 +42,15 @@
     <string name="days_hint">1–99</string>
     <string name="kg">کلوگرام</string>
 
+
+    <string name="Main_Menu">مین مینو</string>
+    <string name="Start_Interview">انٹرویو شروع کریں</string>
+    <string name="Upload_Data">ڈیٹا اپ لوڈ کریں</string>
+    <string name="Pending_Interviews">موصول ہونے والی انٹرویو</string>
+    <string name="Language">زبان منتخب کریں</string>
+    <string name="English">انگریزی</string>
+    <string name="Urdu">اردو</string>
+
     <!--HEADINGS-->
 
     <!--Neonates-->
@@ -130,22 +139,48 @@
     <string name="cmb_text">cmb_text</string>
     <string name="date_text">date_text</string>
 
-
-    <!-- GenRAl Info File starts  -->
-
-
-    <!-- GenRAl Info File Ends   -->
-
-
-    <!-- GeneRAl Section Urdu Text STARTS -->
-
     <!-- General Info -->
+
+
+    <string name="Q_q12011">Q12011</string>
+    <string name="q12011">صوبہ</string>
+    <string name="Q_q12012">Q12012</string>
+    <string name="q12012">ضلع</string>
+
+    <string name="province_prompt">صوبہ منتخب کریں۔</string>
+    <string name="district_prompt">ضلع منتخب کریں۔</string>
+
+    <string-array name="province">
+        <item>بلوچستان</item>
+        <item>پنجاب</item>
+        <item>سندھ</item>
+        <item>خیبر پختونخواہ</item>
+        <item>فاٹا</item>
+        <item>گلگت بلتستان</item>
+        <item>آزاد جموں و کشمیر</item>
+    </string-array>
+    
     <string name="zero_to_30_days">0–30 دن درج کریں۔ 1 دن یا 24 گھنٹے سے کم = 0 دن؛ 1 ہفتہ = 7 دن.</string>
     <string name="one_to_60_months">1–60 ماہ درج کریں۔</string>
 
-    <string name="txt_Q1101">کیا یہ ایچ آئی وی /ایڈز سے متاثر  علاقہ ہے ؟	:	Q1101</string>
-    <string name="txt_Q1102">کیا یہ ملیریا سے متاثر  علاقہ ہے؟	:	Q1102</string>
-    <string name="txt_Q1103">کس موسم کے دوران متوفی کی وفات ہوئی ؟	:	Q1103</string>
+
+    <string name="Q_q1101">Q1101</string>
+    <string name="q1101">کیا یہ ایچ آئی وی / ایڈز سے متاثر  علاقہ ہے ؟</string>
+    <string name="q1101a">زیادہ</string>
+    <string name="q1101b">کم</string>
+    <string name="q1101c">بہت کم</string>
+
+    <string name="Q_q1102">Q1102</string>
+    <string name="q1102">کیا یہ ملیریا سے متاثر  علاقہ ہے ؟</string>
+    <string name="q1102a">زیادہ</string>
+    <string name="q1102b">کم</string>
+    <string name="q1102c">بہت کم</string>
+
+    <string name="Q_q1103">Q1103</string>
+    <string name="q1103">کس موسم کے دوران متوفی کی وفات ہوئی ؟</string>
+    <string name="q1103a">گیلا</string>
+    <string name="q1103b">سوکھا</string>
+    <string name="q1103c">معلوم نہیں</string>
 
     <string name="Q_q1201">Q1201</string>
     <string name="q1201">گھرانے کا پتہ:</string>
@@ -165,50 +200,175 @@
     <string name="q1203a">لڑکا / مرد</string>
     <string name="q1203b">لڑکی / عورت</string>
 
-    <string name="txt_Q1204">مرنے والے کی تاریخ پیدائش	:	Q1204</string>
-    <string name="txt_Q1205">وفات پانے والے کی موت کی تاریخ	:	Q1205</string>
-    <string name="txt_Q1206">وفات پانے والے کی عمر 	:	Q1206</string>
-    <string name="txt_Q1207">کیا یہ مردہ پیدا ہونے والے  یا نوزائیدہ بچہ کی وفات تھی؟	:	Q1207</string>
-    <string name="txt_Q1208">ماں کانام	:	Q1208</string>
-    <string name="txt_Q1209">باپ کا نام یا گھرانے کےسربراہ کا نام	:	Q1209</string>
-    <string name="txt_Q1301">انٹرویو کی زبان	:	Q1301</string>
-    <string name="txt_Q1302">انٹرویو لینے والے کا  شناخت   نمبر	:	Q1302</string>
-    <string name="txt_Q1307">انٹرویو شروع ہونے کی تاریخ	:	Q1307</string>
-    <string name="txt_Q1308">انٹرویو شروع ہونے کا وقت	:	Q1308</string>
-    <string name="txt_Q1309">انٹرویو  ختم  ہونے کی تاریخ	:	Q1309</string>
-    <string name="txt_Q1310">انٹرویو اختتام ہونے کا وقت	:	Q1310</string>
-    <string name="txt_Q1311">انٹرویو کے نتائج کورڈ 	:	Q1311</string>
-    <string name="txt_Q1312">تاریخ کی جانچ پڑتال سپروائزر کی طرف سے	:	Q1312</string>
-    <string name="txt_Q1313">کمپیوٹر میں درج کی گئی تاریخ	:	Q1313</string>
-    <string name="txt_Q1405">کیا جواب دہندہ نے رضامندی یا اجازت  دی؟	:	Q1405</string>
-    <string name="txt_Q1401">جواب دہندہ کا نام کیا ہے ؟	:	Q1401</string>
-    <string name="txt_Q1402">جواب دہندہ کی جنس ریکارڈ کریں	:	Q1402</string>
-    <string name="txt_Q1403">وفات پانے والے سے جواب دہندہ کا رشتہ کیا ہے  ؟	:	Q1403</string>
-    <string name="txt_Q1404">کیا جواب دہندہ ،  وفات پانے والے کے ساتھ  اس دوران موجود تھا  جب اسکا انتقال ہوا ؟ 	:	Q1404</string>
-    <string name="txt_Q1406">آپ کتنے سال کے ہیں؟	:	Q1406</string>
-    <string name="txt_Q1407">کیا آپ کبھی اسکول گئے ؟	:	Q1407</string>
-    <string name="txt_Q1408">آپ نے کہاں تک تعلیم حاصل کی ہے ؟	:	Q1408</string>
-    <string name="txt_Q1409">اب تک کی مکمل تعلیم (سال/گریڈ) کیا ہے؟	:	Q1409</string>
-    <string name="txt_Q1410">میں چاہوں گا کہ آپ یہ جملے مجھ کو پڑھ کر سنا ئیں               (جواب دہندہ کو کارڈ دکھا ئیں)	:	Q1410</string>
-    <string name="txt_Q1411">اس گھر میں کتنے لوگ رہتے ہیں ؟	:	Q1411</string>
-    <string name="txt_Q1411_h">پڑھیں:" اس گھر میں " کتنے افراد  رہتے ہیں ،  اگر آپ خاندان کے گھرکی بات کررہے ہیں ؟</string>
-    <string name="txt_Q1412">اس گھر میں سونے کے لیے کتنے کمرے استعمال ہوتے ہیں ؟	:	Q1412</string>
-    <string name="txt_Q1413">کیا گھر میں کھانا پکانے کے لیے الگ سے کمرہ ہے؟	:	Q1413</string>
+    <string name="Q_q1204">Q1204</string>
+    <string name="q1204">مرنے والے کی تاریخ پیدائش</string>
+    <string name="q1204d">دن</string>
+    <string name="q1204m">مہینہ</string>
+    <string name="q1204y">سال</string>
 
-    <string name="Q_Q1414">q1414</string>
-    <string name="txt_Q1414">کیا آپ کے گھر میں ان میں سے کچھ موجود ہے ؟</string>
-    <string name="txt_Q1414_1">بجلی</string>
-    <string name="txt_Q1414_2">ریڈیو</string>
-    <string name="txt_Q1414_3">ٹیلی ویژن</string>
-    <string name="txt_Q1414_4">ریفریجریٹر</string>
-    <string name="txt_Q1414_5">فکسڈ لائن ٹیلی فون</string>
-    <string name="txt_Q1414_6">موبائل ٹیلی فون</string>
-    <string name="txt_Q1414_7">کمپیوٹر</string>
-    <string name="txt_Q1414_8">سائیکل</string>
-    <string name="txt_Q1414_9">موٹر سائیکل / سکوٹر</string>
-    <string name="txt_Q1414_10">کار / ٹرک</string>
+    <string name="Q_q1205">Q1205</string>
+    <string name="q1205">وفات پانے والے کی موت کی تاریخ</string>
+    <string name="q1205d">دن</string>
+    <string name="q1205m">مہینہ</string>
+    <string name="q1205y">سال</string>
 
+    <string name="Q_q1206">Q1206</string>
+    <string name="q1206">وفات پانے والے کی عمر</string>
+    <string name="q1206d">دن</string>
+    <string name="q1206m">مہینے</string>
+    <string name="q1206y">سال</string>
+
+    <string name="Q_q1207">Q1207</string>
+    <string name="q1207">کیا یہ مردہ پیدا ہونے والے  یا نوزائیدہ بچہ کی وفات تھی ؟</string>
+    <string name="q1207a">مردہ</string>
+    <string name="q1207b">نوزائیدہ</string>
+    <string name="q1207c">ریکارڈ سے معلوم نہیں ہوا</string>
+
+
+    <string name="Q_q1208">Q1208</string>
+    <string name="q1208">ماں کانام</string>
+
+    <string name="Q_q1209">Q1209</string>
+    <string name="q1209">باپ کا نام یا گھرانے کے سربراہ کا نام</string>
+
+    <string name="Q_q1301">Q1301</string>
+    <string name="q1301">انٹرویو کی زبان</string>
+
+    <string name="Q_q1302">Q1302</string>
+    <string name="q1302">انٹرویو لینے والے کا شناخت نمبر</string>
+
+    <string name="Q_q1307">Q1307</string>
+    <string name="q1307">انٹرویو شروع ہونے کی تاریخ</string>
+
+    <string name="Q_q1308">Q1308</string>
+    <string name="q1308">انٹرویو شروع ہونے کا وقت</string>
+
+    <string name="Q_q1309">Q1309</string>
+    <string name="q1309">انٹرویو ختم ہونے کی تاریخ</string>
+
+    <string name="Q_q1310">Q1310</string>
+    <string name="q1310">انٹرویو اختتام ہونے کا وقت</string>
+
+    <string name="Q_q1311">Q1311</string>
+    <string name="q1311">انٹرویو کے نتائج کورڈ</string>
+
+    <string name="Q_q1312">Q1312</string>
+    <string name="q1312">تاریخ کی جانچ پڑتال سپروائزر کی طرف سے</string>
+
+    <string name="Q_q1313">Q1313</string>
+    <string name="q1313">کمپیوٹر میں درج کی گئی تاریخ</string>
+
+    <string name="Q_q1401">Q1401</string>
+    <string name="q1401">جواب دہندہ کا نام کیا ہے ؟</string>
+
+    <string name="Q_q1402">Q1402</string>
+    <string name="q1402">جواب دہندہ کی جنس ریکارڈ کریں</string>
+    <string name="q1402a">مرد</string>
+    <string name="q1402b">عورت</string>
+    <string name="q140298">معلوم نہیں</string>
+
+    <string name="Q_q1403">Q1403</string>
+    <string name="q1403">وفات پانے والے سے جواب دہندہ کا رشتہ کیا ہے ؟</string>
+    <string name="q1403a">شریک حیات</string>
+    <string name="q1403b">ماں</string>
+    <string name="q1403c">باپ</string>
+    <string name="q1403d">نانی / دادی</string>
+    <string name="q1403e">نانا / دادا</string>
+    <string name="q1403f">بیٹا</string>
+    <string name="q1403g">بیٹی</string>
+    <string name="q1403h">آنٹی</string>
+    <string name="q1403i">چاچا (انکل)</string>
+    <string name="q1403j">بھائی</string>
+    <string name="q1403k">بہن</string>
+    <string name="q1403l">پیدائش میں مدد کرنے والا (وضاحت کریں)</string>
+    <string name="q140394">کوئی اور مرد (وضاحت کریں)</string>
+    <string name="q140395">کوئی اور عورت (وضاحت کریں)</string>
+    <string name="q140396">کوئی اور (وضاحت کریں)</string>
+
+    <string name="Q_q1404">Q1404</string>
+    <string name="q1404">کیا جواب دہندہ، وفات پانے والے کے ساتھ اس دوران موجود تھا جب اسکا انتقال ہوا ؟</string>
+    <string name="q1404a">ہاں</string>
+    <string name="q1404b"> نہیں</string>
+    <string name="q140498">معلوم نہیں</string>
+
+    <string name="Q_q1405">Q1405</string>
+    <string name="q1405">کیا جواب دہندہ نے رضامندی یا اجازت دی ؟</string>
+    <string name="q1405a">ہاں</string>
+    <string name="q1405b"> نہیں</string>
+
+    <string name="Q_q1406">Q1406</string>
+    <string name="q1406">آپ کتنے سال کے ہیں ؟</string>
+
+    <string name="Q_q1407">Q1407</string>
+    <string name="q1407">کیا آپ کبھی اسکول گئے ؟</string>
+    <string name="q1407info">2 or 9 → Q1410</string>
+    <string name="q1407a">ہاں</string>
+    <string name="q1407b">نہیں</string>
+    <string name="q140798">معلوم نہیں</string>
+
+    <string name="Q_q1408">Q1408</string>
+    <string name="q1408">آپ نے کہاں تک تعلیم حاصل کی ہے ؟</string>
+    <string name="q1408a">پرائمری</string>
+    <string name="q1408b">سیکنڈری</string>
+    <string name="q1408c">سیکنڈری سے اوپر اعلیٰ تعلیم</string>
+    <string name="q140898">معلوم نہیں</string>
+
+    <string name="Q_q1409">Q1409</string>
+    <string name="q1409">اب تک کی مکمل تعلیم (سال / گریڈ) کیا ہے ؟</string>
+
+    <string name="Q_q1410">Q1410</string>
+    <string name="q1410">میں چاہوں گا کہ آپ یہ جملے مجھ کو پڑھ کر سنائیں (جواب دہندہ کو کارڈ دکھائیں)</string>
+    <string name="q1410a">کچھ نہیں پڑھ سکتا \ سکتی</string>
+    <string name="q1410b">صرف جملہ کا  کچھ حصہ پڑھ سکتا \ سکتی</string>
+    <string name="q1410c">پورا جملہ پڑھ سکتا \ سکتی</string>
+    <string name="q1410d">جملے اس زبان میں نہیں ہیں (زبان کی وضاحت کریں )</string>
+    <string name="q1410e">نابینا / سن نہیں سکتا یا سکتی </string>
+
+    <string name="Q_q1411">Q1411</string>
+    <string name="q1411">اس گھر میں کتنے لوگ رہتے ہیں ؟</string>
+    <string name="q1411info">پڑھیں: "اس گھر میں" کتنے افراد رہتے ہیں، اگر آپ خاندان کے گھر کی بات کر رہے ہیں ؟</string>
+
+    <string name="Q_q1412">Q1412</string>
+    <string name="q1412">اس گھر میں سونے کے لیے کتنے کمرے استعمال ہوتے ہیں ؟</string>
+
+    <string name="Q_q1413">Q1413</string>
+    <string name="q1413">کیا گھر میں کھانا پکانے کے لیے الگ سے کمرہ ہے ؟</string>
+    <string name="q1413a">ہاں</string>
+    <string name="q1413b">نہیں</string>
+    <string name="q141398">معلوم نہیں</string>
+
+    <string name="Q_q1414">Q1414</string>
+    <string name="q1414yes">ہاں</string>
+    <string name="q1414no">نہیں</string>
+    <string name="q141498">معلوم نہیں</string>
+    <string name="q1414">کیا آپ کے گھر میں ان میں سے کچھ موجود ہے ؟</string>
+    <string name="q1414a">بجلی</string>
+    <string name="q1414b">ریڈیو</string>
+    <string name="q1414c">ٹیلی ویژن</string>
+    <string name="q1414d">ریفریجریٹر</string>
+    <string name="q1414e">فکسڈ لائن ٹیلی فون</string>
+    <string name="q1414f">موبائل ٹیلی فون</string>
+    <string name="q1414g">کمپیوٹر</string>
+    <string name="q1414h">سائیکل</string>
+    <string name="q1414i">موٹر سائیکل / سکوٹر</string>
+    <string name="q1414j">کار / ٹرک</string>
+
+    <string name="Q_q1415">Q1415</string>
     <string name="txt_Q1415">اس گھر میں پینے کے پانی کا اہم ذریعہ کیا ہے ؟</string>
+    <string name="rb_Q1415_1">گھر  میں نلکا	</string>
+    <string name="rb_Q1415_2">صحن/گھر کے باہر میونسپل کمیٹی کا نلکا</string>
+    <string name="rb_Q1415_3">پڑوسی کے گھر میونسپل کمیٹی کا نلکا</string>
+    <string name="rb_Q1415_4">گلی/علاقے کا نلکا</string>
+    <string name="rb_Q1415_5">ہینڈ پمپ کے ساتھ محفوظ کنواں</string>
+    <string name="rb_Q1415_6">پینڈ پمپ کے بغیر محفوظ کنواں</string>
+    <string name="rb_Q1415_7">غیر محفوظ کنواں</string>
+    <string name="rb_Q1415_8">چشمے کاپانی</string>
+    <string name="rb_Q1415_9">سطح والا پانی (دریا ،جھیل ،تالات)</string>
+    <string name="rb_Q1415_10">بارش کا پانی</string>
+    <string name="rb_Q1415_11">پانی کا ٹینکر/پانی کا ڈرم</string>
+    <string name="rb_Q1415_12">بوتل کا پانی</string>
+    <string name="rb_Q1415_DK"> معلوم نہیں</string>
+
     <string name="txt_Q1416">عام طور پر گھرانے کے افراد کس قسم کا لیٹرین استعمال  کرتے ہیں ؟</string>
     <string name="txt_Q1417">عام طور پر آپ کے گھر میں کھانے پکانے کے لیے کس قسم کا ایندھن استعمال ہوتا ہے ؟	:	Q1417</string>
     <string name="txt_Q1418">گھر میں روشنی کرنے کے لیے کونسے ذرائع استعمال کرتے ہیں؟	:	Q1418</string>
@@ -229,25 +389,6 @@
     <string name="txt_Q1609">وفات کے وقت مرنے والے کی عمر کے گروپ یہ نشان لگائیں ۔	:	Q1609</string>
     <string name="txt_Q1610">اگر وفات کے وقت کی عمر  28 دن سے کم عمر ہے تو عمر دنوں ،گھنٹے یا منٹس میں ریکارڈ کریں	:	Q1610</string>
 
-    <!-- GeneRAl Section Urdu Text ENDS -->
-
-    <!-- GeneRAl Section Urdu Responses STARTS -->
-
-    <string name="rb_Q1101_1">زیادہ</string>
-    <string name="rb_Q1101_2">کم</string>
-    <string name="rb_Q1101_3">بہت کم</string>
-
-    <string name="rb_Q1102_1">زیادہ</string>
-    <string name="rb_Q1102_2">کم</string>
-    <string name="rb_Q1102_3">بہت کم</string>
-
-    <string name="rb_Q1103_1">گیلا</string>
-    <string name="rb_Q1103_2">سوکھا</string>
-    <string name="rb_Q1103_3">معلوم نہیں</string>
-
-    <string name="rb_Q1207_1">مردہ</string>
-    <string name="rb_Q1207_2">نوزائیدہ</string>
-    <string name="rb_Q1207_3">ریکارڈ سے معلوم نہیں ہوا</string>
     <string name="rb_Q1311_1">مکمل  (حتمی نیتجہ کورڈ)</string>
     <string name="rb_Q1311_2">جزوی طورپر مکمل</string>
     <string name="rb_Q1311_3">انٹرویو کے اہل جواب دہندہ نے انٹرویو  ملتوی کردیا</string>
@@ -260,69 +401,7 @@
     <string name="rb_Q1311_10">فرد کے انتقال کو رپورٹ کیا گیا  مگر وفات پانے والا  اصل میں زندہ ہے</string>
     <string name="rb_Q1311_11">موت کی ڈپلیکیٹ رپورٹ۔انٹرویو پہلے ہی منعقد ہوگیا  تھا</string>
     <string name="rb_Q1311_12">مرنے والی انٹرویو کے لئے اہل نہیں</string>
-    <string name="rb_Q1405_1">ہاں</string>
-    <string name="rb_Q1405_2"> نہیں</string>
-    <string name="rb_Q1402_1">مرد</string>
-    <string name="rb_Q1402_2">عورت</string>
-    <string name="rb_Q1402_DK">معلوم نہیں</string>
-    <string name="rb_Q1403_1">شریک حیات</string>
-    <string name="rb_Q1403_2">ماں</string>
-    <string name="rb_Q1403_3">باپ</string>
-    <string name="rb_Q1403_4">نانی/دادی</string>
-    <string name="rb_Q1403_5">نانا/دادا</string>
-    <string name="rb_Q1403_6">بیٹا</string>
-    <string name="rb_Q1403_7">بیٹی</string>
-    <string name="rb_Q1403_8">آنٹی</string>
-    <string name="rb_Q1403_9">چاچا (انکل)</string>
-    <string name="rb_Q1403_10">بھائی</string>
-    <string name="rb_Q1403_11">بہن</string>
-    <string name="rb_Q1403_12">پیدائش میں مدد کرنے والا (وضاحت کریں)</string>
-    <string name="rb_Q1403_OTM">کوئی اور مرد (وضاحت کریں)</string>
-    <string name="rb_Q1403_OTF">کوئی اور عورت (وضاحت کریں)</string>
-    <string name="rb_Q1403_OT">کوئی اور (وضاحت کریں)</string>
-    <string name="rb_Q1404_1">ہاں</string>
-    <string name="rb_Q1404_2"> نہیں</string>
-    <string name="rb_Q1404_DK">معلوم نہیں</string>
-    <string name="rb_Q1407_1">ہاں</string>
-    <string name="rb_Q1407_2">نہیں</string>
-    <string name="rb_Q1407_DK">معلوم نہیں </string>
-    <string name="rb_Q1408_1">پرائمری</string>
-    <string name="rb_Q1408_2">سیکنڈری</string>
-    <string name="rb_Q1408_3">سیکنڈری سے اوپراعلیٰ تعلیم</string>
-    <string name="rb_Q1408_DK">معلوم نہیں </string>
-    <string name="rb_Q1410_1">کچھ نہیں پڑھ سکتا  یا سکتی </string>
-    <string name="rb_Q1410_2">صرف جملہ کا  کچھ حصہ پڑھ سکتا  یا سکتی </string>
-    <string name="rb_Q1410_3">پورا جملہ پڑھ سکتا  یا سکتی</string>
-    <string name="rb_Q1410_4">جملے اس زبان میں نہیں ہیں (زبان کی وضاحت کریں )</string>
-    <string name="rb_Q1410_5">نابینا /سن نہیں سکتا یا سکتی </string>
-    <string name="rb_Q1413_1">ہاں</string>
-    <string name="rb_Q1413_2">نہیں</string>
-    <string name="rb_Q1413_DK">معلوم نہیں</string>
 
-    <string name="rb_Q1414_1">بجلی</string>
-    <string name="rb_Q1414_2">ریڈیو</string>
-    <string name="rb_Q1414_3">ٹیلی وژن</string>
-    <string name="rb_Q1414_4">ریفرجیٹر</string>
-    <string name="rb_Q1414_5">ٹیلی فون</string>
-    <string name="rb_Q1414_6">موبائل</string>
-    <string name="rb_Q1414_7">کمپیوٹر</string>
-    <string name="rb_Q1414_8">سائیکل</string>
-    <string name="rb_Q1414_9">موٹر سائیکل</string>
-    <string name="rb_Q1414_10">گاڑی یا ٹرک</string>
-
-    <string name="rb_Q1415_1">گھر  میں نلکا	</string>
-    <string name="rb_Q1415_2">صحن/گھر کے باہر میونسپل کمیٹی کا نلکا</string>
-    <string name="rb_Q1415_3">پڑوسی کے گھر میونسپل کمیٹی کا نلکا</string>
-    <string name="rb_Q1415_4">گلی/علاقے کا نلکا</string>
-    <string name="rb_Q1415_5">ہینڈ پمپ کے ساتھ محفوظ کنواں</string>
-    <string name="rb_Q1415_6">پینڈ پمپ کے بغیر محفوظ کنواں</string>
-    <string name="rb_Q1415_7">غیر محفوظ کنواں</string>
-    <string name="rb_Q1415_8">چشمے کاپانی</string>
-    <string name="rb_Q1415_9">سطح والا پانی (دریا ،جھیل ،تالات)</string>
-    <string name="rb_Q1415_10">بارش کا پانی</string>
-    <string name="rb_Q1415_11">پانی کا ٹینکر/پانی کا ڈرم</string>
-    <string name="rb_Q1415_12">بوتل کا پانی</string>
-    <string name="rb_Q1415_DK"> معلوم نہیں</string>
     <string name="rb_Q1416_1">فلش لیٹرین گھر کے اندر</string>
     <string name="rb_Q1416_2">فلش لیٹرین گھر کے باہر</string>
     <string name="rb_Q1416_3">فلش کے بغیر لیڑین</string>
@@ -416,8 +495,121 @@
     <string name="rb_Q1609_3">12 مہینے سے 4 سال</string>
     <string name="rb_Q1609_4">سال5-11</string>
     <string name="rb_Q1609_5">سال یا اس سے زیادہ-12</string>
+    <!--Q-->
 
-    <!-- GeneRAl Section Urdu Responses ENDS -->
+
+    <!--W-->
+    <string name="Q_w201">W201</string>
+    <string name="w201">آپ / ماں کی تاریخ پیدائش کیا ہے ؟</string>
+    <string name="w201d">دن</string>
+    <string name="w201m">مہینہ</string>
+    <string name="w201y">سال</string>
+    <string name="w201info">اگر نہیں جانتے دن = 98، مہینہ = 98 اور سال = 9998</string>
+
+    <string name="Q_w202">W202</string>
+    <string name="w202">برائے مہربانی اپنی عمر بتایئے۔ آپ کی گزشتہ سالگرہ پر آپ / ماں کی عمر کتنی تھی ؟</string>
+    <string name="w202a">مکمل عمر سالوں میں لکھیں</string>
+
+    <string name="Q_w203">W203</string>
+    <string name="w203">اطمینان کیجئے کہ جواب دہندہ کی عمر 49–12 سال ہے ؟</string>
+    <string name="w203a">ہاں</string>
+    <string name="w203b">نہیں</string>
+
+    <string name="Q_w204">W204</string>
+    <string name="w204">کیا اس وقت آپ / ماں شادی شدہ ہیں ؟</string>
+    <string name="w204a">ہاں</string>
+    <string name="w204b">نہیں</string>
+
+    <string name="Q_w205">W205</string>
+    <string name="w205">کیا کبھی آپ / ماں کی شادی ہوئی ؟</string>
+    <string name="w205a">ہاں</string>
+    <string name="w205b">نہیں</string>
+
+    <string name="Q_w206">W206</string>
+    <string name="w206">شادی کے وقت آپ / ماں کی عمر کیا تھی ؟</string>
+    <string name="w206a">مکمل عمر سالوں میں لکھیں</string>
+
+    <string name="Q_w207">W207</string>
+    <string name="w207">کیا آپ / ماں کبھی حاملہ ہوئی ہیں ؟</string>
+    <string name="w207a">ہاں</string>
+    <string name="w207b">نہیں</string>
+
+    <string name="Q_w208">W208</string>
+    <string name="w208">کیا آپ / ماں ابھی حاملہ ہیں ؟</string>
+    <string name="w208a">ہاں</string>
+    <string name="w208b">نہیں</string>
+
+    <string name="Q_w209">W209</string>
+    <string name="w209">موجودہ حمل کے دوران، کیا آپ کو فولاد یا وٹامن کی گولیاں جس میں فولاد شامل ہو دی گئیں یا آپ نے خریدی ؟</string>
+    <string name="w209a">ہاں</string>
+    <string name="w209b">نہیں</string>
+
+    <string name="Q_w210">W210</string>
+    <string name="w210">اگر ہاں ،خریدی یا فراہم کی گئیں ؟</string>
+    <string name="w210a">کلینک پر ملی</string>
+    <string name="w210b">خریدی</string>
+    <string name="w210c">ملی نہ خریدی</string>
+    <string name="w21098">معلوم نہیں</string>
+    <string name="w21099">جواب نہیں دیا</string>
+
+    <string name="Q_w211">W211</string>
+    <string name="w211">آپ / ماں اپنی زندگی میں کتنی مرتبہ حاملہ ہوئیں ؟</string>
+    <string name="w211a">حمل کی تعداد</string>
+
+    <string name="Q_w212">W212</string>
+    <string name="w212">آپ کی زندگی میں کل کتنی زچگیاں ہوئیں ؟</string>
+    <string name="w212a">زچگیوں کی تعداد</string>
+
+    <string name="Q_w213">W213</string>
+    <string name="w213">پہلے بچے کی پیدائش کے وقت آپ کی عمر کیا تھی ؟</string>
+    <string name="w213a">عمر سالوں میں</string>
+
+    <string name="Q_w214">W214</string>
+    <string name="w214">آپ / ماں پچھلے پانچ سال میں کتنی مرتبہ حاملہ ہوئیں ؟</string>
+
+    <string name="Q_w215">W215</string>
+    <string name="w215">آپ کی پچھلے پانچ سال کل کتنی زچگیاں ہوئیں ؟</string>
+
+    <string name="Q_w217">W217</string>
+    <string name="w217">حمل کے نتیجے کی تاریخ ؟</string>
+    <string name="w217d">دن</string>
+    <string name="w217m">مہینہ</string>
+    <string name="w217y">سال</string>
+
+    <string name="Q_w218">W218</string>
+    <string name="w218">نتیجہ</string>
+    <string name="w218a">حمل ضائع</string>
+    <string name="w218b">مردہ بچے کی پیدائش</string>
+    <string name="w218c">زندہ بچے کی  پیدائش</string>
+    <string name="w218d">جڑواں بچوں کی پیدائش </string>
+    <string name="w218e">جڑواں مردہ بچوں کی پیدائش</string>
+    <string name="w218f">ایک زندہ ایک مردہ بچوں کی پیدائش</string>
+
+    <string name="Q_w219">W219</string>
+    <string name="w219">بچے کی موجودہ صورت حال</string>
+    <string name="w219a">حیات</string>
+    <string name="w219b">فوت</string>
+
+    <string name="Q_w221">W221</string>
+    <string name="w221">زندہ بچے کی عمر</string>
+    <string name="w221y">سال</string>
+    <string name="w221m">مہینے</string>
+    <string name="w221d">دن</string>
+
+    <string name="Q_w222">W222</string>
+    <string name="w222">وفات کے وقت بچے کی عمر</string>
+    <string name="w222y">سال</string>
+    <string name="w222m">مہینے</string>
+    <string name="w222d">دن</string>
+
+
+    <!-- GenRAl Info File starts  -->
+
+
+    <!-- GenRAl Info File Ends   -->
+
+
+    <!-- GeneRAl Section Urdu Text STARTS -->
 
     <!-- GeneRAl Section Urdu HINT‘s STARTS -->
 
@@ -7226,111 +7418,6 @@
 
     <!-- Child Urdu TEXT HINT‘s ENDS -->
 
-
-    <!-- Reproductive Urdu TEXT & RESPONSE STARTS -->
-    <string name="Q_w201">W201</string>
-    <string name="w201">آپ / ماں کی تاریخ پیدائش کیا ہے ؟</string>
-    <string name="w201d">دن</string>
-    <string name="w201m">مہینہ</string>
-    <string name="w201y">سال</string>
-    <string name="w201info">اگر نہیں جانتے دن = 98، مہینہ = 98 اور سال = 9998</string>
-
-    <string name="Q_w202">W202</string>
-    <string name="w202">برائے مہربانی اپنی عمر بتایئے۔ آپ کی گزشتہ سالگرہ پر آپ / ماں کی عمر کتنی تھی ؟</string>
-    <string name="w202a">مکمل عمر سالوں میں لکھیں</string>
-
-    <string name="Q_w203">W203</string>
-    <string name="w203">اطمینان کیجئے کہ جواب دہندہ کی عمر 49–12 سال ہے ؟</string>
-    <string name="w203a">ہاں</string>
-    <string name="w203b">نہیں</string>
-
-    <string name="Q_w204">W204</string>
-    <string name="w204">کیا اس وقت آپ / ماں شادی شدہ ہیں ؟</string>
-    <string name="w204a">ہاں</string>
-    <string name="w204b">نہیں</string>
-
-    <string name="Q_w205">W205</string>
-    <string name="w205">کیا کبھی آپ / ماں کی شادی ہوئی ؟</string>
-    <string name="w205a">ہاں</string>
-    <string name="w205b">نہیں</string>
-
-    <string name="Q_w206">W206</string>
-    <string name="w206">شادی کے وقت آپ / ماں کی عمر کیا تھی ؟</string>
-    <string name="w206a">مکمل عمر سالوں میں لکھیں</string>
-
-    <string name="Q_w207">W207</string>
-    <string name="w207">کیا آپ / ماں کبھی حاملہ ہوئی ہیں ؟</string>
-    <string name="w207a">ہاں</string>
-    <string name="w207b">نہیں</string>
-
-    <string name="Q_w208">W208</string>
-    <string name="w208">کیا آپ / ماں ابھی حاملہ ہیں ؟</string>
-    <string name="w208a">ہاں</string>
-    <string name="w208b">نہیں</string>
-
-    <string name="Q_w209">W209</string>
-    <string name="w209">موجودہ حمل کے دوران، کیا آپ کو فولاد یا وٹامن کی گولیاں جس میں فولاد شامل ہو دی گئیں یا آپ نے خریدی ؟</string>
-    <string name="w209a">ہاں</string>
-    <string name="w209b">نہیں</string>
-
-    <string name="Q_w210">W210</string>
-    <string name="w210">اگر ہاں ،خریدی یا فراہم کی گئیں ؟</string>
-    <string name="w210a">کلینک پر ملی</string>
-    <string name="w210b">خریدی</string>
-    <string name="w210c">ملی نہ خریدی</string>
-    <string name="w21098">معلوم نہیں</string>
-    <string name="w21099">جواب نہیں دیا</string>
-
-    <string name="Q_w211">W211</string>
-    <string name="w211">آپ / ماں اپنی زندگی میں کتنی مرتبہ حاملہ ہوئیں ؟</string>
-    <string name="w211a">حمل کی تعداد</string>
-
-    <string name="Q_w212">W212</string>
-    <string name="w212">آپ کی زندگی میں کل کتنی زچگیاں ہوئیں ؟</string>
-    <string name="w212a">زچگیوں کی تعداد</string>
-
-    <string name="Q_w213">W213</string>
-    <string name="w213">پہلے بچے کی پیدائش کے وقت آپ کی عمر کیا تھی ؟</string>
-    <string name="w213a">عمر سالوں میں</string>
-
-    <string name="Q_w214">W214</string>
-    <string name="w214">آپ / ماں پچھلے پانچ سال میں کتنی مرتبہ حاملہ ہوئیں ؟</string>
-
-    <string name="Q_w215">W215</string>
-    <string name="w215">آپ کی پچھلے پانچ سال کل کتنی زچگیاں ہوئیں ؟</string>
-
-    <string name="Q_w217">W217</string>
-    <string name="w217">حمل کے نتیجے کی تاریخ ؟</string>
-    <string name="w217d">دن</string>
-    <string name="w217m">مہینہ</string>
-    <string name="w217y">سال</string>
-
-    <string name="Q_w218">W218</string>
-    <string name="w218">نتیجہ</string>
-    <string name="w218a">حمل ضائع</string>
-    <string name="w218b">مردہ بچے کی پیدائش</string>
-    <string name="w218c">زندہ بچے کی  پیدائش</string>
-    <string name="w218d">جڑواں بچوں کی پیدائش </string>
-    <string name="w218e">جڑواں مردہ بچوں کی پیدائش</string>
-    <string name="w218f">ایک زندہ ایک مردہ بچوں کی پیدائش</string>
-
-    <string name="Q_w219">W219</string>
-    <string name="w219">بچے کی موجودہ صورت حال</string>
-    <string name="w219a">حیات</string>
-    <string name="w219b">فوت</string>
-
-    <string name="Q_w221">W221</string>
-    <string name="w221">زندہ بچے کی عمر</string>
-    <string name="w221y">سال</string>
-    <string name="w221m">مہینے</string>
-    <string name="w221d">دن</string>
-
-    <string name="Q_w222">W222</string>
-    <string name="w222">وفات کے وقت بچے کی عمر</string>
-    <string name="w222y">سال</string>
-    <string name="w222m">مہینے</string>
-    <string name="w222d">دن</string>
-
     <string name="public_sector">عوامی سیکٹر</string>
     <string name="private_sector">نجی صحت کے سیکٹر</string>
     <string name="C3065_hint1">Inst_2: If no labor / delivery complications: ((C3051≠1 and C3052=9,10) and (C3057≠1 or C3058≠2) and (C3059≠1 or C3060≠2) and C3061≠1 and C3062&lt;12 and C3063≠1) → C3071.</string>
@@ -7339,32 +7426,6 @@
     <string name="enter_1_unit_only_0_30_days_or_1_60_months_nless_than_1_day_or_24_hours_0_days_n1_week_7_days">Enter 1 unit only: 0–30 days or 1-60 months.  Less than 1 day or 24 hours = 0 days.  1 week = 7 days.</string>
 
     <!-- Reproductive Urdu TEXT & RESPONSE ENDS -->
-
-
-    <string name="Main_Menu">مین مینو</string>
-    <string name="Start_Interview">انٹرویو شروع کریں</string>
-    <string name="Upload_Data">ڈیٹا اپ لوڈ کریں</string>
-    <string name="Pending_Interviews">موصول ہونے والی انٹرویو</string>
-    <string name="Language">زبان منتخب کریں</string>
-    <string name="English">انگریزی</string>
-    <string name="Urdu">اردو</string>
-
-
-    <string name="txt_Q1201_1">صوبہ</string>
-    <string name="txt_Q1201_2">ضلع</string>
-
-    <string name="province_prompt">صوبہ منتخب کریں۔</string>
-    <string name="district_prompt">ضلع منتخب کریں۔</string>
-
-    <string-array name="province">
-        <item>بلوچستان</item>
-        <item>پنجاب</item>
-        <item>سندھ</item>
-        <item>خیبر پختونخواہ</item>
-        <item>فاٹا</item>
-        <item>گلگت بلتستان</item>
-        <item>آزاد جموں و کشمیر</item>
-    </string-array>
 
 
 </resources>

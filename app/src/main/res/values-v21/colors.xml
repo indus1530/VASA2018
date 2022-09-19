@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <color name="colorPrimary">#5D4037</color>
+    <color name="colorPrimaryLight">#8D6E63</color>
+    <color name="colorPrimaryDark">#3E2723</color>
+    <color name="colorAccent">#FFEB3B</color>
+    <color name="colorAccentLight">#FFFF00</color>
+
     <color name="gray">#ddd</color>
     <color name="cyan">#46E0C5</color>
     <color name="green1">#58C86C</color>
     <color name="green2">#8DC858</color>
 
 
-    <color name="colorPrimary">#14AA51</color>
+   <!-- <color name="colorPrimary">#14AA51</color>
     <color name="colorPrimaryDark">#929292</color>
-    <color name="colorAccent">#17c15c</color>
+    <color name="colorAccent">#17c15c</color>-->
     <color name="text">#444</color>
     <color name="text_hard">#222</color>
 
@@ -31,6 +37,19 @@
 
 
     <color name="black_overlay">#66000000</color>
+
+
+    <color name="colorPrimaryOverlay">#7f303F9F</color>
+    <color name="colorPrimaryLightOverlay">#7f7986CB</color>
+    <color name="colorPrimaryDarkOverlay">#7f1A237E</color>
+    <color name="colorAccentOverlay">#7f00E676</color>
+    <color name="colorAccentLightOverlay">#7f69F0AE</color>
+    <color name="whiteOverlay">#7fffffff</color>
+    <color name="grayLight">#d6d6d6</color>
+
+    <color name="enabled_color">#000000</color>
+    <color name="disabled_color">#ef7f7f</color>
+    <color name="grayDark">#424242</color>
 
 
 </resources>
