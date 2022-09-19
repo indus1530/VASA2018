@@ -431,8 +431,6 @@ public class Q1101_Q1610 extends AppCompatActivity implements RadioButton.OnChec
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
         change_langua();
         setContentView(R.layout.q1101_q1610);
 

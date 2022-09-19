@@ -13,6 +13,7 @@
     <string name="rb_yes">Yes</string>
     <string name="rb_no">No</string>
     <string name="rb_dk">Don’t Know</string>
+    <string name="rb_DK">Don’t Know</string>
     <string name="rb_RA">Refused to Answer</string>
 
     <string name="time">Times</string>
@@ -341,7 +342,29 @@
     <string name="rb_Q1415_DK">Don’t Know</string>
 
     <string name="txt_Q1416">Q1416:	What type of toilet do members of the household usually use?</string>
+    <string name="rb_Q1416_1">Flush toilet inside the house?</string>
+    <string name="rb_Q1416_2">Flush toilet outside the house?</string>
+    <string name="rb_Q1416_3">Toilet without flushing</string>
+    <string name="rb_Q1416_4">Improved latrine</string>
+    <string name="rb_Q1416_5">Improved traditional latrine</string>
+    <string name="rb_Q1416_6">Unimproved latrine</string>
+    <string name="rb_Q1416_7">No latrine/toilet</string>
+    <string name="rb_Q1416_OT">Other (specify) </string>
+    <string name="rb_Q1416_DK">Don’t Know</string>
+
     <string name="txt_Q1417">Q1417:	What is the main source of energy or fuel the household uses for cooking?</string>
+    <string name="rb_Q1417_1">Electricity</string>
+    <string name="rb_Q1417_2">Natural gas</string>
+    <string name="rb_Q1417_3">Petrol/paraffin/kerosene</string>
+    <string name="rb_Q1417_4">Mineral coal</string>
+    <string name="rb_Q1417_5">Charcoal</string>
+    <string name="rb_Q1417_6">Firewood</string>
+    <string name="rb_Q1417_7">Animal dung</string>
+    <string name="rb_Q1417_8">No food cooked in the household</string>
+    <string name="rb_Q1417_OT">Other (specify) </string>
+    <string name="rb_Q1417_DK">Don’t Know</string>
+
+
     <string name="txt_Q1418">Q1418:	What is the main source of energy the household uses for lighting?</string>
     <string name="txt_Q1419">Q1419:	What is the main material used for the floor of the house?</string>
     <string name="txt_Q1420">Q1420:	What is the main material used for the roof of the house?</string>
@@ -372,29 +395,6 @@
     <string name="rb_Q1311_10">Person reported dead is actually alive</string>
     <string name="rb_Q1311_11">Duplicate report of death – interview already conducted</string>
     <string name="rb_Q1311_12">Death not eligible</string>
-
-
-
-    <string name="rb_Q1416_1">Flush toilet inside the house?</string>
-    <string name="rb_Q1416_2">Flush toilet outside the house?</string>
-    <string name="rb_Q1416_3">Toilet without flushing</string>
-    <string name="rb_Q1416_4">Improved latrine</string>
-    <string name="rb_Q1416_5">Improved traditional latrine</string>
-    <string name="rb_Q1416_6">Unimproved latrine</string>
-    <string name="rb_Q1416_7">No latrine/toilet</string>
-    <string name="rb_Q1416_OT">Other (specify) </string>
-    <string name="rb_Q1416_DK">Don’t Know</string>
-
-    <string name="rb_Q1417_1">Electricity</string>
-    <string name="rb_Q1417_2">Natural gas</string>
-    <string name="rb_Q1417_3">Petrol/paraffin/kerosene</string>
-    <string name="rb_Q1417_4">Mineral coal</string>
-    <string name="rb_Q1417_5">Charcoal</string>
-    <string name="rb_Q1417_6">Firewood</string>
-    <string name="rb_Q1417_7">Animal dung</string>
-    <string name="rb_Q1417_8">No food cooked in the household</string>
-    <string name="rb_Q1417_OT">Other (specify) </string>
-    <string name="rb_Q1417_DK">Don’t Know</string>
 
     <string name="rb_Q1418_1">Electricity</string>
     <string name="rb_Q1418_2">Generator / Solar </string>
