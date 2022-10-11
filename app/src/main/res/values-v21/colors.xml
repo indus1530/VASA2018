@@ -28,9 +28,15 @@
     <color name="bluep">#2196F3</color>
     <color name="bluepri">#303F9F</color>
     <color name="blueprid">#3F51B5</color>
+    <color name="whiteOverlay">#7fffffff</color>
+    <color name="grayDark">#424242</color>
 
 
     <color name="black_overlay">#66000000</color>
+    <color name="grayLight">#d6d6d6</color>
+
+    <color name="enabled_color">#000000</color>
+    <color name="disabled_color">#ef7f7f</color>
 
 
 </resources>

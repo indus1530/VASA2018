@@ -6,16 +6,14 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-
         <item name="android:actionBarSize">80dp</item>
         <item name="actionBarSize">80dp</item>
-
-        <!-- For the resting Spinner style -->
-        <item name="android:spinnerItemStyle">
-            @style/spinnerItemStyle
-        </item>
-
-        <!-- For each individual Spinner list item once clicked on -->
+        <item name="android:spinnerItemStyle">@style/spinnerItemStyle</item>
+        <item name="android:textViewStyle">@style/TextView</item>
+        <item name="editTextStyle">@style/textInput</item>
+        <item name="radioButtonStyle">@style/RadioButton</item>
+        <item name="checkboxStyle">@style/CheckBox</item>
+        <item name="hintEnabled">false</item>
     </style>
 
     <style name="AppTheme.ActionBar" parent="Widget.AppCompat.Light.ActionBar">
@@ -91,40 +89,24 @@
         </item>
         <item name="android:imeOptions">actionDone</item>
         <item name="android:singleLine">true</item>
-
         <item name="android:focusable">true</item>
-
         <item name="android:clickable">true</item>
         <item name="android:focusableInTouchMode">true</item>
-
     </style>
-
-    <!-- EditText Acept Varchar  Ends. -->
-
-
-    <!-- EditText Acept Number  Starts. -->
 
     <style name="EditText_number">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">16sp</item>
-        <!--     <item name="android:digits">0123456789</item>  -->
         <item name="android:inputType">number</item>
-
         <item name="android:imeOptions">actionDone</item>
         <item name="android:singleLine">true</item>
-
         <item name="android:focusable">true</item>
-
         <item name="android:clickable">true</item>
         <item name="android:focusableInTouchMode">true</item>
-
     </style>
-    <!-- EditText Acept Number  Ends. -->
 
-
-    <!-- TextView   Starts. -->
-    <style name="TextView">
+    <!--<style name="TextView">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center_vertical</item>
@@ -135,12 +117,98 @@
         <item name="android:focusableInTouchMode">true</item>
         <item name="android:layout_margin">5dp</item>
         <item name="android:padding">5dp</item>
-        <!--<item name="android:layout_marginLeft">3dp</item>
+        &lt;!&ndash;<item name="android:layout_marginLeft">3dp</item>
         <item name="android:layout_marginRight">3dp</item>
         <item name="android:layout_marginTop">3dp</item>
-        <item name="android:layout_marginBottom">10dp</item>-->
+        <item name="android:layout_marginBottom">10dp</item>&ndash;&gt;
         <item name="android:typeface">normal</item>
         <item name="android:textStyle">bold</item>
+    </style>-->
+
+
+    <style name="TextView" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:minHeight">32dp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:gravity">center|start</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <!--<item name="android:background">@drawable/grad_lable</item>-->
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+    </style>
+
+
+    <style name="textInputOld" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:elevation">1dp</item>
+        <item name="android:background">@drawable/options_separator</item>
+        <item name="android:textColor">@drawable/edit_text_selector</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingEnd">6dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:textDirection">ltr</item>
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+
+    <style name="textInput" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:elevation">1dp</item>
+        <item name="android:background">@drawable/options_separator</item>
+        <item name="android:textColor">@drawable/edit_text_selector</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingEnd">6dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:textDirection">ltr</item>
+
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+
+
+        <!--
+                        android:shadowColor="@color/text_shadow_white"
+                android:shadowDx="-2"
+                android:shadowDy="-2"
+                android:shadowRadius="1"
+
+                <item name="android:textStyle">bold</item>
+        -->
+        <!--        <item name="android:textDirection">ltr</item>-->
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+
+    <style name="info">
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:background">#FFEB9C</item>
+        <item name="android:textColor">#FF0000</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">0.04</item>
+        <item name="android:shadowColor">#00000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">0</item>
     </style>
 
 
@@ -150,14 +218,14 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center</item>
         <item name="android:textSize">16sp</item>
-        <item name="android:textColor">@color/text</item>
+        <item name="android:textColor">@color/text_hard</item>
         <item name="android:focusable">true</item>
         <item name="android:clickable">true</item>
         <item name="android:focusableInTouchMode">true</item>
-        <item name="android:layout_marginLeft">3dp</item>
+        <!--<item name="android:layout_marginLeft">3dp</item>
         <item name="android:layout_marginRight">3dp</item>
         <item name="android:layout_marginTop">3dp</item>
-        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>-->
         <item name="android:typeface">serif</item>
         <item name="android:textStyle">normal</item>
     </style>
@@ -199,40 +267,58 @@
         <item name="android:typeface">normal</item>
         <item name="android:textStyle">bold</item>
     </style>
-    <!-- TextView   Ends. -->
 
 
-    <!-- CheckBox   Starts. -->
-    <style name="CheckBox">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">16sp</item>
-        <item name="android:textColor">@color/colorPrimaryDark</item>
-        <item name="android:gravity">start</item>
-     
-        <!-- CheckBox    <item name="android:gravity">right</item>
-<item name="android:layoutDirection">rtl</item>  -->
-    </style>
-
-    <!-- CheckBox   Ends. -->
+    <!-- <style name="CheckBox">
+         <item name="android:layout_width">match_parent</item>
+         <item name="android:layout_height">wrap_content</item>
+         <item name="android:textSize">16sp</item>
+         <item name="android:textColor">@color/colorPrimaryDark</item>
+         <item name="android:gravity">start</item>
+     </style>-->
 
     <!-- RadioButton   Starts. -->
-    <style name="RadioButton">
+    <!--<style name="RadioButton">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/colorPrimaryDark</item>
-
         <item name="android:layout_margin">2dp</item>
         <item name="android:gravity">start</item>
+    </style>-->
 
 
+    <style name="RadioButton" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:elevation">1dp</item>
+        <item name="android:radius">2dp</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:paddingStart">8dp</item>
+        <!--<item name="android:buttonTint">@color/colorPrimary</item>-->
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:background">@drawable/options_separator</item>
     </style>
 
-    <!-- RadioButton   Ends. -->
-
-
-    <!-- RadioButton   Starts. -->
+    <style name="CheckBox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:buttonTint">@color/colorPrimary</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:clickable">true</item>
+        <!--<item name="android:textColor">@color/gray</item>-->
+        <item name="android:background">@drawable/options_separator</item>
+    </style>
 
 
     <style name="RadioGroup">
@@ -286,13 +372,10 @@
 
         <item name="android:layout_marginLeft">10dp</item>
         <item name="android:textStyle">bold</item>
-
-
     </style>
-    <!-- Q_cardview   Ends. -->
 
 
-    <style name="Q_CardView">
+    <!--<style name="Q_CardView">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">6dp</item>
@@ -302,23 +385,38 @@
         <item name="android:padding">10dp</item>
         <item name="cardCornerRadius">10dp</item>
         <item name="cardElevation">3dp</item>
+    </style>-->
+
+    <!--Card View Start-->
+    <style name="Q_CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginEnd">24dp</item>
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:padding">24dp</item>
+        <item name="android:background">@color/whiteOverlay</item>
+        <item name="cardCornerRadius">4dp</item>
+        <item name="cardElevation">2dp</item>
     </style>
 
-    <!-- Q_cardview   starts. -->
-    <style name="Q_Linerlayout_v">
+
+    <!--<style name="Q_Linerlayout_v">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">8dp</item>
         <item name="android:layout_marginBottom">8dp</item>
         <item name="android:orientation">vertical</item>
         <item name="android:padding">10dp</item>
+    </style>-->
 
 
-
-
+    <style name="Q_Linerlayout_v">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
     </style>
-
-    <!-- Q_cardview   Ends. -->
 
 
     <style name="Q_Linerlayout_new">

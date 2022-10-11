@@ -143,11 +143,25 @@
     <string name="zero_to_30_days">0–30 دن درج کریں۔ 1 دن یا 24 گھنٹے سے کم = 0 دن؛ 1 ہفتہ = 7 دن.</string>
     <string name="one_to_60_months">1–60 ماہ درج کریں۔</string>
 
-    <string name="txt_Q1101">کیا یہ ایچ آئی وی /ایڈز سے متاثر  علاقہ ہے ؟	:	Q1101</string>
-    <string name="txt_Q1102">کیا یہ ملیریا سے متاثر  علاقہ ہے؟	:	Q1102</string>
-    <string name="txt_Q1103">کس موسم کے دوران متوفی کی وفات ہوئی ؟	:	Q1103</string>
+    <string name="Q_q1101">Q1101:</string>
+    <string name="q1101">کیا یہ ایچ آئی وی / ایڈز سے متاثر علاقہ ہے ؟</string>
+    <string name="rb_Q1101_1">زیادہ</string>
+    <string name="rb_Q1101_2">کم</string>
+    <string name="rb_Q1101_3">بہت کم</string>
 
-    <string name="Q_q1201">Q1201</string>
+    <string name="Q_q1102">Q1102:</string>
+    <string name="q1102">کیا یہ ملیریا سے متاثر علاقہ ہے ؟</string>
+    <string name="rb_Q1102_1">زیادہ</string>
+    <string name="rb_Q1102_2">کم</string>
+    <string name="rb_Q1102_3">بہت کم</string>
+
+    <string name="Q_q1103">Q1103:</string>
+    <string name="q1103">کس موسم کے دوران متوفی کی وفات ہوئی ؟</string>
+    <string name="rb_Q1103_1">گیلا</string>
+    <string name="rb_Q1103_2">سوکھا</string>
+    <string name="rb_Q1103_3">معلوم نہیں</string>
+
+    <string name="Q_q1201">Q1201:</string>
     <string name="q1201">گھرانے کا پتہ:</string>
     <string name="q1201a">صوبہ</string>
     <string name="q1201b">ضلع</string>
@@ -157,97 +171,58 @@
     <string name="q1201f"> ای اے</string>
     <string name="q1201g">گھرانے کا محل و وقوع</string>
 
-    <string name="Q_q1202">Q1202</string>
+    <string name="Q_q1202">Q1202:</string>
     <string name="q1202">مرنے والے کا نام (اگر معلوم ہے)</string>
 
-    <string name="Q_q1203">Q1203</string>
+    <string name="Q_q1203">Q1203:</string>
     <string name="q1203">مرنے والے کی جنس</string>
     <string name="q1203a">لڑکا / مرد</string>
     <string name="q1203b">لڑکی / عورت</string>
 
-    <string name="txt_Q1204">مرنے والے کی تاریخ پیدائش	:	Q1204</string>
-    <string name="txt_Q1205">وفات پانے والے کی موت کی تاریخ	:	Q1205</string>
-    <string name="txt_Q1206">وفات پانے والے کی عمر 	:	Q1206</string>
-    <string name="txt_Q1207">کیا یہ مردہ پیدا ہونے والے  یا نوزائیدہ بچہ کی وفات تھی؟	:	Q1207</string>
-    <string name="txt_Q1208">ماں کانام	:	Q1208</string>
-    <string name="txt_Q1209">باپ کا نام یا گھرانے کےسربراہ کا نام	:	Q1209</string>
-    <string name="txt_Q1301">انٹرویو کی زبان	:	Q1301</string>
-    <string name="txt_Q1302">انٹرویو لینے والے کا  شناخت   نمبر	:	Q1302</string>
-    <string name="txt_Q1307">انٹرویو شروع ہونے کی تاریخ	:	Q1307</string>
-    <string name="txt_Q1308">انٹرویو شروع ہونے کا وقت	:	Q1308</string>
-    <string name="txt_Q1309">انٹرویو  ختم  ہونے کی تاریخ	:	Q1309</string>
-    <string name="txt_Q1310">انٹرویو اختتام ہونے کا وقت	:	Q1310</string>
-    <string name="txt_Q1311">انٹرویو کے نتائج کورڈ 	:	Q1311</string>
-    <string name="txt_Q1312">تاریخ کی جانچ پڑتال سپروائزر کی طرف سے	:	Q1312</string>
-    <string name="txt_Q1313">کمپیوٹر میں درج کی گئی تاریخ	:	Q1313</string>
-    <string name="txt_Q1405">کیا جواب دہندہ نے رضامندی یا اجازت  دی؟	:	Q1405</string>
-    <string name="txt_Q1401">جواب دہندہ کا نام کیا ہے ؟	:	Q1401</string>
-    <string name="txt_Q1402">جواب دہندہ کی جنس ریکارڈ کریں	:	Q1402</string>
-    <string name="txt_Q1403">وفات پانے والے سے جواب دہندہ کا رشتہ کیا ہے  ؟	:	Q1403</string>
-    <string name="txt_Q1404">کیا جواب دہندہ ،  وفات پانے والے کے ساتھ  اس دوران موجود تھا  جب اسکا انتقال ہوا ؟ 	:	Q1404</string>
-    <string name="txt_Q1406">آپ کتنے سال کے ہیں؟	:	Q1406</string>
-    <string name="txt_Q1407">کیا آپ کبھی اسکول گئے ؟	:	Q1407</string>
-    <string name="txt_Q1408">آپ نے کہاں تک تعلیم حاصل کی ہے ؟	:	Q1408</string>
-    <string name="txt_Q1409">اب تک کی مکمل تعلیم (سال/گریڈ) کیا ہے؟	:	Q1409</string>
-    <string name="txt_Q1410">میں چاہوں گا کہ آپ یہ جملے مجھ کو پڑھ کر سنا ئیں               (جواب دہندہ کو کارڈ دکھا ئیں)	:	Q1410</string>
-    <string name="txt_Q1411">اس گھر میں کتنے لوگ رہتے ہیں ؟	:	Q1411</string>
-    <string name="txt_Q1411_h">پڑھیں:" اس گھر میں " کتنے افراد  رہتے ہیں ،  اگر آپ خاندان کے گھرکی بات کررہے ہیں ؟</string>
-    <string name="txt_Q1412">اس گھر میں سونے کے لیے کتنے کمرے استعمال ہوتے ہیں ؟	:	Q1412</string>
-    <string name="txt_Q1413">کیا گھر میں کھانا پکانے کے لیے الگ سے کمرہ ہے؟	:	Q1413</string>
+    <string name="Q_q1204">Q1204:</string>
+    <string name="q1204">مرنے والے کی تاریخ پیدائش</string>
 
-    <string name="Q_Q1414">q1414</string>
-    <string name="txt_Q1414">کیا آپ کے گھر میں ان میں سے کچھ موجود ہے ؟</string>
-    <string name="txt_Q1414_1">بجلی</string>
-    <string name="txt_Q1414_2">ریڈیو</string>
-    <string name="txt_Q1414_3">ٹیلی ویژن</string>
-    <string name="txt_Q1414_4">ریفریجریٹر</string>
-    <string name="txt_Q1414_5">فکسڈ لائن ٹیلی فون</string>
-    <string name="txt_Q1414_6">موبائل ٹیلی فون</string>
-    <string name="txt_Q1414_7">کمپیوٹر</string>
-    <string name="txt_Q1414_8">سائیکل</string>
-    <string name="txt_Q1414_9">موٹر سائیکل / سکوٹر</string>
-    <string name="txt_Q1414_10">کار / ٹرک</string>
+    <string name="Q_q1205">Q1205:</string>
+    <string name="q1205">وفات پانے والے کی موت کی تاریخ</string>
 
-    <string name="txt_Q1415">اس گھر میں پینے کے پانی کا اہم ذریعہ کیا ہے ؟</string>
-    <string name="txt_Q1416">عام طور پر گھرانے کے افراد کس قسم کا لیٹرین استعمال  کرتے ہیں ؟</string>
-    <string name="txt_Q1417">عام طور پر آپ کے گھر میں کھانے پکانے کے لیے کس قسم کا ایندھن استعمال ہوتا ہے ؟	:	Q1417</string>
-    <string name="txt_Q1418">گھر میں روشنی کرنے کے لیے کونسے ذرائع استعمال کرتے ہیں؟	:	Q1418</string>
-    <string name="txt_Q1419">گھر کا فرش بنانے میں کس قسم  کا میٹریل کا  استعمال کیا گیا ہے ؟	:	Q1419</string>
-    <string name="txt_Q1420">گھر کی چھت میں کسی قسم کا میٹریل استعمال ہوا ہے ؟	:	Q1420</string>
-    <string name="txt_Q1421">گھر کی  باہر کی دیوار وں میں کون سا میٹریل استعمال ہوا ہے ؟	:	Q1421</string>
-    <string name="txt_Q1501">کیا انٹرویو کے دوران دیگر لوگ موجود تھے؟	:	Q1501</string>
-    <string name="txt_Q1502">انٹرویور: جواب دہندہ کے علاوہ انٹرویو کے دوران کتنے لوگ موجود تھے(برائے مہربانی شمار میں جواب دہندہ کو شامل نہ کریں )	:	Q1502</string>
-    <string name="txt_Q1503">انٹرویور : وفات پانے والے سے آپ کا کیا رشتہ ہے ؟	:	Q1503</string>
-    <string name="txt_Q1601">وفات پانے والے کی جنس ؟	:	Q1601</string>
-    <string name="txt_Q1602">کیا تاریخ پیدائش معلوم ہے؟	:	Q1602</string>
-    <string name="txt_Q1603">وفات پانے والا /والی کب پیدا ہوا /ہوئی  ؟	:	Q1603</string>
-    <string name="txt_Q1604"> وفات پانے والے کی موت کہاں ہوئی  ؟	:	Q1604</string>
-    <string name="txt_Q1605">کیا وفات پانے والی/والے کی وفات کی تاریخ معلوم ہے ؟	:	Q1605</string>
-    <string name="txt_Q1606">وفات کی تاریخ کیاتھی؟ 	:	Q1606</string>
-    <string name="txt_Q1607">وفات کے وقت عمر  کا حساب لگا ئیں؟	:	Q1607</string>
-    <string name="txt_Q1608">وفات کے وقت مرنے والے کی عمر کتنی تھی؟	:	Q1608</string>
-    <string name="txt_Q1609">وفات کے وقت مرنے والے کی عمر کے گروپ یہ نشان لگائیں ۔	:	Q1609</string>
-    <string name="txt_Q1610">اگر وفات کے وقت کی عمر  28 دن سے کم عمر ہے تو عمر دنوں ،گھنٹے یا منٹس میں ریکارڈ کریں	:	Q1610</string>
+    <string name="Q_q1206">Q1206:</string>
+    <string name="q1206">وفات پانے والے کی عمر</string>
+    <string name="q1206d">دن</string>
+    <string name="q1206m">مہینے</string>
+    <string name="q1206y">سال</string>
 
-    <!-- GeneRAl Section Urdu Text ENDS -->
-
-    <!-- GeneRAl Section Urdu Responses STARTS -->
-
-    <string name="rb_Q1101_1">زیادہ</string>
-    <string name="rb_Q1101_2">کم</string>
-    <string name="rb_Q1101_3">بہت کم</string>
-
-    <string name="rb_Q1102_1">زیادہ</string>
-    <string name="rb_Q1102_2">کم</string>
-    <string name="rb_Q1102_3">بہت کم</string>
-
-    <string name="rb_Q1103_1">گیلا</string>
-    <string name="rb_Q1103_2">سوکھا</string>
-    <string name="rb_Q1103_3">معلوم نہیں</string>
-
+    <string name="Q_q1207">Q1207:</string>
+    <string name="q1207">کیا یہ مردہ پیدا ہونے والے یا نوزائیدہ بچہ کی وفات تھی ؟</string>
     <string name="rb_Q1207_1">مردہ</string>
     <string name="rb_Q1207_2">نوزائیدہ</string>
     <string name="rb_Q1207_3">ریکارڈ سے معلوم نہیں ہوا</string>
+
+    <string name="Q_q1208">Q1208:</string>
+    <string name="q1208">ماں کا نام</string>
+
+    <string name="Q_q1209">Q1209:</string>
+    <string name="q1209">باپ کا نام یا گھرانے کے سربراہ کا نام</string>
+
+    <string name="Q_q1301">Q1301:</string>
+    <string name="q1301">انٹرویو کی زبان</string>
+
+    <string name="Q_q1302">Q1302:</string>
+    <string name="q1302">انٹرویو لینے والے کا شناخت نمبر</string>
+
+    <string name="Q_q1307">Q1307:</string>
+    <string name="q1307">انٹرویو شروع ہونے کی تاریخ</string>
+
+    <string name="Q_q1308">Q1308:</string>
+    <string name="q1308">انٹرویو شروع ہونے کا وقت</string>
+
+    <string name="Q_q1309">Q1309:</string>
+    <string name="q1309">انٹرویو  ختم  ہونے کی تاریخ</string>
+
+    <string name="Q_q1310">Q1310:</string>
+    <string name="q1310">انٹرویو اختتام ہونے کا وقت</string>
+
+    <string name="Q_q1311">Q1311:</string>
+    <string name="q1311">انٹرویو کے نتائج کورڈ</string>
     <string name="rb_Q1311_1">مکمل  (حتمی نیتجہ کورڈ)</string>
     <string name="rb_Q1311_2">جزوی طورپر مکمل</string>
     <string name="rb_Q1311_3">انٹرویو کے اہل جواب دہندہ نے انٹرویو  ملتوی کردیا</string>
@@ -260,11 +235,29 @@
     <string name="rb_Q1311_10">فرد کے انتقال کو رپورٹ کیا گیا  مگر وفات پانے والا  اصل میں زندہ ہے</string>
     <string name="rb_Q1311_11">موت کی ڈپلیکیٹ رپورٹ۔انٹرویو پہلے ہی منعقد ہوگیا  تھا</string>
     <string name="rb_Q1311_12">مرنے والی انٹرویو کے لئے اہل نہیں</string>
-    <string name="rb_Q1405_1">ہاں</string>
-    <string name="rb_Q1405_2"> نہیں</string>
-    <string name="rb_Q1402_1">مرد</string>
-    <string name="rb_Q1402_2">عورت</string>
-    <string name="rb_Q1402_DK">معلوم نہیں</string>
+
+    <string name="Q_q1312">Q1312:</string>
+    <string name="q1312">تاریخ کی جانچ پڑتال سپروائزر کی طرف سے</string>
+
+    <string name="Q_q1313">Q1313:</string>
+    <string name="q1313">کمپیوٹر میں درج کی گئی تاریخ</string>
+
+    <string name="Q_q1405">Q1405:</string>
+    <string name="q1405">کیا جواب دہندہ نے رضامندی یا اجازت دی ؟</string>
+    <string name="q1405a">ہاں</string>
+    <string name="q1405b"> نہیں</string>
+
+    <string name="Q_q1401">Q1401:</string>
+    <string name="q1401">جواب دہندہ کا نام کیا ہے ؟</string>
+
+    <string name="Q_q1402">Q1402:</string>
+    <string name="q1402">جواب دہندہ کی جنس ریکارڈ کریں</string>
+    <string name="q1402a">مرد</string>
+    <string name="q1402b">عورت</string>
+    <string name="q140298">معلوم نہیں</string>
+
+    <string name="Q_q1403">Q1403:</string>
+    <string name="q1403">وفات پانے والے سے جواب دہندہ کا رشتہ کیا ہے ؟</string>
     <string name="rb_Q1403_1">شریک حیات</string>
     <string name="rb_Q1403_2">ماں</string>
     <string name="rb_Q1403_3">باپ</string>
@@ -280,36 +273,101 @@
     <string name="rb_Q1403_OTM">کوئی اور مرد (وضاحت کریں)</string>
     <string name="rb_Q1403_OTF">کوئی اور عورت (وضاحت کریں)</string>
     <string name="rb_Q1403_OT">کوئی اور (وضاحت کریں)</string>
+
+    <string name="Q_q1404">Q1404:</string>
+    <string name="q1404">کیا جواب دہندہ، وفات پانے والے کے ساتھ اس دوران موجود تھا جب اسکا انتقال ہوا ؟</string>
     <string name="rb_Q1404_1">ہاں</string>
     <string name="rb_Q1404_2"> نہیں</string>
     <string name="rb_Q1404_DK">معلوم نہیں</string>
+
+    <string name="Q_q1406">Q1406:</string>
+    <string name="q1406">آپ کتنے سال کے ہیں ؟</string>
+    <string name="q1406y">سال</string>
+
+    <string name="Q_q1407">Q1407:</string>
+    <string name="q1407">کیا آپ کبھی اسکول گئے ؟</string>
     <string name="rb_Q1407_1">ہاں</string>
     <string name="rb_Q1407_2">نہیں</string>
-    <string name="rb_Q1407_DK">معلوم نہیں </string>
+    <string name="rb_Q1407_DK">معلوم نہیں</string>
+
+    <string name="Q_q1408">Q1408:</string>
+    <string name="q1408">آپ نے کہاں تک تعلیم حاصل کی ہے ؟</string>
     <string name="rb_Q1408_1">پرائمری</string>
     <string name="rb_Q1408_2">سیکنڈری</string>
     <string name="rb_Q1408_3">سیکنڈری سے اوپراعلیٰ تعلیم</string>
     <string name="rb_Q1408_DK">معلوم نہیں </string>
+
+    <string name="Q_q1409">Q1409:</string>
+    <string name="q1409">اب تک کی مکمل تعلیم ( سال / گریڈ ) کیا ہے ؟</string>
+    <string name="q1409a"> سال / گریڈ</string>
+
+    <string name="Q_q1410">Q1410:</string>
+    <string name="q1410">میں چاہوں گا کہ آپ یہ جملے مجھ کو پڑھ کر سنائیں</string>
+    <string name="q1410info">جواب دہندہ کو کارڈ دکھائیں</string>
     <string name="rb_Q1410_1">کچھ نہیں پڑھ سکتا  یا سکتی </string>
     <string name="rb_Q1410_2">صرف جملہ کا  کچھ حصہ پڑھ سکتا  یا سکتی </string>
     <string name="rb_Q1410_3">پورا جملہ پڑھ سکتا  یا سکتی</string>
     <string name="rb_Q1410_4">جملے اس زبان میں نہیں ہیں (زبان کی وضاحت کریں )</string>
-    <string name="rb_Q1410_5">نابینا /سن نہیں سکتا یا سکتی </string>
+    <string name="rb_Q1410_5">نابینا / سن نہیں سکتا یا سکتی </string>
+
+    <string name="Q_q1411">Q1411:</string>
+    <string name="q1411">اس گھر میں کتنے لوگ رہتے ہیں ؟</string>
+    <string name="q1411info">پڑھیں: اس گھر میں کتنے افراد رہتے ہیں، اگر آپ خاندان کے گھر کی بات کر رہے ہیں ؟</string>
+
+    <string name="Q_q1412">Q1412:</string>
+    <string name="q1412">اس گھر میں سونے کے لیے کتنے کمرے استعمال ہوتے ہیں ؟</string>
+
+    <string name="Q_q1413">Q1413:</string>
+    <string name="q1413">کیا گھر میں کھانا پکانے کے لیے الگ سے کمرہ ہے ؟</string>
     <string name="rb_Q1413_1">ہاں</string>
     <string name="rb_Q1413_2">نہیں</string>
     <string name="rb_Q1413_DK">معلوم نہیں</string>
 
-    <string name="rb_Q1414_1">بجلی</string>
-    <string name="rb_Q1414_2">ریڈیو</string>
-    <string name="rb_Q1414_3">ٹیلی وژن</string>
-    <string name="rb_Q1414_4">ریفرجیٹر</string>
-    <string name="rb_Q1414_5">ٹیلی فون</string>
-    <string name="rb_Q1414_6">موبائل</string>
-    <string name="rb_Q1414_7">کمپیوٹر</string>
-    <string name="rb_Q1414_8">سائیکل</string>
-    <string name="rb_Q1414_9">موٹر سائیکل</string>
-    <string name="rb_Q1414_10">گاڑی یا ٹرک</string>
+    <string name="Q_q1414">Q1414:</string>
+    <string name="q1414">کیا آپ کے گھر میں ان میں سے کچھ موجود ہے ؟</string>
+    <string name="q1414a">بجلی</string>
+    <string name="q1414aa">ہاں</string>
+    <string name="q1414ab">نہیں</string>
+    <string name="q1414a98">معلوم نہیں</string>
+    <string name="q1414b">ریڈیو</string>
+    <string name="q1414ba">ہاں</string>
+    <string name="q1414bb">نہیں</string>
+    <string name="q1414b98">معلوم نہیں</string>
+    <string name="q1414c">ٹیلی ویژن</string>
+    <string name="q1414ca">ہاں</string>
+    <string name="q1414cb">نہیں</string>
+    <string name="q1414c98">معلوم نہیں</string>
+    <string name="q1414d">ریفریجریٹر</string>
+    <string name="q1414da">ہاں</string>
+    <string name="q1414db">نہیں</string>
+    <string name="q1414d98">معلوم نہیں</string>
+    <string name="q1414e">فکسڈ لائن ٹیلی فون</string>
+    <string name="q1414ea">ہاں</string>
+    <string name="q1414eb">نہیں</string>
+    <string name="q1414e98">معلوم نہیں</string>
+    <string name="q1414f">موبائل ٹیلی فون</string>
+    <string name="q1414fa">ہاں</string>
+    <string name="q1414fb">نہیں</string>
+    <string name="q1414f98">معلوم نہیں</string>
+    <string name="q1414g">کمپیوٹر</string>
+    <string name="q1414ga">ہاں</string>
+    <string name="q1414gb">نہیں</string>
+    <string name="q1414g98">معلوم نہیں</string>
+    <string name="q1414h">سائیکل</string>
+    <string name="q1414ha">ہاں</string>
+    <string name="q1414hb">نہیں</string>
+    <string name="q1414h98">معلوم نہیں</string>
+    <string name="q1414i">موٹر سائیکل / سکوٹر</string>
+    <string name="q1414ia">ہاں</string>
+    <string name="q1414ib">نہیں</string>
+    <string name="q1414i98">معلوم نہیں</string>
+    <string name="q1414j">کار / ٹرک</string>
+    <string name="q1414ja">ہاں</string>
+    <string name="q1414jb">نہیں</string>
+    <string name="q1414j98">معلوم نہیں</string>
 
+    <string name="Q_q1415">Q1415:</string>
+    <string name="q1415">اس گھر میں پینے کے پانی کا اہم ذریعہ کیا ہے ؟</string>
     <string name="rb_Q1415_1">گھر  میں نلکا	</string>
     <string name="rb_Q1415_2">صحن/گھر کے باہر میونسپل کمیٹی کا نلکا</string>
     <string name="rb_Q1415_3">پڑوسی کے گھر میونسپل کمیٹی کا نلکا</string>
@@ -323,6 +381,9 @@
     <string name="rb_Q1415_11">پانی کا ٹینکر/پانی کا ڈرم</string>
     <string name="rb_Q1415_12">بوتل کا پانی</string>
     <string name="rb_Q1415_DK"> معلوم نہیں</string>
+
+    <string name="Q_q1416">Q1416:</string>
+    <string name="q1416">عام طور پر گھرانے کے افراد کس قسم کا لیٹرین استعمال  کرتے ہیں ؟</string>
     <string name="rb_Q1416_1">فلش لیٹرین گھر کے اندر</string>
     <string name="rb_Q1416_2">فلش لیٹرین گھر کے باہر</string>
     <string name="rb_Q1416_3">فلش کے بغیر لیڑین</string>
@@ -332,6 +393,9 @@
     <string name="rb_Q1416_7">لیٹرین موجود نہیں</string>
     <string name="rb_Q1416_OT">دیگر وضاحت کریں</string>
     <string name="rb_Q1416_DK">معلوم نہیں</string>
+
+    <string name="Q_q1417">Q1417:</string>
+    <string name="q1417">عام طور پر آپ کے گھر میں کھانے پکانے کے لیے کس قسم کا ایندھن استعمال ہوتا ہے ؟</string>
     <string name="rb_Q1417_1">بجلی</string>
     <string name="rb_Q1417_2">گیس</string>
     <string name="rb_Q1417_3">پیٹرول</string>
@@ -342,6 +406,9 @@
     <string name="rb_Q1417_8"> گھر میں کھانا نہیں پکتا</string>
     <string name="rb_Q1417_OT">دیگر وضاحت کریں</string>
     <string name="rb_Q1417_DK">معلوم نہیں</string>
+
+    <string name="Q_q1418">Q1418:</string>
+    <string name="q1418">گھر میں روشنی کرنے کے لیے کون سے ذرائع استعمال کرتے ہیں ؟</string>
     <string name="rb_Q1418_1">بجلی</string>
     <string name="rb_Q1418_2">جنریٹر/سولر</string>
     <string name="rb_Q1418_3">گیس</string>
@@ -352,6 +419,9 @@
     <string name="rb_Q1418_8">فلاس</string>
     <string name="rb_Q1418_OT">دیگر وضاحت کریں</string>
     <string name="rb_Q1418_DK"> معلوم نہیں</string>
+
+    <string name="Q_q1419">Q1419:</string>
+    <string name="q1419">گھر کا فرش بنانے میں کس قسم  کا میٹریل کا  استعمال کیا گیا ہے ؟</string>
     <string name="rb_Q1419_1">گیلی مٹی/چکنی مٹی</string>
     <string name="rb_Q1419_2">زمین/مٹی</string>
     <string name="rb_Q1419_3">بنیادی/سادہ لکٹری</string>
@@ -361,6 +431,9 @@
     <string name="rb_Q1419_7">سیمنٹ</string>
     <string name="rb_Q1419_OT">دیگر وضاحت کریں</string>
     <string name="rb_Q1419_DK"> معلوم نہیں </string>
+
+    <string name="Q_q1420">Q1420:</string>
+    <string name="q1420">گھر کی چھت میں کسی قسم کا میٹریل استعمال ہوا ہے ؟</string>
     <string name="rb_Q1420_1">چھت نہیں</string>
     <string name="rb_Q1420_2">گھاس پھوس /پتے</string>
     <string name="rb_Q1420_3">زنگ کی چارد</string>
@@ -369,6 +442,9 @@
     <string name="rb_Q1420_6"> کنکریٹ سیمنٹ کی چھت (پکی چھت)</string>
     <string name="rb_Q1420_OT">دیگر وضاحت کریں</string>
     <string name="rb_Q1420_DK"> معلوم نہیں </string>
+
+    <string name="Q_q1421">Q1421:</string>
+    <string name="q1421">گھر کی  باہر کی دیوار وں میں کون سا میٹریل استعمال ہوا ہے ؟</string>
     <string name="rb_Q1421_1">کوئی دیوار نہیں</string>
     <string name="rb_Q1421_2">کھجور/گنے/ناریل کے درخت/بانس</string>
     <string name="rb_Q1421_3">ٹن/کارڈ بورڈ/کاغذ/تھیلی</string>
@@ -380,8 +456,18 @@
     <string name="rb_Q1421_9">سیمنٹ کے بلاک</string>
     <string name="rb_Q1421_OT">دیگر وضاحت کریں</string>
     <string name="rb_Q1421_DK">معلوم نہیں</string>
+
+    <string name="Q_q1501">Q1501:</string>
+    <string name="q1501">کیا انٹرویو کے دوران دیگر لوگ موجود تھے ؟</string>
     <string name="rb_Q1501_1"> ہاں</string>
     <string name="rb_Q1501_2">نہیں</string>
+
+    <string name="Q_q1502">Q1502:</string>
+    <string name="q1502">انٹرویور: جواب دہندہ کے علاوہ انٹرویو کے دوران کتنے لوگ موجود تھے</string>
+    <string name="q1502info">برائے مہربانی شمار میں جواب دہندہ کو شامل نہ کریں</string>
+
+    <string name="Q_q1503">Q1503:</string>
+    <string name="q1503">انٹرویور: وفات پانے والے سے آپ کا کیا رشتہ ہے ؟</string>
     <string name="rb_Q1503_1">شریک حیات</string>
     <string name="rb_Q1503_2">ماں</string>
     <string name="rb_Q1503_3">باپ</string>
@@ -397,29 +483,55 @@
     <string name="rb_Q1503_OTM">کوئی اور مرد (وضاحت کریں)</string>
     <string name="rb_Q1503_OTF">کوئی اور عورت(وضاحت کریں) </string>
     <string name="rb_Q1503_OT">کوئی اور عورت/مرد (وضاحت کریں) </string>
-    <string name="rb_Q1601_1">بچہ /لڑکا</string>
-    <string name="rb_Q1601_2">بچی /لڑکی</string>
+
+    <string name="Q_q1601">Q1601:</string>
+    <string name="q1601">وفات پانے والے کی جنس ؟</string>
+    <string name="rb_Q1601_1">بچہ / لڑکا</string>
+    <string name="rb_Q1601_2">بچی / لڑکی</string>
     <string name="rb_Q1601_DK">معلوم نہیں</string>
+
+    <string name="Q_q1602">Q1602:</string>
+    <string name="q1602">کیا تاریخ پیدائش معلوم ہے ؟</string>
     <string name="rb_Q1602_1">ہاں</string>
     <string name="rb_Q1602_2">نہیں</string>
     <string name="rb_Q1602_DK">معلوم نہیں</string>
+
+    <string name="Q_q1603">Q1603:</string>
+    <string name="q1603">وفات پانے والا / والی کب پیدا ہوا / ہوئی ؟</string>
+
+    <string name="Q_q1604">Q1604:</string>
+    <string name="q1604">وفات پانے والے کی موت کہاں ہوئی ؟</string>
     <string name="rb_Q1604_1">ہسپتال</string>
     <string name="rb_Q1604_2">دیگر سہولت صحت فراہم کرنے والا یا  مرکز صحت</string>
     <string name="rb_Q1604_3">سہولت فراہم کرنے  والے یا مرکز صحت کے راستے میں</string>
     <string name="rb_Q1604_4">گھر</string>
     <string name="rb_Q1604_OT">کوئی اور (وضاحت کریں</string>
     <string name="rb_Q1604_DK">معلوم نہیں</string>
+
+    <string name="Q_q1605">Q1605:</string>
+    <string name="q1605">کیا وفات پانے والی / والے کی وفات کی تاریخ معلوم ہے ؟</string>
     <string name="rb_Q1605_1">ہاں</string>
     <string name="rb_Q1605_2">نہیں</string>
+
+    <string name="Q_q1606">Q1606:</string>
+    <string name="q1606">وفات کی تاریخ کیاتھی؟ </string>
+
+    <string name="Q_q1607">Q1607:</string>
+    <string name="q1607">وفات کے وقت عمر  کا حساب لگا ئیں؟</string>
+
+    <string name="Q_q1608">Q1608:</string>
+    <string name="q1608">وفات کے وقت مرنے والے کی عمر کتنی تھی؟</string>
+
+    <string name="Q_q1609">Q1609:</string>
+    <string name="q1609">وفات کے وقت مرنے والے کی عمر کے گروپ یہ نشان لگائیں ۔</string>
     <string name="rb_Q1609_1">28 دنوں سے کم</string>
-    <string name="rb_Q1609_2"> مہینے11-1</string>
-    <string name="rb_Q1609_3">12 مہینے سے 4 سال</string>
-    <string name="rb_Q1609_4">سال5-11</string>
-    <string name="rb_Q1609_5">سال یا اس سے زیادہ-12</string>
+    <string name="rb_Q1609_2">ایک سے گیارہ ماہ تک</string>
+    <string name="rb_Q1609_3">بارہ ماہ سے چار سال تک</string>
+    <string name="rb_Q1609_4">پانچ سے گیارہ سال تک</string>
+    <string name="rb_Q1609_5">بارہ یا اس سے زیادہ سال</string>
 
-    <!-- GeneRAl Section Urdu Responses ENDS -->
-
-    <!-- GeneRAl Section Urdu HINT‘s STARTS -->
+    <string name="Q_q1610">Q1610:</string>
+    <string name="q1610">اگر وفات کے وقت کی عمر 28 دن سے کم عمر ہے تو عمر دنوں، گھنٹے یا منٹس میں ریکارڈ کریں</string>
 
     <string name="C1204_h"> مرنے والے ،والی کا دن، مہینہ اور پیداش کا سال نقل کریں </string>
     <string name="C1205_h">مرنے والے ،والی کا دن، مہینہ اور مرنے کا سال نقل کریں</string>

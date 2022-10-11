@@ -139,7 +139,7 @@ public class InterviewEnd extends AppCompatActivity implements View.OnClickListe
         btn_next = findViewById(R.id.btn_next);
 
         // Layouts
-        ll_Q1311 = findViewById(R.id.ll_Q1311);
+        /*ll_Q1311 = findViewById(R.id.ll_Q1311);*/
 
         rb_Q1311_1 = findViewById(R.id.rb_Q1311_1);
         rb_Q1311_2 = findViewById(R.id.rb_Q1311_2);

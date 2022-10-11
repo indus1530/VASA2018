@@ -48,9 +48,7 @@
             android:inputType="text|textEmailAddress"
             android:textColor="@color/white"
             android:textColorHint="@color/hitnscolor"
-            android:textSize="16sp"
-
-            />
+            android:textSize="16sp" />
 
 
         <EditText
@@ -58,7 +56,6 @@
             style="@style/EditText_varchar"
             android:backgroundTint="@color/hitnscolor"
             android:hint="Password"
-
             android:inputType="textPassword"
             android:textColor="@color/white"
             android:textColorHint="@color/hitnscolor"

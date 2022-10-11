@@ -31,7 +31,7 @@
         <activity
             android:name="edu.aku.abdulsajid.vasa2018.Core.LoginActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppThemeNACB" />
 
         <activity
             android:name="edu.aku.abdulsajid.vasa2018.ui.SectionWActivity"

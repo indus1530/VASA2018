@@ -4,144 +4,162 @@
     android:orientation="vertical"
     android:weightSum="100">
 
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="90"
         android:scrollbarAlwaysDrawHorizontalTrack="true"
         android:scrollbars="vertical">
+
+
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:orientation="vertical"
-            >
+            android:orientation="vertical">
+
 
             <LinearLayout
                 style="@style/Q_Linerlayout_v"
-
-                android:layout_marginBottom="60dp"
-                >
-
-                <!-- Radio Buttons Q1503 Starts -->
-                  <androidx.cardview.widget.CardView style="@style/Q_CardView">
+                android:layout_marginBottom="60dp">
 
 
-                      <LinearLayout
-                          android:id="@+id/ll_Q1503"
-                          style="@style/Q_Linerlayout_v">
-
-
-                          <TextView
-                              android:id="@+id/txt_Q1503_header"
-                              style="@style/TextView"
-                              android:text="@string/txt_Q1503"/>
-                          <TextView
-                              android:id="@+id/txt_Q1503"
-                              style="@style/TextView"
-                              android:text="@string/txt_Q1503" />
-
-                          <RadioGroup style="@style/RadioGroup">
-
-                              <RadioButton
-                                  android:id="@+id/rb_Q1503_1"
-                                  style="@style/RadioButton"
-                                  android:text="@string/rb_Q1503_1" />
-
-                              <RadioButton
-                                  android:id="@+id/rb_Q1503_2"
-                                  style="@style/RadioButton"
-                                  android:text="@string/rb_Q1503_2" />
-
-                              <RadioButton
-                                  android:id="@+id/rb_Q1503_3"
-                                  style="@style/RadioButton"
-                                  android:text="@string/rb_Q1503_3" />
-
-                              <RadioButton
-                                  android:id="@+id/rb_Q1503_4"
-                                  style="@style/RadioButton"
-                                  android:text="@string/rb_Q1503_4" />
-
-                              <RadioButton
-                                  android:id="@+id/rb_Q1503_5"
-                                  style="@style/RadioButton"
-                                  android:text="@string/rb_Q1503_5" />
-
-                              <RadioButton
-                                  android:id="@+id/rb_Q1503_6"
-                                  style="@style/RadioButton"
-                                  android:text="@string/rb_Q1503_6" />
-
-                              <RadioButton
-                                  android:id="@+id/rb_Q1503_7"
-                                  style="@style/RadioButton"
-                                  android:text="@string/rb_Q1503_7" />
-
-                              <RadioButton
-                                  android:id="@+id/rb_Q1503_8"
-                                  style="@style/RadioButton"
-                                  android:text="@string/rb_Q1503_8" />
-
-                              <RadioButton
-                                  android:id="@+id/rb_Q1503_9"
-                                  style="@style/RadioButton"
-                                  android:text="@string/rb_Q1503_9" />
-
-                              <RadioButton
-                                  android:id="@+id/rb_Q1503_10"
-                                  style="@style/RadioButton"
-                                  android:text="@string/rb_Q1503_10" />
-
-                              <RadioButton
-                                  android:id="@+id/rb_Q1503_11"
-                                  style="@style/RadioButton"
-                                  android:text="@string/rb_Q1503_11" />
-
-                              <RadioButton
-                                  android:id="@+id/rb_Q1503_12"
-                                  style="@style/RadioButton"
-                                  android:text="@string/rb_Q1503_12" />
-
-                              <RadioButton
-                                  android:id="@+id/rb_Q1503_13"
-                                  style="@style/RadioButton"
-                                  android:text="@string/rb_Q1503_OTM" />
-
-                              <RadioButton
-                                  android:id="@+id/rb_Q1503_14"
-                                  style="@style/RadioButton"
-                                  android:text="@string/rb_Q1503_OTF" />
-
-                          </RadioGroup>
-
-                      </LinearLayout>
-
-                  </androidx.cardview.widget.CardView>
-                  <!--  Buttons Q1503 Ends -->
-
-                <!--Q1503_OT Edit text Starts -->
-                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+                <!-- Radio Q1503-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cvQ1503"
+                    style="@style/Q_CardView">
 
                     <LinearLayout
-                        android:id="@+id/ll_Q1503_OT"
-                        style="@style/Q_Linerlayout_v">
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
 
-                        <EditText
-                            android:id="@+id/ed_Q1503_OT"
-                            style="@style/EditText_varchar"
-                            android:hint="@string/explain" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="@string/Q_q1503" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/q1503" />
+
+                        </LinearLayout>
+
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <RadioButton
+                                android:id="@+id/rb_Q1503_1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/rb_Q1503_1" />
+
+                            <RadioButton
+                                android:id="@+id/rb_Q1503_2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/rb_Q1503_2" />
+
+                            <RadioButton
+                                android:id="@+id/rb_Q1503_3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/rb_Q1503_3" />
+
+                            <RadioButton
+                                android:id="@+id/rb_Q1503_4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/rb_Q1503_4" />
+
+                            <RadioButton
+                                android:id="@+id/rb_Q1503_5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/rb_Q1503_5" />
+
+                            <RadioButton
+                                android:id="@+id/rb_Q1503_6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/rb_Q1503_6" />
+
+                            <RadioButton
+                                android:id="@+id/rb_Q1503_7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/rb_Q1503_7" />
+
+                            <RadioButton
+                                android:id="@+id/rb_Q1503_8"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/rb_Q1503_8" />
+
+                            <RadioButton
+                                android:id="@+id/rb_Q1503_9"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/rb_Q1503_9" />
+
+                            <RadioButton
+                                android:id="@+id/rb_Q1503_10"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/rb_Q1503_10" />
+
+                            <RadioButton
+                                android:id="@+id/rb_Q1503_11"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/rb_Q1503_11" />
+
+                            <RadioButton
+                                android:id="@+id/rb_Q1503_12"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/rb_Q1503_12" />
+
+                            <RadioButton
+                                android:id="@+id/rb_Q1503_13"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/rb_Q1503_OTM" />
+
+                            <RadioButton
+                                android:id="@+id/rb_Q1503_14"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/rb_Q1503_OTF" />
+
+                            <EditText
+                                android:id="@+id/ed_Q1503_OT"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:digits="AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789,. "
+                                android:hint="@string/other" />
+
+                        </RadioGroup>
 
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
-                <!--Q1503_OT Edit text Ends-->
-
-
+                <!--  Buttons Q1503-->
 
 
             </LinearLayout>
 
+
         </LinearLayout>
+
 
     </ScrollView>
 

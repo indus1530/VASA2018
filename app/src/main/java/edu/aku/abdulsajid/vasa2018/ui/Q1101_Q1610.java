@@ -25,6 +25,8 @@ import android.widget.Toast;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.validatorcrawler.aliazaz.Validator;
+
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -52,6 +54,7 @@ public class Q1101_Q1610 extends AppCompatActivity implements RadioButton.OnChec
 
     // LinerLayouts
     LinearLayout
+            GrpName,
             ll_study_id,
             ll_Q1201,
             ll_Q1201_1,
@@ -450,7 +453,7 @@ public class Q1101_Q1610 extends AppCompatActivity implements RadioButton.OnChec
         ed_Q1607_2.setEnabled(false);
         ed_Q1607_3.setEnabled(false);
 
-        ll_Q1403_OT.setVisibility(View.GONE);
+        /*ll_Q1403_OT.setVisibility(View.GONE);
         ll_Q1416_OT.setVisibility(View.GONE);
         ll_Q1417_OT.setVisibility(View.GONE);
         ll_Q1418_OT.setVisibility(View.GONE);
@@ -458,9 +461,9 @@ public class Q1101_Q1610 extends AppCompatActivity implements RadioButton.OnChec
         ll_Q1420_OT.setVisibility(View.GONE);
         ll_Q1421_OT.setVisibility(View.GONE);
 
-        ll_Q1604_OT.setVisibility(View.GONE);
+        ll_Q1604_OT.setVisibility(View.GONE);*/
 
-        ll_Q1608.setVisibility(View.GONE);
+        /*ll_Q1608.setVisibility(View.GONE);*/
 
         //rb_Q1207_1.setEnabled(false);
         //rb_Q1207_2.setEnabled(false);
@@ -739,7 +742,7 @@ public class Q1101_Q1610 extends AppCompatActivity implements RadioButton.OnChec
 
         ll_Q1503 = v.findViewById(R.id.ll_Q1503);
         ll_Q1503_OT = v.findViewById(R.id.ll_Q1503_OT);
-        txt_Q1503_header = v.findViewById(R.id.txt_Q1503_header);
+        /*txt_Q1503_header = v.findViewById(R.id.txt_Q1503_header);*/
 
 
         ll_Q1503_OT.setVisibility(View.GONE);
@@ -749,7 +752,7 @@ public class Q1101_Q1610 extends AppCompatActivity implements RadioButton.OnChec
 
         int db = lst_q1503.size() + 1;
 
-        txt_Q1503_header.setText("Please Enter Relationship for Person No: " + db);
+        /*txt_Q1503_header.setText("Please Enter Relationship for Person No: " + db);*/
 
         btn_add.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -1138,6 +1141,7 @@ public class Q1101_Q1610 extends AppCompatActivity implements RadioButton.OnChec
 
         // Layouts
 
+        GrpName = findViewById(R.id.GrpName);
         ll_study_id = findViewById(R.id.ll_study_id);
         ll_Q1201 = findViewById(R.id.ll_Q1201);
         ll_Q1202 = findViewById(R.id.ll_Q1202);
@@ -1147,19 +1151,17 @@ public class Q1101_Q1610 extends AppCompatActivity implements RadioButton.OnChec
         ll_Q1204 = findViewById(R.id.ll_Q1204);
         ll_Q1205 = findViewById(R.id.ll_Q1205);
         ll_Q1206_d = findViewById(R.id.ll_Q1206_d);
-        ll_Q1206_m = findViewById(R.id.ll_Q1206_m);
-        ll_Q1206_y = findViewById(R.id.ll_Q1206_y);
         ll_Q1207 = findViewById(R.id.ll_Q1207);
         ll_Q1208 = findViewById(R.id.ll_Q1208);
         ll_Q1209 = findViewById(R.id.ll_Q1209);
-        ll_Q1301 = findViewById(R.id.ll_Q1301);
+        /*ll_Q1301 = findViewById(R.id.ll_Q1301);
         ll_Q1302 = findViewById(R.id.ll_Q1302);
-        //ll_Q1312 = findViewById(R.id.ll_Q1312);
-        //ll_Q1313 = findViewById(R.id.ll_Q1313);
+        ll_Q1312 = findViewById(R.id.ll_Q1312);
+        ll_Q1313 = findViewById(R.id.ll_Q1313);*/
         ll_Q1401 = findViewById(R.id.ll_Q1401);
         ll_Q1402 = findViewById(R.id.ll_Q1402);
         ll_Q1403 = findViewById(R.id.ll_Q1403);
-        ll_Q1403_OT = findViewById(R.id.ll_Q1403_OT);
+        /*ll_Q1403_OT = findViewById(R.id.ll_Q1403_OT);*/
         ll_Q1404 = findViewById(R.id.ll_Q1404);
         ll_Q1405 = findViewById(R.id.ll_Q1405);
         ll_Q1406 = findViewById(R.id.ll_Q1406);
@@ -1178,24 +1180,24 @@ public class Q1101_Q1610 extends AppCompatActivity implements RadioButton.OnChec
         ll_Q1414_5 = findViewById(R.id.ll_Q1414_5);
         ll_Q1414_6 = findViewById(R.id.ll_Q1414_6);
         ll_Q1414_7 = findViewById(R.id.ll_Q1414_7);
-        ll_Q1414_8 = findViewById(R.id.ll_Q1414_8);
+        ll_Q1414_8 = findViewById(R.id.ll_Q1414_8_1);
         ll_Q1414_9 = findViewById(R.id.ll_Q1414_9);
         ll_Q1414_10 = findViewById(R.id.ll_Q1414_10);
         ll_Q1415 = findViewById(R.id.ll_Q1415);
 
 
         ll_Q1416 = findViewById(R.id.ll_Q1416);
-        ll_Q1416_OT = findViewById(R.id.ll_Q1416_OT);
+        /*ll_Q1416_OT = findViewById(R.id.ll_Q1416_OT);*/
         ll_Q1417 = findViewById(R.id.ll_Q1417);
-        ll_Q1417_OT = findViewById(R.id.ll_Q1417_OT);
+        /*ll_Q1417_OT = findViewById(R.id.ll_Q1417_OT);*/
         ll_Q1418 = findViewById(R.id.ll_Q1418);
-        ll_Q1418_OT = findViewById(R.id.ll_Q1418_OT);
+        /*ll_Q1418_OT = findViewById(R.id.ll_Q1418_OT);*/
         ll_Q1419 = findViewById(R.id.ll_Q1419);
-        ll_Q1419_OT = findViewById(R.id.ll_Q1419_OT);
+        /*ll_Q1419_OT = findViewById(R.id.ll_Q1419_OT);*/
         ll_Q1420 = findViewById(R.id.ll_Q1420);
-        ll_Q1420_OT = findViewById(R.id.ll_Q1420_OT);
+        /*ll_Q1420_OT = findViewById(R.id.ll_Q1420_OT);*/
         ll_Q1421 = findViewById(R.id.ll_Q1421);
-        ll_Q1421_OT = findViewById(R.id.ll_Q1421_OT);
+        /*ll_Q1421_OT = findViewById(R.id.ll_Q1421_OT);*/
         ll_Q1501 = findViewById(R.id.ll_Q1501);
         ll_Q1502 = findViewById(R.id.ll_Q1502);
         ed_Q1502 = findViewById(R.id.ed_Q1502);
@@ -1204,7 +1206,7 @@ public class Q1101_Q1610 extends AppCompatActivity implements RadioButton.OnChec
         ll_Q1602 = findViewById(R.id.ll_Q1602);
         ll_Q1603 = findViewById(R.id.ll_Q1603);
         ll_Q1604 = findViewById(R.id.ll_Q1604);
-        ll_Q1604_OT = findViewById(R.id.ll_Q1604_OT);
+        /*ll_Q1604_OT = findViewById(R.id.ll_Q1604_OT);*/
         ll_Q1605 = findViewById(R.id.ll_Q1605);
         ll_Q1606 = findViewById(R.id.ll_Q1606);
         ll_Q1607 = findViewById(R.id.ll_Q1607);
@@ -1521,8 +1523,8 @@ public class Q1101_Q1610 extends AppCompatActivity implements RadioButton.OnChec
         rb_Q1604_5.setOnCheckedChangeListener(this);
         rb_Q1604_DK.setOnCheckedChangeListener(this);
 
-        rb_Q1405_1.setOnCheckedChangeListener(this);
-        rb_Q1405_2.setOnCheckedChangeListener(this);
+        /*rb_Q1405_1.setOnCheckedChangeListener(this);
+        rb_Q1405_2.setOnCheckedChangeListener(this);*/
         rb_Q1407_1.setOnCheckedChangeListener(this);
         rb_Q1407_2.setOnCheckedChangeListener(this);
         rb_Q1407_DK.setOnCheckedChangeListener(this);
@@ -3054,8 +3056,9 @@ public class Q1101_Q1610 extends AppCompatActivity implements RadioButton.OnChec
     }
 
     boolean validateField() {
+        return Validator.emptyCheckingContainer(this, GrpName);
 
-        if (Gothrough.IamHiden(ll_study_id) == false) {
+        /*if (!Gothrough.IamHiden(ll_study_id)) {
             return false;
         }
 
@@ -3079,13 +3082,13 @@ public class Q1101_Q1610 extends AppCompatActivity implements RadioButton.OnChec
             return false;
         }
 
-        if (Gothrough.IamHiden(ll_Q1206_m) == false) {
+        *//*if (Gothrough.IamHiden(ll_Q1206_m) == false) {
             return false;
         }
 
         if (Gothrough.IamHiden(ll_Q1206_y) == false) {
             return false;
-        }
+        }*//*
 
         if (Gothrough.IamHiden(ll_Q1207) == false) {
             return false;
@@ -3298,7 +3301,7 @@ public class Q1101_Q1610 extends AppCompatActivity implements RadioButton.OnChec
             return false;
         }
 
-        return Gothrough.IamHiden(ll_Q1610) != false;
+        return Gothrough.IamHiden(ll_Q1610) != false;*/
     }
 
     @Override
