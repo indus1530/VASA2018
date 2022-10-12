@@ -152,7 +152,7 @@
     <string name="txt_N2024">N2024:	How old in days was the baby when the illness started?</string>
     <string name="txt_N2024_1">N2024_1:	Before the illness that led to death, was (the baby / the child) growing normally?</string>
     <string name="txt_N2025u">N2025u: For how long was (s)he ill before death?</string>
-    <string name="txt_N2025d">N2025d: Days:</string>
+    <string name="txt_N2025d">N2025d: Days</string>
 
     <string name="txt_N2026">Did (s)he die suddenly ?</string>
     <string name="txt_N2026_h">"Suddenly" means, within twenty-four hours of the onset of illness</string>
@@ -163,7 +163,7 @@
     <string name="txt_N2054">N2054:	How many times did (you / the mother) receive antenatal care during this pregnancy?</string>
     <string name="txt_N2055">N2055:	During which month of the pregnancy did (you / the mother) first receive antenatal care?</string>
     <string name="txt_N2056">N2056:	During which month of the pregnancy did (you / the mother) last receive antenatal care?</string>
-    <string name="txt_N2057">N2057:	As part of (your / the mother’s) antenatal care during this pregnancy, were any of the following done at least once:</string>
+    <string name="txt_N2057">N2057:	As part of (your / the mother’s) antenatal care during this pregnancy, were any of the following done at least once</string>
     <string name="txt_N2057_h">Read all the answers and circle (Yes) or (No) or (Don‘t Know) for each one. Local Acceptance: If the respondent asks, mention any extra protein and high energy foods.</string>
 
     <string name="txt_N2057_1">N2057_1: Was your blood pressure measured?</string>
@@ -220,7 +220,7 @@
 
     <string name="txt_N2081">N2081: Did (you / the mother) seek care from any person or health facility for (any of) the pregnancy symptom(s) that started before labor?</string>
     <string name="txt_N2082">N2082: Where did (you / she) seek this care?</string>
-    <string name="txt_N2083">N2083: If more than one symptom started before labor and she sought care from a health provider (Q4003 = 1–4), ask:</string>
+    <string name="txt_N2083">N2083: If more than one symptom started before labor and she sought care from a health provider (Q4003 = 1–4), ask</string>
     <string name="txt_N2084">N2084: For which symptom(s) did (you / she) go?</string>
     <string name="txt_N2085">N2085: If she never went to a health provider (Q4002 = 2 or Q4003 = only 5–7) for any of the pregnancy symptoms, ask: Did (you / the mother) have any concerns or problems that kept (you / her) from going to a health provider or facility for the problem(s) that started before labor?</string>
     <string name="N2085_h">اگر  وہ   حمل کی علامات کے حوالے سے کبھی بھی صحت مہیا کرنے والے کے پاس نہیں گئی.  (Q4002 = 2 or Q4003 = only 5–7)  تو     پوچھو : 	:	N2085</string>
@@ -457,7 +457,7 @@
     <string name="cb_N2053_1">Doctor </string>
     <string name="cb_N2053_2">Nurse / Midwife </string>
     <string name="cb_N2053_3">Auxiliary midwife </string>
-    <string name="cb_N2053_4">Other person:</string>
+    <string name="cb_N2053_4">Other person</string>
     <string name="cb_N2053_5">Traditional birth attendant </string>
     <string name="cb_N2053_6">Community health worker </string>
     <string name="cb_N2053_OT">Other (specify) </string>
@@ -1479,7 +1479,7 @@
     <string name="txt_N2181">N2181:	During the illness that led to death, did the baby have an area(s) of skin with redness and swelling?</string>
     <string name="txt_N2182">N2182:	During the illness that led to death, did s/he have areas of the skin that turned black?</string>
     <string name="txt_N2183">N2183:	During the illness that led to death, did the baby bleed from anywhere?</string>
-    <string name="txt_N2184">N2184:	Record from where the baby bled:</string>
+    <string name="txt_N2184">N2184:	Record from where the baby bled</string>
     <string name="txt_N2185">N2185:	During the illness that led to death, did s/he have more frequent loose or liquid stools than usual?</string>
     <string name="txt_N2186">N2186:	How many stools did the baby have on the day that loose liquid stools were most frequent?</string>
     <string name="txt_N2187">N2187:	How many days before death did the frequent loose or liquid stools start?</string>
@@ -2694,8 +2694,8 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="txt_C3121">C3121: During the illness that led to death, did (NAME) have a fever?</string>
     <string name="txt_C3122">C3122: At what age did the fever start?</string>
     <string name="txt_C3123_u">C3123_u: How long did the fever last?</string>
-    <string name="txt_C3123_b">C3123_b: Enter how long the fever lasted in days]:</string>
-    <string name="txt_C3123_c">C3123_c: Enter how long the fever lasted in months]:</string>
+    <string name="txt_C3123_b">C3123_b: Enter how long the fever lasted in days]</string>
+    <string name="txt_C3123_c">C3123_c: Enter how long the fever lasted in months]</string>
     <string name="txt_C3124">C3124: Did the fever continue until death?</string>
     <string name="txt_C3125">C3125: How severe was the fever?</string>
     <string name="txt_C3126">C3126: What was the pattern of the fever?</string>
@@ -2719,9 +2719,9 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="txt_C3142">C3142: Did s/he have any belly (abdominal) pain?</string>
     <string name="txt_C3143">C3143: Was the belly (abdominal) pain severe?</string>
     <string name="txt_C3144_u">C3144_u: For how long did (s)he have belly (abdominal) pain?</string>
-    <string name="txt_C3144">C3144: Enter how long (s)he had belly (abdominal) pain in hours]:</string>
-    <string name="txt_C3144_a">C3144_a: Enter how long (s)he had belly (abdominal) pain in days]:</string>
-    <string name="txt_C3144_b">C3144_b: Enter how long (s)he had belly (abdominal) pain in months]:</string>
+    <string name="txt_C3144">C3144: Enter how long (s)he had belly (abdominal) pain in hours]</string>
+    <string name="txt_C3144_a">C3144_a: Enter how long (s)he had belly (abdominal) pain in days]</string>
+    <string name="txt_C3144_b">C3144_b: Enter how long (s)he had belly (abdominal) pain in months]</string>
     <string name="txt_C3145">C3145: Was the pain in the upper or lower abdomen?</string>
     <string name="txt_C3146">C3146: Did s/he have a more than usually protruding abdomen?</string>
     <string name="txt_C3147_u">C3147_u: For how long before death did (s)he have a more than usually protruding belly (abdomen)?</string>
@@ -2730,12 +2730,12 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="txt_C3148">C3148: How rapidly did s/he develop the protruding abdomen?</string>
     <string name="txt_C3149">C3149: Did s/he have a mass in the abdomen?</string>
     <string name="txt_C3150_u">C3150_u: For how long did (s)he have a mass in the belly (abdomen)?</string>
-    <string name="txt_C3150_a">C3150_a: Enter how long (s)he had a mass in the belly (abdomen) in days]:</string>
-    <string name="txt_C3150_b">C3150_b: Enter how long (s)he had a mass in the belly (abdomen) in months]:</string>
+    <string name="txt_C3150_a">C3150_a: Enter how long (s)he had a mass in the belly (abdomen) in days]</string>
+    <string name="txt_C3150_b">C3150_b: Enter how long (s)he had a mass in the belly (abdomen) in months]</string>
     <string name="txt_C3151">C3151: During the illness that led to death, did the child have a cough?</string>
     <string name="txt_C3152_u">C3152_u: For how long did s/he have a cough?</string>
-    <string name="txt_C3152_a">C3152_a: Enter how long the cough lasted in days]:</string>
-    <string name="txt_C3152_b">C3152_b: Enter how long the cough lasted in months]:</string>
+    <string name="txt_C3152_a">C3152_a: Enter how long the cough lasted in days]</string>
+    <string name="txt_C3152_b">C3152_b: Enter how long the cough lasted in months]</string>
     <string name="txt_C3153">C3153: Was the cough productive, with sputum?</string>
     <string name="txt_C3154">C3154: Was the cough very severe?</string>
     <string name="txt_C3155">C3155: Did the child make a whooping sound when coughing?</string>
@@ -2743,19 +2743,19 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="txt_C3157">C3157: Did s/he cough up blood?</string>
     <string name="txt_C3158">C3158: During the illness that led to death, did (NAME) have difficulty breathing?</string>
     <string name="txt_C3159_u">C3159_u: For how long did the difficult breathing last?</string>
-    <string name="txt_C3159_a">C3159_a: Enter how long the difficult breathing lasted in days]:</string>
-    <string name="txt_C3159_b">C3159_b: Enter how long the difficult breathing lasted in months]:</string>
-    <string name="txt_C3159_c">C3159_c: Enter how long the difficult breathing lasted in years]:</string>
+    <string name="txt_C3159_a">C3159_a: Enter how long the difficult breathing lasted in days]</string>
+    <string name="txt_C3159_b">C3159_b: Enter how long the difficult breathing lasted in months]</string>
+    <string name="txt_C3159_c">C3159_c: Enter how long the difficult breathing lasted in years]</string>
     <string name="txt_C3160">C3160: Was the difficult breathing continuous or on and off?</string>
     <string name="txt_C3161">C3161: During the illness that led to death, did (NAME) have fast breathing?</string>
     <string name="txt_C3162">C3162: At what age did the fast breathing start?</string>
     <string name="txt_C3163_u">C3163_u: How long did the fast breathing last?</string>
-    <string name="txt_C3163_a">C3163_a: Enter how long the fast breathing lasted in days]:</string>
-    <string name="txt_C3163_b">C3163_b: Enter how long the fast breathing lasted in months]:</string>
+    <string name="txt_C3163_a">C3163_a: Enter how long the fast breathing lasted in days]</string>
+    <string name="txt_C3163_b">C3163_b: Enter how long the fast breathing lasted in months]</string>
     <string name="txt_C3164">C3164: During the illness that led to death, did the child have breathlessness?</string>
     <string name="txt_C3165_u">C3165_u: How long did s/he have breathlessness?</string>
-    <string name="txt_C3165_a">C3165_a: Enter how long the breathlessness lasted in days]:</string>
-    <string name="txt_C3165_b">C3165_b: Enter how long the breathlessness lasted in months]:</string>
+    <string name="txt_C3165_a">C3165_a: Enter how long the breathlessness lasted in days]</string>
+    <string name="txt_C3165_b">C3165_b: Enter how long the breathlessness lasted in months]</string>
     <string name="txt_C3166">C3166: During the illness that led to death, did you see the lower chest wall/ribs being pulled in as the child breathed?</string>
     <string name="txt_C3167">C3167: During the illness that led to death, did her/his breathing sound like any of the following?</string>
     <string name="txt_C3168">C3168: Stridor</string>
@@ -2766,16 +2766,16 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="txt_C3173">C3173: Did (NAME) have a severe headache?</string>
     <string name="txt_C3174">C3174: Did (NAME) have a stiff neck during the illness that led to death?</string>
     <string name="txt_C3175_u">C3175_u: How long before death did s/he have a stiff neck?</string>
-    <string name="txt_C3175_a">C3175_a: Enter how long the stiff neck lasted in days]:</string>
-    <string name="txt_C3175_b">C3175_b: Enter how long the stiff neck lasted in months]:</string>
+    <string name="txt_C3175_a">C3175_a: Enter how long the stiff neck lasted in days]</string>
+    <string name="txt_C3175_b">C3175_b: Enter how long the stiff neck lasted in months]</string>
     <string name="txt_C3176">C3176: Did (NAME) have a painful neck during the illness that led to death?</string>
     <string name="txt_C3177_u">C3177_u: How long before death did s/he have a stiff neck?</string>
-    <string name="txt_C3177_a">C3177_a: Enter how long the stiff neck lasted in days]:</string>
-    <string name="txt_C3177_b">C3177_b: Enter how long the stiff neck lasted in months]:</string>
+    <string name="txt_C3177_a">C3177_a: Enter how long the stiff neck lasted in days]</string>
+    <string name="txt_C3177_b">C3177_b: Enter how long the stiff neck lasted in months]</string>
     <string name="txt_C3178">C3178: Was (NAME) unconscious during the illness that led to death?</string>
     <string name="txt_C3179_u">C3179_u: How long before death did unconsciousness start?</string>
-    <string name="txt_C3179_a">C3179_a: Enter how long before death unconsciousness started in hours]:</string>
-    <string name="txt_C3179_b">C3179_b: Enter how long before death unconsciousness started in days]:</string>
+    <string name="txt_C3179_a">C3179_a: Enter how long before death unconsciousness started in hours]</string>
+    <string name="txt_C3179_b">C3179_b: Enter how long before death unconsciousness started in days]</string>
     <string name="txt_C3180">C3180: Did the unconsciousness start suddenly, quickly (at most within a single day)?</string>
     <string name="txt_C3181">C3181: Did the unconsciousness continue until death?</string>
     <string name="txt_C3182">C3182: During the illness that led to death, did (NAME) have convulsions?</string>
@@ -2791,8 +2791,8 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="txt_C3191">C3191: Did s/he have an ulcer (pit) on the foot?</string>
     <string name="txt_C3192">C3192: Did the ulcer on the foot ooze pus?</string>
     <string name="txt_C3193_u">C3193_u: How long did the ulcer on the foot ooze pus?</string>
-    <string name="txt_C3193_a">C3193_a: Enter how long the stiff neck lasted in days]:</string>
-    <string name="txt_C3193_b">C3193_b: Enter how long the stiff neck lasted in months]:</string>
+    <string name="txt_C3193_a">C3193_a: Enter how long the stiff neck lasted in days]</string>
+    <string name="txt_C3193_b">C3193_b: Enter how long the stiff neck lasted in months]</string>
     <string name="txt_C3194">C3194: During the month before s/he died, did (NAME) have a skin rash?</string>
     <string name="txt_C3195">C3195: Where was the rash?</string>
     <string name="txt_C3195A">C3195A: Where did the rash start?</string>
@@ -7322,19 +7322,19 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="zero_to_30_days">Enter 0–30 days. Less than 1 day or 24 hours = 0 days; 1 week = 7 days.</string>
     <string name="one_to_60_months">Enter 1-60 months</string>
 
-    <string name="Q_q1101">Q1101:</string>
+    <string name="Q_q1101">Q1101</string>
     <string name="q1101">Is this an area of high HIV/AIDS prevalence ?</string>
     <string name="rb_Q1101_1">High</string>
     <string name="rb_Q1101_2">Low</string>
     <string name="rb_Q1101_3">Very low</string>
 
-    <string name="Q_q1102">Q1102:</string>
+    <string name="Q_q1102">Q1102</string>
     <string name="q1102">Is this a region of high malaria prevalence?</string>
     <string name="rb_Q1102_1">High</string>
     <string name="rb_Q1102_2">Low</string>
     <string name="rb_Q1102_3">Very low</string>
 
-    <string name="Q_q1103">Q1103:</string>
+    <string name="Q_q1103">Q1103</string>
     <string name="q1103">During which season did the child/she/he die ?</string>
     <string name="rb_Q1103_1">Wet</string>
     <string name="rb_Q1103_2">Dry</string>
@@ -7358,50 +7358,56 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="q1203a">Male</string>
     <string name="q1203b">Female</string>
 
-    <string name="Q_q1204">Q1204:</string>
+    <string name="Q_q1204">Q1204</string>
     <string name="q1204">Date of birth of the deceased</string>
+    <string name="q1204d">Day</string>
+    <string name="q1204m">Month</string>
+    <string name="q1204y">Year</string>
 
-    <string name="Q_q1205">Q1205:</string>
+    <string name="Q_q1205">Q1205</string>
     <string name="q1205">Date of death of the deceased</string>
+    <string name="q1205d">Day</string>
+    <string name="q1205m">Month</string>
+    <string name="q1205y">Year</string>
 
-    <string name="Q_q1206">Q1206:</string>
+    <string name="Q_q1206">Q1206</string>
     <string name="q1206">Last Known Age of the Deceased</string>
     <string name="q1206d">Day(s)</string>
     <string name="q1206m">Month(s)</string>
     <string name="q1206y">Year(s)</string>
 
-    <string name="Q_q1207">Q1207:</string>
+    <string name="Q_q1207">Q1207</string>
     <string name="q1207">Was this a stillbirth or neonatal death ?</string>
     <string name="rb_Q1207_1">Stillbirth</string>
     <string name="rb_Q1207_2">Neonatal death</string>
     <string name="rb_Q1207_3">Not known from the record</string>
 
-    <string name="Q_q1208">Q1208:</string>
+    <string name="Q_q1208">Q1208</string>
     <string name="q1208">Name of Mother</string>
 
-    <string name="Q_q1209">Q1209:</string>
+    <string name="Q_q1209">Q1209</string>
     <string name="q1209">Name of father or household head</string>
 
-    <string name="Q_q1301">Q1301:</string>
+    <string name="Q_q1301">Q1301</string>
     <string name="q1301">Language of the Interview</string>
 
-    <string name="Q_q1302">Q1302:</string>
+    <string name="Q_q1302">Q1302</string>
     <string name="q1302">Interviewer ID number</string>
 
-    <string name="Q_q1307">Q1307:</string>
+    <string name="Q_q1307">Q1307</string>
     <string name="q1307">Date interview started</string>
 
-    <string name="Q_q1308">Q1308:</string>
+    <string name="Q_q1308">Q1308</string>
     <string name="q1308">Time interview started</string>
 
-    <string name="Q_q1309">Q1309:</string>
+    <string name="Q_q1309">Q1309</string>
     <string name="q1309">Date interview finished</string>
 
-    <string name="Q_q1310">Q1310:</string>
+    <string name="Q_q1310">Q1310</string>
     <string name="q1310">Time interview finished</string>
 
-    <string name="Q_q1311">Q1311:</string>
-    <string name="q1311">Interview Result Codes:</string>
+    <string name="Q_q1311">Q1311</string>
+    <string name="q1311">Interview Result Codes</string>
     <string name="rb_Q1311_1">Completed (Final result code)</string>
     <string name="rb_Q1311_2">Partially completed (Final result code)</string>
     <string name="rb_Q1311_3">Eligible respondent postponed interview</string>
@@ -7415,27 +7421,27 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_Q1311_11">Duplicate report of death – interview already conducted</string>
     <string name="rb_Q1311_12">Death not eligible</string>
 
-    <string name="Q_q1312">Q1312:</string>
+    <string name="Q_q1312">Q1312</string>
     <string name="q1312">Date form checked by supervisor</string>
 
-    <string name="Q_q1313">Q1313:</string>
+    <string name="Q_q1313">Q1313</string>
     <string name="q1313">Date entered in computer</string>
 
-    <string name="Q_q1405">Q1405:</string>
+    <string name="Q_q1405">Q1405</string>
     <string name="q1405">Did respondent give consent ?</string>
     <string name="q1405a">Yes</string>
     <string name="q1405b">No</string>
 
-    <string name="Q_q1401">Q1401:</string>
+    <string name="Q_q1401">Q1401</string>
     <string name="q1401">What is the respondent’s name ?</string>
 
-    <string name="Q_q1402">Q1402:</string>
+    <string name="Q_q1402">Q1402</string>
     <string name="q1402">Record the sex of the respondent.</string>
     <string name="q1402a">Male</string>
     <string name="q1402b">Female</string>
     <string name="q140298">Don’t Know</string>
 
-    <string name="Q_q1403">Q1403:</string>
+    <string name="Q_q1403">Q1403</string>
     <string name="q1403">What is the respondent’s relationship to the deceased ?</string>
     <string name="rb_Q1403_1">Spouse</string>
     <string name="rb_Q1403_2">Mother</string>
@@ -7453,34 +7459,34 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_Q1403_OTF">Other female (specify) </string>
     <string name="rb_Q1403_OT">Other (specify) </string>
 
-    <string name="Q_q1404">Q1404:</string>
+    <string name="Q_q1404">Q1404</string>
     <string name="q1404">Did the respondent live with the deceased in the period leading to her/his death ?</string>
     <string name="rb_Q1404_1">Yes</string>
     <string name="rb_Q1404_2">No</string>
     <string name="rb_Q1404_DK">Don’t Know</string>
 
-    <string name="Q_q1406">Q1406:</string>
+    <string name="Q_q1406">Q1406</string>
     <string name="q1406">How old are you ?</string>
     <string name="q1406y">Year(s)</string>
 
-    <string name="Q_q1407">Q1407:</string>
+    <string name="Q_q1407">Q1407</string>
     <string name="q1407">Have you ever attended school ?</string>
     <string name="rb_Q1407_1">Yes</string>
     <string name="rb_Q1407_2">No</string>
     <string name="rb_Q1407_DK">Don’t Know</string>
 
-    <string name="Q_q1408">Q1408:</string>
+    <string name="Q_q1408">Q1408</string>
     <string name="q1408">What is the highest level of school you attended ?</string>
     <string name="rb_Q1408_1">Primary </string>
     <string name="rb_Q1408_2">Secondary </string>
     <string name="rb_Q1408_3">Higher than secondary</string>
     <string name="rb_Q1408_DK">Don’t Know</string>
 
-    <string name="Q_q1409">Q1409:</string>
+    <string name="Q_q1409">Q1409</string>
     <string name="q1409">What is the highest [GRADE/ YEAR] you completed at that level ?</string>
     <string name="q1409a">Grade/ Year</string>
 
-    <string name="Q_q1410">Q1410:</string>
+    <string name="Q_q1410">Q1410</string>
     <string name="q1410">Now I would like you to read this sentence to me.</string>
     <string name="q1410info">Show card to respondent \n\nExamples of statements for the reading test: \n\t1. The child is reading a book. \n\t2. This year the rain came late. \n\t3. Parents should look after their children.</string>
     <string name="rb_Q1410_1">Unable to read anything</string>
@@ -7489,21 +7495,21 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_Q1410_4">No statement in the language requested (Specify the language)</string>
     <string name="rb_Q1410_5">Blind/mute, problems with vision/speech</string>
 
-    <string name="Q_q1411">Q1411:</string>
+    <string name="Q_q1411">Q1411</string>
     <string name="q1411">How many people live at (this / that) household ?</string>
     <string name="q1411info">Read: How many people live "in this house," if you‘re talking about a family home</string>
 
-    <string name="Q_q1412">Q1412:</string>
+    <string name="Q_q1412">Q1412</string>
     <string name="q1412">How many rooms are used for sleeping in the household ?</string>
 
-    <string name="Q_q1413">Q1413:</string>
+    <string name="Q_q1413">Q1413</string>
     <string name="q1413">Does the household have a separate room for cooking ?</string>
     <string name="rb_Q1413_1">Yes</string>
     <string name="rb_Q1413_2">No</string>
     <string name="rb_Q1413_DK">Don’t Know</string>
 
-    <string name="Q_q1414">Q1414:</string>
-    <string name="q1414">Does the household have:</string>
+    <string name="Q_q1414">Q1414</string>
+    <string name="q1414">Does the household have</string>
     <string name="q1414a">Electricity</string>
     <string name="q1414aa">Yes</string>
     <string name="q1414ab">No</string>
@@ -7545,7 +7551,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="q1414jb">No</string>
     <string name="q1414j98">Don‘t Know</string>
 
-    <string name="Q_q1415">Q1415:</string>
+    <string name="Q_q1415">Q1415</string>
     <string name="q1415">What is the main source of drinking water in this household?</string>
     <string name="rb_Q1415_1">Piped water inside the house</string>
     <string name="rb_Q1415_2">Piped water outside the house/yard</string>
@@ -7561,7 +7567,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_Q1415_12">Bottled water?</string>
     <string name="rb_Q1415_DK">Don’t Know</string>
 
-    <string name="Q_q1416">Q1416:</string>
+    <string name="Q_q1416">Q1416</string>
     <string name="q1416">What type of toilet do members of the household usually use?</string>
     <string name="rb_Q1416_1">Flush toilet inside the house?</string>
     <string name="rb_Q1416_2">Flush toilet outside the house?</string>
@@ -7573,7 +7579,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_Q1416_OT">Other (specify) </string>
     <string name="rb_Q1416_DK">Don’t Know</string>
 
-    <string name="Q_q1417">Q1417:</string>
+    <string name="Q_q1417">Q1417</string>
     <string name="q1417">What is the main source of energy or fuel the household uses for cooking?</string>
     <string name="rb_Q1417_1">Electricity</string>
     <string name="rb_Q1417_2">Natural gas</string>
@@ -7586,7 +7592,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_Q1417_OT">Other (specify) </string>
     <string name="rb_Q1417_DK">Don’t Know</string>
 
-    <string name="Q_q1418">Q1418:</string>
+    <string name="Q_q1418">Q1418</string>
     <string name="q1418">What is the main source of energy the household uses for lighting ?</string>
     <string name="rb_Q1418_1">Electricity</string>
     <string name="rb_Q1418_2">Generator / Solar </string>
@@ -7599,7 +7605,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_Q1418_OT">Other (specify) </string>
     <string name="rb_Q1418_DK">Don’t Know</string>
 
-    <string name="Q_q1419">Q1419:</string>
+    <string name="Q_q1419">Q1419</string>
     <string name="q1419">What is the main material used for the floor of the house ?</string>
     <string name="rb_Q1419_1">Earth beaten ? Clay</string>
     <string name="rb_Q1419_2">Earth not beaten</string>
@@ -7611,7 +7617,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_Q1419_OT">Other (specify) </string>
     <string name="rb_Q1419_DK">Don’t Know</string>
 
-    <string name="Q_q1420">Q1420:</string>
+    <string name="Q_q1420">Q1420</string>
     <string name="q1420">What is the main material used for the roof of the house ?</string>
     <string name="rb_Q1420_1">No roof</string>
     <string name="rb_Q1420_2">Grass/stem/palm</string>
@@ -7622,7 +7628,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_Q1420_OT">Other (specify) </string>
     <string name="rb_Q1420_DK">Don’t Know</string>
 
-    <string name="Q_q1421">Q1421:</string>
+    <string name="Q_q1421">Q1421</string>
     <string name="q1421">What is the main material used for the exterior walls of the house ?</string>
     <string name="rb_Q1421_1">No wall</string>
     <string name="rb_Q1421_2">Cane/sticks/bamboo/palm</string>
@@ -7636,15 +7642,15 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_Q1421_OT">Other (specify) </string>
     <string name="rb_Q1421_DK">Don’t Know</string>
 
-    <string name="Q_q1501">Q1501:</string>
+    <string name="Q_q1501">Q1501</string>
     <string name="q1501">Are there other people present during the interview?</string>
     <string name="rb_Q1501_1">Yes</string>
     <string name="rb_Q1501_2">No</string>
 
-    <string name="Q_q1502">Q1502:</string>
+    <string name="Q_q1502">Q1502</string>
     <string name="q1502">In addition to the respondent, how many people are present during the interview? (Please do not include the respondent in the count)</string>
 
-    <string name="Q_q1503">Q1503:</string>
+    <string name="Q_q1503">Q1503</string>
     <string name="q1503">What is each other person’s relationship to the deceased person?</string>
     <string name="rb_Q1503_1">Spouse </string>
     <string name="rb_Q1503_2">Mother </string>
@@ -7662,22 +7668,22 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_Q1503_OTF">Other female (specify) </string>
     <string name="rb_Q1503_OT">Other (specify) </string>
 
-    <string name="Q_q1601">Q1601:</string>
+    <string name="Q_q1601">Q1601</string>
     <string name="q1601">What was the sex of the deceased?</string>
     <string name="rb_Q1601_1">Male</string>
     <string name="rb_Q1601_2">Female</string>
     <string name="rb_Q1601_DK">Don’t Know</string>
 
-    <string name="Q_q1602">Q1602:</string>
+    <string name="Q_q1602">Q1602</string>
     <string name="q1602">Is the date of birth known?</string>
     <string name="rb_Q1602_1">Yes</string>
     <string name="rb_Q1602_2">No</string>
     <string name="rb_Q1602_DK">Don’t Know</string>
 
-    <string name="Q_q1603">Q1603:</string>
+    <string name="Q_q1603">Q1603</string>
     <string name="q1603">When was the deceased born?</string>
 
-    <string name="Q_q1604">Q1604:</string>
+    <string name="Q_q1604">Q1604</string>
     <string name="q1604">Where did the deceased die?</string>
     <string name="rb_Q1604_1">Hospital</string>
     <string name="rb_Q1604_2">Other health provider or facility</string>
@@ -7686,21 +7692,21 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_Q1604_OT">Other (specify) </string>
     <string name="rb_Q1604_DK">Don’t Know</string>
 
-    <string name="Q_q1605">Q1605:</string>
+    <string name="Q_q1605">Q1605</string>
     <string name="q1605">Is the date of death known?</string>
     <string name="rb_Q1605_1">Yes</string>
     <string name="rb_Q1605_2">No</string>
 
-    <string name="Q_q1606">Q1606:</string>
+    <string name="Q_q1606">Q1606</string>
     <string name="q1606">What was the date of death?</string>
 
-    <string name="Q_q1607">Q1607:</string>
+    <string name="Q_q1607">Q1607</string>
     <string name="q1607">CALCULATE THE AGE AT DEATH</string>
 
-    <string name="Q_q1608">Q1608:</string>
+    <string name="Q_q1608">Q1608</string>
     <string name="q1608">How old was the deceased at the time of death?</string>
 
-    <string name="Q_q1609">Q1609:</string>
+    <string name="Q_q1609">Q1609</string>
     <string name="q1609">Mark the deceased’s age group at the time of death.</string>
     <string name="rb_Q1609_1">Less than 28 days old</string>
     <string name="rb_Q1609_2">1–11 months old</string>
@@ -7708,8 +7714,8 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_Q1609_4">5–11 years old</string>
     <string name="rb_Q1609_5">12 years or more</string>
 
-    <string name="Q_q1610">Q1610:</string>
-    <string name="q1610">If less than 28 days old at death, record the age in days, hours or minutes:</string>
+    <string name="Q_q1610">Q1610</string>
+    <string name="q1610">If less than 28 days old at death, record the age in days, hours or minutes</string>
 
     <string name="C1204_h">	 مرنے والے ،والی کا دن، مہینہ اور پیداش کا سال نقل کریں </string>
     <string name="C1205_h">	مرنے والے ،والی کا دن، مہینہ اور مرنے کا سال نقل کریں</string>
@@ -7995,8 +8001,8 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="w222m">Month(s)</string>
     <string name="w222d">Day(s)</string>
 
-    <string name="public_sector">Public sector:</string>
-    <string name="private_sector">Private medical sector:</string>
+    <string name="public_sector">Public sector</string>
+    <string name="private_sector">Private medical sector</string>
     <string name="A4275_1">A4275_1: If not taken to (all) the referral provider(s), \\nask:   \\nDid you or NAME have any concerns or problems that kept him/her from going to a health provider where s/he was refrered?</string>
     <string name="A4275_2">A4275_2: If taken to (all) the referral provider(s), \\nask:   \\nDid you or NAME have to overcome any concerns or problems for him/her to go to a health provider where s/he was referred?</string>
     <string name="ot">Other</string>

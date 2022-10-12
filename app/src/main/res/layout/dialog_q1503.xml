@@ -53,6 +53,7 @@
                         </LinearLayout>
 
                         <RadioGroup
+                            android:id="@+id/q1503"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content">
 
@@ -144,6 +145,7 @@
                                 android:id="@+id/ed_Q1503_OT"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
+                                android:tag="rb_Q1503_14"
                                 android:digits="AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789,. "
                                 android:hint="@string/other" />
 
