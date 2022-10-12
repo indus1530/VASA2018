@@ -107,13 +107,12 @@
     <string name="date_text">date_text</string>
 
 
-    <!-- Genral Info File starts  -->
-
-
-    <!-- Genral Info File Ends   -->
-
-
-    <!-- 0 t0 27 starts ..........................-->
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+    </string-array>
 
 
     <string name="txt_N2001">N2001:	Was the child part of a multiple birth?</string>
@@ -8034,6 +8033,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="district_prompt">Select District</string>
 
     <string-array name="province">
+        <item>....</item>
         <item>Balochistan</item>
         <item>Punjab</item>
         <item>Sindh</item>
@@ -8041,6 +8041,86 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
         <item>FATA</item>
         <item>Gilgit Baltistan</item>
         <item>Azad jammu &amp; Kashmir</item>
+    </string-array>
+
+    <string-array name="district0">
+        <item>....</item>
+    </string-array>
+
+    <string-array name="district1">
+        <item>Quetta</item>
+        <item>Pishin</item>
+        <item>Killa Abdullah</item>
+        <item>Chagai</item>
+        <item>Nushki</item>
+        <item>Loralai</item>
+        <item>Barkhan</item>
+        <item>Musakhel</item>
+        <item>Killa Saifullah</item>
+        <item>Zhob</item>
+        <item>Sherani</item>
+        <item>Sibi</item>
+        <item>Harnai</item>
+        <item>Ziarat</item>
+        <item>Kohlu</item>
+        <item>Dera Bugti</item>
+        <item>Lehri</item>
+        <item>Kech</item>
+        <item>Gawadar</item>
+        <item>Panjgur</item>
+        <item>Kalat</item>
+        <item>Mastung</item>
+        <item>Khuzdar</item>
+        <item>Awaran</item>
+        <item>Kharan</item>
+        <item>Washuk</item>
+        <item>Lasbela</item>
+        <item>Lasbela</item>
+        <item>Kachhi</item>
+        <item>Jaffarabad</item>
+        <item>Nasirabad</item>
+        <item>Jhal Magsi</item>
+        <item>Sohbatpur</item>
+    </string-array>
+
+    <string-array name="district2">
+        <item>Islamabad</item>
+        <item>Attock</item>
+        <item>Rawalpindi</item>
+        <item>Jhelum</item>
+        <item>Chakwal</item>
+        <item>Sargodha</item>
+        <item>Bhakkar</item>
+        <item>Khushab</item>
+        <item>Mianwali</item>
+        <item>Faisalabad</item>
+        <item>Chiniot</item>
+        <item>Jhang</item>
+        <item>Toba Tek Singh</item>
+        <item>Gujranwala</item>
+        <item>Hafizabad</item>
+        <item>Gujrat</item>
+        <item>Mandi Bahauddin</item>
+        <item>Sialkot</item>
+        <item>Narowal</item>
+        <item>Lahore</item>
+        <item>Kasur</item>
+        <item>Sheikhupura</item>
+        <item>Nankana Sahib</item>
+        <item>Okara</item>
+        <item>Sahiwal</item>
+        <item>Pakpattan</item>
+        <item>Vehari</item>
+        <item>Multan</item>
+        <item>Lodhran</item>
+        <item>Khanewal</item>
+        <item>Dera Ghazi Khan</item>
+        <item>Rajanpur</item>
+        <item>Layyah</item>
+        <item>Muzaffargarh</item>
+        <item>Bahawalpur</item>
+        <item>Bahawalnagar</item>
+        <item>Rahim Yar Khan</item>
     </string-array>
 
 

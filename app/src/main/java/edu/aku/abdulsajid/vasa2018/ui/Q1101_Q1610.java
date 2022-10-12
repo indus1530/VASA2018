@@ -445,7 +445,7 @@ public class Q1101_Q1610 extends AppCompatActivity implements View.OnClickListen
 
         Initialization();
 
-        ed_Q1202.setEnabled(false);
+        /*ed_Q1202.setEnabled(false);
         rb_Q1203_1.setEnabled(false);
         rb_Q1203_2.setEnabled(false);
         ed_Q1204.setEnabled(false);
@@ -455,7 +455,7 @@ public class Q1101_Q1610 extends AppCompatActivity implements View.OnClickListen
         ed_Q1206_y.setEnabled(false);
         ed_Q1607_1.setEnabled(false);
         ed_Q1607_2.setEnabled(false);
-        ed_Q1607_3.setEnabled(false);
+        ed_Q1607_3.setEnabled(false);*/
 
         /*cvQ1403_OT.setVisibility(View.GONE);
         cvQ1416_OT.setVisibility(View.GONE);
@@ -672,7 +672,7 @@ public class Q1101_Q1610 extends AppCompatActivity implements View.OnClickListen
                 if (total > lst_q1503.size()) {
                     show_dailuge_Q1503();
                 } else {
-                    Toast.makeText(this, "you have reached Maximaum Number", Toast.LENGTH_LONG).show();
+                    Toast.makeText(this, "you have reached Maximum Number", Toast.LENGTH_LONG).show();
                     return;
                 }
 
@@ -1669,6 +1669,7 @@ public class Q1101_Q1610 extends AppCompatActivity implements View.OnClickListen
 
     }
 
+
     void insert_data() {
 
         String query = "insert into Q1101_Q1610("
@@ -1858,6 +1859,7 @@ public class Q1101_Q1610 extends AppCompatActivity implements View.OnClickListen
         Toast.makeText(this, "General Section inserted successfully", Toast.LENGTH_SHORT).show();
     }
 
+
     private static boolean isValid(String s) {
 
         if (!s.trim().equals("")) {
@@ -1873,6 +1875,7 @@ public class Q1101_Q1610 extends AppCompatActivity implements View.OnClickListen
 
         return false;
     }
+
 
     public static int MonthsToDays(int tMonth, int tYear) {
         if (tMonth == 1 || tMonth == 3 || tMonth == 5 || tMonth == 7
@@ -1899,6 +1902,7 @@ public class Q1101_Q1610 extends AppCompatActivity implements View.OnClickListen
     public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
     }
+
 
     public int[] calculateAge(String dob, String dod) {
 
@@ -2206,70 +2210,46 @@ public class Q1101_Q1610 extends AppCompatActivity implements View.OnClickListen
     @Override
     public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
 
-        if (i == 0) {
-
-            dataDistricts = new String[]{"Quetta", "Pishin", "Killa Abdullah", "Chagai", "Nushki",
-                    "Loralai", "Barkhan", "Musakhel", "Killa Saifullah", "Zhob", "Sherani",
-                    "Sibi", "Harnai", "Ziarat", "Kohlu", "Dera Bugti", "Lehri",
-                    "Kech", "Gawadar", "Panjgur",
-                    "Kalat", "Mastung", "Khuzdar", "Awaran", "Kharan", "Washuk", "Lasbela",
-                    "Kachhi", "Jaffarabad", "Nasirabad", "Jhal Magsi", "Sohbatpur"};
-
-
+        switch (i) {
+            case 0:
+                dataDistricts = getResources().getStringArray(R.array.district0);
+                break;
+            case 1:
+                dataDistricts = getResources().getStringArray(R.array.district1);
+                break;
+            case 2:
+                dataDistricts = getResources().getStringArray(R.array.district2);
+                break;
+            case 3:
+                dataDistricts = new String[]{"Karachi West", "Malir", "Karachi South", "Karachi East", "Karachi Central", "Korangi",
+                        "Sukkur", "Ghotki", "Khairpur",
+                        "Naushahro Feroze", "Shaheed Benazirabad", "Sanghar",
+                        "Mirpur Khas", "Umer Kot", "Tharparkar",
+                        "Jacobabad", "Kashmor", "Shikarpur", "Larkana", "Kambar Shahdad Kot",
+                        "Dadu", "Jamshoro", "Hyderabad", "Tando Allahyar", "Tando Muhammad Khan", "Matiari", "Badin", "Thatta", "Sujawal"};
+                break;
+            case 4:
+                dataDistricts = new String[]{"Chitral", "Upper Dir", "Lower Dir", "Swat", "Shangla", "Buner", "Malakand Protected Area",
+                        "Kohistan", "Mansehra", "Batagram", "Abbotabad", "Haripur", "Torghar",
+                        "Mardan", "Swabi",
+                        "Charsadda", "Peshawar", "Nowshera",
+                        "Kohat", "Hangu", "Karak",
+                        "Bannu", "Lakki Marwat",
+                        "Dera Ismail Khan", "Tank"};
+                break;
+            case 5:
+                dataDistricts = new String[]{"Bajaur Agency", "Mohmand Agency", "Khyber Agency", "Kurram Agency", "Orakzai Agency",
+                        "North Waziristan", "South Waziristan", "FR Bannu", "FR D.I Khan", "FR Kohat", "FR Lakki Marwat", "FR Peshawar", "FR Tank"};
+                break;
+            case 6:
+                dataDistricts = new String[]{"Gilgit", "Ghizer", "Hunza", "Nagar", "Shigar", "Ghanche", "Baltistan", "Kharmang", "Diamir", "Astore"};
+                break;
+            case 7:
+                dataDistricts = new String[]{"Muzaffarabad", "Neelum", "Hattian Bala", "Bagh", "Sudhnoti", "Poonch", "Haveli", "Bhimber", "Mirpur", "Kotli"};
+                break;
         }
 
-        if (i == 1) {
-
-            dataDistricts = new String[]{"Islamabad", "Attock", "Rawalpindi", "Jhelum", "Chakwal",
-                    "Sargodha", "Bhakkar", "Khushab", "Mianwali",
-                    "Faisalabad", "Chiniot", "Jhang", "Toba Tek Singh",
-                    "Gujranwala", "Hafizabad", "Gujrat", "Mandi Bahauddin", "Sialkot", "Narowal",
-                    "Lahore", "Kasur", "Sheikhupura", "Nankana Sahib",
-                    "Okara", "Sahiwal", "Pakpattan",
-                    "Vehari", "Multan", "Lodhran", "Khanewal",
-                    "Dera Ghazi Khan", "Rajanpur", "Layyah", "Muzaffargarh",
-                    "Bahawalpur", "Bahawalnagar", "Rahim Yar Khan"};
-        }
-
-        if (i == 2) {
-
-            dataDistricts = new String[]{"Karachi West", "Malir", "Karachi South", "Karachi East", "Karachi Central", "Korangi",
-                    "Sukkur", "Ghotki", "Khairpur",
-                    "Naushahro Feroze", "Shaheed Benazirabad", "Sanghar",
-                    "Mirpur Khas", "Umer Kot", "Tharparkar",
-                    "Jacobabad", "Kashmor", "Shikarpur", "Larkana", "Kambar Shahdad Kot",
-                    "Dadu", "Jamshoro", "Hyderabad", "Tando Allahyar", "Tando Muhammad Khan", "Matiari", "Badin", "Thatta", "Sujawal"};
-        }
-
-        if (i == 3) {
-
-            dataDistricts = new String[]{"Chitral", "Upper Dir", "Lower Dir", "Swat", "Shangla", "Buner", "Malakand Protected Area",
-                    "Kohistan", "Mansehra", "Batagram", "Abbotabad", "Haripur", "Torghar",
-                    "Mardan", "Swabi",
-                    "Charsadda", "Peshawar", "Nowshera",
-                    "Kohat", "Hangu", "Karak",
-                    "Bannu", "Lakki Marwat",
-                    "Dera Ismail Khan", "Tank"};
-        }
-
-        if (i == 4) {
-
-            dataDistricts = new String[]{"Bajaur Agency", "Mohmand Agency", "Khyber Agency", "Kurram Agency", "Orakzai Agency",
-                    "North Waziristan", "South Waziristan", "FR Bannu", "FR D.I Khan", "FR Kohat", "FR Lakki Marwat", "FR Peshawar", "FR Tank"};
-        }
-
-        if (i == 5) {
-
-            dataDistricts = new String[]{"Gilgit", "Ghizer", "Hunza", "Nagar", "Shigar", "Ghanche", "Baltistan", "Kharmang", "Diamir", "Astore"};
-        }
-
-        if (i == 6) {
-
-            dataDistricts = new String[]{"Muzaffarabad", "Neelum", "Hattian Bala", "Bagh", "Sudhnoti", "Poonch", "Haveli", "Bhimber", "Mirpur", "Kotli"};
-        }
-
-        ArrayAdapter<String> aas = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, dataDistricts);
-        sp_Q1201_2.setAdapter(aas);
+        sp_Q1201_2.setAdapter(new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, dataDistricts));
     }
 
     @Override

@@ -7475,6 +7475,7 @@
     <string name="district_prompt">ضلع منتخب کریں۔</string>
 
     <string-array name="province">
+        <item>....</item>
         <item>بلوچستان</item>
         <item>پنجاب</item>
         <item>سندھ</item>
@@ -7482,6 +7483,86 @@
         <item>فاٹا</item>
         <item>گلگت بلتستان</item>
         <item>آزاد جموں و کشمیر</item>
+    </string-array>
+
+    <string-array name="district0">
+        <item>....</item>
+    </string-array>
+
+    <string-array name="district1">
+        <item>....</item>
+        <item>کوئٹہ</item>
+        <item>پشین</item>
+        <item>قلعہ عبداللہ</item>
+        <item>چاغی</item>
+        <item>نوشکی</item>
+        <item>لورالائی</item>
+        <item>بارکھان</item>
+        <item>موسیٰ خیل</item>
+        <item>قلعہ سیف اللہ</item>
+        <item>ژوب</item>
+        <item>شیرانی</item>
+        <item>سبی</item>
+        <item>ہرنائی</item>
+        <item>زیارت</item>
+        <item>کوہلو</item>
+        <item>ڈیرہ بگٹی</item>
+        <item>لہری</item>
+        <item>کیچ</item>
+        <item>گوادر</item>
+        <item>پنجگور</item>
+        <item>قلات</item>
+        <item>مستونگ</item>
+        <item>خضدار</item>
+        <item>آواران</item>
+        <item>خاران</item>
+        <item>واشوک</item>
+        <item>لسبیلہ</item>
+        <item>کچھی</item>
+        <item>جعفرآباد</item>
+        <item>نصیرآباد</item>
+        <item>جھل مگسی</item>
+        <item>صحبت پور</item>
+    </string-array>
+
+    <string-array name="district2">
+        <item>اسلام آباد</item>
+        <item>Attock</item>
+        <item>Rawalpindi</item>
+        <item>Jhelum</item>
+        <item>Chakwal</item>
+        <item>Sargodha</item>
+        <item>Bhakkar</item>
+        <item>Khushab</item>
+        <item>Mianwali</item>
+        <item>Faisalabad</item>
+        <item>Chiniot</item>
+        <item>Jhang</item>
+        <item>Toba Tek Singh</item>
+        <item>Gujranwala</item>
+        <item>Hafizabad</item>
+        <item>Gujrat</item>
+        <item>Mandi Bahauddin</item>
+        <item>Sialkot</item>
+        <item>Narowal</item>
+        <item>Lahore</item>
+        <item>Kasur</item>
+        <item>Sheikhupura</item>
+        <item>Nankana Sahib</item>
+        <item>Okara</item>
+        <item>Sahiwal</item>
+        <item>Pakpattan</item>
+        <item>Vehari</item>
+        <item>Multan</item>
+        <item>Lodhran</item>
+        <item>Khanewal</item>
+        <item>Dera Ghazi Khan</item>
+        <item>Rajanpur</item>
+        <item>Layyah</item>
+        <item>Muzaffargarh</item>
+        <item>Bahawalpur</item>
+        <item>Bahawalnagar</item>
+        <item>Rahim Yar Khan</item>
     </string-array>
 
 
