@@ -12,12 +12,12 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
         android:layout_weight="3"
         android:orientation="vertical">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="291dp"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
@@ -43,7 +43,7 @@
             android:id="@+id/login_username"
             style="@style/EditText_varchar"
             android:layout_marginTop="40dp"
-            android:backgroundTint="@color/hitnscolor"
+            android:backgroundTint="@color/U_main"
             android:hint="Username"
             android:inputType="text|textEmailAddress"
             android:textColor="@color/white"
@@ -54,7 +54,7 @@
         <EditText
             android:id="@+id/login_password"
             style="@style/EditText_varchar"
-            android:backgroundTint="@color/hitnscolor"
+            android:backgroundTint="@color/U_main"
             android:hint="Password"
             android:inputType="textPassword"
             android:textColor="@color/white"
@@ -71,10 +71,7 @@
             android:stateListAnimator="@null"
             android:text="Login"
             android:textColor="@color/hitnscolor"
-            android:textSize="16sp"
-
-
-            />
+            android:textSize="16sp" />
 
 
     </LinearLayout>

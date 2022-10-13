@@ -7631,46 +7631,46 @@
     <string-array name="fata">
         <item>....</item>
         <item>باجوڑ ایجنسی</item>
-        <item>Mohmand Agency</item>
+        <item>مہمند ایجنسی</item>
         <item>خیبر ایجنسی</item>
-        <item>Kurram Agency</item>
+        <item>کرم ایجنسی</item>
         <item>اورکزئی ایجنسی</item>
-        <item>North Waziristan</item>
+        <item>شمالی وزیرستان</item>
         <item>جنوبی وزیرستان</item>
-        <item>FR Bannu</item>
+        <item>ایف آر بنوں</item>
         <item>ایف آر ڈیرہ اسماعیل خان</item>
-        <item>FR Kohat</item>
+        <item>ایف آر کوہاٹ</item>
         <item>ایف آر لکی مروت</item>
-        <item>FR Peshawar</item>
+        <item>ایف آر پشاور</item>
         <item>ایف آر ٹانک</item>
     </string-array>
 
     <string-array name="gb">
         <item>....</item>
-        <item>Gilgit</item>
-        <item>Ghizer</item>
-        <item>Hunza</item>
-        <item>Nagar</item>
-        <item>Shigar</item>
-        <item>Ghanche</item>
-        <item>Baltistan</item>
-        <item>Kharmang</item>
-        <item>Diamir</item>
-        <item>Astore</item>
+        <item>گلگت</item>
+        <item>غذر</item>
+        <item>ہنزہ</item>
+        <item>نگار</item>
+        <item>شگر</item>
+        <item>گھانچے</item>
+        <item>بلتستان</item>
+        <item>کھرمنگ</item>
+        <item>دیامیر</item>
+        <item>استور</item>
     </string-array>
 
     <string-array name="ajk">
         <item>....</item>
-        <item>Muzaffarabad</item>
-        <item>Neelum</item>
-        <item>Hattian Bala</item>
-        <item>Bagh</item>
-        <item>Sudhnoti</item>
-        <item>Poonch</item>
-        <item>Haveli</item>
-        <item>Bhimber</item>
-        <item>Mirpur</item>
-        <item>Kotli</item>
+        <item>مظفرآباد</item>
+        <item>نیلم</item>
+        <item>ہٹیاں بالا</item>
+        <item>باغ</item>
+        <item>سدھنوتی</item>
+        <item>پونچھ</item>
+        <item>حویلی</item>
+        <item>بھمبر</item>
+        <item>میرپور</item>
+        <item>کوٹلی</item>
     </string-array>
 
 

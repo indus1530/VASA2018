@@ -25,7 +25,7 @@
 
     <style name="AppThemeNACB" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowFullscreen">true</item>
-        <item name="android:textSize">16dp</item>
+        <item name="android:textSize">16sp</item>
 
         <!--<item name="fontFamily">@font/roboto</item>-->
         <item name="colorPrimary">@color/colorPrimary</item>
@@ -35,7 +35,7 @@
         <item name="spinnerStyle">@style/spinner</item>
         <item name="android:actionBarStyle">@style/ToolbarTheme</item>
         <item name="android:toolbarStyle">@style/ToolbarTheme</item>
-        <item name="android:textViewStyle">@style/labels</item>
+        <item name="android:textViewStyle">@style/TextView</item>
         <item name="editTextStyle">@style/textInput</item>
         <item name="radioButtonStyle">@style/radiobutton</item>
         <item name="checkboxStyle">@style/checkbox</item>
@@ -99,7 +99,6 @@
         <item name="android:paddingStart">12dp</item>
         <item name="android:paddingEnd">12dp</item>
         <item name="android:background">@drawable/grad_lable</item>
-
         <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
     </style>
 
@@ -125,52 +124,12 @@
         <item name="android:shadowRadius">0</item>
     </style>
 
-
-    <style name="textInput" parent="Widget.AppCompat.EditText">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginBottom">4dp</item>
-        <item name="android:elevation">1dp</item>
-        <item name="android:background">@drawable/options_separator</item>
-        <item name="android:textColor">@drawable/edit_text_selector</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:paddingStart">4dp</item>
-        <item name="android:paddingEnd">6dp</item>
-        <item name="android:paddingTop">6dp</item>
-        <item name="android:paddingBottom">6dp</item>
-        <item name="android:minHeight">48dp</item>
-        <item name="fontFamily">@font/roboto</item>
-        <item name="android:textDirection">ltr</item>
-
-        <item name="android:imeOptions">actionDone</item>
-        <item name="android:focusable">true</item>
-        <item name="android:clickable">true</item>
-
-
-        <!--
-                        android:shadowColor="@color/text_shadow_white"
-                android:shadowDx="-2"
-                android:shadowDy="-2"
-                android:shadowRadius="1"
-
-                <item name="android:textStyle">bold</item>
-        -->
-        <!--        <item name="android:textDirection">ltr</item>-->
-        <item name="android:focusableInTouchMode">true</item>
-    </style>
-
     <style name="radiobutton" parent="Widget.AppCompat.CompoundButton.RadioButton">
-
         <item name="android:gravity">center_vertical</item>
         <item name="android:elevation">1dp</item>
         <item name="android:radius">2dp</item>
         <item name="android:drawablePadding">12dp</item>
-
-
         <item name="android:paddingStart">8dp</item>
-        <!--<item name="android:textColor">@color/gray</item>-->
-        <!--<item name="android:buttonTint">@color/colorAccent</item>-->
-
         <item name="android:paddingEnd">8dp</item>
         <item name="android:paddingTop">4dp</item>
         <item name="android:paddingBottom">4dp</item>
@@ -289,26 +248,6 @@
         <item name="android:focusableInTouchMode">true</item>
     </style>
 
-    <!--<style name="TextView">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:textSize">18sp</item>
-        <item name="android:textColor">@color/black</item>
-        <item name="android:focusable">true</item>
-        <item name="android:clickable">true</item>
-        <item name="android:focusableInTouchMode">true</item>
-        <item name="android:layout_margin">5dp</item>
-        <item name="android:padding">5dp</item>
-        &lt;!&ndash;<item name="android:layout_marginLeft">3dp</item>
-        <item name="android:layout_marginRight">3dp</item>
-        <item name="android:layout_marginTop">3dp</item>
-        <item name="android:layout_marginBottom">10dp</item>&ndash;&gt;
-        <item name="android:typeface">normal</item>
-        <item name="android:textStyle">bold</item>
-    </style>-->
-
-
     <style name="TextView" parent="@android:style/TextAppearance.Widget.TextView">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -327,30 +266,9 @@
     </style>
 
 
-    <style name="textInputOld" parent="Widget.AppCompat.EditText">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:elevation">1dp</item>
-        <item name="android:background">@drawable/options_separator</item>
-        <item name="android:textColor">@drawable/edit_text_selector</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:paddingStart">4dp</item>
-        <item name="android:paddingEnd">6dp</item>
-        <item name="android:paddingTop">6dp</item>
-        <item name="android:paddingBottom">6dp</item>
-        <item name="android:minHeight">48dp</item>
-        <item name="fontFamily">@font/roboto</item>
-        <item name="android:textDirection">ltr</item>
-        <item name="android:imeOptions">actionDone</item>
-        <item name="android:focusable">true</item>
-        <item name="android:clickable">true</item>
-        <item name="android:focusableInTouchMode">true</item>
-    </style>
-
     <style name="textInput" parent="Widget.AppCompat.EditText">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginBottom">4dp</item>
         <item name="android:elevation">1dp</item>
         <item name="android:background">@drawable/options_separator</item>
         <item name="android:textColor">@drawable/edit_text_selector</item>
@@ -362,36 +280,10 @@
         <item name="android:minHeight">48dp</item>
         <item name="fontFamily">@font/roboto</item>
         <item name="android:textDirection">ltr</item>
-
         <item name="android:imeOptions">actionDone</item>
         <item name="android:focusable">true</item>
         <item name="android:clickable">true</item>
-
-
-        <!--
-                        android:shadowColor="@color/text_shadow_white"
-                android:shadowDx="-2"
-                android:shadowDy="-2"
-                android:shadowRadius="1"
-
-                <item name="android:textStyle">bold</item>
-        -->
-        <!--        <item name="android:textDirection">ltr</item>-->
         <item name="android:focusableInTouchMode">true</item>
-    </style>
-
-    <style name="info">
-        <item name="android:layout_margin">4dp</item>
-        <item name="android:background">#FFEB9C</item>
-        <item name="android:textColor">#FF0000</item>
-        <item name="android:padding">4dp</item>
-        <item name="android:minHeight">52dp</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:letterSpacing">0.04</item>
-        <item name="android:shadowColor">#00000000</item>
-        <item name="android:shadowDx">0</item>
-        <item name="android:shadowDy">0</item>
-        <item name="android:shadowRadius">0</item>
     </style>
 
 
