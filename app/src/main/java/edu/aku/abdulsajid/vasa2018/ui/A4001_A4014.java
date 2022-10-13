@@ -779,9 +779,7 @@ public class A4001_A4014 extends AppCompatActivity implements RadioButton.OnChec
 
     boolean validateField() {
 
-        if (Gothrough.IamHiden(ll_study_id) == false) {
-            return false;
-        }
+        if (!Gothrough.IamHiden(ll_study_id)) return false;
 
         if (Gothrough.IamHiden(ll_A4001) == false) {
             return false;
