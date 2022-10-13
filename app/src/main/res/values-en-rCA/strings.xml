@@ -7652,11 +7652,11 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
 
     <string name="Q_q1503">Q1503</string>
     <string name="q1503">What is each other person’s relationship to the deceased person?</string>
-    <string name="rb_Q1503_1">Spouse </string>
-    <string name="rb_Q1503_2">Mother </string>
+    <string name="rb_Q1503_1">Spouse</string>
+    <string name="rb_Q1503_2">Mother</string>
     <string name="rb_Q1503_3">Father </string>
-    <string name="rb_Q1503_4">Grandmother </string>
-    <string name="rb_Q1503_5">Grandfather </string>
+    <string name="rb_Q1503_4">Grandmother</string>
+    <string name="rb_Q1503_5">Grandfather</string>
     <string name="rb_Q1503_6">Son </string>
     <string name="rb_Q1503_7">Daughter </string>
     <string name="rb_Q1503_8">Aunt </string>
@@ -7675,7 +7675,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_Q1601_DK">Don’t Know</string>
 
     <string name="Q_q1602">Q1602</string>
-    <string name="q1602">Is the date of birth known?</string>
+    <string name="q1602">Is the date of birth known ?</string>
     <string name="rb_Q1602_1">Yes</string>
     <string name="rb_Q1602_2">No</string>
     <string name="rb_Q1602_DK">Don’t Know</string>
@@ -7746,7 +7746,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="A4263_2">A4263_2: Did the FIRST HEALTH PROVIDER tell you or NAME about illness signs and symptoms for follow-up if NAME did not improve after leaving?</string>
     <string name="A4264">A4264: Did NAME leave the FIRST HEALTH PROVIDER alive?</string>
 
-    <string name="rb_A4264_1">Yes, left alive</string>
+    <string name="rb_A4264_1">Yes, Left Alive</string>
     <string name="rb_A4264_2">No, died at this provider</string>
 
     <string name="rb_A4274_1">Yes</string>
@@ -7757,7 +7757,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_A4275_2">No</string>
     <string name="rb_A4275_DK">Don’t Know</string>
 
-    <string name="A4266">A4266: What was the name of the LAST HEALTH PROVIDER where NAME went?</string>
+    <string name="A4266">A4266: What was the name of the LAST HEALTH PROVIDER where NAME went ?</string>
     <string name="A4267_1">A4267_1: For health care at a facility, \nask: \nDid NAME reach the LAST HEALTH PROVIDER before s/he died?</string>
     <string name="A4267_2">A4267_2: For health care outside a facility, \nask: \nDid NAME reach the LAST HEALTH PROVIDER before s/he died?</string>
     <string name="A4268">A4268: After (deciding to seek care / being referred), how long did it take (to reach the LAST HEALTH PROVIDER / for the LAST HEALTH PROVIDER to reach NAME?</string>

@@ -281,7 +281,9 @@
 
                     <TextView
                         android:id="@+id/A4006_h"
-                        style="@style/TextView_Hint"
+                        style="@style/info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
                         android:text="@string/A4006_h" />
 
                     <RadioGroup style="@style/RadioGroup">
