@@ -7489,7 +7489,7 @@
         <item>....</item>
     </string-array>
 
-    <string-array name="district1">
+    <string-array name="balochistan">
         <item>....</item>
         <item>کوئٹہ</item>
         <item>پشین</item>
@@ -7525,44 +7525,152 @@
         <item>صحبت پور</item>
     </string-array>
 
-    <string-array name="district2">
+    <string-array name="punjab">
+        <item>....</item>
         <item>اسلام آباد</item>
-        <item>Attock</item>
-        <item>Rawalpindi</item>
-        <item>Jhelum</item>
-        <item>Chakwal</item>
-        <item>Sargodha</item>
-        <item>Bhakkar</item>
-        <item>Khushab</item>
-        <item>Mianwali</item>
-        <item>Faisalabad</item>
-        <item>Chiniot</item>
-        <item>Jhang</item>
-        <item>Toba Tek Singh</item>
-        <item>Gujranwala</item>
-        <item>Hafizabad</item>
-        <item>Gujrat</item>
-        <item>Mandi Bahauddin</item>
-        <item>Sialkot</item>
-        <item>Narowal</item>
-        <item>Lahore</item>
-        <item>Kasur</item>
-        <item>Sheikhupura</item>
-        <item>Nankana Sahib</item>
-        <item>Okara</item>
-        <item>Sahiwal</item>
-        <item>Pakpattan</item>
-        <item>Vehari</item>
-        <item>Multan</item>
-        <item>Lodhran</item>
-        <item>Khanewal</item>
-        <item>Dera Ghazi Khan</item>
-        <item>Rajanpur</item>
-        <item>Layyah</item>
-        <item>Muzaffargarh</item>
-        <item>Bahawalpur</item>
-        <item>Bahawalnagar</item>
-        <item>Rahim Yar Khan</item>
+        <item>اٹک</item>
+        <item>راولپنڈی</item>
+        <item>جہلم</item>
+        <item>چکوال</item>
+        <item>سرگودھا</item>
+        <item>بھکر</item>
+        <item>خوشاب</item>
+        <item>میانوالی</item>
+        <item>فیصل آباد</item>
+        <item>چنیوٹ</item>
+        <item>جھنگ</item>
+        <item>ٹوبہ ٹیک سنگھ</item>
+        <item>گوجرانوالہ</item>
+        <item>حافظ آباد</item>
+        <item>گجرات</item>
+        <item>منڈی بہاؤالدین</item>
+        <item>سیالکوٹ</item>
+        <item>نارووال</item>
+        <item>لاہور</item>
+        <item>قصور</item>
+        <item>شیخوپورہ</item>
+        <item>ننکانہ صاحب</item>
+        <item>اوکاڑہ</item>
+        <item>ساہیوال</item>
+        <item>پاکپتن</item>
+        <item>وہاڑی</item>
+        <item>ملتان</item>
+        <item>لودھراں</item>
+        <item>خانیوال</item>
+        <item>ڈیرہ غازی خان</item>
+        <item>راجن پور</item>
+        <item>لیہ</item>
+        <item>مظفر گڑھ</item>
+        <item>بہاولپور</item>
+        <item>بہاولنگر</item>
+        <item>رحیم یار خان</item>
+    </string-array>
+
+    <string-array name="sindh">
+        <item>....</item>
+        <item>کراچی ضلع غربی</item>
+        <item>کراچی ضلع ملیر</item>
+        <item>کراچی ضلع جنوبی</item>
+        <item>کراچی ضلع شرقی</item>
+        <item>کراچی ضلع وسطی</item>
+        <item>کراچی ضلع کورنگی</item>
+        <item>سکھر</item>
+        <item>گھوٹکی</item>
+        <item>خیرپور</item>
+        <item>نوشہرو فیروز</item>
+        <item>شہید بینظیر آباد</item>
+        <item>میرپور خاص</item>
+        <item>سانگھڑ</item>
+        <item>عمرکوٹ</item>
+        <item>تھرپارکر</item>
+        <item>جیکب آباد</item>
+        <item>کشمور</item>
+        <item>شکارپور</item>
+        <item>لاڑکانہ</item>
+        <item>قمبر شہداد کوٹ</item>
+        <item>دادو</item>
+        <item>جامشورو</item>
+        <item>حیدرآباد</item>
+        <item>ٹنڈو الہ یار</item>
+        <item>ٹنڈو محمد خان</item>
+        <item>مٹیاری</item>
+        <item>بدین</item>
+        <item>ٹھٹھہ</item>
+        <item>سجاول</item>
+    </string-array>
+
+    <string-array name="kpk">
+        <item>....</item>
+        <item>چترال</item>
+        <item>اپر دیر</item>
+        <item>لوئر دیر</item>
+        <item>سوات</item>
+        <item>شانگلہ</item>
+        <item>بونیر</item>
+        <item>مالاکنڈ محفوظ علاقہ</item>
+        <item>کوہستان</item>
+        <item>مانسہرہ</item>
+        <item>بٹگرام</item>
+        <item>ایبٹ آباد</item>
+        <item>ہری پور</item>
+        <item>تورغر</item>
+        <item>مردان</item>
+        <item>صوابی</item>
+        <item>چارسدہ</item>
+        <item>پشاور</item>
+        <item>نوشہرہ</item>
+        <item>کوہاٹ</item>
+        <item>ہنگو</item>
+        <item>کررک</item>
+        <item>بنوں</item>
+        <item>لکی مروت</item>
+        <item>ڈیرہ اسماعیل خان</item>
+        <item>ٹانک</item>
+    </string-array>
+
+    <string-array name="fata">
+        <item>....</item>
+        <item>باجوڑ ایجنسی</item>
+        <item>Mohmand Agency</item>
+        <item>خیبر ایجنسی</item>
+        <item>Kurram Agency</item>
+        <item>اورکزئی ایجنسی</item>
+        <item>North Waziristan</item>
+        <item>جنوبی وزیرستان</item>
+        <item>FR Bannu</item>
+        <item>ایف آر ڈیرہ اسماعیل خان</item>
+        <item>FR Kohat</item>
+        <item>ایف آر لکی مروت</item>
+        <item>FR Peshawar</item>
+        <item>ایف آر ٹانک</item>
+    </string-array>
+
+    <string-array name="gb">
+        <item>....</item>
+        <item>Gilgit</item>
+        <item>Ghizer</item>
+        <item>Hunza</item>
+        <item>Nagar</item>
+        <item>Shigar</item>
+        <item>Ghanche</item>
+        <item>Baltistan</item>
+        <item>Kharmang</item>
+        <item>Diamir</item>
+        <item>Astore</item>
+    </string-array>
+
+    <string-array name="ajk">
+        <item>....</item>
+        <item>Muzaffarabad</item>
+        <item>Neelum</item>
+        <item>Hattian Bala</item>
+        <item>Bagh</item>
+        <item>Sudhnoti</item>
+        <item>Poonch</item>
+        <item>Haveli</item>
+        <item>Bhimber</item>
+        <item>Mirpur</item>
+        <item>Kotli</item>
     </string-array>
 
 

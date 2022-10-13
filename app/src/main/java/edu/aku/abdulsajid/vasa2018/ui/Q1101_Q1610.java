@@ -2215,37 +2215,25 @@ public class Q1101_Q1610 extends AppCompatActivity implements View.OnClickListen
                 dataDistricts = getResources().getStringArray(R.array.district0);
                 break;
             case 1:
-                dataDistricts = getResources().getStringArray(R.array.district1);
+                dataDistricts = getResources().getStringArray(R.array.balochistan);
                 break;
             case 2:
-                dataDistricts = getResources().getStringArray(R.array.district2);
+                dataDistricts = getResources().getStringArray(R.array.punjab);
                 break;
             case 3:
-                dataDistricts = new String[]{"Karachi West", "Malir", "Karachi South", "Karachi East", "Karachi Central", "Korangi",
-                        "Sukkur", "Ghotki", "Khairpur",
-                        "Naushahro Feroze", "Shaheed Benazirabad", "Sanghar",
-                        "Mirpur Khas", "Umer Kot", "Tharparkar",
-                        "Jacobabad", "Kashmor", "Shikarpur", "Larkana", "Kambar Shahdad Kot",
-                        "Dadu", "Jamshoro", "Hyderabad", "Tando Allahyar", "Tando Muhammad Khan", "Matiari", "Badin", "Thatta", "Sujawal"};
+                dataDistricts = getResources().getStringArray(R.array.sindh);
                 break;
             case 4:
-                dataDistricts = new String[]{"Chitral", "Upper Dir", "Lower Dir", "Swat", "Shangla", "Buner", "Malakand Protected Area",
-                        "Kohistan", "Mansehra", "Batagram", "Abbotabad", "Haripur", "Torghar",
-                        "Mardan", "Swabi",
-                        "Charsadda", "Peshawar", "Nowshera",
-                        "Kohat", "Hangu", "Karak",
-                        "Bannu", "Lakki Marwat",
-                        "Dera Ismail Khan", "Tank"};
+                dataDistricts = getResources().getStringArray(R.array.kpk);
                 break;
             case 5:
-                dataDistricts = new String[]{"Bajaur Agency", "Mohmand Agency", "Khyber Agency", "Kurram Agency", "Orakzai Agency",
-                        "North Waziristan", "South Waziristan", "FR Bannu", "FR D.I Khan", "FR Kohat", "FR Lakki Marwat", "FR Peshawar", "FR Tank"};
+                dataDistricts = getResources().getStringArray(R.array.fata);
                 break;
             case 6:
-                dataDistricts = new String[]{"Gilgit", "Ghizer", "Hunza", "Nagar", "Shigar", "Ghanche", "Baltistan", "Kharmang", "Diamir", "Astore"};
+                dataDistricts = getResources().getStringArray(R.array.gb);
                 break;
             case 7:
-                dataDistricts = new String[]{"Muzaffarabad", "Neelum", "Hattian Bala", "Bagh", "Sudhnoti", "Poonch", "Haveli", "Bhimber", "Mirpur", "Kotli"};
+                dataDistricts = getResources().getStringArray(R.array.ajk);
                 break;
         }
 

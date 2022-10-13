@@ -8047,7 +8047,8 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
         <item>....</item>
     </string-array>
 
-    <string-array name="district1">
+    <string-array name="balochistan">
+        <item>....</item>
         <item>Quetta</item>
         <item>Pishin</item>
         <item>Killa Abdullah</item>
@@ -8083,7 +8084,8 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
         <item>Sohbatpur</item>
     </string-array>
 
-    <string-array name="district2">
+    <string-array name="punjab">
+        <item>....</item>
         <item>Islamabad</item>
         <item>Attock</item>
         <item>Rawalpindi</item>
@@ -8121,6 +8123,113 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
         <item>Bahawalpur</item>
         <item>Bahawalnagar</item>
         <item>Rahim Yar Khan</item>
+    </string-array>
+
+    <string-array name="sindh">
+        <item>....</item>
+        <item>Karachi West</item>
+        <item>Malir</item>
+        <item>Karachi South</item>
+        <item>Karachi East</item>
+        <item>Karachi Central</item>
+        <item>Korangi</item>
+        <item>Sukkur</item>
+        <item>Ghotki</item>
+        <item>Khairpur</item>
+        <item>Naushahro Feroze</item>
+        <item>Shaheed Benazirabad</item>
+        <item>Mirpur Khas</item>
+        <item>Sanghar</item>
+        <item>Umer Kot</item>
+        <item>Tharparkar</item>
+        <item>Jacobabad</item>
+        <item>Kashmor</item>
+        <item>Shikarpur</item>
+        <item>Larkana</item>
+        <item>Kambar Shahdad Kot</item>
+        <item>Dadu</item>
+        <item>Jamshoro</item>
+        <item>Hyderabad</item>
+        <item>Tando Allahyar</item>
+        <item>Tando Muhammad Khan</item>
+        <item>Matiari</item>
+        <item>Badin</item>
+        <item>Thatta</item>
+        <item>Sujawal</item>
+    </string-array>
+
+    <string-array name="kpk">
+        <item>....</item>
+        <item>Chitral</item>
+        <item>Upper Dir</item>
+        <item>Lower Dir</item>
+        <item>Swat</item>
+        <item>Shangla</item>
+        <item>Buner</item>
+        <item>Malakand Protected Area</item>
+        <item>Kohistan</item>
+        <item>Mansehra</item>
+        <item>Batagram</item>
+        <item>Abbotabad</item>
+        <item>Haripur</item>
+        <item>Torghar</item>
+        <item>Mardan</item>
+        <item>Swabi</item>
+        <item>Charsadda</item>
+        <item>Peshawar</item>
+        <item>Nowshera</item>
+        <item>Kohat</item>
+        <item>Hangu</item>
+        <item>Karak</item>
+        <item>Bannu</item>
+        <item>Lakki Marwat</item>
+        <item>Dera Ismail Khan</item>
+        <item>Tank</item>
+    </string-array>
+
+    <string-array name="fata">
+        <item>....</item>
+        <item>Bajaur Agency</item>
+        <item>Mohmand Agency</item>
+        <item>Khyber Agency</item>
+        <item>Kurram Agency</item>
+        <item>Orakzai Agency</item>
+        <item>North Waziristan</item>
+        <item>South Waziristan</item>
+        <item>FR Bannu</item>
+        <item>FR D.I Khan</item>
+        <item>FR Kohat</item>
+        <item>FR Lakki Marwat</item>
+        <item>FR Peshawar</item>
+        <item>FR Tank</item>
+    </string-array>
+
+    <string-array name="gb">
+        <item>....</item>
+        <item>Gilgit</item>
+        <item>Ghizer</item>
+        <item>Hunza</item>
+        <item>Nagar</item>
+        <item>Shigar</item>
+        <item>Ghanche</item>
+        <item>Baltistan</item>
+        <item>Kharmang</item>
+        <item>Diamir</item>
+        <item>Astore</item>
+    </string-array>
+
+    <string-array name="ajk">
+        <item>....</item>
+        <item>Muzaffarabad</item>
+        <item>Neelum</item>
+        <item>Hattian Bala</item>
+        <item>Bagh</item>
+        <item>Sudhnoti</item>
+        <item>Poonch</item>
+        <item>Haveli</item>
+        <item>Bhimber</item>
+        <item>Mirpur</item>
+        <item>Kotli</item>
     </string-array>
 
 
