@@ -629,23 +629,23 @@ public class A4144_A4156 extends AppCompatActivity implements RadioButton.OnChec
 
         String query = "insert into A4144_A4156("
 
-                + edu.aku.abdulsajid.vasa2018.Global.A.A4144_A4156.study_id + ","
-                + edu.aku.abdulsajid.vasa2018.Global.A.A4144_A4156.A4144 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.A.A4144_A4156.A4145 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.A.A4144_A4156.A4146 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.A.A4144_A4156.A4147 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.A.A4144_A4156.A4148 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.A.A4144_A4156.A4149 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.A.A4144_A4156.A4150_u + ","
-                + edu.aku.abdulsajid.vasa2018.Global.A.A4144_A4156.A4150_a + ","
-                + edu.aku.abdulsajid.vasa2018.Global.A.A4144_A4156.A4150_b + ","
-                + edu.aku.abdulsajid.vasa2018.Global.A.A4144_A4156.A4151 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.A.A4144_A4156.A4152 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.A.A4144_A4156.A4153 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.A.A4144_A4156.A4154 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.A.A4144_A4156.A4155 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.A.A4144_A4156.A4156 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.A.A4144_A4156.STATUS + ")" +
+                + edu.aku.abdulsajid.vasa2018.DataTables.A.A4144_A4156.study_id + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.A.A4144_A4156.A4144 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.A.A4144_A4156.A4145 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.A.A4144_A4156.A4146 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.A.A4144_A4156.A4147 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.A.A4144_A4156.A4148 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.A.A4144_A4156.A4149 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.A.A4144_A4156.A4150_u + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.A.A4144_A4156.A4150_a + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.A.A4144_A4156.A4150_b + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.A.A4144_A4156.A4151 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.A.A4144_A4156.A4152 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.A.A4144_A4156.A4153 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.A.A4144_A4156.A4154 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.A.A4144_A4156.A4155 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.A.A4144_A4156.A4156 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.A.A4144_A4156.STATUS + ")" +
 
                 " values ('" +
 

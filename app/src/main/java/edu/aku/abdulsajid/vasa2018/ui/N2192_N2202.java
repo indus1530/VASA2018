@@ -116,7 +116,7 @@ public class N2192_N2202 extends AppCompatActivity {
 
     public boolean SaveData() {
 
-        edu.aku.abdulsajid.vasa2018.Global.N.N2192_N2202 n2192 = new edu.aku.abdulsajid.vasa2018.Global.N.N2192_N2202();
+        edu.aku.abdulsajid.vasa2018.DataTables.N.N2192_N2202 n2192 = new edu.aku.abdulsajid.vasa2018.DataTables.N.N2192_N2202();
 
         n2192.setN2192(bi.rbN21921.isChecked() ? "1" : bi.rbN21922.isChecked() ? "2" : bi.rbN2192DK.isChecked() ? "9" : "-1");
         n2192.setN2193(bi.rbN21931.isChecked() ? "1" : bi.rbN21932.isChecked() ? "2" : bi.rbN2193DK.isChecked() ? "9" : "-1");

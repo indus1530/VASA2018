@@ -354,18 +354,18 @@ public class A4351_A4364 extends AppCompatActivity implements RadioButton.OnChec
 
         String query = "insert into A4351_A4364("
 
-                + edu.aku.abdulsajid.vasa2018.Global.A.A4351_A4364.study_id + ","
-                + edu.aku.abdulsajid.vasa2018.Global.A.A4351_A4364.A4351 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.A.A4351_A4364.A4352 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.A.A4351_A4364.A4353 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.A.A4351_A4364.A4354 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.A.A4351_A4364.A4355 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.A.A4351_A4364.A4356 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.A.A4351_A4364.A4357 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.A.A4351_A4364.A4358 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.A.A4351_A4364.A4363 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.A.A4351_A4364.A4364 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.A.A4351_A4364.STATUS + ")" +
+                + edu.aku.abdulsajid.vasa2018.DataTables.A.A4351_A4364.study_id + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.A.A4351_A4364.A4351 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.A.A4351_A4364.A4352 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.A.A4351_A4364.A4353 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.A.A4351_A4364.A4354 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.A.A4351_A4364.A4355 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.A.A4351_A4364.A4356 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.A.A4351_A4364.A4357 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.A.A4351_A4364.A4358 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.A.A4351_A4364.A4363 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.A.A4351_A4364.A4364 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.A.A4351_A4364.STATUS + ")" +
 
                 " values ('" +
 

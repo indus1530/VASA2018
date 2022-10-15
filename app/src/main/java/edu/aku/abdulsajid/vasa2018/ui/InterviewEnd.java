@@ -16,7 +16,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 import edu.aku.abdulsajid.vasa2018.Core.HomeActivity;
-import edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610;
+import edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610;
 import edu.aku.abdulsajid.vasa2018.R;
 import edu.aku.abdulsajid.vasa2018.data.DBHelper;
 import edu.aku.abdulsajid.vasa2018.utils.Gothrough;

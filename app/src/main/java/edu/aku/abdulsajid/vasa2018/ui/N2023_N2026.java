@@ -46,7 +46,7 @@ public class N2023_N2026 extends AppCompatActivity {
 
     public boolean SaveData() {
 
-        edu.aku.abdulsajid.vasa2018.Global.N.N2023_N2026 n2023 = new edu.aku.abdulsajid.vasa2018.Global.N.N2023_N2026();
+        edu.aku.abdulsajid.vasa2018.DataTables.N.N2023_N2026 n2023 = new edu.aku.abdulsajid.vasa2018.DataTables.N.N2023_N2026();
 
         n2023.setN2023(bi.edN2023.getText().toString().trim().length() > 0 ? bi.edN2023.getText().toString() : "-1");
         n2023.setN2024(bi.edN2024.getText().toString().trim().length() > 0 ? bi.edN2024.getText().toString() : "-1");

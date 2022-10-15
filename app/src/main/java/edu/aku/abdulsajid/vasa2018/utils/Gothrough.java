@@ -1,9 +1,9 @@
 package edu.aku.abdulsajid.vasa2018.utils;
 
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.RadioGroup;
 
 /**
@@ -13,19 +13,19 @@ import android.widget.RadioGroup;
 public class Gothrough {
 
 
-    public static boolean IamHiden(ViewGroup vg) {
+    public static boolean IamHiden(LinearLayout ll) {
 
         ///Yes dear should I import Adult Section Layout
 
         /// Checkbox Celar*************************************
 
         try {
-            if (vg.getVisibility() != View.VISIBLE) {
+            if (ll.getVisibility() != View.VISIBLE) {
                 return true;
             }
 
-            for (int i = 0, count = vg.getChildCount(); i < count; ++i) {
-                View view = vg.getChildAt(i);
+            for (int i = 0, count = ll.getChildCount(); i < count; ++i) {
+                View view = ll.getChildAt(i);
 
                 if (view.getVisibility() == View.VISIBLE) {
 
@@ -50,7 +50,7 @@ public class Gothrough {
                             ((EditText) view).setError(null);
 
                             if (((EditText) view).getText().toString().trim().length() > 0) {
-                                if (i + 1 == vg.getChildCount()) {
+                                if (i + 1 == ll.getChildCount()) {
                                     return true;
                                 }
                             } else {
@@ -58,7 +58,7 @@ public class Gothrough {
                                     ((EditText) view).setError("Enter Text");
                                     return false;
                                 } else {
-                                    if (i + 1 == vg.getChildCount()) {
+                                    if (i + 1 == ll.getChildCount()) {
                                         return true;
                                     }
                                 }
@@ -74,7 +74,7 @@ public class Gothrough {
             // return true;
         }
 
-        vg.requestFocus();
+        ll.requestFocus();
 
         return false;
     }

@@ -15,7 +15,7 @@ import androidx.databinding.DataBindingUtil;
 
 import java.io.File;
 
-import edu.aku.abdulsajid.vasa2018.Global.N.N2012_N2016;
+import edu.aku.abdulsajid.vasa2018.DataTables.N.N2012_N2016;
 import edu.aku.abdulsajid.vasa2018.Other.globale;
 import edu.aku.abdulsajid.vasa2018.R;
 import edu.aku.abdulsajid.vasa2018.data.DBHelper;
@@ -194,7 +194,7 @@ public class N2321_N2322 extends AppCompatActivity {
 
     public boolean SaveData() {
 
-        edu.aku.abdulsajid.vasa2018.Global.N.N2321_N2322 n2321 = new edu.aku.abdulsajid.vasa2018.Global.N.N2321_N2322();
+        edu.aku.abdulsajid.vasa2018.DataTables.N.N2321_N2322 n2321 = new edu.aku.abdulsajid.vasa2018.DataTables.N.N2321_N2322();
 
         n2321.setN2321(bi.edN2321.getText().toString().trim().length() > 0 ? bi.edN2321.getText().toString() : "-1");
         /*n2321.setN2322(bi.rbN23221.isChecked() ? "1" : bi.rbN23222.isChecked() ? "2" : bi.rbN23223.isChecked() ? "3"

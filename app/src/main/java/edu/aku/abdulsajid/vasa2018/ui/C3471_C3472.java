@@ -285,22 +285,22 @@ public class C3471_C3472 extends AppCompatActivity implements View.OnClickListen
 
     void insert_data() {
         String query = "insert into   C3471_C3472("
-                + edu.aku.abdulsajid.vasa2018.Global.C.C3471_C3472.study_id + ","
-                + edu.aku.abdulsajid.vasa2018.Global.C.C3471_C3472.C3471 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.C.C3471_C3472.C3472_1 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.C.C3471_C3472.C3472_2 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.C.C3471_C3472.C3472_3 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.C.C3471_C3472.C3472_4 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.C.C3471_C3472.C3472_5 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.C.C3471_C3472.C3472_6 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.C.C3471_C3472.C3472_7 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.C.C3471_C3472.C3472_8 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.C.C3471_C3472.C3472_9 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.C.C3471_C3472.C3472_10 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.C.C3471_C3472.C3472_11 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.C.C3471_C3472.C3472_DK + ","
-                + edu.aku.abdulsajid.vasa2018.Global.C.C3471_C3472.C3473 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.C.C3471_C3472.STATUS + ") values ('" +
+                + edu.aku.abdulsajid.vasa2018.DataTables.C.C3471_C3472.study_id + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.C.C3471_C3472.C3471 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.C.C3471_C3472.C3472_1 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.C.C3471_C3472.C3472_2 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.C.C3471_C3472.C3472_3 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.C.C3471_C3472.C3472_4 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.C.C3471_C3472.C3472_5 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.C.C3471_C3472.C3472_6 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.C.C3471_C3472.C3472_7 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.C.C3471_C3472.C3472_8 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.C.C3471_C3472.C3472_9 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.C.C3471_C3472.C3472_10 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.C.C3471_C3472.C3472_11 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.C.C3471_C3472.C3472_DK + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.C.C3471_C3472.C3473 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.C.C3471_C3472.STATUS + ") values ('" +
 
                 study_id + "','" +
                 C3471 + "','" +

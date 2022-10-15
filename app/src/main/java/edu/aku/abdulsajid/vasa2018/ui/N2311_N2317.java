@@ -8,7 +8,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
-import edu.aku.abdulsajid.vasa2018.Global.N.N2012_N2016;
+import edu.aku.abdulsajid.vasa2018.DataTables.N.N2012_N2016;
 import edu.aku.abdulsajid.vasa2018.Other.globale;
 import edu.aku.abdulsajid.vasa2018.R;
 import edu.aku.abdulsajid.vasa2018.data.DBHelper;
@@ -83,7 +83,7 @@ public class N2311_N2317 extends AppCompatActivity {
 
     public boolean SaveData() {
 
-        edu.aku.abdulsajid.vasa2018.Global.N.N2311_N2317 n2311 = new edu.aku.abdulsajid.vasa2018.Global.N.N2311_N2317();
+        edu.aku.abdulsajid.vasa2018.DataTables.N.N2311_N2317 n2311 = new edu.aku.abdulsajid.vasa2018.DataTables.N.N2311_N2317();
 
         n2311.setN2311("");
         n2311.setN23111(bi.rbN231111.isChecked() ? "1" : bi.rbN231112.isChecked() ? "2" : bi.rbN23111DK.isChecked() ? "9" : "-1");

@@ -26,10 +26,10 @@
 
                 <!-- Radio Q1503-->
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cvQ1503"
                     style="@style/Q_CardView">
 
                     <LinearLayout
+                        android:id="@+id/llQ1503"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"

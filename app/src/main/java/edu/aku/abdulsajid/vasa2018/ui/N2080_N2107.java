@@ -10,7 +10,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
-import edu.aku.abdulsajid.vasa2018.Global.N.N2012_N2016.sub_N2012_N2016;
+import edu.aku.abdulsajid.vasa2018.DataTables.N.N2012_N2016.sub_N2012_N2016;
 import edu.aku.abdulsajid.vasa2018.Other.globale;
 import edu.aku.abdulsajid.vasa2018.R;
 import edu.aku.abdulsajid.vasa2018.data.DBHelper;
@@ -294,7 +294,7 @@ public class N2080_N2107 extends AppCompatActivity {
 
     public boolean SaveData() {
 
-        edu.aku.abdulsajid.vasa2018.Global.N.N2080_N2107 n2080 = new edu.aku.abdulsajid.vasa2018.Global.N.N2080_N2107();
+        edu.aku.abdulsajid.vasa2018.DataTables.N.N2080_N2107 n2080 = new edu.aku.abdulsajid.vasa2018.DataTables.N.N2080_N2107();
 
         n2080.setN20801(bi.rbN208011.isChecked() ? "1" : bi.rbN208012.isChecked() ? "2" : bi.rbN20801DK.isChecked() ? "9" : bi.rbN20801RA.isChecked() ? "8" : bi.cbN208016.isChecked() ? "2" : "-1");
         n2080.setN20802(bi.rbN208021.isChecked() ? "1" : bi.rbN208022.isChecked() ? "2" : bi.rbN20802DK.isChecked() ? "9" : bi.rbN20802RA.isChecked() ? "8" : bi.cbN208016.isChecked() ? "2" : "-1");

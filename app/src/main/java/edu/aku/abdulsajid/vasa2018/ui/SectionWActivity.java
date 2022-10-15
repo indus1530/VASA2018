@@ -17,8 +17,8 @@ import com.validatorcrawler.aliazaz.Validator;
 import java.util.ArrayList;
 import java.util.List;
 
-import edu.aku.abdulsajid.vasa2018.Global.RP.w204_w215;
-import edu.aku.abdulsajid.vasa2018.Global.RP.w216_w222;
+import edu.aku.abdulsajid.vasa2018.DataTables.RP.w204_w215;
+import edu.aku.abdulsajid.vasa2018.DataTables.RP.w216_w222;
 import edu.aku.abdulsajid.vasa2018.Other.globale;
 import edu.aku.abdulsajid.vasa2018.R;
 import edu.aku.abdulsajid.vasa2018.data.DBHelper;

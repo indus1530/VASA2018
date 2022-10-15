@@ -7,7 +7,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
-import edu.aku.abdulsajid.vasa2018.Global.C.C3251_C3288_A_C;
+import edu.aku.abdulsajid.vasa2018.DataTables.C.C3251_C3288_A_C;
 import edu.aku.abdulsajid.vasa2018.Other.globale;
 import edu.aku.abdulsajid.vasa2018.R;
 import edu.aku.abdulsajid.vasa2018.data.DBHelper;

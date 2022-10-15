@@ -107,7 +107,7 @@ public class N2251_N2260 extends AppCompatActivity {
 
     public boolean SaveData() {
 
-        edu.aku.abdulsajid.vasa2018.Global.N.N2251_N2260 n2251 = new edu.aku.abdulsajid.vasa2018.Global.N.N2251_N2260();
+        edu.aku.abdulsajid.vasa2018.DataTables.N.N2251_N2260 n2251 = new edu.aku.abdulsajid.vasa2018.DataTables.N.N2251_N2260();
 
         n2251.setN2251(bi.rbN22511.isChecked() ? "1" : bi.rbN22512.isChecked() ? "2" : bi.rbN2251DK.isChecked() ? "9"
                 : bi.rbN2251RA.isChecked() ? "8" : "-1");

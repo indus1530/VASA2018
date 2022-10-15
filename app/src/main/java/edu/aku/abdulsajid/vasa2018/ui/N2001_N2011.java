@@ -119,7 +119,7 @@ public class N2001_N2011 extends AppCompatActivity {
 
     public boolean SaveData() {
 
-        edu.aku.abdulsajid.vasa2018.Global.N.N2001_N2011 n2001 = new edu.aku.abdulsajid.vasa2018.Global.N.N2001_N2011();
+        edu.aku.abdulsajid.vasa2018.DataTables.N.N2001_N2011 n2001 = new edu.aku.abdulsajid.vasa2018.DataTables.N.N2001_N2011();
 
         n2001.setN2001(bi.rbN20011.isChecked() ? "1" : bi.rbN20012.isChecked() ? "2" : bi.rbN2001DK.isChecked() ? "9"
                 : bi.rbN2001RA.isChecked() ? "8" : "-1");

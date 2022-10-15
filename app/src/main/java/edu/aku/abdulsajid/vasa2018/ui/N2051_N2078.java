@@ -9,7 +9,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
-import edu.aku.abdulsajid.vasa2018.Global.N.N2001_N2011.sub_N2001_N2011;
+import edu.aku.abdulsajid.vasa2018.DataTables.N.N2001_N2011.sub_N2001_N2011;
 import edu.aku.abdulsajid.vasa2018.Other.globale;
 import edu.aku.abdulsajid.vasa2018.R;
 import edu.aku.abdulsajid.vasa2018.data.DBHelper;
@@ -128,7 +128,7 @@ public class N2051_N2078 extends AppCompatActivity {
 
     public boolean SaveData() {
 
-        edu.aku.abdulsajid.vasa2018.Global.N.N2051_N2078 n2051 = new edu.aku.abdulsajid.vasa2018.Global.N.N2051_N2078();
+        edu.aku.abdulsajid.vasa2018.DataTables.N.N2051_N2078 n2051 = new edu.aku.abdulsajid.vasa2018.DataTables.N.N2051_N2078();
 
         n2051.setN2051(bi.edN2051.getText().toString().trim().length() > 0 ? bi.edN2051.getText().toString() : "-1");
         n2051.setN2052(bi.rbN20521.isChecked() ? "1" : bi.rbN20522.isChecked() ? "2" : bi.rbN2052DK.isChecked() ? "9" : "-1");

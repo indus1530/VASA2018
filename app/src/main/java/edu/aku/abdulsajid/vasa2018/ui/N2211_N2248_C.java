@@ -14,9 +14,9 @@ import com.validatorcrawler.aliazaz.Validator;
 
 import java.util.Collection;
 
-import edu.aku.abdulsajid.vasa2018.Global.N.N2080_N2107;
-import edu.aku.abdulsajid.vasa2018.Global.N.N2211_N2248_A_C;
-import edu.aku.abdulsajid.vasa2018.Global.N.N2211_N2248_B;
+import edu.aku.abdulsajid.vasa2018.DataTables.N.N2080_N2107;
+import edu.aku.abdulsajid.vasa2018.DataTables.N.N2211_N2248_A_C;
+import edu.aku.abdulsajid.vasa2018.DataTables.N.N2211_N2248_B;
 import edu.aku.abdulsajid.vasa2018.Other.globale;
 import edu.aku.abdulsajid.vasa2018.R;
 import edu.aku.abdulsajid.vasa2018.data.DBHelper;

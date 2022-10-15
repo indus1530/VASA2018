@@ -82,7 +82,7 @@ public class N2017_N2022_3 extends AppCompatActivity {
 
     public boolean SaveData() {
 
-        edu.aku.abdulsajid.vasa2018.Global.N.N2017_N2022_3 n2017 = new edu.aku.abdulsajid.vasa2018.Global.N.N2017_N2022_3();
+        edu.aku.abdulsajid.vasa2018.DataTables.N.N2017_N2022_3 n2017 = new edu.aku.abdulsajid.vasa2018.DataTables.N.N2017_N2022_3();
 
         n2017.setN2017(bi.rbN20171.isChecked() ? "1" : bi.rbN20172.isChecked() ? "2" : bi.rbN2017DK.isChecked() ? "9"
                 : bi.rbN2017RA.isChecked() ? "8" : "-1");

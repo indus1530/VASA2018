@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import edu.aku.abdulsajid.vasa2018.Global.C.C3001_C3011;
+import edu.aku.abdulsajid.vasa2018.DataTables.C.C3001_C3011;
 import edu.aku.abdulsajid.vasa2018.Other.globale;
 import edu.aku.abdulsajid.vasa2018.R;
 import edu.aku.abdulsajid.vasa2018.data.LocalDataManager;
@@ -350,16 +350,16 @@ public class C3351_C3364 extends AppCompatActivity implements RadioButton.OnChec
         String query = "insert into C3351_C3364("
 
                 + C3001_C3011.study_id + ","
-                + edu.aku.abdulsajid.vasa2018.Global.C.C3351_C3364.C3351 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.C.C3351_C3364.C3352 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.C.C3351_C3364.C3353 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.C.C3351_C3364.C3354 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.C.C3351_C3364.C3355 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.C.C3351_C3364.C3356 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.C.C3351_C3364.C3357 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.C.C3351_C3364.C3358 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.C.C3351_C3364.C3363 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.C.C3351_C3364.C3364 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.C.C3351_C3364.C3351 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.C.C3351_C3364.C3352 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.C.C3351_C3364.C3353 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.C.C3351_C3364.C3354 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.C.C3351_C3364.C3355 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.C.C3351_C3364.C3356 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.C.C3351_C3364.C3357 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.C.C3351_C3364.C3358 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.C.C3351_C3364.C3363 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.C.C3351_C3364.C3364 + ","
                 + C3001_C3011.STATUS + ") values ('" +
 
                 study_id + "','" +

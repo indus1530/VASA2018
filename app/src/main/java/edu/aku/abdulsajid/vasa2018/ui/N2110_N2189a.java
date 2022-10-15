@@ -12,8 +12,8 @@ import androidx.databinding.DataBindingUtil;
 
 import com.validatorcrawler.aliazaz.Validator;
 
-import edu.aku.abdulsajid.vasa2018.Global.N.N2001_N2011;
-import edu.aku.abdulsajid.vasa2018.Global.N.N2051_N2078;
+import edu.aku.abdulsajid.vasa2018.DataTables.N.N2001_N2011;
+import edu.aku.abdulsajid.vasa2018.DataTables.N.N2051_N2078;
 import edu.aku.abdulsajid.vasa2018.Other.globale;
 import edu.aku.abdulsajid.vasa2018.R;
 import edu.aku.abdulsajid.vasa2018.data.DBHelper;
@@ -270,7 +270,7 @@ public class N2110_N2189a extends AppCompatActivity {
 
     public boolean SaveData() {
 
-        edu.aku.abdulsajid.vasa2018.Global.N.N2110_N2189a n2110 = new edu.aku.abdulsajid.vasa2018.Global.N.N2110_N2189a();
+        edu.aku.abdulsajid.vasa2018.DataTables.N.N2110_N2189a n2110 = new edu.aku.abdulsajid.vasa2018.DataTables.N.N2110_N2189a();
 
         n2110.setN2110(bi.rbN21101.isChecked() ? "1" : bi.rbN21102.isChecked() ? "2" : bi.rbN21103.isChecked() ? "3"
                 : bi.rbN2110OT.isChecked() ? "4" : bi.rbN2110DK.isChecked() ? "9" : "-1");

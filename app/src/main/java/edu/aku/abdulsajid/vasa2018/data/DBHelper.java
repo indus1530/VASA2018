@@ -11,25 +11,25 @@ import android.util.Log;
 import java.util.ArrayList;
 import java.util.Collection;
 
-import edu.aku.abdulsajid.vasa2018.Global.C.C3251_C3288_A_C;
-import edu.aku.abdulsajid.vasa2018.Global.C.C3251_C3288_B;
-import edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610;
-import edu.aku.abdulsajid.vasa2018.Global.N.N2001_N2011;
-import edu.aku.abdulsajid.vasa2018.Global.N.N2012_N2016;
-import edu.aku.abdulsajid.vasa2018.Global.N.N2017_N2022_3;
-import edu.aku.abdulsajid.vasa2018.Global.N.N2023_N2026;
-import edu.aku.abdulsajid.vasa2018.Global.N.N2051_N2078;
-import edu.aku.abdulsajid.vasa2018.Global.N.N2080_N2107;
-import edu.aku.abdulsajid.vasa2018.Global.N.N2110_N2189a;
-import edu.aku.abdulsajid.vasa2018.Global.N.N2190_N2191;
-import edu.aku.abdulsajid.vasa2018.Global.N.N2192_N2202;
-import edu.aku.abdulsajid.vasa2018.Global.N.N2211_N2248_A_C;
-import edu.aku.abdulsajid.vasa2018.Global.N.N2211_N2248_B;
-import edu.aku.abdulsajid.vasa2018.Global.N.N2251_N2260;
-import edu.aku.abdulsajid.vasa2018.Global.N.N2271_N2284;
-import edu.aku.abdulsajid.vasa2018.Global.N.N2291_N2304;
-import edu.aku.abdulsajid.vasa2018.Global.N.N2311_N2317;
-import edu.aku.abdulsajid.vasa2018.Global.N.N2321_N2322;
+import edu.aku.abdulsajid.vasa2018.DataTables.C.C3251_C3288_A_C;
+import edu.aku.abdulsajid.vasa2018.DataTables.C.C3251_C3288_B;
+import edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610;
+import edu.aku.abdulsajid.vasa2018.DataTables.N.N2001_N2011;
+import edu.aku.abdulsajid.vasa2018.DataTables.N.N2012_N2016;
+import edu.aku.abdulsajid.vasa2018.DataTables.N.N2017_N2022_3;
+import edu.aku.abdulsajid.vasa2018.DataTables.N.N2023_N2026;
+import edu.aku.abdulsajid.vasa2018.DataTables.N.N2051_N2078;
+import edu.aku.abdulsajid.vasa2018.DataTables.N.N2080_N2107;
+import edu.aku.abdulsajid.vasa2018.DataTables.N.N2110_N2189a;
+import edu.aku.abdulsajid.vasa2018.DataTables.N.N2190_N2191;
+import edu.aku.abdulsajid.vasa2018.DataTables.N.N2192_N2202;
+import edu.aku.abdulsajid.vasa2018.DataTables.N.N2211_N2248_A_C;
+import edu.aku.abdulsajid.vasa2018.DataTables.N.N2211_N2248_B;
+import edu.aku.abdulsajid.vasa2018.DataTables.N.N2251_N2260;
+import edu.aku.abdulsajid.vasa2018.DataTables.N.N2271_N2284;
+import edu.aku.abdulsajid.vasa2018.DataTables.N.N2291_N2304;
+import edu.aku.abdulsajid.vasa2018.DataTables.N.N2311_N2317;
+import edu.aku.abdulsajid.vasa2018.DataTables.N.N2321_N2322;
 import edu.aku.abdulsajid.vasa2018.data.A.A4001_A4014;
 import edu.aku.abdulsajid.vasa2018.data.A.A4051_A4066;
 import edu.aku.abdulsajid.vasa2018.data.A.A4067_A4080;
@@ -179,7 +179,7 @@ public class DBHelper extends SQLiteOpenHelper {
 
         SQLiteDatabase db = this.getWritableDatabase();
 
-        Cursor res = db.rawQuery("select * from " + tableName + " where study_id = " + "'" + study_id + "'" + "AND " + edu.aku.abdulsajid.vasa2018.Global.A.A4251_A4284.A4252_2 + " IN('4', '5', '6', '7')", null);
+        Cursor res = db.rawQuery("select * from " + tableName + " where study_id = " + "'" + study_id + "'" + "AND " + edu.aku.abdulsajid.vasa2018.DataTables.A.A4251_A4284.A4252_2 + " IN('4', '5', '6', '7')", null);
         return res;
     }
 

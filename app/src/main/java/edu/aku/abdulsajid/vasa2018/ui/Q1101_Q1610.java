@@ -41,7 +41,6 @@ import edu.aku.abdulsajid.vasa2018.R;
 import edu.aku.abdulsajid.vasa2018.data.DBHelper;
 import edu.aku.abdulsajid.vasa2018.data.LocalDataManager;
 import edu.aku.abdulsajid.vasa2018.utils.ClearAllcontrol;
-import edu.aku.abdulsajid.vasa2018.utils.Gothrough;
 import edu.aku.abdulsajid.vasa2018.utils.MyPreferences;
 
 public class Q1101_Q1610 extends AppCompatActivity implements View.OnClickListener, TextWatcher, AdapterView.OnItemSelectedListener {
@@ -515,9 +514,7 @@ public class Q1101_Q1610 extends AppCompatActivity implements View.OnClickListen
 
             if (ed_Q1502.getText().toString().trim().length() > 0) {
                 int total = Integer.parseInt(ed_Q1502.getText().toString().trim());
-
                 if (total < lst_q1503.size()) {
-
                     Toast.makeText(this, "Please Enter All Relative Q1503", Toast.LENGTH_LONG).show();
                     return;
                 }
@@ -697,9 +694,8 @@ public class Q1101_Q1610 extends AppCompatActivity implements View.OnClickListen
         b.setView(v);
         b.show();
 
-        final LinearLayout cvQ1503;
+        final LinearLayout llQ1503;
         final RadioGroup q1503;
-        final CardView cvQ1503_OT;
         final EditText ed_Q1503_OT;
         final TextView txt_Q1503_header;
 
@@ -739,7 +735,7 @@ public class Q1101_Q1610 extends AppCompatActivity implements View.OnClickListen
 
         ed_Q1503_OT = v.findViewById(R.id.ed_Q1503_OT);
 
-        cvQ1503 = v.findViewById(R.id.cvQ1503);
+        llQ1503 = v.findViewById(R.id.llQ1503);
         /*txt_Q1503_header = v.findViewById(R.id.txt_Q1503_header);*/
 
 
@@ -756,8 +752,8 @@ public class Q1101_Q1610 extends AppCompatActivity implements View.OnClickListen
             @Override
             public void onClick(View view) {
 
-                if (!Gothrough.IamHiden(cvQ1503)) {
-                    Toast.makeText(Q1101_Q1610.this, "Select Mendatory Field", Toast.LENGTH_LONG).show();
+                if (!Validator.emptyCheckingContainer(getBaseContext(), llQ1503)) {
+                    Toast.makeText(Q1101_Q1610.this, "Select Mandatory Field", Toast.LENGTH_LONG).show();
                     return;
                 }
 
@@ -793,11 +789,7 @@ public class Q1101_Q1610 extends AppCompatActivity implements View.OnClickListen
                     lst_q1503.add("14");
                     lst_other.add(ed_Q1503_OT.getText().toString().trim());
                 }
-
-
                 b.cancel();
-
-
             }
 
 
@@ -1671,93 +1663,93 @@ public class Q1101_Q1610 extends AppCompatActivity implements View.OnClickListen
     void insert_data() {
 
         String query = "insert into Q1101_Q1610("
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.study_id + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1201_1 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1201_2 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1201_3 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1201_4 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1201_5 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1201_6 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1202 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1203 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1204 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1205 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1206_d + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1206_m + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1206_y + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1207 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1208 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1209 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1301 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1302 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1307 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1308 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1309 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1310 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1311 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1312 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1313 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1401 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1402 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1403 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1403_OT + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1404 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1405 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1406 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1407 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1408 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1409 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1410 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1411 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1412 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1413 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1414_1 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1414_2 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1414_3 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1414_4 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1414_5 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1414_6 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1414_7 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1414_8 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1414_9 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1414_10 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1415 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1416 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1416_OT + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1417 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1417_OT + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1418 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1418_OT + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1419 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1419_OT + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1420 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1420_OT + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1421 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1421_OT + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1501 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1502 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1503 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1503_OT + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1601 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1602 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1603 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1604 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1604_OT + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1605 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1606 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1607_1 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1607_2 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1607_3 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1608_1 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1608_2 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1608_3 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1609 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1610_1 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1610_2 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.Q1610_3 + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.interviewType + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.currentSection + ","
-                + edu.aku.abdulsajid.vasa2018.Global.GS.Q1101_Q1610.STATUS + ") values ('" +
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.study_id + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1201_1 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1201_2 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1201_3 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1201_4 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1201_5 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1201_6 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1202 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1203 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1204 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1205 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1206_d + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1206_m + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1206_y + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1207 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1208 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1209 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1301 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1302 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1307 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1308 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1309 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1310 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1311 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1312 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1313 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1401 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1402 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1403 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1403_OT + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1404 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1405 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1406 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1407 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1408 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1409 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1410 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1411 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1412 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1413 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1414_1 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1414_2 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1414_3 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1414_4 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1414_5 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1414_6 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1414_7 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1414_8 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1414_9 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1414_10 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1415 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1416 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1416_OT + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1417 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1417_OT + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1418 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1418_OT + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1419 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1419_OT + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1420 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1420_OT + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1421 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1421_OT + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1501 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1502 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1503 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1503_OT + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1601 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1602 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1603 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1604 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1604_OT + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1605 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1606 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1607_1 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1607_2 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1607_3 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1608_1 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1608_2 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1608_3 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1609 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1610_1 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1610_2 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.Q1610_3 + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.interviewType + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.currentSection + ","
+                + edu.aku.abdulsajid.vasa2018.DataTables.GS.Q1101_Q1610.STATUS + ") values ('" +
 
                 study_id + "','" +
                 Q1201_1 + "','" +

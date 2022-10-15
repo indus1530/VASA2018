@@ -120,7 +120,7 @@ public class N2190_N2191 extends AppCompatActivity {
 
     public boolean SaveData() {
 
-        edu.aku.abdulsajid.vasa2018.Global.N.N2190_N2191 n2190 = new edu.aku.abdulsajid.vasa2018.Global.N.N2190_N2191();
+        edu.aku.abdulsajid.vasa2018.DataTables.N.N2190_N2191 n2190 = new edu.aku.abdulsajid.vasa2018.DataTables.N.N2190_N2191();
 
         n2190.setN2190(bi.rbN21901.isChecked() ? "1" : bi.rbN21902.isChecked() ? "2" : bi.rbN2190DK.isChecked() ? "9"
                 : bi.rbN2190RA.isChecked() ? "8" : "-1");

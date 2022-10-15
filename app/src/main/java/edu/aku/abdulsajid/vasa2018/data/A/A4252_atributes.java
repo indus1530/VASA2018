@@ -1,6 +1,6 @@
 package edu.aku.abdulsajid.vasa2018.data.A;
 
-import edu.aku.abdulsajid.vasa2018.Global.A.A4251_A4284;
+import edu.aku.abdulsajid.vasa2018.DataTables.A.A4251_A4284;
 
 /**
  * Created by SAJID on 16/Aug/2018.

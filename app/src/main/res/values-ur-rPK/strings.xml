@@ -563,27 +563,67 @@
 
     <!-- Adult Urdu Text STARTS -->
 
-    <string name="A4001">وفات پانے والے کا پہلا نام کیا تھا ؟	:A4001</string>
-    <string name="A4002">اس کی ازدواجی حیثیت کیا تھی؟:A4002</string>
-    <string name="A4003"> کیا وہ کبھی اسکول گیاتھا/ گئی تھی ؟	:	A4003</string>
-    <string name="A4004">اس کی زیادہ سے زیادہ تعلیم کی تھی ؟ پرا ئمری،  سیکنڈری،  یا  ہا ئیر (اعلیٰ تعلیم )	:	A4004</string>
-    <string name="A4005">اس کی  اب تک کی مکمل تعلیم /گریڈ/سال  کیا ہے ؟	:	A4005</string>
-    <string name="A4006">کیا (نام)  پڑھنے لکھنے کے قابل تھا/ تھی؟	:	A4006</string>
-    <string name="A4007">وفات سے پہلے سال میں اسکی (نام) امعاشی سرگرمی کی حیثیت کیا تھی؟	:	A4007</string>
-    <string name="A4007_1">س کا پیشہ کیا تھا، یعنی کس قسم کا  کام عموما  وہ کرتی تھی ؟	:	A4007_1</string>
-    <string name="A4008">کیا (نام)   شراب  پیتا تھا/ پیتی تھی؟ 	:	A4008</string>
-    <string name="A4009a">کیا (نام)  نے تمباکو (سگریٹ ،پائپ،وغیرہ )استعمال کیا تھا؟	:	A4009a</string>
-    <string name="A4010">اس نے کس قسم کا تمباکو استعمال کیا تھا؟	:	A4010</string>
-    <string name="Q_A4011">a4011</string>
+    <string name="Q_A4001">A4001</string>
+    <string name="A4001">وفات پانے والے کا پہلا نام کیا تھا ؟</string>
+
+    <string name="Q_A4002">A4002</string>
+    <string name="A4002">اس کی ازدواجی حیثیت کیا تھی ؟</string>
+    <string name="rb_A4002_1"> سنگل</string>
+    <string name="rb_A4002_2"> شادی شدہ</string>
+    <string name="rb_A4002_3"> زندگی کا ساتھی</string>
+    <string name="rb_A4002_4"> طلاق شدہ</string>
+    <string name="rb_A4002_5"> بیوہ</string>
+    <string name="rb_A4002_6"> نا بالغ</string>
+    <string name="rb_A4002_DK">معلوم نہیں</string>
+    <string name="rb_A4002_RA">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_A4003">A4003</string>
+    <string name="A4003">کیا وہ کبھی اسکول گیا تھا / گئی تھی ؟</string>
+    <string name="rb_A4003_1">ہاں</string>
+    <string name="rb_A4003_2">نہیں</string>
+    <string name="rb_A4003_DK">معلوم نہیں</string>
+    <string name="rb_A4003_RA">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_A4004">A4004</string>
+    <string name="A4004">اس کی زیادہ سے زیادہ تعلیم کی تھی ؟ پرائمری، سیکنڈری، یا ہائیر (اعلیٰ تعلیم )</string>
+
+    <string name="Q_A4005">A4005</string>
+    <string name="A4005">اس کی اب تک کی مکمل تعلیم / گریڈ / سال کیا ہے ؟</string>
+
+    <string name="Q_A4006">A4006</string>
+    <string name="A4006">کیا (نام)  پڑھنے لکھنے کے قابل تھا / تھی ؟</string>
+
+    <string name="Q_A4007">A4007</string>
+    <string name="A4007">وفات سے پہلے سال میں اسکی (نام) امعاشی سرگرمی کی حیثیت کیا تھی ؟</string>
+
+    <string name="Q_A4007a">a4007a</string>
+    <string name="A4007_1">س کا پیشہ کیا تھا، یعنی کس قسم کا  کام عموما وہ کرتی تھی ؟</string>
+
+    <string name="Q_A4008">A4008</string>
+    <string name="A4008">کیا (نام)   شراب  پیتا تھا/ پیتی تھی ؟</string>
+
+    <string name="Q_A4009a">A4009a</string>
+    <string name="A4009a">کیا (نام)  نے تمباکو (سگریٹ، پائپ، وغیرہ) استعمال کیا تھا ؟</string>
+
+    <string name="Q_A4010">A4010</string>
+    <string name="A4010">اس نے کس قسم کا تمباکو استعمال کیا تھا ؟</string>
+
+    <string name="Q_A4011">A4011</string>
     <string name="A4011">وہ دن میں کتنی سگریٹ  پیتی تھی / پیتا تھا ؟</string>
     <string name="A4011_h">لکھیں   88  = جواب دینے سے انکار کیا ; 99= معلوم  نہیں</string>
-    <string name="A4012">وہ دن میں کتنی مرتبہ تمباکو سے بنی ہوئی اشیاء استعمال کرتی تھی یا کرتا تھا؟	:	A4012</string>
-    <string name="A4013u">مرنے سے  پہلے وہ کتنے عرصہ بیمار تھی،/ تھا ؟	:	A4013u</string>
-    <string name="A4013d">اگر صرف 30 دن سے کم ہے تودن ریکارڈ کریں ۔	:	A4013d</string>
-    <string name="A4013m">اگر ایک مہینے یا اس سے زیادہ ہو تو سال ریکارڈ کریں	:	A4013m</string>
-    <string name="A4013y">اگر ایک سال یا اس سے زیادہ ہو تو سال ریکارڈ کریں	:	A4013y</string>
-    <string name="A4014">کیا اس کی وفات  اچانک ہوئی تھی ؟  	:	A4014</string>
-    <string name="A4014_h">"اچانک" کا مطلب ہے ،  بیماری شروع ہونے کے چوبیس گھنٹوں کے اندر اندر انتقال ہوگیا</string>
+
+    <string name="Q_A4012">A4012</string>
+    <string name="A4012">وہ دن میں کتنی مرتبہ تمباکو سے بنی ہوئی اشیاء استعمال کرتی تھی یا کرتا تھا؟</string>
+
+    <string name="Q_A4013u">A4013u</string>
+    <string name="A4013u">مرنے سے  پہلے وہ کتنے عرصہ بیمار تھی / تھا ؟</string>
+    <string name="A4013d">اگر صرف 30 دن سے کم ہے تو دن ریکارڈ کریں ۔</string>
+    <string name="A4013m">اگر ایک مہینے یا اس سے زیادہ ہو تو سال ریکارڈ کریں</string>
+    <string name="A4013y">اگر ایک سال یا اس سے زیادہ ہو تو سال ریکارڈ کریں</string>
+
+    <string name="Q_A4014">A4014</string>
+    <string name="A4014">کیا اس کی وفات  اچانک ہوئی تھی ؟</string>
+    <string name="A4014_h">"اچانک" کا مطلب ہے، بیماری شروع ہونے کے چوبیس گھنٹوں کے اندر اندر انتقال ہوگیا</string>
 
     <string name="A4051">بیماری کے دوران  جو وفات کی وجہ بنی    ،    کیا (نام)  کو بخار  ہو ا تھا؟  	:	A4051</string>
     <string name="A4052_u">بخار کتنے عرصہ  رہا تھا؟	:	A4052_u</string>
@@ -1022,20 +1062,6 @@
     <!-- Adult Urdu Text ENDS -->
 
     <!-- Adult Urdu Responses STARTS -->
-
-    <string name="rb_A4002_1"> سنگل</string>
-    <string name="rb_A4002_2"> شادی شدہ</string>
-    <string name="rb_A4002_3"> زندگی کا ساتھی</string>
-    <string name="rb_A4002_4"> طلاق شدہ</string>
-    <string name="rb_A4002_5"> بیوہ</string>
-    <string name="rb_A4002_6"> نا بالغ</string>
-    <string name="rb_A4002_DK">معلوم نہیں</string>
-    <string name="rb_A4002_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4003_1">ہاں</string>
-    <string name="rb_A4003_2">نہیں</string>
-    <string name="rb_A4003_DK">معلوم نہیں</string>
-    <string name="rb_A4003_RA">جواب دینے سے انکار کیا</string>
 
     <string name="rb_A4004_1">پرائمری </string>
     <string name="rb_A4004_2">سیکنڈری</string>
