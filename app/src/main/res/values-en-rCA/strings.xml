@@ -5343,19 +5343,19 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="A4258_2">A4258_2: For health care outside a facility, \nask: \nDid the FIRST HEALTH PROVIDER reach (NAME) before s/he died ?</string>
 
 
-    <string name="Q_A4001">A4001</string>
-    <string name="A4001">What was the first or given name(s) of the deceased  ?</string>
+    <string name="Q_a4001">a4001</string>
+    <string name="a4001">What was the first or given name(s) of the deceased  ?</string>
 
-    <string name="Q_A4002">A4002</string>
-    <string name="A4002">What was her/his marital status  ?</string>
-    <string name="rb_A4002_1">Single</string>
-    <string name="rb_A4002_2">Married</string>
-    <string name="rb_A4002_3">Life-partner</string>
-    <string name="rb_A4002_4">Divorced</string>
-    <string name="rb_A4002_5"> Widowed</string>
-    <string name="rb_A4002_6">Too young to be married</string>
-    <string name="rb_A4002_DK">Don’t Know</string>
-    <string name="rb_A4002_RA">Refused to Answer</string>
+    <string name="Q_a002">a002</string>
+    <string name="a002">What was her/his marital status  ?</string>
+    <string name="a002a">Single</string>
+    <string name="a002b">Married</string>
+    <string name="a002c">Life-partner</string>
+    <string name="a002d">Divorced</string>
+    <string name="a002e"> Widowed</string>
+    <string name="a002f">Too young to be married</string>
+    <string name="a00298">Don’t Know</string>
+    <string name="a00299">Refused to Answer</string>
 
     <string name="Q_A4003">A4003</string>
     <string name="A4003">Did s/he ever attend school  ?</string>

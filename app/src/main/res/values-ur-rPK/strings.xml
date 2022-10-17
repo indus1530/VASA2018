@@ -563,19 +563,19 @@
 
     <!-- Adult Urdu Text STARTS -->
 
-    <string name="Q_A4001">A4001</string>
-    <string name="A4001">وفات پانے والے کا پہلا نام کیا تھا ؟</string>
+    <string name="Q_a4001">a4001</string>
+    <string name="a4001">وفات پانے والے کا پہلا نام کیا تھا ؟</string>
 
-    <string name="Q_A4002">A4002</string>
-    <string name="A4002">اس کی ازدواجی حیثیت کیا تھی ؟</string>
-    <string name="rb_A4002_1"> سنگل</string>
-    <string name="rb_A4002_2"> شادی شدہ</string>
-    <string name="rb_A4002_3"> زندگی کا ساتھی</string>
-    <string name="rb_A4002_4"> طلاق شدہ</string>
-    <string name="rb_A4002_5"> بیوہ</string>
-    <string name="rb_A4002_6"> نا بالغ</string>
-    <string name="rb_A4002_DK">معلوم نہیں</string>
-    <string name="rb_A4002_RA">جواب دینے سے انکار کیا</string>
+    <string name="Q_a002">a002</string>
+    <string name="a002">اس کی ازدواجی حیثیت کیا تھی ؟</string>
+    <string name="a002a"> سنگل</string>
+    <string name="a002b"> شادی شدہ</string>
+    <string name="a002c"> زندگی کا ساتھی</string>
+    <string name="a002d"> طلاق شدہ</string>
+    <string name="a002e"> بیوہ</string>
+    <string name="a002f"> نا بالغ</string>
+    <string name="a00298">معلوم نہیں</string>
+    <string name="a00299">جواب دینے سے انکار کیا</string>
 
     <string name="Q_A4003">A4003</string>
     <string name="A4003">کیا وہ کبھی اسکول گیا تھا / گئی تھی ؟</string>

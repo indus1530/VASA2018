@@ -686,7 +686,7 @@ public class Q1101_Q1610 extends AppCompatActivity implements View.OnClickListen
     void show_dailuge_Q1503() {
 
 
-        final AlertDialog b = new AlertDialog.Builder(this).create();
+        final AlertDialog b = new AlertDialog.Builder(Q1101_Q1610.this).create();
 
         LayoutInflater layoutInflater = getLayoutInflater();
         View v = layoutInflater.inflate(R.layout.dialog_q1503, null);
@@ -752,8 +752,8 @@ public class Q1101_Q1610 extends AppCompatActivity implements View.OnClickListen
             @Override
             public void onClick(View view) {
 
-                if (!Validator.emptyCheckingContainer(getBaseContext(), llQ1503)) {
-                    Toast.makeText(Q1101_Q1610.this, "Select Mandatory Field", Toast.LENGTH_LONG).show();
+                if (!Validator.emptyCheckingContainer(v.getContext(), llQ1503)) {
+                    //Toast.makeText(Q1101_Q1610.this, "Select Mandatory Field", Toast.LENGTH_LONG).show();
                     return;
                 }
 
