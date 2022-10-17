@@ -16,11 +16,11 @@ import com.validatorcrawler.aliazaz.Validator;
 import edu.aku.abdulsajid.vasa2018.Other.globale;
 import edu.aku.abdulsajid.vasa2018.R;
 import edu.aku.abdulsajid.vasa2018.data.LocalDataManager;
-import edu.aku.abdulsajid.vasa2018.databinding.A4001A4014Binding;
+import edu.aku.abdulsajid.vasa2018.databinding.ActivitySectionA01Binding;
 import edu.aku.abdulsajid.vasa2018.utils.ClearAllcontrol;
 import edu.aku.abdulsajid.vasa2018.utils.InputFilterMinMax;
 
-public class A4001_A4014 extends AppCompatActivity {
+public class SectionA01Activity extends AppCompatActivity {
 
     String
             study_id,
@@ -46,7 +46,7 @@ public class A4001_A4014 extends AppCompatActivity {
 
     int currentSection;
 
-    A4001A4014Binding bi;
+    ActivitySectionA01Binding bi;
     private final TextWatcher generalTextWatcher = new TextWatcher() {
 
         @Override
@@ -84,7 +84,7 @@ public class A4001_A4014 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        bi = DataBindingUtil.setContentView(this, R.layout.a4001__a4014);
+        bi = DataBindingUtil.setContentView(this, R.layout.activity_section_a01);
         bi.setCallback(this);
         this.setTitle(getString(R.string.h_a_sec_2_4));
         Intent getStudyId = getIntent();
@@ -184,7 +184,7 @@ public class A4001_A4014 extends AppCompatActivity {
         if (!validateField()) return;
         value_assignment();
         insert_data();
-        Intent c = new Intent(A4001_A4014.this, A4051_A4066.class);
+        Intent c = new Intent(SectionA01Activity.this, A4051_A4066.class);
         c.putExtra("study_id", study_id);
         startActivity(c);
     }

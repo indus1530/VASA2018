@@ -591,7 +591,7 @@ public class SectionWActivity extends AppCompatActivity {
 
             } else if (Integer.valueOf(res.getString(res.getColumnIndex("Q1609"))).equals(5)) {
 
-                Intent c = new Intent(this, edu.aku.abdulsajid.vasa2018.ui.A4001_A4014.class);
+                Intent c = new Intent(this, SectionA01Activity.class);
                 c.putExtra("study_id", study_id);
                 startActivity(c);
             }

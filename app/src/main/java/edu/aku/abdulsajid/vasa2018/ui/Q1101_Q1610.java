@@ -630,7 +630,7 @@ public class Q1101_Q1610 extends AppCompatActivity implements View.OnClickListen
 
                     if (Integer.valueOf(res.getString(res.getColumnIndex("Q1609"))).equals(5)) {
 
-                        Intent c = new Intent(this, A4001_A4014.class);
+                        Intent c = new Intent(this, SectionA01Activity.class);
                         c.putExtra("study_id", study_id);
                         startActivity(c);
 

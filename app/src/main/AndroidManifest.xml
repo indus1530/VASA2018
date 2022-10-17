@@ -158,7 +158,7 @@
 
         <!-- Sajid files -->
         <activity
-            android:name="edu.aku.abdulsajid.vasa2018.ui.A4001_A4014"
+            android:name="edu.aku.abdulsajid.vasa2018.ui.SectionA01Activity"
             android:screenOrientation="portrait" />
         <activity
             android:name="edu.aku.abdulsajid.vasa2018.ui.A4051_A4066"
