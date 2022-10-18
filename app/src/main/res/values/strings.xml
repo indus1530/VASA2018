@@ -5427,7 +5427,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="A4012">How many times did (s)he use tobacco products each day ?</string>
 
     <string name="Q_A4013u">A4013u</string>
-    <string name="A4013u">A4013_Units: For how long was (s)he ill before death ?</string>
+    <string name="A4013u">For how long was (s)he ill before death ?</string>
     <string name="A4013d">	اگر صرف 30 دن سے کم ہے تودن ریکارڈ کریں ۔	:	A4013d</string>
     <string name="A4013m">	اگر ایک مہینے یا اس سے زیادہ ہو تو سال ریکارڈ کریں	:	A4013m</string>
     <string name="A4013y">	اگر ایک سال یا اس سے زیادہ ہو تو سال ریکارڈ کریں	:	A4013y</string>
@@ -5438,33 +5438,163 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="ed_A4013y">Year</string>
 
     <string name="Q_A4014">A4014</string>
-    <string name="A4014">A4014: Did (s)he die suddenly ?</string>
+    <string name="A4014">Did (s)he die suddenly ?</string>
+    <string name="A4014_h">"Suddenly" means, died within twenty-four hours of the onset of illness</string>
     <string name="rb_A4014_1">Yes</string>
     <string name="rb_A4014_2">No</string>
     <string name="rb_A4014_DK">Don’t Know</string>
-    <string name="A4014_h">"اچانک" کا مطلب ہے ،  بیماری شروع ہونے کے چوبیس گھنٹوں کے اندر اندر انتقال ہوگیا</string>
 
-    <string name="A4051">A4051: During the illness that led to death, did (NAME) have a fever ?</string>
-    <string name="A4052_u">A4052_Units: How long did the fever last ?</string>
-    <string name="A4053">A4053: Did the fever continue until death ?</string>
-    <string name="A4054">A4054: How severe was the fever ?</string>
-    <string name="A4055">A4055: What was the pattern of the fever ?</string>
-    <string name="A4056">A4056: Did the deceased have night sweats ?</string>
-    <string name="A4057">A4057: Did s/he drink a lot more water than usual ?</string>
-    <string name="A4058">A4058: During the illness that led to death, did (NAME) have more frequent loose or liquid stools than usual ?</string>
-    <string name="A4059_u">A4059_Units: How long did the frequent loose or liquid stools last ?</string>
-    <string name="A4060">A4060: At any time during the fatal illness was there blood in the liquid stools ?</string>
-    <string name="A4061">A4061: Was there blood in the stools up until death ?</string>
-    <string name="A4062">A4062: During the illness that led to death, did the deceased vomit ?</string>
-    <string name="A4063">A4063: Did s/he vomit in the week preceding death ?</string>
-    <string name="A4064_u">A4064_Units: How long before death did she vomit ?</string>
-    <string name="A4064_1">A4064_1: Was there blood in the vomit ?</string>
-    <string name="A4065">A4065: Was the vomit black ?</string>
-    <string name="A4066">A4066: Did s/he have any belly (abdominal) problems ?</string>
-    <string name="A4067">A4067: Did s/he have belly (abdominal) pain ?</string>
-    <string name="A4068">A4068: Was the belly (abdominal) pain severe ?</string>
-    <string name="A4069_u">A4069_Units: For how long did s/he have belly (abdominal) pain ?</string>
-    <string name="A4070">A4070: Was the pain in the upper or lower belly (abdomen) ?</string>
+    <string name="Q_a051">a051</string>
+    <string name="a051">During the illness that led to death, did (NAME) have a fever ?</string>
+    <string name="a051a">Yes</string>
+    <string name="a051b">No</string>
+    <string name="a05198">Don’t Know</string>
+    <string name="a05199">Refused to Answer</string>
+
+    <string name="Q_a052">a052</string>
+    <string name="a052">How long did the fever last ?</string>
+    <string name="a052d">Day(s)</string>
+    <string name="a052m">Month(s)</string>
+    <string name="a05298">Don’t Know</string>
+    <string name="a05299">Refused to Answer</string>
+
+    <string name="Q_a053">a053</string>
+    <string name="a053">Did the fever continue until death ?</string>
+    <string name="a053a">Yes</string>
+    <string name="a053b">No</string>
+    <string name="a05398">Don’t Know</string>
+    <string name="a05399">Refused to Answer</string>
+
+    <string name="Q_a054">a054</string>
+    <string name="a054">How severe was the fever ?</string>
+    <string name="a054a">Mild</string>
+    <string name="a054b">Moderate</string>
+    <string name="a054c">Severe</string>
+    <string name="a05498">Don’t Know</string>
+    <string name="a05499">Refused to Answer</string>
+
+    <string name="Q_a055">a055</string>
+    <string name="a055">What was the pattern of the fever ?</string>
+    <string name="a055a">Continuous</string>
+    <string name="a055b">On and Off</string>
+    <string name="a055c">Only at Night</string>
+    <string name="a05598">Don’t Know</string>
+    <string name="a05599">Refused to Answer</string>
+
+    <string name="Q_a056">a056</string>
+    <string name="a056">Did the deceased have night sweats ?</string>
+    <string name="a056a">Yes</string>
+    <string name="a056b">No</string>
+    <string name="a05698">Don’t Know</string>
+    <string name="a05699">Refused to Answer</string>
+
+    <string name="Q_a057">a057</string>
+    <string name="a057">Did s/he drink a lot more water than usual ?</string>
+    <string name="a057a">Yes</string>
+    <string name="a057b">No</string>
+    <string name="a05798">Don’t Know</string>
+    <string name="a05799">Refused to Answer</string>
+
+    <string name="Q_a058">a058</string>
+    <string name="a058">During the illness that led to death, did (NAME) have more frequent loose or liquid stools than usual ?</string>
+    <string name="a058a">Yes</string>
+    <string name="a058b">No</string>
+    <string name="a05898">Don’t Know</string>
+    <string name="a05899">Refused to Answer</string>
+
+    <string name="Q_a059">a059</string>
+    <string name="a059">How long did the frequent loose or liquid stools last ?</string>
+    <string name="a059d">Day(s)</string>
+    <string name="a059m">Month(s)</string>
+    <string name="a05998">Don’t Know</string>
+    <string name="a05999">Refused to Answer</string>
+
+    <string name="Q_a060">a060</string>
+    <string name="a060">At any time during the fatal illness was there blood in the liquid stools ?</string>
+    <string name="a060a">Yes</string>
+    <string name="a060b">No</string>
+    <string name="a06098">Don’t Know</string>
+    <string name="a06099">Refused to Answer</string>
+
+    <string name="Q_a061">a061</string>
+    <string name="a061">Was there blood in the stools up until death ?</string>
+    <string name="a061a">Yes</string>
+    <string name="a061b">No</string>
+    <string name="a06198">Don’t Know</string>
+    <string name="a06199">Refused to Answer</string>
+
+    <string name="Q_a062">a062</string>
+    <string name="a062">During the illness that led to death, did the deceased vomit ?</string>
+    <string name="a062a">Yes</string>
+    <string name="a062b">No</string>
+    <string name="a06298">Don’t Know</string>
+    <string name="a06299">Refused to Answer</string>
+
+    <string name="Q_a063">a063</string>
+    <string name="a063">Did s/he vomit in the week preceding death ?</string>
+    <string name="a063a">Yes</string>
+    <string name="a063b">No</string>
+    <string name="a06398">Don’t Know</string>
+    <string name="a06399">Refused to Answer</string>
+
+    <string name="Q_a064">a064</string>
+    <string name="a064">How long did the frequent loose or liquid stools last ?</string>
+    <string name="a064d">Day(s)</string>
+    <string name="a064m">Month(s)</string>
+    <string name="a06498">Don’t Know</string>
+    <string name="a06499">Refused to Answer</string>
+
+    <string name="Q_a064a">a064a</string>
+    <string name="a064a">Was there blood in the vomit ?</string>
+    <string name="a064aa">Yes</string>
+    <string name="a064ab">No</string>
+    <string name="a064a98">Don’t Know</string>
+    <string name="a064a99">Refused to Answer</string>
+
+    <string name="Q_a065">a065</string>
+    <string name="a065">Was the vomit black ?</string>
+    <string name="a065a">Yes</string>
+    <string name="a065b">No</string>
+    <string name="a06598">Don’t Know</string>
+    <string name="a06599">Refused to Answer</string>
+
+    <string name="Q_a066">a066</string>
+    <string name="a066">Did s/he have any belly (abdominal) problems ?</string>
+    <string name="a066a">Yes</string>
+    <string name="a066b">No</string>
+    <string name="a06698">Don’t Know</string>
+    <string name="a06699">Refused to Answer</string>
+
+    <string name="Q_a067">a067</string>
+    <string name="a067">Did s/he have belly (abdominal) pain ?</string>
+    <string name="a067a">Yes</string>
+    <string name="a067b">No</string>
+    <string name="a06798">Don’t Know</string>
+    <string name="a06799">Refused to Answer</string>
+
+    <string name="Q_a068">a068</string>
+    <string name="a068">Was the belly (abdominal) pain severe ?</string>
+    <string name="a068a">Yes</string>
+    <string name="a068b">No</string>
+    <string name="a06898">Don’t Know</string>
+    <string name="a06899">Refused to Answer</string>
+
+    <string name="Q_a069">a069</string>
+    <string name="a069">How long did the frequent loose or liquid stools last ?</string>
+    <string name="a069d">Day(s)</string>
+    <string name="a069m">Month(s)</string>
+    <string name="a069y">Year(s)</string>
+    <string name="a06998">Don’t Know</string>
+    <string name="a06999">Refused to Answer</string>
+
+    <string name="Q_a070">a070</string>
+    <string name="a070">Was the pain in the upper or lower belly (abdomen) ?</string>
+    <string name="a070a">Upper abdomen</string>
+    <string name="a070b">Lower abdomen</string>
+    <string name="a070c">Upper and lower abdomen</string>
+    <string name="a07098">Don’t Know</string>
+    <string name="a07099">Refused to Answer</string>
+
     <string name="A4071">A4071: Did s/he have a more than usually protruding belly (abdomen) ?</string>
     <string name="A4072_u">A4072_Units: For how long before death did s/he have a more than usually protruding belly (abdomen) ?</string>
     <string name="A4073">A4073: How rapidly did s/he develop the protruding abdomen ?</string>
@@ -5752,140 +5882,6 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="A4456">A4456: Did the deceased’s spouse/partner ever have a positive HIV test ?</string>
     <string name="A4457">A4457: Was there any diagnosis by a health professional that the deceased’s spouse/partner had AIDS ?</string>
     <string name="A4472">A4472: Are any of the following words of interest mentioned in the above narrative ?</string>
-
-
-    <string name="rb_A4051_1">Yes</string>
-    <string name="rb_A4051_2">No</string>
-    <string name="rb_A4051_DK">Don’t Know</string>
-
-    <string name="rb_A4051_RA">Refused to Answer</string>
-
-    <string name="rb_A4052_u_1">Day(s)</string>
-    <string name="rb_A4052_u_2">Month(s)</string>
-    <string name="rb_A4052_u_DK">Don’t Know</string>
-
-    <string name="rb_A4052_u_RA">Refused to Answer</string>
-
-    <string name="rb_A4053_1">Yes</string>
-    <string name="rb_A4053_2">No</string>
-    <string name="rb_A4053_DK">Don’t Know</string>
-
-    <string name="rb_A4053_RA">Refused to Answer</string>
-
-    <string name="rb_A4054_1">Mild</string>
-    <string name="rb_A4054_2">Moderate</string>
-    <string name="rb_A4054_3">Severe</string>
-    <string name="rb_A4054_DK">Don’t Know</string>
-
-    <string name="rb_A4054_RA">Refused to Answer</string>
-
-    <string name="rb_A4055_1">Continuous</string>
-    <string name="rb_A4055_2">On and off</string>
-    <string name="rb_A4055_3">Only at night</string>
-    <string name="rb_A4055_DK">Don’t Know</string>
-
-    <string name="rb_A4055_RA">Refused to Answer</string>
-
-    <string name="rb_A4056_1">Yes</string>
-    <string name="rb_A4056_2">No</string>
-    <string name="rb_A4056_DK">Don’t Know</string>
-
-    <string name="rb_A4056_RA">Refused to Answer</string>
-
-    <string name="rb_A4057_1">Yes</string>
-    <string name="rb_A4057_2">No</string>
-    <string name="rb_A4057_DK">Don’t Know</string>
-
-    <string name="rb_A4057_RA">Refused to Answer</string>
-
-    <string name="rb_A4058_1">Yes</string>
-    <string name="rb_A4058_2">No</string>
-    <string name="rb_A4058_DK">Don’t Know</string>
-
-    <string name="rb_A4058_RA">Refused to Answer</string>
-
-    <string name="rb_A4059_u_1">Day(s)</string>
-    <string name="rb_A4059_u_2">Month(s)</string>
-    <string name="rb_A4059_u_DK">Don’t Know</string>
-
-    <string name="rb_A4059_u_RA">Refused to Answer</string>
-
-    <string name="rb_A4060_1">Yes</string>
-    <string name="rb_A4060_2">No</string>
-    <string name="rb_A4060_DK">Don’t Know</string>
-
-    <string name="rb_A4060_RA">Refused to Answer</string>
-
-    <string name="rb_A4061_1">Yes</string>
-    <string name="rb_A4061_2">No</string>
-    <string name="rb_A4061_DK">Don’t Know</string>
-
-    <string name="rb_A4061_RA">Refused to Answer</string>
-
-    <string name="rb_A4062_1">Yes</string>
-    <string name="rb_A4062_2">No</string>
-    <string name="rb_A4062_DK">Don’t Know</string>
-
-    <string name="rb_A4062_RA">Refused to Answer</string>
-
-    <string name="rb_A4063_1">Yes</string>
-    <string name="rb_A4063_2">No</string>
-    <string name="rb_A4063_DK">Don’t Know</string>
-
-    <string name="rb_A4063_RA">Refused to Answer</string>
-
-    <string name="rb_A4064_u_1">Day(s)</string>
-    <string name="rb_A4064_u_2">Month(s)</string>
-    <string name="rb_A4064_u_DK">Don’t Know</string>
-
-    <string name="rb_A4064_u_RA">Refused to Answer</string>
-
-    <string name="rb_A4064_a"></string>
-    <string name="rb_A4064_b"></string>
-
-    <string name="rb_A4064_1_1">Yes</string>
-    <string name="rb_A4064_1_2">No</string>
-    <string name="rb_A4064_1_DK">Don’t Know</string>
-
-    <string name="rb_A4064_1_RA">Refused to Answer</string>
-
-    <string name="rb_A4065_1">Yes</string>
-    <string name="rb_A4065_2">No</string>
-    <string name="rb_A4065_DK">Don’t Know</string>
-
-    <string name="rb_A4065_RA">Refused to Answer</string>
-
-    <string name="rb_A4066_1">Yes</string>
-    <string name="rb_A4066_2">No</string>
-    <string name="rb_A4066_DK">Don’t Know</string>
-
-    <string name="rb_A4066_RA">Refused to Answer</string>
-
-    <string name="rb_A4067_1">Yes</string>
-    <string name="rb_A4067_2">No</string>
-    <string name="rb_A4067_DK">Don’t Know</string>
-
-    <string name="rb_A4067_RA">Refused to Answer</string>
-
-    <string name="rb_A4068_1">Yes</string>
-    <string name="rb_A4068_2">No</string>
-    <string name="rb_A4068_DK">Don’t Know</string>
-
-    <string name="rb_A4068_RA">Refused to Answer</string>
-
-    <string name="rb_A4069_u_1">Hour(s)</string>
-    <string name="rb_A4069_u_2">Month(s)</string>
-    <string name="rb_A4069_u_3">Year(s)</string>
-    <string name="rb_A4069_u_DK">Don’t Know</string>
-
-    <string name="rb_A4069_u_RA">Refused to Answer</string>
-
-    <string name="rb_A4070_1">Upper abdomen</string>
-    <string name="rb_A4070_2">Lower abdomen</string>
-    <string name="rb_A4070_3">Upper and lower abdomen</string>
-    <string name="rb_A4070_DK">Don’t Know</string>
-
-    <string name="rb_A4070_RA">Refused to Answer</string>
 
     <string name="rb_A4071_1">Yes</string>
     <string name="rb_A4071_2">No</string>

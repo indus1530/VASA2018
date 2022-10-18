@@ -28,13 +28,6 @@ public class A4067_A4080 extends AppCompatActivity implements RadioButton.OnChec
 
     LinearLayout
             ll_study_id,
-            ll_A4067,
-            ll_A4068,
-            ll_A4069_u,
-            ll_A4069_a,
-            ll_A4069_b,
-            ll_A4069_c,
-            ll_A4070,
             ll_A4071,
             ll_A4072_u,
             ll_A4072_a,
@@ -53,24 +46,6 @@ public class A4067_A4080 extends AppCompatActivity implements RadioButton.OnChec
             ll_A4080;
 
     RadioButton
-            rb_A4067_1,
-            rb_A4067_2,
-            rb_A4067_DK,
-            rb_A4067_RA,
-            rb_A4068_1,
-            rb_A4068_2,
-            rb_A4068_DK,
-            rb_A4068_RA,
-            rb_A4069_u_1,
-            rb_A4069_u_2,
-            rb_A4069_u_3,
-            rb_A4069_u_DK,
-            rb_A4069_u_RA,
-            rb_A4070_1,
-            rb_A4070_2,
-            rb_A4070_3,
-            rb_A4070_DK,
-            rb_A4070_RA,
             rb_A4071_1,
             rb_A4071_2,
             rb_A4071_DK,
@@ -114,9 +89,6 @@ public class A4067_A4080 extends AppCompatActivity implements RadioButton.OnChec
 
     EditText
             ed_study_id,
-            ed_A4069_a,
-            ed_A4069_b,
-            ed_A4069_c,
             ed_A4072_a,
             ed_A4072_b,
             ed_A4075_a,
@@ -126,13 +98,6 @@ public class A4067_A4080 extends AppCompatActivity implements RadioButton.OnChec
 
     String
             study_id,
-            A4067,
-            A4068,
-            A4069_u,
-            A4069_a,
-            A4069_b,
-            A4069_c,
-            A4070,
             A4071,
             A4072_u,
             A4072_a,
@@ -160,14 +125,7 @@ public class A4067_A4080 extends AppCompatActivity implements RadioButton.OnChec
         //Button
         btn_next3 = findViewById(R.id.btn_next3);
 
-        //Linear Layout
-        ll_A4067 = findViewById(R.id.ll_A4067);
-        ll_A4068 = findViewById(R.id.ll_A4068);
-        ll_A4069_u = findViewById(R.id.ll_A4069_u);
-        ll_A4069_a = findViewById(R.id.ll_A4069_a);
-        ll_A4069_b = findViewById(R.id.ll_A4069_b);
-        ll_A4069_c = findViewById(R.id.ll_A4069_c);
-        ll_A4070 = findViewById(R.id.ll_A4070);
+        //Linear Layout_A4070);
         ll_A4071 = findViewById(R.id.ll_A4071);
         ll_A4072_u = findViewById(R.id.ll_A4072_u);
         ll_A4072_a = findViewById(R.id.ll_A4072_a);
@@ -186,24 +144,6 @@ public class A4067_A4080 extends AppCompatActivity implements RadioButton.OnChec
         ll_A4080 = findViewById(R.id.ll_A4080);
 
         //Radio Button
-        rb_A4067_1 = findViewById(R.id.rb_A4067_1);
-        rb_A4067_2 = findViewById(R.id.rb_A4067_2);
-        rb_A4067_DK = findViewById(R.id.rb_A4067_DK);
-        rb_A4067_RA = findViewById(R.id.rb_A4067_RA);
-        rb_A4068_1 = findViewById(R.id.rb_A4068_1);
-        rb_A4068_2 = findViewById(R.id.rb_A4068_2);
-        rb_A4068_DK = findViewById(R.id.rb_A4068_DK);
-        rb_A4068_RA = findViewById(R.id.rb_A4068_RA);
-        rb_A4069_u_1 = findViewById(R.id.rb_A4069_u_1);
-        rb_A4069_u_2 = findViewById(R.id.rb_A4069_u_2);
-        rb_A4069_u_3 = findViewById(R.id.rb_A4069_u_3);
-        rb_A4069_u_DK = findViewById(R.id.rb_A4069_u_DK);
-        rb_A4069_u_RA = findViewById(R.id.rb_A4069_u_RA);
-        rb_A4070_1 = findViewById(R.id.rb_A4070_1);
-        rb_A4070_2 = findViewById(R.id.rb_A4070_2);
-        rb_A4070_3 = findViewById(R.id.rb_A4070_3);
-        rb_A4070_DK = findViewById(R.id.rb_A4070_DK);
-        rb_A4070_RA = findViewById(R.id.rb_A4070_RA);
         rb_A4071_1 = findViewById(R.id.rb_A4071_1);
         rb_A4071_2 = findViewById(R.id.rb_A4071_2);
         rb_A4071_DK = findViewById(R.id.rb_A4071_DK);
@@ -246,9 +186,6 @@ public class A4067_A4080 extends AppCompatActivity implements RadioButton.OnChec
         rb_A4080_RA = findViewById(R.id.rb_A4080_RA);
 
         // Edit Text
-        ed_A4069_a = findViewById(R.id.ed_A4069_a);
-        ed_A4069_b = findViewById(R.id.ed_A4069_b);
-        ed_A4069_c = findViewById(R.id.ed_A4069_c);
         ed_A4072_a = findViewById(R.id.ed_A4072_a);
         ed_A4072_b = findViewById(R.id.ed_A4072_b);
         ed_A4075_a = findViewById(R.id.ed_A4075_a);
@@ -293,52 +230,6 @@ public class A4067_A4080 extends AppCompatActivity implements RadioButton.OnChec
 
     @Override
     public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-
-        //A4067
-        if (compoundButton.getId() == R.id.rb_A4067_1
-                || compoundButton.getId() == R.id.rb_A4067_2
-                || compoundButton.getId() == R.id.rb_A4067_DK
-                || compoundButton.getId() == R.id.rb_A4067_RA) {
-
-            if (rb_A4067_1.isChecked()) {
-                ll_A4068.setVisibility(View.VISIBLE);
-                ll_A4069_u.setVisibility(View.VISIBLE);
-                ll_A4070.setVisibility(View.VISIBLE);
-
-            } else {
-                ClearAllcontrol.ClearAll(ll_A4068);
-                ClearAllcontrol.ClearAll(ll_A4069_u);
-                ClearAllcontrol.ClearAll(ll_A4070);
-
-                ll_A4068.setVisibility(View.GONE);
-                ll_A4069_u.setVisibility(View.GONE);
-                ll_A4070.setVisibility(View.GONE);
-            }
-        }
-
-        //A4069_units
-        if (compoundButton.getId() == R.id.rb_A4069_u_1
-                || compoundButton.getId() == R.id.rb_A4069_u_2
-                || compoundButton.getId() == R.id.rb_A4069_u_3
-                || compoundButton.getId() == R.id.rb_A4069_u_DK
-                || compoundButton.getId() == R.id.rb_A4069_u_RA){
-
-                ClearAllcontrol.ClearAll(ll_A4069_a);
-                ClearAllcontrol.ClearAll(ll_A4069_b);
-                ClearAllcontrol.ClearAll(ll_A4069_c);
-
-                ll_A4069_a.setVisibility(View.GONE);
-                ll_A4069_b.setVisibility(View.GONE);
-                ll_A4069_c.setVisibility(View.GONE);
-
-            if (rb_A4069_u_1.isChecked()) {
-                ll_A4069_a.setVisibility(View.VISIBLE);
-            } else if (rb_A4069_u_2.isChecked()) {
-                ll_A4069_b.setVisibility(View.VISIBLE);
-            } else if (rb_A4069_u_3.isChecked()) {
-                ll_A4069_c.setVisibility(View.VISIBLE);
-            }
-        }
 
         //A4071
         if (compoundButton.getId() == R.id.rb_A4071_1
@@ -462,15 +353,6 @@ public class A4067_A4080 extends AppCompatActivity implements RadioButton.OnChec
 
         btn_next3.setOnClickListener(this);
 
-        rb_A4067_1.setOnCheckedChangeListener(this);
-        rb_A4067_2.setOnCheckedChangeListener(this);
-        rb_A4067_DK.setOnCheckedChangeListener(this);
-        rb_A4067_RA.setOnCheckedChangeListener(this);
-        rb_A4069_u_1.setOnCheckedChangeListener(this);
-        rb_A4069_u_2.setOnCheckedChangeListener(this);
-        rb_A4069_u_3.setOnCheckedChangeListener(this);
-        rb_A4069_u_DK.setOnCheckedChangeListener(this);
-        rb_A4069_u_RA.setOnCheckedChangeListener(this);
         rb_A4071_1.setOnCheckedChangeListener(this);
         rb_A4071_2.setOnCheckedChangeListener(this);
         rb_A4071_DK.setOnCheckedChangeListener(this);
@@ -496,10 +378,6 @@ public class A4067_A4080 extends AppCompatActivity implements RadioButton.OnChec
         rb_A4077_u_DK.setOnCheckedChangeListener(this);
         rb_A4077_u_RA.setOnCheckedChangeListener(this);
 
-        ed_A4069_a.setFilters(new InputFilter[]{new InputFilterMinMax(0, 23, 99, 99)});
-        ed_A4069_b.setFilters(new InputFilter[]{new InputFilterMinMax(1, 30, 99, 99)});
-        ed_A4069_c.setFilters(new InputFilter[]{new InputFilterMinMax(1, 998, 999, 999)});
-
         ed_A4072_a.setFilters(new InputFilter[]{new InputFilterMinMax(0, 30, 99, 99)});
         ed_A4072_b.setFilters(new InputFilter[]{new InputFilterMinMax(1, 60, 99, 99)});
 
@@ -514,13 +392,6 @@ public class A4067_A4080 extends AppCompatActivity implements RadioButton.OnChec
     void value_assignment() {
 
         study_id = "0";
-        A4067 = "-1";
-        A4068 = "-1";
-        A4069_u = "-1";
-        A4069_a = "-1";
-        A4069_b = "-1";
-        A4069_c = "-1";
-        A4070 = "-1";
         A4071 = "-1";
         A4072_u = "-1";
         A4072_a = "-1";
@@ -543,83 +414,6 @@ public class A4067_A4080 extends AppCompatActivity implements RadioButton.OnChec
         if (ed_study_id.getText().toString().length() > 0) {
 
             study_id = ed_study_id.getText().toString().trim();
-        }
-
-        //A4067
-        if (rb_A4067_1.isChecked()) {
-            A4067 = "1";
-        }
-        if (rb_A4067_2.isChecked()) {
-            A4067 = "2";
-        }
-        if (rb_A4067_DK.isChecked()) {
-            A4067 = "9";
-        }
-        if (rb_A4067_RA.isChecked()) {
-            A4067 = "8";
-        }
-
-        //A4068
-        if (rb_A4068_1.isChecked()) {
-            A4068 = "1";
-        }
-        if (rb_A4068_2.isChecked()) {
-            A4068 = "2";
-        }
-        if (rb_A4068_DK.isChecked()) {
-            A4068 = "9";
-        }
-        if (rb_A4068_RA.isChecked()) {
-            A4068 = "8";
-        }
-
-        //A4069_u
-        if (rb_A4069_u_1.isChecked()) {
-            A4069_u = "1";
-        }
-        if (rb_A4069_u_2.isChecked()) {
-            A4069_u = "2";
-        }
-        if (rb_A4069_u_3.isChecked()) {
-            A4069_u = "3";
-        }
-        if (rb_A4069_u_DK.isChecked()) {
-            A4069_u = "9";
-        }
-        if (rb_A4069_u_RA.isChecked()) {
-            A4069_u = "8";
-        }
-
-        //A4069_a
-        if (ed_A4069_a.getText().toString().trim().length() > 0) {
-            A4069_a = ed_A4069_a.getText().toString().trim();
-        }
-
-        //A4069_b
-        if (ed_A4069_b.getText().toString().trim().length() > 0) {
-            A4069_b = ed_A4069_b.getText().toString().trim();
-        }
-
-        //A4069_c
-        if (ed_A4069_c.getText().toString().trim().length() > 0) {
-            A4069_c = ed_A4069_c.getText().toString().trim();
-        }
-
-        //A4070
-        if (rb_A4070_1.isChecked()) {
-            A4070 = "1";
-        }
-        if (rb_A4070_2.isChecked()) {
-            A4070 = "2";
-        }
-        if (rb_A4070_3.isChecked()) {
-            A4070 = "3";
-        }
-        if (rb_A4070_DK.isChecked()) {
-            A4070 = "9";
-        }
-        if (rb_A4070_RA.isChecked()) {
-            A4070 = "8";
         }
 
         //A4071
@@ -827,13 +621,6 @@ public class A4067_A4080 extends AppCompatActivity implements RadioButton.OnChec
                 " values ('" +
 
                 study_id + "','" +
-                A4067 + "','" +
-                A4068 + "','" +
-                A4069_u + "','" +
-                A4069_a + "','" +
-                A4069_b + "','" +
-                A4069_c + "','" +
-                A4070 + "','" +
                 A4071 + "','" +
                 A4072_u + "','" +
                 A4072_a + "','" +
@@ -864,34 +651,6 @@ public class A4067_A4080 extends AppCompatActivity implements RadioButton.OnChec
     boolean validateField() {
 
         if (Gothrough.IamHiden(ll_study_id) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4067) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4068) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4069_u) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4069_a) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4069_b) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4069_c) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4070) == false) {
             return false;
         }
 

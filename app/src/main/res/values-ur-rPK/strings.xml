@@ -596,7 +596,7 @@
     <string name="Q_A4007">A4007</string>
     <string name="A4007">وفات سے پہلے سال میں اسکی (نام) امعاشی سرگرمی کی حیثیت کیا تھی ؟</string>
 
-    <string name="Q_A4007a">a4007a</string>
+    <string name="Q_A40071">a40071</string>
     <string name="A4007_1">س کا پیشہ کیا تھا، یعنی کس قسم کا  کام عموما وہ کرتی تھی ؟</string>
 
     <string name="Q_A4008">A4008</string>
@@ -625,39 +625,159 @@
     <string name="A4014">کیا اس کی وفات  اچانک ہوئی تھی ؟</string>
     <string name="A4014_h">"اچانک" کا مطلب ہے، بیماری شروع ہونے کے چوبیس گھنٹوں کے اندر اندر انتقال ہوگیا</string>
 
-    <string name="A4051">بیماری کے دوران  جو وفات کی وجہ بنی    ،    کیا (نام)  کو بخار  ہو ا تھا؟  	:	A4051</string>
-    <string name="A4052_u">بخار کتنے عرصہ  رہا تھا؟	:	A4052_u</string>
-    <string name="A4052_b">بخار کتنے دنوں تک رہا؟	:	A4052_b</string>
-    <string name="A4052_c">بخار کتنے مہینوں  تک رہ؟	:	A4052_c</string>
-    <string name="A4053">کیا بخار وفات تک جاری رہا تھا؟	:	A4053</string>
-    <string name="A4054">بخار کتنی شدت کا تھا؟	:	A4054</string>
-    <string name="A4055">بخار کی نو عیت کیا تھی؟	:	A4055</string>
-    <string name="A4056">کیا  مرنے والے کو رات میں پسینہ آتا تھا؟	:	A4056</string>
-    <string name="A4057">کیا (اس نے ) معمول سے ذیادہ پانی پیا    تھا ؟	:	A4057</string>
-    <string name="A4058">بیماری کے دوران  جو وفات کی وجہ بنی    ،   کیا (نام) نے معمول سے زیادہ پتلے یا پانی جیسے پاخانہ  کیے  تھے ؟	:	A4058</string>
-    <string name="A4059_u">اس کو کتنے عرصہ   پتلے یا پانی جیسے پاخانہ رہے  تھے ؟	:	A4059_u</string>
-    <string name="A4059_a">اس کو کتنے دن پتلے یا پانی جیسے پاخانہ رہے  تھے ؟	:	A4059_a</string>
-    <string name="A4059_b">اس کو کتنے مہینے پتلے یا پانی جیسے پاخانہ رہے  تھے ؟	:	A4059_b</string>
-    <string name="A4060">مہلک بیماری کے دوران کسی بھی وقت کیا پاخانے میں خون   آیا تھا؟	:	A4060</string>
-    <string name="A4061">کیا انتقال ہونے تک پاخانے میں خون آیا تھا؟	:	A4061</string>
-    <string name="A4062">بیماری کے دوران  جو وفات کی وجہ بنی    ،     کیا مرنے والے نے الٹی کی تھی؟	:	A4062 </string>
-    <string name="A4063">انتقال سے پہلے والے ہفتے میں کیا اس نے الٹیاں کی تھیں ؟	:	A4063 </string>
-    <string name="A4064_u">مرنے سے کتنےعرصہ  پہلے ،اس نے الٹیاں کیں تھی ؟	:	A4064_u</string>
-    <string name="A4064_a">مرنے سے کتنے دن پہلے ،اس نے الٹیاں کیں تھی ؟	:	A4064_a</string>
+    <string name="Q_a051">a051</string>
+    <string name="a051">بیماری کے دوران جو وفات کی وجہ بنی، کیا (نام) کو بخار ہوا تھا ؟</string>
+    <string name="a051a">ہاں</string>
+    <string name="a051b">نہیں</string>
+    <string name="a05198">معلوم نہیں</string>
+    <string name="a05199">جواب دینے سے انکار کیا</string>
 
-    <string name="A4064_b">مرنے سے کتنے مہینےپہلے ،اس نے الٹیاں کیں تھی ؟	:	A4064_b</string>
-    <string name="days_h">0–29 دن درج کریں۔ 1 دن یا 24 گھنٹے سے کم = 0 دن۔ 1 ہفتہ = 7 دن۔ پتہ نہیں = 99</string>
+    <string name="Q_a052">a052</string>
+    <string name="a052">بخار کتنے عرصہ رہا تھا ؟</string>
+    <string name="a052d">دن</string>
+    <string name="a052m">مہینے</string>
+    <string name="a05298">معلوم نہیں</string>
+    <string name="a05299">جواب دینے سے انکار کیا</string>
 
-    <string name="A4064_1">کیا  الٹی میں  خون آیا تھا ؟	:	A4064_1</string>
-    <string name="A4065">کیا الٹی کا رنگ کالا تھا؟	:	A4065</string>
-    <string name="A4066">کیا اس کو کسی قسم کی پیٹ  میں تکلیف تھی؟	:	A4066</string>
-    <string name="A4067">کیا  ا سکو پیٹ میں درد کی  شکایت تھی؟	:	A4067</string>
-    <string name="A4068">کیا پیٹ میں درد بہت شدید تھا؟	:	A4068</string>
-    <string name="A4069_u">اس کو کتنے عرصہ سے پیٹ میں درد تھا؟	:	A4069_u</string>
-    <string name="A4069_a">انتقال سے کتنے گھنٹے پہلے اسکو  پیٹ میں  درد تھا ؟	:	A4069_a</string>
-    <string name="A4069_b">انتقال سے کتنے دن پہلے اسکو  پیٹ میں درد تھا ؟	:	A4069_b </string>
-    <string name="A4069_c">انتقال سے کتنے مہینے پہلے اسکو  پیٹ میں  درد تھا ؟	:	A4069_c </string>
-    <string name="A4070">کیا درد  پیٹ  کے اوپر یا نچلے حصے  میں تھا؟	:	A4070</string>
+    <string name="Q_a053">a053</string>
+    <string name="a053">کیا بخار وفات تک جاری رہا تھا ؟</string>
+    <string name="a053a">ہاں</string>
+    <string name="a053b">نہیں</string>
+    <string name="a05398">معلوم نہیں</string>
+    <string name="a05399">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a054">a054</string>
+    <string name="a054">بخار کتنی شدت کا تھا ؟</string>
+    <string name="a054a"> ہلکا</string>
+    <string name="a054b">درمیانہ</string>
+    <string name="a054c">شدید</string>
+    <string name="a05498">معلوم نہیں</string>
+    <string name="a05499">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a055">a055</string>
+    <string name="a055">بخار کی نوعیت کیا تھی ؟</string>
+    <string name="a055a"> مسلسل</string>
+    <string name="a055b">کبھی تھا کبھی نہیں</string>
+    <string name="a055c">صرف رات میں</string>
+    <string name="a05598">معلوم نہیں</string>
+    <string name="a05599">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a056">a056</string>
+    <string name="a056">کیا مرنے والے کو رات میں پسینہ آتا تھا ؟</string>
+    <string name="a056a">ہاں</string>
+    <string name="a056b">نہیں</string>
+    <string name="a05698">معلوم نہیں</string>
+    <string name="a05699">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a057">a057</string>
+    <string name="a057">کیا (اس نے) معمول سے ذیادہ پانی پیا تھا ؟</string>
+    <string name="a057a">ہاں</string>
+    <string name="a057b">نہیں</string>
+    <string name="a05798">معلوم نہیں</string>
+    <string name="a05799">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a058">a058</string>
+    <string name="a058">بیماری کے دوران جو وفات کی وجہ بنی، کیا (نام) نے معمول سے زیادہ پتلے یا پانی جیسے پاخانہ کیے تھے ؟</string>
+    <string name="a058a">ہاں</string>
+    <string name="a058b">نہیں</string>
+    <string name="a05898">معلوم نہیں</string>
+    <string name="a05899">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a059">a059</string>
+    <string name="a059">اس کو کتنے عرصہ پتلے یا پانی جیسے پاخانہ رہے تھے ؟</string>
+    <string name="a059d">دن</string>
+    <string name="a059m">مہینے</string>
+    <string name="a05998">معلوم نہیں</string>
+    <string name="a05999">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a060">a060</string>
+    <string name="a060">مہلک بیماری کے دوران کسی بھی وقت کیا پاخانے میں خون آیا تھا ؟</string>
+    <string name="a060a">ہاں</string>
+    <string name="a060b">نہیں</string>
+    <string name="a06098">معلوم نہیں</string>
+    <string name="a06099">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a061">a061</string>
+    <string name="a061">کیا انتقال ہونے تک پاخانے میں خون آیا تھا ؟</string>
+    <string name="a061a">ہاں</string>
+    <string name="a061b">نہیں</string>
+    <string name="a06198">معلوم نہیں</string>
+    <string name="a06199">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a062">a062</string>
+    <string name="a062">بیماری کے دوران جو وفات کی وجہ بنی، کیا مرنے والے نے الٹی کی تھی ؟</string>
+    <string name="a062a">ہاں</string>
+    <string name="a062b">نہیں</string>
+    <string name="a06298">معلوم نہیں</string>
+    <string name="a06299">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a063">a063</string>
+    <string name="a063">انتقال سے پہلے والے ہفتے میں کیا اس نے الٹیاں کی تھیں ؟</string>
+    <string name="a063a">ہاں</string>
+    <string name="a063b">نہیں</string>
+    <string name="a06398">معلوم نہیں</string>
+    <string name="a06399">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a064">a064</string>
+    <string name="a064">مرنے سے کتنے عرصہ پہلے، اس نے الٹیاں کیں تھی ؟</string>
+    <string name="a064info">0–29 دن درج کریں۔ 1 دن یا 24 گھنٹے سے کم = 0 دن۔ 1 ہفتہ = 7 دن۔ پتہ نہیں = 99</string>
+    <string name="a064d">دن</string>
+    <string name="a064m">مہینے</string>
+    <string name="a06498">معلوم نہیں</string>
+    <string name="a06499">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a064a">a064a</string>
+    <string name="a064a">کیا الٹی میں خون آیا تھا ؟</string>
+    <string name="a064aa">ہاں</string>
+    <string name="a064ab">نہیں</string>
+    <string name="a064a98">معلوم نہیں</string>
+    <string name="a064a99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a065">a065</string>
+    <string name="a065">کیا الٹی کا رنگ کالا تھا ؟</string>
+    <string name="a065a">ہاں</string>
+    <string name="a065b">نہیں</string>
+    <string name="a06598">معلوم نہیں</string>
+    <string name="a06599">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a066">a066</string>
+    <string name="a066">کیا اس کو کسی قسم کی پیٹ میں تکلیف تھی ؟</string>
+    <string name="a066a">ہاں</string>
+    <string name="a066b">نہیں</string>
+    <string name="a06698">معلوم نہیں</string>
+    <string name="a06699">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a067">a067</string>
+    <string name="a067">کیا اسکو پیٹ میں درد کی شکایت تھی ؟</string>
+    <string name="a067a">ہاں</string>
+    <string name="a067b">نہیں</string>
+    <string name="a06798">معلوم نہیں</string>
+    <string name="a06799">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a068">a068</string>
+    <string name="a068">کیا پیٹ میں درد بہت شدید تھا ؟</string>
+    <string name="a068a">ہاں</string>
+    <string name="a068b">نہیں</string>
+    <string name="a06898">معلوم نہیں</string>
+    <string name="a06899">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a069">a069</string>
+    <string name="a069">مرنے سے کتنے عرصہ پہلے، اس نے الٹیاں کیں تھی ؟</string>
+    <string name="a069info">0–29 دن درج کریں۔ 1 دن یا 24 گھنٹے سے کم = 0 دن۔ 1 ہفتہ = 7 دن۔ پتہ نہیں = 99</string>
+    <string name="a069d">دن</string>
+    <string name="a069m">مہینے</string>
+    <string name="a069y">سال</string>
+    <string name="a06998">معلوم نہیں</string>
+    <string name="a06999">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a070">a070</string>
+    <string name="a070">کیا درد پیٹ کے اوپر یا نچلے حصے میں تھا ؟</string>
+    <string name="a070a">اوپر کے حصہ میں</string>
+    <string name="a070b"> نچلے حصہ میں</string>
+    <string name="a070c">پیٹ کے اوپر اور نچلے حصہ میں</string>
+    <string name="a07098">معلوم نہیں</string>
+    <string name="a07099">جواب دینے سے انکار کیا</string>
+
     <string name="A4071">کیا پیٹ معمول سے زیادہ  پھولا  ہوا تھا؟	:	A4071 </string>
     <string name="A4072_u">انتقال سے کتنے عرصے پہلے (بچہ /بچی) کا پیٹ معمول سے زیادہ پھولا ہوا  تھا؟	:	A4072_u</string>
     <string name="A4072_a">انتقال سے کتنے دن  پہلے (بچہ /بچی) کا پیٹ معمول سے زیادہ پھولا ہوا  تھا؟	:	A4072_a</string>
@@ -1109,117 +1229,6 @@
     <string name="rb_A4014_1">ہاں</string>
     <string name="rb_A4014_2">نہیں</string>
     <string name="rb_A4014_DK">معلوم نہیں</string>
-    <string name="rb_A4051_1">ہاں</string>
-    <string name="rb_A4051_2">نہیں</string>
-    <string name="rb_A4051_DK">معلوم نہیں</string>
-    <string name="rb_A4051_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4052_u_1">دن</string>
-    <string name="rb_A4052_u_2">مپہنے</string>
-    <string name="rb_A4052_u_DK">معلوم نہیں</string>
-    <string name="rb_A4052_u_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4053_1">ہاں</string>
-    <string name="rb_A4053_2">نہیں</string>
-    <string name="rb_A4053_DK">معلوم نہیں</string>
-    <string name="rb_A4053_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4054_1"> ہلکا</string>
-    <string name="rb_A4054_2">درمیانہ</string>
-    <string name="rb_A4054_3">شدید </string>
-    <string name="rb_A4054_DK">معلوم نہیں</string>
-    <string name="rb_A4054_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4055_1"> مسلسل</string>
-    <string name="rb_A4055_2">کبھی تھا کبھی نہیں</string>
-    <string name="rb_A4055_3">صرف رات میں</string>
-    <string name="rb_A4055_DK">معلوم نہیں</string>
-    <string name="rb_A4055_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4056_1">ہاں</string>
-    <string name="rb_A4056_2">نہیں</string>
-    <string name="rb_A4056_DK">معلوم نہیں</string>
-    <string name="rb_A4056_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4057_1">ہاں</string>
-    <string name="rb_A4057_2">نہیں</string>
-    <string name="rb_A4057_DK">معلوم نہیں</string>
-    <string name="rb_A4057_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4058_1">ہاں</string>
-    <string name="rb_A4058_2">نہیں</string>
-    <string name="rb_A4058_DK">معلوم نہیں</string>
-    <string name="rb_A4058_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4059_u_1">دن</string>
-    <string name="rb_A4059_u_2">مہینے</string>
-    <string name="rb_A4059_u_DK">معلوم نہیں</string>
-    <string name="rb_A4059_u_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4060_1">ہاں</string>
-    <string name="rb_A4060_2">نہیں</string>
-    <string name="rb_A4060_DK">معلوم نہیں</string>
-    <string name="rb_A4060_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4061_1">ہاں</string>
-    <string name="rb_A4061_2">نہیں</string>
-    <string name="rb_A4061_DK">معلوم نہیں</string>
-    <string name="rb_A4061_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4062_1">ہاں</string>
-    <string name="rb_A4062_2">نہیں</string>
-    <string name="rb_A4062_DK">معلوم نہیں</string>
-    <string name="rb_A4062_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4063_1">ہاں</string>
-    <string name="rb_A4063_2">نہیں</string>
-    <string name="rb_A4063_DK">معلوم نہیں</string>
-    <string name="rb_A4063_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4064_u_1">دن</string>
-    <string name="rb_A4064_u_2">مہینے</string>
-    <string name="rb_A4064_u_DK">معلوم نہیں</string>
-    <string name="rb_A4064_u_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4064_a"></string>
-    <string name="rb_A4064_b"></string>
-
-    <string name="rb_A4064_1_1">ہاں</string>
-    <string name="rb_A4064_1_2">نہیں</string>
-    <string name="rb_A4064_1_DK">معلوم نہیں</string>
-    <string name="rb_A4064_1_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4065_1">ہاں</string>
-    <string name="rb_A4065_2">نہیں</string>
-    <string name="rb_A4065_DK">معلوم نہیں</string>
-    <string name="rb_A4065_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4066_1">ہاں</string>
-    <string name="rb_A4066_2">نہیں</string>
-    <string name="rb_A4066_DK">معلوم نہیں</string>
-    <string name="rb_A4066_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4067_1">ہاں</string>
-    <string name="rb_A4067_2">نہیں</string>
-    <string name="rb_A4067_DK">معلوم نہیں</string>
-    <string name="rb_A4067_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4068_1">ہاں</string>
-    <string name="rb_A4068_2">نہیں</string>
-    <string name="rb_A4068_DK">معلوم نہیں</string>
-    <string name="rb_A4068_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4069_u_1">گھنٹے</string>
-    <string name="rb_A4069_u_2">مہینے</string>
-    <string name="rb_A4069_u_3">سال</string>
-    <string name="rb_A4069_u_DK">معلوم نہیں</string>
-    <string name="rb_A4069_u_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4070_1">اوپر کے حصہ میں</string>
-    <string name="rb_A4070_2"> نچلے حصہ میں</string>
-    <string name="rb_A4070_3">پیٹ کے اوپر اور نچلے حصہ میں</string>
-    <string name="rb_A4070_DK">معلوم نہیں</string>
-    <string name="rb_A4070_RA">جواب دینے سے انکار کیا</string>
 
     <string name="rb_A4071_1">ہاں</string>
     <string name="rb_A4071_2">نہیں</string>

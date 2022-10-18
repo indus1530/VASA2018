@@ -197,10 +197,11 @@
 
 
                 <!-- Radio A4003-->
-                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cvA4003"
+                    style="@style/Q_CardView">
 
                     <LinearLayout
-                        android:id="@+id/ll_A4003"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
@@ -211,6 +212,7 @@
                             android:orientation="horizontal">
 
                             <TextView
+                                style="@style/quesNum"
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:text="@string/Q_A4003" />
@@ -279,6 +281,7 @@
                             android:orientation="horizontal">
 
                             <TextView
+                                style="@style/quesNum"
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:text="@string/Q_A4004" />
@@ -348,6 +351,7 @@
                             android:orientation="horizontal">
 
                             <TextView
+                                style="@style/quesNum"
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:text="@string/Q_A4005" />
