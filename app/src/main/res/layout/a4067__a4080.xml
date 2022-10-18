@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -6,6 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context=".ui.A4067_A4080">
+
 
     <ScrollView
         android:layout_width="match_parent"
@@ -22,7 +22,8 @@
 
         <LinearLayout style="@style/Q_Linerlayout_v">
 
-            <!-- EditText study_id Starts -->
+
+        <!-- EditText study_id Starts -->
             <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                 <LinearLayout
@@ -994,6 +995,7 @@
 
 
         </LinearLayout>
+
 
     </ScrollView>
 

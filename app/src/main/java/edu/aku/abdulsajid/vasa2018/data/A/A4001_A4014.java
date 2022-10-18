@@ -9,7 +9,6 @@ public class A4001_A4014 {
     public static String getCreateQuery() {
         String query;
         query = "CREATE TABLE '" + TABLE_NAME + "' ('id' INTEGER PRIMARY KEY AUTOINCREMENT, 'study_id' TEXT,   " +
-
                 edu.aku.abdulsajid.vasa2018.DataTables.A.A4001_A4014.A4001 + " TEXT," +
                 edu.aku.abdulsajid.vasa2018.DataTables.A.A4001_A4014.A4002 + " TEXT," +
                 edu.aku.abdulsajid.vasa2018.DataTables.A.A4001_A4014.A4003 + " TEXT," +
@@ -29,10 +28,7 @@ public class A4001_A4014 {
                 edu.aku.abdulsajid.vasa2018.DataTables.A.A4001_A4014.A4013y + " TEXT," +
                 edu.aku.abdulsajid.vasa2018.DataTables.A.A4001_A4014.A4014 + " TEXT," +
                 edu.aku.abdulsajid.vasa2018.DataTables.A.A4001_A4014.STATUS + " TEXT" +
-
                 ')';
-
-
         return query;
     }
 }
