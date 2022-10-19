@@ -7,11 +7,12 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.validatorcrawler.aliazaz.Validator;
+
 import edu.aku.abdulsajid.vasa2018.Other.globale;
 import edu.aku.abdulsajid.vasa2018.R;
 import edu.aku.abdulsajid.vasa2018.data.DBHelper;
 import edu.aku.abdulsajid.vasa2018.databinding.N2012N2016Binding;
-import edu.aku.abdulsajid.vasa2018.utils.Gothrough;
 
 public class N2012_N2016 extends AppCompatActivity {
 
@@ -20,27 +21,21 @@ public class N2012_N2016 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         bi = DataBindingUtil.setContentView(this, R.layout.n2012__n2016);
         bi.setCallback(this);
-
         this.setTitle(getString(R.string.h_n_sec_2_2));
-
         bi.edStudyId.setText(getIntent().getExtras().getString("study_id"));
         bi.edStudyId.setEnabled(false);
     }
 
     public void BtnContinue() {
-        if (validateField()) {
-            if (SaveData()) {
-                finish();
-                startActivity(new Intent(this, bi.rbN20161.isChecked() ? N2017_N2022_3.class : N2023_N2026.class)
-                        .putExtra("study_id", bi.edStudyId.getText().toString()));
-            } else {
-                Toast.makeText(this, "Can't add edu.aku.abdulsajid.VASMonitring.data!!", Toast.LENGTH_SHORT).show();
-            }
+        if (!validateField()) return;
+        if (SaveData()) {
+            finish();
+            startActivity(new Intent(this, bi.n2016a.isChecked() ? N2017_N2022_3.class : N2023_N2026.class)
+                    .putExtra("study_id", bi.edStudyId.getText().toString()));
         } else {
-            Toast.makeText(this, "Required fields are missing", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Can't add data!!", Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -49,15 +44,33 @@ public class N2012_N2016 extends AppCompatActivity {
 
         edu.aku.abdulsajid.vasa2018.DataTables.N.N2012_N2016 n2012 = new edu.aku.abdulsajid.vasa2018.DataTables.N.N2012_N2016();
 
-        n2012.setN2012(bi.rbN20121.isChecked() ? "1" : bi.rbN20122.isChecked() ? "2" : bi.rbN2012DK.isChecked() ? "9"
-                : bi.rbN2012RA.isChecked() ? "8" : "-1");
-        n2012.setN2013(bi.rbN20131.isChecked() ? "1" : bi.rbN20132.isChecked() ? "2" : bi.rbN2013DK.isChecked() ? "9"
-                : bi.rbN2013RA.isChecked() ? "8" : "-1");
-        n2012.setN2014(bi.rbN20141.isChecked() ? "1" : bi.rbN20142.isChecked() ? "2" : bi.rbN2014DK.isChecked() ? "9"
-                : bi.rbN2014RA.isChecked() ? "8" : "-1");
-        n2012.setN2015(bi.rbN20151.isChecked() ? "1" : bi.rbN20152.isChecked() ? "2" : bi.rbN2015DK.isChecked() ? "9"
-                : bi.rbN2015RA.isChecked() ? "8" : "-1");
-        n2012.setN2016(bi.rbN20161.isChecked() ? "1" : bi.rbN20162.isChecked() ? "2" : "-1");
+        n2012.setN2012(bi.n2012a.isChecked() ? "1"
+                : bi.n2012b.isChecked() ? "2"
+                : bi.n201298.isChecked() ? "98"
+                : bi.n201299.isChecked() ? "99"
+                : "-1");
+
+        n2012.setN2013(bi.n2013a.isChecked() ? "1"
+                : bi.n2013b.isChecked() ? "2"
+                : bi.n201398.isChecked() ? "98"
+                : bi.n201399.isChecked() ? "99"
+                : "-1");
+
+        n2012.setN2014(bi.n2014a.isChecked() ? "1"
+                : bi.n2014b.isChecked() ? "2"
+                : bi.n201498.isChecked() ? "98"
+                : bi.n201499.isChecked() ? "99"
+                : "-1");
+
+        n2012.setN2015(bi.n2015a.isChecked() ? "1"
+                : bi.n2015b.isChecked() ? "2"
+                : bi.n201598.isChecked() ? "98"
+                : bi.n201599.isChecked() ? "99"
+                : "-1");
+
+        n2012.setN2016(bi.n2016a.isChecked() ? "1"
+                : bi.n2016b.isChecked() ? "2"
+                : "-1");
 
         n2012.setSTUDYID(bi.edStudyId.getText().toString());
 
@@ -67,31 +80,11 @@ public class N2012_N2016 extends AppCompatActivity {
         return row != 0;
     }
 
+
     public Boolean validateField() {
-
-        //ll_N2012
-        if (!Gothrough.IamHiden(bi.llN2012)) {
-            return false;
-        }
-
-        //ll_N2013
-        if (!Gothrough.IamHiden(bi.llN2013)) {
-            return false;
-        }
-
-        //ll_N2014
-        if (!Gothrough.IamHiden(bi.llN2014)) {
-            return false;
-        }
-
-        //ll_N2015
-        if (!Gothrough.IamHiden(bi.llN2015)) {
-            return false;
-        }
-
-        //ll_N2016
-        return Gothrough.IamHiden(bi.llN2016);
+        return Validator.emptyCheckingContainer(this, bi.GrpName);
     }
+
 
     @Override
     public void onBackPressed() {

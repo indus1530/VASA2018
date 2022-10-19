@@ -2608,11 +2608,42 @@
     <string name="txt_N2009_4">کیا پیدائش  پر،  بچہ معمول سے بڑا  تھا ؟ (وزن 4.5کلو سے کم)	:	N2009_4</string>
     <string name="txt_N2010">وفات پانے والے /والی کا وزن پیدائش کے وقت کیا تھا؟ 	:	N2010</string>
     <string name="txt_N2011">پیدائش کے وقت کے وزن کی معلومات کا ذریعہ ریکارڈ کریں.	:	N2011</string>
-    <string name="txt_N2012">کیا بچہ زندہ پیدا ہوا یا مردہ پیدا ہوا تھا؟	:	N2012</string>
-    <string name="txt_N2013">کیا بچہ کبھی رویاتھا؟اگر تھوڑا سا بھی  رویا؟	:	N2013</string>
-    <string name="txt_N2014">کیا بچہ نے کبھی حرکت کی تھی؟	:	N2014</string>
-    <string name="txt_N2015">کیا بچہ نے سانس لی تھی؟	:	N2015</string>
-    <string name="txt_N2016">سوال نمبر ( N2012-N2015    )      پر جائیں: اگر  "مردہ" اور رویا نہیں ، حرکت نہیں کی یا سانس نہیں لی تو " مردہ  بچہ"  پر نشان لگائیں. اگر "زندہ" اور سوال N2013-N2015   = " نہیں " یا اگر "مردہ"اور سوال N2013-N2014 یا  N2015="ہاں"  ، تو ڈسکس کریں اور صحیح جواب لکھیں۔	:	N2016</string>
+
+    <string name="Q_n2012">n2012</string>
+    <string name="n2012">کیا بچہ زندہ پیدا ہوا یا مردہ پیدا ہوا تھا ؟</string>
+    <string name="n2012a">زندہ</string>
+    <string name="n2012b">مردہ</string>
+    <string name="n201298">معلوم نہیں</string>
+    <string name="n201299">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_n2013">n2013</string>
+    <string name="n2013">کیا بچہ کبھی رویا تھا اگر تھوڑا سا بھی  رویا ؟</string>
+    <string name="txt_N2122_h">اگر تو جواب دہندہ سے گفتگو کرکے اس کو طے کریں۔ N2013  = "ہاں" اگر تو یہ "مردہ بچہ" ہوسکتا ہے۔ اس لئے "مردہ بچہ" کے تعین کے سیکشن میں اسکو صحیح کریں N2013 = "نہیں"</string>
+    <string name="n2013a">ہاں</string>
+    <string name="n2013b"> نہیں</string>
+    <string name="n201398">معلوم نہیں</string>
+    <string name="n201399">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_n2014">n2014</string>
+    <string name="n2014">کیا بچہ نے کبھی حرکت کی تھی ؟</string>
+    <string name="n2014a">ہاں</string>
+    <string name="n2014b"> نہیں</string>
+    <string name="n201498">معلوم نہیں</string>
+    <string name="n201499">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_n2015">n2015</string>
+    <string name="n2015">ککیا بچہ نے سانس لی تھی ؟</string>
+    <string name="n2015a">ہاں</string>
+    <string name="n2015b"> نہیں</string>
+    <string name="n201598">معلوم نہیں</string>
+    <string name="n201599">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_n2016">n2016</string>
+    <string name="n2016">سوال نمبر (N2012-N2015) پر جائیں: اگر "مردہ" اور رویا نہیں، حرکت نہیں کی یا سانس نہیں لی تو "مردہ بچہ" پر نشان لگائیں. اگر "زندہ" اور سوال N2013-N2015 = "نہیں" یا اگر "مردہ"اور سوال N2013-N2014 یا N2015 = "ہاں"، تو ڈسکس کریں اور صحیح جواب لکھیں۔</string>
+    <string name="n2016info">اگر "زندہ" اور سوال N2013-N2015   = " نہیں " یا اگر "مردہ"اور سوال N2013-N2014 یا  N2015="ہاں"  ، تو ڈسکس کریں اور صحیح جواب لکھیں۔</string>
+    <string name="n2016a">مردہ بچہ کی پیدائش</string>
+    <string name="n2016b">زندہ پیدائش</string>
+
     <string name="txt_N2017">کیا بچہ پیدائش سے کچھ دن پہلے کوئی حرکت کررہا تھا؟	:	N2017</string>
     <string name="txt_N2018">کیا بچہ نے دردہ زہ / لیبر شروع ہونے سے پہلے    رحم/ بچہ دانی میں حرکت کرنا بند کردی تھی؟	:	N2018</string>
     <string name="txt_N2019u">دردہ زہ / لیبر شروع ہونے سے کتنی دیر پہلے (آپ نے / ماں نے) بچہ کی حرکت محسوس کی تھی؟	:	N2019u</string>
@@ -2768,7 +2799,6 @@
     <string name="txt_N2120">بچے کی پیدائش کے بعد سانس لینے میں مدد کرنے کے لیے کچھ بھی کیاگیا تھا؟	:	N2120</string>
     <string name="txt_N2121">کیا بچہ  پیدائش کے فوراً بعد رویا تھا یہاں تک کہ تھوڑا سابھی؟	:	N2121</string>
     <string name="txt_N2122">پیدائش کے کتنے منٹ  بعد بچہ پہلی بار رویا تھا؟	:	N2122</string>
-    <string name="txt_N2122_h">اگر تو جواب دہندہ سے گفتگو کرکے اس کو طے کریں۔ N2013  = "ہاں" اگر تو یہ "مردہ بچہ" ہوسکتا ہے۔ اس لئے "مردہ بچہ" کے تعین کے سیکشن میں اسکو صحیح کریں N2013 = "نہیں"</string>
     <string name="txt_N2123">کیا بچہ رونے کے کابل نہیں تھا ؟	:	N2123</string>
     <string name="txt_N2124">بچہ مرنے سے کتنے عرصہ پہلے  روتے  ہوئے چپ ہوگیا تھا؟	:	N2124</string>
     <string name="txt_N2125">کیا بچہ کو پیدائش کے بعد انکیوبیٹرمیں رکھاگیا تھا؟	:	N2125</string>
@@ -3158,29 +3188,6 @@
 
     <string name="rb_N2011_1">بچے کی صحت کا کارڈ</string>
     <string name="rb_N2011_2">جواب دہندہ نے یاد کرکے بتایا</string>
-
-    <string name="rb_N2012_1">زندہ</string>
-    <string name="rb_N2012_2">مردہ</string>
-    <string name="rb_N2012_DK">معلوم نہیں</string>
-    <string name="rb_N2012_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_N2013_1">ہاں</string>
-    <string name="rb_N2013_2">نہیں</string>
-    <string name="rb_N2013_DK">معلوم نہیں</string>
-    <string name="rb_N2013_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_N2014_1">ہاں</string>
-    <string name="rb_N2014_2">نہیں</string>
-    <string name="rb_N2014_DK">معلوم نہیں</string>
-    <string name="rb_N2014_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_N2015_1">ہاں</string>
-    <string name="rb_N2015_2">نہیں</string>
-    <string name="rb_N2015_DK">معلوم نہیں</string>
-    <string name="rb_N2015_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_N2016_1">مردہ بچہ کی پیدائش</string>
-    <string name="rb_N2016_2">زندہ پیدائش</string>
 
     <string name="rb_N2017_1">ہاں</string>
     <string name="rb_N2017_2">نہیں</string>
@@ -4799,7 +4806,7 @@
     <string name="N2009_3_h"> کلو سے کم) 1 ( وزن</string>
     <string name="N2009_4_h">کلو سے زیادہ) 4.5  ( وزن</string>
     <string name="N2010_h">وزن  کلو گرام میں بتا ئے ۔ اس صورت میں ڈیٹا انٹری کے لئے1          کلو گرام کو 1000 میں تبدیل کریں۔   اگر "معلوم نہیں "ہے تو  "            9999" لکھیں اور "انکار" کی صورت میں  تو  "  8888" لکھیں۔</string>
-    <string name="N2016_h">اگر "زندہ" اور سوال N2013-N2015   = " نہیں " یا اگر "مردہ"اور سوال N2013-N2014 یا  N2015="ہاں"  ، تو ڈسکس کریں اور صحیح جواب لکھیں۔</string>
+
     <string name="N2019u_h">اگر 23-0 گھنٹے ہوں تو  "گھنٹوں " پر لکھیں یا اگر 60-1 دن ہو تو  " دنوں "  پر لکھیں</string>
     <string name="N2019h_h">اگر ایک گھنٹہ سے کم=‘00’ گھنٹے لکھیں</string>
     <string name="N2019d_h">اگر  ایک ہفتہ=7دن لکھیں</string>

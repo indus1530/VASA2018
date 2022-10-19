@@ -131,11 +131,41 @@
     <string name="txt_N2009_4">N2009_4:	At birth, was the baby larger than usual, (weighing over 4.5 kg) ?</string>
     <string name="txt_N2010">N2010:	What was the weight of the deceased at birth ?</string>
     <string name="txt_N2011">N2011:	Record the source of the birth weight information.</string>
-    <string name="txt_N2012">N2012:	Was the child born alive or dead ?</string>
-    <string name="txt_N2013">N2013:	Did the baby ever cry ?</string>
-    <string name="txt_N2014">N2014:	Did the baby ever move ?</string>
-    <string name="txt_N2015">N2015:	Did the baby ever breathe ?</string>
-    <string name="txt_N2016">N2016:	Refer to N2012-N2015. If “Dead” &amp; no crying, movement or breathing, mark “Stillbirth.”  If “Alive” &amp; N2013-N2015= “No,” or if “Dead” and N2013-N2014 or N2015= “Yes,” then discuss &amp; correct.</string>
+
+    <string name="Q_n2012">n2012</string>
+    <string name="n2012">Was the child born alive or dead ?</string>
+    <string name="n2012a">Alive</string>
+    <string name="n2012b">Dead</string>
+    <string name="n201298">Don’t Know</string>
+    <string name="n201299">Refused to Answer</string>
+
+    <string name="Q_n2013">n2013</string>
+    <string name="n2013">Did the baby ever cry ?</string>
+    <string name="n2013a">Yes</string>
+    <string name="n2013b">No</string>
+    <string name="n201398">Don’t Know</string>
+    <string name="n201399">Refused to Answer</string>
+
+    <string name="Q_n2014">n2014</string>
+    <string name="n2014">Did the baby ever move ?</string>
+    <string name="n2014a">Yes</string>
+    <string name="n2014b">No</string>
+    <string name="n201498">Don’t Know</string>
+    <string name="n201499">Refused to Answer</string>
+
+    <string name="Q_n2015">n2015</string>
+    <string name="n2015">Did the baby ever breathe ?</string>
+    <string name="n2015a">Yes</string>
+    <string name="n2015b">No</string>
+    <string name="n201598">Don’t Know</string>
+    <string name="n201599">Refused to Answer</string>
+
+    <string name="Q_n2016">n2016</string>
+    <string name="n2016">Refer to N2012-N2015. If “Dead” &amp; no crying, movement or breathing, mark “Stillbirth.”  If “Alive” &amp; N2013-N2015= “No,” or if “Dead” and N2013-N2014 or N2015= “Yes,” then discuss &amp; correct.</string>
+    <string name="n2016info">If "alive" and question N2013-N2015 = "no" or if "dead" and question N2013-N2014 or N2015 = "yes", then discuss and write the correct answer.</string>
+    <string name="n2016a">Stillbirth</string>
+    <string name="n2016b">Live birth</string>
+
     <string name="txt_N2017">N2017:	Was the baby moving in the last few days before the birth ?</string>
     <string name="txt_N2018">N2018:	Did the baby stop moving in the womb before labor started ?</string>
     <string name="txt_N2019u">N2019u: How long before labor did you/the mother last feel the baby move ?</string>
@@ -366,29 +396,6 @@
 
     <string name="rb_N2011_1">Child’s health card</string>
     <string name="rb_N2011_2">Respondent’s recall (no health card was available or seen)</string>
-
-    <string name="rb_N2012_1">Alive</string>
-    <string name="rb_N2012_2">Dead</string>
-    <string name="rb_N2012_DK">Don’t Know</string>
-    <string name="rb_N2012_RA">Refused to Answer</string>
-
-    <string name="rb_N2013_1">Yes</string>
-    <string name="rb_N2013_2">No</string>
-    <string name="rb_N2013_DK">Don’t Know</string>
-    <string name="rb_N2013_RA">Refused to Answer</string>
-
-    <string name="rb_N2014_1">Yes</string>
-    <string name="rb_N2014_2">No</string>
-    <string name="rb_N2014_DK">Don’t Know</string>
-    <string name="rb_N2014_RA">Refused to Answer</string>
-
-    <string name="rb_N2015_1">Yes</string>
-    <string name="rb_N2015_2">No</string>
-    <string name="rb_N2015_DK">Don’t Know</string>
-    <string name="rb_N2015_RA">Refused to Answer</string>
-
-    <string name="rb_N2016_1">Stillbirth</string>
-    <string name="rb_N2016_2">Live birth</string>
 
     <string name="rb_N2017_1">Yes</string>
     <string name="rb_N2017_2">No</string>
@@ -2442,7 +2449,6 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="N2009_3_h"> کلو سے کم) 1 ( وزن</string>
     <string name="N2009_4_h">کلو سے زیادہ) 4.5  ( وزن</string>
     <string name="N2010_h">وزن کلو گرام میں بتا ئے۔ اس صورت میں ڈیٹا انٹری کے لئے 1 کلو گرام کو 1000 میں تبدیل کریں۔ اگر "معلوم نہیں" ہے تو "9999" لکھیں اور "انکار" کی صورت میں تو "8888" لکھیں۔</string>
-    <string name="N2016_h">اگر "زندہ" اور سوال N2013-N2015   = " نہیں " یا اگر "مردہ"اور سوال N2013-N2014 یا  N2015="ہاں"  ، تو ڈسکس کریں اور صحیح جواب لکھیں۔</string>
     <string name="N2019u_h">اگر 23–0 گھنٹے ہوں تو  "گھنٹوں " پر لکھیں یا اگر 60–1 دن ہو تو  " دنوں "  پر لکھیں</string>
     <string name="N2019h_h">اگر ایک گھنٹہ سے کم=‘00’ گھنٹے لکھیں</string>
     <string name="N2019d_h">اگر  ایک ہفتہ=7دن لکھیں</string>
