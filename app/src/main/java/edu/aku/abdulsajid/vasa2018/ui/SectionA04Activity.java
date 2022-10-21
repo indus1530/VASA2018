@@ -13,14 +13,15 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.validatorcrawler.aliazaz.Validator;
+
 import edu.aku.abdulsajid.vasa2018.Other.globale;
 import edu.aku.abdulsajid.vasa2018.R;
 import edu.aku.abdulsajid.vasa2018.data.LocalDataManager;
 import edu.aku.abdulsajid.vasa2018.utils.ClearAllcontrol;
-import edu.aku.abdulsajid.vasa2018.utils.Gothrough;
 import edu.aku.abdulsajid.vasa2018.utils.InputFilterMinMax;
 
-public class SectionA04Activity extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
+public class SectionA04Activity extends AppCompatActivity implements RadioButton.OnCheckedChangeListener {
 
     //Declaration
     Button
@@ -157,16 +158,6 @@ public class SectionA04Activity extends AppCompatActivity implements RadioButton
 
     void Initialization() {
 
-        //Button
-        btn_next4 = findViewById(R.id.btn_next4);
-
-        //Linear Layout
-        ll_A4081 = findViewById(R.id.ll_A4081);
-        ll_A4082_u = findViewById(R.id.ll_A4082_u);
-        ll_A4082_a = findViewById(R.id.ll_A4082_a);
-        ll_A4082_b = findViewById(R.id.ll_A4082_b);
-        ll_A4082_c = findViewById(R.id.ll_A4082_c);
-        ll_A4083 = findViewById(R.id.ll_A4083);
         ll_A4084 = findViewById(R.id.ll_A4084);
         ll_A4085_u = findViewById(R.id.ll_A4085_u);
         ll_A4085_a = findViewById(R.id.ll_A4085_a);
@@ -187,19 +178,6 @@ public class SectionA04Activity extends AppCompatActivity implements RadioButton
         ll_A4094_c = findViewById(R.id.ll_A4094_c);
 
         //Radio Button
-        rb_A4081_1 = findViewById(R.id.rb_A4081_1);
-        rb_A4081_2 = findViewById(R.id.rb_A4081_2);
-        rb_A4081_DK = findViewById(R.id.rb_A4081_DK);
-        rb_A4081_RA = findViewById(R.id.rb_A4081_RA);
-        rb_A4082_u_1 = findViewById(R.id.rb_A4082_u_1);
-        rb_A4082_u_2 = findViewById(R.id.rb_A4082_u_2);
-        rb_A4082_u_3 = findViewById(R.id.rb_A4082_u_3);
-        rb_A4082_u_DK = findViewById(R.id.rb_A4082_u_DK);
-        rb_A4082_u_RA = findViewById(R.id.rb_A4082_u_RA);
-        rb_A4083_1 = findViewById(R.id.rb_A4083_1);
-        rb_A4083_2 = findViewById(R.id.rb_A4083_2);
-        rb_A4083_DK = findViewById(R.id.rb_A4083_DK);
-        rb_A4083_RA = findViewById(R.id.rb_A4083_RA);
         rb_A4084_1 = findViewById(R.id.rb_A4084_1);
         rb_A4084_2 = findViewById(R.id.rb_A4084_2);
         rb_A4084_DK = findViewById(R.id.rb_A4084_DK);
@@ -243,9 +221,6 @@ public class SectionA04Activity extends AppCompatActivity implements RadioButton
         rb_A4094_u_RA = findViewById(R.id.rb_A4094_u_RA);
 
         // Edit Text
-        ed_A4082_a = findViewById(R.id.ed_A4082_a);
-        ed_A4082_b = findViewById(R.id.ed_A4082_b);
-        ed_A4082_c = findViewById(R.id.ed_A4082_c);
         ed_A4085_a = findViewById(R.id.ed_A4085_a);
         ed_A4085_b = findViewById(R.id.ed_A4085_b);
         ed_A4087_a = findViewById(R.id.ed_A4087_a);
@@ -276,35 +251,28 @@ public class SectionA04Activity extends AppCompatActivity implements RadioButton
         events_calls();
     }
 
-    @Override
-    public void onClick(View view) {
-        if (validateField() == false) {
-            Toast.makeText(this, "Required fields are missing", Toast.LENGTH_LONG).show();
-            return;
-        }
 
+    public void BtnContinue() {
+        if (!validateField()) return;
         value_assignment();
         insert_data();
-
-        Intent c = new Intent(SectionA04Activity.this, A4095_A4108.class);
-        c.putExtra("study_id", study_id);
-        startActivity(c);
+        startActivity(new Intent(SectionA04Activity.this, A4095_A4108.class).putExtra("study_id", study_id));
     }
+
 
     @Override
     public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
 
         //A4081
-        if (compoundButton.getId() == R.id.rb_A4081_1
-                || compoundButton.getId() == R.id.rb_A4081_2
-                || compoundButton.getId() == R.id.rb_A4081_DK
-                || compoundButton.getId() == R.id.rb_A4081_RA) {
+        if (compoundButton.getId() == R.id.a081a
+                || compoundButton.getId() == R.id.a081b
+                || compoundButton.getId() == R.id.a08198
+                || compoundButton.getId() == R.id.a08199) {
 
             if (rb_A4081_1.isChecked()) {
                 ll_A4082_u.setVisibility(View.VISIBLE);
                 ll_A4083.setVisibility(View.VISIBLE);
-            }
-            else {
+            } else {
                 ClearAllcontrol.ClearAll(ll_A4082_u);
                 ClearAllcontrol.ClearAll(ll_A4083);
                 ll_A4082_u.setVisibility(View.GONE);
@@ -313,18 +281,18 @@ public class SectionA04Activity extends AppCompatActivity implements RadioButton
         }
 
         //A4082_units
-        if (compoundButton.getId() == R.id.rb_A4082_u_1
-                || compoundButton.getId() == R.id.rb_A4082_u_2
-                || compoundButton.getId() == R.id.rb_A4082_u_3
-                || compoundButton.getId() == R.id.rb_A4082_u_DK
-                || compoundButton.getId() == R.id.rb_A4082_u_RA) {
+        if (compoundButton.getId() == R.id.a082d
+                || compoundButton.getId() == R.id.a082m
+                || compoundButton.getId() == R.id.a082y
+                || compoundButton.getId() == R.id.a08298
+                || compoundButton.getId() == R.id.a08299) {
 
-                ClearAllcontrol.ClearAll(ll_A4082_a);
-                ClearAllcontrol.ClearAll(ll_A4082_b);
-                ClearAllcontrol.ClearAll(ll_A4082_c);
-                ll_A4082_a.setVisibility(View.GONE);
-                ll_A4082_b.setVisibility(View.GONE);
-                ll_A4082_c.setVisibility(View.GONE);
+            ClearAllcontrol.ClearAll(ll_A4082_a);
+            ClearAllcontrol.ClearAll(ll_A4082_b);
+            ClearAllcontrol.ClearAll(ll_A4082_c);
+            ll_A4082_a.setVisibility(View.GONE);
+            ll_A4082_b.setVisibility(View.GONE);
+            ll_A4082_c.setVisibility(View.GONE);
 
             if (rb_A4082_u_1.isChecked()) {
                 ll_A4082_a.setVisibility(View.VISIBLE);
@@ -465,8 +433,6 @@ public class SectionA04Activity extends AppCompatActivity implements RadioButton
 
     private void events_calls() {
 
-        btn_next4.setOnClickListener(this);
-
         rb_A4081_1.setOnCheckedChangeListener(this);
         rb_A4081_2.setOnCheckedChangeListener(this);
         rb_A4081_DK.setOnCheckedChangeListener(this);
@@ -520,7 +486,14 @@ public class SectionA04Activity extends AppCompatActivity implements RadioButton
 
     void value_assignment() {
 
-        study_id = "0";
+        /*study_id = bi.edStudyId.getText().toString().length() > 0 ? bi.edStudyId.getText().toString().trim() : "0";
+
+        A4081 = bi.a071a.isChecked() ? "1"
+                : bi.a071b.isChecked() ? "2"
+                : bi.a07198.isChecked() ? "98"
+                : bi.a07199.isChecked() ? "99"
+                : "-1";*/
+
         A4081 = "-1";
         A4082_u = "-1";
         A4082_a = "-1";
@@ -867,104 +840,7 @@ public class SectionA04Activity extends AppCompatActivity implements RadioButton
     }
 
     boolean validateField() {
-
-        if (Gothrough.IamHiden(ll_study_id) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4081) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4082_u) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4082_a) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4082_b) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4082_c) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4083) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4084) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4085_u) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4085_a) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4085_b) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4086) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4087_u) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4087_a) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4087_b) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4088) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4089) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4090) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4091) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4092) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4093) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4094_u) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4094_a) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4094_b) == false) {
-            return false;
-        }
-
-        return Gothrough.IamHiden(ll_A4094_c) != false;
+        return Validator.emptyCheckingContainer(this, ll_A4081);
     }
 
     public void onBackPressed() {
