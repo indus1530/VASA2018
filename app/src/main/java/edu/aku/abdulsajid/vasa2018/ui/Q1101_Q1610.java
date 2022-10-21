@@ -884,14 +884,14 @@ public class Q1101_Q1610 extends AppCompatActivity implements View.OnClickListen
 
         // Radio Buttons
 
-        rb_Q1203_1 = findViewById(R.id.rb_Q1203_1);
-        rb_Q1203_2 = findViewById(R.id.rb_Q1203_2);
+        rb_Q1203_1 = findViewById(R.id.q1203a);
+        rb_Q1203_2 = findViewById(R.id.q1203b);
         rb_Q1207_1 = findViewById(R.id.rb_Q1207_1);
         rb_Q1207_2 = findViewById(R.id.rb_Q1207_2);
         rb_Q1207_DK = findViewById(R.id.rb_Q1207_3);
-        rb_Q1402_1 = findViewById(R.id.rb_Q1402_1);
-        rb_Q1402_2 = findViewById(R.id.rb_Q1402_2);
-        rb_Q1402_DK = findViewById(R.id.rb_Q1402_DK);
+        rb_Q1402_1 = findViewById(R.id.q1402a);
+        rb_Q1402_2 = findViewById(R.id.q1402b);
+        rb_Q1402_DK = findViewById(R.id.q140298);
         rb_Q1403_1 = findViewById(R.id.rb_Q1403_1);
         rb_Q1403_2 = findViewById(R.id.rb_Q1403_2);
         rb_Q1403_3 = findViewById(R.id.rb_Q1403_3);
@@ -909,8 +909,8 @@ public class Q1101_Q1610 extends AppCompatActivity implements View.OnClickListen
         rb_Q1404_1 = findViewById(R.id.rb_Q1404_1);
         rb_Q1404_2 = findViewById(R.id.rb_Q1404_2);
         rb_Q1404_DK = findViewById(R.id.rb_Q1404_DK);
-        rb_Q1405_1 = findViewById(R.id.rb_Q1405_1);
-        rb_Q1405_2 = findViewById(R.id.rb_Q1405_2);
+        rb_Q1405_1 = findViewById(R.id.q1405a);
+        rb_Q1405_2 = findViewById(R.id.q1405b);
         rb_Q1407_1 = findViewById(R.id.rb_Q1407_1);
         rb_Q1407_2 = findViewById(R.id.rb_Q1407_2);
         rb_Q1407_DK = findViewById(R.id.rb_Q1407_DK);
@@ -1064,7 +1064,7 @@ public class Q1101_Q1610 extends AppCompatActivity implements View.OnClickListen
         ed_Q1201_4 = findViewById(R.id.ed_Q1201_4);
         ed_Q1201_5 = findViewById(R.id.ed_Q1201_5);
         ed_Q1201_6 = findViewById(R.id.ed_Q1201_6);
-        ed_Q1202 = findViewById(R.id.ed_Q1202);
+        ed_Q1202 = findViewById(R.id.q1202);
         ed_Q1204 = findViewById(R.id.ed_Q1204);
         ed_Q1205 = findViewById(R.id.ed_Q1205);
         ed_Q1206_d = findViewById(R.id.ed_Q1206_d);
@@ -1074,8 +1074,8 @@ public class Q1101_Q1610 extends AppCompatActivity implements View.OnClickListen
         ed_Q1209 = findViewById(R.id.ed_Q1209);
         ed_Q1301 = findViewById(R.id.ed_Q1301);
         ed_Q1302 = findViewById(R.id.ed_Q1302);
-        //ed_Q1312 = findViewById(R.id.ed_Q1312);
-        //ed_Q1313 = findViewById(R.id.ed_Q1313);
+        ed_Q1312 = findViewById(R.id.q1312);
+        ed_Q1313 = findViewById(R.id.q1313);
         ed_Q1401 = findViewById(R.id.ed_Q1401);
         ed_Q1403_OT = findViewById(R.id.ed_Q1403_OT);
         ed_Q1406 = findViewById(R.id.ed_Q1406);
@@ -1209,7 +1209,7 @@ public class Q1101_Q1610 extends AppCompatActivity implements View.OnClickListen
 
         q1405.setOnCheckedChangeListener((radioGroup, i) -> {
             ll1405.setVisibility(View.VISIBLE);
-            if (i == R.id.rb_Q1405_2) {
+            if (i == R.id.q1405b) {
                 Clear.clearAllFields(ll1405);
                 ll1405.setVisibility(View.GONE);
             }
@@ -1338,7 +1338,7 @@ public class Q1101_Q1610 extends AppCompatActivity implements View.OnClickListen
         Q1201_4 = ed_Q1201_4.getText().toString().trim().length() > 0 ? ed_Q1201_4.getText().toString().trim() : "-1";
         Q1201_5 = ed_Q1201_5.getText().toString().trim().length() > 0 ? ed_Q1201_5.getText().toString().trim() : "-1";
         Q1201_6 = ed_Q1201_6.getText().toString().trim().length() > 0 ? ed_Q1201_6.getText().toString().trim() : "-1";
-        Q1202 = ed_Q1202.getText().toString().trim().length() > 0 ? ed_Q1202.getText().toString().trim() : "-1";
+        Q1202 = ed_Q1202.getText().length() > 0 ? ed_Q1202.getText().toString().trim() : "-1";
         Q1203 = rb_Q1203_1.isChecked() ? "1" : rb_Q1203_2.isChecked() ? "2" : "-1";
         Q1204 = ed_Q1204.getText().toString().trim().length() > 0 ? ed_Q1204.getText().toString().trim() : "-1";
         Q1205 = ed_Q1205.getText().toString().trim().length() > 0 ? ed_Q1205.getText().toString().trim() : "-1";

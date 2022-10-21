@@ -55,10 +55,6 @@
 
             android:screenOrientation="portrait" />
         <activity
-            android:name="edu.aku.abdulsajid.vasa2018.Other.Genifno"
-
-            android:screenOrientation="portrait" />
-        <activity
             android:name="edu.aku.abdulsajid.vasa2018.ui.C3001_C3011"
 
             android:screenOrientation="portrait" />

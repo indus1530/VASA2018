@@ -820,7 +820,7 @@
                         <TextView
                             android:id="@+id/A4013d_h"
                             style="@style/TextView_Hint"
-                            android:text="@string/days_h" />
+                            android:text="@string/A4013d_h" />
 
                         <EditText
                             android:id="@+id/ed_A4013d"

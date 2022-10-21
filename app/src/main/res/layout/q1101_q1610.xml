@@ -795,7 +795,7 @@
 
 
             <!-- EditText Q1307 Starts -->
-            <!--<android.support.v7.widget.CardView style="@style/Q_CardView">
+            <android.support.v7.widget.CardView style="@style/Q_CardView">
 
                 <LinearLayout
                     android:id="@+id/ll_Q1307"
@@ -812,16 +812,16 @@
                         android:layout_height="wrap_content"
                         android:hint="@string/txt_Q1307"
                         android:inputType="date"
-                        app:met_mask="##/##/####"/>
+                        app:met_mask="##/##/####" />
 
 
                 </LinearLayout>
 
-            </android.support.v7.widget.CardView>-->
+            </android.support.v7.widget.CardView>
             <!-- EditText Q1307 Ends -->
 
             <!-- EditText Q1308 Starts -->
-            <!--<android.support.v7.widget.CardView style="@style/Q_CardView">
+            <android.support.v7.widget.CardView style="@style/Q_CardView">
 
 
                 <LinearLayout
@@ -842,11 +842,11 @@
 
                 </LinearLayout>
 
-            </android.support.v7.widget.CardView>-->
+            </android.support.v7.widget.CardView>
             <!-- EditText Q1308 Ends -->
 
             <!-- EditText Q1309 Starts -->
-            <!--<android.support.v7.widget.CardView style="@style/Q_CardView">
+            <android.support.v7.widget.CardView style="@style/Q_CardView">
 
 
                 <LinearLayout
@@ -864,12 +864,12 @@
                         android:layout_height="wrap_content"
                         android:hint="@string/txt_Q1309"
                         android:inputType="date"
-                        app:met_mask="##/##/####"/>
+                        app:met_mask="##/##/####" />
 
 
                 </LinearLayout>
 
-            </android.support.v7.widget.CardView>-->
+            </android.support.v7.widget.CardView>
             <!-- EditText Q1309 Ends -->
 
             <!-- EditText Q1310 Start -->
