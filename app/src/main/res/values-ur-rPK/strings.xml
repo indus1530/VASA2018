@@ -2588,26 +2588,121 @@
     <string name="A4453_h">تمام مسائل کو پڑھیں اور "ہاں" ، "نہیں" یا "معلوم نہیں" پر نشان لگائیں. </string>
     <string name="A4473_h">انٹرویور: انٹرویو کو بارے میں اپنا تبصرہ اور مشاہدہ لکھیں</string>
 
-    <!-- Adult Urdu Hint‘s ENDS -->
 
-    <!-- Neonate Urdu Text STARTS -->
+    <string name="N2003info">اگر ماں انٹرویو میں موجود ہے تو یہ سوال پوچھے بغیر  "ہاں"  پر نشان لگائیں </string>
+    <string name="N2005u_h">صرف ایک یونٹ یا جواب لکھیں</string>
+    <string name="N2005d_h">24 گھنٹے سے کم ہو تو 0  دن لکھیں  دن لکھیں ، اگر ایک دن یا 0-6  </string>
+    <string name="N2005w_h"> ہفتے لکھیں  1-7   </string>
+    <string name="N2005m_h">مہینے  لکھیں  2-60</string>
+    <string name="N2006_h">سوال پڑہیں اور شروع کے پانچ جوابات کو آہستہ آہستہ پڑھیں. جواب دہندہ تمام جوابات کو سنے اور پھر جواب دے </string>
+    <string name="N2008_h">پڑھیں: " صحت  کی سہولت پر " ۔۔۔ اگر اس کی زچگی صحت کی سہولت فراہم کرے والی جگہ پر پیدا ہو ئی</string>
+    <string name="N2010_h">وزن  کلو گرام میں بتا ئے ۔ اس صورت میں ڈیٹا انٹری کے لئے1          کلو گرام کو 1000 میں تبدیل کریں۔   اگر "معلوم نہیں "ہے تو  "            9999" لکھیں اور "انکار" کی صورت میں  تو  "  8888" لکھیں۔</string>
 
-    <string name="txt_N2001">کیا ایک سے زیادہ بچوں کی پیدائش ہوئی تھی ؟	:	N2001</string>
-    <string name="txt_N2002">ترتیب پیدائش میں بچے کا نمبر پہلا،دوسرا یا  اس کے بعد  کا  تھا؟	:	N2002</string>
-    <string name="txt_N2003">کیا ماں ابھی زندہ ہے؟	:	N2003</string>
-    <string name="txt_N2004">کیا زچگی کے دوران یا  بچہ کی  پیدائش کے بعد ماں کی وفات ہوئی تھی؟	:	N2004</string>
-    <string name="txt_N2005u">زچگی کے کتنی دیر بعد ماں کی وفات ہوئی   تھی؟	:	N2005u</string>
-    <string name="txt_N2005d">زچگی کے کتنے دنوں کے  بعد ماں کی وفات ہوئی   تھی؟	:	N2005d</string>
-    <string name="txt_N2005w">زچگی کے کتنے ہفتوں کے  بعد ماں کی وفات ہوئی   تھی؟	:	N2005w</string>
-    <string name="txt_N2005m">زچگی کے کتنے مہینوں کے  بعد ماں کی وفات ہوئی   تھی؟	:	N2005m</string>
-    <string name="txt_N2006">وفات پانے والے کی پیدائش کہاں ہوئی تھی؟	:	N2006</string>
-    <string name="txt_N2008">بچہ کی پیدائش (مرکز صحت  پر) کس نے کروائی تھی؟	:	N2008</string>
-    <string name="txt_N2009_1">کیا پیدائش  پر، بچہ نارمل سا ئز کا تھا ؟	:	N2009_1</string>
-    <string name="txt_N2009_2"> کیا پیدائش  پر،  بچہ معمول سے چھوٹا تھا ؟ (وزن 2.5کلو سے کم) 	:	N2009_2</string>
-    <string name="txt_N2009_3">کیا پیدائش  پر،  بچہ معمول سے بہت زیادہ  چھوٹا تھا  ؟ (وزن 1کلو سے کم) 	:	N2009_3</string>
-    <string name="txt_N2009_4">کیا پیدائش  پر،  بچہ معمول سے بڑا  تھا ؟ (وزن 4.5کلو سے کم)	:	N2009_4</string>
-    <string name="txt_N2010">وفات پانے والے /والی کا وزن پیدائش کے وقت کیا تھا؟ 	:	N2010</string>
-    <string name="txt_N2011">پیدائش کے وقت کے وزن کی معلومات کا ذریعہ ریکارڈ کریں.	:	N2011</string>
+    <string name="Q_n2001">n2001</string>
+    <string name="n2001">کیا ایک سے زیادہ بچوں کی پیدائش ہوئی تھی ؟</string>
+    <string name="n2001a">ہاں</string>
+    <string name="n2001b">نہیں</string>
+    <string name="n200198">معلوم نہیں</string>
+    <string name="n200199">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_n2002">n2002</string>
+    <string name="n2002">ترتیب پیدائش میں بچے کا نمبر پہلا، دوسرا یا اس کے بعد کا تھا ؟</string>
+    <string name="n2002a">پہلا</string>
+    <string name="n2002b">دوسرا یا بعد میں</string>
+    <string name="n200298">معلوم نہیں</string>
+    <string name="n200299">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_n2003">n2003</string>
+    <string name="n2003">کیا ماں ابھی زندہ ہے ؟</string>
+    <string name="n2003a">ہاں</string>
+    <string name="n2003b">نہیں</string>
+    <string name="n200398">معلوم نہیں</string>
+    <string name="n200399">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_n2004">n2004</string>
+    <string name="n2004">کیا زچگی کے دوران یا بچہ کی پیدائش کے بعد ماں کی وفات ہوئی تھی ؟</string>
+    <string name="n2004a">زچگی سے پہلے</string>
+    <string name="n2004b">  زچگی کے دوران</string>
+    <string name="n2004c">زچگی کے بعد</string>
+    <string name="n200498">معلوم نہیں</string>
+    <string name="n200499">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_n2005">n2005</string>
+    <string name="n2005">زچگی کے کتنی دیر بعد ماں کی وفات ہوئی تھی ؟</string>
+    <string name="n2005d">دن</string>
+    <string name="n2005w">ہفتے</string>
+    <string name="n2005m">مہینے</string>
+    <string name="n200598">معلوم نہیں</string>
+    <string name="n200599">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_n2006">n2006</string>
+    <string name="n2006">وفات پانے والے کی پیدائش کہاں ہوئی تھی ؟</string>
+    <string name="n2006a">ماں کے گھر</string>
+    <string name="n2006b">کسی اور کے گھر</string>
+    <string name="n2006c">گورنمٹ ہسپتال</string>
+    <string name="n2006d">گورنمٹ کلینک / ہیلتھ سینٹر</string>
+    <string name="n2006e">گورنمٹ ہیلتھ پوسٹ</string>
+    <string name="n2006f">دیگر وضاحت</string>
+    <string name="n2006g">پرائیوٹ ہسپتال</string>
+    <string name="n2006h">پرائیوٹ کلینک</string>
+    <string name="n2006i"> پرائیوٹ میٹرنٹی ہوم</string>
+    <string name="n2006j">دیگر پرائیوٹ میڈیکل</string>
+    <string name="n2006k">صحت یا سہولت فراہم کرنے کے راستے پر</string>
+    <string name="n200696">دیگر(وضاحت کریں)</string>
+    <string name="n200698">معلوم نہیں</string>
+    <string name="n200699">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_n2008">n2008</string>
+    <string name="n2008">بچہ کی پیدائش (مرکز صحت پر) کس نے کروائی تھی ؟</string>
+    <string name="n2008a"> ڈاکٹر</string>
+    <string name="n2008b">نرس / مڈوائف</string>
+    <string name="n2008c">دائی</string>
+    <string name="n2008d">روایتی دائی</string>
+    <string name="n2008e"> کمیونٹی ہیلتھ ورکر</string>
+    <string name="n2008f">دوست / رشتے دار</string>
+    <string name="n2008g">کوئی نہیں</string>
+    <string name="n200896">دیگر (وضاحت کریں)</string>
+    <string name="n200898">معلوم نہیں</string>
+
+    <string name="Q_n2009a">n2009a</string>
+    <string name="n2009a">کیا پیدائش  پر، بچہ نارمل سائز کا تھا ؟</string>
+    <string name="n2009ainfo">تصویریں دکھائیں، جواب دہندہ کو وضاحت کریں کہ اگر جواب " نہیں" ہے  تب بھی کچھ مزید سوال پوچھیں جائیں گے، صرف اس بات کو یقینی بنانے کے لئے کہ کوئی اہم بات چھوٹ نہ گئی ہو۔</string>
+    <string name="n2009aa">ہاں</string>
+    <string name="n2009ab">نہیں</string>
+    <string name="n2009a98">معلوم نہیں</string>
+    <string name="n2009a99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_n2009b">n2009b</string>
+    <string name="n2009b">کیا پیدائش پر، بچہ معمول سے چھوٹا تھا ؟</string>
+    <string name="n2009binfo">وزن ڈھائی کلو سے کم</string>
+    <string name="n2009ba">ہاں</string>
+    <string name="n2009bb">نہیں</string>
+    <string name="n2009b98">معلوم نہیں</string>
+    <string name="n2009b99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_n2009c">n2009c</string>
+    <string name="n2009c">کیا پیدائش پر، بچہ معمول سے بہت زیادہ چھوٹا تھا ؟</string>
+    <string name="n2009cinfo">وزن ایک کلو سے کم</string>
+    <string name="n2009ca">ہاں</string>
+    <string name="n2009cb">نہیں</string>
+    <string name="n2009c98">معلوم نہیں</string>
+    <string name="n2009c99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_n2009d">n2009d</string>
+    <string name="n2009d">کیا پیدائش پر، بچہ معمول سے بڑا تھا ؟</string>
+    <string name="n2009dinfo">وزن ساڑھے چار کلو سے کم</string>
+    <string name="n2009da">ہاں</string>
+    <string name="n2009db">نہیں</string>
+    <string name="n2009d98">معلوم نہیں</string>
+    <string name="n2009d99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_n2010">n2010</string>
+    <string name="n2010">وفات پانے والے / والی کا وزن پیدائش کے وقت کیا تھا ؟</string>
+
+    <string name="Q_n2011">n2011</string>
+    <string name="n2011">پیدائش کے وقت کے وزن کی معلومات کا ذریعہ ریکارڈ کریں.</string>
+    <string name="n2011a">بچے کی صحت کا کارڈ</string>
+    <string name="n2011b">جواب دہندہ نے یاد کر کے بتایا</string>
 
     <string name="Q_n2012">n2012</string>
     <string name="n2012">کیا بچہ زندہ پیدا ہوا یا مردہ پیدا ہوا تھا ؟</string>
@@ -3109,85 +3204,6 @@
     <string name="rb_nml">نارمل</string>
     <string name="rb_mdm">درمیانہ</string>
     <string name="rb_abnrml">غیر معمول</string>
-
-    <!-- Neonate Urdu Text ENDS -->
-
-    <!-- Neonate Urdu Responses STARtS -->
-
-    <string name="rb_N2001_1">ہاں</string>
-    <string name="rb_N2001_2">نہیں</string>
-    <string name="rb_N2001_DK">معلوم نہیں</string>
-    <string name="rb_N2001_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_N2002_1">پہلا</string>
-    <string name="rb_N2002_2">دوسرا یا بعد میں</string>
-    <string name="rb_N2002_DK">معلوم نہیں</string>
-    <string name="rb_N2002_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_N2003_1">ہاں</string>
-    <string name="rb_N2003_2">نہیں</string>
-    <string name="rb_N2003_DK">معلوم نہیں</string>
-    <string name="rb_N2003_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_N2004_1">زچگی سے پہلے</string>
-    <string name="rb_N2004_2">  زچگی کے دوران</string>
-    <string name="rb_N2004_3">زچگی کے بعد</string>
-    <string name="rb_N2004_DK">معلوم نہیں</string>
-    <string name="rb_N2004_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_N2005u_1">دن</string>
-    <string name="rb_N2005u_2">ہفتے</string>
-    <string name="rb_N2005u_3">مہینے</string>
-    <string name="rb_N2005u_DK">معلوم نہیں</string>
-    <string name="rb_N2005u_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_N2006_1">ماں کے گھر</string>
-    <string name="rb_N2006_2">کسی اور کے گھر</string>
-    <string name="rb_N2006_3">گورنمٹ ہسپتال</string>
-    <string name="rb_N2006_4">گورنمٹ کلینک / ہیلتھ سینٹر</string>
-    <string name="rb_N2006_5">گورنمٹ ہیلتھ پوسٹ</string>
-    <string name="rb_N2006_6">دیگر وضاحت</string>
-    <string name="rb_N2006_7">پرائیوٹ ہسپتال</string>
-    <string name="rb_N2006_8">پرائیوٹ کلینک</string>
-    <string name="rb_N2006_9"> پرائیوٹ میٹرنٹی ہوم</string>
-    <string name="rb_N2006_10">دیگر پرائیوٹ میڈیکل</string>
-    <string name="rb_N2006_11">صحت یا سہولت فراہم کرنے کے راستے پر</string>
-    <string name="rb_N2006_OT">دیگر(وضاحت کریں)</string>
-    <string name="rb_N2006_DK">معلوم نہیں</string>
-    <string name="rb_N2006_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_N2008_1"> ڈاکٹر</string>
-    <string name="rb_N2008_2">نرس / مڈوائف</string>
-    <string name="rb_N2008_3">دائی</string>
-    <string name="rb_N2008_4">روایتی دائی</string>
-    <string name="rb_N2008_5"> کمیونٹی ہیلتھ ورکر</string>
-    <string name="rb_N2008_6">دوست / رشتے دار</string>
-    <string name="rb_N2008_OT">دیگر (وضاحت کریں)</string>
-    <string name="rb_N2008_8">کوئی نہیں</string>
-    <string name="rb_N2008_DK">معلوم نہیں</string>
-
-    <string name="rb_N2009_1_1">ہاں</string>
-    <string name="rb_N2009_1_2">نہیں</string>
-    <string name="rb_N2009_1_DK">معلوم نہیں</string>
-    <string name="rb_N2009_1_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_N2009_2_1">ہاں</string>
-    <string name="rb_N2009_2_2">نہیں</string>
-    <string name="rb_N2009_2_DK">معلوم نہیں</string>
-    <string name="rb_N2009_2_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_N2009_3_1">ہاں</string>
-    <string name="rb_N2009_3_2">نہیں</string>
-    <string name="rb_N2009_3_DK">معلوم نہیں</string>
-    <string name="rb_N2009_3_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_N2009_4_1">ہاں</string>
-    <string name="rb_N2009_4_2">نہیں</string>
-    <string name="rb_N2009_4_DK">معلوم نہیں</string>
-    <string name="rb_N2009_4_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_N2011_1">بچے کی صحت کا کارڈ</string>
-    <string name="rb_N2011_2">جواب دہندہ نے یاد کرکے بتایا</string>
 
     <string name="rb_N2017_1">ہاں</string>
     <string name="rb_N2017_2">نہیں</string>
@@ -4790,22 +4806,6 @@
     <string name="rb_N2247_2">نہیں</string>
     <string name="rb_N2247_DK">معلوم نہیں</string>
     <string name="rb_N2247_RA">جواب دینے سے انکار کیا</string>
-    <!-- Neonate Urdu Responses ENDS -->
-
-
-    <!-- Neonate Urdu Text HINT‘s STARTS -->
-    <string name="N2003_h">اگر ماں انٹرویو میں موجود ہے تو یہ سوال پوچھے بغیر  "ہاں"  پر نشان لگائیں </string>
-    <string name="N2005u_h">صرف ایک یونٹ یا جواب لکھیں</string>
-    <string name="N2005d_h">24 گھنٹے سے کم ہو تو 0  دن لکھیں  دن لکھیں ، اگر ایک دن یا 0-6  </string>
-    <string name="N2005w_h"> ہفتے لکھیں  1-7   </string>
-    <string name="N2005m_h">مہینے  لکھیں  2-60</string>
-    <string name="N2006_h">سوال پڑہیں اور شروع کے پانچ جوابات کو آہستہ آہستہ پڑھیں. جواب دہندہ تمام جوابات کو سنے اور پھر جواب دے </string>
-    <string name="N2008_h">پڑھیں: " صحت  کی سہولت پر " ۔۔۔ اگر اس کی زچگی صحت کی سہولت فراہم کرے والی جگہ پر پیدا ہو ئی</string>
-    <string name="N2009_1_h">تصویریں دکھائیں، جواب دہندہ کو  وضاحت کریں کہ اگر جواب " نہیں" ہے  تب بھی کچھ مزید سوال پوچھیں جائیں گے ، صرف اس بات کو  یقینی بنانے کے لئے کہ کو   ئی  اہم بات  چھوٹ نہ گئی ہو۔</string>
-    <string name="N2009_2_h">  کلو سے کم) 2.5( وزن </string>
-    <string name="N2009_3_h"> کلو سے کم) 1 ( وزن</string>
-    <string name="N2009_4_h">کلو سے زیادہ) 4.5  ( وزن</string>
-    <string name="N2010_h">وزن  کلو گرام میں بتا ئے ۔ اس صورت میں ڈیٹا انٹری کے لئے1          کلو گرام کو 1000 میں تبدیل کریں۔   اگر "معلوم نہیں "ہے تو  "            9999" لکھیں اور "انکار" کی صورت میں  تو  "  8888" لکھیں۔</string>
 
     <string name="N2019u_h">اگر 23-0 گھنٹے ہوں تو  "گھنٹوں " پر لکھیں یا اگر 60-1 دن ہو تو  " دنوں "  پر لکھیں</string>
     <string name="N2019h_h">اگر ایک گھنٹہ سے کم=‘00’ گھنٹے لکھیں</string>

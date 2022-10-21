@@ -106,31 +106,107 @@
     <string name="cmb_text">cmb_text</string>
     <string name="date_text">date_text</string>
 
+    <string name="Q_n2001">n2001</string>
+    <string name="n2001">Was the child part of a multiple birth ?</string>
+    <string name="n2001a">Yes</string>
+    <string name="n2001b">No</string>
+    <string name="n200198">Don’t Know</string>
+    <string name="n200199">Refused to Answer</string>
 
-    <string-array name="planets_array">
-        <item>Mercury</item>
-        <item>Venus</item>
-        <item>Earth</item>
-        <item>Mars</item>
-    </string-array>
+    <string name="Q_n2002">n2002</string>
+    <string name="n2002">Was the child the first, second, or later in the birth order ?</string>
+    <string name="n2002a">First</string>
+    <string name="n2002b">Second or later </string>
+    <string name="n200298">Don’t Know</string>
+    <string name="n200299">Refused to Answer</string>
 
+    <string name="Q_n2003">n2003</string>
+    <string name="n2003">Is the mother still alive ?</string>
+    <string name="n2003a">Yes</string>
+    <string name="n2003b">No</string>
+    <string name="n200398">Don’t Know</string>
+    <string name="n200399">Refused to Answer</string>
 
-    <string name="txt_N2001">N2001:	Was the child part of a multiple birth ?</string>
-    <string name="txt_N2002">N2002:	Was the child the first, second, or later in the birth order ?</string>
-    <string name="txt_N2003">N2003:	Is the mother still alive ?</string>
-    <string name="txt_N2004">N2004:	Did the mother die before, during or after the delivery ?</string>
-    <string name="txt_N2005u">N2005u: How long after the delivery did the mother die ?</string>
-    <string name="txt_N2005d">N2005d: How many days after the delivery did the mother die ?</string>
-    <string name="txt_N2005w">N2005w: How many weeks after the delivery did the mother die ?</string>
-    <string name="txt_N2005m">N2005m: How long after the delivery did the mother die ?</string>
-    <string name="txt_N2006">N2006:	Where was the deceased born ?</string>
-    <string name="txt_N2008">N2008:	Who (at the facility) delivered the baby ?</string>
-    <string name="txt_N2009_1">N2009_1:	At birth, was the baby of usual size ?</string>
-    <string name="txt_N2009_2">N2009_2:	At birth, was the baby smaller than usual, (weighing under 2.5 kg) ?</string>
-    <string name="txt_N2009_3">N2009_3:	At birth, was the baby very much smaller than usual, (weighing under 1 kg) ?</string>
-    <string name="txt_N2009_4">N2009_4:	At birth, was the baby larger than usual, (weighing over 4.5 kg) ?</string>
-    <string name="txt_N2010">N2010:	What was the weight of the deceased at birth ?</string>
-    <string name="txt_N2011">N2011:	Record the source of the birth weight information.</string>
+    <string name="Q_n2004">n2004</string>
+    <string name="n2004">Did the mother die before, during or after the delivery ?</string>
+    <string name="n2004a">Before delivery</string>
+    <string name="n2004b">During delivery</string>
+    <string name="n2004c">After delivery</string>
+    <string name="n200498">Don’t Know</string>
+    <string name="n200499">Refused to Answer</string>
+
+    <string name="Q_n2005">n2005</string>
+    <string name="n2005">How long after the delivery did the mother die ?</string>
+    <string name="n2005d">Days</string>
+    <string name="n2005w">Weeks</string>
+    <string name="n2005m">Months</string>
+    <string name="n200598">Don’t Know</string>
+    <string name="n200599">Refused to Answer</string>
+
+    <string name="Q_n2006">n2006</string>
+    <string name="n2006">Where was the deceased born ?</string>
+    <string name="n2006a">The mother’s home</string>
+    <string name="n2006b">Other home</string>
+    <string name="n2006c">Government hospital</string>
+    <string name="n2006d">Government clinic/health center</string>
+    <string name="n2006e">Government health post</string>
+    <string name="n2006f">Other public (specify)</string>
+    <string name="n2006g">Private hospital</string>
+    <string name="n2006h">Private clinic</string>
+    <string name="n2006i">Private maternity home</string>
+    <string name="n2006j">Other private medical (specify)</string>
+    <string name="n2006k">On route to a health provider or facility</string>
+    <string name="n200696">Other (specify) </string>
+    <string name="n200698">Don’t Know</string>
+    <string name="n200699">Refused to Answer</string>
+
+    <string name="Q_n2008">n2008</string>
+    <string name="n2008">Who (at the facility) delivered the baby ?</string>
+    <string name="n2008a">Doctor</string>
+    <string name="n2008b">Nurse / Midwife</string>
+    <string name="n2008c">Auxiliary midwife</string>
+    <string name="n2008d">Traditional birth attendant</string>
+    <string name="n2008e">Community health worker</string>
+    <string name="n2008f">Relative / Friend</string>
+    <string name="n2008g">No One</string>
+    <string name="n200896">Other (specify) </string>
+    <string name="n200898">Don’t Know</string>
+
+    <string name="Q_n2009a">n2009a</string>
+    <string name="n2009a">At birth, was the baby of usual size ?</string>
+    <string name="n2009aa">Yes</string>
+    <string name="n2009ab">No</string>
+    <string name="n2009a98">Don’t Know</string>
+    <string name="n2009a99">Refused to Answer</string>
+
+    <string name="Q_n2009b">n2009b</string>
+    <string name="n2009b">At birth, was the baby smaller than usual, (weighing under 2.5 kg) ?</string>
+    <string name="n2009ba">Yes</string>
+    <string name="n2009bb">No</string>
+    <string name="n2009b98">Don’t Know</string>
+    <string name="n2009b99">Refused to Answer</string>
+
+    <string name="Q_n2009c">n2009c</string>
+    <string name="n2009c">At birth, was the baby very much smaller than usual, (weighing under 1 kg) ?</string>
+    <string name="n2009ca">Yes</string>
+    <string name="n2009cb">No</string>
+    <string name="n2009c98">Don’t Know</string>
+    <string name="n2009c99">Refused to Answer</string>
+
+    <string name="Q_n2009d">n2009d</string>
+    <string name="n2009d">At birth, was the baby larger than usual, (weighing over 4.5 kg) ?</string>
+    <string name="n2009da">Yes</string>
+    <string name="n2009db">No</string>
+    <string name="n2009d98">Don’t Know</string>
+    <string name="n2009d99">Refused to Answer</string>
+
+    <string name="Q_n2010">n2010</string>
+    <string name="n2010">What was the weight of the deceased at birth ?</string>
+
+    <string name="Q_n2011">n2011</string>
+    <string name="n2011">Record the source of the birth weight information.</string>
+    <string name="n2011a">Child’s health card</string>
+    <string name="n2011b">Respondent’s recall (no health card was available or seen)</string>
 
     <string name="Q_n2012">n2012</string>
     <string name="n2012">Was the child born alive or dead ?</string>
@@ -319,83 +395,6 @@
     <string name="txt_N2107_2">N2107_2: Heavy bleeding ?</string>
     <string name="txt_N2107_3">N2107_3: Fever with smelly vaginal discharge or abdominal pain ?</string>
 
-    <!-- Responces starts  .....................  -->
-
-
-    <string name="rb_N2001_1">Yes</string>
-    <string name="rb_N2001_2">No</string>
-    <string name="rb_N2001_DK">Don’t Know</string>
-    <string name="rb_N2001_RA">Refused to Answer</string>
-
-    <string name="rb_N2002_1">First</string>
-    <string name="rb_N2002_2">Second or later </string>
-    <string name="rb_N2002_DK">Don’t Know</string>
-    <string name="rb_N2002_RA">Refused to Answer</string>
-
-    <string name="rb_N2003_1">Yes</string>
-    <string name="rb_N2003_2">No</string>
-    <string name="rb_N2003_DK">Don’t Know</string>
-    <string name="rb_N2003_RA">Refused to Answer</string>
-
-    <string name="rb_N2004_1">Before delivery</string>
-    <string name="rb_N2004_2">During delivery</string>
-    <string name="rb_N2004_3">After delivery</string>
-    <string name="rb_N2004_DK">Don’t Know</string>
-    <string name="rb_N2004_RA">Refused to Answer</string>
-
-    <string name="rb_N2005u_1">Days</string>
-    <string name="rb_N2005u_2">Weeks</string>
-    <string name="rb_N2005u_3">Months</string>
-    <string name="rb_N2005u_DK">Don’t Know</string>
-    <string name="rb_N2005u_RA">Refused to Answer</string>
-
-    <string name="rb_N2006_1">The mother’s home</string>
-    <string name="rb_N2006_2">Other home</string>
-    <string name="rb_N2006_3">Government hospital</string>
-    <string name="rb_N2006_4">Government clinic/health center</string>
-    <string name="rb_N2006_5">Government health post</string>
-    <string name="rb_N2006_6">Other public (specify)</string>
-    <string name="rb_N2006_7">Private hospital</string>
-    <string name="rb_N2006_8">Private clinic</string>
-    <string name="rb_N2006_9">Private maternity home</string>
-    <string name="rb_N2006_10">Other private medical (specify)</string>
-    <string name="rb_N2006_11">On route to a health provider or facility</string>
-    <string name="rb_N2006_OT">Other (specify) </string>
-    <string name="rb_N2006_DK">Don’t Know</string>
-    <string name="rb_N2006_RA">Refused to Answer</string>
-
-    <string name="rb_N2008_1">Doctor</string>
-    <string name="rb_N2008_2">Nurse / Midwife</string>
-    <string name="rb_N2008_3">Auxiliary midwife</string>
-    <string name="rb_N2008_4">Traditional birth attendant</string>
-    <string name="rb_N2008_5">Community health worker</string>
-    <string name="rb_N2008_6">Relative / Friend</string>
-    <string name="rb_N2008_OT">Other (specify) </string>
-    <string name="rb_N2008_8">No one</string>
-    <string name="rb_N2008_DK">Don’t Know</string>
-
-    <string name="rb_N2009_1_1">Yes</string>
-    <string name="rb_N2009_1_2">No</string>
-    <string name="rb_N2009_1_DK"> Don’t know</string>
-    <string name="rb_N2009_1_RA">Refused to Answer</string>
-
-    <string name="rb_N2009_2_1">Yes</string>
-    <string name="rb_N2009_2_2">No</string>
-    <string name="rb_N2009_2_DK">Don’t Know</string>
-    <string name="rb_N2009_2_RA">Refused to Answer</string>
-
-    <string name="rb_N2009_3_1">Yes</string>
-    <string name="rb_N2009_3_2">No</string>
-    <string name="rb_N2009_3_DK">Don’t Know</string>
-    <string name="rb_N2009_3_RA">Refused to Answer</string>
-
-    <string name="rb_N2009_4_1">Yes</string>
-    <string name="rb_N2009_4_2">No</string>
-    <string name="rb_N2009_4_DK">Don’t Know</string>
-    <string name="rb_N2009_4_RA">Refused to Answer</string>
-
-    <string name="rb_N2011_1">Child’s health card</string>
-    <string name="rb_N2011_2">Respondent’s recall (no health card was available or seen)</string>
 
     <string name="rb_N2017_1">Yes</string>
     <string name="rb_N2017_2">No</string>
@@ -2437,17 +2436,17 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
 
 
     <!-- Neonate Urdu Text HINT‘s STARTS -->
-    <string name="N2003_h">If the mother is present at the interview, mark "yes" without asking this question</string>
+    <string name="N2003info">If the mother is present at the interview, mark "yes" without asking this question</string>
     <string name="N2005u_h">Write only one unit or answer</string>
     <string name="N2005d_h">If less than 24 hours, write 0 days, if one day or 0–6 days</string>
     <string name="N2005w_h">Write weeks 1–7</string>
     <string name="N2005m_h">Write the months 2–60</string>
     <string name="N2006_h">Read the question and read the first five answers slowly. The respondent listens to all the answers and then answers</string>
     <string name="N2008_h">Read: "On Health Facility". If she was born in a facility providing maternal health care</string>
-    <string name="N2009_1_h">تصویریں دکھائیں، جواب دہندہ کو  وضاحت کریں کہ اگر جواب " نہیں" ہے  تب بھی کچھ مزید سوال پوچھیں جائیں گے ، صرف اس بات کو  یقینی بنانے کے لئے کہ کو   ئی  اہم بات  چھوٹ نہ گئی ہو۔</string>
-    <string name="N2009_2_h">  کلو سے کم) 2.5( وزن </string>
-    <string name="N2009_3_h"> کلو سے کم) 1 ( وزن</string>
-    <string name="N2009_4_h">کلو سے زیادہ) 4.5  ( وزن</string>
+    <string name="n2009ainfo">تصویریں دکھائیں، جواب دہندہ کو  وضاحت کریں کہ اگر جواب " نہیں" ہے  تب بھی کچھ مزید سوال پوچھیں جائیں گے ، صرف اس بات کو  یقینی بنانے کے لئے کہ کو   ئی  اہم بات  چھوٹ نہ گئی ہو۔</string>
+    <string name="n2009binfo">  کلو سے کم) 2.5( وزن </string>
+    <string name="n2009cinfo"> کلو سے کم) 1 ( وزن</string>
+    <string name="n2009dinfo">کلو سے زیادہ) 4.5  ( وزن</string>
     <string name="N2010_h">وزن کلو گرام میں بتا ئے۔ اس صورت میں ڈیٹا انٹری کے لئے 1 کلو گرام کو 1000 میں تبدیل کریں۔ اگر "معلوم نہیں" ہے تو "9999" لکھیں اور "انکار" کی صورت میں تو "8888" لکھیں۔</string>
     <string name="N2019u_h">اگر 23–0 گھنٹے ہوں تو  "گھنٹوں " پر لکھیں یا اگر 60–1 دن ہو تو  " دنوں "  پر لکھیں</string>
     <string name="N2019h_h">اگر ایک گھنٹہ سے کم=‘00’ گھنٹے لکھیں</string>
