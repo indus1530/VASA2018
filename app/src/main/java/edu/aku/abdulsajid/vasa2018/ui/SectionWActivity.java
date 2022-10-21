@@ -575,7 +575,7 @@ public class SectionWActivity extends AppCompatActivity {
         if (res.getCount() > 0) {
             res.moveToFirst();
             if (Integer.valueOf(res.getString(res.getColumnIndex("Q1609"))).equals(1)) {
-                Intent c = new Intent(this, N2001_N2011.class);
+                Intent c = new Intent(this, SectionN01Activity.class);
                 c.putExtra("study_id", study_id);
                 startActivity(c);
             } else if (Integer.valueOf(res.getString(res.getColumnIndex("Q1609"))).equals(2)) {

@@ -20,8 +20,6 @@ import java.util.List;
 
 import edu.aku.abdulsajid.vasa2018.R;
 import edu.aku.abdulsajid.vasa2018.data.LocalDataManager;
-import edu.aku.abdulsajid.vasa2018.ui.A4067_A4080;
-import edu.aku.abdulsajid.vasa2018.ui.A4081_A4094;
 import edu.aku.abdulsajid.vasa2018.ui.A4095_A4108;
 import edu.aku.abdulsajid.vasa2018.ui.A4109_A4125;
 import edu.aku.abdulsajid.vasa2018.ui.A4126_A4140;
@@ -44,7 +42,6 @@ import edu.aku.abdulsajid.vasa2018.ui.C3301_C3314;
 import edu.aku.abdulsajid.vasa2018.ui.C3351_C3364;
 import edu.aku.abdulsajid.vasa2018.ui.C3401_C3457;
 import edu.aku.abdulsajid.vasa2018.ui.C3471_C3472;
-import edu.aku.abdulsajid.vasa2018.ui.N2001_N2011;
 import edu.aku.abdulsajid.vasa2018.ui.N2012_N2016;
 import edu.aku.abdulsajid.vasa2018.ui.N2017_N2022_3;
 import edu.aku.abdulsajid.vasa2018.ui.N2023_N2026;
@@ -63,6 +60,9 @@ import edu.aku.abdulsajid.vasa2018.ui.N2311_N2317;
 import edu.aku.abdulsajid.vasa2018.ui.N2321_N2322;
 import edu.aku.abdulsajid.vasa2018.ui.SectionA01Activity;
 import edu.aku.abdulsajid.vasa2018.ui.SectionA02Activity;
+import edu.aku.abdulsajid.vasa2018.ui.SectionA03Activity;
+import edu.aku.abdulsajid.vasa2018.ui.SectionA04Activity;
+import edu.aku.abdulsajid.vasa2018.ui.SectionN01Activity;
 import edu.aku.abdulsajid.vasa2018.ui.SectionWActivity;
 
 
@@ -159,7 +159,7 @@ class SurveyPendingCustomAdapter extends RecyclerView.Adapter {
 
                             if(curentSection == 2){
 
-                                intent= new Intent(mContext, N2001_N2011.class);
+                                intent = new Intent(mContext, SectionN01Activity.class);
                                 intent.putExtra("study_id", study_id);
                                 mContext.startActivity(intent);
                             }
@@ -374,13 +374,13 @@ class SurveyPendingCustomAdapter extends RecyclerView.Adapter {
                             }
                             if(curentSection == 4){
 
-                                intent= new Intent(mContext, A4067_A4080.class);
+                                intent = new Intent(mContext, SectionA03Activity.class);
                                 intent.putExtra("study_id", study_id);
                                 mContext.startActivity(intent);
                             }
                             if(curentSection == 5){
 
-                                intent= new Intent(mContext, A4081_A4094.class);
+                                intent = new Intent(mContext, SectionA04Activity.class);
                                 intent.putExtra("study_id", study_id);
                                 mContext.startActivity(intent);
                             }

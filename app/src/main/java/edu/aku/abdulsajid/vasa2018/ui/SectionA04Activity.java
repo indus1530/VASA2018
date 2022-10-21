@@ -20,7 +20,7 @@ import edu.aku.abdulsajid.vasa2018.utils.ClearAllcontrol;
 import edu.aku.abdulsajid.vasa2018.utils.Gothrough;
 import edu.aku.abdulsajid.vasa2018.utils.InputFilterMinMax;
 
-public class A4081_A4094 extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
+public class SectionA04Activity extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
 
     //Declaration
     Button
@@ -261,7 +261,7 @@ public class A4081_A4094 extends AppCompatActivity implements RadioButton.OnChec
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.a4081__a4094);
+        setContentView(R.layout.activity_section_a04);
 
         this.setTitle(getString(R.string.h_a_sec_9));
 
@@ -286,7 +286,7 @@ public class A4081_A4094 extends AppCompatActivity implements RadioButton.OnChec
         value_assignment();
         insert_data();
 
-        Intent c = new Intent(A4081_A4094.this, A4095_A4108.class);
+        Intent c = new Intent(SectionA04Activity.this, A4095_A4108.class);
         c.putExtra("study_id", study_id);
         startActivity(c);
     }

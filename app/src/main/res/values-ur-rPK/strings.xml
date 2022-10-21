@@ -778,28 +778,99 @@
     <string name="a07098">معلوم نہیں</string>
     <string name="a07099">جواب دینے سے انکار کیا</string>
 
-    <string name="A4071">کیا پیٹ معمول سے زیادہ  پھولا  ہوا تھا؟	:	A4071 </string>
-    <string name="A4072_u">انتقال سے کتنے عرصے پہلے (بچہ /بچی) کا پیٹ معمول سے زیادہ پھولا ہوا  تھا؟	:	A4072_u</string>
-    <string name="A4072_a">انتقال سے کتنے دن  پہلے (بچہ /بچی) کا پیٹ معمول سے زیادہ پھولا ہوا  تھا؟	:	A4072_a</string>
-    <string name="A4072_b">انتقال سے کتنے مہینے  پہلے (بچہ /بچی) کا پیٹ معمول سے زیادہ پھولا ہوا  تھا؟	:	A4072_b </string>
-    <string name="A4073">کتنی تیزی سے بچہ/بچی کا پیٹ پھولاتھا؟	:	A4073</string>
-    <string name="A4074">کیا اس کے پیٹ میں رسولی یا گٹھلی تھی ؟	:	A4074</string>
-    <string name="A4075_u">کتنے عرصے سے  اس کے پیٹ میں رسولی یا گٹھلی تھی ؟	:	A4075_u</string>
-    <string name="A4075_a">کتنے دن سے  اس کے پیٹ میں رسولی یا گٹھلی تھی؟	:	A4075_a</string>
-    <string name="A4075_b">کتنے مہینے سے  اس کے پیٹ میں رسولی یا گٹھلی تھی؟	:	A4075_b</string>
-    <string name="A4076">بیماری کے دوران  جو وفات کی وجہ بنی    ، کیا  مرنے والے کو   کھانسی  تھی؟	:	A4076</string>
-    <string name="A4077_u">کتنے عرصہ سے اس کو  کھانسی تھی ؟	:	A4077_u</string>
-    <string name="A4077_a">کتنے دنوں تک کھانسی رہی  تھی؟	:	A4077_a</string>
-    <string name="A4077_b">کتنے مہینوں  تک کھانسی رہی  تھی؟	:	A4077_b</string>
-    <string name="A4078">کیا کھانسی بلغم کے ساتھ  تھی؟	:	A4078</string>
-    <string name="A4079">کیا کھانسی بہت شدید تھی؟	:	A4079</string>
-    <string name="A4080">کیا بچہ/بچی کی کھانسی میں خون آیا تھا؟	:	A4080</string>
-    <string name="A4081">بیماری کے دوران  جو وفات کی وجہ بنی    ،    کیا بچہ کو سانس لینے میں دشواری تھی؟	:	A4081</string>
-    <string name="A4082_u">سانس لینے میں دشواری کتنے  عرصہ  تک رہی؟	:	A4082_u</string>
-    <string name="A4082_a">سانس لینے میں دشواری کتنے دنوں تک رہی؟	:	A4082_a</string>
-    <string name="A4082_b">سانس لینے میں دشواری کتنے مہینوں تک رہی؟	:	A4082_b</string>
-    <string name="A4082_c">سانس لینے میں دشواری کتنے سالوں تک رہی؟	:	A4082_c</string>
-    <string name="A4083">کیا سانس لینے میں دشواری مسلسل تھی  یا   وقفہ وقفہ سے تھی؟  	:	A4083</string>
+    <string name="Q_a071">a071</string>
+    <string name="a071">کیا پیٹ معمول سے زیادہ پھولا ہوا تھا ؟</string>
+    <string name="a071a">ہاں</string>
+    <string name="a071b">نہیں</string>
+    <string name="a07198">معلوم نہیں</string>
+    <string name="a07199">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a072">a072</string>
+    <string name="a072">انتقال سے کتنے عرصے پہلے بچہ / بچی کا پیٹ معمول سے زیادہ پھولا ہوا تھا ؟</string>
+    <string name="a072info">مہینے۔ 1-60 دن یا 0-30 اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛ ایک ہفتہ = 7 لکھی</string>
+    <string name="a072d">دن</string>
+    <string name="a072m">مہینے</string>
+    <string name="a07298">معلوم نہیں</string>
+    <string name="a07299">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a073">a073</string>
+    <string name="a073">کتنی تیزی سے بچہ/ بچی کا پیٹ پھولا تھا ؟</string>
+    <string name="a073a">تیزی سے</string>
+    <string name="a073b">آہستہ سے</string>
+    <string name="a07398">معلوم نہیں</string>
+    <string name="a07399">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a074">a074</string>
+    <string name="a074">کیا اس کے پیٹ میں رسولی یا گٹھلی تھی ؟</string>
+    <string name="a074a">ہاں</string>
+    <string name="a074b">نہیں</string>
+    <string name="a07498">معلوم نہیں</string>
+    <string name="a07499">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a075">a075</string>
+    <string name="a075">کتنے عرصے سے اس کے پیٹ میں رسولی یا گٹھلی تھی ؟</string>
+    <string name="a075d">دن</string>
+    <string name="a075m">مہینے</string>
+    <string name="a07598">معلوم نہیں</string>
+    <string name="a07599">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a076">a076</string>
+    <string name="a076">بیماری کے دوران جو وفات کی وجہ بنی، کیا مرنے والے کو کھانسی تھی ؟</string>
+    <string name="a076a">ہاں</string>
+    <string name="a076b">نہیں</string>
+    <string name="a07698">معلوم نہیں</string>
+    <string name="a07699">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a077">a077</string>
+    <string name="a077">کتنے عرصہ سے اس کو کھانسی تھی ؟</string>
+    <string name="a077d">دن</string>
+    <string name="a077m">مہینے</string>
+    <string name="a07798">معلوم نہیں</string>
+    <string name="a07799">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a078">a078</string>
+    <string name="a078">کیا کھانسی بلغم کے ساتھ تھی ؟</string>
+    <string name="a078a">ہاں</string>
+    <string name="a078b">نہیں</string>
+    <string name="a07898">معلوم نہیں</string>
+    <string name="a07899">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a079">a079</string>
+    <string name="a079">کیا کھانسی بہت شدید تھی ؟</string>
+    <string name="a079a">ہاں</string>
+    <string name="a079b">نہیں</string>
+    <string name="a07998">معلوم نہیں</string>
+    <string name="a07999">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a080">a080</string>
+    <string name="a080">کیا بچہ / بچی کی کھانسی میں خون آیا تھا ؟</string>
+    <string name="a080a">ہاں</string>
+    <string name="a080b">نہیں</string>
+    <string name="a08098">معلوم نہیں</string>
+    <string name="a08099">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a081">a081</string>
+    <string name="a081">بیماری کے دوران جو وفات کی وجہ بنی، کیا بچہ کو سانس لینے میں دشواری تھی ؟</string>
+    <string name="a081a">ہاں</string>
+    <string name="a081b">نہیں</string>
+    <string name="a08198">معلوم نہیں</string>
+    <string name="a08199">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a082">a082</string>
+    <string name="a082">کتنے عرصہ سے اس کو کھانسی تھی ؟</string>
+    <string name="a082d">دن</string>
+    <string name="a082m">مہینے</string>
+    <string name="a082y">سال</string>
+    <string name="a08298">معلوم نہیں</string>
+    <string name="a08299">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a083">a083</string>
+    <string name="a083">کیا سانس لینے میں دشواری مسلسل تھی یا وقفہ وقفہ سے تھی ؟</string>
+    <string name="a083a">مسلسل</string>
+    <string name="a083b">وقفہ وقفہ سے</string>
+    <string name="a08398">معلوم نہیں</string>
+    <string name="a08399">جواب دینے سے انکار کیا</string>
+
     <string name="A4084">بیماری کے دوران  جو وفات کی وجہ بنی    ،   ،    کیا (نام) کی  سانس تیز چل رہی  تھی؟	:	A4084</string>
     <string name="A4085_u">کتنے   عرصہ تک سانس تیز چل رہی تھی؟	:	A4085_u</string>
     <string name="A4085_u_h">کو ئی ایک جواب لکھیں:  مہینے ۔ 1-60 دن یا       0-30  اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛  ایک ہفتہ = 7 لکھیں	:	A4085_u</string>
@@ -1229,72 +1300,6 @@
     <string name="rb_A4014_1">ہاں</string>
     <string name="rb_A4014_2">نہیں</string>
     <string name="rb_A4014_DK">معلوم نہیں</string>
-
-    <string name="rb_A4071_1">ہاں</string>
-    <string name="rb_A4071_2">نہیں</string>
-    <string name="rb_A4071_DK">معلوم نہیں</string>
-    <string name="rb_A4071_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4072_u_1">دن</string>
-    <string name="rb_A4072_u_2">مہینے</string>
-    <string name="rb_A4072_u_DK">معلوم نہیں</string>
-    <string name="rb_A4072_u_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4073_1">تیزی سے</string>
-    <string name="rb_A4073_2">آہستہ سے </string>
-    <string name="rb_A4073_DK">معلوم نہیں</string>
-    <string name="rb_A4073_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4074_1">ہاں</string>
-    <string name="rb_A4074_2">نہیں</string>
-    <string name="rb_A4074_DK">معلوم نہیں</string>
-    <string name="rb_A4074_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4075_u_1">دن</string>
-    <string name="rb_A4075_u_2">مہینے</string>
-    <string name="rb_A4075_u_DK">معلوم نہیں</string>
-    <string name="rb_A4075_u_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4076_1">ہاں</string>
-    <string name="rb_A4076_2">نہیں</string>
-    <string name="rb_A4076_DK">معلوم نہیں</string>
-    <string name="rb_A4076_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4077_u_1">دن</string>
-    <string name="rb_A4077_u_2">مہینے</string>
-    <string name="rb_A4077_u_DK">معلوم نہیں</string>
-    <string name="rb_A4077_u_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4078_1">ہاں</string>
-    <string name="rb_A4078_2">نہیں</string>
-    <string name="rb_A4078_DK">معلوم نہیں</string>
-    <string name="rb_A4078_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4079_1">ہاں</string>
-    <string name="rb_A4079_2">نہیں</string>
-    <string name="rb_A4079_DK">معلوم نہیں</string>
-    <string name="rb_A4079_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4080_1">ہاں</string>
-    <string name="rb_A4080_2">نہیں</string>
-    <string name="rb_A4080_DK">معلوم نہیں</string>
-    <string name="rb_A4080_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4081_1">ہاں</string>
-    <string name="rb_A4081_2">نہیں</string>
-    <string name="rb_A4081_DK">معلوم نہیں</string>
-    <string name="rb_A4081_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4082_u_1">دن</string>
-    <string name="rb_A4082_u_2">مہینہ </string>
-    <string name="rb_A4082_u_3">سال</string>
-    <string name="rb_A4082_u_DK">معلوم نہیں</string>
-    <string name="rb_A4082_u_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4083_1"> مسلسل</string>
-    <string name="rb_A4083_2">وقفہ وقفہ سے </string>
-    <string name="rb_A4083_DK">معلوم نہیں</string>
-    <string name="rb_A4083_RA">جواب دینے سے انکار کیا</string>
 
     <string name="rb_A4084_1">ہاں</string>
     <string name="rb_A4084_2">نہیں</string>
@@ -2497,7 +2502,6 @@
     <string name="A4064_a_h">دن لکھیں۔ اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0 لکھیں؛ ایک ہفتہ = 7 لکھیں     0-30</string>
     <string name="A4064_b_h">مہینے         1-60</string>
     <string name="A4069_u_h">             مہینے ۔ 1-60دن یا  1-30  گھنٹے  ،یا       0- 23      ایک ہفتہ = 7 دن لکھیں</string>
-    <string name="A4072_u_h">              مہینے ۔ 1-60 دن یا       0-30اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛   ایک ہفتہ = 7 لکھیں</string>
     <string name="A4072_a_h">دن لکھیں۔ اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0 لکھیں؛ ایک ہفتہ = 7 لکھیں     0-30</string>
     <string name="A4072_b_h">مہینے         1-60</string>
     <string name="A4075_u_h"> اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛   ایک ہفتہ = 7 لکھیں</string>

@@ -106,6 +106,15 @@
     <string name="cmb_text">cmb_text</string>
     <string name="date_text">date_text</string>
 
+    <string name="N2005u_h">Write only one unit or answer</string>
+    <string name="N2005d_h">If less than 24 hours, write 0 days, if one day or 0–6 days</string>
+    <string name="N2005w_h">Write weeks 1–7</string>
+    <string name="N2005m_h">Write the months 2–60</string>
+    <string name="N2008_h">Read: "On Health Facility". If she was born in a facility providing maternal health care</string>
+    <string name="n2009cinfo"> کلو سے کم) 1 ( وزن</string>
+    <string name="n2009dinfo">کلو سے زیادہ) 4.5  ( وزن</string>
+    <string name="N2010_h">وزن کلو گرام میں بتا ئے۔ اس صورت میں ڈیٹا انٹری کے لئے 1 کلو گرام کو 1000 میں تبدیل کریں۔ اگر "معلوم نہیں" ہے تو "9999" لکھیں اور "انکار" کی صورت میں تو "8888" لکھیں۔</string>
+
     <string name="Q_n2001">n2001</string>
     <string name="n2001">Was the child part of a multiple birth ?</string>
     <string name="n2001a">Yes</string>
@@ -122,6 +131,7 @@
 
     <string name="Q_n2003">n2003</string>
     <string name="n2003">Is the mother still alive ?</string>
+    <string name="N2003info">If the mother is present at the interview, mark "yes" without asking this question</string>
     <string name="n2003a">Yes</string>
     <string name="n2003b">No</string>
     <string name="n200398">Don’t Know</string>
@@ -145,6 +155,7 @@
 
     <string name="Q_n2006">n2006</string>
     <string name="n2006">Where was the deceased born ?</string>
+    <string name="N2006_h">Read the question and read the first five answers slowly. The respondent listens to all the answers and then answers</string>
     <string name="n2006a">The mother’s home</string>
     <string name="n2006b">Other home</string>
     <string name="n2006c">Government hospital</string>
@@ -174,13 +185,15 @@
 
     <string name="Q_n2009a">n2009a</string>
     <string name="n2009a">At birth, was the baby of usual size ?</string>
+    <string name="n2009ainfo">Show the pictures, explain to the respondent that if the answer is "no" some more questions will be asked, just to make sure that nothing important is missed.</string>
     <string name="n2009aa">Yes</string>
     <string name="n2009ab">No</string>
     <string name="n2009a98">Don’t Know</string>
     <string name="n2009a99">Refused to Answer</string>
 
     <string name="Q_n2009b">n2009b</string>
-    <string name="n2009b">At birth, was the baby smaller than usual, (weighing under 2.5 kg) ?</string>
+    <string name="n2009b">At birth, was the baby smaller than usual ?</string>
+    <string name="n2009binfo">Weighing Wnder 2.5 kg</string>
     <string name="n2009ba">Yes</string>
     <string name="n2009bb">No</string>
     <string name="n2009b98">Don’t Know</string>
@@ -2436,18 +2449,6 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
 
 
     <!-- Neonate Urdu Text HINT‘s STARTS -->
-    <string name="N2003info">If the mother is present at the interview, mark "yes" without asking this question</string>
-    <string name="N2005u_h">Write only one unit or answer</string>
-    <string name="N2005d_h">If less than 24 hours, write 0 days, if one day or 0–6 days</string>
-    <string name="N2005w_h">Write weeks 1–7</string>
-    <string name="N2005m_h">Write the months 2–60</string>
-    <string name="N2006_h">Read the question and read the first five answers slowly. The respondent listens to all the answers and then answers</string>
-    <string name="N2008_h">Read: "On Health Facility". If she was born in a facility providing maternal health care</string>
-    <string name="n2009ainfo">تصویریں دکھائیں، جواب دہندہ کو  وضاحت کریں کہ اگر جواب " نہیں" ہے  تب بھی کچھ مزید سوال پوچھیں جائیں گے ، صرف اس بات کو  یقینی بنانے کے لئے کہ کو   ئی  اہم بات  چھوٹ نہ گئی ہو۔</string>
-    <string name="n2009binfo">  کلو سے کم) 2.5( وزن </string>
-    <string name="n2009cinfo"> کلو سے کم) 1 ( وزن</string>
-    <string name="n2009dinfo">کلو سے زیادہ) 4.5  ( وزن</string>
-    <string name="N2010_h">وزن کلو گرام میں بتا ئے۔ اس صورت میں ڈیٹا انٹری کے لئے 1 کلو گرام کو 1000 میں تبدیل کریں۔ اگر "معلوم نہیں" ہے تو "9999" لکھیں اور "انکار" کی صورت میں تو "8888" لکھیں۔</string>
     <string name="N2019u_h">اگر 23–0 گھنٹے ہوں تو  "گھنٹوں " پر لکھیں یا اگر 60–1 دن ہو تو  " دنوں "  پر لکھیں</string>
     <string name="N2019h_h">اگر ایک گھنٹہ سے کم=‘00’ گھنٹے لکھیں</string>
     <string name="N2019d_h">اگر  ایک ہفتہ=7دن لکھیں</string>
@@ -5600,29 +5601,122 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="a07098">Don’t Know</string>
     <string name="a07099">Refused to Answer</string>
 
-    <string name="A4071">A4071: Did s/he have a more than usually protruding belly (abdomen) ?</string>
-    <string name="A4072_u">A4072_Units: For how long before death did s/he have a more than usually protruding belly (abdomen) ?</string>
-    <string name="A4073">A4073: How rapidly did s/he develop the protruding abdomen ?</string>
-    <string name="A4074">A4074: Did s/he have a mass in the abdomen ?</string>
-    <string name="A4075_u">A4075_Units: For how long did s/he have a mass in the belly (abdomen) ?</string>
-    <string name="A4076">A4076: During the illness that led to death, did the deceased have a cough ?</string>
-    <string name="A4077_u">A4077_Units: For how long did s/he have a cough ?</string>
-    <string name="A4078">"A4078: Was the cough productive, with sputum ?</string>
-    <string name="A4079">"A4079: Was the cough very severe ?</string>
-    <string name="A4080">"A4080: Did s/he cough up blood ?</string>
-    <string name="A4081">"A4081: During the illness that led to death, did (NAME) have difficulty breathing ?</string>
-    <string name="A4082_u">A4082_Units: For how long did the difficulty breathing last ?</string>
-    <string name="A4082_a">Day(s)</string>
-    <string name="A4082_b">Month(s)</string>
-    <string name="A4082_c">Year(s)</string>
-    <string name="A4083">A4083: Was the difficulty breathing continuous or on and off ?</string>
+    <string name="Q_a071">a071</string>
+    <string name="a071">Did s/he have a more than usually protruding belly (abdomen) ?</string>
+    <string name="a071a">Yes</string>
+    <string name="a071b">No</string>
+    <string name="a07198">Don’t Know</string>
+    <string name="a07199">Refused to Answer</string>
+
+    <string name="Q_a072">a072</string>
+    <string name="a072">For how long before death did s/he have a more than usually protruding belly (abdomen) ?</string>
+    <string name="a072info">months 1-60 days or 0-30 if one day or less than twenty-four hours = write 0 days; Write a week = 7</string>
+    <string name="a072d">Day(s)</string>
+    <string name="a072m">Month(s)</string>
+    <string name="a07298">Don’t Know</string>
+    <string name="a07299">Refused to Answer</string>
+
+    <string name="Q_a073">a073</string>
+    <string name="a073">How rapidly did s/he develop the protruding abdomen?</string>
+    <string name="a073a">Rapidly</string>
+    <string name="a073b">Slowly</string>
+    <string name="a07398">Don’t Know</string>
+    <string name="a07399">Refused to Answer</string>
+
+    <string name="Q_a074">a074</string>
+    <string name="a074">Did he have a tumor or tumor in his abdomen?</string>
+    <string name="a074a">Yes</string>
+    <string name="a074b">No</string>
+    <string name="a07498">Don’t Know</string>
+    <string name="a07499">Refused to Answer</string>
+
+    <string name="Q_a075">a075</string>
+    <string name="a075">How long has he had a tumor or lump in his abdomen ?</string>
+    <string name="a075d">Day(s)</string>
+    <string name="a075m">Month(s)</string>
+    <string name="a07598">Don’t Know</string>
+    <string name="a07599">Refused to Answer</string>
+
+    <string name="Q_a076">a076</string>
+    <string name="a076">During the illness which caused death, did the deceased have cough ?</string>
+    <string name="a076a">Yes</string>
+    <string name="a076b">No</string>
+    <string name="a07698">Don’t Know</string>
+    <string name="a07699">Refused to Answer</string>
+
+    <string name="Q_a077">a077</string>
+    <string name="a077">How long did he have cough ?</string>
+    <string name="a077d">Day(s)</string>
+    <string name="a077m">Month(s)</string>
+    <string name="a07798">Don’t Know</string>
+    <string name="a07799">Refused to Answer</string>
+
+    <string name="Q_a078">a078</string>
+    <string name="a078">Was the cough productive, with sputum ?</string>
+    <string name="a078a">Yes</string>
+    <string name="a078b">No</string>
+    <string name="a07898">Don’t Know</string>
+    <string name="a07899">Refused to Answer</string>
+
+    <string name="Q_a079">a079</string>
+    <string name="a079">Was the cough very severe ?</string>
+    <string name="a079a">Yes</string>
+    <string name="a079b">No</string>
+    <string name="a07998">Don’t Know</string>
+    <string name="a07999">Refused to Answer</string>
+
+    <string name="Q_a080">a080</string>
+    <string name="a080">Did s/he cough up blood ?</string>
+    <string name="a080a">Yes</string>
+    <string name="a080b">No</string>
+    <string name="a08098">Don’t Know</string>
+    <string name="a08099">Refused to Answer</string>
+
+    <string name="Q_a081">a081</string>
+    <string name="a081">During the illness that led to death, did (NAME) have difficulty breathing ?</string>
+    <string name="a081a">Yes</string>
+    <string name="a081b">No</string>
+    <string name="a08198">Don’t Know</string>
+    <string name="a08199">Refused to Answer</string>
+
+    <string name="Q_a082">a082</string>
+    <string name="a082">For how long did the difficulty breathing last ?</string>
+    <string name="a082d">Day(s)</string>
+    <string name="a082m">Month(s)</string>
+    <string name="a082y">Year(s)</string>
+    <string name="a08298">Don’t Know</string>
+    <string name="a08299">Refused to Answer</string>
+
+    <string name="Q_a083">a083</string>
+    <string name="a083">Was the difficulty breathing continuous or on and off ?</string>
+    <string name="a083a">Continuous</string>
+    <string name="a083b">On and off</string>
+    <string name="a08398">Don’t Know</string>
+    <string name="a08399">Refused to Answer</string>
+
     <string name="A4084">A4084: During the illness that led to death, did (NAME) have fast breathing ?</string>
+    <string name="rb_A4084_1">Yes</string>
+    <string name="rb_A4084_2">No</string>
+    <string name="rb_A4084_DK">Don’t Know</string>
+    <string name="rb_A4084_RA">Refused to Answer</string>
+
     <string name="A4085_u">A4085_Units: How long did the fast breathing last ?</string>
+    <string name="rb_A4085_u_1">Day(s)</string>
+    <string name="rb_A4085_u_2">Month(s)</string>
+    <string name="rb_A4085_u_DK">Don’t Know</string>
+    <string name="rb_A4085_u_RA">Refused to Answer</string>
+
     <string name="A4085_u_h">	کو ئی ایک جواب لکھیں:  مہینے ۔ 1-60 دن یا       0-30  اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛  ایک ہفتہ = 7 لکھیں	:	A4085_u</string>
     <string name="A4085_a">	کتنے دنوں تک سانس تیز چل رہی تھی؟	:	A4085_a</string>
     <string name="A4085_a_h">	کو ئی ایک جواب لکھیں:  مہینے ۔ 1-60 دن یا       0-30  اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛  ایک ہفتہ = 7 لکھیں	:	A4085_u</string>
     <string name="A4085_b">Month(s)</string>
+
     <string name="A4086">A4086: During the illness that led to death, did the s/he have breathlessness ?</string>
+    <string name="rb_A4086_1">Yes</string>
+    <string name="rb_A4086_2">No</string>
+    <string name="rb_A4086_DK">Don’t Know</string>
+    <string name="rb_A4086_RA">Refused to Answer</string>
+
     <string name="A4087_u">A4087_Units: How long did s/he have breathlessness ?</string>
     <string name="A4087_a">	کتنے دنوں تک سانس رک رک کر چل رہی تھی؟	:	A4087_a</string>
     <string name="A4087_a_h">	کو ئی ایک جواب لکھیں:  مہینے ۔ 1-60 دن یا       0-30  اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛  ایک ہفتہ = 7 لکھیں	:	A4085_u</string>
@@ -5887,104 +5981,6 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="A4456">A4456: Did the deceased’s spouse/partner ever have a positive HIV test ?</string>
     <string name="A4457">A4457: Was there any diagnosis by a health professional that the deceased’s spouse/partner had AIDS ?</string>
     <string name="A4472">A4472: Are any of the following words of interest mentioned in the above narrative ?</string>
-
-    <string name="rb_A4071_1">Yes</string>
-    <string name="rb_A4071_2">No</string>
-    <string name="rb_A4071_DK">Don’t Know</string>
-
-    <string name="rb_A4071_RA">Refused to Answer</string>
-
-    <string name="rb_A4072_u_1">Day(s)</string>
-    <string name="rb_A4072_u_2">Month(s)</string>
-    <string name="rb_A4072_u_DK">Don’t Know</string>
-
-    <string name="rb_A4072_u_RA">Refused to Answer</string>
-
-
-    <string name="rb_A4073_1">Rapidly</string>
-    <string name="rb_A4073_2">Slowly</string>
-    <string name="rb_A4073_DK">Don’t Know</string>
-
-    <string name="rb_A4073_RA">Refused to Answer</string>
-
-    <string name="rb_A4074_1">Yes</string>
-    <string name="rb_A4074_2">No</string>
-    <string name="rb_A4074_DK">Don’t Know</string>
-
-    <string name="rb_A4074_RA">Refused to Answer</string>
-
-    <string name="rb_A4075_u_1">Day(s)</string>
-    <string name="rb_A4075_u_2">Month(s)</string>
-    <string name="rb_A4075_u_DK">Don’t Know</string>
-
-    <string name="rb_A4075_u_RA">Refused to Answer</string>
-
-    <string name="rb_A4076_1">Yes</string>
-    <string name="rb_A4076_2">No</string>
-    <string name="rb_A4076_DK">Don’t Know</string>
-
-    <string name="rb_A4076_RA">Refused to Answer</string>
-
-    <string name="rb_A4077_u_1">Day(s)</string>
-    <string name="rb_A4077_u_2">Month(s)</string>
-    <string name="rb_A4077_u_DK">Don’t Know</string>
-
-    <string name="rb_A4077_u_RA">Refused to Answer</string>
-
-    <string name="rb_A4078_1">Yes</string>
-    <string name="rb_A4078_2">No</string>
-    <string name="rb_A4078_DK">Don’t Know</string>
-
-    <string name="rb_A4078_RA">Refused to Answer</string>
-
-    <string name="rb_A4079_1">Yes</string>
-    <string name="rb_A4079_2">No</string>
-    <string name="rb_A4079_DK">Don’t Know</string>
-
-    <string name="rb_A4079_RA">Refused to Answer</string>
-
-    <string name="rb_A4080_1">Yes</string>
-    <string name="rb_A4080_2">No</string>
-    <string name="rb_A4080_DK">Don’t Know</string>
-
-    <string name="rb_A4080_RA">Refused to Answer</string>
-
-    <string name="rb_A4081_1">Yes</string>
-    <string name="rb_A4081_2">No</string>
-    <string name="rb_A4081_DK">Don’t Know</string>
-
-    <string name="rb_A4081_RA">Refused to Answer</string>
-
-    <string name="rb_A4082_u_1">Day</string>
-    <string name="rb_A4082_u_2">Month</string>
-    <string name="rb_A4082_u_3">Year</string>
-    <string name="rb_A4082_u_DK">Don’t Know</string>
-
-    <string name="rb_A4082_u_RA">Refused to Answer</string>
-
-    <string name="rb_A4083_1">Continuous</string>
-    <string name="rb_A4083_2">On and off</string>
-    <string name="rb_A4083_DK">Don’t Know</string>
-
-    <string name="rb_A4083_RA">Refused to Answer</string>
-
-    <string name="rb_A4084_1">Yes</string>
-    <string name="rb_A4084_2">No</string>
-    <string name="rb_A4084_DK">Don’t Know</string>
-
-    <string name="rb_A4084_RA">Refused to Answer</string>
-
-    <string name="rb_A4085_u_1">Day(s)</string>
-    <string name="rb_A4085_u_2">Month(s)</string>
-    <string name="rb_A4085_u_DK">Don’t Know</string>
-
-    <string name="rb_A4085_u_RA">Refused to Answer</string>
-
-    <string name="rb_A4086_1">Yes</string>
-    <string name="rb_A4086_2">No</string>
-    <string name="rb_A4086_DK">Don’t Know</string>
-
-    <string name="rb_A4086_RA">Refused to Answer</string>
 
     <string name="rb_A4087_u_1">Day(s)</string>
     <string name="rb_A4087_u_2">Month(s)</string>
@@ -7776,27 +7772,11 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="A4272_1">A4272_1: Did the LAST HEALTH PROVIDER tell you or NAME about illness signs and symptoms for which NAME needs to return immediately ?</string>
     <string name="A4272_2">A4272_2: Did the LAST HEALTH PROVIDER tell you or NAME about illness signs and symptoms for which To follow-up if NAME did not improve after leaving ?</string>
     <string name="A4273">A4273: Did NAME leave the LAST HEALTH PROVIDER alive ?</string>
-    <string name="A4069_a">Enter how long s/he had belly (abdominal) pain in hours</string>
-    <string name="A4069_b">Enter how long s/he had belly (abdominal) pain in DAYS</string>
-    <string name="A4069_c">Enter how long s/he had belly (abdominal) pain in months</string>
-    <string name="A4072_a">Enter how long before death s/he had a more than usually protruding belly (abdomen) in days ?</string>
-    <string name="A4072_b">Enter how long before death s/he had a more than usually protruding belly (abdomen) in months ?</string>
-    <string name="A4075_a">Enter how long (s)he had a mass in the belly (abdomen) in days ?</string>
     <string name="A4075_a_h"><![CDATA[Enter 0-30 days. Less than 1 day or 24 hours = 0 days; 1 week = 7 days & If Don‘t Know Enter 99.]]></string>
-    <string name="A4075_b">Enter how long (s)he had a mass in the belly (abdomen) in months ?</string>
-    <string name="A4077_a">Enter how long (s)he had a cough in days ?</string>
     <string name="A4077_a_h"><![CDATA[Enter 0-30 days. Less than 1 day or 24 hours = 0 days; 1 week = 7 days &amp; If Don‘t Know  Enter 99\"]]></string>
-    <string name="A4077_b">Enter how long (s)he had a cough in months ?</string>
     <string name="A4077_b_h">Enter 1-60 Months &amp; if Don‘t Know Enter 99</string>
     <string name="A4005_h">If completed less than 1 year at that level, record 0 \nDon‘t Know = 99</string>
     <string name="A4006_h">Record “yes” if both or either reading or writing is known to the respondent.</string>
-    <string name="A4052_b">A4052_b: Enter how long the fever lasted in days ?</string>
-    <string name="A4052_c">A4052_c: Enter how long the fever lasted in months ?</string>
-    <string name="A4059_a">A4059_a: Enter how long the loose or liquid stools lasted in days ?</string>
-    <string name="A4059_b">A4059_b: Enter how long the loose or liquid stools lasted in months ?</string>
-    <string name="A4064_a">A4064_a: Enter how long before death she vomited in days ?</string>
-    <string name="A4064_b">A4064_b: Enter how long before death she vomited in months ?</string>
-    <string name="days_h">Enter 0–29 days. Less than 1 day or 24 hours = 0 days. 1 week = 7 days. Don‘t Know = 99</string>
 
 
     <!--JUST TO-->
@@ -7814,7 +7794,6 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="A4064_a_h">	دن لکھیں۔ اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0 لکھیں؛ ایک ہفتہ = 7 لکھیں     0-30</string>
     <string name="A4064_b_h">	مہینے         1-60</string>
     <string name="A4069_u_h">	             مہینے ۔ 1-60دن یا  1-30  گھنٹے  ،یا       0- 23      ایک ہفتہ = 7 دن لکھیں</string>
-    <string name="A4072_u_h">	              مہینے ۔ 1-60 دن یا       0-30اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛   ایک ہفتہ = 7 لکھیں</string>
     <string name="A4072_a_h">	دن لکھیں۔ اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0 لکھیں؛ ایک ہفتہ = 7 لکھیں     0-30</string>
     <string name="A4072_b_h">	مہینے         1-60</string>
     <string name="A4075_u_h">	 اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛   ایک ہفتہ = 7 لکھیں</string>

@@ -102,7 +102,7 @@
 
         <!-- Ali files -->
         <activity
-            android:name="edu.aku.abdulsajid.vasa2018.ui.N2001_N2011"
+            android:name="edu.aku.abdulsajid.vasa2018.ui.SectionN01Activity"
             android:screenOrientation="portrait" />
         <activity
             android:name="edu.aku.abdulsajid.vasa2018.ui.N2012_N2016"
@@ -164,10 +164,10 @@
             android:name="edu.aku.abdulsajid.vasa2018.ui.SectionA02Activity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="edu.aku.abdulsajid.vasa2018.ui.A4067_A4080"
+            android:name="edu.aku.abdulsajid.vasa2018.ui.SectionA03Activity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="edu.aku.abdulsajid.vasa2018.ui.A4081_A4094"
+            android:name="edu.aku.abdulsajid.vasa2018.ui.SectionA04Activity"
             android:screenOrientation="portrait" />
         <activity
             android:name="edu.aku.abdulsajid.vasa2018.ui.A4095_A4108"

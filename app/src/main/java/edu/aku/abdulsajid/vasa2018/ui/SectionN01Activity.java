@@ -12,17 +12,17 @@ import com.validatorcrawler.aliazaz.Validator;
 import edu.aku.abdulsajid.vasa2018.Other.globale;
 import edu.aku.abdulsajid.vasa2018.R;
 import edu.aku.abdulsajid.vasa2018.data.DBHelper;
-import edu.aku.abdulsajid.vasa2018.databinding.N2001N2011Binding;
+import edu.aku.abdulsajid.vasa2018.databinding.ActivitySectionN01Binding;
 import edu.aku.abdulsajid.vasa2018.utils.ClearAllcontrol;
 
-public class N2001_N2011 extends AppCompatActivity {
+public class SectionN01Activity extends AppCompatActivity {
 
-    N2001N2011Binding bi;
+    ActivitySectionN01Binding bi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        bi = DataBindingUtil.setContentView(this, R.layout.n2001__n2011);
+        bi = DataBindingUtil.setContentView(this, R.layout.activity_section_n01);
         bi.setCallback(this);
         this.setTitle(getString(R.string.h_n_sec_2_1));
         SetContentUI();
