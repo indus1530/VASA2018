@@ -559,12 +559,8 @@
     <string name="C1606_h">بیان کردہ تاریخ اگر ریکارڈ کی گئی تاریخ سے  متضاد ہے تو جواب دہندہ سے صحیح وفات کی تاریخ کی تصدیق کر کے  درج کریں ۔ (آپ ریکارڈ  میں دی ہوئی تاریخ (س1205)   کو تبدیلی نہیں کرسکتے )</string>
     <string name="C1609_h">اگر معلوم ہو تو حساب کی ہو ئی  (س1602-س1604) ،یا بتائی ہوئی عمر (س1606) استعمال کریں۔</string>
 
-    <!-- GeneRAl Section Urdu HINT‘s ENDS -->
-
-    <!-- Adult Urdu Text STARTS -->
-
-    <string name="Q_a4001">a4001</string>
-    <string name="a4001">وفات پانے والے کا پہلا نام کیا تھا ؟</string>
+    <string name="Q_a001">a001</string>
+    <string name="a001">وفات پانے والے کا پہلا نام کیا تھا ؟</string>
 
     <string name="Q_a002">a002</string>
     <string name="a002">اس کی ازدواجی حیثیت کیا تھی ؟</string>
@@ -577,24 +573,26 @@
     <string name="a00298">معلوم نہیں</string>
     <string name="a00299">جواب دینے سے انکار کیا</string>
 
-    <string name="Q_A4003">A4003</string>
-    <string name="A4003">کیا وہ کبھی اسکول گیا تھا / گئی تھی ؟</string>
-    <string name="rb_A4003_1">ہاں</string>
-    <string name="rb_A4003_2">نہیں</string>
-    <string name="rb_A4003_DK">معلوم نہیں</string>
-    <string name="rb_A4003_RA">جواب دینے سے انکار کیا</string>
+    <string name="Q_a003">A4003</string>
+    <string name="a003">کیا وہ کبھی اسکول گیا تھا / گئی تھی ؟</string>
+    <string name="a003a">ہاں</string>
+    <string name="a003b">نہیں</string>
+    <string name="a00398">معلوم نہیں</string>
+    <string name="a00399">جواب دینے سے انکار کیا</string>
 
-    <string name="Q_A4004">A4004</string>
-    <string name="A4004">اس کی زیادہ سے زیادہ تعلیم کی تھی ؟ پرائمری، سیکنڈری، یا ہائیر (اعلیٰ تعلیم )</string>
+    <string name="Q_a004">A4004</string>
+    <string name="a004">اس کی زیادہ سے زیادہ تعلیم کی تھی ؟ پرائمری، سیکنڈری، یا ہائیر (اعلیٰ تعلیم )</string>
 
-    <string name="Q_A4005">A4005</string>
-    <string name="A4005">اس کی اب تک کی مکمل تعلیم / گریڈ / سال کیا ہے ؟</string>
+    <string name="Q_a005">a005</string>
+    <string name="a005">اس کی اب تک کی مکمل تعلیم گریڈ / سال کیا ہے ؟</string>
+    <string name="a005info">اگر ایک سال سے کم مکمل ہے تو 00 لکھیں</string>
+    <string name="a005a">گریڈ / سال</string>
 
-    <string name="Q_A4006">A4006</string>
-    <string name="A4006">کیا (نام)  پڑھنے لکھنے کے قابل تھا / تھی ؟</string>
+    <string name="Q_a006">A4006</string>
+    <string name="a006">کیا (نام)  پڑھنے لکھنے کے قابل تھا / تھی ؟</string>
 
-    <string name="Q_A4007">A4007</string>
-    <string name="A4007">وفات سے پہلے سال میں اسکی (نام) امعاشی سرگرمی کی حیثیت کیا تھی ؟</string>
+    <string name="Q_a007">A4007</string>
+    <string name="a007">وفات سے پہلے سال میں اسکی (نام) امعاشی سرگرمی کی حیثیت کیا تھی ؟</string>
 
     <string name="Q_A40071">a40071</string>
     <string name="A4007_1">س کا پیشہ کیا تھا، یعنی کس قسم کا  کام عموما وہ کرتی تھی ؟</string>
@@ -871,27 +869,81 @@
     <string name="a08398">معلوم نہیں</string>
     <string name="a08399">جواب دینے سے انکار کیا</string>
 
-    <string name="A4084">بیماری کے دوران  جو وفات کی وجہ بنی    ،   ،    کیا (نام) کی  سانس تیز چل رہی  تھی؟	:	A4084</string>
-    <string name="A4085_u">کتنے   عرصہ تک سانس تیز چل رہی تھی؟	:	A4085_u</string>
-    <string name="A4085_u_h">کو ئی ایک جواب لکھیں:  مہینے ۔ 1-60 دن یا       0-30  اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛  ایک ہفتہ = 7 لکھیں	:	A4085_u</string>
-    <string name="A4085_a">کتنے دنوں تک سانس تیز چل رہی تھی؟	:	A4085_a</string>
-    <string name="A4085_a_h">کو ئی ایک جواب لکھیں:  مہینے ۔ 1-60 دن یا       0-30  اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛  ایک ہفتہ = 7 لکھیں	:	A4085_u</string>
-    <string name="A4085_b">کتنے مہینوں  تک سانس تیز چل رہی تھی ؟</string>
-    <string name="A4086">بیماری کے دوران  جو وفات کی وجہ بنی    ،    کیا (اس کی) سانس رک رک کر آرہی تھی   ؟    ( سانس گھٹنا) 	:	A4086</string>
-    <string name="A4087_u">کتنے عرصہ سے  سانس رک رک کر چل رہی تھی؟	:	A4087_u</string>
-    <string name="A4087_a">کتنے دنوں تک سانس رک رک کر چل رہی تھی؟	:	A4087_a</string>
-    <string name="A4087_a_h">کو ئی ایک جواب لکھیں:  مہینے ۔ 1-60 دن یا       0-30  اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛  ایک ہفتہ = 7 لکھیں	:	A4085_u</string>
-    <string name="A4087_b">کتنے مہینوں  تک سانس رک رک کر چل رہی تھی ؟</string>
-    <string name="A4088">کیا وہ سانس لینے میں دشواری  کی وجہ سے وہ روذ مرہ کے کام بھی  نہیں  کرپارہا تھا ؟ / نہیں کرپارہی تھی ؟ 	:	A4088</string>
-    <string name="A4089">کیا سیدھے لیٹنے میں سانس لینے میں دشواری پیداہوتی تھی ؟	:	A4089 </string>
-    <string name="A4090">بیماری کے دوران  جو وفات کی وجہ بنی    ،    کیا    اس  کی سانس  میں سیٹی کی سی آواز  تھی؟	:	A4090</string>
-    <string name="A4091">کیا اس کو سینے میں درد تھا؟	:	A4091</string>
-    <string name="A4092">کیا سینے کا درد شدید تھا؟	:	A4092</string>
-    <string name="A4093">انتقال سے  کتنے دن پہلے سے اس کو سینے میں درد   شروع  ہوا تھا؟	:	A4093 </string>
-    <string name="A4094_u">کتنے عرصے تک سینے میں درد رہا ؟</string>
-    <string name="A4094_a">منٹس</string>
-    <string name="A4094_b">گھنٹے</string>
-    <string name="A4094_c">دن</string>
+    <string name="Q_a084">a084</string>
+    <string name="a084">بیماری کے دوران جو وفات کی وجہ بنی، کیا (نام) کی سانس تیز چل رہی تھی ؟</string>
+    <string name="a084a">ہاں</string>
+    <string name="a084b">نہیں</string>
+    <string name="a08498">معلوم نہیں</string>
+    <string name="a08499">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a085">a085</string>
+    <string name="a085">کتنے عرصہ تک سانس تیز چل رہی تھی ؟</string>
+    <string name="a085d">دن</string>
+    <string name="a085m">مہینے</string>
+    <string name="a08598">معلوم نہیں</string>
+    <string name="a08599">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a086">a086</string>
+    <string name="a086">بیماری کے دوران جو وفات کی وجہ بنی، کیا اس کی سانس رک رک کر آرہی تھی ؟ `سانس گھٹنا`</string>
+    <string name="a086a">ہاں</string>
+    <string name="a086b">نہیں</string>
+    <string name="a08698">معلوم نہیں</string>
+    <string name="a08699">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a087">a087</string>
+    <string name="a087">کتنے عرصہ سے سانس رک رک کر چل رہی تھی ؟</string>
+    <string name="a087d">دن</string>
+    <string name="a087m">مہینے</string>
+    <string name="a08798">معلوم نہیں</string>
+    <string name="a08799">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a088">a088</string>
+    <string name="a088">کیا وہ سانس لینے میں دشواری  کی وجہ سے وہ روذ مرہ کے کام بھی  نہیں  کر پا رہی تھی / رہا تھا ؟</string>
+    <string name="a088a">ہاں</string>
+    <string name="a088b">نہیں</string>
+    <string name="a08898">معلوم نہیں</string>
+    <string name="a08899">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a089">a089</string>
+    <string name="a089">کیا سیدھے لیٹنے میں سانس لینے میں دشواری پیدا ہوتی تھی ؟</string>
+    <string name="a089a">ہاں</string>
+    <string name="a089b">نہیں</string>
+    <string name="a08998">معلوم نہیں</string>
+    <string name="a08999">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a090">a090</string>
+    <string name="a090">بیماری کے دوران جو وفات کی وجہ بنی، کیا اس کی سانس میں سیٹی کی سی آواز تھی ؟</string>
+    <string name="a090a">ہاں</string>
+    <string name="a090b">نہیں</string>
+    <string name="a09098">معلوم نہیں</string>
+    <string name="a09099">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a091">a091</string>
+    <string name="a091">کیا اس کو سینے میں درد تھا ؟</string>
+    <string name="a091a">ہاں</string>
+    <string name="a091b">نہیں</string>
+    <string name="a09198">معلوم نہیں</string>
+    <string name="a09199">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a092">a092</string>
+    <string name="a092">کیا سینے کا درد شدید تھا ؟</string>
+    <string name="a092a">ہاں</string>
+    <string name="a092b">نہیں</string>
+    <string name="a09298">معلوم نہیں</string>
+    <string name="a09299">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a093">a093</string>
+    <string name="a093">انتقال سے کتنے دن پہلے سے اس کو سینے میں درد شروع ہوا تھا ؟</string>
+    <string name="a093a">دن</string>
+
+    <string name="Q_a094">a094</string>
+    <string name="a094">کتنے عرصے تک سینے میں درد رہا ؟</string>
+    <string name="a094m">منٹس</string>
+    <string name="a094h">گھنٹے</string>
+    <string name="a094d">دن</string>
+    <string name="a09498">معلوم نہیں</string>
+    <string name="a09499">جواب دینے سے انکار کیا</string>
+
     <string name="A4095">کیا (نام) کو شدید سر کا درد تھا؟	:	A4095</string>
     <string name="A4096">کیا (نام) کی گردن اکڑ گئی تھی   بیماری کےدوران جو  وفات کی وجہ بنی ؟	:	A4096</string>
     <string name="A4097_u">انتقال سے کتنے عرصہ  پہلے اس کی  گردن اکڑ گئی تھی؟	:	A4097_u</string>
@@ -1254,19 +1306,19 @@
 
     <!-- Adult Urdu Responses STARTS -->
 
-    <string name="rb_A4004_1">پرائمری </string>
-    <string name="rb_A4004_2">سیکنڈری</string>
-    <string name="rb_A4004_3">اعلیٰ تعلیم</string>
-    <string name="rb_A4004_DK">معلوم نہیں</string>
-    <string name="rb_A4004_RA">جواب دینے سے انکار کیا</string>
+    <string name="a004a">پرائمری </string>
+    <string name="a004b">سیکنڈری</string>
+    <string name="a004c">اعلیٰ تعلیم</string>
+    <string name="a00498">معلوم نہیں</string>
+    <string name="a00499">جواب دینے سے انکار کیا</string>
 
-    <string name="rb_A4006_1">ہاں</string>
-    <string name="rb_A4006_2">نہیں</string>
-    <string name="rb_A4006_DK">معلوم نہیں</string>
-    <string name="rb_A4006_RA">جواب دینے سے انکار کیا</string>
+    <string name="a006a">ہاں</string>
+    <string name="a006b">نہیں</string>
+    <string name="a00698">معلوم نہیں</string>
+    <string name="a00699">جواب دینے سے انکار کیا</string>
 
-    <string name="rb_A4007_1">بے روز گار</string>
-    <string name="rb_A4007_2">روز گار</string>
+    <string name="a007a">بے روز گار</string>
+    <string name="a007b">روز گار</string>
     <string name="rb_A4007_3">گھریلو</string>
     <string name="rb_A4007_4">پینشن</string>
     <string name="rb_A4007_5">طالب علم</string>
@@ -1300,55 +1352,6 @@
     <string name="rb_A4014_1">ہاں</string>
     <string name="rb_A4014_2">نہیں</string>
     <string name="rb_A4014_DK">معلوم نہیں</string>
-
-    <string name="rb_A4084_1">ہاں</string>
-    <string name="rb_A4084_2">نہیں</string>
-    <string name="rb_A4084_DK">معلوم نہیں</string>
-    <string name="rb_A4084_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4085_u_1">دن</string>
-    <string name="rb_A4085_u_2">مہینے</string>
-    <string name="rb_A4085_u_DK">معلوم نہیں</string>
-    <string name="rb_A4085_u_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4086_1">ہاں</string>
-    <string name="rb_A4086_2">نہیں</string>
-    <string name="rb_A4086_DK">معلوم نہیں</string>
-    <string name="rb_A4086_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4087_u_1">دن</string>
-    <string name="rb_A4087_u_2">مہینے</string>
-    <string name="rb_A4087_u_DK">معلوم نہیں</string>
-    <string name="rb_A4087_u_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4088_1">ہاں</string>
-    <string name="rb_A4088_2">نہیں</string>
-    <string name="rb_A4088_DK">معلوم نہیں</string>
-    <string name="rb_A4088_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4089_1">ہاں</string>
-    <string name="rb_A4089_2">نہیں</string>
-    <string name="rb_A4089_DK">معلوم نہیں</string>
-    <string name="rb_A4089_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4090_1">ہاں</string>
-    <string name="rb_A4090_2">نہیں</string>
-    <string name="rb_A4090_DK">معلوم نہیں</string>
-    <string name="rb_A4090_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4091_1">ہاں</string>
-    <string name="rb_A4091_2">نہیں</string>
-    <string name="rb_A4091_DK">معلوم نہیں</string>
-    <string name="rb_A4091_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4092_1">ہاں</string>
-    <string name="rb_A4092_2">نہیں</string>
-    <string name="rb_A4092_DK">معلوم نہیں</string>
-    <string name="rb_A4092_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4094_u_3">دن</string>
-    <string name="rb_A4094_u_DK">معلوم نہیں</string>
-    <string name="rb_A4094_u_RA">جواب دینے سے انکار کیا</string>
 
     <string name="rb_A4095_1">ہاں</string>
     <string name="rb_A4095_2">نہیں</string>
@@ -2482,46 +2485,11 @@
     <string name="cb_A4472_12">اوپر  میں سے کوئی لفظ موجود نہیں</string>
     <string name="cb_A4472_DK">معلوم نہیں</string>
 
-    <!-- Adult Urdu Responses ENDS -->
-
-    <!-- Adult Urdu HINT‘s STARTS -->
-
-    <string name="A4005_h">اگر ایک سال سے کم مکمل ہے تو 00 لکھیں</string>
     <string name="A4006_h">"ہاں" لکھیں  اگر جواب دہندہ کو معلوم ہے کہ (نام) کو دونوں لکھنا پڑھنا یا صرف لکھنا یا صرف پڑھنا آتا  تھا  ۔</string>
-    <string name="A4012_h">لکھیں   88  = جواب دینے سے انکار کیا ; 99= معلوم  نہیں</string>
-    <string name="A4013d_h">اگر صرف 30 دن سے کم ہے تودن ریکارڈ کریں۔ اور اگر 24 گھنٹے سے کم ہے تو 00 دن ریکارڈ کریں</string>
-    <string name="A4013m_h"> 1-11اگر مہینے تو مہینے ریکارڈ کریں </string>
-    <string name="A4013y_h">اگر ایک سال یا اس سے زیادہ ہو تو سال ریکارڈ کریں</string>
-    <string name="A4052_u_h"> اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛ ایک ہفتہ = 7 لکھیں</string>
-    <string name="A4052_b_h">دن لکھیں۔ اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0 لکھیں؛ ایک ہفتہ = 7 لکھیں     0-30</string>
-    <string name="A4052_c_h">مہینے         1-60</string>
-    <string name="A4059_u_h"> اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛   ایک ہفتہ = 7 لکھیں</string>
-    <string name="A4059_a_h">دن لکھیں۔ اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0 لکھیں؛ ایک ہفتہ = 7 لکھیں     0-30</string>
-    <string name="A4059_b_h">مہینے         1-60</string>
-    <string name="A4064_u_h">              مہینے ۔ 1-60 دن یا       0-30اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛   ایک ہفتہ = 7 لکھیں</string>
-    <string name="A4064_a_h">دن لکھیں۔ اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0 لکھیں؛ ایک ہفتہ = 7 لکھیں     0-30</string>
-    <string name="A4064_b_h">مہینے         1-60</string>
-    <string name="A4069_u_h">             مہینے ۔ 1-60دن یا  1-30  گھنٹے  ،یا       0- 23      ایک ہفتہ = 7 دن لکھیں</string>
-    <string name="A4072_a_h">دن لکھیں۔ اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0 لکھیں؛ ایک ہفتہ = 7 لکھیں     0-30</string>
-    <string name="A4072_b_h">مہینے         1-60</string>
-    <string name="A4075_u_h"> اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛   ایک ہفتہ = 7 لکھیں</string>
     <string name="A4075_a_h">دن لکھیں۔ اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0 لکھیں؛ ایک ہفتہ = 7 لکھیں     0-30</string>
-    <string name="A4075_b_h">مہینے         1-60</string>
-    <string name="A4077_u_h">              مہینے ۔ 1-60 دن یا       0-30اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛   ایک ہفتہ = 7 لکھیں</string>
     <string name="A4077_a_h">دن لکھیں۔ اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0 لکھیں؛ ایک ہفتہ = 7 لکھیں     0-30</string>
     <string name="A4077_b_h">مہینے         1-60</string>
-    <string name="A4082_u_h"> اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛   ایک ہفتہ = 7 لکھیں</string>
-    <string name="A4082_a_h">دن لکھیں۔ اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0 لکھیں؛ ایک ہفتہ = 7 لکھیں     0-30</string>
-    <string name="A4082_b_h">مہینے         1-60</string>
-    <string name="A4082_c_h">موت کے وقت کی  عمر سے سالوں کا نمبر کم لکھیں </string>
-    <string name="A4085_b_h">مہینے         1-60</string>
-    <string name="A4087_u_h">               مہینے ۔ 1-60 دن یا       0-30اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛   ایک ہفتہ = 7 لکھیں</string>
-    <string name="A4087_b_h">مہینے         1-60</string>
-    <string name="A4093_h">24 گھنٹے سے کم ہو تو 00 دن    </string>
-    <string name="A4094_u_h">             مہینے ۔ 1-60 دن یا       0-30  اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛   ایک ہفتہ = 7 لکھیں</string>
-    <string name="A4094_a_h">منٹس لکھیں 0-59</string>
-    <string name="A4094_b_h">گھنٹے لکھیں 1-23</string>
-    <string name="A4094_c_h">دن لکھیں  یا   ایک ہفتہ = 7 دن لکھیں 0-30</string>
+
     <string name="A4097_u_h">              مہینے ۔ 1-60 دن یا       0-30 اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛   ایک ہفتہ = 7 لکھیں</string>
     <string name="A4097_a_h">دن لکھیں۔ اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0 لکھیں؛ ایک ہفتہ = 7 لکھیں     0-30</string>
     <string name="A4097_b_h">مہینے         1-60</string>

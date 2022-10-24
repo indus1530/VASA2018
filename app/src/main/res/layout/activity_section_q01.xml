@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ui.Q1101_Q1610">
+    tools:context=".ui.SectionQ01Activity">
 
 
     <ScrollView
@@ -995,7 +995,7 @@
                     </LinearLayout>
 
                     <com.santalu.widget.MaskEditText
-                        android:id="@+id/ed_Q1312"
+                        android:id="@+id/q1312"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/q1312"
@@ -1037,7 +1037,7 @@
                     </LinearLayout>
 
                     <com.santalu.widget.MaskEditText
-                        android:id="@+id/ed_Q1313"
+                        android:id="@+id/q1313"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/q1313"

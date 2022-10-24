@@ -38,7 +38,7 @@ import edu.aku.abdulsajid.vasa2018.Pending.SurveyPendingActivity;
 import edu.aku.abdulsajid.vasa2018.R;
 import edu.aku.abdulsajid.vasa2018.Upload.SurveyCompletedActivity;
 import edu.aku.abdulsajid.vasa2018.data.DBHelper;
-import edu.aku.abdulsajid.vasa2018.ui.Q1101_Q1610;
+import edu.aku.abdulsajid.vasa2018.ui.SectionQ01Activity;
 import edu.aku.abdulsajid.vasa2018.utils.BackgroundTask;
 import edu.aku.abdulsajid.vasa2018.utils.BackgroundTask2;
 import edu.aku.abdulsajid.vasa2018.utils.MyPreferences;
@@ -210,7 +210,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 
 
             //intent = new Intent(this, Q1101_Q1610.class);
-            intent = new Intent(this, Q1101_Q1610.class);
+            intent = new Intent(this, SectionQ01Activity.class);
 
 
             intent.putExtra("put_extra", put_extr);

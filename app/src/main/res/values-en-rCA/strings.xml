@@ -5349,8 +5349,8 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="A4258_2">A4258_2: For health care outside a facility, \nask: \nDid the FIRST HEALTH PROVIDER reach (NAME) before s/he died ?</string>
 
 
-    <string name="Q_a4001">a4001</string>
-    <string name="a4001">What was the first or given name(s) of the deceased ?</string>
+    <string name="Q_a001">a001</string>
+    <string name="a001">What was the first or given name(s) of the deceased ?</string>
 
     <string name="Q_a002">a002</string>
     <string name="a002">What was her/his marital status  ?</string>
@@ -5363,35 +5363,37 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="a00298">Don’t Know</string>
     <string name="a00299">Refused to Answer</string>
 
-    <string name="Q_A4003">A4003</string>
-    <string name="A4003">Did s/he ever attend school  ?</string>
-    <string name="rb_A4003_1">Yes</string>
-    <string name="rb_A4003_2">No</string>
-    <string name="rb_A4003_DK">Don’t Know</string>
-    <string name="rb_A4003_RA">Refused to Answer</string>
+    <string name="Q_a003">a003</string>
+    <string name="a003">Did s/he ever attend school  ?</string>
+    <string name="a003a">Yes</string>
+    <string name="a003b">No</string>
+    <string name="a00398">Don’t Know</string>
+    <string name="a00399">Refused to Answer</string>
 
-    <string name="Q_A4004">A4004</string>
-    <string name="A4004">What is the highest level of school she/he attended: primary, secondary, or higher ?</string>
-    <string name="rb_A4004_1">Primary</string>
-    <string name="rb_A4004_2">Secondary</string>
-    <string name="rb_A4004_3">Higher</string>
-    <string name="rb_A4004_DK">Don’t Know</string>
-    <string name="rb_A4004_RA">Refused to Answer</string>
+    <string name="Q_a004">a004</string>
+    <string name="a004">What is the highest level of school she/he attended: primary, secondary, or higher ?</string>
+    <string name="a004a">Primary</string>
+    <string name="a004b">Secondary</string>
+    <string name="a004c">Higher</string>
+    <string name="a00498">Don’t Know</string>
+    <string name="a00499">Refused to Answer</string>
 
-    <string name="Q_A4005">A4005</string>
-    <string name="A4005">What is the highest GRADE/YEAR s/he completed (at that level) ?</string>
+    <string name="Q_a005">a005</string>
+    <string name="a005">What is the highest GRADE/YEAR s/he completed (at that level) ?</string>
+    <string name="a005info">If completed less than 1 year at that level, record 0 \nDon‘t Know = 99</string>
+    <string name="a005a">Grade / Year</string>
 
-    <string name="Q_A4006">A4006</string>
-    <string name="A4006">Was s/he able to read and write ?</string>
-    <string name="rb_A4006_1">Yes</string>
-    <string name="rb_A4006_2">No</string>
-    <string name="rb_A4006_DK">Don’t Know</string>
-    <string name="rb_A4006_RA">Refused to Answer</string>
+    <string name="Q_a006">a006</string>
+    <string name="a006">Was s/he able to read and write ?</string>
+    <string name="a006a">Yes</string>
+    <string name="a006b">No</string>
+    <string name="a00698">Don’t Know</string>
+    <string name="a00699">Refused to Answer</string>
 
-    <string name="Q_A4007">A4007</string>
-    <string name="A4007">A4007: What was her/his economic activity status in the year prior to death ?</string>
-    <string name="rb_A4007_1">Unemployed</string>
-    <string name="rb_A4007_2">Employed</string>
+    <string name="Q_a007">A4007</string>
+    <string name="a007">A4007: What was her/his economic activity status in the year prior to death ?</string>
+    <string name="a007a">Unemployed</string>
+    <string name="a007b">Employed</string>
     <string name="rb_A4007_3">Homemaker</string>
     <string name="rb_A4007_4">Pensioner</string>
     <string name="rb_A4007_5">Student</string>
@@ -5545,6 +5547,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
 
     <string name="Q_a064">a064</string>
     <string name="a064">How long did the frequent loose or liquid stools last ?</string>
+    <string name="a064info">Enter 0–29 days. 1 day or less than 24 hours = 0 days. 1 week = 7 days. Don\'t know = 99</string>
     <string name="a064d">Day(s)</string>
     <string name="a064m">Month(s)</string>
     <string name="a06498">Don’t Know</string>
@@ -5587,6 +5590,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
 
     <string name="Q_a069">a069</string>
     <string name="a069">How long did the frequent loose or liquid stools last ?</string>
+    <string name="a069info">Enter 0–29 days. 1 day or less than 24 hours = 0 days. 1 week = 7 days. Don\'t know = 99</string>
     <string name="a069d">Day(s)</string>
     <string name="a069m">Month(s)</string>
     <string name="a069y">Year(s)</string>
@@ -5694,43 +5698,81 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="a08398">Don’t Know</string>
     <string name="a08399">Refused to Answer</string>
 
-    <string name="A4084">A4084: During the illness that led to death, did (NAME) have fast breathing ?</string>
-    <string name="rb_A4084_1">Yes</string>
-    <string name="rb_A4084_2">No</string>
-    <string name="rb_A4084_DK">Don’t Know</string>
-    <string name="rb_A4084_RA">Refused to Answer</string>
+    <string name="Q_a084">a084</string>
+    <string name="a084">During the illness that led to death, did (NAME) have fast breathing ?</string>
+    <string name="a084a">Yes</string>
+    <string name="a084b">No</string>
+    <string name="a08498">Don’t Know</string>
+    <string name="a08499">Refused to Answer</string>
 
-    <string name="A4085_u">A4085_Units: How long did the fast breathing last ?</string>
-    <string name="rb_A4085_u_1">Day(s)</string>
-    <string name="rb_A4085_u_2">Month(s)</string>
-    <string name="rb_A4085_u_DK">Don’t Know</string>
-    <string name="rb_A4085_u_RA">Refused to Answer</string>
+    <string name="Q_a085">a085</string>
+    <string name="a085">How long did the fast breathing last ?</string>
+    <string name="a085d">Day(s)</string>
+    <string name="a085m">Month(s)</string>
+    <string name="a08598">Don’t Know</string>
+    <string name="a08599">Refused to Answer</string>
 
-    <string name="A4085_u_h">	کو ئی ایک جواب لکھیں:  مہینے ۔ 1-60 دن یا       0-30  اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛  ایک ہفتہ = 7 لکھیں	:	A4085_u</string>
-    <string name="A4085_a">	کتنے دنوں تک سانس تیز چل رہی تھی؟	:	A4085_a</string>
-    <string name="A4085_a_h">	کو ئی ایک جواب لکھیں:  مہینے ۔ 1-60 دن یا       0-30  اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛  ایک ہفتہ = 7 لکھیں	:	A4085_u</string>
-    <string name="A4085_b">Month(s)</string>
+    <string name="Q_a086">a086</string>
+    <string name="a086">During the illness that led to death, did the s/he have breathlessness ?</string>
+    <string name="a086a">Yes</string>
+    <string name="a086b">No</string>
+    <string name="a08698">Don’t Know</string>
+    <string name="a08699">Refused to Answer</string>
 
-    <string name="A4086">A4086: During the illness that led to death, did the s/he have breathlessness ?</string>
-    <string name="rb_A4086_1">Yes</string>
-    <string name="rb_A4086_2">No</string>
-    <string name="rb_A4086_DK">Don’t Know</string>
-    <string name="rb_A4086_RA">Refused to Answer</string>
+    <string name="Q_a087">a087</string>
+    <string name="a087">How long did s/he have breathlessness ?</string>
+    <string name="a087d">Day(s)</string>
+    <string name="a087m">Month(s)</string>
+    <string name="a08798">Don’t Know</string>
+    <string name="a08799">Refused to Answer</string>
 
-    <string name="A4087_u">A4087_Units: How long did s/he have breathlessness ?</string>
-    <string name="A4087_a">	کتنے دنوں تک سانس رک رک کر چل رہی تھی؟	:	A4087_a</string>
-    <string name="A4087_a_h">	کو ئی ایک جواب لکھیں:  مہینے ۔ 1-60 دن یا       0-30  اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛  ایک ہفتہ = 7 لکھیں	:	A4085_u</string>
-    <string name="A4087_b">Month(s)</string>
-    <string name="A4088">A4088: Was s/he unable to carry out daily routines due to breathlessness ?</string>
-    <string name="A4089">A4089: Was she breathless while lying flat ?</string>
-    <string name="A4090">A4090: During the illness that led to death did (s)he have wheezing ?</string>
-    <string name="A4091">A4091: Did s/he have chest pain ?</string>
-    <string name="A4092">A4092: Was the chest pain severe ?</string>
-    <string name="A4093">A4093: How many days before death did s/he have chest pain ?</string>
-    <string name="A4094_u">A4094_Units: How long did the chest pain last ?</string>
-    <string name="A4094_a">Minute(s)</string>
-    <string name="A4094_b">Hour(s)</string>
-    <string name="A4094_c">Day(s)</string>
+    <string name="Q_a088">a088</string>
+    <string name="a088">Was s/he unable to carry out daily routines due to breathlessness ?</string>
+    <string name="a088a">Yes</string>
+    <string name="a088b">No</string>
+    <string name="a08898">Don’t Know</string>
+    <string name="a08899">Refused to Answer</string>
+
+    <string name="Q_a089">a089</string>
+    <string name="a089">Was she breathless while lying flat ?</string>
+    <string name="a089a">Yes</string>
+    <string name="a089b">No</string>
+    <string name="a08998">Don’t Know</string>
+    <string name="a08999">Refused to Answer</string>
+
+    <string name="Q_a090">a090</string>
+    <string name="a090">During the illness that led to death did (s)he have wheezing ?</string>
+    <string name="a090a">Yes</string>
+    <string name="a090b">No</string>
+    <string name="a09098">Don’t Know</string>
+    <string name="a09099">Refused to Answer</string>
+
+    <string name="Q_a091">a091</string>
+    <string name="a091">Did s/he have chest pain ?</string>
+    <string name="a091a">Yes</string>
+    <string name="a091b">No</string>
+    <string name="a09198">Don’t Know</string>
+    <string name="a09199">Refused to Answer</string>
+
+    <string name="Q_a092">a092</string>
+    <string name="a092">Was the chest pain severe ?</string>
+    <string name="a092a">Yes</string>
+    <string name="a092b">No</string>
+    <string name="a09298">Don’t Know</string>
+    <string name="a09299">Refused to Answer</string>
+
+    <string name="Q_a093">a093</string>
+    <string name="a093">How many days before death did s/he have chest pain ?</string>
+    <string name="a093a">Day(s)</string>
+
+    <string name="Q_a094">a094</string>
+    <string name="a094">How long did the chest pain last ?</string>
+    <string name="a094m">Minute(s)</string>
+    <string name="a094h">Hour(s)</string>
+    <string name="a094d">Day(s)</string>
+    <string name="a09498">Don’t Know</string>
+    <string name="a09499">Refused to Answer</string>
+
     <string name="A4095">A4095: Did (NAME) have a severe headache ?</string>
     <string name="A4096">A4096: Did (NAME) have a stiff neck during the illness that led to death ?</string>
     <string name="A4097_u">A4097_Units: How long before death did s/he have a stiff neck ?</string>
@@ -5981,47 +6023,6 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="A4456">A4456: Did the deceased’s spouse/partner ever have a positive HIV test ?</string>
     <string name="A4457">A4457: Was there any diagnosis by a health professional that the deceased’s spouse/partner had AIDS ?</string>
     <string name="A4472">A4472: Are any of the following words of interest mentioned in the above narrative ?</string>
-
-    <string name="rb_A4087_u_1">Day(s)</string>
-    <string name="rb_A4087_u_2">Month(s)</string>
-    <string name="rb_A4087_u_DK">Don’t Know</string>
-
-    <string name="rb_A4087_u_RA">Refused to Answer</string>
-
-    <string name="rb_A4088_1">Yes</string>
-    <string name="rb_A4088_2">No</string>
-    <string name="rb_A4088_DK">Don’t Know</string>
-
-    <string name="rb_A4088_RA">Refused to Answer</string>
-
-    <string name="rb_A4089_1">Yes</string>
-    <string name="rb_A4089_2">No</string>
-    <string name="rb_A4089_DK">Don’t Know</string>
-
-    <string name="rb_A4089_RA">Refused to Answer</string>
-
-    <string name="rb_A4090_1">Yes</string>
-    <string name="rb_A4090_2">No</string>
-    <string name="rb_A4090_DK">Don’t Know</string>
-
-    <string name="rb_A4090_RA">Refused to Answer</string>
-
-    <string name="rb_A4091_1">Yes</string>
-    <string name="rb_A4091_2">No</string>
-    <string name="rb_A4091_DK">Don’t Know</string>
-
-    <string name="rb_A4091_RA">Refused to Answer</string>
-
-    <string name="rb_A4092_1">Yes</string>
-    <string name="rb_A4092_2">No</string>
-    <string name="rb_A4092_DK">Don’t Know</string>
-
-    <string name="rb_A4092_RA">Refused to Answer</string>
-
-    <string name="rb_A4094_u_3">دن</string>
-    <string name="rb_A4094_u_DK">Don’t Know</string>
-
-    <string name="rb_A4094_u_RA">Refused to Answer</string>
 
     <string name="rb_A4095_1">Yes</string>
     <string name="rb_A4095_2">No</string>
@@ -7775,45 +7776,10 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="A4075_a_h"><![CDATA[Enter 0-30 days. Less than 1 day or 24 hours = 0 days; 1 week = 7 days & If Don‘t Know Enter 99.]]></string>
     <string name="A4077_a_h"><![CDATA[Enter 0-30 days. Less than 1 day or 24 hours = 0 days; 1 week = 7 days &amp; If Don‘t Know  Enter 99\"]]></string>
     <string name="A4077_b_h">Enter 1-60 Months &amp; if Don‘t Know Enter 99</string>
-    <string name="A4005_h">If completed less than 1 year at that level, record 0 \nDon‘t Know = 99</string>
     <string name="A4006_h">Record “yes” if both or either reading or writing is known to the respondent.</string>
 
 
     <!--JUST TO-->
-    <string name="A4012_h">	لکھیں   88  = جواب دینے سے انکار کیا ; 99= معلوم  نہیں</string>
-    <string name="A4013d_h">	اگر صرف 30 دن سے کم ہے تودن ریکارڈ کریں۔ اور اگر 24 گھنٹے سے کم ہے تو 00 دن ریکارڈ کریں</string>
-    <string name="A4013m_h">	 1-11اگر مہینے تو مہینے ریکارڈ کریں </string>
-    <string name="A4013y_h">	اگر ایک سال یا اس سے زیادہ ہو تو سال ریکارڈ کریں</string>
-    <string name="A4052_u_h">	 اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛ ایک ہفتہ = 7 لکھیں</string>
-    <string name="A4052_b_h">	دن لکھیں۔ اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0 لکھیں؛ ایک ہفتہ = 7 لکھیں     0-30</string>
-    <string name="A4052_c_h">	مہینے         1-60</string>
-    <string name="A4059_u_h">	 اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛   ایک ہفتہ = 7 لکھیں</string>
-    <string name="A4059_a_h">	دن لکھیں۔ اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0 لکھیں؛ ایک ہفتہ = 7 لکھیں     0-30</string>
-    <string name="A4059_b_h">	مہینے         1-60</string>
-    <string name="A4064_u_h">	              مہینے ۔ 1-60 دن یا       0-30اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛   ایک ہفتہ = 7 لکھیں</string>
-    <string name="A4064_a_h">	دن لکھیں۔ اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0 لکھیں؛ ایک ہفتہ = 7 لکھیں     0-30</string>
-    <string name="A4064_b_h">	مہینے         1-60</string>
-    <string name="A4069_u_h">	             مہینے ۔ 1-60دن یا  1-30  گھنٹے  ،یا       0- 23      ایک ہفتہ = 7 دن لکھیں</string>
-    <string name="A4072_a_h">	دن لکھیں۔ اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0 لکھیں؛ ایک ہفتہ = 7 لکھیں     0-30</string>
-    <string name="A4072_b_h">	مہینے         1-60</string>
-    <string name="A4075_u_h">	 اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛   ایک ہفتہ = 7 لکھیں</string>
-
-    <string name="A4075_b_h">	مہینے         1-60</string>
-    <string name="A4077_u_h">	              مہینے ۔ 1-60 دن یا       0-30اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛   ایک ہفتہ = 7 لکھیں</string>
-
-
-    <string name="A4082_u_h">	 اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛   ایک ہفتہ = 7 لکھیں</string>
-    <string name="A4082_a_h">	دن لکھیں۔ اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0 لکھیں؛ ایک ہفتہ = 7 لکھیں     0-30</string>
-    <string name="A4082_b_h">	مہینے         1-60</string>
-    <string name="A4082_c_h">	موت کے وقت کی  عمر سے سالوں کا نمبر کم لکھیں </string>
-    <string name="A4085_b_h">	مہینے         1-60</string>
-    <string name="A4087_u_h">	               مہینے ۔ 1-60 دن یا       0-30اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛   ایک ہفتہ = 7 لکھیں</string>
-    <string name="A4087_b_h">	مہینے         1-60</string>
-    <string name="A4093_h">	24 گھنٹے سے کم ہو تو 00 دن    </string>
-    <string name="A4094_u_h">	             مہینے ۔ 1-60 دن یا       0-30  اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛   ایک ہفتہ = 7 لکھیں</string>
-    <string name="A4094_a_h">	منٹس لکھیں 0-59</string>
-    <string name="A4094_b_h">	گھنٹے لکھیں 1-23</string>
-    <string name="A4094_c_h">	دن لکھیں  یا   ایک ہفتہ = 7 دن لکھیں 0-30</string>
     <string name="A4097_u_h">	              مہینے ۔ 1-60 دن یا       0-30 اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛   ایک ہفتہ = 7 لکھیں</string>
     <string name="A4097_a_h">	دن لکھیں۔ اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0 لکھیں؛ ایک ہفتہ = 7 لکھیں     0-30</string>
     <string name="A4097_b_h">	مہینے         1-60</string>

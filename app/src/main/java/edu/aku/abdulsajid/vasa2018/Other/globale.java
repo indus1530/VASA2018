@@ -3,7 +3,6 @@ package edu.aku.abdulsajid.vasa2018.Other;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 
 import edu.aku.abdulsajid.vasa2018.ui.InterviewEnd;
@@ -22,22 +21,15 @@ public class globale {
                 .setMessage("Do you want to End Interview?")
                 .setCancelable(false)
                 .setPositiveButton("Yes",
-                        new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog,
-                                                int id) {
-                                activity.finish();
-                                Intent end_intent = new Intent(context, InterviewEnd.class);
-                                end_intent.putExtra("study_id", study_id);
-                                end_intent.putExtra("currentSection", currentSection);
-                                context.startActivity(end_intent);
-                            }
+                        (dialog, id) -> {
+                            activity.finish();
+                            Intent end_intent = new Intent(context, InterviewEnd.class);
+                            end_intent.putExtra("study_id", study_id);
+                            end_intent.putExtra("currentSection", currentSection);
+                            context.startActivity(end_intent);
                         });
         alertDialogBuilder.setNegativeButton("No",
-                new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int id) {
-                        dialog.cancel();
-                    }
-                });
+                (dialog, id) -> dialog.cancel());
         AlertDialog alert = alertDialogBuilder.create();
         alert.show();
     }

@@ -43,7 +43,7 @@ import edu.aku.abdulsajid.vasa2018.data.LocalDataManager;
 import edu.aku.abdulsajid.vasa2018.utils.ClearAllcontrol;
 import edu.aku.abdulsajid.vasa2018.utils.MyPreferences;
 
-public class Q1101_Q1610 extends AppCompatActivity implements View.OnClickListener, TextWatcher, AdapterView.OnItemSelectedListener {
+public class SectionQ01Activity extends AppCompatActivity implements View.OnClickListener, TextWatcher, AdapterView.OnItemSelectedListener {
 
     private Pattern pattern;
     private Matcher matcher;
@@ -438,7 +438,7 @@ public class Q1101_Q1610 extends AppCompatActivity implements View.OnClickListen
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         change_langua();
-        setContentView(R.layout.q1101_q1610);
+        setContentView(R.layout.activity_section_q01);
 
         Initialization();
 
@@ -686,7 +686,7 @@ public class Q1101_Q1610 extends AppCompatActivity implements View.OnClickListen
     void show_dailuge_Q1503() {
 
 
-        final AlertDialog b = new AlertDialog.Builder(Q1101_Q1610.this).create();
+        final AlertDialog b = new AlertDialog.Builder(SectionQ01Activity.this).create();
 
         LayoutInflater layoutInflater = getLayoutInflater();
         View v = layoutInflater.inflate(R.layout.dialog_q1503, null);

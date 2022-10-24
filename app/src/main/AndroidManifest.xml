@@ -84,7 +84,7 @@
             android:name="edu.aku.abdulsajid.vasa2018.ui.C3471_C3472"
             android:screenOrientation="portrait" />
         <activity
-            android:name="edu.aku.abdulsajid.vasa2018.ui.Q1101_Q1610"
+            android:name="edu.aku.abdulsajid.vasa2018.ui.SectionQ01Activity"
             android:screenOrientation="portrait" />
         <activity
             android:name="edu.aku.abdulsajid.vasa2018.ui.C3251_C3288_A"
