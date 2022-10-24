@@ -981,26 +981,101 @@
     <string name="a09498">معلوم نہیں</string>
     <string name="a09499">جواب دینے سے انکار کیا</string>
 
-    <string name="A4095">کیا (نام) کو شدید سر کا درد تھا؟	:	A4095</string>
-    <string name="A4096">کیا (نام) کی گردن اکڑ گئی تھی   بیماری کےدوران جو  وفات کی وجہ بنی ؟	:	A4096</string>
-    <string name="A4097_u">انتقال سے کتنے عرصہ  پہلے اس کی  گردن اکڑ گئی تھی؟	:	A4097_u</string>
-    <string name="A4097_a">دن</string>
-    <string name="A4097_b">مپہنے</string>
-    <string name="A4098">کیا (نام) کی گردن میں تکلیف یا درد کی شکایت  تھی اس بیماری کے دوران جو موت کا سبب بننی ؟	:	A4098</string>
-    <string name="A4099_u">انتقال سے کتنےعرصہ  پہلے اس کو گردن میں تکلیف یا درد کی شکایت  تھی؟	:	A4099_u</string>
-    <string name="A4099_a">دن</string>
-    <string name="A4099_b">مپہنے</string>
-    <string name="A4100">کیا وہ کسی ذہنی الجھن کا شکار تھی یا تھا؟ 	:	A4100</string>
-    <string name="A4101_u">کتنے عرصے سے وہ ذہنی الجھن کا شکار تھی یا تھا؟ 	:	A4101_u</string>
-    <string name="A4101_a">دن</string>
-    <string name="A4101_b">مپہنے</string>
-    <string name="A4102">کیا اس بیماری کے دوران جو موت کا سبب بننی, کیا (نام) بے ہوش  ہوا تھا/ ہوئی  تھی  ؟	:	A4102</string>
-    <string name="A4103">کیا وہ وفات پانے سے پہلے 24 گھنٹوں سے زیادہ بے ہوش رہاتھا یا رہی تھی ؟	:	A4103</string>
-    <string name="A4104">کیا بیہوشی   اچانک   تیزی سے شروع ہو ئی تھی (زیادہ سے زیادہ  ایک دن کے اندر)	:	A4104</string>
-    <string name="A4105">کیا بیہوشی  انتقال تک جاری رہی تھی؟	:	A4105</string>
-    <string name="A4106">بیماری کے دوران جو انتقال کا سبب بننی، کیا (نام) کو جھٹکے آ ئے  تھے ؟	:	A4106</string>
-    <string name="A4107">جھٹکے کتنے منٹ تک پڑتے تھے؟	:	A4107</string>
-    <string name="A4108">کیا وہ جھٹکوں کے فوراً بعد بے ہوش ہوگئی تھی یا بے ہوش ہوگیا تھا؟	:	A4108</string>
+    <string name="Q_a095">a095</string>
+    <string name="a095">کیا (نام) کو شدید سر کا درد تھا ؟</string>
+    <string name="a095a">ہاں</string>
+    <string name="a095b">نہیں</string>
+    <string name="a09598">معلوم نہیں</string>
+    <string name="a09599">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a096">a096</string>
+    <string name="a096">کیا (نام) کی گردن اکڑ گئی تھی بیماری کے دوران جو وفات کی وجہ بنی ؟</string>
+    <string name="a096a">ہاں</string>
+    <string name="a096b">نہیں</string>
+    <string name="a09698">معلوم نہیں</string>
+    <string name="a09699">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a097">a097</string>
+    <string name="a097">انتقال سے کتنے عرصہ پہلے اس کی گردن اکڑ گئی تھی ؟</string>
+    <string name="a097d">دن</string>
+    <string name="a097m">مہینے</string>
+    <string name="a09798">معلوم نہیں</string>
+    <string name="a09799">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a098">a098</string>
+    <string name="a098">کیا (نام) کی گردن میں تکلیف یا درد کی شکایت تھی اس بیماری کے دوران جو موت کا سبب بننی ؟</string>
+    <string name="a098a">ہاں</string>
+    <string name="a098b">نہیں</string>
+    <string name="a09898">معلوم نہیں</string>
+    <string name="a09899">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a099">a099</string>
+    <string name="a099">انتقال سے کتنے عرصہ پہلے اس کو گردن میں تکلیف یا درد کی شکایت تھی ؟</string>
+    <string name="a099d">دن</string>
+    <string name="a099m">مہینے</string>
+    <string name="a09998">معلوم نہیں</string>
+    <string name="a09999">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a100">a100</string>
+    <string name="a100">کیا وہ کسی ذہنی الجھن کا شکار تھی یا تھا ؟</string>
+    <string name="a100a">ہاں</string>
+    <string name="a100b">نہیں</string>
+    <string name="a10098">معلوم نہیں</string>
+    <string name="a10099">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a101">a101</string>
+    <string name="a101">کتنے عرصے سے وہ ذہنی الجھن کا شکار تھی یا تھا ؟</string>
+    <string name="a101d">دن</string>
+    <string name="a101m">مہینے</string>
+    <string name="a10198">معلوم نہیں</string>
+    <string name="a10199">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a102">a102</string>
+    <string name="a102">کیا اس بیماری کے دوران جو موت کا سبب بننی, کیا (نام) بے ہوش ہوا تھا / ہوئی  تھی ؟</string>
+    <string name="a102a">ہاں</string>
+    <string name="a102b">نہیں</string>
+    <string name="a10298">معلوم نہیں</string>
+    <string name="a10299">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a103">a103</string>
+    <string name="a103">کیا وہ وفات پانے سے پہلے 24 گھنٹوں سے زیادہ بے ہوش رہا تھا یا رہی تھی ؟</string>
+    <string name="a103a">ہاں</string>
+    <string name="a103b">نہیں</string>
+    <string name="a10398">معلوم نہیں</string>
+    <string name="a10399">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a104">a104</string>
+    <string name="a104">کیا بیہوشی اچانک تیزی سے شروع ہوئی تھی (زیادہ سے زیادہ ایک دن کے اندر) ؟</string>
+    <string name="a104a">ہاں</string>
+    <string name="a104b">نہیں</string>
+    <string name="a10498">معلوم نہیں</string>
+    <string name="a10499">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a105">a105</string>
+    <string name="a105">کیا بیہوشی انتقال تک جاری رہی تھی ؟</string>
+    <string name="a105a">ہاں</string>
+    <string name="a105b">نہیں</string>
+    <string name="a10598">معلوم نہیں</string>
+    <string name="a10599">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a106">a106</string>
+    <string name="a106">بیماری کے دوران جو انتقال کا سبب بننی، کیا (نام) کو جھٹکے آئے تھے ؟</string>
+    <string name="a106a">ہاں</string>
+    <string name="a106b">نہیں</string>
+    <string name="a10698">معلوم نہیں</string>
+    <string name="a10699">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a107">a107</string>
+    <string name="a107">جھٹکے کتنے منٹ تک پڑتے تھے ؟</string>
+    <string name="a107a">منٹ</string>
+
+    <string name="Q_a108">a108</string>
+    <string name="a108">کیا وہ جھٹکوں کے فوراً بعد بے ہوش ہوگئی تھی یا بے ہوش ہوگیا تھا ؟</string>
+    <string name="a108a">ہاں</string>
+    <string name="a108b">نہیں</string>
+    <string name="a10898">معلوم نہیں</string>
+    <string name="a10899">جواب دینے سے انکار کیا</string>
+
     <string name="A4109">کیا اس کو پیشاب کی کوئی شکایت تھی؟	:	A4109</string>
     <string name="A4110">مہلک بیماری کے دوران کیا (اس کو) کبھی پیشاب میں خون آیا تھا؟	:	A4110</string>
     <string name="A4111">کیااس کا  پیشاب آنا  رک گیا تھا؟	:	A4111</string>
@@ -1338,71 +1413,6 @@
     <string name="A4472">کیا اوپر دے گے وضاحتی بیانیے  میں   مندرجہ زیل میں سے کوئی بھی  الفاظ جو ہماری دلچسپی کے ہوں   بیان  ہوئے ہیں ؟	:	A4472</string>
     <string name="A4473">انٹرویور: انٹرویو کو بارے میں اپنا تبصرہ اور مشاہدہ لکھیں:	A4473</string>
     <string name="kilograms_kg">کلوگرام کے لیے Kg درج کریں اور نہیں جانتے کے لیے 999 درج کریں۔</string>
-
-    <string name="rb_A4095_1">ہاں</string>
-    <string name="rb_A4095_2">نہیں</string>
-    <string name="rb_A4095_DK">معلوم نہیں</string>
-    <string name="rb_A4095_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4096_1">ہاں</string>
-    <string name="rb_A4096_2">نہیں</string>
-    <string name="rb_A4096_DK">معلوم نہیں</string>
-    <string name="rb_A4096_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4097_u_1">دن</string>
-    <string name="rb_A4097_u_2">مہینے</string>
-    <string name="rb_A4097_u_DK">معلوم نہیں</string>
-    <string name="rb_A4097_u_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4098_1">ہاں</string>
-    <string name="rb_A4098_2">نہیں</string>
-    <string name="rb_A4098_DK">معلوم نہیں</string>
-    <string name="rb_A4098_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4099_u_1">دن</string>
-    <string name="rb_A4099_u_2">مہینے</string>
-    <string name="rb_A4099_u_DK">معلوم نہیں</string>
-    <string name="rb_A4099_u_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4100_1">ہاں</string>
-    <string name="rb_A4100_2">نہیں</string>
-    <string name="rb_A4100_DK">معلوم نہیں</string>
-    <string name="rb_A4100_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4101_u_1">دن</string>
-    <string name="rb_A4101_u_2">مہینے</string>
-    <string name="rb_A4101_u_DK">معلوم نہیں</string>
-    <string name="rb_A4101_u_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4102_1">ہاں</string>
-    <string name="rb_A4102_2">نہیں</string>
-    <string name="rb_A4102_DK">معلوم نہیں</string>
-    <string name="rb_A4102_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4103_1">ہاں</string>
-    <string name="rb_A4103_2">نہیں</string>
-    <string name="rb_A4103_DK">معلوم نہیں</string>
-    <string name="rb_A4103_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4104_1">ہاں</string>
-    <string name="rb_A4104_2">نہیں</string>
-    <string name="rb_A4104_DK">معلوم نہیں</string>
-    <string name="rb_A4104_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4105_1">ہاں</string>
-    <string name="rb_A4105_2">نہیں</string>
-    <string name="rb_A4105_DK">معلوم نہیں</string>
-    <string name="rb_A4105_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4106_1">ہاں</string>
-    <string name="rb_A4106_2">نہیں</string>
-    <string name="rb_A4106_DK">معلوم نہیں</string>
-    <string name="rb_A4106_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4108_1">ہاں</string>
-    <string name="rb_A4108_2">نہیں</string>
-    <string name="rb_A4108_DK">معلوم نہیں</string>
-    <string name="rb_A4108_RA">جواب دینے سے انکار کیا</string>
 
     <string name="rb_A4109_1">ہاں</string>
     <string name="rb_A4109_2">نہیں</string>

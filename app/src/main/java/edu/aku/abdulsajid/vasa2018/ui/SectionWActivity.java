@@ -88,23 +88,23 @@ public class SectionWActivity extends AppCompatActivity {
     private void setupSkips() {
 
         bi.w204.setOnCheckedChangeListener((radioGroup, i) -> {
-            Clear.clearAllFields(bi.cvw205);
-            bi.cvw205.setVisibility(View.GONE);
+            Clear.clearAllFields(bi.cvW205);
+            bi.cvW205.setVisibility(View.GONE);
             if (i == bi.w204b.getId()) {
-                bi.cvw205.setVisibility(View.VISIBLE);
+                bi.cvW205.setVisibility(View.VISIBLE);
             }
         });
 
         bi.w205.setOnCheckedChangeListener((radioGroup, i) -> {
-            Clear.clearAllFields(bi.cvw206);
-            Clear.clearAllFields(bi.cvw207);
+            Clear.clearAllFields(bi.cvW206);
+            Clear.clearAllFields(bi.cvW207);
             Clear.clearAllFields(bi.llw207);
-            bi.cvw206.setVisibility(View.GONE);
-            bi.cvw207.setVisibility(View.GONE);
+            bi.cvW206.setVisibility(View.GONE);
+            bi.cvW207.setVisibility(View.GONE);
             bi.llw207.setVisibility(View.GONE);
             if (i == bi.w205a.getId()) {
-                bi.cvw206.setVisibility(View.VISIBLE);
-                bi.cvw207.setVisibility(View.VISIBLE);
+                bi.cvW206.setVisibility(View.VISIBLE);
+                bi.cvW207.setVisibility(View.VISIBLE);
                 bi.llw207.setVisibility(View.VISIBLE);
             }
         });
@@ -116,21 +116,21 @@ public class SectionWActivity extends AppCompatActivity {
         });
 
         bi.w208.setOnCheckedChangeListener((radioGroup, i) -> {
-            Clear.clearAllFields(bi.cvw209);
-            Clear.clearAllFields(bi.cvw210);
-            bi.cvw209.setVisibility(View.GONE);
-            bi.cvw210.setVisibility(View.GONE);
+            Clear.clearAllFields(bi.cvW209);
+            Clear.clearAllFields(bi.cvW210);
+            bi.cvW209.setVisibility(View.GONE);
+            bi.cvW210.setVisibility(View.GONE);
             if (i == bi.w208a.getId()) {
-                bi.cvw209.setVisibility(View.VISIBLE);
-                bi.cvw210.setVisibility(View.VISIBLE);
+                bi.cvW209.setVisibility(View.VISIBLE);
+                bi.cvW210.setVisibility(View.VISIBLE);
             }
         });
 
         bi.w209.setOnCheckedChangeListener((radioGroup, i) -> {
-            Clear.clearAllFields(bi.cvw210);
-            bi.cvw210.setVisibility(View.GONE);
+            Clear.clearAllFields(bi.cvW210);
+            bi.cvW210.setVisibility(View.GONE);
             if (i == bi.w209a.getId()) {
-                bi.cvw210.setVisibility(View.VISIBLE);
+                bi.cvW210.setVisibility(View.VISIBLE);
             }
         });
 
@@ -521,7 +521,7 @@ public class SectionWActivity extends AppCompatActivity {
     }
 
 
-    public void btnContinue(View view) {
+    public void btnContinue() {
         if (!validateField()) return;
 
         int number_preg = 0;

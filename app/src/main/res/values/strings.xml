@@ -5771,26 +5771,101 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="a09498">Don’t Know</string>
     <string name="a09499">Refused to Answer</string>
 
-    <string name="A4095">A4095: Did (NAME) have a severe headache ?</string>
-    <string name="A4096">A4096: Did (NAME) have a stiff neck during the illness that led to death ?</string>
-    <string name="A4097_u">A4097_Units: How long before death did s/he have a stiff neck ?</string>
-    <string name="A4097_a">Day(s)</string>
-    <string name="A4097_b">Month(s)</string>
-    <string name="A4098">A4098: Did (NAME) have a painful neck during the illness that led to death ?</string>
-    <string name="A4099_u">A4099_Units: How long before death did s/he have a painful neck ?</string>
-    <string name="A4099_a">Day(s)</string>
-    <string name="A4099_b">Month(s)</string>
-    <string name="A4100">A4100: Did s/he have mental confusion ?</string>
-    <string name="A4101_u">A4101_Units: How long did s/he have mental confusion ?</string>
-    <string name="A4101_a">Day(s)</string>
-    <string name="A4101_b">Month(s)</string>
-    <string name="A4102">A4102: Was (NAME) unconscious during the illness that led to death ?</string>
-    <string name="A4103">A4103: Was s/he unconsciousness for more than 24 hours before death ?</string>
-    <string name="A4104">A4104: Did the unconsciousness start suddenly, quickly (at most within a single day) ?</string>
-    <string name="A4105">A4105: Did the unconsciousness continue until death ?</string>
-    <string name="A4106">A4106: During the illness that led to death, did (NAME) have convulsions ?</string>
-    <string name="A4107">A4107: For how many minutes did the convulsions last ?</string>
-    <string name="A4108">A4108: Did s/he become unconscious immediately after the convulsion ?</string>
+    <string name="Q_a095">a095</string>
+    <string name="a095">Did (NAME) have a severe headache ?</string>
+    <string name="a095a">Yes</string>
+    <string name="a095b">No</string>
+    <string name="a09598">Don’t Know</string>
+    <string name="a09599">Refused to Answer</string>
+
+    <string name="Q_a096">a096</string>
+    <string name="a096">Did (NAME) have a stiff neck during the illness that led to death ?</string>
+    <string name="a096a">Yes</string>
+    <string name="a096b">No</string>
+    <string name="a09698">Don’t Know</string>
+    <string name="a09699">Refused to Answer</string>
+
+    <string name="Q_a097">a097</string>
+    <string name="a097">How long before death did s/he have a stiff neck ?</string>
+    <string name="a097d">Day(s)</string>
+    <string name="a097m">Month(s)</string>
+    <string name="a09798">Don’t Know</string>
+    <string name="a09799">Refused to Answer</string>
+
+    <string name="Q_a098">a098</string>
+    <string name="a098">Did (NAME) have a painful neck during the illness that led to death ?</string>
+    <string name="a098a">Yes</string>
+    <string name="a098b">No</string>
+    <string name="a09898">Don’t Know</string>
+    <string name="a09899">Refused to Answer</string>
+
+    <string name="Q_a099">a099</string>
+    <string name="a099">How long before death did s/he have a painful neck ?</string>
+    <string name="a099d">Day(s)</string>
+    <string name="a099m">Month(s)</string>
+    <string name="a09998">Don’t Know</string>
+    <string name="a09999">Refused to Answer</string>
+
+    <string name="Q_a100">a100</string>
+    <string name="a100">Did s/he have mental confusion ?</string>
+    <string name="a100a">Yes</string>
+    <string name="a100b">No</string>
+    <string name="a10098">Don’t Know</string>
+    <string name="a10099">Refused to Answer</string>
+
+    <string name="Q_a101">a101</string>
+    <string name="a101">How long did s/he have mental confusion ?</string>
+    <string name="a101d">Day(s)</string>
+    <string name="a101m">Month(s)</string>
+    <string name="a10198">Don’t Know</string>
+    <string name="a10199">Refused to Answer</string>
+
+    <string name="Q_a102">a102</string>
+    <string name="a102">Was (NAME) unconscious during the illness that led to death ?</string>
+    <string name="a102a">Yes</string>
+    <string name="a102b">No</string>
+    <string name="a10298">Don’t Know</string>
+    <string name="a10299">Refused to Answer</string>
+
+    <string name="Q_a103">a103</string>
+    <string name="a103">Was s/he unconsciousness for more than 24 hours before death ?</string>
+    <string name="a103a">Yes</string>
+    <string name="a103b">No</string>
+    <string name="a10398">Don’t Know</string>
+    <string name="a10399">Refused to Answer</string>
+
+    <string name="Q_a104">a104</string>
+    <string name="a104">Did the unconsciousness start suddenly, quickly (at most within a single day) ?</string>
+    <string name="a104a">Yes</string>
+    <string name="a104b">No</string>
+    <string name="a10498">Don’t Know</string>
+    <string name="a10499">Refused to Answer</string>
+
+    <string name="Q_a105">a105</string>
+    <string name="a105">Did the unconsciousness continue until death ?</string>
+    <string name="a105a">Yes</string>
+    <string name="a105b">No</string>
+    <string name="a10598">Don’t Know</string>
+    <string name="a10599">Refused to Answer</string>
+
+    <string name="Q_a106">a106</string>
+    <string name="a106">During the illness that led to death, did (NAME) have convulsions ?</string>
+    <string name="a106a">Yes</string>
+    <string name="a106b">No</string>
+    <string name="a10698">Don’t Know</string>
+    <string name="a10699">Refused to Answer</string>
+
+    <string name="Q_a107">a107</string>
+    <string name="a107">For how many minutes did the convulsions last ?</string>
+    <string name="a107a">Minute(s)</string>
+
+    <string name="Q_a108">a108</string>
+    <string name="a108">Did s/he become unconscious immediately after the convulsion ?</string>
+    <string name="a108a">Yes</string>
+    <string name="a108b">No</string>
+    <string name="a10898">Don’t Know</string>
+    <string name="a10899">Refused to Answer</string>
+
     <string name="A4109">A4109: Did the deceased have any urine problems ?</string>
     <string name="A4110">A4110: During the fatal illness, did s/he ever pass blood in the urine ?</string>
     <string name="A4111">A4111: Did s/he stop urinating ?</string>
@@ -6021,84 +6096,6 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="A4456">A4456: Did the deceased’s spouse/partner ever have a positive HIV test ?</string>
     <string name="A4457">A4457: Was there any diagnosis by a health professional that the deceased’s spouse/partner had AIDS ?</string>
     <string name="A4472">A4472: Are any of the following words of interest mentioned in the above narrative ?</string>
-
-    <string name="rb_A4095_1">Yes</string>
-    <string name="rb_A4095_2">No</string>
-    <string name="rb_A4095_DK">Don’t Know</string>
-
-    <string name="rb_A4095_RA">Refused to Answer</string>
-
-    <string name="rb_A4096_1">Yes</string>
-    <string name="rb_A4096_2">No</string>
-    <string name="rb_A4096_DK">Don’t Know</string>
-
-    <string name="rb_A4096_RA">Refused to Answer</string>
-
-    <string name="rb_A4097_u_1">Day(s)</string>
-    <string name="rb_A4097_u_2">Month(s)</string>
-    <string name="rb_A4097_u_DK">Don’t Know</string>
-
-    <string name="rb_A4097_u_RA">Refused to Answer</string>
-
-    <string name="rb_A4098_1">Yes</string>
-    <string name="rb_A4098_2">No</string>
-    <string name="rb_A4098_DK">Don’t Know</string>
-
-    <string name="rb_A4098_RA">Refused to Answer</string>
-
-    <string name="rb_A4099_u_1">Day(s)</string>
-    <string name="rb_A4099_u_2">Month(s)</string>
-    <string name="rb_A4099_u_DK">Don’t Know</string>
-
-    <string name="rb_A4099_u_RA">Refused to Answer</string>
-
-    <string name="rb_A4100_1">Yes</string>
-    <string name="rb_A4100_2">No</string>
-    <string name="rb_A4100_DK">Don’t Know</string>
-
-    <string name="rb_A4100_RA">Refused to Answer</string>
-
-    <string name="rb_A4101_u_1">Day(s)</string>
-    <string name="rb_A4101_u_2">Month(s)</string>
-    <string name="rb_A4101_u_DK">Don’t Know</string>
-
-    <string name="rb_A4101_u_RA">Refused to Answer</string>
-
-    <string name="rb_A4102_1">Yes</string>
-    <string name="rb_A4102_2">No</string>
-    <string name="rb_A4102_DK">Don’t Know</string>
-
-    <string name="rb_A4102_RA">Refused to Answer</string>
-
-    <string name="rb_A4103_1">Yes</string>
-    <string name="rb_A4103_2">No</string>
-    <string name="rb_A4103_DK">Don’t Know</string>
-
-    <string name="rb_A4103_RA">Refused to Answer</string>
-
-    <string name="rb_A4104_1">Yes</string>
-    <string name="rb_A4104_2">No</string>
-    <string name="rb_A4104_DK">Don’t Know</string>
-
-    <string name="rb_A4104_RA">Refused to Answer</string>
-
-    <string name="rb_A4105_1">Yes</string>
-    <string name="rb_A4105_2">No</string>
-    <string name="rb_A4105_DK">Don’t Know</string>
-
-    <string name="rb_A4105_RA">Refused to Answer</string>
-
-    <string name="rb_A4106_1">Yes</string>
-    <string name="rb_A4106_2">No</string>
-    <string name="rb_A4106_DK">Don’t Know</string>
-
-    <string name="rb_A4106_RA">Refused to Answer</string>
-
-    <string name="rb_A4108_1">Yes</string>
-    <string name="rb_A4108_2">No</string>
-    <string name="rb_A4108_DK">Don’t Know</string>
-
-    <string name="rb_A4108_RA">Refused to Answer</string>
 
     <string name="rb_A4109_1">Yes</string>
     <string name="rb_A4109_2">No</string>

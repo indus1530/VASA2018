@@ -12,7 +12,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
 
@@ -24,24 +24,25 @@
 
             <LinearLayout
                 android:id="@+id/GrpName"
-                style="@style/Q_Linerlayout_v"
-                android:layout_marginBottom="60dp">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
 
                 <!--pregno EditText-->
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cvpregno"
+                    android:id="@+id/cvPregno"
                     style="@style/Q_CardView">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:padding="10dp">
+                        android:orientation="vertical">
 
                         <TextView
                             android:id="@+id/pregno"
-                            style="@style/TextViewHead"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
                             android:gravity="center"
                             android:text="Enter Detail of Pregnancy No:(1) "
                             android:textColor="@color/black"
@@ -53,7 +54,7 @@
                 <!--pregno EditText-->
 
 
-                <!--W217 EditText-->
+                <!--EditText W217-->
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cvw217"
                     style="@style/Q_CardView">
@@ -61,8 +62,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:padding="10dp">
+                        android:orientation="vertical">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -70,13 +70,12 @@
                             android:orientation="horizontal">
 
                             <TextView
-                                style="@style/TextView"
+                                style="@style/quesNum"
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:text="@string/Q_w217" />
 
                             <TextView
-                                style="@style/TextView"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:text="@string/w217" />
@@ -89,10 +88,9 @@
                             android:orientation="horizontal">
 
                             <TextView
-                                style="@style/subTextView"
+                                style="@style/textView"
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
-                                android:layout_weight="1"
                                 android:text="@string/w217d" />
 
                             <com.edittextpicker.aliazaz.EditTextPicker
@@ -109,10 +107,9 @@
                                 app:type="range" />
 
                             <TextView
-                                style="@style/subTextView"
+                                style="@style/textView"
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
-                                android:layout_weight="1"
                                 android:text="@string/w217m" />
 
                             <com.edittextpicker.aliazaz.EditTextPicker
@@ -129,10 +126,9 @@
                                 app:type="range" />
 
                             <TextView
-                                style="@style/subTextView"
+                                style="@style/textView"
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
-                                android:layout_weight="1"
                                 android:text="@string/w217y" />
 
                             <com.edittextpicker.aliazaz.EditTextPicker
@@ -153,10 +149,10 @@
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
-                <!--W217 EditText-->
+                <!--EditText W217-->
 
 
-                <!--W218 Radio Button Starts -->
+                <!--Radio W218-->
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cvw218"
                     style="@style/Q_CardView">
@@ -164,8 +160,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:padding="10dp">
+                        android:orientation="vertical">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -173,13 +168,12 @@
                             android:orientation="horizontal">
 
                             <TextView
-                                style="@style/TextView"
+                                style="@style/quesNum"
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:text="@string/Q_w218" />
 
                             <TextView
-                                style="@style/TextView"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:text="@string/w218" />
@@ -232,10 +226,10 @@
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
-                <!--W218 Radio Button Ends-->
+                <!--Radio W218-->
 
 
-                <!--W219 Radio-->
+                <!--Radio W219-->
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cvw219"
                     style="@style/Q_CardView">
@@ -243,8 +237,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:padding="10dp">
+                        android:orientation="vertical">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -252,13 +245,12 @@
                             android:orientation="horizontal">
 
                             <TextView
-                                style="@style/TextView"
+                                style="@style/quesNum"
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:text="@string/Q_w219" />
 
                             <TextView
-                                style="@style/TextView"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:text="@string/w219" />
@@ -290,10 +282,10 @@
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
-                <!--W219 Radio-->
+                <!--Radio W219-->
 
 
-                <!--W221 EditText-->
+                <!--EditText W221-->
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cvw221"
                     style="@style/Q_CardView">
@@ -301,8 +293,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:padding="10dp">
+                        android:orientation="vertical">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -310,13 +301,12 @@
                             android:orientation="horizontal">
 
                             <TextView
-                                style="@style/TextView"
+                                style="@style/quesNum"
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:text="@string/Q_w221" />
 
                             <TextView
-                                style="@style/TextView"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:text="@string/w221" />
@@ -329,10 +319,9 @@
                             android:orientation="horizontal">
 
                             <TextView
-                                style="@style/subTextView"
+                                style="@style/textView"
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
-                                android:layout_weight="1"
                                 android:text="@string/w221y" />
 
                             <com.edittextpicker.aliazaz.EditTextPicker
@@ -349,10 +338,9 @@
                                 app:type="range" />
 
                             <TextView
-                                style="@style/subTextView"
+                                style="@style/textView"
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
-                                android:layout_weight="1"
                                 android:text="@string/w221m" />
 
                             <com.edittextpicker.aliazaz.EditTextPicker
@@ -369,10 +357,9 @@
                                 app:type="range" />
 
                             <TextView
-                                style="@style/subTextView"
+                                style="@style/textView"
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
-                                android:layout_weight="1"
                                 android:text="@string/w221d" />
 
                             <com.edittextpicker.aliazaz.EditTextPicker
@@ -393,10 +380,10 @@
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
-                <!--W221 EditText-->
+                <!--EditText W221-->
 
 
-                <!--w222 EditText-->
+                <!--EditText W222-->
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cvw222"
                     style="@style/Q_CardView">
@@ -404,8 +391,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:padding="10dp">
+                        android:orientation="vertical">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -413,13 +399,12 @@
                             android:orientation="horizontal">
 
                             <TextView
-                                style="@style/TextView"
+                                style="@style/quesNum"
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:text="@string/Q_w222" />
 
                             <TextView
-                                style="@style/TextView"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:text="@string/w222" />
@@ -432,10 +417,9 @@
                             android:orientation="horizontal">
 
                             <TextView
-                                style="@style/subTextView"
+                                style="@style/textView"
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
-                                android:layout_weight="1"
                                 android:text="@string/w222y" />
 
                             <com.edittextpicker.aliazaz.EditTextPicker
@@ -452,10 +436,9 @@
                                 app:type="range" />
 
                             <TextView
-                                style="@style/subTextView"
+                                style="@style/textView"
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
-                                android:layout_weight="1"
                                 android:text="@string/w222m" />
 
                             <com.edittextpicker.aliazaz.EditTextPicker
@@ -472,10 +455,9 @@
                                 app:type="range" />
 
                             <TextView
-                                style="@style/subTextView"
+                                style="@style/textView"
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
-                                android:layout_weight="1"
                                 android:text="@string/w222d" />
 
                             <com.edittextpicker.aliazaz.EditTextPicker
@@ -496,44 +478,44 @@
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
-                <!--w222 EditText-->
+                <!--EditText W222-->
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/addPregnancy"
+                        style="@style/Button_collder"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="@color/U_main"
+                        android:padding="10dp"
+                        android:text="Add Pregnancy"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/addChild"
+                        style="@style/Button_collder"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="@color/blueprid"
+                        android:padding="10dp"
+                        android:text="Add Another child"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
 
             </LinearLayout>
 
 
         </ScrollView>
 
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal"
-            android:padding="10dp">
-
-            <Button
-                android:id="@+id/addPregnancy"
-                style="@style/Button_collder"
-                android:layout_width="wrap_content"
-                android:layout_height="52dp"
-                android:layout_margin="10dp"
-                android:background="@color/U_main"
-                android:padding="10dp"
-                android:text="Add Pregnancy"
-                android:textSize="14sp" />
-
-            <Button
-                android:id="@+id/addChild"
-                style="@style/Button_collder"
-                android:layout_width="wrap_content"
-                android:layout_height="52dp"
-                android:layout_margin="10dp"
-                android:background="@color/blueprid"
-                android:padding="10dp"
-                android:text="Add Another child"
-                android:textSize="14sp" />
-
-        </LinearLayout>
 
     </LinearLayout>
 
