@@ -69,7 +69,7 @@ public class SectionA04Activity extends AppCompatActivity {
         if (!validateField()) return;
         value_assignment();
         insert_data();
-        startActivity(new Intent(SectionA04Activity.this, A4095_A4108.class).putExtra("study_id", study_id));
+        startActivity(new Intent(SectionA04Activity.this, SectionA05Activity.class).putExtra("study_id", study_id));
     }
 
 

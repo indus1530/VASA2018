@@ -166,7 +166,7 @@
             android:name="edu.aku.abdulsajid.vasa2018.ui.SectionA04Activity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="edu.aku.abdulsajid.vasa2018.ui.A4095_A4108"
+            android:name="edu.aku.abdulsajid.vasa2018.ui.SectionA05Activity"
             android:screenOrientation="portrait" />
         <activity
             android:name="edu.aku.abdulsajid.vasa2018.ui.A4109_A4125"
