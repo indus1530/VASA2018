@@ -5867,28 +5867,141 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="a10899">Refused to Answer</string>
 
     <string name="A4109">A4109: Did the deceased have any urine problems ?</string>
+
+    <string name="rb_A4109_1">Yes</string>
+    <string name="rb_A4109_2">No</string>
+    <string name="rb_A4109_DK">Don’t Know</string>
+
+    <string name="rb_A4109_RA">Refused to Answer</string>
+
+    <string name="rb_A4110_1">Yes</string>
+    <string name="rb_A4110_2">No</string>
+    <string name="rb_A4110_DK">Don’t Know</string>
+
+    <string name="rb_A4110_RA">Refused to Answer</string>
+
+    <string name="rb_A4111_1">Yes</string>
+    <string name="rb_A4111_2">No</string>
+    <string name="rb_A4111_DK">Don’t Know</string>
+
+    <string name="rb_A4111_RA">Refused to Answer</string>
+
+    <string name="rb_A4112_1">Yes</string>
+    <string name="rb_A4112_2">No</string>
+    <string name="rb_A4112_DK">Don’t Know</string>
+
+    <string name="rb_A4112_RA">Refused to Answer</string>
+
+    <string name="rb_A4113_1">Yes</string>
+    <string name="rb_A4113_2">No</string>
+    <string name="rb_A4113_DK">Don’t Know</string>
+
+    <string name="rb_A4113_RA">Refused to Answer</string>
+
+    <string name="rb_A4114_1">Yes</string>
+    <string name="rb_A4114_2">No</string>
+    <string name="rb_A4114_DK">Don’t Know</string>
+
+    <string name="rb_A4114_RA">Refused to Answer</string>
+
+    <string name="rb_A4115_1">Yes</string>
+    <string name="rb_A4115_2">No</string>
+    <string name="rb_A4115_DK">Don’t Know</string>
+
+    <string name="rb_A4115_RA">Refused to Answer</string>
+
+    <string name="rb_A4116_1">Yes</string>
+    <string name="rb_A4116_2">No</string>
+    <string name="rb_A4116_DK">Don’t Know</string>
+
+    <string name="rb_A4116_RA">Refused to Answer</string>
+
+    <string name="rb_A4117_u_1">Day(s)</string>
+    <string name="rb_A4117_u_2">Month(s)</string>
+    <string name="rb_A4117_u_DK">Don’t Know</string>
+
+    <string name="rb_A4117_u_RA">Refused to Answer</string>
+
+    <string name="rb_A4118_1">Yes</string>
+    <string name="rb_A4118_2">No</string>
+    <string name="rb_A4118_DK">Don’t Know</string>
+
+    <string name="rb_A4118_RA">Refused to Answer</string>
+
+    <string name="rb_A4119_1">Face</string>
+    <string name="rb_A4119_2">Trunk/Abdomen</string>
+    <string name="rb_A4119_3">Extremities</string>
+    <string name="rb_A4119_4">Everywhere</string>
+    <string name="rb_A4119_DK">Don’t Know</string>
+
+    <string name="rb_A4119_RA">Refused to Answer</string>
+
+    <string name="rb_A4120_1">Face</string>
+    <string name="rb_A4120_2">Trunk/Abdomen</string>
+    <string name="rb_A4120_3">Extremities</string>
+    <string name="rb_A4120_4">Everywhere</string>
+    <string name="rb_A4120_DK">Don’t Know</string>
+
+    <string name="rb_A4120_RA">Refused to Answer</string>
+
+    <string name="rb_A4122_1">Yes</string>
+    <string name="rb_A4122_2">No</string>
+    <string name="rb_A4122_DK">Don’t Know</string>
+
+    <string name="rb_A4122_RA">Refused to Answer</string>
+
+    <string name="rb_A4123_1">Yes</string>
+    <string name="rb_A4123_2">No</string>
+    <string name="rb_A4123_DK">Don’t Know</string>
+
+    <string name="rb_A4123_RA">Refused to Answer</string>
+
+    <string name="rb_A4124_1">Yes</string>
+    <string name="rb_A4124_2">No</string>
+    <string name="rb_A4124_DK">Don’t Know</string>
+
+    <string name="rb_A4124_RA">Refused to Answer</string>
+
+    <string name="rb_A4125_1">Yes</string>
+    <string name="rb_A4125_2">No</string>
+    <string name="rb_A4125_DK">Don’t Know</string>
+
+    <string name="rb_A4125_RA">Refused to Answer</string>
+
     <string name="A4110">A4110: During the fatal illness, did s/he ever pass blood in the urine ?</string>
+
     <string name="A4111">A4111: Did s/he stop urinating ?</string>
+
     <string name="A4112">A4112: During s/he go to urinate more often than usual ?</string>
+
     <string name="A4113">A4113: Did she have sores or ulcers anywhere on the body ?</string>
+
     <string name="A4114">A4114: Did the sores or ulcers have pus ?</string>
+
     <string name="A4115">A4115: Did s/he have an ulcer (pit) on the foot ?</string>
+
     <string name="A4116">A4116: Did the ulcer on the foot ooze pus ?</string>
+
     <string name="A4117_u">A4117_Units: How long did the ulcer on the foot ooze pus ?</string>
-    <string name="A4117_a">Day(s)</string>
-    <string name="A4117_b">Month(s)</string>
+
     <string name="A4118">A4118: During the illness that led to death, did (NAME) have any skin rash ?</string>
+
     <string name="A4119">A4119: Where was the rash ?</string>
+
     <string name="A4120">A4120: Where did the rash start ?</string>
+
     <string name="A4121">A4121: How many days did the rash last ?</string>
+
     <string name="A4122">A4122: Did s/he have a measles rash (use local term) ?</string>
+
     <string name="A4123">A4123: Did s/he ever have shingles or herpes zoster ?</string>
+
     <string name="A4124">A4124: Did s/he have noticeable weight loss? [hint: limbs (legs, arms) become very thin]</string>
+
     <string name="A4125">A4125: Was s/he severely thin or wasted ?</string>
+
     <string name="A4126">A4126: During the illness that led to death, did (NAME) have swollen legs or feet ?</string>
     <string name="A4127_u">A4127_Units: How long did the swelling last ?</string>
-    <string name="A4127_a">Day(s)</string>
-    <string name="A4127_b">Month(s)</string>
     <string name="A4128">A4128: Did s/he have both feet swollen ?</string>
     <string name="A4129">A4129: Did s/he have puffiness of the face ?</string>
     <string name="A4130_u">A4130_Units: How long did s/he have puffiness of the face ?</string>
@@ -6096,106 +6209,6 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="A4456">A4456: Did the deceased’s spouse/partner ever have a positive HIV test ?</string>
     <string name="A4457">A4457: Was there any diagnosis by a health professional that the deceased’s spouse/partner had AIDS ?</string>
     <string name="A4472">A4472: Are any of the following words of interest mentioned in the above narrative ?</string>
-
-    <string name="rb_A4109_1">Yes</string>
-    <string name="rb_A4109_2">No</string>
-    <string name="rb_A4109_DK">Don’t Know</string>
-
-    <string name="rb_A4109_RA">Refused to Answer</string>
-
-    <string name="rb_A4110_1">Yes</string>
-    <string name="rb_A4110_2">No</string>
-    <string name="rb_A4110_DK">Don’t Know</string>
-
-    <string name="rb_A4110_RA">Refused to Answer</string>
-
-    <string name="rb_A4111_1">Yes</string>
-    <string name="rb_A4111_2">No</string>
-    <string name="rb_A4111_DK">Don’t Know</string>
-
-    <string name="rb_A4111_RA">Refused to Answer</string>
-
-    <string name="rb_A4112_1">Yes</string>
-    <string name="rb_A4112_2">No</string>
-    <string name="rb_A4112_DK">Don’t Know</string>
-
-    <string name="rb_A4112_RA">Refused to Answer</string>
-
-    <string name="rb_A4113_1">Yes</string>
-    <string name="rb_A4113_2">No</string>
-    <string name="rb_A4113_DK">Don’t Know</string>
-
-    <string name="rb_A4113_RA">Refused to Answer</string>
-
-    <string name="rb_A4114_1">Yes</string>
-    <string name="rb_A4114_2">No</string>
-    <string name="rb_A4114_DK">Don’t Know</string>
-
-    <string name="rb_A4114_RA">Refused to Answer</string>
-
-    <string name="rb_A4115_1">Yes</string>
-    <string name="rb_A4115_2">No</string>
-    <string name="rb_A4115_DK">Don’t Know</string>
-
-    <string name="rb_A4115_RA">Refused to Answer</string>
-
-    <string name="rb_A4116_1">Yes</string>
-    <string name="rb_A4116_2">No</string>
-    <string name="rb_A4116_DK">Don’t Know</string>
-
-    <string name="rb_A4116_RA">Refused to Answer</string>
-
-    <string name="rb_A4117_u_1">Day(s)</string>
-    <string name="rb_A4117_u_2">Month(s)</string>
-    <string name="rb_A4117_u_DK">Don’t Know</string>
-
-    <string name="rb_A4117_u_RA">Refused to Answer</string>
-
-    <string name="rb_A4118_1">Yes</string>
-    <string name="rb_A4118_2">No</string>
-    <string name="rb_A4118_DK">Don’t Know</string>
-
-    <string name="rb_A4118_RA">Refused to Answer</string>
-
-    <string name="rb_A4119_1">Face</string>
-    <string name="rb_A4119_2">Trunk/Abdomen</string>
-    <string name="rb_A4119_3">Extremities</string>
-    <string name="rb_A4119_4">Everywhere</string>
-    <string name="rb_A4119_DK">Don’t Know</string>
-
-    <string name="rb_A4119_RA">Refused to Answer</string>
-
-    <string name="rb_A4120_1">Face</string>
-    <string name="rb_A4120_2">Trunk/Abdomen</string>
-    <string name="rb_A4120_3">Extremities</string>
-    <string name="rb_A4120_4">Everywhere</string>
-    <string name="rb_A4120_DK">Don’t Know</string>
-
-    <string name="rb_A4120_RA">Refused to Answer</string>
-
-    <string name="rb_A4122_1">Yes</string>
-    <string name="rb_A4122_2">No</string>
-    <string name="rb_A4122_DK">Don’t Know</string>
-
-    <string name="rb_A4122_RA">Refused to Answer</string>
-
-    <string name="rb_A4123_1">Yes</string>
-    <string name="rb_A4123_2">No</string>
-    <string name="rb_A4123_DK">Don’t Know</string>
-
-    <string name="rb_A4123_RA">Refused to Answer</string>
-
-    <string name="rb_A4124_1">Yes</string>
-    <string name="rb_A4124_2">No</string>
-    <string name="rb_A4124_DK">Don’t Know</string>
-
-    <string name="rb_A4124_RA">Refused to Answer</string>
-
-    <string name="rb_A4125_1">Yes</string>
-    <string name="rb_A4125_2">No</string>
-    <string name="rb_A4125_DK">Don’t Know</string>
-
-    <string name="rb_A4125_RA">Refused to Answer</string>
 
     <string name="rb_A4126_1">Yes</string>
     <string name="rb_A4126_2">No</string>

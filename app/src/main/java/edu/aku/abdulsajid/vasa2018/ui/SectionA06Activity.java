@@ -13,14 +13,15 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.validatorcrawler.aliazaz.Validator;
+
 import edu.aku.abdulsajid.vasa2018.Other.globale;
 import edu.aku.abdulsajid.vasa2018.R;
 import edu.aku.abdulsajid.vasa2018.data.LocalDataManager;
 import edu.aku.abdulsajid.vasa2018.utils.ClearAllcontrol;
-import edu.aku.abdulsajid.vasa2018.utils.Gothrough;
 import edu.aku.abdulsajid.vasa2018.utils.InputFilterMinMax;
 
-public class A4109_A4125 extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
+public class SectionA06Activity extends AppCompatActivity implements RadioButton.OnCheckedChangeListener {
 
     //Declaration
     Button
@@ -249,7 +250,7 @@ public class A4109_A4125 extends AppCompatActivity implements RadioButton.OnChec
         rb_A4125_RA = findViewById(R.id.rb_A4125_RA);
 
         // Edit Text
-        ed_A4107 = findViewById(R.id.ed_A4107);
+        ed_A4107 = findViewById(R.id.a107);
         ed_A4117_a = findViewById(R.id.ed_A4117_a);
         ed_A4117_b = findViewById(R.id.ed_A4117_b);
         ed_A4121 = findViewById(R.id.ed_A4121);
@@ -260,10 +261,8 @@ public class A4109_A4125 extends AppCompatActivity implements RadioButton.OnChec
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.a4109__a4125);
-
+        setContentView(R.layout.activity_section_a06);
         this.setTitle(getString(R.string.h_a_sec_9));
-
         ll_study_id = findViewById(R.id.ll_study_id);
         ed_study_id = findViewById(R.id.ed_study_id);
         Intent getStudyId = getIntent();
@@ -275,19 +274,12 @@ public class A4109_A4125 extends AppCompatActivity implements RadioButton.OnChec
         events_calls();
     }
 
-    @Override
-    public void onClick(View view) {
-        if (validateField() == false) {
-            Toast.makeText(this, "Required fields are missing", Toast.LENGTH_LONG).show();
-            return;
-        }
 
+    public void btnContinue() {
+        if (!validateField()) return;
         value_assignment();
         insert_data();
-
-        Intent c = new Intent(A4109_A4125.this, A4126_A4140.class);
-        c.putExtra("study_id", study_id);
-        startActivity(c);
+        startActivity(new Intent(SectionA06Activity.this, A4126_A4140.class).putExtra("study_id", study_id));
     }
 
     @Override
@@ -426,33 +418,6 @@ public class A4109_A4125 extends AppCompatActivity implements RadioButton.OnChec
 
 
     private void events_calls() {
-
-        btn_next6.setOnClickListener(this);
-
-        rb_A4109_1.setOnCheckedChangeListener(this);
-        rb_A4109_2.setOnCheckedChangeListener(this);
-        rb_A4109_DK.setOnCheckedChangeListener(this);
-        rb_A4109_RA.setOnCheckedChangeListener(this);
-        rb_A4113_1.setOnCheckedChangeListener(this);
-        rb_A4113_2.setOnCheckedChangeListener(this);
-        rb_A4113_DK.setOnCheckedChangeListener(this);
-        rb_A4113_RA.setOnCheckedChangeListener(this);
-        rb_A4115_1.setOnCheckedChangeListener(this);
-        rb_A4115_2.setOnCheckedChangeListener(this);
-        rb_A4115_DK.setOnCheckedChangeListener(this);
-        rb_A4115_RA.setOnCheckedChangeListener(this);
-        rb_A4116_1.setOnCheckedChangeListener(this);
-        rb_A4116_2.setOnCheckedChangeListener(this);
-        rb_A4116_DK.setOnCheckedChangeListener(this);
-        rb_A4116_RA.setOnCheckedChangeListener(this);
-        rb_A4117_u_1.setOnCheckedChangeListener(this);
-        rb_A4117_u_2.setOnCheckedChangeListener(this);
-        rb_A4117_u_DK.setOnCheckedChangeListener(this);
-        rb_A4117_u_RA.setOnCheckedChangeListener(this);
-        rb_A4118_1.setOnCheckedChangeListener(this);
-        rb_A4118_2.setOnCheckedChangeListener(this);
-        rb_A4118_DK.setOnCheckedChangeListener(this);
-        rb_A4118_RA.setOnCheckedChangeListener(this);
 
         ed_A4117_a.setFilters(new InputFilter[]{new InputFilterMinMax(0, 30, 99, 99)});
         ed_A4117_b.setFilters(new InputFilter[]{new InputFilterMinMax(1, 60, 99, 99)});
@@ -801,88 +766,14 @@ public class A4109_A4125 extends AppCompatActivity implements RadioButton.OnChec
         Toast.makeText(this, "6th TABLE SAVED Successfully", Toast.LENGTH_SHORT).show();
     }
 
+
     boolean validateField() {
-
-        if (Gothrough.IamHiden(ll_study_id) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4109) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4110) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4111) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4112) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4113) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4114) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4115) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4116) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4117_u) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4117_a) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4117_b) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4118) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4119) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4120) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4121) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4122) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4123) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4124) == false) {
-            return false;
-        }
-
-        return Gothrough.IamHiden(ll_A4125) != false;
+        return Validator.emptyCheckingContainer(this, ll_A4109);
     }
+
 
     public void onBackPressed() {
         globale.interviewExit(this, this, study_id, currentSection = 7);
     }
+
 }

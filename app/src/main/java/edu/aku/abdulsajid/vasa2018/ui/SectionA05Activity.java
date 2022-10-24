@@ -65,9 +65,7 @@ public class SectionA05Activity extends AppCompatActivity {
         if (!validateField()) return;
         value_assignment();
         insert_data();
-        Intent c = new Intent(SectionA05Activity.this, A4109_A4125.class);
-        c.putExtra("study_id", study_id);
-        startActivity(c);
+        startActivity(new Intent(SectionA05Activity.this, SectionA06Activity.class).putExtra("study_id", study_id));
     }
 
 
