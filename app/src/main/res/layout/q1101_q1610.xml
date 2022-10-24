@@ -784,6 +784,7 @@
                         android:id="@+id/ed_Q1302"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:gravity="center"
                         android:digits="AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789 "
                         android:hint="@string/q1302"
                         android:maxLength="15" />
@@ -794,161 +795,259 @@
             <!-- EditText Q1302-->
 
 
-            <!-- EditText Q1307 Starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <!-- EditText Q1307-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvQ1307"
+                style="@style/Q_CardView">
 
                 <LinearLayout
-                    android:id="@+id/ll_Q1307"
-                    style="@style/Q_Linerlayout_v">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/txt_Q1307"
-                        style="@style/TextView"
-                        android:text="@string/txt_Q1307" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/quesNum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/Q_q1307" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/q1307" />
+
+                    </LinearLayout>
 
                     <com.santalu.widget.MaskEditText
                         android:id="@+id/ed_Q1307"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="@string/txt_Q1307"
+                        android:gravity="center"
+                        android:hint="@string/q1307"
                         android:inputType="date"
                         app:met_mask="##/##/####" />
 
-
                 </LinearLayout>
 
-            </android.support.v7.widget.CardView>
-            <!-- EditText Q1307 Ends -->
+            </androidx.cardview.widget.CardView>
+            <!-- EditText Q1307-->
 
-            <!-- EditText Q1308 Starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
 
+            <!-- EditText Q1308-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvQ1308"
+                style="@style/Q_CardView">
 
                 <LinearLayout
-                    android:id="@+id/ll_Q1308"
-                    style="@style/Q_Linerlayout_v">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/txt_Q1308"
-                        style="@style/TextView"
-                        android:text="@string/txt_Q1308" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
 
+                        <TextView
+                            style="@style/quesNum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/Q_q1308" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/q1308" />
+
+                    </LinearLayout>
 
                     <EditText
                         android:id="@+id/ed_Q1308"
-                        style="@style/EditText_varchar"
-                        android:hint="@string/txt_Q1308" />
-
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789 "
+                        android:gravity="center"
+                        android:hint="@string/q1308"
+                        android:maxLength="15" />
 
                 </LinearLayout>
 
-            </android.support.v7.widget.CardView>
-            <!-- EditText Q1308 Ends -->
+            </androidx.cardview.widget.CardView>
+            <!--Q1308 Radio-->
 
-            <!-- EditText Q1309 Starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
 
+            <!-- EditText Q1309-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvQ1309"
+                style="@style/Q_CardView">
 
                 <LinearLayout
-                    android:id="@+id/ll_Q1309"
-                    style="@style/Q_Linerlayout_v">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/txt_Q1309"
-                        style="@style/TextView"
-                        android:text="@string/txt_Q1309" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/quesNum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/Q_q1309" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/q1309" />
+
+                    </LinearLayout>
 
                     <com.santalu.widget.MaskEditText
                         android:id="@+id/ed_Q1309"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="@string/txt_Q1309"
+                        android:hint="@string/q1309"
                         android:inputType="date"
                         app:met_mask="##/##/####" />
 
-
                 </LinearLayout>
 
-            </android.support.v7.widget.CardView>
-            <!-- EditText Q1309 Ends -->
+            </androidx.cardview.widget.CardView>
+            <!--Q1309 Radio-->
 
-            <!-- EditText Q1310 Start -->
-            <!--<android.support.v7.widget.CardView style="@style/Q_CardView">
 
+            <!-- EditText Q1310-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvQ1310"
+                style="@style/Q_CardView">
 
                 <LinearLayout
-                    android:id="@+id/ll_Q1310"
-                    style="@style/Q_Linerlayout_v">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/txt_Q1310"
-                        style="@style/TextView"
-                        android:text="@string/txt_Q1310" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
 
+                        <TextView
+                            style="@style/quesNum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/Q_q1310" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/q1310" />
+
+                    </LinearLayout>
 
                     <EditText
                         android:id="@+id/ed_Q1310"
-                        style="@style/EditText_varchar"
-                        android:hint="@string/txt_Q1310" />
-
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789 "
+                        android:gravity="center"
+                        android:hint="@string/q1310"
+                        android:maxLength="15" />
 
                 </LinearLayout>
 
-            </android.support.v7.widget.CardView>-->
-            <!-- EditText Q1310 End -->
+            </androidx.cardview.widget.CardView>
+            <!--Q1310 Radio-->
 
-            <!-- EditText Q1312 Starts -->
-            <!--<android.support.v7.widget.CardView style="@style/Q_CardView">
+
+            <!-- EditText Q1312-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvQ1312"
+                style="@style/Q_CardView">
 
                 <LinearLayout
-                    android:id="@+id/ll_Q1312"
-                    style="@style/Q_Linerlayout_v">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/txt_Q1312"
-                        style="@style/TextView"
-                        android:text="@string/txt_Q1312" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/quesNum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/Q_q1312" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/q1312" />
+
+                    </LinearLayout>
 
                     <com.santalu.widget.MaskEditText
                         android:id="@+id/ed_Q1312"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="@string/txt_Q1312"
+                        android:hint="@string/q1312"
                         android:inputType="date"
-                        app:met_mask="##/##/####"/>
-
+                        app:met_mask="##/##/####" />
 
                 </LinearLayout>
 
-            </android.support.v7.widget.CardView>-->
-            <!-- EditText Q1312 Ends -->
+            </androidx.cardview.widget.CardView>
+            <!--Q1312 Radio-->
 
-            <!-- EditText Q1313 Starts -->
-            <!--<android.support.v7.widget.CardView style="@style/Q_CardView">
 
+            <!-- EditText Q1313-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvQ1313"
+                style="@style/Q_CardView">
 
                 <LinearLayout
-                    android:id="@+id/ll_Q1313"
-                    style="@style/Q_Linerlayout_v">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/txt_Q1313"
-                        style="@style/TextView"
-                        android:text="@string/txt_Q1313" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/quesNum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/Q_q1313" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/q1313" />
+
+                    </LinearLayout>
 
                     <com.santalu.widget.MaskEditText
                         android:id="@+id/ed_Q1313"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="@string/txt_Q1313"
+                        android:hint="@string/q1313"
                         android:inputType="date"
-                        app:met_mask="##/##/####"/>
-
+                        app:met_mask="##/##/####" />
 
                 </LinearLayout>
 
-            </android.support.v7.widget.CardView>-->
-            <!-- EditText Q1313 Ends -->
+            </androidx.cardview.widget.CardView>
+            <!--Q1313 Radio-->
 
 
             <!--Q1405 Radio-->
@@ -3156,8 +3255,8 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:digits="AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789,. "
-                            android:maxLength="20"
-                            android:hint="@string/rb_Q1503_OT" />
+                            android:hint="@string/rb_Q1503_OT"
+                            android:maxLength="20" />
 
                     </LinearLayout>
 
@@ -3402,8 +3501,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:digits="AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789,. "
-                                android:maxLength="20"
-                                android:hint="@string/other" />
+                                android:hint="@string/other"
+                                android:maxLength="20" />
 
                             <RadioButton
                                 android:id="@+id/rb_Q1604_DK"
