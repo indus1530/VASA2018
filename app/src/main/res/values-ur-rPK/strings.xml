@@ -582,46 +582,83 @@
 
     <string name="Q_a004">A4004</string>
     <string name="a004">اس کی زیادہ سے زیادہ تعلیم کی تھی ؟ پرائمری، سیکنڈری، یا ہائیر (اعلیٰ تعلیم )</string>
+    <string name="a004a">پرائمری </string>
+    <string name="a004b">سیکنڈری</string>
+    <string name="a004c">اعلیٰ تعلیم</string>
+    <string name="a00498">معلوم نہیں</string>
+    <string name="a00499">جواب دینے سے انکار کیا</string>
 
     <string name="Q_a005">a005</string>
     <string name="a005">اس کی اب تک کی مکمل تعلیم گریڈ / سال کیا ہے ؟</string>
     <string name="a005info">اگر ایک سال سے کم مکمل ہے تو 00 لکھیں</string>
     <string name="a005a">گریڈ / سال</string>
 
-    <string name="Q_a006">A4006</string>
+    <string name="Q_a006">a006</string>
     <string name="a006">کیا (نام)  پڑھنے لکھنے کے قابل تھا / تھی ؟</string>
+    <string name="a006info">"ہاں" لکھیں  اگر جواب دہندہ کو معلوم ہے کہ (نام) کو دونوں لکھنا پڑھنا یا صرف لکھنا یا صرف پڑھنا آتا  تھا  ۔</string>
+    <string name="a006a">ہاں</string>
+    <string name="a006b">نہیں</string>
+    <string name="a00698">معلوم نہیں</string>
+    <string name="a00699">جواب دینے سے انکار کیا</string>
 
-    <string name="Q_a007">A4007</string>
-    <string name="a007">وفات سے پہلے سال میں اسکی (نام) امعاشی سرگرمی کی حیثیت کیا تھی ؟</string>
+    <string name="Q_a007a">a007a</string>
+    <string name="a007a">وفات سے پہلے سال میں اسکی (نام) امعاشی سرگرمی کی حیثیت کیا تھی ؟</string>
+    <string name="a007aa">بے روز گار</string>
+    <string name="a007ab">روز گار</string>
+    <string name="a007ac">گھریلو</string>
+    <string name="a007ad">پینشن</string>
+    <string name="a007ae">طالب علم</string>
+    <string name="a007a96">دیگر</string>
+    <string name="a007a98">معلوم نہیں</string>
+    <string name="a007a99">جواب دینے سے انکار کیا</string>
 
-    <string name="Q_A40071">a40071</string>
-    <string name="A4007_1">س کا پیشہ کیا تھا، یعنی کس قسم کا  کام عموما وہ کرتی تھی ؟</string>
+    <string name="Q_a007b">a007b</string>
+    <string name="a007b">س کا پیشہ کیا تھا، یعنی کس قسم کا  کام عموما وہ کرتی تھی ؟</string>
 
-    <string name="Q_A4008">A4008</string>
-    <string name="A4008">کیا (نام)   شراب  پیتا تھا/ پیتی تھی ؟</string>
+    <string name="Q_a008">a008</string>
+    <string name="a008">کیا ( نام ) شراب پیتا تھا / پیتی تھی ؟</string>
+    <string name="a008a">ہاں</string>
+    <string name="a008b">نہیں</string>
+    <string name="a00898">معلوم نہیں</string>
+    <string name="a00899">جواب دینے سے انکار کیا</string>
 
-    <string name="Q_A4009a">A4009a</string>
-    <string name="A4009a">کیا (نام)  نے تمباکو (سگریٹ، پائپ، وغیرہ) استعمال کیا تھا ؟</string>
+    <string name="Q_a009">a009</string>
+    <string name="a009">کیا ( نام ) نے تمباکو ( سگریٹ، پائپ، وغیرہ ) استعمال کیا تھا ؟</string>
+    <string name="a009a">ہاں</string>
+    <string name="a009b">نہیں</string>
+    <string name="a00998">معلوم نہیں</string>
+    <string name="a00999">جواب دینے سے انکار کیا</string>
 
-    <string name="Q_A4010">A4010</string>
-    <string name="A4010">اس نے کس قسم کا تمباکو استعمال کیا تھا ؟</string>
+    <string name="Q_a010">a010</string>
+    <string name="a010">اس نے کس قسم کا تمباکو استعمال کیا تھا ؟</string>
+    <string name="a010a">سگریٹ</string>
+    <string name="a010b">پائپ</string>
+    <string name="a010c">چبانے والا تمباکو</string>
+    <string name="a01096">دیگر</string>
+    <string name="a01098">معلوم نہیں</string>
+    <string name="a01099">جواب دینے سے انکار کیا</string>
 
-    <string name="Q_A4011">A4011</string>
-    <string name="A4011">وہ دن میں کتنی سگریٹ  پیتی تھی / پیتا تھا ؟</string>
-    <string name="A4011_h">لکھیں   88  = جواب دینے سے انکار کیا ; 99= معلوم  نہیں</string>
+    <string name="Q_a011">a011</string>
+    <string name="a011">وہ دن میں کتنی سگریٹ  پیتی تھی / پیتا تھا ؟</string>
+    <string name="a011info">لکھیں   88  = جواب دینے سے انکار کیا ; 99= معلوم  نہیں</string>
 
-    <string name="Q_A4012">A4012</string>
-    <string name="A4012">وہ دن میں کتنی مرتبہ تمباکو سے بنی ہوئی اشیاء استعمال کرتی تھی یا کرتا تھا؟</string>
+    <string name="Q_a012">a012</string>
+    <string name="a012">وہ دن میں کتنی مرتبہ تمباکو سے بنی ہوئی اشیاء استعمال کرتی تھی یا کرتا تھا؟</string>
 
-    <string name="Q_A4013u">A4013u</string>
-    <string name="A4013u">مرنے سے  پہلے وہ کتنے عرصہ بیمار تھی / تھا ؟</string>
-    <string name="A4013d">اگر صرف 30 دن سے کم ہے تو دن ریکارڈ کریں ۔</string>
-    <string name="A4013m">اگر ایک مہینے یا اس سے زیادہ ہو تو سال ریکارڈ کریں</string>
-    <string name="A4013y">اگر ایک سال یا اس سے زیادہ ہو تو سال ریکارڈ کریں</string>
+    <string name="Q_a013">a013</string>
+    <string name="a013">مرنے سے  پہلے وہ کتنے عرصہ بیمار تھی / تھا ؟</string>
+    <string name="a013d">دن</string>
+    <string name="a013m">مپہنے</string>
+    <string name="a013y">سال</string>
+    <string name="a01398">معلوم نہیں</string>
+    <string name="a01399">جواب دینے سے انکار کیا</string>
 
-    <string name="Q_A4014">A4014</string>
-    <string name="A4014">کیا اس کی وفات  اچانک ہوئی تھی ؟</string>
-    <string name="A4014_h">"اچانک" کا مطلب ہے، بیماری شروع ہونے کے چوبیس گھنٹوں کے اندر اندر انتقال ہوگیا</string>
+    <string name="Q_a014">a014</string>
+    <string name="a014">کیا اس کی وفات اچانک ہوئی تھی ؟</string>
+    <string name="a014info">"اچانک" کا مطلب ہے، بیماری شروع ہونے کے چوبیس گھنٹوں کے اندر اندر انتقال ہوگیا</string>
+    <string name="a014a">ہاں</string>
+    <string name="a014b">نہیں</string>
+    <string name="a01498">معلوم نہیں</string>
 
     <string name="Q_a051">a051</string>
     <string name="a051">بیماری کے دوران جو وفات کی وجہ بنی، کیا (نام) کو بخار ہوا تھا ؟</string>
@@ -1301,57 +1338,6 @@
     <string name="A4472">کیا اوپر دے گے وضاحتی بیانیے  میں   مندرجہ زیل میں سے کوئی بھی  الفاظ جو ہماری دلچسپی کے ہوں   بیان  ہوئے ہیں ؟	:	A4472</string>
     <string name="A4473">انٹرویور: انٹرویو کو بارے میں اپنا تبصرہ اور مشاہدہ لکھیں:	A4473</string>
     <string name="kilograms_kg">کلوگرام کے لیے Kg درج کریں اور نہیں جانتے کے لیے 999 درج کریں۔</string>
-
-    <!-- Adult Urdu Text ENDS -->
-
-    <!-- Adult Urdu Responses STARTS -->
-
-    <string name="a004a">پرائمری </string>
-    <string name="a004b">سیکنڈری</string>
-    <string name="a004c">اعلیٰ تعلیم</string>
-    <string name="a00498">معلوم نہیں</string>
-    <string name="a00499">جواب دینے سے انکار کیا</string>
-
-    <string name="a006a">ہاں</string>
-    <string name="a006b">نہیں</string>
-    <string name="a00698">معلوم نہیں</string>
-    <string name="a00699">جواب دینے سے انکار کیا</string>
-
-    <string name="a007a">بے روز گار</string>
-    <string name="a007b">روز گار</string>
-    <string name="rb_A4007_3">گھریلو</string>
-    <string name="rb_A4007_4">پینشن</string>
-    <string name="rb_A4007_5">طالب علم</string>
-    <string name="rb_A4007_OT">دیگر</string>
-    <string name="rb_A4007_DK">معلوم نہیں</string>
-    <string name="rb_A4007_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4008_1">ہاں</string>
-    <string name="rb_A4008_2">نہیں</string>
-    <string name="rb_A4008_DK">معلوم نہیں</string>
-    <string name="rb_A4008_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4009a_1">ہاں</string>
-    <string name="rb_A4009a_2">نہیں</string>
-    <string name="rb_A4009a_DK">معلوم نہیں</string>
-    <string name="rb_A4009a_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4010_1">سگریٹ</string>
-    <string name="rb_A4010_2">پائپ</string>
-    <string name="rb_A4010_3">چبانے والا تمباکو</string>
-    <string name="rb_A4010_OT">دیگر</string>
-    <string name="rb_A4010_DK">معلوم نہیں</string>
-    <string name="rb_A4010_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4013u_DK">معلوم نہیں</string>
-    <string name="rb_A4013u_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="ed_A4013d">دن</string>
-    <string name="ed_A4013m">مپہنے</string>
-    <string name="ed_A4013y">سال</string>
-    <string name="rb_A4014_1">ہاں</string>
-    <string name="rb_A4014_2">نہیں</string>
-    <string name="rb_A4014_DK">معلوم نہیں</string>
 
     <string name="rb_A4095_1">ہاں</string>
     <string name="rb_A4095_2">نہیں</string>
@@ -2485,7 +2471,6 @@
     <string name="cb_A4472_12">اوپر  میں سے کوئی لفظ موجود نہیں</string>
     <string name="cb_A4472_DK">معلوم نہیں</string>
 
-    <string name="A4006_h">"ہاں" لکھیں  اگر جواب دہندہ کو معلوم ہے کہ (نام) کو دونوں لکھنا پڑھنا یا صرف لکھنا یا صرف پڑھنا آتا  تھا  ۔</string>
     <string name="A4075_a_h">دن لکھیں۔ اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0 لکھیں؛ ایک ہفتہ = 7 لکھیں     0-30</string>
     <string name="A4077_a_h">دن لکھیں۔ اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0 لکھیں؛ ایک ہفتہ = 7 لکھیں     0-30</string>
     <string name="A4077_b_h">مہینے         1-60</string>

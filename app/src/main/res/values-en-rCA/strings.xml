@@ -5385,72 +5385,70 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
 
     <string name="Q_a006">a006</string>
     <string name="a006">Was s/he able to read and write ?</string>
+    <string name="a006info">Record “yes” if both or either reading or writing is known to the respondent.</string>
     <string name="a006a">Yes</string>
     <string name="a006b">No</string>
     <string name="a00698">Don’t Know</string>
     <string name="a00699">Refused to Answer</string>
 
-    <string name="Q_a007">A4007</string>
-    <string name="a007">A4007: What was her/his economic activity status in the year prior to death ?</string>
-    <string name="a007a">Unemployed</string>
-    <string name="a007b">Employed</string>
-    <string name="rb_A4007_3">Homemaker</string>
-    <string name="rb_A4007_4">Pensioner</string>
-    <string name="rb_A4007_5">Student</string>
-    <string name="rb_A4007_OT">Other (Specify)</string>
-    <string name="rb_A4007_DK">Don’t Know</string>
-    <string name="rb_A4007_RA">Refused to Answer</string>
+    <string name="Q_a007a">a007a</string>
+    <string name="a007a">What was her/his economic activity status in the year prior to death ?</string>
+    <string name="a007aa">Unemployed</string>
+    <string name="a007ab">Employed</string>
+    <string name="a007ac">Homemaker</string>
+    <string name="a007ad">Pensioner</string>
+    <string name="a007ae">Student</string>
+    <string name="a007a96">Other (Specify)</string>
+    <string name="a007a98">Don’t Know</string>
+    <string name="a007a99">Refused to Answer</string>
 
-    <string name="Q_A40071">A40071</string>
-    <string name="A4007_1">What was her/his occupation, that is, what kind of work did s/he mainly do ?</string>
+    <string name="Q_a007b">a007b</string>
+    <string name="a007b">What was her/his occupation, that is, what kind of work did s/he mainly do ?</string>
 
-    <string name="Q_A4008">A4008</string>
-    <string name="A4008">Did (NAME) drink alcohol  ?</string>
-    <string name="rb_A4008_1">Yes</string>
-    <string name="rb_A4008_2">No</string>
-    <string name="rb_A4008_DK">Don’t Know</string>
-    <string name="rb_A4008_RA">Refused to Answer</string>
+    <string name="Q_a008">a008</string>
+    <string name="a008">Did (NAME) drink alcohol  ?</string>
+    <string name="a008a">Yes</string>
+    <string name="a008b">No</string>
+    <string name="a00898">Don’t Know</string>
+    <string name="a00899">Refused to Answer</string>
 
-    <string name="Q_A4009a">A4009a</string>
-    <string name="A4009a">Did s/he use tobacco ?</string>
-    <string name="rb_A4009a_1">Yes</string>
-    <string name="rb_A4009a_2">No</string>
-    <string name="rb_A4009a_DK">Don’t Know</string>
-    <string name="rb_A4009a_RA">Refused to Answer</string>
+    <string name="Q_a009">a009</string>
+    <string name="a009">Did s/he use tobacco ?</string>
+    <string name="a009a">Yes</string>
+    <string name="a009b">No</string>
+    <string name="a00998">Don’t Know</string>
+    <string name="a00999">Refused to Answer</string>
 
-    <string name="Q_A4010">A4010</string>
-    <string name="A4010">What kind of tobacco did s/he use ?</string>
-    <string name="rb_A4010_1">Cigarettes</string>
-    <string name="rb_A4010_2">Pipe</string>
-    <string name="rb_A4010_3">Chewing tobacco</string>
-    <string name="rb_A4010_OT">Other (Specify)</string>
-    <string name="rb_A4010_DK">Don’t Know</string>
-    <string name="rb_A4010_RA">Refused to Answer</string>
+    <string name="Q_a010">a010</string>
+    <string name="a010">What kind of tobacco did s/he use ?</string>
+    <string name="a010a">Cigarettes</string>
+    <string name="a010b">Pipe</string>
+    <string name="a010c">Chewing tobacco</string>
+    <string name="a01096">Other (Specify)</string>
+    <string name="a01098">Don’t Know</string>
+    <string name="a01099">Refused to Answer</string>
 
-    <string name="Q_A4011">a4011</string>
-    <string name="A4011">How many cigarettes did s/he smoke daily ?</string>
-    <string name="A4011_h">If Refused to Answer 88 and if Don`t Know 99</string>
+    <string name="Q_a011">a011</string>
+    <string name="a011">How many cigarettes did s/he smoke daily ?</string>
+    <string name="a011info">If Refused to Answer 88 and if Don`t Know 99</string>
 
-    <string name="Q_A4012">a4012</string>
-    <string name="A4012">How many times did (s)he use tobacco products each day ?</string>
+    <string name="Q_a012">a012</string>
+    <string name="a012">How many times did (s)he use tobacco products each day ?</string>
 
-    <string name="Q_A4013u">A4013u</string>
-    <string name="A4013u">For how long was (s)he ill before death ?</string>
-    <string name="A4013d">	اگر صرف 30 دن سے کم ہے تودن ریکارڈ کریں ۔	:	A4013d</string>
-    <string name="A4013m">	اگر ایک مہینے یا اس سے زیادہ ہو تو سال ریکارڈ کریں	:	A4013m</string>
-    <string name="A4013y">	اگر ایک سال یا اس سے زیادہ ہو تو سال ریکارڈ کریں	:	A4013y</string>
-    <string name="rb_A4013u_DK">Don’t Know</string>
-    <string name="rb_A4013u_RA">Refused to Answer</string>
-    <string name="ed_A4013d">Day</string>
-    <string name="ed_A4013m">Month</string>
-    <string name="ed_A4013y">Year</string>
+    <string name="Q_a013">a013</string>
+    <string name="a013">For how long was (s)he ill before death ?</string>
+    <string name="a013d">Day</string>
+    <string name="a013m">Month</string>
+    <string name="a013y">Year</string>
+    <string name="a01398">Don’t Know</string>
+    <string name="a01399">Refused to Answer</string>
 
-    <string name="Q_A4014">A4014</string>
-    <string name="A4014">Did (s)he die suddenly ?</string>
-    <string name="A4014_h">"Suddenly" means, died within twenty-four hours of the onset of illness</string>
-    <string name="rb_A4014_1">Yes</string>
-    <string name="rb_A4014_2">No</string>
-    <string name="rb_A4014_DK">Don’t Know</string>
+    <string name="Q_a014">a014</string>
+    <string name="a014">Did (s)he die suddenly ?</string>
+    <string name="a014info">"Suddenly" means, died within twenty-four hours of the onset of illness</string>
+    <string name="a014a">Yes</string>
+    <string name="a014b">No</string>
+    <string name="a01498">Don’t Know</string>
 
     <string name="Q_a051">a051</string>
     <string name="a051">During the illness that led to death, did (NAME) have a fever ?</string>
@@ -7776,7 +7774,6 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="A4075_a_h"><![CDATA[Enter 0-30 days. Less than 1 day or 24 hours = 0 days; 1 week = 7 days & If Don‘t Know Enter 99.]]></string>
     <string name="A4077_a_h"><![CDATA[Enter 0-30 days. Less than 1 day or 24 hours = 0 days; 1 week = 7 days &amp; If Don‘t Know  Enter 99\"]]></string>
     <string name="A4077_b_h">Enter 1-60 Months &amp; if Don‘t Know Enter 99</string>
-    <string name="A4006_h">Record “yes” if both or either reading or writing is known to the respondent.</string>
 
 
     <!--JUST TO-->
