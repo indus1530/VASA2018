@@ -6094,21 +6094,102 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="a14498">Don’t Know</string>
     <string name="a14499">Refused to Answer</string>
 
-    <string name="A4145">A4145: Did s/he have stiffness of the whole body or was unable to open the mouth ?</string>
-    <string name="A4146">A4146: Was s/he in any way paralyzed ?</string>
-    <string name="A4147">A4147: Did s/he have paralysis of only one side of the body ?</string>
-    <string name="A4148">A4148: Which were the limbs or body parts paralyzed ?</string>
-    <string name="A4149">A4149: Did s/he have difficulty swallowing ?</string>
-    <string name="A4150_u">A4150_Units: For how long before death did s/he have difficulty swallowing ?</string>
-    <string name="A4150_a">Day(s)</string>
-    <string name="A4150_b">Month(s)</string>
-    <string name="A4151">A4151: Was the difficulty with swallowing with solids, liquids or both ?</string>
-    <string name="A4152">A4152: Did s/he have pain upon swallowing ?</string>
-    <string name="A4153">A4153: During the illness that led to death, did (NAME) have a whitish rash inside the mouth or on the tongue ?</string>
-    <string name="A4154">A4154: During the illness that led to death, did (NAME) bleed from anywhere ?</string>
-    <string name="A4155">A4155: Did s/he bleed from the nose, mouth or anus ?</string>
-    <string name="A4156">A4156: During the illness that led to death, did s/he have areas of the skin that turned black ?</string>
-    <string name="A4157">A4157: Did she have any swelling or lump in the breast ?</string>
+    <string name="Q_a145">a145</string>
+    <string name="a145">Did s/he have stiffness of the whole body or was unable to open the mouth ?</string>
+    <string name="a145a">Yes</string>
+    <string name="a145b">No</string>
+    <string name="a14598">Don’t Know</string>
+    <string name="a14599">Refused to Answer</string>
+
+    <string name="Q_a146">a146</string>
+    <string name="a146">Was s/he in any way paralyzed ?</string>
+    <string name="a146a">Yes</string>
+    <string name="a146b">No</string>
+    <string name="a14698">Don’t Know</string>
+    <string name="a14699">Refused to Answer</string>
+
+    <string name="Q_a147">a147</string>
+    <string name="a147">Did s/he have paralysis of only one side of the body ?</string>
+    <string name="a147a">Yes</string>
+    <string name="a147b">No</string>
+    <string name="a14798">Don’t Know</string>
+    <string name="a14799">Refused to Answer</string>
+
+    <string name="Q_a148">a148</string>
+    <string name="a148">Which were the limbs or body parts paralyzed ?</string>
+    <string name="a148a">Right Side</string>
+    <string name="a148b">Left Side</string>
+    <string name="a148c">Lower Part of Body</string>
+    <string name="a148d">Upper Part of Body</string>
+    <string name="a148e">One Leg Only</string>
+    <string name="a148f">One Arm Only</string>
+    <string name="a148g">Whole Body</string>
+    <string name="a14896">Other (Specify)</string>
+    <string name="a14898">Don’t Know</string>
+    <string name="a14899">Refused to Answer</string>
+
+    <string name="Q_a149">a149</string>
+    <string name="a149">Did s/he have difficulty swallowing ?</string>
+    <string name="a149a">Yes</string>
+    <string name="a149b">No</string>
+    <string name="a14998">Don’t Know</string>
+    <string name="a14999">Refused to Answer</string>
+
+    <string name="Q_a150">a150</string>
+    <string name="a150">For how long before death did s/he have difficulty swallowing ?</string>
+    <string name="a150d">Day(s)</string>
+    <string name="a150m">Month(s)</string>
+    <string name="a15098">Don’t Know</string>
+    <string name="a15099">Refused to Answer</string>
+
+    <string name="Q_a151">a151</string>
+    <string name="a151">Was the difficulty with swallowing with solids, liquids or both ?</string>
+    <string name="a151a">Solids</string>
+    <string name="a151b">Liquids</string>
+    <string name="a151c">Both</string>
+
+    <string name="Q_a152">a152</string>
+    <string name="a152">Did s/he have pain upon swallowing ?</string>
+    <string name="a152a">Yes</string>
+    <string name="a152b">No</string>
+    <string name="a15298">Don’t Know</string>
+    <string name="a15299">Refused to Answer</string>
+
+    <string name="Q_a153">a153</string>
+    <string name="a153">During the illness that led to death, did (NAME) have a whitish rash inside the mouth or on the tongue ?</string>
+    <string name="a153a">Yes</string>
+    <string name="a153b">No</string>
+    <string name="a15398">Don’t Know</string>
+    <string name="a15399">Refused to Answer</string>
+
+    <string name="Q_a154">a154</string>
+    <string name="a154">During the illness that led to death, did (NAME) bleed from anywhere ?</string>
+    <string name="a154a">Yes</string>
+    <string name="a154b">No</string>
+    <string name="a15498">Don’t Know</string>
+    <string name="a15499">Refused to Answer</string>
+
+    <string name="Q_a155">a155</string>
+    <string name="a155">Did s/he bleed from the nose, mouth or anus ?</string>
+    <string name="a155a">Yes</string>
+    <string name="a155b">No</string>
+    <string name="a15598">Don’t Know</string>
+    <string name="a15599">Refused to Answer</string>
+
+    <string name="Q_a156">a156</string>
+    <string name="a156">During the illness that led to death, did s/he have areas of the skin that turned black ?</string>
+    <string name="a156a">Yes</string>
+    <string name="a156b">No</string>
+    <string name="a15698">Don’t Know</string>
+    <string name="a15699">Refused to Answer</string>
+
+    <string name="Q_a157">a157</string>
+    <string name="a157">Did she have any swelling or lump in the breast ?</string>
+    <string name="a157a">Yes</string>
+    <string name="a157b">No</string>
+    <string name="a15798">Don’t Know</string>
+    <string name="a15799">Refused to Answer</string>
+
     <string name="A4158">A4158: Did she have any ulcers (pits) in the breast ?</string>
     <string name="A4159">A4159: Did she ever have a period or menstruate ?</string>
     <string name="A4160">A4160: When she had her period, did she have vaginal bleeding in between menstrual periods ?</string>
@@ -6284,88 +6365,6 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="A4456">A4456: Did the deceased’s spouse/partner ever have a positive HIV test ?</string>
     <string name="A4457">A4457: Was there any diagnosis by a health professional that the deceased’s spouse/partner had AIDS ?</string>
     <string name="A4472">A4472: Are any of the following words of interest mentioned in the above narrative ?</string>
-
-    <string name="rb_A4145_1">Yes</string>
-    <string name="rb_A4145_2">No</string>
-    <string name="rb_A4145_DK">Don’t Know</string>
-
-    <string name="rb_A4145_RA">Refused to Answer</string>
-
-    <string name="rb_A4146_1">Yes</string>
-    <string name="rb_A4146_2">No</string>
-    <string name="rb_A4146_DK">Don’t Know</string>
-
-    <string name="rb_A4146_RA">Refused to Answer</string>
-
-    <string name="rb_A4147_1">Yes</string>
-    <string name="rb_A4147_2">No</string>
-    <string name="rb_A4147_DK">Don’t Know</string>
-
-    <string name="rb_A4147_RA">Refused to Answer</string>
-
-    <string name="rb_A4148_1">Right side</string>
-    <string name="rb_A4148_2">Left side</string>
-    <string name="rb_A4148_3">Lower part of body</string>
-    <string name="rb_A4148_4">Upper part of body</string>
-    <string name="rb_A4148_5">One leg only</string>
-    <string name="rb_A4148_6">One arm only</string>
-    <string name="rb_A4148_7">Whole body</string>
-    <string name="rb_A4148_OT">Other (Specify)</string>
-    <string name="rb_A4148_DK">Don’t Know</string>
-
-    <string name="rb_A4148_RA">Refused to Answer</string>
-
-    <string name="rb_A4149_1">Yes</string>
-    <string name="rb_A4149_2">No</string>
-    <string name="rb_A4149_DK">Don’t Know</string>
-
-    <string name="rb_A4149_RA">Refused to Answer</string>
-
-    <string name="rb_A4150_u_1">دن</string>
-    <string name="rb_A4150_u_2">مہینے</string>
-    <string name="rb_A4150_u_DK">Don’t Know</string>
-
-    <string name="rb_A4150_u_RA">Refused to Answer</string>
-
-    <string name="rb_A4151_1">Solids</string>
-    <string name="rb_A4151_2">Liquids</string>
-    <string name="rb_A4151_3">Both</string>
-
-    <string name="rb_A4152_1">Yes</string>
-    <string name="rb_A4152_2">No</string>
-    <string name="rb_A4152_DK">Don’t Know</string>
-
-    <string name="rb_A4152_RA">Refused to Answer</string>
-
-    <string name="rb_A4153_1">Yes</string>
-    <string name="rb_A4153_2">No</string>
-    <string name="rb_A4153_DK">Don’t Know</string>
-
-    <string name="rb_A4153_RA">Refused to Answer</string>
-
-    <string name="rb_A4154_1">Yes</string>
-    <string name="rb_A4154_2">No</string>
-    <string name="rb_A4154_DK">Don’t Know</string>
-
-    <string name="rb_A4154_RA">Refused to Answer</string>
-
-    <string name="rb_A4155_1">Yes</string>
-    <string name="rb_A4155_2">No</string>
-    <string name="rb_A4155_DK">Don’t Know</string>
-
-    <string name="rb_A4155_RA">Refused to Answer</string>
-
-    <string name="rb_A4156_1">Yes</string>
-    <string name="rb_A4156_2">No</string>
-    <string name="rb_A4156_DK">Don’t Know</string>
-
-    <string name="rb_A4156_RA">Refused to Answer</string>
-
-    <string name="rb_A4157_1">Yes</string>
-    <string name="rb_A4157_2">No</string>
-    <string name="rb_A4157_DK">Don’t Know</string>
-
-    <string name="rb_A4157_RA">Refused to Answer</string>
 
     <string name="rb_A4158_1">Yes</string>
     <string name="rb_A4158_2">No</string>

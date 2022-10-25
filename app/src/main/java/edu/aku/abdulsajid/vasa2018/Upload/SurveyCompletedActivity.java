@@ -4291,6 +4291,7 @@ class SurveyCompletedCustomAdapter extends RecyclerView.Adapter {
                     params.put(A4144_A4156.A4146, c9.getString(c9.getColumnIndex("A4146")));
                     params.put(A4144_A4156.A4147, c9.getString(c9.getColumnIndex("A4147")));
                     params.put(A4144_A4156.A4148, c9.getString(c9.getColumnIndex("A4148")));
+                    params.put(A4144_A4156.A4148x, c9.getString(c9.getColumnIndex("A4148x")));
                     params.put(A4144_A4156.A4149, c9.getString(c9.getColumnIndex("A4149")));
                     params.put(A4144_A4156.A4150_u, c9.getString(c9.getColumnIndex("A4150_u")));
                     params.put(A4144_A4156.A4150_a, c9.getString(c9.getColumnIndex("A4150_a")));
@@ -4309,6 +4310,7 @@ class SurveyCompletedCustomAdapter extends RecyclerView.Adapter {
                     params.put(A4144_A4156.A4146, "-2");
                     params.put(A4144_A4156.A4147, "-2");
                     params.put(A4144_A4156.A4148, "-2");
+                    params.put(A4144_A4156.A4148x, "-2");
                     params.put(A4144_A4156.A4149, "-2");
                     params.put(A4144_A4156.A4150_u, "-2");
                     params.put(A4144_A4156.A4150_a, "-2");

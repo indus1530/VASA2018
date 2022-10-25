@@ -16,6 +16,7 @@ public class A4144_A4156 {
                 edu.aku.abdulsajid.vasa2018.DataTables.A.A4144_A4156.A4146 + " TEXT," +
                 edu.aku.abdulsajid.vasa2018.DataTables.A.A4144_A4156.A4147 + " TEXT," +
                 edu.aku.abdulsajid.vasa2018.DataTables.A.A4144_A4156.A4148 + " TEXT," +
+                edu.aku.abdulsajid.vasa2018.DataTables.A.A4144_A4156.A4148x + " TEXT," +
                 edu.aku.abdulsajid.vasa2018.DataTables.A.A4144_A4156.A4149 + " TEXT," +
                 edu.aku.abdulsajid.vasa2018.DataTables.A.A4144_A4156.A4150_u + " TEXT," +
                 edu.aku.abdulsajid.vasa2018.DataTables.A.A4144_A4156.A4150_a + " TEXT," +

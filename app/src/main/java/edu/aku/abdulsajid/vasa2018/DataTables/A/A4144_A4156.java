@@ -8,6 +8,7 @@ public class A4144_A4156 {
     public static String A4146 = "A4146";
     public static String A4147 = "A4147";
     public static String A4148 = "A4148";
+    public static String A4148x = "A4148x";
     public static String A4149 = "A4149";
     public static String A4150_u = "A4150_u";
     public static String A4150_a = "A4150_a";

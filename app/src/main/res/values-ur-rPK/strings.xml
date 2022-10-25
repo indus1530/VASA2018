@@ -1304,21 +1304,102 @@
     <string name="a14498">معلوم نہیں</string>
     <string name="a14499">جواب دینے سے انکار کیا</string>
 
-    <string name="A4145">کیا  اس کاپورا جسم اکڑا ہوا تھا اور وہ منہ کھولنے کے قابل نہ تھا؟	:	A4145</string>
-    <string name="A4146">کیا اس کو فالج ہوا تھا؟	:	A4146</string>
-    <string name="A4147">کیا اس کے جسم کا صرف   ایک طرف کا    حصہ مفلوج تھا؟	:	A4147</string>
-    <string name="A4148">جسم کا کونسا   عضو  باز و یا ٹانگ یا جسم کے حصے مفلوج  ہوئے تھے؟	:	A4148</string>
-    <string name="A4149">کیا اس کو   نگلنے میں دشواری تھی؟	:	A4149</string>
-    <string name="A4150_u">انتقال سے کتنے عرصے پہلے اس کو  نگلنے میں دشواری تھی؟	:	A4150_u</string>
-    <string name="A4150_a">دن</string>
-    <string name="A4150_b">مپہنے</string>
-    <string name="A4151">کیا اس کو    پانی، ٹھوس غذا یا دونوں کو    نگلنے میں دشواری تھی؟	:	A4151</string>
-    <string name="A4152">کیا وہ    نگلنے پر  درد محسوس کرتی تھی  /کرتا تھا؟	:	A4152</string>
-    <string name="A4153">بیماری کے دوران جو انتقال کا سبب بننی،  کیا (نام) کے منہ میں یا  زبان پر سفید دھبےیا چھالے تھے؟	:	A4153</string>
-    <string name="A4154">بیماری کے دوران جو انتقال کا سبب بننی،  کیا (نام)  کا  کہیں سے خون بہا تھا ؟	:	A4154</string>
-    <string name="A4155">کیا (نام) کو ناک ، منہ یا پاخانے کے راستے سے خون خارج ہوا تھا ؟	:	A4155</string>
-    <string name="A4156">بیماری کے دوران جو انتقال کا سبب بننی،  کیا  اس کی  جلد کا کوئی حصہ کالا  یا سیاہ ہوگیا تھا ؟	:	A4156</string>
-    <string name="A4157">کیااس کی  چھاتی میں کوئی  سوجن یا گانٹھ تھی؟	:	A4157</string>
+    <string name="Q_a145">a145</string>
+    <string name="a145">کیا اس کا پورا جسم اکڑا ہوا تھا اور وہ منہ کھولنے کے قابل نہ تھا ؟</string>
+    <string name="a145a">ہاں</string>
+    <string name="a145b">نہیں</string>
+    <string name="a14598">معلوم نہیں</string>
+    <string name="a14599">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a146">a146</string>
+    <string name="a146">کیا اس کو فالج ہوا تھا ؟</string>
+    <string name="a146a">ہاں</string>
+    <string name="a146b">نہیں</string>
+    <string name="a14698">معلوم نہیں</string>
+    <string name="a14699">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a147">a147</string>
+    <string name="a147">کیا اس کے جسم کا صرف ایک طرف کا حصہ مفلوج تھا ؟</string>
+    <string name="a147a">ہاں</string>
+    <string name="a147b">نہیں</string>
+    <string name="a14798">معلوم نہیں</string>
+    <string name="a14799">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a148">a148</string>
+    <string name="a148">جسم کا کون سا عضو بازو یا ٹانگ یا جسم کے حصے مفلوج ہوئے تھے ؟</string>
+    <string name="a148a">دائیں طرف</string>
+    <string name="a148b">بائیں طرف</string>
+    <string name="a148c">جسم کے نچلے حصے میں</string>
+    <string name="a148d">جسم کے اوپری حصے میں</string>
+    <string name="a148e">صرف ایک ٹانگ میں</string>
+    <string name="a148f">صرف ایک بازو میں</string>
+    <string name="a148g">پورے جسم میں</string>
+    <string name="a14896">دیگر</string>
+    <string name="a14898">معلوم نہیں</string>
+    <string name="a14899">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a149">a149</string>
+    <string name="a149">کیا اس کو نگلنے میں دشواری تھی ؟</string>
+    <string name="a149a">ہاں</string>
+    <string name="a149b">نہیں</string>
+    <string name="a14998">معلوم نہیں</string>
+    <string name="a14999">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a150">a150</string>
+    <string name="a150">انتقال سے کتنے عرصے پہلے اس کو نگلنے میں دشواری تھی ؟</string>
+    <string name="a150d">دن</string>
+    <string name="a150m">مہینے</string>
+    <string name="a15098">معلوم نہیں</string>
+    <string name="a15099">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a151">a151</string>
+    <string name="a151">کیا اس کو پانی، ٹھوس غذا یا دونوں کو نگلنے میں دشواری تھی ؟</string>
+    <string name="a151a">ٹھوس</string>
+    <string name="a151b">مشروبات</string>
+    <string name="a151c">دونوں</string>
+
+    <string name="Q_a152">a152</string>
+    <string name="a152">کیا وہ نگلنے پر درد محسوس کرتی تھی / کرتا تھا ؟</string>
+    <string name="a152a">ہاں</string>
+    <string name="a152b">نہیں</string>
+    <string name="a15298">معلوم نہیں</string>
+    <string name="a15299">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a153">a153</string>
+    <string name="a153">بیماری کے دوران جو انتقال کا سبب بننی، کیا (نام) کے منہ میں یا زبان پر سفید دھبے یا چھالے تھے ؟</string>
+    <string name="a153a">ہاں</string>
+    <string name="a153b">نہیں</string>
+    <string name="a15398">معلوم نہیں</string>
+    <string name="a15399">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a154">a154</string>
+    <string name="a154">بیماری کے دوران جو انتقال کا سبب بننی، کیا (نام) کا کہیں سے خون بہا تھا ؟</string>
+    <string name="a154a">ہاں</string>
+    <string name="a154b">نہیں</string>
+    <string name="a15498">معلوم نہیں</string>
+    <string name="a15499">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a155">a155</string>
+    <string name="a155">کیا (نام) کو ناک، منہ یا پاخانے کے راستے سے خون خارج ہوا تھا ؟</string>
+    <string name="a155a">ہاں</string>
+    <string name="a155b">نہیں</string>
+    <string name="a15598">معلوم نہیں</string>
+    <string name="a15599">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a156">a156</string>
+    <string name="a156">بیماری کے دوران جو انتقال کا سبب بننی، کیا اس کی جلد کا کوئی حصہ کالا یا سیاہ ہوگیا تھا ؟</string>
+    <string name="a156a">ہاں</string>
+    <string name="a156b">نہیں</string>
+    <string name="a15698">معلوم نہیں</string>
+    <string name="a15699">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a157">a157</string>
+    <string name="a157">کیا اس کی چھاتی میں کوئی سوجن یا گانٹھ تھی ؟</string>
+    <string name="a157a">ہاں</string>
+    <string name="a157b">نہیں</string>
+    <string name="a15798">معلوم نہیں</string>
+    <string name="a15799">جواب دینے سے انکار کیا</string>
+
     <string name="A4158">کیا اس کی چھاتی میں کوئی  کھلا زخم یا السر تھا؟	:	A4158</string>
     <string name="A4159">کیا اس کو کبھی ماہواری آئی تھی؟	:	A4159</string>
     <string name="A4160">کیا دو ماہواری کے بیچ میں اسکو خون آیا تھا ؟	:	A4160</string>
@@ -1601,76 +1682,6 @@
     <string name="A4472">کیا اوپر دے گے وضاحتی بیانیے  میں   مندرجہ زیل میں سے کوئی بھی  الفاظ جو ہماری دلچسپی کے ہوں   بیان  ہوئے ہیں ؟	:	A4472</string>
     <string name="A4473">انٹرویور: انٹرویو کو بارے میں اپنا تبصرہ اور مشاہدہ لکھیں:	A4473</string>
     <string name="kilograms_kg">کلوگرام کے لیے Kg درج کریں اور نہیں جانتے کے لیے 999 درج کریں۔</string>
-
-    <string name="rb_A4145_1">ہاں</string>
-    <string name="rb_A4145_2">نہیں</string>
-    <string name="rb_A4145_DK">معلوم نہیں</string>
-    <string name="rb_A4145_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4146_1">ہاں</string>
-    <string name="rb_A4146_2">نہیں</string>
-    <string name="rb_A4146_DK">معلوم نہیں</string>
-    <string name="rb_A4146_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4147_1">ہاں</string>
-    <string name="rb_A4147_2">نہیں</string>
-    <string name="rb_A4147_DK">معلوم نہیں</string>
-    <string name="rb_A4147_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4148_1">دائیں طرف</string>
-    <string name="rb_A4148_2">بائیں طرف</string>
-    <string name="rb_A4148_3">جسم کے نچلے حصے میں </string>
-    <string name="rb_A4148_4">جسم کے اوپری حصے میں </string>
-    <string name="rb_A4148_5">صرف   ایک ٹانگ میں</string>
-    <string name="rb_A4148_6">صرف   ایک  بازو میں </string>
-    <string name="rb_A4148_7">پورے جسم میں </string>
-    <string name="rb_A4148_OT">دیگر</string>
-    <string name="rb_A4148_DK">معلوم نہیں</string>
-    <string name="rb_A4148_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4149_1">ہاں</string>
-    <string name="rb_A4149_2">نہیں</string>
-    <string name="rb_A4149_DK">معلوم نہیں</string>
-    <string name="rb_A4149_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4150_u_1">دن</string>
-    <string name="rb_A4150_u_2">مہینے</string>
-    <string name="rb_A4150_u_DK">معلوم نہیں</string>
-    <string name="rb_A4150_u_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4151_1">ٹھوس</string>
-    <string name="rb_A4151_2">مشروبات</string>
-    <string name="rb_A4151_3">دونوں </string>
-
-    <string name="rb_A4152_1">ہاں</string>
-    <string name="rb_A4152_2">نہیں</string>
-    <string name="rb_A4152_DK">معلوم نہیں</string>
-    <string name="rb_A4152_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4153_1">ہاں</string>
-    <string name="rb_A4153_2">نہیں</string>
-    <string name="rb_A4153_DK">معلوم نہیں</string>
-    <string name="rb_A4153_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4154_1">ہاں</string>
-    <string name="rb_A4154_2">نہیں</string>
-    <string name="rb_A4154_DK">معلوم نہیں</string>
-    <string name="rb_A4154_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4155_1">ہاں</string>
-    <string name="rb_A4155_2">نہیں</string>
-    <string name="rb_A4155_DK">معلوم نہیں</string>
-    <string name="rb_A4155_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4156_1">ہاں</string>
-    <string name="rb_A4156_2">نہیں</string>
-    <string name="rb_A4156_DK">معلوم نہیں</string>
-    <string name="rb_A4156_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4157_1">ہاں</string>
-    <string name="rb_A4157_2">نہیں</string>
-    <string name="rb_A4157_DK">معلوم نہیں</string>
-    <string name="rb_A4157_RA">جواب دینے سے انکار کیا</string>
 
     <string name="rb_A4158_1">ہاں</string>
     <string name="rb_A4158_2">نہیں</string>
