@@ -40,7 +40,8 @@
 
     <!--Adult-->
     <string name="h_a_sec_2_4">2.4 BACKGROUND and GENERAL SIGNS AND SYMPTOMS </string>
-    <string name="h_a_sec_9">SECTION 9: SIGNS AND SYMPTOMS FOR ADULTS DEATHS (12 years and above)</string>
+    <string name="sec9">Section 9:</string>
+    <string name="sec9a"> Signs &amp; Symptoms For Adults Deaths (12 years and above)</string>
     <string name="h_a_sec_I_A">Injuries and Accidents</string>
     <string name="h_a_sec_10">SECTION 10: CARE-SEEKING FOR THE FATAL ILLNESS (ADULT DEATHS)</string>
     <string name="h_a_sec_11">SECTION 11: TREATMENTS RECEIVED DURING THE FATAL ILLNESS (ADULT DEATHS) </string>
@@ -5988,25 +5989,111 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="a12598">Don’t Know</string>
     <string name="a12599">Refused to Answer</string>
 
-    <string name="A4126">A4126: During the illness that led to death, did (NAME) have swollen legs or feet ?</string>
-    <string name="A4127_u">A4127_Units: How long did the swelling last ?</string>
-    <string name="A4128">A4128: Did s/he have both feet swollen ?</string>
-    <string name="A4129">A4129: Did s/he have puffiness of the face ?</string>
-    <string name="A4130_u">A4130_Units: How long did s/he have puffiness of the face ?</string>
-    <string name="A4130_a">Day(s)</string>
-    <string name="A4130_b">Month(s)</string>
-    <string name="A4131">A4131: Did s/he have general puffiness all over her/his body</string>
-    <string name="A4132">A4132: During the illness that led to death, did (NAME)’s skin flake off in patches ?</string>
-    <string name="A4133">A4133: Did s/he have yellow discoloration of the eyes ?</string>
-    <string name="A4134_u">A4134_Units: For how long did s/he have yellow discoloration ?</string>
-    <string name="A4134_a">Day(s)</string>
-    <string name="A4134_b">Month(s)</string>
-    <string name="A4135">A4135: Did (NAME)’s hair change in color to a reddish or yellowish color ?</string>
-    <string name="A4136">A4136: Did s/he look pale (thinning/lack of blood) or have pale palms, eyes or nail bed ?</string>
-    <string name="A4138">A4138: Did s/he have any lumps or lesions in the mouth ?</string>
-    <string name="A4139">A4139: Did s/he have any lumps on the neck ?</string>
-    <string name="A4140">A4140: Did s/he have any lumps on the armpit ?</string>
-    <string name="A4144">A4144: Did s/he have any lumps on the groin ?</string>
+    <string name="Q_a126">a126</string>
+    <string name="a126">During the illness that led to death, did (NAME) have swollen legs or feet ?</string>
+    <string name="a126a">Yes</string>
+    <string name="a126b">No</string>
+    <string name="a12698">Don’t Know</string>
+    <string name="a12699">Refused to Answer</string>
+
+    <string name="Q_a127">a127</string>
+    <string name="a127">How long did the swelling last ?</string>
+    <string name="a127d">Day(s)</string>
+    <string name="a127m">Month(s)</string>
+    <string name="a12798">Don’t Know</string>
+    <string name="a12799">Refused to Answer</string>
+
+    <string name="Q_a128">a128</string>
+    <string name="a128">Did s/he have both feet swollen ?</string>
+    <string name="a128a">Yes</string>
+    <string name="a128b">No</string>
+    <string name="a12898">Don’t Know</string>
+    <string name="a12899">Refused to Answer</string>
+
+    <string name="Q_a129">a129</string>
+    <string name="a129">Did s/he have puffiness of the face ?</string>
+    <string name="a129a">Yes</string>
+    <string name="a129b">No</string>
+    <string name="a12998">Don’t Know</string>
+    <string name="a12999">Refused to Answer</string>
+
+    <string name="Q_a130">a130</string>
+    <string name="a130">How long did s/he have puffiness of the face ?</string>
+    <string name="a130d">Day(s)</string>
+    <string name="a130m">Month(s)</string>
+    <string name="a13098">Don’t Know</string>
+    <string name="a13099">Refused to Answer</string>
+
+    <string name="Q_a131">a131</string>
+    <string name="a131">Did s/he have general puffiness all over her/his body ?</string>
+    <string name="a131a">Yes</string>
+    <string name="a131b">No</string>
+    <string name="a13198">Don’t Know</string>
+    <string name="a13199">Refused to Answer</string>
+
+    <string name="Q_a132">a132</string>
+    <string name="a132">During the illness that led to death, did (NAME)’s skin flake off in patches ?</string>
+    <string name="a132a">Yes</string>
+    <string name="a132b">No</string>
+    <string name="a13298">Don’t Know</string>
+    <string name="a13299">Refused to Answer</string>
+
+    <string name="Q_a133">a133</string>
+    <string name="a133">Did s/he have yellow discoloration of the eyes ?</string>
+    <string name="a133a">Yes</string>
+    <string name="a133b">No</string>
+    <string name="a13398">Don’t Know</string>
+    <string name="a13399">Refused to Answer</string>
+
+    <string name="Q_a134">a134</string>
+    <string name="a134">For how long did s/he have yellow discoloration ?</string>
+    <string name="a134d">Day(s)</string>
+    <string name="a134m">Month(s)</string>
+    <string name="a13498">Don’t Know</string>
+    <string name="a13499">Refused to Answer</string>
+
+    <string name="Q_a135">a135</string>
+    <string name="a135">Did (NAME)’s hair change in color to a reddish or yellowish color ?</string>
+    <string name="a135a">Yes</string>
+    <string name="a135b">No</string>
+    <string name="a13598">Don’t Know</string>
+    <string name="a13599">Refused to Answer</string>
+
+    <string name="Q_a136">a136</string>
+    <string name="a136">Did s/he look pale (thinning/lack of blood) or have pale palms, eyes or nail bed ?</string>
+    <string name="a136a">Yes</string>
+    <string name="a136b">No</string>
+    <string name="a13698">Don’t Know</string>
+    <string name="a13699">Refused to Answer</string>
+
+    <string name="Q_a138">a138</string>
+    <string name="a138">Did s/he have any lumps or lesions in the mouth ?</string>
+    <string name="a138a">Yes</string>
+    <string name="a138b">No</string>
+    <string name="a13898">Don’t Know</string>
+    <string name="a13899">Refused to Answer</string>
+
+    <string name="Q_a139">a139</string>
+    <string name="a139">Did s/he have any lumps on the neck ?</string>
+    <string name="a139a">Yes</string>
+    <string name="a139b">No</string>
+    <string name="a13998">Don’t Know</string>
+    <string name="a13999">Refused to Answer</string>
+
+    <string name="Q_a140">a140</string>
+    <string name="a140">Did s/he have any lumps on the armpit ?</string>
+    <string name="a140a">Yes</string>
+    <string name="a140b">No</string>
+    <string name="a14098">Don’t Know</string>
+    <string name="a14099">Refused to Answer</string>
+
+    <string name="Q_a144">a144</string>
+    <string name="a144">Did s/he have any lumps on the groin ?</string>
+    <string name="a144a">Yes</string>
+    <string name="a144b">No</string>
+    <string name="a14498">Don’t Know</string>
+    <string name="a14499">Refused to Answer</string>
+
     <string name="A4145">A4145: Did s/he have stiffness of the whole body or was unable to open the mouth ?</string>
     <string name="A4146">A4146: Was s/he in any way paralyzed ?</string>
     <string name="A4147">A4147: Did s/he have paralysis of only one side of the body ?</string>
@@ -6197,96 +6284,6 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="A4456">A4456: Did the deceased’s spouse/partner ever have a positive HIV test ?</string>
     <string name="A4457">A4457: Was there any diagnosis by a health professional that the deceased’s spouse/partner had AIDS ?</string>
     <string name="A4472">A4472: Are any of the following words of interest mentioned in the above narrative ?</string>
-
-    <string name="rb_A4126_1">Yes</string>
-    <string name="rb_A4126_2">No</string>
-    <string name="rb_A4126_DK">Don’t Know</string>
-
-    <string name="rb_A4126_RA">Refused to Answer</string>
-
-    <string name="rb_A4127_u_1">Day(s)</string>
-    <string name="rb_A4127_u_2">Month(s)</string>
-    <string name="rb_A4127_u_DK">Don’t Know</string>
-
-    <string name="rb_A4127_u_RA">Refused to Answer</string>
-
-    <string name="rb_A4128_1">Yes</string>
-    <string name="rb_A4128_2">No</string>
-    <string name="rb_A4128_DK">Don’t Know</string>
-
-    <string name="rb_A4128_RA">Refused to Answer</string>
-
-    <string name="rb_A4129_1">Yes</string>
-    <string name="rb_A4129_2">No</string>
-    <string name="rb_A4129_DK">Don’t Know</string>
-
-    <string name="rb_A4129_RA">Refused to Answer</string>
-
-    <string name="rb_A4130_u_1">Day(s)</string>
-    <string name="rb_A4130_u_2">Month(s)</string>
-    <string name="rb_A4130_u_DK">Don’t Know</string>
-
-    <string name="rb_A4130_u_RA">Refused to Answer</string>
-
-    <string name="rb_A4131_1">Yes</string>
-    <string name="rb_A4131_2">No</string>
-    <string name="rb_A4131_DK">Don’t Know</string>
-
-    <string name="rb_A4131_RA">Refused to Answer</string>
-
-    <string name="rb_A4132_1">Yes</string>
-    <string name="rb_A4132_2">No</string>
-    <string name="rb_A4132_DK">Don’t Know</string>
-
-    <string name="rb_A4132_RA">Refused to Answer</string>
-
-    <string name="rb_A4133_1">Yes</string>
-    <string name="rb_A4133_2">No</string>
-    <string name="rb_A4133_DK">Don’t Know</string>
-
-    <string name="rb_A4133_RA">Refused to Answer</string>
-
-    <string name="rb_A4134_u_1">Day(s)</string>
-    <string name="rb_A4134_u_2">Month(s)</string>
-    <string name="rb_A4134_u_DK">Don’t Know</string>
-
-    <string name="rb_A4134_u_RA">Refused to Answer</string>
-
-    <string name="rb_A4135_1">Yes</string>
-    <string name="rb_A4135_2">No</string>
-    <string name="rb_A4135_DK">Don’t Know</string>
-
-    <string name="rb_A4135_RA">Refused to Answer</string>
-
-    <string name="rb_A4136_1">Yes</string>
-    <string name="rb_A4136_2">No</string>
-    <string name="rb_A4136_DK">Don’t Know</string>
-
-    <string name="rb_A4136_RA">Refused to Answer</string>
-
-    <string name="rb_A4138_1">Yes</string>
-    <string name="rb_A4138_2">No</string>
-    <string name="rb_A4138_DK">Don’t Know</string>
-
-    <string name="rb_A4138_RA">Refused to Answer</string>
-
-    <string name="rb_A4139_1">Yes</string>
-    <string name="rb_A4139_2">No</string>
-    <string name="rb_A4139_DK">Don’t Know</string>
-
-    <string name="rb_A4139_RA">Refused to Answer</string>
-
-    <string name="rb_A4140_1">Yes</string>
-    <string name="rb_A4140_2">No</string>
-    <string name="rb_A4140_DK">Don’t Know</string>
-
-    <string name="rb_A4140_RA">Refused to Answer</string>
-
-    <string name="rb_A4144_1">Yes</string>
-    <string name="rb_A4144_2">No</string>
-    <string name="rb_A4144_DK">Don’t Know</string>
-
-    <string name="rb_A4144_RA">Refused to Answer</string>
 
     <string name="rb_A4145_1">Yes</string>
     <string name="rb_A4145_2">No</string>

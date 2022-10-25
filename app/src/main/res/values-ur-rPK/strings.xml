@@ -64,7 +64,8 @@
 
     <!--Adult-->
     <string name="h_a_sec_2_4">2.4 BACKGROUND and GENERAL SIGNS AND SYMPTOMS </string>
-    <string name="h_a_sec_9">SECTION 9: SIGNS AND SYMPTOMS FOR ADULTS DEATHS (12 years and above)</string>
+    <string name="sec9">Section 9:</string>
+    <string name="sec9a"> Signs &amp; Symptoms For Adults Deaths (12 years and above)</string>
     <string name="h_a_sec_I_A">Injuries and Accidents</string>
     <string name="h_a_sec_10">SECTION 10: CARE-SEEKING FOR THE FATAL ILLNESS (ADULT DEATHS)</string>
     <string name="h_a_sec_11">SECTION 11: TREATMENTS RECEIVED DURING THE FATAL ILLNESS (ADULT DEATHS) </string>
@@ -1198,25 +1199,111 @@
     <string name="a12598">معلوم نہیں</string>
     <string name="a12599">جواب دینے سے انکار کیا</string>
 
-    <string name="A4126">بیماری کے دوران جو وفات کا سبب بنی ،  کیا(نام) کے ہاتھ اور پیروں پر  سوجن تھی؟	:	A4126</string>
-    <string name="A4127_u">سوجن کتنے عرصے تک تھی؟	:	A4127_u</string>
-    <string name="A4128">کیا (اس کے) دونوں پاؤں سوجے ہو ئے تھے؟	:	A4128</string>
-    <string name="A4129">کیا   اس کے  منہ پہ سوجن تھی؟	:	A4129</string>
-    <string name="A4130_u">کتنے عرصہ  تک   اس کے منہ پہ سوجن رہی تھی؟	:	A4130_u</string>
-    <string name="A4130_a">دن</string>
-    <string name="A4130_b">مپہنے</string>
-    <string name="A4131">کیا اس کے پورے جسم پر سوجن تھی؟	:	A4131</string>
-    <string name="A4132">بیماری کے دوران جو انتقال کا سبب بننی،  کیا (نام) کی جلد چھلکے کی طرح اتر رہی تھی؟	:	A4132</string>
-    <string name="A4133">کیا (نام) کی آنکھوں کا رنگ پیلا تھا؟	:	A4133</string>
-    <string name="A4134_u">کتنے عرصۃ   تک اس کا     رنگ پیلا  تھا؟	:	A4134_u</string>
-    <string name="A4134_a">دن</string>
-    <string name="A4134_b">مپہنے</string>
-    <string name="A4135">کیا (نام) کے بالوں کا رنگ سرخی ما ئل سے پیلاہٹ میں تبدیل ہورہا تھا ؟	:	A4135</string>
-    <string name="A4136">کیا وہ دکھنے میں پیلا لگ رہا تھا/تھی(کمزور/خون کی کمی) یا ہاتھ کی ہتھیلیاں، آنکھیں یا ناخن پیلے ہورہے تھے؟	:	A4136</string>
-    <string name="A4138">کیا  اسکے منہ کے اندرکوئی سوجن یا گلٹی  تھی؟	:	A4138</string>
-    <string name="A4139">کیا  اسکی گردن پر کوئی سوجن یا گلٹی  تھی؟	:	A4139</string>
-    <string name="A4140">کیا اس  کی بغل میں کوئی  گلٹی تھی؟	:	A4140</string>
-    <string name="A4144">کیا  اسکی جانگیہ(  ٹانگوں کے بیچ )میں کوئی  گلٹی تھی؟	:	A4144</string>
+    <string name="Q_a126">a126</string>
+    <string name="a126">بیماری کے دوران جو وفات کا سبب بنی، کیا (نام) کے ہاتھ اور پیروں پر سوجن تھی ؟</string>
+    <string name="a126a">ہاں</string>
+    <string name="a126b">نہیں</string>
+    <string name="a12698">معلوم نہیں</string>
+    <string name="a12699">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a127">a127</string>
+    <string name="a127">سوجن کتنے عرصے تک تھی ؟</string>
+    <string name="a127d">دن</string>
+    <string name="a127m">مہینے</string>
+    <string name="a12798">معلوم نہیں</string>
+    <string name="a12799">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a128">a128</string>
+    <string name="a128">کیا اس کے دونوں پاؤں سوجے ہوئے تھے ؟</string>
+    <string name="a128a">ہاں</string>
+    <string name="a128b">نہیں</string>
+    <string name="a12898">معلوم نہیں</string>
+    <string name="a12899">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a129">a129</string>
+    <string name="a129">کیا اس کے منہ پہ سوجن تھی ؟</string>
+    <string name="a129a">ہاں</string>
+    <string name="a129b">نہیں</string>
+    <string name="a12998">معلوم نہیں</string>
+    <string name="a12999">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a130">a130</string>
+    <string name="a130">کتنے عرصہ تک اس کے منہ پہ سوجن رہی تھی ؟</string>
+    <string name="a130d">دن</string>
+    <string name="a130m">مہینے</string>
+    <string name="a13098">معلوم نہیں</string>
+    <string name="a13099">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a131">a131</string>
+    <string name="a131">کیا اس کے پورے جسم پر سوجن تھی ؟</string>
+    <string name="a131a">ہاں</string>
+    <string name="a131b">نہیں</string>
+    <string name="a13198">معلوم نہیں</string>
+    <string name="a13199">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a132">a132</string>
+    <string name="a132">بیماری کے دوران جو انتقال کا سبب بننی، کیا (نام) کی جلد چھلکے کی طرح اتر رہی تھی ؟</string>
+    <string name="a132a">ہاں</string>
+    <string name="a132b">نہیں</string>
+    <string name="a13298">معلوم نہیں</string>
+    <string name="a13299">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a133">a133</string>
+    <string name="a133">کیا (نام) کی آنکھوں کا رنگ پیلا تھا ؟</string>
+    <string name="a133a">ہاں</string>
+    <string name="a133b">نہیں</string>
+    <string name="a13398">معلوم نہیں</string>
+    <string name="a13399">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a134">a134</string>
+    <string name="a134">کتنے عرصۃ تک اس کا رنگ پیلا تھا ؟</string>
+    <string name="a134d">دن</string>
+    <string name="a134m">مہینے</string>
+    <string name="a13498">معلوم نہیں</string>
+    <string name="a13499">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a135">a135</string>
+    <string name="a135">کیا (نام) کے بالوں کا رنگ سرخی مائل سے پیلاہٹ میں تبدیل ہو رہا تھا ؟</string>
+    <string name="a135a">ہاں</string>
+    <string name="a135b">نہیں</string>
+    <string name="a13598">معلوم نہیں</string>
+    <string name="a13599">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a136">a136</string>
+    <string name="a136">کیا وہ دکھنے میں پیلا لگ رہا تھا / تھی ( کمزور / خون کی کمی ) یا ہاتھ کی ہتھیلیاں، آنکھیں یا ناخن پیلے ہو رہے تھے ؟</string>
+    <string name="a136a">ہاں</string>
+    <string name="a136b">نہیں</string>
+    <string name="a13698">معلوم نہیں</string>
+    <string name="a13699">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a138">a138</string>
+    <string name="a138">کیا اس کے منہ کے اندر کوئی سوجن یا گلٹی  تھی ؟</string>
+    <string name="a138a">ہاں</string>
+    <string name="a138b">نہیں</string>
+    <string name="a13898">معلوم نہیں</string>
+    <string name="a13899">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a139">a139</string>
+    <string name="a139">کیا اس کی گردن پر کوئی سوجن یا گلٹی  تھی ؟</string>
+    <string name="a139a">ہاں</string>
+    <string name="a139b">نہیں</string>
+    <string name="a13998">معلوم نہیں</string>
+    <string name="a13999">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a140">a140</string>
+    <string name="a140">کیا اس کی بغل میں کوئی گلٹی تھی ؟</string>
+    <string name="a140a">ہاں</string>
+    <string name="a140b">نہیں</string>
+    <string name="a14098">معلوم نہیں</string>
+    <string name="a14099">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a144">a144</string>
+    <string name="a144">کیا اس کی جانگیہ ( ٹانگوں کے بیچ ) میں کوئی گلٹی تھی ؟</string>
+    <string name="a144a">ہاں</string>
+    <string name="a144b">نہیں</string>
+    <string name="a14498">معلوم نہیں</string>
+    <string name="a14499">جواب دینے سے انکار کیا</string>
+
     <string name="A4145">کیا  اس کاپورا جسم اکڑا ہوا تھا اور وہ منہ کھولنے کے قابل نہ تھا؟	:	A4145</string>
     <string name="A4146">کیا اس کو فالج ہوا تھا؟	:	A4146</string>
     <string name="A4147">کیا اس کے جسم کا صرف   ایک طرف کا    حصہ مفلوج تھا؟	:	A4147</string>
@@ -1514,81 +1601,6 @@
     <string name="A4472">کیا اوپر دے گے وضاحتی بیانیے  میں   مندرجہ زیل میں سے کوئی بھی  الفاظ جو ہماری دلچسپی کے ہوں   بیان  ہوئے ہیں ؟	:	A4472</string>
     <string name="A4473">انٹرویور: انٹرویو کو بارے میں اپنا تبصرہ اور مشاہدہ لکھیں:	A4473</string>
     <string name="kilograms_kg">کلوگرام کے لیے Kg درج کریں اور نہیں جانتے کے لیے 999 درج کریں۔</string>
-
-    <string name="rb_A4126_1">ہاں</string>
-    <string name="rb_A4126_2">نہیں</string>
-    <string name="rb_A4126_DK">معلوم نہیں</string>
-    <string name="rb_A4126_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4127_u_1">دن</string>
-    <string name="rb_A4127_u_2">مہینے</string>
-    <string name="rb_A4127_u_DK">معلوم نہیں</string>
-    <string name="rb_A4127_u_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4128_1">ہاں</string>
-    <string name="rb_A4128_2">نہیں</string>
-    <string name="rb_A4128_DK">معلوم نہیں</string>
-    <string name="rb_A4128_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4129_1">ہاں</string>
-    <string name="rb_A4129_2">نہیں</string>
-    <string name="rb_A4129_DK">معلوم نہیں</string>
-    <string name="rb_A4129_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4130_u_1">دن</string>
-    <string name="rb_A4130_u_2">مہینے</string>
-    <string name="rb_A4130_u_DK">معلوم نہیں</string>
-    <string name="rb_A4130_u_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4131_1">ہاں</string>
-    <string name="rb_A4131_2">نہیں</string>
-    <string name="rb_A4131_DK">معلوم نہیں</string>
-    <string name="rb_A4131_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4132_1">ہاں</string>
-    <string name="rb_A4132_2">نہیں</string>
-    <string name="rb_A4132_DK">معلوم نہیں</string>
-    <string name="rb_A4132_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4133_1">ہاں</string>
-    <string name="rb_A4133_2">نہیں</string>
-    <string name="rb_A4133_DK">معلوم نہیں</string>
-    <string name="rb_A4133_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4134_u_1">دن</string>
-    <string name="rb_A4134_u_2">مہینے</string>
-    <string name="rb_A4134_u_DK">معلوم نہیں</string>
-    <string name="rb_A4134_u_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4135_1">ہاں</string>
-    <string name="rb_A4135_2">نہیں</string>
-    <string name="rb_A4135_DK">معلوم نہیں</string>
-    <string name="rb_A4135_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4136_1">ہاں</string>
-    <string name="rb_A4136_2">نہیں</string>
-    <string name="rb_A4136_DK">معلوم نہیں</string>
-    <string name="rb_A4136_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4138_1">ہاں</string>
-    <string name="rb_A4138_2">نہیں</string>
-    <string name="rb_A4138_DK">معلوم نہیں</string>
-    <string name="rb_A4138_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4139_1">ہاں</string>
-    <string name="rb_A4139_2">نہیں</string>
-    <string name="rb_A4139_DK">معلوم نہیں</string>
-    <string name="rb_A4139_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4140_1">ہاں</string>
-    <string name="rb_A4140_2">نہیں</string>
-    <string name="rb_A4140_DK">معلوم نہیں</string>
-    <string name="rb_A4140_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4144_1">ہاں</string>
-    <string name="rb_A4144_2">نہیں</string>
-    <string name="rb_A4144_DK">معلوم نہیں</string>
-    <string name="rb_A4144_RA">جواب دینے سے انکار کیا</string>
 
     <string name="rb_A4145_1">ہاں</string>
     <string name="rb_A4145_2">نہیں</string>

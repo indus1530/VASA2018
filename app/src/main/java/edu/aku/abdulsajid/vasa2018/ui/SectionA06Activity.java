@@ -51,7 +51,7 @@ public class SectionA06Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         bi = DataBindingUtil.setContentView(this, R.layout.activity_section_a06);
-        this.setTitle(getString(R.string.h_a_sec_9));
+        this.setTitle(getString(R.string.sec9));
         Intent getStudyId = getIntent();
         study_id = getStudyId.getExtras().getString("study_id");
         bi.studyid.setText(study_id);
@@ -64,7 +64,7 @@ public class SectionA06Activity extends AppCompatActivity {
         if (!validateField()) return;
         value_assignment();
         insert_data();
-        startActivity(new Intent(SectionA06Activity.this, A4126_A4140.class).putExtra("study_id", study_id));
+        startActivity(new Intent(SectionA06Activity.this, SectionA07Activity.class).putExtra("study_id", study_id));
     }
 
 

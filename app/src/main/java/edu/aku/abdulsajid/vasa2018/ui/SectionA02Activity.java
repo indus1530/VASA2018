@@ -63,7 +63,7 @@ public class SectionA02Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         bi = DataBindingUtil.setContentView(this, R.layout.activity_section_a02);
-        this.setTitle(getString(R.string.h_a_sec_9));
+        this.setTitle(getString(R.string.sec9));
         bi.setCallback(this);
         Intent getStudyId = getIntent();
         study_id = getStudyId.getExtras().getString("study_id");
