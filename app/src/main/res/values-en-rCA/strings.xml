@@ -5866,139 +5866,127 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="a10898">Don’t Know</string>
     <string name="a10899">Refused to Answer</string>
 
-    <string name="A4109">A4109: Did the deceased have any urine problems ?</string>
+    <string name="Q_a109">a109</string>
+    <string name="a109">Did the deceased have any urine problems ?</string>
+    <string name="a109a">Yes</string>
+    <string name="a109b">No</string>
+    <string name="a10998">Don’t Know</string>
+    <string name="a10999">Refused to Answer</string>
 
-    <string name="rb_A4109_1">Yes</string>
-    <string name="rb_A4109_2">No</string>
-    <string name="rb_A4109_DK">Don’t Know</string>
+    <string name="Q_a110">a110</string>
+    <string name="a110">During the fatal illness, did s/he ever pass blood in the urine ?</string>
+    <string name="a110a">Yes</string>
+    <string name="a110b">No</string>
+    <string name="a11098">Don’t Know</string>
+    <string name="a11099">Refused to Answer</string>
 
-    <string name="rb_A4109_RA">Refused to Answer</string>
+    <string name="Q_a111">a111</string>
+    <string name="a111">Did s/he stop urinating ?</string>
+    <string name="a111a">Yes</string>
+    <string name="a111b">No</string>
+    <string name="a11198">Don’t Know</string>
+    <string name="a11199">Refused to Answer</string>
 
-    <string name="rb_A4110_1">Yes</string>
-    <string name="rb_A4110_2">No</string>
-    <string name="rb_A4110_DK">Don’t Know</string>
+    <string name="Q_a112">a112</string>
+    <string name="a112">During s/he go to urinate more often than usual ?</string>
+    <string name="a112a">Yes</string>
+    <string name="a112b">No</string>
+    <string name="a11298">Don’t Know</string>
+    <string name="a11299">Refused to Answer</string>
 
-    <string name="rb_A4110_RA">Refused to Answer</string>
+    <string name="Q_a113">a113</string>
+    <string name="a113">Did she have sores or ulcers anywhere on the body ?</string>
+    <string name="a113a">Yes</string>
+    <string name="a113b">No</string>
+    <string name="a11398">Don’t Know</string>
+    <string name="a11399">Refused to Answer</string>
 
-    <string name="rb_A4111_1">Yes</string>
-    <string name="rb_A4111_2">No</string>
-    <string name="rb_A4111_DK">Don’t Know</string>
+    <string name="Q_a114">a114</string>
+    <string name="a114">Did the sores or ulcers have pus ?</string>
+    <string name="a114a">Yes</string>
+    <string name="a114b">No</string>
+    <string name="a11498">Don’t Know</string>
+    <string name="a11499">Refused to Answer</string>
 
-    <string name="rb_A4111_RA">Refused to Answer</string>
+    <string name="Q_a115">a115</string>
+    <string name="a115">Did s/he have an ulcer (pit) on the foot ?</string>
+    <string name="a115info">Small holes on the feet</string>
+    <string name="a115a">Yes</string>
+    <string name="a115b">No</string>
+    <string name="a11598">Don’t Know</string>
+    <string name="a11599">Refused to Answer</string>
 
-    <string name="rb_A4112_1">Yes</string>
-    <string name="rb_A4112_2">No</string>
-    <string name="rb_A4112_DK">Don’t Know</string>
+    <string name="Q_a116">a116</string>
+    <string name="a116">Did the ulcer on the foot ooze pus ?</string>
+    <string name="a116a">Yes</string>
+    <string name="a116b">No</string>
+    <string name="a11698">Don’t Know</string>
+    <string name="a11699">Refused to Answer</string>
 
-    <string name="rb_A4112_RA">Refused to Answer</string>
+    <string name="Q_a117">a117</string>
+    <string name="a117">How long did the ulcer on the foot ooze pus ?</string>
+    <string name="a117d">Day(s)</string>
+    <string name="a117m">Month(s)</string>
+    <string name="a11798">Don’t Know</string>
+    <string name="a11799">Refused to Answer</string>
 
-    <string name="rb_A4113_1">Yes</string>
-    <string name="rb_A4113_2">No</string>
-    <string name="rb_A4113_DK">Don’t Know</string>
+    <string name="Q_a118">a118</string>
+    <string name="a118">During the illness that led to death, did (NAME) have any skin rash ?</string>
+    <string name="a118a">Yes</string>
+    <string name="a118b">No</string>
+    <string name="a11898">Don’t Know</string>
+    <string name="a11899">Refused to Answer</string>
 
-    <string name="rb_A4113_RA">Refused to Answer</string>
+    <string name="Q_a119">a119</string>
+    <string name="a119">Where was the rash ?</string>
+    <string name="a119a">Face</string>
+    <string name="a119b">Trunk/Abdomen</string>
+    <string name="a119c">Extremities</string>
+    <string name="a119d">Everywhere</string>
+    <string name="a11998">Don’t Know</string>
+    <string name="a11999">Refused to Answer</string>
 
-    <string name="rb_A4114_1">Yes</string>
-    <string name="rb_A4114_2">No</string>
-    <string name="rb_A4114_DK">Don’t Know</string>
+    <string name="Q_a120">a120</string>
+    <string name="a120">Where did the rash start ?</string>
+    <string name="a120a">Face</string>
+    <string name="a120b">Trunk / Abdomen</string>
+    <string name="a120c">Extremities</string>
+    <string name="a120d">Everywhere</string>
+    <string name="a12098">Don’t Know</string>
+    <string name="a12099">Refused to Answer</string>
 
-    <string name="rb_A4114_RA">Refused to Answer</string>
+    <string name="Q_a121">a121</string>
+    <string name="a121">How many days did the rash last ?</string>
+    <string name="a121a">Day(s)</string>
 
-    <string name="rb_A4115_1">Yes</string>
-    <string name="rb_A4115_2">No</string>
-    <string name="rb_A4115_DK">Don’t Know</string>
+    <string name="Q_a122">a122</string>
+    <string name="a122">Did s/he have a measles rash (use local term) ?</string>
+    <string name="a122a">Yes</string>
+    <string name="a122b">No</string>
+    <string name="a12298">Don’t Know</string>
+    <string name="a12299">Refused to Answer</string>
 
-    <string name="rb_A4115_RA">Refused to Answer</string>
+    <string name="Q_a123">a123</string>
+    <string name="a123">Did s/he ever have shingles or herpes zoster ?</string>
+    <string name="a123a">Yes</string>
+    <string name="a123b">No</string>
+    <string name="a12398">Don’t Know</string>
+    <string name="a12399">Refused to Answer</string>
 
-    <string name="rb_A4116_1">Yes</string>
-    <string name="rb_A4116_2">No</string>
-    <string name="rb_A4116_DK">Don’t Know</string>
+    <string name="Q_a124">a124</string>
+    <string name="a124">Did s/he have noticeable weight loss ? [hint: limbs (legs, arms) become very thin ?</string>
+    <string name="a124info">hint: limbs (legs, arms) become very thin ?</string>
+    <string name="a124a">Yes</string>
+    <string name="a124b">No</string>
+    <string name="a12498">Don’t Know</string>
+    <string name="a12499">Refused to Answer</string>
 
-    <string name="rb_A4116_RA">Refused to Answer</string>
-
-    <string name="rb_A4117_u_1">Day(s)</string>
-    <string name="rb_A4117_u_2">Month(s)</string>
-    <string name="rb_A4117_u_DK">Don’t Know</string>
-
-    <string name="rb_A4117_u_RA">Refused to Answer</string>
-
-    <string name="rb_A4118_1">Yes</string>
-    <string name="rb_A4118_2">No</string>
-    <string name="rb_A4118_DK">Don’t Know</string>
-
-    <string name="rb_A4118_RA">Refused to Answer</string>
-
-    <string name="rb_A4119_1">Face</string>
-    <string name="rb_A4119_2">Trunk/Abdomen</string>
-    <string name="rb_A4119_3">Extremities</string>
-    <string name="rb_A4119_4">Everywhere</string>
-    <string name="rb_A4119_DK">Don’t Know</string>
-
-    <string name="rb_A4119_RA">Refused to Answer</string>
-
-    <string name="rb_A4120_1">Face</string>
-    <string name="rb_A4120_2">Trunk/Abdomen</string>
-    <string name="rb_A4120_3">Extremities</string>
-    <string name="rb_A4120_4">Everywhere</string>
-    <string name="rb_A4120_DK">Don’t Know</string>
-
-    <string name="rb_A4120_RA">Refused to Answer</string>
-
-    <string name="rb_A4122_1">Yes</string>
-    <string name="rb_A4122_2">No</string>
-    <string name="rb_A4122_DK">Don’t Know</string>
-
-    <string name="rb_A4122_RA">Refused to Answer</string>
-
-    <string name="rb_A4123_1">Yes</string>
-    <string name="rb_A4123_2">No</string>
-    <string name="rb_A4123_DK">Don’t Know</string>
-
-    <string name="rb_A4123_RA">Refused to Answer</string>
-
-    <string name="rb_A4124_1">Yes</string>
-    <string name="rb_A4124_2">No</string>
-    <string name="rb_A4124_DK">Don’t Know</string>
-
-    <string name="rb_A4124_RA">Refused to Answer</string>
-
-    <string name="rb_A4125_1">Yes</string>
-    <string name="rb_A4125_2">No</string>
-    <string name="rb_A4125_DK">Don’t Know</string>
-
-    <string name="rb_A4125_RA">Refused to Answer</string>
-
-    <string name="A4110">A4110: During the fatal illness, did s/he ever pass blood in the urine ?</string>
-
-    <string name="A4111">A4111: Did s/he stop urinating ?</string>
-
-    <string name="A4112">A4112: During s/he go to urinate more often than usual ?</string>
-
-    <string name="A4113">A4113: Did she have sores or ulcers anywhere on the body ?</string>
-
-    <string name="A4114">A4114: Did the sores or ulcers have pus ?</string>
-
-    <string name="A4115">A4115: Did s/he have an ulcer (pit) on the foot ?</string>
-
-    <string name="A4116">A4116: Did the ulcer on the foot ooze pus ?</string>
-
-    <string name="A4117_u">A4117_Units: How long did the ulcer on the foot ooze pus ?</string>
-
-    <string name="A4118">A4118: During the illness that led to death, did (NAME) have any skin rash ?</string>
-
-    <string name="A4119">A4119: Where was the rash ?</string>
-
-    <string name="A4120">A4120: Where did the rash start ?</string>
-
-    <string name="A4121">A4121: How many days did the rash last ?</string>
-
-    <string name="A4122">A4122: Did s/he have a measles rash (use local term) ?</string>
-
-    <string name="A4123">A4123: Did s/he ever have shingles or herpes zoster ?</string>
-
-    <string name="A4124">A4124: Did s/he have noticeable weight loss? [hint: limbs (legs, arms) become very thin]</string>
-
-    <string name="A4125">A4125: Was s/he severely thin or wasted ?</string>
+    <string name="Q_a125">a125</string>
+    <string name="a125">Was s/he severely thin or wasted ?</string>
+    <string name="a125a">Yes</string>
+    <string name="a125b">No</string>
+    <string name="a12598">Don’t Know</string>
+    <string name="a12599">Refused to Answer</string>
 
     <string name="A4126">A4126: During the illness that led to death, did (NAME) have swollen legs or feet ?</string>
     <string name="A4127_u">A4127_Units: How long did the swelling last ?</string>

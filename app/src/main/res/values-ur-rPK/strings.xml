@@ -1076,29 +1076,130 @@
     <string name="a10898">معلوم نہیں</string>
     <string name="a10899">جواب دینے سے انکار کیا</string>
 
-    <string name="A4109">کیا اس کو پیشاب کی کوئی شکایت تھی؟	:	A4109</string>
-    <string name="A4110">مہلک بیماری کے دوران کیا (اس کو) کبھی پیشاب میں خون آیا تھا؟	:	A4110</string>
-    <string name="A4111">کیااس کا  پیشاب آنا  رک گیا تھا؟	:	A4111</string>
-    <string name="A4112">کیا (وہ) معمول سے کہیں زیادہ پیشاب کرنے کے لئے جاتی تھی یا جاتابتھا؟	:	A4112</string>
-    <string name="A4113">کیا  اس کے جسم میں کسی بھی جگہ زخم تھے.  یاناسور (السر) تھے؟	:	A4113</string>
-    <string name="A4114">کیا زخم میں پیپ یا گندا مواد تھا؟	:	A4114</string>
-    <string name="A4115">کیا اسکے پاؤں  میں کھلا زخم یا السر تھا؟(پاؤں  پر چھوٹے چھوٹے سوراخ)	:	A4115</string>
-    <string name="A4116">کیا پاؤں  کے زخم یا السر سے پیپ  رستی تھی؟	:	A4116</string>
-    <string name="A4117_u">کتنے عرصے  تک پاؤں سے  پیپ رستی رہی تھی؟	:	A4117_u</string>
-    <string name="A4117_a">دن</string>
-    <string name="A4117_b">مپہنے</string>
-    <string name="A4118">بیماری کے دوران جو انتقال کا سبب بننی، کیا (نام) کے جسم پر سرخی مائل دھبے تھے ؟	:	A4118</string>
-    <string name="A4119">جسم کے کس حصہ میں سرخ دھبے تھے؟	:	A4119</string>
-    <string name="A4120">سرخ دھبے کہاں سے  شروع ہوئے تھے؟	:	A4120</string>
-    <string name="A4121">کتنے دنوں تک دھبے رہے؟	:	A4121</string>
-    <string name="A4122">کیا اسے خسرہ کے دھبے تھے؟ (مقامی لفظ استعمال کریں)	:	A4122</string>
-    <string name="A4123">کیا اس کو شنگلز    یا ہر پیز زوسٹر وا ئرس کی وجہ سے  جلدی  کی سوزش ہوئی  تھی ؟	:	A4123 </string>
-    <string name="A4124">کیا  اس کے وزن میں نمایا ںکمی ہوئی  تھی ؟       اشارہ :  ہاتھ پاﺅں کا دبلا پتلا ہونا یا سکڑ جانا]	:	A4124 </string>
-    <string name="A4125">کیا  اس کو سوکھے کی بیماری تھی یا وہ کمزور اور لاغرپن کا شکار تھی/تھا؟	:	A4125 </string>
+    <string name="Q_a109">a109</string>
+    <string name="a109">کیا اس کو پیشاب کی کوئی شکایت تھی ؟</string>
+    <string name="a109a">ہاں</string>
+    <string name="a109b">نہیں</string>
+    <string name="a10998">معلوم نہیں</string>
+    <string name="a10999">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a110">a110</string>
+    <string name="a110">مہلک بیماری کے دوران کیا (اس کو) کبھی پیشاب میں خون آیا تھا ؟</string>
+    <string name="a110a">ہاں</string>
+    <string name="a110b">نہیں</string>
+    <string name="a11098">معلوم نہیں</string>
+    <string name="a11099">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a111">a111</string>
+    <string name="a111">کیا اس کا پیشاب آنا رک گیا تھا ؟</string>
+    <string name="a111a">ہاں</string>
+    <string name="a111b">نہیں</string>
+    <string name="a11198">معلوم نہیں</string>
+    <string name="a11199">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a112">a112</string>
+    <string name="a112">کیا (وہ) معمول سے کہیں زیادہ پیشاب کرنے کے لئے جاتی تھی یا جاتا تھا ؟</string>
+    <string name="a112a">ہاں</string>
+    <string name="a112b">نہیں</string>
+    <string name="a11298">معلوم نہیں</string>
+    <string name="a11299">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a113">a113</string>
+    <string name="a113">کیا اس کے جسم میں کسی بھی جگہ زخم تھے. یا ناسور (السر) تھےا ؟</string>
+    <string name="a113a">ہاں</string>
+    <string name="a113b">نہیں</string>
+    <string name="a11398">معلوم نہیں</string>
+    <string name="a11399">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a114">a114</string>
+    <string name="a114">کیا زخم میں پیپ یا گندا مواد تھا ؟</string>
+    <string name="a114a">ہاں</string>
+    <string name="a114b">نہیں</string>
+    <string name="a11498">معلوم نہیں</string>
+    <string name="a11499">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a115">a115</string>
+    <string name="a115">کیا اس کے پاؤں میں کھلا زخم یا السر تھا ؟</string>
+    <string name="a115info">پاؤں پر چھوٹے چھوٹے سوراخ</string>
+    <string name="a115a">ہاں</string>
+    <string name="a115b">نہیں</string>
+    <string name="a11598">معلوم نہیں</string>
+    <string name="a11599">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a116">a116</string>
+    <string name="a116">کیا پاؤں کے زخم یا السر سے پیپ رستی تھی ؟</string>
+    <string name="a116a">ہاں</string>
+    <string name="a116b">نہیں</string>
+    <string name="a11698">معلوم نہیں</string>
+    <string name="a11699">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a117">a117</string>
+    <string name="a117">کتنے عرصے تک پاؤں سے پیپ رستی رہی تھی ؟</string>
+    <string name="a117d">دن</string>
+    <string name="a117m">مہینے</string>
+    <string name="a11798">معلوم نہیں</string>
+    <string name="a11799">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a118">a118</string>
+    <string name="a118">بیماری کے دوران جو انتقال کا سبب بننی، کیا (نام) کے جسم پر سرخی مائل دھبے تھے ؟</string>
+    <string name="a118a">ہاں</string>
+    <string name="a118b">نہیں</string>
+    <string name="a11898">معلوم نہیں</string>
+    <string name="a11899">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a119">a119</string>
+    <string name="a119">جسم کے کس حصہ میں سرخ دھبے تھے ؟</string>
+    <string name="a119a">منہ پر</string>
+    <string name="a119b">پیٹ اور دھڑ پر</string>
+    <string name="a119c">ہاتھ اور پیروں پر</string>
+    <string name="a119d">جسم پر ہر جگہ</string>
+    <string name="a11998">معلوم نہیں</string>
+    <string name="a11999">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a120">a120</string>
+    <string name="a120">سرخ دھبے کہاں سے شروع ہوئے تھے ؟</string>
+    <string name="a120a">منہ پر</string>
+    <string name="a120b">پیٹ اور دھڑ پر</string>
+    <string name="a120c">ہاتھ اور پیروں پر</string>
+    <string name="a120d">جسم پر ہر جگہ</string>
+    <string name="a12098">معلوم نہیں</string>
+    <string name="a12099">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a121">a121</string>
+    <string name="a121">کتنے دنوں تک دھبے رہے ؟</string>
+    <string name="a121a">دن(وں)</string>
+
+    <string name="Q_a122">a122</string>
+    <string name="a122">کیا اسے خسرہ کے دھبے تھے ؟ (مقامی لفظ استعمال کریں)</string>
+    <string name="a122a">ہاں</string>
+    <string name="a122b">نہیں</string>
+    <string name="a12298">معلوم نہیں</string>
+    <string name="a12299">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a123">a123</string>
+    <string name="a123">کیا اس کو شنگلز یا ہرپیز زوسٹر وائرس کی وجہ سے جلدی کی سوزش ہوئی تھی ؟</string>
+    <string name="a123a">ہاں</string>
+    <string name="a123b">نہیں</string>
+    <string name="a12398">معلوم نہیں</string>
+    <string name="a12399">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a124">a124</string>
+    <string name="a124">کیا اس کے وزن میں نمایاں کمی ہوئی تھی ؟</string>
+    <string name="a124info">اشارہ: ہاتھ پاﺅں کا دبلا پتلا ہونا یا سکڑ جانا</string>
+    <string name="a124a">ہاں</string>
+    <string name="a124b">نہیں</string>
+    <string name="a12498">معلوم نہیں</string>
+    <string name="a12499">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a125">a125</string>
+    <string name="a125">کیا اس کو سوکھے کی بیماری تھی یا وہ کمزور اور لاغرپن کا شکار تھی / تھا ؟</string>
+    <string name="a125a">ہاں</string>
+    <string name="a125b">نہیں</string>
+    <string name="a12598">معلوم نہیں</string>
+    <string name="a12599">جواب دینے سے انکار کیا</string>
+
     <string name="A4126">بیماری کے دوران جو وفات کا سبب بنی ،  کیا(نام) کے ہاتھ اور پیروں پر  سوجن تھی؟	:	A4126</string>
     <string name="A4127_u">سوجن کتنے عرصے تک تھی؟	:	A4127_u</string>
-    <string name="A4127_a">دن</string>
-    <string name="A4127_b">مپہنے</string>
     <string name="A4128">کیا (اس کے) دونوں پاؤں سوجے ہو ئے تھے؟	:	A4128</string>
     <string name="A4129">کیا   اس کے  منہ پہ سوجن تھی؟	:	A4129</string>
     <string name="A4130_u">کتنے عرصہ  تک   اس کے منہ پہ سوجن رہی تھی؟	:	A4130_u</string>
@@ -1413,90 +1514,6 @@
     <string name="A4472">کیا اوپر دے گے وضاحتی بیانیے  میں   مندرجہ زیل میں سے کوئی بھی  الفاظ جو ہماری دلچسپی کے ہوں   بیان  ہوئے ہیں ؟	:	A4472</string>
     <string name="A4473">انٹرویور: انٹرویو کو بارے میں اپنا تبصرہ اور مشاہدہ لکھیں:	A4473</string>
     <string name="kilograms_kg">کلوگرام کے لیے Kg درج کریں اور نہیں جانتے کے لیے 999 درج کریں۔</string>
-
-    <string name="rb_A4109_1">ہاں</string>
-    <string name="rb_A4109_2">نہیں</string>
-    <string name="rb_A4109_DK">معلوم نہیں</string>
-    <string name="rb_A4109_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4110_1">ہاں</string>
-    <string name="rb_A4110_2">نہیں</string>
-    <string name="rb_A4110_DK">معلوم نہیں</string>
-    <string name="rb_A4110_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4111_1">ہاں</string>
-    <string name="rb_A4111_2">نہیں</string>
-    <string name="rb_A4111_DK">معلوم نہیں</string>
-    <string name="rb_A4111_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4112_1">ہاں</string>
-    <string name="rb_A4112_2">نہیں</string>
-    <string name="rb_A4112_DK">معلوم نہیں</string>
-    <string name="rb_A4112_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4113_1">ہاں</string>
-    <string name="rb_A4113_2">نہیں</string>
-    <string name="rb_A4113_DK">معلوم نہیں</string>
-    <string name="rb_A4113_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4114_1">ہاں</string>
-    <string name="rb_A4114_2">نہیں</string>
-    <string name="rb_A4114_DK">معلوم نہیں</string>
-    <string name="rb_A4114_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4115_1">ہاں</string>
-    <string name="rb_A4115_2">نہیں</string>
-    <string name="rb_A4115_DK">معلوم نہیں</string>
-    <string name="rb_A4115_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4116_1">ہاں</string>
-    <string name="rb_A4116_2">نہیں</string>
-    <string name="rb_A4116_DK">معلوم نہیں</string>
-    <string name="rb_A4116_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4117_u_1">دن</string>
-    <string name="rb_A4117_u_2">مہینے</string>
-    <string name="rb_A4117_u_DK">معلوم نہیں</string>
-    <string name="rb_A4117_u_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4118_1">ہاں</string>
-    <string name="rb_A4118_2">نہیں</string>
-    <string name="rb_A4118_DK">معلوم نہیں</string>
-    <string name="rb_A4118_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4119_1">منہ پر</string>
-    <string name="rb_A4119_2">پیٹ  اور  دھڑ  پر </string>
-    <string name="rb_A4119_3">ہاتھ اور پیروں پر </string>
-    <string name="rb_A4119_4">جسم پر ہر جگہ</string>
-    <string name="rb_A4119_DK">معلوم نہیں</string>
-    <string name="rb_A4119_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4120_1">منہ پر</string>
-    <string name="rb_A4120_2">پیٹ  اور  دھڑ  پر </string>
-    <string name="rb_A4120_3">ہاتھ اور پیروں پر </string>
-    <string name="rb_A4120_4">جسم پر ہر جگہ</string>
-    <string name="rb_A4120_DK">معلوم نہیں</string>
-    <string name="rb_A4120_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4122_1">ہاں</string>
-    <string name="rb_A4122_2">نہیں</string>
-    <string name="rb_A4122_DK">معلوم نہیں</string>
-    <string name="rb_A4122_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4123_1">ہاں</string>
-    <string name="rb_A4123_2">نہیں</string>
-    <string name="rb_A4123_DK">معلوم نہیں</string>
-    <string name="rb_A4123_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4124_1">ہاں</string>
-    <string name="rb_A4124_2">نہیں</string>
-    <string name="rb_A4124_DK">معلوم نہیں</string>
-    <string name="rb_A4124_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4125_1">ہاں</string>
-    <string name="rb_A4125_2">نہیں</string>
-    <string name="rb_A4125_DK">معلوم نہیں</string>
-    <string name="rb_A4125_RA">جواب دینے سے انکار کیا</string>
 
     <string name="rb_A4126_1">ہاں</string>
     <string name="rb_A4126_2">نہیں</string>
