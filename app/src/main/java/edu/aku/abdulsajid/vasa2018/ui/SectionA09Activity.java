@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.validatorcrawler.aliazaz.Clear;
 import com.validatorcrawler.aliazaz.Validator;
 
 import edu.aku.abdulsajid.vasa2018.Other.globale;
@@ -129,41 +130,6 @@ public class SectionA09Activity extends AppCompatActivity {
 
     @Override
     public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-
-
-        //A4159
-        if (compoundButton.getId() == R.id.rb_A4159_1
-                || compoundButton.getId() == R.id.rb_A4159_2
-                || compoundButton.getId() == R.id.rb_A4159_DK
-                || compoundButton.getId() == R.id.rb_A4159_RA) {
-
-            if (rb_A4159_1.isChecked()) {
-                ll_A4160.setVisibility(View.VISIBLE);
-                ll_A4161.setVisibility(View.VISIBLE);
-                ll_A4161_1.setVisibility(View.VISIBLE);
-                ll_A4162.setVisibility(View.VISIBLE);
-                ll_A4163_1.setVisibility(View.VISIBLE);
-                ll_A4163.setVisibility(View.VISIBLE);
-                ll_A4164.setVisibility(View.VISIBLE);
-
-            } else {
-                ClearAllcontrol.ClearAll(ll_A4160);
-                ClearAllcontrol.ClearAll(ll_A4161);
-                ClearAllcontrol.ClearAll(ll_A4161_1);
-                ClearAllcontrol.ClearAll(ll_A4162);
-                ClearAllcontrol.ClearAll(ll_A4163_1);
-                ClearAllcontrol.ClearAll(ll_A4163);
-                ClearAllcontrol.ClearAll(ll_A4164);
-
-                ll_A4160.setVisibility(View.GONE);
-                ll_A4161.setVisibility(View.GONE);
-                ll_A4161_1.setVisibility(View.GONE);
-                ll_A4162.setVisibility(View.GONE);
-                ll_A4163_1.setVisibility(View.GONE);
-                ll_A4163.setVisibility(View.GONE);
-                ll_A4164.setVisibility(View.GONE);
-            }
-        }
 
 
         //A4160
@@ -860,6 +826,32 @@ public class SectionA09Activity extends AppCompatActivity {
     }
 
     private void events_calls() {
+
+        bi.a159.setOnCheckedChangeListener((radioGroup, i) -> {
+            Clear.clearAllFields(bi.cvA160);
+            Clear.clearAllFields(bi.cvA161a);
+            Clear.clearAllFields(bi.cvA161b);
+            Clear.clearAllFields(bi.cvA162);
+            Clear.clearAllFields(bi.cvA163a);
+            Clear.clearAllFields(bi.cvA163b);
+            Clear.clearAllFields(bi.cvA164);
+            bi.cvA160.setVisibility(View.GONE);
+            bi.cvA161a.setVisibility(View.GONE);
+            bi.cvA161b.setVisibility(View.GONE);
+            bi.cvA162.setVisibility(View.GONE);
+            bi.cvA163a.setVisibility(View.GONE);
+            bi.cvA163b.setVisibility(View.GONE);
+            bi.cvA164.setVisibility(View.GONE);
+            if (i == bi.a159a.getId()) {
+                bi.cvA160.setVisibility(View.VISIBLE);
+                bi.cvA161a.setVisibility(View.VISIBLE);
+                bi.cvA161b.setVisibility(View.VISIBLE);
+                bi.cvA162.setVisibility(View.VISIBLE);
+                bi.cvA163a.setVisibility(View.VISIBLE);
+                bi.cvA163b.setVisibility(View.VISIBLE);
+                bi.cvA164.setVisibility(View.VISIBLE);
+            }
+        });
 
         bi.a178a.addTextChangedListener(generalTextWatcher);
         bi.a178a.setFilters(new InputFilter[]{new InputFilterMinMax(1, 10, 99, 99)});
