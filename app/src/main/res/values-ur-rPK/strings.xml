@@ -1400,55 +1400,355 @@
     <string name="a15798">معلوم نہیں</string>
     <string name="a15799">جواب دینے سے انکار کیا</string>
 
-    <string name="A4158">کیا اس کی چھاتی میں کوئی  کھلا زخم یا السر تھا؟	:	A4158</string>
-    <string name="A4159">کیا اس کو کبھی ماہواری آئی تھی؟	:	A4159</string>
-    <string name="A4160">کیا دو ماہواری کے بیچ میں اسکو خون آیا تھا ؟	:	A4160</string>
-    <string name="A4161">کیا بہت زیادہ خون آیا تھا؟	:	A4161</string>
-    <string name="A4161_1">کیا بہت زیادہ خون مرنے سے ایک ہفتہ پہلے  آیا تھا؟	:	A4161_1</string>
-    <string name="A4162">کیا سن یاس کی وجہ سے یا بچہ دانی نکالنے کی وجہ سے ما  ہواری قدرتی طور پر رک گئی تھی؟	:	A4162</string>
-    <string name="A4163_1">کیاحیض (ماہواری) بند ہو جانے کے بعد اندام نہانی سے  خون آیا تھا ؟	:	A4163_1</string>
-    <string name="A4163">کیا انتقال کے وقت اس کے دن(پیریڈ) اوپر چڑھ گئے تھے؟ 	:	A4163</string>
-    <string name="A4164">اس کے پیریڈ کتنے ہفتے اوپر چڑھ     گئے تھے؟ 	:	A4164</string>
-    <string name="A4166">کیاوفات سے تھوڑی دیر  پہلے پیٹ کے نیچے بہت تیز درد اٹھا تھا؟	:	A4166</string>
-    <string name="A4167">کیا انتقال کے وقت وہ حاملہ تھی اور ابھی  دردہ زہ یا زچگی شروع نہیں ہوئی تھی؟	:	A4167</string>
-    <string name="A4168_1">کیا  اس کا  انتقال  زچگی،  اسقاط حمل یا حمل گرنے کے دوران ہوگیا تھا؟	:	A4168_1</string>
-    <string name="A4168_3">کیا  اس کا  انتقال  زچگی،  اسقاط حمل یا حمل گرنے کے چوبیس گھنٹوں  کے اندر ہوگیا تھا؟	:	A4168_3</string>
-    <string name="A4168">کیا  اس کا  انتقال  زچگی،  اسقاط حمل یا حمل گرنے کے چھ ہفتوں کے اندر ہوگیا تھا؟	:	A4168</string>
-    <string name="A4173_1">کیا زندہ بچہ کی پیدائش ہوئی تھی؟    (مرنے کے6 ہفتوں کے دوران)	:	A4173_1</string>
-    <string name="A4173">کیا وہ اسقاط حمل یا بچہ کی پیدائش کے  بعد ایک سال کے اندر  انتقال کر گئی تھی ؟	:	A4173</string>
-    <string name="A4173_2">کیا اس کے یہاں زندہ بچہ کی پیدائش ہوئی تھی؟    (اس کے انتقال کے ایک سال کے اندر)	:	A4173_2</string>
-    <string name="A4178_1">وہ کتنے مہینے کے حمل سے تھی؟	:	A4178_1</string>
-    <string name="A4178_2">براہ مہر بانی تصدیق کریں : جب12مہینوں کے اندر اس کا انتقال ہوا تو  وہ حاملہ نہیں تھی اور نہ ہی ، اس کو   اسقاط حمل یا بچہ کی پیدائش ہوئی    تھی ؟ کیا یہ صحیح ہے؟	:	A4178_2</string>
-    <string name="A4178">کیا وہ   زچگی  کے دوران   یا  بچہ کی پیدائش کے بعد انتقال کرگئی تھی؟	:	A4178</string>
-    <string name="A4179">کیا  اس  نے  وفات سے پہلے بچہ  کو  اپنا    دودھ پلایا تھا؟	:	A4179</string>
-    <string name="A4180">اس بچہ کی پیدائش سے پہلے ، کتنے بچوں کی پیدائش ہوئی ، مردہ بچے ملا کر ؟	:	A4180</string>
-    <string name="A4181">کیا اس سے پہلے اسکی بڑے آپریشن سے زچگی ہوئی تھی؟	:	A4181</string>
-    <string name="A4182">دورانِ حمل ، کیا اسکا بلڈ پریشر بڑھا  (  بلند فشار خون )    ہوا تھا؟	:	A4182</string>
-    <string name="A4183">کیا دوران حمل یا زچگی کے بعد کیا ااس کی بچہ دانی سے بدبودار مواد خارج ہوا  تھا؟	:	A4183</string>
-    <string name="A4184">حمل کے آخری تین مہینوں کے دوران کیا  وہ جھٹکوں میں مبتلا ہوئی تھی؟	:	A4184</string>
-    <string name="A4185">حمل کے آخری تین مہینوں کے دوران کیا  وہ دھندلاپن میں مبتلا تھی؟	:	A4185</string>
-    <string name="A4186">کیا خون بہنا شروع ہواتھا جب وہ حاملہ تھی؟	:	A4186</string>
-    <string name="A4186_1">حمل کے چھ مہینوں کے دوران کیا بچہ دانی سے خون کا اخراج ہوا تھا ؟	:	A4186_1 </string>
-    <string name="A4187">حمل کے آخری تین مہینوں کے دوران  مگر لیبر   یا دردہ زہ شروع ہونے سے پہلے کیا ماں کو بچہ دانی سے خون بہنا  شروع ہوا تھا؟	:	A4187</string>
-    <string name="A4188">کیا  دوران زچگی  یا بچہ کی پیدائش کے وقت  اندام نہانی سے خون   زیادہ  خارج ہوا تھا؟	:	A4188</string>
-    <string name="A4189">کیا زچگی  کے بعد اس کو  بہت زیادہ  خون بہا  تھا؟	:	A4189</string>
-    <string name="A4190">کیا آنول مکمل طور پر باہر نکلی آئی تھی؟	:	A4190</string>
-    <string name="A4191">کیا پیدائش کے وقت  بچہ کی پوزیشن غیر معمولی تھی؟	:	A4191</string>
-    <string name="A4192">اس کی زچگی کا دورانیہ کتنے گھنٹوں کا تھا؟	:	A4192</string>
-    <string name="A4193">کیا اس نے حمل    ختم   یا   ضائع کرنے کی کوشش کی تھی؟	:	A4193</string>
-    <string name="A4193_1">اس نے (حمل ضائع کرنے کی کوشش) کیسے کی؟ 	:	A4193_1</string>
-    <string name="A4194">کیا  اس کی حالیہ حمل کا اسقاط ہو اتھا ؟( اچانک اسقاط حمل یا جان بوجھ کر اسقاط کرانا)	:	A4194</string>
-    <string name="A4195">کیا وہ اسقاط حمل کے دوران انتقال کر گئی تھی؟	:	A4195</string>
-    <string name="A4196">کیا وہ اسقاط حمل ہونے   کے چھ ہفتوں کے اندر انتقال  کر گئی   تھی ؟	:	A4196</string>
-    <string name="A4197">کیا وہ اسقاط حمل ہونے   کے چھ ہفتوں سے زیادہ    مگر ایک سال کے اندر انتقال  کر گئی   تھی ؟	:	A4197</string>
-    <string name="A4198_1">کیا  اس کا اسقاط حمل کے ( دوران یا بعد)  بہت زیادہ  خون بہا  تھا؟	:	A4198_1</string>
-    <string name="A4198">اس کی (زچگی، یا حمل کا ضائع یا اسقاط حمل) کہاں ہوا تھا ؟	:	A4198</string>
-    <string name="A4200">اس کی (زچگی، یا حمل کا ضائع یا اسقاط حمل) کس نے کروائی تھی؟	:	A4200</string>
-    <string name="A4202">کیا زچگی نارمل ہوئی تھی ، کسی بھی اوزار یا ویکیوم کو استعمال کئے بغیر ؟	:	A4202</string>
-    <string name="A4203">کیا زچگی کسی آوزار یا ویکیوم کے ذریعہ ہوئی تھی؟	:	A4203</string>
-    <string name="A4204">کیا زچگی بڑے آپریشن سے ہوئی تھی؟	:	A4204</string>
-    <string name="A4205">کیا بچہ ایک مہینے یا اس سے پہلے  پیدا  ہوا  تھا؟	:	A4205</string>
-    <string name="A4205_1">کیا انتقال  سے تھوڑی دیر پہلے   اس  کےرحم  یا بچہ دانی کو نکلوانے کے لیے آپریشن ہوا تھا؟	:	A4205_1 </string>
+    <string name="Q_a158">a158</string>
+    <string name="a158">کیا اس کی چھاتی میں کوئی کھلا زخم یا السر تھا ؟</string>
+    <string name="a158a">ہاں</string>
+    <string name="a158b">نہیں</string>
+    <string name="a15898">معلوم نہیں</string>
+    <string name="a15899">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a159">a159</string>
+    <string name="a159">کیا اس کو کبھی ماہواری آئی تھی ؟</string>
+    <string name="a159a">ہاں</string>
+    <string name="a159b">نہیں</string>
+    <string name="a15998">معلوم نہیں</string>
+    <string name="a15999">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a160">a160</string>
+    <string name="a160">کیا دو ماہواری کے بیچ میں اس کو خون آیا تھا ؟</string>
+    <string name="a160a">ہاں</string>
+    <string name="a160b">نہیں</string>
+    <string name="a16098">معلوم نہیں</string>
+    <string name="a16099">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a161a">a161a</string>
+    <string name="a161a">کیا بہت زیادہ خون آیا تھا ؟</string>
+    <string name="a161aa">ہاں</string>
+    <string name="a161ab">نہیں</string>
+    <string name="a161a98">معلوم نہیں</string>
+    <string name="a161a99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a161b">a161b</string>
+    <string name="a161b">کیا بہت زیادہ خون مرنے سے ایک ہفتہ پہلے آیا تھا ؟</string>
+    <string name="a161ba">ہاں</string>
+    <string name="a161bb">نہیں</string>
+    <string name="a161b98">معلوم نہیں</string>
+    <string name="a161b99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a162">a162</string>
+    <string name="a162">کیا سن یاس کی وجہ سے یا بچہ دانی نکالنے کی وجہ سے ما  ہواری قدرتی طور پر رک گئی تھی ؟</string>
+    <string name="a162info">اگر عورت کی عمر چالیس سال سے کم ہے تو یہ سوال نہ پوچھیں اور "نہیں" پر نشان لگادیں</string>
+    <string name="a162a">ہاں</string>
+    <string name="a162b">نہیں</string>
+    <string name="a16298">معلوم نہیں</string>
+    <string name="a16299">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a163a">a163a</string>
+    <string name="a163a">کیا حیض ( ماہواری ) بند ہو جانے کے بعد اندام نہانی سے خون آیا تھا ؟</string>
+    <string name="a163ainfo">اگر عورت کی عمر چالیس سال سے کم ہے تو یہ سوال نہ پوچھیں اور "نہیں" پر نشان لگادیں</string>
+    <string name="a163aa">ہاں</string>
+    <string name="a163ab">نہیں</string>
+    <string name="a163a98">معلوم نہیں</string>
+    <string name="a163a99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a163b">a163b</string>
+    <string name="a163b">کیا انتقال کے وقت اس کے دن ( پیریڈ ) اوپر چڑھ گئے تھے ؟</string>
+    <string name="a163ba">ہاں</string>
+    <string name="a163bb">نہیں</string>
+    <string name="a163b98">معلوم نہیں</string>
+    <string name="a163b99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a164">a164</string>
+    <string name="a164">اس کے پیریڈ کتنے ہفتے اوپر چڑھ گئے تھے ؟</string>
+    <string name="a164a">ہفتے</string>
+
+    <string name="Q_a166">a166</string>
+    <string name="a166">کیا وفات سے تھوڑی دیر پہلے پیٹ کے نیچے بہت تیز درد اٹھا تھا ؟</string>
+    <string name="a166a">ہاں</string>
+    <string name="a166b">نہیں</string>
+    <string name="a16698">معلوم نہیں</string>
+    <string name="a16699">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a167">a167</string>
+    <string name="a167">کیا انتقال کے وقت وہ حاملہ تھی اور ابھی دردہ زہ یا زچگی شروع نہیں ہوئی تھی ؟</string>
+    <string name="a167a">ہاں</string>
+    <string name="a167b">نہیں</string>
+    <string name="a16798">معلوم نہیں</string>
+    <string name="a16799">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a168a">a168a</string>
+    <string name="a168a">کیا اس کا انتقال زچگی، اسقاط حمل یا حمل گرنے کے دوران ہوگیا تھا ؟</string>
+    <string name="a168aa">ہاں</string>
+    <string name="a168ab">نہیں</string>
+    <string name="a168a98">معلوم نہیں</string>
+    <string name="a168a99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a168b">a168b</string>
+    <string name="a168b">کیا اس کا انتقال زچگی، اسقاط حمل یا حمل گرنے کے چوبیس گھنٹوں کے اندر ہوگیا تھا ؟</string>
+    <string name="a168ba">ہاں</string>
+    <string name="a168bb">نہیں</string>
+    <string name="a168b98">معلوم نہیں</string>
+    <string name="a168b99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a168c">a168c</string>
+    <string name="a168c">کیا اس کا انتقال زچگی، اسقاط حمل یا حمل گرنے کے چھ ہفتوں کے اندر ہوگیا تھا ؟</string>
+    <string name="a168ca">ہاں</string>
+    <string name="a168cb">نہیں</string>
+    <string name="a168c98">معلوم نہیں</string>
+    <string name="a168c99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a173a">a173a</string>
+    <string name="a173a">کیا زندہ بچہ کی پیدائش ہوئی تھی ؟ مرنے کے 6 ہفتوں کے دوران</string>
+    <string name="a173aa">ہاں</string>
+    <string name="a173ab">نہیں</string>
+    <string name="a173a98">معلوم نہیں</string>
+    <string name="a173a99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a173b">a173b</string>
+    <string name="a173b">کیا وہ اسقاط حمل یا بچہ کی پیدائش کے بعد ایک سال کے اندر انتقال کر گئی تھی ؟</string>
+    <string name="a173ba">ہاں</string>
+    <string name="a173bb">نہیں</string>
+    <string name="a173b98">معلوم نہیں</string>
+    <string name="a173b99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a173c">a173c</string>
+    <string name="a173c">کیا اس کے یہاں زندہ بچہ کی پیدائش ہوئی تھی ؟ اس کے انتقال کے ایک سال کے اندر</string>
+    <string name="a173ca">ہاں</string>
+    <string name="a173cb">نہیں</string>
+    <string name="a173c98">معلوم نہیں</string>
+    <string name="a173c99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a178a">a178a</string>
+    <string name="a178a">وہ کتنے مہینے کے حمل سے تھی</string>
+    <string name="a178aa">مہینے</string>
+
+    <string name="Q_a178b">a178b</string>
+    <string name="a178b">براہ مہربانی تصدیق کریں: جب 12 مہینوں کے اندر اس کا انتقال ہوا تو وہ حاملہ نہیں تھی اور نہ ہی، اس کو اسقاط حمل یا بچہ کی پیدائش ہوئی تھی، کیا یہ صحیح ہے ؟</string>
+    <string name="a178binfo">یہ سوال اس بات کو یقینی بنانا ہے کہ کوئی میٹرنل ڈیتھ رہ تو نہیں گئی</string>
+    <string name="a178ba">ہاں وہ حمل سے نہیں تھی؛ اور اس کی حال ہی میں زچگی، اسقاط حمل، یا بچہ ضائع نہیں ہوا تھا۔</string>
+    <string name="a178bb">نہیں وہ حمل سے تھی؛ اور اس کی حال ہی میں زچگی، اسقاط حمل، یا بچہ ضائع ہوا تھا۔</string>
+    <string name="a178b98">معلوم نہیں</string>
+    <string name="a178b99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a178c">a178c</string>
+    <string name="a178c">کیا وہ زچگی کے دوران یا بچہ کی پیدائش کے بعد انتقال کر گئی تھی ؟</string>
+    <string name="a178ca">ہاں</string>
+    <string name="a178cb">نہیں</string>
+    <string name="a178c98">معلوم نہیں</string>
+    <string name="a178c99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a179">a179</string>
+    <string name="a179">کیا اس نے وفات سے پہلے بچہ کو اپنا دودھ پلایا تھا ؟</string>
+    <string name="a179a">ہاں</string>
+    <string name="a179b">نہیں</string>
+    <string name="a17998">معلوم نہیں</string>
+    <string name="a17999">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a180">a180</string>
+    <string name="a180">اس بچہ کی پیدائش سے پہلے، کتنے بچوں کی پیدائش ہوئی، مردہ بچے ملا کر ؟</string>
+    <string name="a180a">کتنے بچوں کی پیدائش</string>
+
+    <string name="Q_a181">a181</string>
+    <string name="a181">کیا اس سے پہلے اس کی بڑے آپریشن سے زچگی ہوئی تھی ؟</string>
+    <string name="a181a">ہاں</string>
+    <string name="a181b">نہیں</string>
+    <string name="a18198">معلوم نہیں</string>
+    <string name="a18199">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a182">a182</string>
+    <string name="a182">دورانِ حمل، کیا اس کا بلڈ پریشر بڑھا ( بلند فشار خون ) ہوا تھا ؟</string>
+    <string name="a182a">ہاں</string>
+    <string name="a182b">نہیں</string>
+    <string name="a18298">معلوم نہیں</string>
+    <string name="a18299">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a183">a183</string>
+    <string name="a183">کیا دوران حمل یا زچگی کے بعد کیا اس کی بچہ دانی سے بدبودار مواد خارج ہوا تھا ؟</string>
+    <string name="a183a">ہاں</string>
+    <string name="a183b">نہیں</string>
+    <string name="a18398">معلوم نہیں</string>
+    <string name="a18399">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a184">a184</string>
+    <string name="a184">حمل کے آخری تین مہینوں کے دوران کیا وہ جھٹکوں میں مبتلا ہوئی تھی ؟</string>
+    <string name="a184a">ہاں</string>
+    <string name="a184b">نہیں</string>
+    <string name="a18498">معلوم نہیں</string>
+    <string name="a18499">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a185">a185</string>
+    <string name="a185">حمل کے آخری تین مہینوں کے دوران کیا وہ دھندلاپن میں مبتلا تھی ؟</string>
+    <string name="a185a">ہاں</string>
+    <string name="a185b">نہیں</string>
+    <string name="a18598">معلوم نہیں</string>
+    <string name="a18599">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a186a">a186a</string>
+    <string name="a186a">کیا خون بہنا شروع ہوا تھا جب وہ حاملہ تھی ؟</string>
+    <string name="a186aa">ہاں</string>
+    <string name="a186ab">نہیں</string>
+    <string name="a186a98">معلوم نہیں</string>
+    <string name="a186a99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a186b">a186b</string>
+    <string name="a186b">حمل کے چھ مہینوں کے دوران کیا بچہ دانی سے خون کا اخراج ہوا تھا ؟</string>
+    <string name="a186ba">ہاں</string>
+    <string name="a186bb">نہیں</string>
+    <string name="a186b98">معلوم نہیں</string>
+    <string name="a186b99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a187">a187</string>
+    <string name="a187">حمل کے آخری تین مہینوں کے دوران مگر لیبر یا دردہ زہ شروع ہونے سے پہلے کیا ماں کو بچہ دانی سے خون بہنا شروع ہوا تھا ؟</string>
+    <string name="a187a">ہاں</string>
+    <string name="a187b">نہیں</string>
+    <string name="a18798">معلوم نہیں</string>
+    <string name="a18799">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a188">a188</string>
+    <string name="a188">کیا دوران زچگی یا بچہ کی پیدائش کے وقت اندام نہانی سے خون زیادہ خارج ہوا تھا ؟</string>
+    <string name="a188a">ہاں</string>
+    <string name="a188b">نہیں</string>
+    <string name="a18898">معلوم نہیں</string>
+    <string name="a18899">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a189">a189</string>
+    <string name="a189">کیا زچگی کے بعد اس کو بہت زیادہ خون بہا تھا ؟</string>
+    <string name="a189a">ہاں</string>
+    <string name="a189b">نہیں</string>
+    <string name="a18998">معلوم نہیں</string>
+    <string name="a18999">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a190">a190</string>
+    <string name="a190">کیا آنول مکمل طور پر باہر نکلی آئی تھی ؟</string>
+    <string name="a190a">ہاں</string>
+    <string name="a190b">نہیں</string>
+    <string name="a19098">معلوم نہیں</string>
+    <string name="a19099">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a191">a191</string>
+    <string name="a191">کیا پیدائش کے وقت بچہ کی پوزیشن غیر معمولی تھی ؟</string>
+    <string name="a191info">جواب دہندہ سے اس کی رائے معلوم کریں کہ وہ "بچہ کی غیر معمولی پوزیشن" کو کیا سمجھتی ہے؛ اگر اس کو واضع نہیں ہے یا غلط بتاتی ہے تو وضاحت کریں کہ اس کا مطلب ہے کہ اگر اندام نہانی سے بچہ کا سر پہلے باہر نہ آئے۔</string>
+    <string name="a191a">ہاں</string>
+    <string name="a191b">نہیں</string>
+    <string name="a19198">معلوم نہیں</string>
+    <string name="a19199">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a192">a192</string>
+    <string name="a192">اس کی زچگی کا دورانیہ کتنے گھنٹوں کا تھا ؟</string>
+    <string name="a192info">اگر 60 منٹس سے کم = 0 گھنٹے</string>
+    <string name="a192a">گھنٹوں</string>
+
+    <string name="Q_a193a">a193a</string>
+    <string name="a193a">کیا اس نے حمل ختم یا ضائع کرنے کی کوشش کی تھی ؟</string>
+    <string name="a193aa">ہاں</string>
+    <string name="a193ab">نہیں</string>
+    <string name="a193a98">معلوم نہیں</string>
+    <string name="a193a99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a193b">a193b</string>
+    <string name="a193b">اس نے حمل ضائع کرنے کی کوشش کیسے کی ؟</string>
+    <string name="a193ba">مانع حمل گولیاں</string>
+    <string name="a193bb">اندام نہانی پر روایتی یا جڑی بوٹی کا استعمال</string>
+    <string name="a193bc">اندام نہانی میں رکھنے والی گولیاں</string>
+    <string name="a193bd">بچّہ دانی کے اندر رکھے جانے والے آلات</string>
+    <string name="a193b98">معلوم نہیں</string>
+    <string name="a193b99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a194">a194</string>
+    <string name="a194">کیا اس کی حالیہ حمل کا اسقاط ہو اتھا اچانک اسقاط حمل یا جان بوجھ کر اسقاط کرایا ؟</string>
+    <string name="a194a">ہاں</string>
+    <string name="a194b">نہیں</string>
+    <string name="a19498">معلوم نہیں</string>
+    <string name="a19499">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a195">a195</string>
+    <string name="a195">کیا وہ اسقاط حمل کے دوران انتقال کر گئی تھی ؟</string>
+    <string name="a195a">ہاں</string>
+    <string name="a195b">نہیں</string>
+    <string name="a19598">معلوم نہیں</string>
+    <string name="a19599">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a196">a196</string>
+    <string name="a196">کیا وہ اسقاط حمل ہونے کے چھ ہفتوں کے اندر انتقال کر گئی تھی ؟</string>
+    <string name="a196info">اچانک اسقاط حمل یا جان بوجھ کر اسقاط کرانا</string>
+    <string name="a196a">ہاں</string>
+    <string name="a196b">نہیں</string>
+    <string name="a19698">معلوم نہیں</string>
+    <string name="a19699">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a197">a197</string>
+    <string name="a197">کیا وہ اسقاط حمل ہونے کے چھ ہفتوں سے زیادہ مگر ایک سال کے اندر انتقال کر گئی تھی ؟</string>
+    <string name="a197info">اچانک اسقاط حمل یا جان بوجھ کر اسقاط کرانا</string>
+    <string name="a197a">ہاں</string>
+    <string name="a197b">نہیں</string>
+    <string name="a19798">معلوم نہیں</string>
+    <string name="a19799">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a198a">a198a</string>
+    <string name="a198a">کیا اس کا اسقاط حمل کے ( دوران یا بعد ) بہت زیادہ خون بہا تھا ؟</string>
+    <string name="a198aa">ہاں</string>
+    <string name="a198ab">نہیں</string>
+    <string name="a198a98">معلوم نہیں</string>
+    <string name="a198a99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a198b">a198b</string>
+    <string name="a198b">اس کی ( زچگی، یا حمل کا ضائع یا اسقاط حمل ) کہاں ہوا تھا ؟</string>
+    <string name="a198ba">ہسپتال</string>
+    <string name="a198bb">دیگر صحت کے ادارے</string>
+    <string name="a198bc">گھر</string>
+    <string name="a198bd">ہسپتال یا سہولت کے راستے پر</string>
+    <string name="a198b96">دیگر</string>
+    <string name="a198b98">معلوم نہیں</string>
+    <string name="a198b99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a200">a200</string>
+    <string name="a200">اس کی (زچگی، یا حمل کا ضائع یا اسقاط حمل) کس نے کروائی تھی ؟</string>
+    <string name="a200a">ڈاکٹر</string>
+    <string name="a200b">مڈوائف</string>
+    <string name="a200c">نرس</string>
+    <string name="a200d">رشتہ دار</string>
+    <string name="a200e">خود (ماں)</string>
+    <string name="a200f">روایتی پیدائش حاضری</string>
+    <string name="a20096">دیگر</string>
+    <string name="a20098">معلوم نہیں</string>
+    <string name="a20099">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a202">a202</string>
+    <string name="a202">کیا زچگی نارمل ہوئی تھی، کسی بھی اوزار یا ویکیوم کو استعمال کئے بغیر ؟</string>
+    <string name="a202a">ہاں</string>
+    <string name="a202b">نہیں</string>
+    <string name="a20298">معلوم نہیں</string>
+    <string name="a20299">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a203">a203</string>
+    <string name="a203">کیا زچگی کسی آوزار یا ویکیوم کے ذریعہ ہوئی تھی ؟</string>
+    <string name="a203a">ہاں</string>
+    <string name="a203b">نہیں</string>
+    <string name="a20398">معلوم نہیں</string>
+    <string name="a20399">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a204">a204</string>
+    <string name="a204">کیا زچگی بڑے آپریشن سے ہوئی تھی ؟</string>
+    <string name="a204a">ہاں</string>
+    <string name="a204b">نہیں</string>
+    <string name="a20498">معلوم نہیں</string>
+    <string name="a20499">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a205a">a205a</string>
+    <string name="a205a">کیا بچہ ایک مہینے یا اس سے پہلے پیدا ہوا  تھا ؟</string>
+    <string name="a205ainfo">جیسے آٹھویں مہینے یا اس سے پہل</string>
+    <string name="a205aa">ہاں</string>
+    <string name="a205ab">نہیں</string>
+    <string name="a205a98">معلوم نہیں</string>
+    <string name="a205a99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a205b">a205b</string>
+    <string name="a205b">کیا انتقال سے تھوڑی دیر پہلے اس کے رحم یا بچہ دانی کو نکلوانے کے لیے آپریشن ہوا تھا ؟</string>
+    <string name="a205ba">ہاں</string>
+    <string name="a205bb">نہیں</string>
+    <string name="a205b98">معلوم نہیں</string>
+    <string name="a205b99">جواب دینے سے انکار کیا</string>
+
     <string name="A4206">کیا (نام) کو کوئی حادثہ یا چوٹ لگی تھی جو اس کی موت کی وجہ بننی ؟	:	A4206</string>
     <string name="A4206_1">کیا یہ روڈ ٹریفک کا حادثہ تھا  ؟	:	A4206_1</string>
     <string name="A4206_2">اس روڈ ٹریفک  حادثہ میں اس کا کیا  کردار تھا؟	:	A4206_2</string>
@@ -1682,241 +1982,6 @@
     <string name="A4472">کیا اوپر دے گے وضاحتی بیانیے  میں   مندرجہ زیل میں سے کوئی بھی  الفاظ جو ہماری دلچسپی کے ہوں   بیان  ہوئے ہیں ؟	:	A4472</string>
     <string name="A4473">انٹرویور: انٹرویو کو بارے میں اپنا تبصرہ اور مشاہدہ لکھیں:	A4473</string>
     <string name="kilograms_kg">کلوگرام کے لیے Kg درج کریں اور نہیں جانتے کے لیے 999 درج کریں۔</string>
-
-    <string name="rb_A4158_1">ہاں</string>
-    <string name="rb_A4158_2">نہیں</string>
-    <string name="rb_A4158_DK">معلوم نہیں</string>
-    <string name="rb_A4158_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4159_1">ہاں</string>
-    <string name="rb_A4159_2">نہیں</string>
-    <string name="rb_A4159_DK">معلوم نہیں</string>
-    <string name="rb_A4159_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4160_1">ہاں</string>
-    <string name="rb_A4160_2">نہیں</string>
-    <string name="rb_A4160_DK">معلوم نہیں</string>
-    <string name="rb_A4160_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4161_1">ہاں</string>
-    <string name="rb_A4161_2">نہیں</string>
-    <string name="rb_A4161_DK">معلوم نہیں</string>
-    <string name="rb_A4161_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4161_1_1">ہاں</string>
-    <string name="rb_A4161_1_2">نہیں</string>
-    <string name="rb_A4161_1_DK">معلوم نہیں</string>
-    <string name="rb_A4161_1_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4162_1">ہاں</string>
-    <string name="rb_A4162_2">نہیں</string>
-    <string name="rb_A4162_DK">معلوم نہیں</string>
-    <string name="rb_A4162_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4163_1_1">ہاں</string>
-    <string name="rb_A4163_1_2">نہیں</string>
-    <string name="rb_A4163_1_DK">معلوم نہیں</string>
-    <string name="rb_A4163_1_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4163_1">ہاں</string>
-    <string name="rb_A4163_2">نہیں</string>
-    <string name="rb_A4163_DK">معلوم نہیں</string>
-    <string name="rb_A4163_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4166_1">ہاں</string>
-    <string name="rb_A4166_2">نہیں</string>
-    <string name="rb_A4166_3_DK">معلوم نہیں</string>
-    <string name="rb_A4166_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4167_1">ہاں</string>
-    <string name="rb_A4167_2">نہیں</string>
-    <string name="rb_A4167_DK">معلوم نہیں</string>
-    <string name="rb_A4167_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4168_1_1">ہاں</string>
-    <string name="rb_A4168_1_2">نہیں</string>
-    <string name="rb_A4168_1_DK">معلوم نہیں</string>
-    <string name="rb_A4168_1_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4168_3_1">ہاں</string>
-    <string name="rb_A4168_3_2">نہیں</string>
-    <string name="rb_A4168_3_DK">معلوم نہیں</string>
-    <string name="rb_A4168_3_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4168_1">ہاں</string>
-    <string name="rb_A4168_2">نہیں</string>
-    <string name="rb_A4168_DK">معلوم نہیں</string>
-    <string name="rb_A4168_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4173_1_1">ہاں</string>
-    <string name="rb_A4173_1_2">نہیں</string>
-    <string name="rb_A4173_1_DK">معلوم نہیں</string>
-    <string name="rb_A4173_1_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4173_1">ہاں</string>
-    <string name="rb_A4173_2">نہیں</string>
-    <string name="rb_A4173_DK">معلوم نہیں</string>
-    <string name="rb_A4173_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4173_2_1">ہاں</string>
-    <string name="rb_A4173_2_2">نہیں</string>
-    <string name="rb_A4173_2_DK">معلوم نہیں</string>
-    <string name="rb_A4173_2_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4178_2_1">ہاں   (وہ  حمل سے نہیں تھی؛ اور اسکی حال ہی میں زچگی، اسقاط حمل ، یا بچہ ضا ئع نہیں  ہو ا تھا۔</string>
-    <string name="rb_A4178_2_2">نہیں (وہ حمل سے تھی؛ اور اسکی حال ہی میں زچگی، اسقاط حمل ، یا بچہ ضا ئع ہو ا تھا۔</string>
-    <string name="rb_A4178_2_DK">معلوم نہیں</string>
-    <string name="rb_A4178_2_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4178_1">ہاں</string>
-    <string name="rb_A4178_2">نہیں</string>
-    <string name="rb_A4178_DK">معلوم نہیں</string>
-    <string name="rb_A4178_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4179_1">ہاں</string>
-    <string name="rb_A4179_2">نہیں</string>
-    <string name="rb_A4179_DK">معلوم نہیں</string>
-    <string name="rb_A4179_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4180_1">ہاں</string>
-    <string name="rb_A4180_2">نہیں</string>
-    <string name="rb_A4180_DK">معلوم نہیں</string>
-    <string name="rb_A4180_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4182_1">ہاں</string>
-    <string name="rb_A4182_2">نہیں</string>
-    <string name="rb_A4182_DK">معلوم نہیں</string>
-    <string name="rb_A4182_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4183_1">ہاں</string>
-    <string name="rb_A4183_2">نہیں</string>
-    <string name="rb_A4183_DK">معلوم نہیں</string>
-    <string name="rb_A4183_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4184_1">ہاں</string>
-    <string name="rb_A4184_2">نہیں</string>
-    <string name="rb_A4184_DK">معلوم نہیں</string>
-    <string name="rb_A4184_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4185_1">ہاں</string>
-    <string name="rb_A4185_2">نہیں</string>
-    <string name="rb_A4185_DK">معلوم نہیں</string>
-    <string name="rb_A4185_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4186_1">ہاں</string>
-    <string name="rb_A4186_2">نہیں</string>
-    <string name="rb_A4186_DK">معلوم نہیں</string>
-    <string name="rb_A4186_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4186_1_1">ہاں</string>
-    <string name="rb_A4186_1_2">نہیں</string>
-    <string name="rb_A4186_1_DK">معلوم نہیں</string>
-    <string name="rb_A4186_1_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4187_1">ہاں</string>
-    <string name="rb_A4187_2">نہیں</string>
-    <string name="rb_A4187_DK">معلوم نہیں</string>
-    <string name="rb_A4187_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4188_1">ہاں</string>
-    <string name="rb_A4188_2">نہیں</string>
-    <string name="rb_A4188_DK">معلوم نہیں</string>
-    <string name="rb_A4188_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4189_1">ہاں</string>
-    <string name="rb_A4189_2">نہیں</string>
-    <string name="rb_A4189_DK">معلوم نہیں</string>
-    <string name="rb_A4189_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4190_1">ہاں</string>
-    <string name="rb_A4190_2">نہیں</string>
-    <string name="rb_A4190_DK">معلوم نہیں</string>
-    <string name="rb_A4190_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4191_1">ہاں</string>
-    <string name="rb_A4191_2">نہیں</string>
-    <string name="rb_A4191_DK">معلوم نہیں</string>
-    <string name="rb_A4191_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4193_1">ہاں</string>
-    <string name="rb_A4193_2">نہیں</string>
-    <string name="rb_A4193_DK">معلوم نہیں</string>
-    <string name="rb_A4193_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4193_1_1">مانع حمل گولیاں</string>
-    <string name="rb_A4193_1_2">اندام نہانی  (vagina)پر روایتی یا جڑی بوٹی کا استعمال </string>
-    <string name="rb_A4193_1_3">اندام نہانی میں رکھنے والی گولیاں</string>
-    <string name="rb_A4193_1_4">بچّہ دانی کے اندر رکھے جانے والے آلات</string>
-    <string name="rb_A4193_1_DK">معلوم نہیں</string>
-    <string name="rb_A4193_1_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4194_1">ہاں</string>
-    <string name="rb_A4194_2">نہیں</string>
-    <string name="rb_A4194_DK">معلوم نہیں</string>
-    <string name="rb_A4194_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4195_1">ہاں</string>
-    <string name="rb_A4195_2">نہیں</string>
-    <string name="rb_A4195_DK">معلوم نہیں</string>
-    <string name="rb_A4195_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4196_1">ہاں</string>
-    <string name="rb_A4196_2">نہیں</string>
-    <string name="rb_A4196_DK">معلوم نہیں</string>
-    <string name="rb_A4196_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4197_1">ہاں</string>
-    <string name="rb_A4197_2">نہیں</string>
-    <string name="rb_A4197_DK">معلوم نہیں</string>
-    <string name="rb_A4197_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4198_1_1">ہاں</string>
-    <string name="rb_A4198_1_2">نہیں</string>
-    <string name="rb_A4198_1_DK">معلوم نہیں</string>
-    <string name="rb_A4198_1_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4198_1">ہسپتال</string>
-    <string name="rb_A4198_2">دیگر صحت کے ادارے</string>
-    <string name="rb_A4198_3">گھر</string>
-    <string name="rb_A4198_4">ہسپتال یا سہولت کے راستے پر </string>
-    <string name="rb_A4198_OT">دیگر </string>
-    <string name="rb_A4198_DK">معلوم نہیں</string>
-    <string name="rb_A4198_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4200_1">ڈاکٹر</string>
-    <string name="rb_A4200_2">مڈوائف</string>
-    <string name="rb_A4200_3">نرس</string>
-    <string name="rb_A4200_4">رشتہ دار</string>
-    <string name="rb_A4200_5">خود (ماں )</string>
-    <string name="rb_A4200_6">روایتی پیدائش حاضری</string>
-    <string name="rb_A4200_OT">دیگر </string>
-    <string name="rb_A4200_DK">معلوم نہیں</string>
-    <string name="rb_A4200_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4202_1">ہاں</string>
-    <string name="rb_A4202_2">نہیں</string>
-    <string name="rb_A4202_DK">معلوم نہیں</string>
-    <string name="rb_A4202_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4203_1">ہاں</string>
-    <string name="rb_A4203_2">نہیں</string>
-    <string name="rb_A4203_DK">معلوم نہیں</string>
-    <string name="rb_A4203_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4204_1">ہاں</string>
-    <string name="rb_A4204_2">نہیں</string>
-    <string name="rb_A4204_DK">معلوم نہیں</string>
-    <string name="rb_A4204_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4205_1">ہاں</string>
-    <string name="rb_A4205_2">نہیں</string>
-    <string name="rb_A4205_DK">معلوم نہیں</string>
-    <string name="rb_A4205_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4205_1_1">ہاں</string>
-    <string name="rb_A4205_1_2">نہیں</string>
-    <string name="rb_A4205_1_DK">معلوم نہیں</string>
-    <string name="rb_A4205_1_RA">جواب دینے سے انکار کیا</string>
 
     <string name="rb_A4206_1">ہاں</string>
     <string name="rb_A4206_2">نہیں</string>
@@ -2550,14 +2615,13 @@
     <string name="A4150_u_h">               مہینے ۔ 1-60 دن یا       0-30 اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛   ایک ہفتہ = 7 لکھیں</string>
     <string name="A4150_a_h">دن لکھیں۔ اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0 لکھیں؛ ایک ہفتہ = 7 لکھیں     0-30</string>
     <string name="A4150_b_h">مہینے         1-60</string>
-    <string name="A4162_h">اگر عورت کی عمر چالیس سال سے کم ہے تو یہ سوال نہ پوچھیں اور  "نہیں" پر نشان لگادیں</string>
     <string name="A4163_1_h">اگر عورت کی عمر چالیس سال سے کم ہے تو یہ سوال نہ پوچھیں اور  " نہیں" پر نشان لگادیں</string>
     <string name="A4178_2_h">یہ سوال اس بات کو یقینی بنانا ہے کہ کو ئی میٹرنل  ڈیتھ رہ تو نہیں گئی </string>
-    <string name="A4191_h">جواب دہندہ سے اس کی رائے معلوم کریں کہ وہ " بچہ کی غیر معمولی پوزیشن" کو کیا سمجھتی ہے ؛ اگر  اسکو واضع نہیں ہے یا غلط بتاتی ہے تو وضاحت کریں کہ اسکا مطلب ہے کہ اگر اندام نہانی سے   بچہ کا سر پہلے باہر نہ  آ ئے۔</string>
-    <string name="A4192_h">اگر 60منٹس سے کم = 0 گھنٹے </string>
-    <string name="A4196_h">(اچانک اسقاط حمل یا جان بوجھ کر اسقاط کرانا)</string>
+    <string name="a191info">جواب دہندہ سے اس کی رائے معلوم کریں کہ وہ " بچہ کی غیر معمولی پوزیشن" کو کیا سمجھتی ہے ؛ اگر  اسکو واضع نہیں ہے یا غلط بتاتی ہے تو وضاحت کریں کہ اسکا مطلب ہے کہ اگر اندام نہانی سے   بچہ کا سر پہلے باہر نہ  آ ئے۔</string>
+    <string name="a192info">اگر 60منٹس سے کم = 0 گھنٹے </string>
+    <string name="a196info">(اچانک اسقاط حمل یا جان بوجھ کر اسقاط کرانا)</string>
     <string name="A4197_h">(اچانک اسقاط حمل یا جان بوجھ کر اسقاط کرانا)</string>
-    <string name="A4205_h">(جیسے آٹھویں مہینے یا اس سے پہل)</string>
+    <string name="a205ainfo">(جیسے آٹھویں مہینے یا اس سے پہل)</string>
     <string name="A4206_5_h">اس میں وہ  حادثات یا کیسز شامل ہیں جن کے بارے میں معلوم نہیں کہ وہ ایک حادثہ تھا یا جان بوجھ کر تشدد کیا گیا  تھا۔ </string>
     <string name="A4206_6_h">اس میں وہ  حادثات یا کیسز شامل ہیں جن کے بارے میں معلوم نہیں کہ وہ ایک حادثہ تھا یا جان بوجھ کر تشدد کیا گیا  تھا۔ </string>
     <string name="A4206_7_h">اس میں وہ  حادثات یا کیسز شامل ہیں جن کے بارے میں معلوم نہیں کہ وہ ایک حادثہ تھا یا جان بوجھ کر تشدد کیا گیا  تھا۔</string>

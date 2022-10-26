@@ -6190,55 +6190,355 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="a15798">Don’t Know</string>
     <string name="a15799">Refused to Answer</string>
 
-    <string name="A4158">A4158: Did she have any ulcers (pits) in the breast ?</string>
-    <string name="A4159">A4159: Did she ever have a period or menstruate ?</string>
-    <string name="A4160">A4160: When she had her period, did she have vaginal bleeding in between menstrual periods ?</string>
-    <string name="A4161">A4161: Was the bleeding excessive ?</string>
-    <string name="A4161_1">A4161_1: Was there excessive vaginal bleeding in the week prior to death ?</string>
-    <string name="A4162">A4162: Did her menstrual period stop naturally because of menopause or removal of the uterus ?</string>
-    <string name="A4163_1">A4163_1: Did she have vaginal bleeding after cessation of menstruation ?</string>
-    <string name="A4163">A4163: At the time of death was her period overdue ?</string>
-    <string name="A4164">A4164: For how many weeks had her period been overdue ?</string>
-    <string name="A4166">A4166: Did she have a sharp pain in her belly (abdomen) shortly before death ?</string>
-    <string name="A4167">A4167: Was she pregnant and not yet in labor at the time of death ?</string>
-    <string name="A4168_1">A4168_1: Did she die during labor or delivery, abortion or miscarriage ?</string>
-    <string name="A4168_3">A4168_3: Did she die within 24 hours after delivery, abortion or miscarriage ?</string>
-    <string name="A4168">A4168: Did she die within 6 weeks of delivery, abortion or miscarriage ?</string>
-    <string name="A4173_1">A4173_1: Did she give birth to a live baby (within 6 weeks of her death) ?</string>
-    <string name="A4173">A4173: Did she die less than 1 year after being pregnant, having an abortion or delivering a baby ?</string>
-    <string name="A4173_2">A4173_2: Did she give birth to a live baby (within 1 year of her death) ?</string>
-    <string name="A4178_1">A4178_1: For how many months was she pregnant ?</string>
-    <string name="A4178_2">A4178_2: Please confirm, when she died, she was NEITHER pregnant NOR had delivered, had an abortion or miscarried within 12 months of when she died--Is that right ?</string>
-    <string name="A4178">A4178: Did she die during or after a multiple pregnancy ?</string>
-    <string name="A4179">A4179: Was she breastfeeding the child in the days before death ?</string>
-    <string name="A4180">A4180: How many births, including stillbirths, did she/the mother have before this pregnancy ?</string>
-    <string name="A4181">A4181: Had she had any Caesarean section before this pregnancy ?</string>
-    <string name="A4182">A4182: During this pregnancy, did she suffer from high blood pressure ?</string>
-    <string name="A4183">A4183: Did she have foul smelling vaginal discharge during the pregnancy or after delivery ?</string>
-    <string name="A4184">A4184: During the last 3 months of the pregnancy, did she suffer from convulsions ?</string>
-    <string name="A4185">A4185: During the last 3 months of the pregnancy, did she suffer from blurred vision ?</string>
-    <string name="A4186">A4186: Did bleeding occur while she was pregnant ?</string>
-    <string name="A4186_1">A4186_1: Was there vaginal bleeding during the first 6 months of the pregnancy ?</string>
-    <string name="A4187">A4187: Was there vaginal bleeding during the last 3 months of the pregnancy but before labor started ?</string>
-    <string name="A4188">A4188: Did she have excessive bleeding during labor or delivery ?</string>
-    <string name="A4189">A4189: Did she have excessive bleeding after delivery ?</string>
-    <string name="A4190">A4190: Was the placenta completely delivered ?</string>
-    <string name="A4191">A4191: Did she deliver or try to deliver an abnormally positioned baby ?</string>
-    <string name="A4192">A4192: For how many hours was she in labor ?</string>
-    <string name="A4193">A4193: Did she attempt to terminate the pregnancy ?</string>
-    <string name="A4193_1">A4193_1: How did she do this ?</string>
-    <string name="A4194">A4194: Did she recently have a pregnancy that ended in an abortion (spontaneous or induced) ?</string>
-    <string name="A4195">A4195: Did she die during an abortion (spontaneous or induced) ?</string>
-    <string name="A4196">A4196: Did she die within 6 weeks of having an abortion (spontaneous or induced) ?</string>
-    <string name="A4197">A4197: Did she die more than 6 weeks but less than 1 year after having an abortion (spontaneous or induced) ?</string>
-    <string name="A4198_1">A4198_1: Did she have excessive bleeding (during / after)  abortion ?</string>
-    <string name="A4198">A4198: Where did she (give birth / complete the miscarriage / have the abortion) ?</string>
-    <string name="A4200">A4200: Who (delivered the baby / completed the miscarriage / performed the abortion) ?</string>
-    <string name="A4202">A4202: Was the delivery normal vaginal, without forceps or vacuum ?</string>
-    <string name="A4203">A4203: Was the delivery vaginal, with forceps or vacuum ?</string>
-    <string name="A4204">A4204: Was the delivery a Caesarean section ?</string>
-    <string name="A4205">A4205: Was the baby born more than one month early ?</string>
-    <string name="A4205_1">A4205_1: Did she have an operation to remove her uterus shortly before death ?</string>
+    <string name="Q_a158">a158</string>
+    <string name="a158">Did she have any ulcers (pits) in the breast ?</string>
+    <string name="a158a">Yes</string>
+    <string name="a158b">No</string>
+    <string name="a15898">Don’t Know</string>
+    <string name="a15899">Refused to Answer</string>
+
+    <string name="Q_a159">a159</string>
+    <string name="a159">Did she ever have a period or menstruate ?</string>
+    <string name="a159a">Yes</string>
+    <string name="a159b">No</string>
+    <string name="a15998">Don’t Know</string>
+    <string name="a15999">Refused to Answer</string>
+
+    <string name="Q_a160">a160</string>
+    <string name="a160">When she had her period, did she have vaginal bleeding in between menstrual periods ?</string>
+    <string name="a160a">Yes</string>
+    <string name="a160b">No</string>
+    <string name="a16098">Don’t Know</string>
+    <string name="a16099">Refused to Answer</string>
+
+    <string name="Q_a161a">a161a</string>
+    <string name="a161a">Was the bleeding excessive ?</string>
+    <string name="a161aa">Yes</string>
+    <string name="a161ab">No</string>
+    <string name="a161a98">Don’t Know</string>
+    <string name="a161a99">Refused to Answer</string>
+
+    <string name="Q_a161b">a161b</string>
+    <string name="a161b">Was there excessive vaginal bleeding in the week prior to death ?</string>
+    <string name="a161ba">Yes</string>
+    <string name="a161bb">No</string>
+    <string name="a161b98">Don’t Know</string>
+    <string name="a161b99">Refused to Answer</string>
+
+    <string name="Q_a162">a162</string>
+    <string name="a162">Did her menstrual period stop naturally because of menopause or removal of the uterus ?</string>
+    <string name="a162info">If Woman was less than 40, Don\'t ask and just Click 'No'</string>
+    <string name="a162a">Yes</string>
+    <string name="a162b">No</string>
+    <string name="a16298">Don’t Know</string>
+    <string name="a16299">Refused to Answer</string>
+
+    <string name="Q_a163a">a163a</string>
+    <string name="a163a">Did she have vaginal bleeding after cessation of menstruation ?</string>
+    <string name="a163ainfo">If Woman was less than 40, Don\'t ask and just Click 'No'</string>
+    <string name="a163aa">Yes</string>
+    <string name="a163ab">No</string>
+    <string name="a163a98">Don’t Know</string>
+    <string name="a163a99">Refused to Answer</string>
+
+    <string name="Q_a163b">a163b</string>
+    <string name="a163b">At the time of death was her period overdue ?</string>
+    <string name="a163ba">Yes</string>
+    <string name="a163bb">No</string>
+    <string name="a163b98">Don’t Know</string>
+    <string name="a163b99">Refused to Answer</string>
+
+    <string name="Q_a164">a164</string>
+    <string name="a164">For how many weeks had her period been overdue ?</string>
+    <string name="a164a">Week(s)</string>
+
+    <string name="Q_a166">a166</string>
+    <string name="a166">Did she have a sharp pain in her belly (abdomen) shortly before death ?</string>
+    <string name="a166a">Yes</string>
+    <string name="a166b">No</string>
+    <string name="a16698">Don’t Know</string>
+    <string name="a16699">Refused to Answer</string>
+
+    <string name="Q_a167">a167</string>
+    <string name="a167">Was she pregnant and not yet in labor at the time of death ?</string>
+    <string name="a167a">Yes</string>
+    <string name="a167b">No</string>
+    <string name="a16798">Don’t Know</string>
+    <string name="a16799">Refused to Answer</string>
+
+    <string name="Q_a168a">a168a</string>
+    <string name="a168a">Did she die during labor or delivery, abortion or miscarriage ?</string>
+    <string name="a168aa">Yes</string>
+    <string name="a168ab">No</string>
+    <string name="a168a98">Don’t Know</string>
+    <string name="a168a99">Refused to Answer</string>
+
+    <string name="Q_a168b">a168b</string>
+    <string name="a168b">Did she die within 24 hours after delivery, abortion or miscarriage ?</string>
+    <string name="a168ba">Yes</string>
+    <string name="a168bb">No</string>
+    <string name="a168b98">Don’t Know</string>
+    <string name="a168b99">Refused to Answer</string>
+
+    <string name="Q_a168c">a168c</string>
+    <string name="a168c">Did she die within 6 weeks of delivery, abortion or miscarriage ?</string>
+    <string name="a168ca">Yes</string>
+    <string name="a168cb">No</string>
+    <string name="a168c98">Don’t Know</string>
+    <string name="a168c99">Refused to Answer</string>
+
+    <string name="Q_a173a">a173a</string>
+    <string name="a173a">Did she give birth to a live baby (within 6 weeks of her death) ?</string>
+    <string name="a173aa">Yes</string>
+    <string name="a173ab">No</string>
+    <string name="a173a98">Don’t Know</string>
+    <string name="a173a99">Refused to Answer</string>
+
+    <string name="Q_a173b">a173b</string>
+    <string name="a173b">Did she die less than 1 year after being pregnant, having an abortion or delivering a baby ?</string>
+    <string name="a173ba">Yes</string>
+    <string name="a173bb">No</string>
+    <string name="a173b98">Don’t Know</string>
+    <string name="a173b99">Refused to Answer</string>
+
+    <string name="Q_a173c">a173c</string>
+    <string name="a173c">Did she give birth to a live baby (within 1 year of her death) ?</string>
+    <string name="a173ca">Yes</string>
+    <string name="a173cb">No</string>
+    <string name="a173c98">Don’t Know</string>
+    <string name="a173c99">Refused to Answer</string>
+
+    <string name="Q_a178a">a178a</string>
+    <string name="a178a">For how many months was she pregnant ?</string>
+    <string name="a178aa">Month(s)</string>
+
+    <string name="Q_a178b">a178b</string>
+    <string name="a178b">Please confirm, when she died, she was NEITHER pregnant NOR had delivered, had an abortion or miscarried within 12 months of when she died—Is that right ?</string>
+    <string name="a178binfo">This question is to ensure that there is no maternal death</string>
+    <string name="a178ba">Yes (She was not pregnant, and she did not recently deliver, have abortion, or miscarry)</string>
+    <string name="a178bb">No (She was pregnant or she recently delivered, had an abortion, or miscarried)</string>
+    <string name="a178b98">Don’t Know</string>
+    <string name="a178b99">Refused to Answer</string>
+
+    <string name="Q_a178c">a178c</string>
+    <string name="a178c">Did she die during or after a multiple pregnancy ?</string>
+    <string name="a178ca">Yes</string>
+    <string name="a178cb">No</string>
+    <string name="a178c98">Don’t Know</string>
+    <string name="a178c99">Refused to Answer</string>
+
+    <string name="Q_a179">a179</string>
+    <string name="a179">Was she breastfeeding the child in the days before death ?</string>
+    <string name="a179a">Yes</string>
+    <string name="a179b">No</string>
+    <string name="a17998">Don’t Know</string>
+    <string name="a17999">Refused to Answer</string>
+
+    <string name="Q_a180">a180</string>
+    <string name="a180">How many births, including stillbirths, did she/the mother have before this pregnancy ?</string>
+    <string name="a180a">Birth(s)</string>
+
+    <string name="Q_a181">a181</string>
+    <string name="a181">Had she had any Caesarean section before this pregnancy ?</string>
+    <string name="a181a">Yes</string>
+    <string name="a181b">No</string>
+    <string name="a18198">Don’t Know</string>
+    <string name="a18199">Refused to Answer</string>
+
+    <string name="Q_a182">a182</string>
+    <string name="a182">During this pregnancy, did she suffer from high blood pressure ?</string>
+    <string name="a182a">Yes</string>
+    <string name="a182b">No</string>
+    <string name="a18298">Don’t Know</string>
+    <string name="a18299">Refused to Answer</string>
+
+    <string name="Q_a183">a183</string>
+    <string name="a183">Did she have foul smelling vaginal discharge during the pregnancy or after delivery ?</string>
+    <string name="a183a">Yes</string>
+    <string name="a183b">No</string>
+    <string name="a18398">Don’t Know</string>
+    <string name="a18399">Refused to Answer</string>
+
+    <string name="Q_a184">a184</string>
+    <string name="a184">During the last 3 months of the pregnancy, did she suffer from convulsions ?</string>
+    <string name="a184a">Yes</string>
+    <string name="a184b">No</string>
+    <string name="a18498">Don’t Know</string>
+    <string name="a18499">Refused to Answer</string>
+
+    <string name="Q_a185">a185</string>
+    <string name="a185">During the last 3 months of the pregnancy, did she suffer from blurred vision ?</string>
+    <string name="a185a">Yes</string>
+    <string name="a185b">No</string>
+    <string name="a18598">Don’t Know</string>
+    <string name="a18599">Refused to Answer</string>
+
+    <string name="Q_a186a">a186a</string>
+    <string name="a186a">Did bleeding occur while she was pregnant ?</string>
+    <string name="a186aa">Yes</string>
+    <string name="a186ab">No</string>
+    <string name="a186a98">Don’t Know</string>
+    <string name="a186a99">Refused to Answer</string>
+
+    <string name="Q_a186b">a186b</string>
+    <string name="a186b">Was there vaginal bleeding during the first 6 months of the pregnancy ?</string>
+    <string name="a186ba">Yes</string>
+    <string name="a186bb">No</string>
+    <string name="a186b98">Don’t Know</string>
+    <string name="a186b99">Refused to Answer</string>
+
+    <string name="Q_a187">a187</string>
+    <string name="a187">Was there vaginal bleeding during the last 3 months of the pregnancy but before labor started ?</string>
+    <string name="a187a">Yes</string>
+    <string name="a187b">No</string>
+    <string name="a18798">Don’t Know</string>
+    <string name="a18799">Refused to Answer</string>
+
+    <string name="Q_a188">a188</string>
+    <string name="a188">Did she have excessive bleeding during labor or delivery ?</string>
+    <string name="a188a">Yes</string>
+    <string name="a188b">No</string>
+    <string name="a18898">Don’t Know</string>
+    <string name="a18899">Refused to Answer</string>
+
+    <string name="Q_a189">a189</string>
+    <string name="a189">Did she have excessive bleeding after delivery ?</string>
+    <string name="a189a">Yes</string>
+    <string name="a189b">No</string>
+    <string name="a18998">Don’t Know</string>
+    <string name="a18999">Refused to Answer</string>
+
+    <string name="Q_a190">a190</string>
+    <string name="a190">Was the placenta completely delivered ?</string>
+    <string name="a190a">Yes</string>
+    <string name="a190b">No</string>
+    <string name="a19098">Don’t Know</string>
+    <string name="a19099">Refused to Answer</string>
+
+    <string name="Q_a191">a191</string>
+    <string name="a191">Did she deliver or try to deliver an abnormally positioned baby ?</string>
+    <string name="a191info">Ask the respondent for her opinion on what she considers to be an "abnormal position of the child"; If it is unclear or misstated, explain that it means if the baby's head does not come out of the vagina first.</string>
+    <string name="a191a">Yes</string>
+    <string name="a191b">No</string>
+    <string name="a19198">Don’t Know</string>
+    <string name="a19199">Refused to Answer</string>
+
+    <string name="Q_a192">a192</string>
+    <string name="a192">For how many hours was she in labor ?</string>
+    <string name="a192info">If less than 60 minutes = 0 hours</string>
+    <string name="a192a">Hour(s)</string>
+
+    <string name="Q_a193a">a193a</string>
+    <string name="a193a">Did she attempt to terminate the pregnancy ?</string>
+    <string name="a193aa">Yes</string>
+    <string name="a193ab">No</string>
+    <string name="a193a98">Don’t Know</string>
+    <string name="a193a99">Refused to Answer</string>
+
+    <string name="Q_a193b">a193b</string>
+    <string name="a193b">How did she do this ?</string>
+    <string name="a193ba">Oral Medicine</string>
+    <string name="a193bb">Traditional Vaginal Herbal Application</string>
+    <string name="a193bc">Vaginal Tablet</string>
+    <string name="a193bd">Instrumentation</string>
+    <string name="a193b98">Don’t Know</string>
+    <string name="a193b99">Refused to Answer</string>
+
+    <string name="Q_a194">a194</string>
+    <string name="a194">Did she recently have a pregnancy that ended in an abortion (spontaneous or induced) ?</string>
+    <string name="a194a">Yes</string>
+    <string name="a194b">No</string>
+    <string name="a19498">Don’t Know</string>
+    <string name="a19499">Refused to Answer</string>
+
+    <string name="Q_a195">a195</string>
+    <string name="a195">Did she die during an abortion (spontaneous or induced) ?</string>
+    <string name="a195a">Yes</string>
+    <string name="a195b">No</string>
+    <string name="a19598">Don’t Know</string>
+    <string name="a19599">Refused to Answer</string>
+
+    <string name="Q_a196">a196</string>
+    <string name="a196">Did she die within 6 weeks of having an abortion (spontaneous or induced) ?</string>
+    <string name="a196info">Spontaneous abortion or intentional abortion</string>
+    <string name="a196a">Yes</string>
+    <string name="a196b">No</string>
+    <string name="a19698">Don’t Know</string>
+    <string name="a19699">Refused to Answer</string>
+
+    <string name="Q_a197">a197</string>
+    <string name="a197">Did she die more than 6 weeks but less than 1 year after having an abortion (spontaneous or induced) ?</string>
+    <string name="a197info">Spontaneous abortion or intentional abortion</string>
+    <string name="a197a">Yes</string>
+    <string name="a197b">No</string>
+    <string name="a19798">Don’t Know</string>
+    <string name="a19799">Refused to Answer</string>
+
+    <string name="Q_a198a">a198a</string>
+    <string name="a198a">Did she have excessive bleeding (during / after) abortion ?</string>
+    <string name="a198aa">Yes</string>
+    <string name="a198ab">No</string>
+    <string name="a198a98">Don’t Know</string>
+    <string name="a198a99">Refused to Answer</string>
+
+    <string name="Q_a198b">a198b</string>
+    <string name="a198b">Where did she (give birth / complete the miscarriage / have the abortion) ?</string>
+    <string name="a198ba">Hospital</string>
+    <string name="a198bb">Other Health Facility</string>
+    <string name="a198bc">Home</string>
+    <string name="a198bd">On Route to Hospital or Facility</string>
+    <string name="a198b96">Other (Specify)</string>
+    <string name="a198b98">Don’t Know</string>
+    <string name="a198b99">Refused to Answer</string>
+
+    <string name="Q_a200">a200</string>
+    <string name="a200">Where did she (give birth / complete the miscarriage / have the abortion) ?</string>
+    <string name="a200a">Doctor</string>
+    <string name="a200b">Midwife</string>
+    <string name="a200c">Nurse</string>
+    <string name="a200d">Relative</string>
+    <string name="a200e">Self (the mother)</string>
+    <string name="a200f">Traditional Birth Attendant</string>
+    <string name="a20096">Other (Specify)</string>
+    <string name="a20098">Don’t Know</string>
+    <string name="a20099">Refused to Answer</string>
+
+    <string name="Q_a202">a202</string>
+    <string name="a202">Was the delivery normal vaginal, without Forceps or Vacuum ?</string>
+    <string name="a202a">Yes</string>
+    <string name="a202b">No</string>
+    <string name="a20298">Don’t Know</string>
+    <string name="a20299">Refused to Answer</string>
+
+    <string name="Q_a203">a203</string>
+    <string name="a203">Was the Delivery Vaginal, With Forceps or Vacuum ?</string>
+    <string name="a203a">Yes</string>
+    <string name="a203b">No</string>
+    <string name="a20398">Don’t Know</string>
+    <string name="a20399">Refused to Answer</string>
+
+    <string name="Q_a204">a204</string>
+    <string name="a204">Was the delivery a Caesarean section ?</string>
+    <string name="a204a">Yes</string>
+    <string name="a204b">No</string>
+    <string name="a20498">Don’t Know</string>
+    <string name="a20499">Refused to Answer</string>
+
+    <string name="Q_a205a">a205a</string>
+    <string name="a205a">Was the Baby Born More Than One Month Early ?</string>
+    <string name="a205ainfo">Like the eighth month or earlier</string>
+    <string name="a205aa">Yes</string>
+    <string name="a205ab">No</string>
+    <string name="a205a98">Don’t Know</string>
+    <string name="a205a99">Refused to Answer</string>
+
+    <string name="Q_a205b">a205b</string>
+    <string name="a205b">Did she have an operation to remove her uterus shortly before death ?</string>
+    <string name="a205ba">Yes</string>
+    <string name="a205bb">No</string>
+    <string name="a205b98">Don’t Know</string>
+    <string name="a205b99">Refused to Answer</string>
+
     <string name="A4206">A4206: Did (NAME) suffer from any injury or accident that led to her/his death ?</string>
     <string name="A4206_1">A4206_1: Was it a road traffic accident ?</string>
     <string name="A4206_2">A4206_2: What was her/his role in the road traffic accident ?</string>
@@ -6365,286 +6665,6 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="A4456">A4456: Did the deceased’s spouse/partner ever have a positive HIV test ?</string>
     <string name="A4457">A4457: Was there any diagnosis by a health professional that the deceased’s spouse/partner had AIDS ?</string>
     <string name="A4472">A4472: Are any of the following words of interest mentioned in the above narrative ?</string>
-
-    <string name="rb_A4158_1">Yes</string>
-    <string name="rb_A4158_2">No</string>
-    <string name="rb_A4158_DK">Don’t Know</string>
-
-    <string name="rb_A4158_RA">Refused to Answer</string>
-
-    <string name="rb_A4159_1">Yes</string>
-    <string name="rb_A4159_2">No</string>
-    <string name="rb_A4159_DK">Don’t Know</string>
-
-    <string name="rb_A4159_RA">Refused to Answer</string>
-
-    <string name="rb_A4160_1">Yes</string>
-    <string name="rb_A4160_2">No</string>
-    <string name="rb_A4160_DK">Don’t Know</string>
-
-    <string name="rb_A4160_RA">Refused to Answer</string>
-
-    <string name="rb_A4161_1">Yes</string>
-    <string name="rb_A4161_2">No</string>
-    <string name="rb_A4161_DK">Don’t Know</string>
-
-    <string name="rb_A4161_RA">Refused to Answer</string>
-
-    <string name="rb_A4161_1_1">Yes</string>
-    <string name="rb_A4161_1_2">No</string>
-    <string name="rb_A4161_1_DK">Don’t Know</string>
-
-    <string name="rb_A4161_1_RA">Refused to Answer</string>
-
-    <string name="rb_A4162_1">Yes</string>
-    <string name="rb_A4162_2">No</string>
-    <string name="rb_A4162_DK">Don’t Know</string>
-
-    <string name="rb_A4162_RA">Refused to Answer</string>
-
-    <string name="rb_A4163_1_1">Yes</string>
-    <string name="rb_A4163_1_2">No</string>
-    <string name="rb_A4163_1_DK">Don’t Know</string>
-
-    <string name="rb_A4163_1_RA">Refused to Answer</string>
-
-    <string name="rb_A4163_1">Yes</string>
-    <string name="rb_A4163_2">No</string>
-    <string name="rb_A4163_DK">Don’t Know</string>
-
-    <string name="rb_A4163_RA">Refused to Answer</string>
-
-    <string name="rb_A4166_1">Yes</string>
-    <string name="rb_A4166_2">No</string>
-    <string name="rb_A4166_3_DK">Don’t Know</string>
-
-    <string name="rb_A4166_RA">Refused to Answer</string>
-
-    <string name="rb_A4167_1">Yes</string>
-    <string name="rb_A4167_2">No</string>
-    <string name="rb_A4167_DK">Don’t Know</string>
-
-    <string name="rb_A4167_RA">Refused to Answer</string>
-
-    <string name="rb_A4168_1_1">Yes</string>
-    <string name="rb_A4168_1_2">No</string>
-    <string name="rb_A4168_1_DK">Don’t Know</string>
-
-    <string name="rb_A4168_1_RA">Refused to Answer</string>
-
-    <string name="rb_A4168_3_1">Yes</string>
-    <string name="rb_A4168_3_2">No</string>
-    <string name="rb_A4168_3_DK">Don’t Know</string>
-
-    <string name="rb_A4168_3_RA">Refused to Answer</string>
-
-    <string name="rb_A4168_1">Yes</string>
-    <string name="rb_A4168_2">No</string>
-    <string name="rb_A4168_DK">Don’t Know</string>
-
-    <string name="rb_A4168_RA">Refused to Answer</string>
-
-    <string name="rb_A4173_1_1">Yes</string>
-    <string name="rb_A4173_1_2">No</string>
-    <string name="rb_A4173_1_DK">Don’t Know</string>
-
-    <string name="rb_A4173_1_RA">Refused to Answer</string>
-
-    <string name="rb_A4173_1">Yes</string>
-    <string name="rb_A4173_2">No</string>
-    <string name="rb_A4173_DK">Don’t Know</string>
-
-    <string name="rb_A4173_RA">Refused to Answer</string>
-
-    <string name="rb_A4173_2_1">Yes</string>
-    <string name="rb_A4173_2_2">No</string>
-    <string name="rb_A4173_2_DK">Don’t Know</string>
-
-    <string name="rb_A4173_2_RA">Refused to Answer</string>
-
-    <string name="rb_A4178_2_1">Yes (She was not pregnant, and she did not recently deliver, have abortion, or miscarry)</string>
-    <string name="rb_A4178_2_2">No (She was pregnant or she recently delivered, had an abortion, or miscarried)</string>
-    <string name="rb_A4178_2_DK">Don’t Know</string>
-
-    <string name="rb_A4178_2_RA">Refused to Answer</string>
-
-    <string name="rb_A4178_1">Yes</string>
-    <string name="rb_A4178_2">No</string>
-    <string name="rb_A4178_DK">Don’t Know</string>
-
-    <string name="rb_A4178_RA">Refused to Answer</string>
-
-    <string name="rb_A4179_1">Yes</string>
-    <string name="rb_A4179_2">No</string>
-    <string name="rb_A4179_DK">Don’t Know</string>
-
-    <string name="rb_A4179_RA">Refused to Answer</string>
-
-    <string name="rb_A4180_1">Yes</string>
-    <string name="rb_A4180_2">No</string>
-    <string name="rb_A4180_DK">Don’t Know</string>
-
-    <string name="rb_A4180_RA">Refused to Answer</string>
-
-    <string name="rb_A4182_1">Yes</string>
-    <string name="rb_A4182_2">No</string>
-    <string name="rb_A4182_DK">Don’t Know</string>
-
-    <string name="rb_A4182_RA">Refused to Answer</string>
-
-    <string name="rb_A4183_1">Yes</string>
-    <string name="rb_A4183_2">No</string>
-    <string name="rb_A4183_DK">Don’t Know</string>
-
-    <string name="rb_A4183_RA">Refused to Answer</string>
-
-    <string name="rb_A4184_1">Yes</string>
-    <string name="rb_A4184_2">No</string>
-    <string name="rb_A4184_DK">Don’t Know</string>
-
-    <string name="rb_A4184_RA">Refused to Answer</string>
-
-    <string name="rb_A4185_1">Yes</string>
-    <string name="rb_A4185_2">No</string>
-    <string name="rb_A4185_DK">Don’t Know</string>
-
-    <string name="rb_A4185_RA">Refused to Answer</string>
-
-    <string name="rb_A4186_1">Yes</string>
-    <string name="rb_A4186_2">No</string>
-    <string name="rb_A4186_DK">Don’t Know</string>
-
-    <string name="rb_A4186_RA">Refused to Answer</string>
-
-    <string name="rb_A4186_1_1">Yes</string>
-    <string name="rb_A4186_1_2">No</string>
-    <string name="rb_A4186_1_DK">Don’t Know</string>
-
-    <string name="rb_A4186_1_RA">Refused to Answer</string>
-
-    <string name="rb_A4187_1">Yes</string>
-    <string name="rb_A4187_2">No</string>
-    <string name="rb_A4187_DK">Don’t Know</string>
-
-    <string name="rb_A4187_RA">Refused to Answer</string>
-
-    <string name="rb_A4188_1">Yes</string>
-    <string name="rb_A4188_2">No</string>
-    <string name="rb_A4188_DK">Don’t Know</string>
-
-    <string name="rb_A4188_RA">Refused to Answer</string>
-
-    <string name="rb_A4189_1">Yes</string>
-    <string name="rb_A4189_2">No</string>
-    <string name="rb_A4189_DK">Don’t Know</string>
-
-    <string name="rb_A4189_RA">Refused to Answer</string>
-
-    <string name="rb_A4190_1">Yes</string>
-    <string name="rb_A4190_2">No</string>
-    <string name="rb_A4190_DK">Don’t Know</string>
-
-    <string name="rb_A4190_RA">Refused to Answer</string>
-
-    <string name="rb_A4191_1">Yes</string>
-    <string name="rb_A4191_2">No</string>
-    <string name="rb_A4191_DK">Don’t Know</string>
-
-    <string name="rb_A4191_RA">Refused to Answer</string>
-
-    <string name="rb_A4193_1">Yes</string>
-    <string name="rb_A4193_2">No</string>
-    <string name="rb_A4193_DK">Don’t Know</string>
-
-    <string name="rb_A4193_RA">Refused to Answer</string>
-
-    <string name="rb_A4193_1_1">Oral medicine</string>
-    <string name="rb_A4193_1_2">Traditional vaginal herbal application</string>
-    <string name="rb_A4193_1_3">Vaginal tablet</string>
-    <string name="rb_A4193_1_4">Instrumentation</string>
-    <string name="rb_A4193_1_DK">Don’t Know</string>
-
-    <string name="rb_A4193_1_RA">Refused to Answer</string>
-
-    <string name="rb_A4194_1">Yes</string>
-    <string name="rb_A4194_2">No</string>
-    <string name="rb_A4194_DK">Don’t Know</string>
-
-    <string name="rb_A4194_RA">Refused to Answer</string>
-
-    <string name="rb_A4195_1">Yes</string>
-    <string name="rb_A4195_2">No</string>
-    <string name="rb_A4195_DK">Don’t Know</string>
-
-    <string name="rb_A4195_RA">Refused to Answer</string>
-
-    <string name="rb_A4196_1">Yes</string>
-    <string name="rb_A4196_2">No</string>
-    <string name="rb_A4196_DK">Don’t Know</string>
-
-    <string name="rb_A4196_RA">Refused to Answer</string>
-
-    <string name="rb_A4197_1">Yes</string>
-    <string name="rb_A4197_2">No</string>
-    <string name="rb_A4197_DK">Don’t Know</string>
-
-    <string name="rb_A4197_RA">Refused to Answer</string>
-
-    <string name="rb_A4198_1_1">Yes</string>
-    <string name="rb_A4198_1_2">No</string>
-    <string name="rb_A4198_1_DK">Don’t Know</string>
-
-    <string name="rb_A4198_1_RA">Refused to Answer</string>
-
-    <string name="rb_A4198_1">Hospital</string>
-    <string name="rb_A4198_2">Other Health Facility</string>
-    <string name="rb_A4198_3">Home</string>
-    <string name="rb_A4198_4">On route to hospital or facility</string>
-    <string name="rb_A4198_OT">دیگر </string>
-    <string name="rb_A4198_DK">Don’t Know</string>
-
-    <string name="rb_A4198_RA">Refused to Answer</string>
-
-    <string name="rb_A4200_1">Doctor</string>
-    <string name="rb_A4200_2">Midwife</string>
-    <string name="rb_A4200_3">Nurse</string>
-    <string name="rb_A4200_4">Relative</string>
-    <string name="rb_A4200_5">Self (the mother)</string>
-    <string name="rb_A4200_6">Traditional birth attendant</string>
-    <string name="rb_A4200_OT">دیگر </string>
-    <string name="rb_A4200_DK">Don’t Know</string>
-
-    <string name="rb_A4200_RA">Refused to Answer</string>
-
-    <string name="rb_A4202_1">Yes</string>
-    <string name="rb_A4202_2">No</string>
-    <string name="rb_A4202_DK">Don’t Know</string>
-
-    <string name="rb_A4202_RA">Refused to Answer</string>
-
-    <string name="rb_A4203_1">Yes</string>
-    <string name="rb_A4203_2">No</string>
-    <string name="rb_A4203_DK">Don’t Know</string>
-
-    <string name="rb_A4203_RA">Refused to Answer</string>
-
-    <string name="rb_A4204_1">Yes</string>
-    <string name="rb_A4204_2">No</string>
-    <string name="rb_A4204_DK">Don’t Know</string>
-
-    <string name="rb_A4204_RA">Refused to Answer</string>
-
-    <string name="rb_A4205_1">Yes</string>
-    <string name="rb_A4205_2">No</string>
-    <string name="rb_A4205_DK">Don’t Know</string>
-
-    <string name="rb_A4205_RA">Refused to Answer</string>
-
-    <string name="rb_A4205_1_1">Yes</string>
-    <string name="rb_A4205_1_2">No</string>
-    <string name="rb_A4205_1_DK">Don’t Know</string>
-
-    <string name="rb_A4205_1_RA">Refused to Answer</string>
 
     <string name="rb_A4206_1">Yes</string>
     <string name="rb_A4206_2">No</string>
@@ -7796,14 +7816,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="A4150_u_h">	               مہینے ۔ 1-60 دن یا       0-30 اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛   ایک ہفتہ = 7 لکھیں</string>
     <string name="A4150_a_h">	دن لکھیں۔ اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0 لکھیں؛ ایک ہفتہ = 7 لکھیں     0-30</string>
     <string name="A4150_b_h">	مہینے         1-60</string>
-    <string name="A4162_h">	اگر عورت کی عمر چالیس سال سے کم ہے تو یہ سوال نہ پوچھیں اور  "نہیں" پر نشان لگادیں</string>
-    <string name="A4163_1_h">	اگر عورت کی عمر چالیس سال سے کم ہے تو یہ سوال نہ پوچھیں اور  " نہیں" پر نشان لگادیں</string>
-    <string name="A4178_2_h">	یہ سوال اس بات کو یقینی بنانا ہے کہ کو ئی میٹرنل  ڈیتھ رہ تو نہیں گئی </string>
-    <string name="A4191_h">	جواب دہندہ سے اس کی رائے معلوم کریں کہ وہ " بچہ کی غیر معمولی پوزیشن" کو کیا سمجھتی ہے ؛ اگر  اسکو واضع نہیں ہے یا غلط بتاتی ہے تو وضاحت کریں کہ اسکا مطلب ہے کہ اگر اندام نہانی سے   بچہ کا سر پہلے باہر نہ  آ ئے۔</string>
-    <string name="A4192_h">	اگر 60منٹس سے کم = 0 گھنٹے </string>
-    <string name="A4196_h">	(اچانک اسقاط حمل یا جان بوجھ کر اسقاط کرانا)</string>
-    <string name="A4197_h">	(اچانک اسقاط حمل یا جان بوجھ کر اسقاط کرانا)</string>
-    <string name="A4205_h">	(جیسے آٹھویں مہینے یا اس سے پہل)</string>
+
     <string name="A4206_5_h">	اس میں وہ  حادثات یا کیسز شامل ہیں جن کے بارے میں معلوم نہیں کہ وہ ایک حادثہ تھا یا جان بوجھ کر تشدد کیا گیا  تھا۔ </string>
     <string name="A4206_6_h">	اس میں وہ  حادثات یا کیسز شامل ہیں جن کے بارے میں معلوم نہیں کہ وہ ایک حادثہ تھا یا جان بوجھ کر تشدد کیا گیا  تھا۔ </string>
     <string name="A4206_7_h">	اس میں وہ  حادثات یا کیسز شامل ہیں جن کے بارے میں معلوم نہیں کہ وہ ایک حادثہ تھا یا جان بوجھ کر تشدد کیا گیا  تھا۔</string>

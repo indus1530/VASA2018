@@ -449,6 +449,7 @@
                                 android:digits="AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789,. "
                                 android:hint="@string/a14896"
                                 android:maxLength="20"
+                                android:tag="a14896"
                                 android:text="@{a14896.checked ? a14896x.getText().toString() : ``}"
                                 android:visibility="@{a14896.checked ? View.VISIBLE : View.GONE}" />
 
