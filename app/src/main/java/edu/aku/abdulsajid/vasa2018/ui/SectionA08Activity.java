@@ -68,7 +68,7 @@ public class SectionA08Activity extends AppCompatActivity {
         if (res.getCount() > 0) {
             res.moveToFirst();
             if (Integer.valueOf(res.getString(res.getColumnIndex("Q1601"))).equals(1))
-                startActivity(new Intent(this, A4206_A4207.class).putExtra("study_id", study_id));
+                startActivity(new Intent(this, SectionA10Activity.class).putExtra("study_id", study_id));
             else
                 startActivity(new Intent(this, SectionA09Activity.class).putExtra("study_id", study_id));
         }

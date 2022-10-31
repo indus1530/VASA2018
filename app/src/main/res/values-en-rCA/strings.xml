@@ -6526,7 +6526,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
 
     <string name="Q_a205a">a205a</string>
     <string name="a205a">Was the Baby Born More Than One Month Early ?</string>
-    <string name="a205ainfo">Like The Eighth Month or Earlier</string>
+    <string name="a205ainfo">Like the eighth month or earlier</string>
     <string name="a205aa">Yes</string>
     <string name="a205ab">No</string>
     <string name="a205a98">Don’t Know</string>
@@ -6539,31 +6539,185 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="a205b98">Don’t Know</string>
     <string name="a205b99">Refused to Answer</string>
 
-    <string name="A4206">A4206: Did (NAME) suffer from any injury or accident that led to her/his death ?</string>
-    <string name="A4206_1">A4206_1: Was it a road traffic accident ?</string>
-    <string name="A4206_2">A4206_2: What was her/his role in the road traffic accident ?</string>
-    <string name="A4206_3">A4206_3: What was the counterpart that was hit during the road traffic accident ?</string>
-    <string name="A4206_4">A4206_4: Was (s)he injured in a non-road transport accident ?</string>
-    <string name="A4206_4_h">This includes accidents and cases where it is unknown if it was an accident or whether there was   intentional violence</string>
-    <string name="A4206_5">A4206_5: Was (s)he injured in a fall ?</string>
-    <string name="A4206_6">A4206_6: Was there any poisoning ?</string>
-    <string name="A4206_7">A4206_7: Did (s)he die of drowning ?</string>
-    <string name="A4206_8">A4206_8: Was (s)he injured by a bite or sting by venomous animal ?</string>
-    <string name="A4206_9">A4206_9: Was (s)he injured by an animal or insect (non-venomous) ?</string>
-    <string name="A4206_10">A4206_10: What was the animal/insect ?</string>
-    <string name="A4206_11">A4206_11: Was (s)he injured by burns/fire ?</string>
-    <string name="A4206_12">A4206_12: Was (s)he subject to violence (suicide, homicide, abuse) ?</string>
-    <string name="A4206_13">A4206_13: Was (s)he injured by a firearm ?</string>
-    <string name="A4206_14">A4206_14: Was (s)he stabbed, cut or pierced ?</string>
-    <string name="A4206_15">A4206_15: Was (s)he strangled ?</string>
-    <string name="A4206_16">A4206_16: Was (s)he injured by a blunt force ?</string>
-    <string name="A4206_17">A4206_17: Was (s)he injured by a force of nature ?</string>
-    <string name="A4206_18">A4206_18: Was it electrocution ?</string>
-    <string name="A4206_19">A4206_19: Did (s)he encounter any other injury ?</string>
-    <string name="A4206_20">A4206_20: Was the injury accidental ?</string>
-    <string name="A4206_21">A4206_21: Was the injury self-inflicted ?</string>
-    <string name="A4206_22">A4206_22: Was the injury intentionally inflicted by someone else ?</string>
-    <string name="A4207">A4207: How long did (NAME) survive after the injury ?</string>
+    <string name="Q_a206a">a206a</string>
+    <string name="a206a">Did (NAME) suffer from any injury or accident that led to her/his death ?</string>
+    <string name="a206aa">Yes</string>
+    <string name="a206ab">No</string>
+    <string name="a206a98">Don’t Know</string>
+    <string name="a206a99">Refused to Answer</string>
+
+    <string name="Q_a206b">a206b</string>
+    <string name="a206b">Was it a road traffic accident? ?</string>
+    <string name="a206ba">Yes</string>
+    <string name="a206bb">No</string>
+    <string name="a206b98">Don’t Know</string>
+    <string name="a206b99">Refused to Answer</string>
+
+    <string name="Q_a206c">a206c</string>
+    <string name="a206c">What was her/his role in the road traffic accident ?</string>
+    <string name="a206ca">Pedestrian</string>
+    <string name="a206cb">Driver or passenger in car or light vehicle</string>
+    <string name="a206cc">Driver or passenger in bus or heavy vehicle</string>
+    <string name="a206cd">Driver or passenger on a motorcycle</string>
+    <string name="a206ce">Driver or passenger on a pedal cycle</string>
+    <string name="a206c96">Other (Specify)</string>
+    <string name="a206c98">Don’t Know</string>
+    <string name="a206c99">Refused to Answer</string>
+
+    <string name="Q_a206d">a206d</string>
+    <string name="a206d">What was the counterpart that was hit during the road traffic accident ?</string>
+    <string name="a206da">Pedestrian</string>
+    <string name="a206db">Stationary object</string>
+    <string name="a206dc">Car or light vehicle</string>
+    <string name="a206dd">Bus or heavy vehicle</string>
+    <string name="a206de">Motorcycle</string>
+    <string name="a206df">Pedal cycle</string>
+    <string name="a206d96">Other (Specify)</string>
+    <string name="a206d98">Don’t Know</string>
+    <string name="a206d99">Refused to Answer</string>
+
+    <string name="Q_a206e">a206e</string>
+    <string name="a206e">Was (s)he injured in a non-road transport accident ?</string>
+    <string name="a206einfo">This includes accidents and cases where it is unknown if it was an accident or whether there was intentional violence</string>
+    <string name="a206ea">Yes</string>
+    <string name="a206eb">No</string>
+    <string name="a206e98">Don’t Know</string>
+    <string name="a206e99">Refused to Answer</string>
+
+    <string name="Q_a206f">a206f</string>
+    <string name="a206f">Was (s)he injured in a fall ?</string>
+    <string name="a206fa">Yes</string>
+    <string name="a206fb">No</string>
+    <string name="a206f98">Don’t Know</string>
+    <string name="a206f99">Refused to Answer</string>
+
+    <string name="Q_a206g">a206g</string>
+    <string name="a206g">Was there any poisoning ?</string>
+    <string name="a206ga">Yes</string>
+    <string name="a206gb">No</string>
+    <string name="a206g98">Don’t Know</string>
+    <string name="a206g99">Refused to Answer</string>
+
+    <string name="Q_a206h">a206h</string>
+    <string name="a206h">Did (s)he die of drowning ?</string>
+    <string name="a206ha">Yes</string>
+    <string name="a206hb">No</string>
+    <string name="a206h98">Don’t Know</string>
+    <string name="a206h99">Refused to Answer</string>
+
+    <string name="Q_a206i">a206i</string>
+    <string name="a206i">Was (s)he injured by a bite or sting by venomous animal ?</string>
+    <string name="a206ia">Yes</string>
+    <string name="a206ib">No</string>
+    <string name="a206i98">Don’t Know</string>
+    <string name="a206i99">Refused to Answer</string>
+
+    <string name="Q_a206j">a206j</string>
+    <string name="a206j">Was (s)he injured by an animal or insect (non-venomous) ?</string>
+    <string name="a206ja">Yes</string>
+    <string name="a206jb">No</string>
+    <string name="a206j98">Don’t Know</string>
+    <string name="a206j99">Refused to Answer</string>
+
+    <string name="Q_a206k">a206k</string>
+    <string name="a206k">What was the Animal / Insect ?</string>
+    <string name="a206ka">Dog</string>
+    <string name="a206kb">Snake</string>
+    <string name="a206kc">Insect or scorpion</string>
+    <string name="a206k96">Other (Specify)</string>
+    <string name="a206k98">Don’t Know</string>
+    <string name="a206k99">Refused to Answer</string>
+
+    <string name="Q_a206l">a206l</string>
+    <string name="a206l">Was (s)he injured by Burns / Fire ?</string>
+    <string name="a206la">Yes</string>
+    <string name="a206lb">No</string>
+    <string name="a206l98">Don’t Know</string>
+    <string name="a206l99">Refused to Answer</string>
+
+    <string name="Q_a206m">a206m</string>
+    <string name="a206m">Was (s)he subject to violence (suicide, homicide, abuse) ?</string>
+    <string name="a206ma">Yes</string>
+    <string name="a206mb">No</string>
+    <string name="a206m98">Don’t Know</string>
+    <string name="a206m99">Refused to Answer</string>
+
+    <string name="Q_a206n">a206n</string>
+    <string name="a206n">Was (s)he injured by a Firearm ?</string>
+    <string name="a206na">Yes</string>
+    <string name="a206nb">No</string>
+    <string name="a206n98">Don’t Know</string>
+    <string name="a206n99">Refused to Answer</string>
+
+    <string name="Q_a206o">a206o</string>
+    <string name="a206o">Was (s)he stabbed, cut or pierced ?</string>
+    <string name="a206oa">Yes</string>
+    <string name="a206ob">No</string>
+    <string name="a206o98">Don’t Know</string>
+    <string name="a206o99">Refused to Answer</string>
+
+    <string name="Q_a206p">a206p</string>
+    <string name="a206p">Was (s)he strangled ?</string>
+    <string name="a206pa">Yes</string>
+    <string name="a206pb">No</string>
+    <string name="a206p98">Don’t Know</string>
+    <string name="a206p99">Refused to Answer</string>
+
+    <string name="Q_a206q">a206q</string>
+    <string name="a206q">Was (s)he injured by a blunt force ?</string>
+    <string name="a206qa">Yes</string>
+    <string name="a206qb">No</string>
+    <string name="a206q98">Don’t Know</string>
+    <string name="a206q99">Refused to Answer</string>
+
+    <string name="Q_a206r">a206r</string>
+    <string name="a206r">Was (s)he injured by a force of nature ?</string>
+    <string name="a206ra">Yes</string>
+    <string name="a206rb">No</string>
+    <string name="a206r98">Don’t Know</string>
+    <string name="a206r99">Refused to Answer</string>
+
+    <string name="Q_a206s">a206s</string>
+    <string name="a206s">Was it electrocution ?</string>
+    <string name="a206sa">Yes</string>
+    <string name="a206sb">No</string>
+    <string name="a206s98">Don’t Know</string>
+    <string name="a206s99">Refused to Answer</string>
+
+    <string name="Q_a206t">a206t</string>
+    <string name="a206t">Did (s)he encounter any other injury ?</string>
+    <string name="a206ta">Yes</string>
+    <string name="a206tb">No</string>
+    <string name="a206t98">Don’t Know</string>
+    <string name="a206t99">Refused to Answer</string>
+
+    <string name="Q_a206u">a206u</string>
+    <string name="a206u">Was the injury accidental ?</string>
+    <string name="a206ua">Yes</string>
+    <string name="a206ub">No</string>
+    <string name="a206u98">Don’t Know</string>
+    <string name="a206u99">Refused to Answer</string>
+
+    <string name="Q_a206v">a206v</string>
+    <string name="a206v">Was the injury self-inflicted ?</string>
+    <string name="a206va">Yes</string>
+    <string name="a206vb">No</string>
+    <string name="a206v98">Don’t Know</string>
+    <string name="a206v99">Refused to Answer</string>
+
+    <string name="Q_a206w">a206w</string>
+    <string name="a206w">Was the injury intentionally inflicted by someone else ?</string>
+    <string name="a206wa">Yes</string>
+    <string name="a206wb">No</string>
+    <string name="a206w98">Don’t Know</string>
+    <string name="a206w99">Refused to Answer</string>
+
+    <string name="Q_a207">a207</string>
+    <string name="a207">How long did (NAME) survive after the injury ?</string>
+    <string name="a207info">If less than 24 hours, record hours: less than an hour 00 = write if 1 day or more, record in days</string>
+    <string name="a207h">Hour(s)</string>
+    <string name="a207d">Day(s)</string>
+
     <string name="A4251">A4251: Did (NAME) receive, or did you give or seek, any care or treatment for the fatal illness ?</string>
     <string name="A4252_1">A4252: Please tell me everything that was done for (NAME)’s fatal illness inside the home and all the places outside the home (he / she) went or was taken for health care. Start with the first care or treatment (NAME) received and then, in order, tell me all the other care and treatments s/he received. Also tell me what symptoms were present when each action was taken.</string>
     <string name="A4252_2">Include any health care provider (NAME) was on route to but did not reach before dying.</string>
@@ -6665,155 +6819,6 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="A4456">A4456: Did the deceased’s spouse/partner ever have a positive HIV test ?</string>
     <string name="A4457">A4457: Was there any diagnosis by a health professional that the deceased’s spouse/partner had AIDS ?</string>
     <string name="A4472">A4472: Are any of the following words of interest mentioned in the above narrative ?</string>
-
-    <string name="rb_A4206_1">Yes</string>
-    <string name="rb_A4206_2">No</string>
-    <string name="rb_A4206_DK">Don’t Know</string>
-
-    <string name="rb_A4206_RA">Refused to Answer</string>
-
-    <string name="rb_A4206_1_1">Yes</string>
-    <string name="rb_A4206_1_2">No</string>
-    <string name="rb_A4206_1_DK">Don’t Know</string>
-
-    <string name="rb_A4206_1_RA">Refused to Answer</string>
-
-    <string name="rb_A4206_2_1">Pedestrian</string>
-    <string name="rb_A4206_2_2">Driver or passenger in car or light vehicle</string>
-    <string name="rb_A4206_2_3">Driver or passenger in bus or heavy vehicle</string>
-    <string name="rb_A4206_2_4">Driver or passenger on a motorcycle</string>
-    <string name="rb_A4206_2_5">Driver or passenger on a pedal cycle</string>
-    <string name="rb_A4206_2_OT">Other (Specify)</string>
-    <string name="rb_A4206_2_DK">Don’t Know</string>
-
-    <string name="rb_A4206_2_RA">Refused to Answer</string>
-
-    <string name="rb_A4206_3_1">Pedestrian</string>
-    <string name="rb_A4206_3_2">Stationary object</string>
-    <string name="rb_A4206_3_3">Car or light vehicle</string>
-    <string name="rb_A4206_3_4">Bus or heavy vehicle</string>
-    <string name="rb_A4206_3_5">Motorcycle</string>
-    <string name="rb_A4206_3_6">Pedal cycle</string>
-    <string name="rb_A4206_3_OT">Other (Specify)</string>
-    <string name="rb_A4206_3_DK">Don’t Know</string>
-
-    <string name="rb_A4206_3_RA">Refused to Answer</string>
-
-    <string name="rb_A4206_4_1">Yes</string>
-    <string name="rb_A4206_4_2">No</string>
-    <string name="rb_A4206_4_DK">Don’t Know</string>
-
-    <string name="rb_A4206_4_RA">Refused to Answer</string>
-
-    <string name="rb_A4206_5_1">Yes</string>
-    <string name="rb_A4206_5_2">No</string>
-    <string name="rb_A4206_5_DK">Don’t Know</string>
-
-    <string name="rb_A4206_5_RA">Refused to Answer</string>
-
-    <string name="rb_A4206_6_1">Yes</string>
-    <string name="rb_A4206_6_2">No</string>
-    <string name="rb_A4206_6_DK">Don’t Know</string>
-
-    <string name="rb_A4206_6_RA">Refused to Answer</string>
-
-    <string name="rb_A4206_7_1">Yes</string>
-    <string name="rb_A4206_7_2">No</string>
-    <string name="rb_A4206_7_DK">Don’t Know</string>
-
-    <string name="rb_A4206_7_RA">Refused to Answer</string>
-
-    <string name="rb_A4206_8_1">Yes</string>
-    <string name="rb_A4206_8_2">No</string>
-    <string name="rb_A4206_8_DK">Don’t Know</string>
-
-    <string name="rb_A4206_8_RA">Refused to Answer</string>
-
-    <string name="rb_A4206_9_1">Yes</string>
-    <string name="rb_A4206_9_2">No</string>
-    <string name="rb_A4206_9_DK">Don’t Know</string>
-
-    <string name="rb_A4206_9_RA">Refused to Answer</string>
-
-    <string name="rb_A4206_10_1">Dog</string>
-    <string name="rb_A4206_10_2">Snake</string>
-    <string name="rb_A4206_10_3">Insect or scorpion</string>
-    <string name="rb_A4206_10_OT">Other (Specify)</string>
-    <string name="rb_A4206_10_DK">Don’t Know</string>
-
-    <string name="rb_A4206_10_RA">Refused to Answer</string>
-
-    <string name="rb_A4206_11_1">Yes</string>
-    <string name="rb_A4206_11_2">No</string>
-    <string name="rb_A4206_11_DK">Don’t Know</string>
-
-    <string name="rb_A4206_11_RA">Refused to Answer</string>
-
-    <string name="rb_A4206_12_1">Yes</string>
-    <string name="rb_A4206_12_2">No</string>
-    <string name="rb_A4206_12_DK">Don’t Know</string>
-
-    <string name="rb_A4206_12_RA">Refused to Answer</string>
-
-    <string name="rb_A4206_13_1">Yes</string>
-    <string name="rb_A4206_13_2">No</string>
-    <string name="rb_A4206_13_DK">Don’t Know</string>
-
-    <string name="rb_A4206_13_RA">Refused to Answer</string>
-
-    <string name="rb_A4206_14_1">Yes</string>
-    <string name="rb_A4206_14_2">No</string>
-    <string name="rb_A4206_14_DK">Don’t Know</string>
-
-    <string name="rb_A4206_14_RA">Refused to Answer</string>
-
-    <string name="rb_A4206_15_1">Yes</string>
-    <string name="rb_A4206_15_2">No</string>
-    <string name="rb_A4206_15_DK">Don’t Know</string>
-
-    <string name="rb_A4206_15_RA">Refused to Answer</string>
-
-    <string name="rb_A4206_16_1">Yes</string>
-    <string name="rb_A4206_16_2">No</string>
-    <string name="rb_A4206_16_DK">Don’t Know</string>
-
-    <string name="rb_A4206_16_RA">Refused to Answer</string>
-
-    <string name="rb_A4206_17_1">Yes</string>
-    <string name="rb_A4206_17_2">No</string>
-    <string name="rb_A4206_17_DK">Don’t Know</string>
-
-    <string name="rb_A4206_17_RA">Refused to Answer</string>
-
-    <string name="rb_A4206_18_1">Yes</string>
-    <string name="rb_A4206_18_2">No</string>
-    <string name="rb_A4206_18_DK">Don’t Know</string>
-
-    <string name="rb_A4206_18_RA">Refused to Answer</string>
-
-    <string name="rb_A4206_19_1">Yes</string>
-    <string name="rb_A4206_19_2">No</string>
-    <string name="rb_A4206_19_DK">Don’t Know</string>
-
-    <string name="rb_A4206_19_RA">Refused to Answer</string>
-
-    <string name="rb_A4206_20_1">Yes</string>
-    <string name="rb_A4206_20_2">No</string>
-    <string name="rb_A4206_20_DK">Don’t Know</string>
-
-    <string name="rb_A4206_20_RA">Refused to Answer</string>
-
-    <string name="rb_A4206_21_1">Yes</string>
-    <string name="rb_A4206_21_2">No</string>
-    <string name="rb_A4206_21_DK">Don’t Know</string>
-
-    <string name="rb_A4206_21_RA">Refused to Answer</string>
-
-    <string name="rb_A4206_22_1">Yes</string>
-    <string name="rb_A4206_22_2">No</string>
-    <string name="rb_A4206_22_DK">Don’t Know</string>
-
-    <string name="rb_A4206_22_RA">Refused to Answer</string>
 
 
     <string name="rb_A4251_1">Yes</string>
@@ -7823,8 +7828,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="A4206_8_h">	اس میں وہ  حادثات یا کیسز شامل ہیں جن کے بارے میں معلوم نہیں کہ وہ ایک حادثہ تھا یا جان بوجھ کر تشدد کیا گیا  تھا۔</string>
     <string name="A4206_12_h">	بارہ سال سے کم عمر کے بچوں کے لیے " خود کشی" نہ کہیں۔ </string>
     <string name="A4206_18_h">	اس میں وہ  حادثات یا کیسز شامل ہیں جن کے بارے میں معلوم نہیں کہ وہ ایک حادثہ تھا یا جان بوجھ کر تشدد کیا گیا  تھا۔</string>
-    <string name="A4207_1_h">	اگر 24 گھنٹے سے کم ہے تو  گھنٹے ریکارڈ کریں:      ایک گھنٹہ سے کم  00=لکھیں  اگر 1 دن یا اس سے زیادہ تو دنوں میں ریکارڈ کریں</string>
-    <string name="A4207_2_h">	اگر 24 گھنٹے سے کم ہے تو  گھنٹے ریکارڈ کریں:      ایک گھنٹہ سے کم  00=لکھیں  اگر 1 دن یا اس سے زیادہ تو دنوں میں ریکارڈ کریں</string>
+
     <string name="A4255_h">	مزید پوچھیں: کچھ اور ایک سے زیادہ جوابات کی اجازت ہے.</string>
     <string name="A4256_h">	پڑھیں :"پہلا " اگر ایک یا ایک سے زیادہ  صحت فراہم کنندہ کے پاس گئے. نشان لگائیں  دنوں ،گھنٹوں ،اور منٹوں پر اگر ضرورت ہے مثال کے طور پر 00 دن، 02  گھنٹے، 10  منٹس</string>
     <string name="A4276_h">	مزید پوچھیں: کچھ اور ایک سے زیادہ جوابات کی اجازت ہے.</string>

@@ -1749,31 +1749,185 @@
     <string name="a205b98">معلوم نہیں</string>
     <string name="a205b99">جواب دینے سے انکار کیا</string>
 
-    <string name="A4206">کیا (نام) کو کوئی حادثہ یا چوٹ لگی تھی جو اس کی موت کی وجہ بننی ؟	:	A4206</string>
-    <string name="A4206_1">کیا یہ روڈ ٹریفک کا حادثہ تھا  ؟	:	A4206_1</string>
-    <string name="A4206_2">اس روڈ ٹریفک  حادثہ میں اس کا کیا  کردار تھا؟	:	A4206_2</string>
-    <string name="A4206_3">وہ مقابل چیز کیا تھی جس سے روڈ ٹریفک ایکسیڈنٹ کے دوران تصادُم یا ٹکّرہوئی؟	:	A4206_3</string>
-    <string name="A4206_4">کیا وہ روڈ ٹریفک ایکسیڈنٹ کے علاوہ زخمی ہوا تھا، تھی؟	:	A4206_4</string>
-    <string name="A4206_4_h">اس میں وہ  حادثات یا کیسز شامل ہیں جن کے بارے میں معلوم نہیں کہ وہ ایک حادثہ تھا یا جان بوجھ کر تشدد کیا گیا  تھا۔</string>
-    <string name="A4206_5">کیا وہ گرنے کی وجہ سے زخمی ہوا تھا، تھی؟	:	A4206_5</string>
-    <string name="A4206_6">کیا کوئی زہر یلا اثر تھا ؟ 	:	A4206_6</string>
-    <string name="A4206_7">کیا اس کی موت ڈوبنے سے ہو ئی؟	:	A4206_7</string>
-    <string name="A4206_8">کیا وہ کسی زہریلے جانور کے کاٹنے یا ڈنگ مارنے سے زخمی ہوا  /  ہو ئی؟ 	:	A4206_8</string>
-    <string name="A4206_9">کیا وہ کسی جانور  یا کیڑے (غیر زہریلا)کے کاٹنے یا ڈنگ مارنے سے زخمی ہوا  /  ہو ئی؟	:	A4206_9</string>
-    <string name="A4206_10">وہ جانور  یا کیڑا کیا تھا؟	:	A4206_10</string>
-    <string name="A4206_11">آگ لگنے سے زخمی ہوا  /  ہو ئی؟     /     کیا وہ جلنے 	:	A4206_11</string>
-    <string name="A4206_12">کیا اس پر تشدد ہوا تھا (قتل ، ناجائز زیادتی یا گالم گلوچ)	:	A4206_12</string>
-    <string name="A4206_13">کیا وہ بندوق یا پستول کی گولی  سے زخمی ہوا  /  ہو ئی؟	:	A4206_13</string>
-    <string name="A4206_14">کیا اس کو (چھرا) گھونپا ، کاٹا یا چھبویا تھا ؟  	:	A4206_14</string>
-    <string name="A4206_15">کیا اس کو گلا گھونٹ کر ماراتھا ؟  	:	A4206_15</string>
-    <string name="A4206_16">کیا اس کو کند آلہ سے زخمی کیا تھا ؟	:	A4206_16</string>
-    <string name="A4206_17">کیا وہ قدرتی آفات کی وجہ سے  زخمی ہوا  /  ہو ئی؟	:	A4206_17</string>
-    <string name="A4206_18">کیا بجلی کا کرنٹ لگا تھا؟ 	:	A4206_18</string>
-    <string name="A4206_19">کیا اس کو کوئی اور چوٹ یا ناگہانی صدمہ کا سامنا کرناپڑا؟  	:	A4206_19</string>
-    <string name="A4206_20">کیا چوٹ حادثاتی طور پر لگی تھی؟	:	A4206_20</string>
-    <string name="A4206_21">کیا چوٹ خود لگائی تھی؟	:	A4206_21</string>
-    <string name="A4206_22">کیا کسی نے جان بوجھ کر چوٹ لگائی یا  مارا  تھا؟	:	A4206_22</string>
-    <string name="A4207">چوٹ لگنے کے بعد کتنے عرصے تک (نام) زندہ رہا تھا/تھی؟	:	A4207</string>
+    <string name="Q_a206a">a206a</string>
+    <string name="a206a">کیا (نام) کو کوئی حادثہ یا چوٹ لگی تھی جو اس کی موت کی وجہ بننی ؟</string>
+    <string name="a206aa">ہاں</string>
+    <string name="a206ab">نہیں</string>
+    <string name="a206a98">معلوم نہیں</string>
+    <string name="a206a99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a206b">a206b</string>
+    <string name="a206b">کیا یہ روڈ ٹریفک کا حادثہ تھا ؟</string>
+    <string name="a206ba">ہاں</string>
+    <string name="a206bb">نہیں</string>
+    <string name="a206b98">معلوم نہیں</string>
+    <string name="a206b99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a206c">a206c</string>
+    <string name="a206c">اس روڈ ٹریفک  حادثہ میں اس کا کیا  کردار تھا ؟</string>
+    <string name="a206ca">پیدل</string>
+    <string name="a206cb">ڈرائیور یا مسافر کار یا ہلکی گاڑی میں</string>
+    <string name="a206cc">ڈرائیور یا مسافر بس یا ہیوی  گاڑی میں</string>
+    <string name="a206cd">ڈرائیور یا مسافر موٹر سائیکل پر</string>
+    <string name="a206ce">ڈرائیور یا مسافر سائیکل پر</string>
+    <string name="a206c96">دیگر (وضاحت کریں)</string>
+    <string name="a206c98">معلوم نہیں</string>
+    <string name="a206c99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a206d">a206d</string>
+    <string name="a206d">وہ مقابل چیز کیا تھی جس سے روڈ ٹریفک ایکسیڈنٹ کے دوران تصادُم یا ٹکّر ہوئی ؟</string>
+    <string name="a206da">پیدل</string>
+    <string name="a206db">شے ساکن یا غیر متحّرک</string>
+    <string name="a206dc"> کار یا ہلکی گاڑی</string>
+    <string name="a206dd">بس یا ہیوی گاڑی</string>
+    <string name="a206de">موٹر سائیکل</string>
+    <string name="a206df">سائیکل</string>
+    <string name="a206d96">دیگر (وضاحت کریں)</string>
+    <string name="a206d98">معلوم نہیں</string>
+    <string name="a206d99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a206e">a206e</string>
+    <string name="a206e">کیا وہ روڈ ٹریفک ایکسیڈنٹ کے علاوہ زخمی ہوا تھا، تھی ؟</string>
+    <string name="a206einfo">اس میں وہ حادثات یا کیسز شامل ہیں جن کے بارے میں معلوم نہیں کہ وہ ایک حادثہ تھا یا جان بوجھ کر تشدد کیا گیا تھا۔</string>
+    <string name="a206ea">ہاں</string>
+    <string name="a206eb">نہیں</string>
+    <string name="a206e98">معلوم نہیں</string>
+    <string name="a206e99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a206f">a206f</string>
+    <string name="a206f">کیا وہ گرنے کی وجہ سے زخمی ہوا تھا، تھی ؟</string>
+    <string name="a206fa">ہاں</string>
+    <string name="a206fb">نہیں</string>
+    <string name="a206f98">معلوم نہیں</string>
+    <string name="a206f99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a206g">a206g</string>
+    <string name="a206g">کیا کوئی زہر یلا اثر تھا ؟</string>
+    <string name="a206ga">ہاں</string>
+    <string name="a206gb">نہیں</string>
+    <string name="a206g98">معلوم نہیں</string>
+    <string name="a206g99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a206h">a206h</string>
+    <string name="a206h">کیا اس کی موت ڈوبنے سے ہوئی ؟</string>
+    <string name="a206ha">ہاں</string>
+    <string name="a206hb">نہیں</string>
+    <string name="a206h98">معلوم نہیں</string>
+    <string name="a206h99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a206i">a206i</string>
+    <string name="a206i">کیا وہ کسی زہریلے جانور کے کاٹنے یا ڈنگ مارنے سے زخمی ہوا / ہوئی ؟</string>
+    <string name="a206ia">ہاں</string>
+    <string name="a206ib">نہیں</string>
+    <string name="a206i98">معلوم نہیں</string>
+    <string name="a206i99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a206j">a206j</string>
+    <string name="a206j">کیا وہ کسی جانور یا کیڑے ( غیر زہریلا ) کے کاٹنے یا ڈنگ مارنے سے زخمی ہوا / ہوئی ؟</string>
+    <string name="a206ja">ہاں</string>
+    <string name="a206jb">نہیں</string>
+    <string name="a206j98">معلوم نہیں</string>
+    <string name="a206j99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a206k">a206k</string>
+    <string name="a206k">وہ جانور یا کیڑا کیا تھا ؟</string>
+    <string name="a206ka">کتا</string>
+    <string name="a206kb">سانپ</string>
+    <string name="a206kc">کیڑا یا بچھو</string>
+    <string name="a206k96">دیگر (وضاحت کریں)</string>
+    <string name="a206k98">معلوم نہیں</string>
+    <string name="a206k99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a206l">a206l</string>
+    <string name="a206l">کیا وہ جلنے / آگ لگنے سے زخمی ہوا / ہوئی ؟</string>
+    <string name="a206la">ہاں</string>
+    <string name="a206lb">نہیں</string>
+    <string name="a206l98">معلوم نہیں</string>
+    <string name="a206l99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a206m">a206m</string>
+    <string name="a206m">کیا اس پرتشدد ہوا تھا ( قتل، ناجائز زیادتی یا گالم گلوچ ) ؟</string>
+    <string name="a206ma">ہاں</string>
+    <string name="a206mb">نہیں</string>
+    <string name="a206m98">معلوم نہیں</string>
+    <string name="a206m99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a206n">a206n</string>
+    <string name="a206n">کیا وہ بندوق یا پستول کی گولی سے زخمی ہوا / ہوئی ؟</string>
+    <string name="a206na">ہاں</string>
+    <string name="a206nb">نہیں</string>
+    <string name="a206n98">معلوم نہیں</string>
+    <string name="a206n99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a206o">a206o</string>
+    <string name="a206o">کیا اس کو ( چھرا ) گھونپا، کاٹا یا چھبویا تھا ؟</string>
+    <string name="a206oa">ہاں</string>
+    <string name="a206ob">نہیں</string>
+    <string name="a206o98">معلوم نہیں</string>
+    <string name="a206o99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a206p">a206p</string>
+    <string name="a206p">کیا اس کو گلا گھونٹ کر مارا تھا ؟</string>
+    <string name="a206pa">ہاں</string>
+    <string name="a206pb">نہیں</string>
+    <string name="a206p98">معلوم نہیں</string>
+    <string name="a206p99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a206q">a206q</string>
+    <string name="a206q">کیا اس کو کند آلہ سے زخمی کیا تھا ؟</string>
+    <string name="a206qa">ہاں</string>
+    <string name="a206qb">نہیں</string>
+    <string name="a206q98">معلوم نہیں</string>
+    <string name="a206q99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a206r">a206r</string>
+    <string name="a206r">کیا وہ قدرتی آفات کی وجہ سے زخمی ہوا / ہوئی ؟</string>
+    <string name="a206ra">ہاں</string>
+    <string name="a206rb">نہیں</string>
+    <string name="a206r98">معلوم نہیں</string>
+    <string name="a206r99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a206s">a206s</string>
+    <string name="a206s">کیا بجلی کا کرنٹ لگا تھا ؟</string>
+    <string name="a206sa">ہاں</string>
+    <string name="a206sb">نہیں</string>
+    <string name="a206s98">معلوم نہیں</string>
+    <string name="a206s99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a206t">a206t</string>
+    <string name="a206t">کیا اس کو کوئی اور چوٹ یا ناگہانی صدمہ کا سامنا کرنا پڑا ؟</string>
+    <string name="a206ta">ہاں</string>
+    <string name="a206tb">نہیں</string>
+    <string name="a206t98">معلوم نہیں</string>
+    <string name="a206t99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a206u">a206u</string>
+    <string name="a206u">کیا چوٹ حادثاتی طور پر لگی تھی ؟</string>
+    <string name="a206ua">ہاں</string>
+    <string name="a206ub">نہیں</string>
+    <string name="a206u98">معلوم نہیں</string>
+    <string name="a206u99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a206v">a206v</string>
+    <string name="a206v">کیا چوٹ خود لگائی تھی ؟</string>
+    <string name="a206va">ہاں</string>
+    <string name="a206vb">نہیں</string>
+    <string name="a206v98">معلوم نہیں</string>
+    <string name="a206v99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a206w">a206w</string>
+    <string name="a206w">کیا کسی نے جان بوجھ کر چوٹ لگائی یا مارا تھا ؟</string>
+    <string name="a206wa">ہاں</string>
+    <string name="a206wb">نہیں</string>
+    <string name="a206w98">معلوم نہیں</string>
+    <string name="a206w99">جواب دینے سے انکار کیا</string>
+
+    <string name="Q_a207">a207</string>
+    <string name="a207">چوٹ لگنے کے بعد کتنے عرصے تک ( نام ) زندہ رہا تھا / تھی ؟</string>
+    <string name="a207info">اگر 24 گھنٹے سے کم ہے تو گھنٹے ریکارڈ کریں: ایک گھنٹہ سے کم 00 = لکھیں اگر 1 دن یا اس سے زیادہ تو دنوں میں ریکارڈ کریں</string>
+    <string name="a207h">گھنٹے</string>
+    <string name="a207d">دن</string>
+
     <string name="A4251">کیا (نام)  نے  ، یا آپ نے مہلک بیماری کے لیے کوئی   دیکھ بھال   یا علاج  دیا تھا؟	:	A4251</string>
     <string name="A4252_1">براہ مہربانی (نام ) کی مہلک بیماری کے علاج کے سلسے میں  مجھے بتا ئیں جو کچھ  علاج گھر میں  کیا اور  گھر سے باہر تمام جگہیں  جہاں (اس کو)     علاج  کے لیے لےجایا گیا ۔  پہلی دیکھ بھال یا علاج جو(نام) نے لی تھی  اس سے شروع کریں  پھرترتیب کے ساتھ دوسری دیکھ بھال یا علاج کے بارے میں تفصیل سے بتائیں۔  اور مجھے یہ بھی بتائیں   ہر کارروائی کے وقت  کیا علامات  موجود تھیں.	:A4252</string>
     <string name="A4252_2">کسی ایک صحت فراہم کنندہ کو شامل کریں  جس کے  پاس (نام)  علاج کے  سلسلے میں  راستے میں تھا /تھی لیکن مرنے سے پہلے نہیں پہنچ  پایا.</string>
@@ -1982,132 +2136,6 @@
     <string name="A4472">کیا اوپر دے گے وضاحتی بیانیے  میں   مندرجہ زیل میں سے کوئی بھی  الفاظ جو ہماری دلچسپی کے ہوں   بیان  ہوئے ہیں ؟	:	A4472</string>
     <string name="A4473">انٹرویور: انٹرویو کو بارے میں اپنا تبصرہ اور مشاہدہ لکھیں:	A4473</string>
     <string name="kilograms_kg">کلوگرام کے لیے Kg درج کریں اور نہیں جانتے کے لیے 999 درج کریں۔</string>
-
-    <string name="rb_A4206_1">ہاں</string>
-    <string name="rb_A4206_2">نہیں</string>
-    <string name="rb_A4206_DK">معلوم نہیں</string>
-    <string name="rb_A4206_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4206_1_1">ہاں</string>
-    <string name="rb_A4206_1_2">نہیں</string>
-    <string name="rb_A4206_1_DK">معلوم نہیں</string>
-    <string name="rb_A4206_1_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4206_2_1">پیدل</string>
-    <string name="rb_A4206_2_2">ڈرائیور یا مسافر کار یا ہلکی گاڑی میں </string>
-    <string name="rb_A4206_2_3">ڈرائیور یا مسافر بس یا ہیوی  گاڑی میں</string>
-    <string name="rb_A4206_2_4">ڈرائیور یا مسافر موٹر سائیکل پر</string>
-    <string name="rb_A4206_2_5">ڈرائیور یا مسافرسائیکل پر </string>
-    <string name="rb_A4206_2_OT">دیگر </string>
-    <string name="rb_A4206_2_DK">معلوم نہیں</string>
-    <string name="rb_A4206_2_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4206_3_1">پیدل</string>
-    <string name="rb_A4206_3_2">شے ساکن یا غیر متحّرک   </string>
-    <string name="rb_A4206_3_3"> کار یا ہلکی گاڑی</string>
-    <string name="rb_A4206_3_4">بس یا ہیوی  گاڑی</string>
-    <string name="rb_A4206_3_5">موٹر سائیکل</string>
-    <string name="rb_A4206_3_6">سائیکل</string>
-    <string name="rb_A4206_3_OT">دیگر </string>
-    <string name="rb_A4206_3_DK">معلوم نہیں</string>
-    <string name="rb_A4206_3_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4206_4_1">ہاں</string>
-    <string name="rb_A4206_4_2">نہیں</string>
-    <string name="rb_A4206_4_DK">معلوم نہیں</string>
-    <string name="rb_A4206_4_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4206_5_1">ہاں</string>
-    <string name="rb_A4206_5_2">نہیں</string>
-    <string name="rb_A4206_5_DK">معلوم نہیں</string>
-    <string name="rb_A4206_5_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4206_6_1">ہاں</string>
-    <string name="rb_A4206_6_2">نہیں</string>
-    <string name="rb_A4206_6_DK">معلوم نہیں</string>
-    <string name="rb_A4206_6_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4206_7_1">ہاں</string>
-    <string name="rb_A4206_7_2">نہیں</string>
-    <string name="rb_A4206_7_DK">معلوم نہیں</string>
-    <string name="rb_A4206_7_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4206_8_1">ہاں</string>
-    <string name="rb_A4206_8_2">نہیں</string>
-    <string name="rb_A4206_8_DK">معلوم نہیں</string>
-    <string name="rb_A4206_8_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4206_9_1">ہاں</string>
-    <string name="rb_A4206_9_2">نہیں</string>
-    <string name="rb_A4206_9_DK">معلوم نہیں</string>
-    <string name="rb_A4206_9_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4206_10_1">کتا</string>
-    <string name="rb_A4206_10_2">سانپ</string>
-    <string name="rb_A4206_10_3">کیڑا یا بچھو</string>
-    <string name="rb_A4206_10_OT">دیگر </string>
-    <string name="rb_A4206_10_DK">معلوم نہیں</string>
-    <string name="rb_A4206_10_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4206_11_1">ہاں</string>
-    <string name="rb_A4206_11_2">نہیں</string>
-    <string name="rb_A4206_11_DK">معلوم نہیں</string>
-    <string name="rb_A4206_11_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4206_12_1">ہاں</string>
-    <string name="rb_A4206_12_2">نہیں</string>
-    <string name="rb_A4206_12_DK">معلوم نہیں</string>
-    <string name="rb_A4206_12_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4206_13_1">ہاں</string>
-    <string name="rb_A4206_13_2">نہیں</string>
-    <string name="rb_A4206_13_DK">معلوم نہیں</string>
-    <string name="rb_A4206_13_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4206_14_1">ہاں</string>
-    <string name="rb_A4206_14_2">نہیں</string>
-    <string name="rb_A4206_14_DK">معلوم نہیں</string>
-    <string name="rb_A4206_14_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4206_15_1">ہاں</string>
-    <string name="rb_A4206_15_2">نہیں</string>
-    <string name="rb_A4206_15_DK">معلوم نہیں</string>
-    <string name="rb_A4206_15_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4206_16_1">ہاں</string>
-    <string name="rb_A4206_16_2">نہیں</string>
-    <string name="rb_A4206_16_DK">معلوم نہیں</string>
-    <string name="rb_A4206_16_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4206_17_1">ہاں</string>
-    <string name="rb_A4206_17_2">نہیں</string>
-    <string name="rb_A4206_17_DK">معلوم نہیں</string>
-    <string name="rb_A4206_17_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4206_18_1">ہاں</string>
-    <string name="rb_A4206_18_2">نہیں</string>
-    <string name="rb_A4206_18_DK">معلوم نہیں</string>
-    <string name="rb_A4206_18_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4206_19_1">ہاں</string>
-    <string name="rb_A4206_19_2">نہیں</string>
-    <string name="rb_A4206_19_DK">معلوم نہیں</string>
-    <string name="rb_A4206_19_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4206_20_1">ہاں</string>
-    <string name="rb_A4206_20_2">نہیں</string>
-    <string name="rb_A4206_20_DK">معلوم نہیں</string>
-    <string name="rb_A4206_20_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4206_21_1">ہاں</string>
-    <string name="rb_A4206_21_2">نہیں</string>
-    <string name="rb_A4206_21_DK">معلوم نہیں</string>
-    <string name="rb_A4206_21_RA">جواب دینے سے انکار کیا</string>
-
-    <string name="rb_A4206_22_1">ہاں</string>
-    <string name="rb_A4206_22_2">نہیں</string>
-    <string name="rb_A4206_22_DK">معلوم نہیں</string>
-    <string name="rb_A4206_22_RA">جواب دینے سے انکار کیا</string>
 
     <string name="rb_A4251_1">ہاں</string>
     <string name="rb_A4251_2">نہیں ،.-------دیکھ بھال کی ضرورت نہیں تھی،نہ ہی تلاش کی</string>
@@ -2615,21 +2643,12 @@
     <string name="A4150_u_h">               مہینے ۔ 1-60 دن یا       0-30 اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0  دن لکھیں؛   ایک ہفتہ = 7 لکھیں</string>
     <string name="A4150_a_h">دن لکھیں۔ اگر ایک دن یا چوبیس گھنٹوں سے کم  =  0 لکھیں؛ ایک ہفتہ = 7 لکھیں     0-30</string>
     <string name="A4150_b_h">مہینے         1-60</string>
-    <string name="A4163_1_h">اگر عورت کی عمر چالیس سال سے کم ہے تو یہ سوال نہ پوچھیں اور  " نہیں" پر نشان لگادیں</string>
-    <string name="A4178_2_h">یہ سوال اس بات کو یقینی بنانا ہے کہ کو ئی میٹرنل  ڈیتھ رہ تو نہیں گئی </string>
-    <string name="a191info">جواب دہندہ سے اس کی رائے معلوم کریں کہ وہ " بچہ کی غیر معمولی پوزیشن" کو کیا سمجھتی ہے ؛ اگر  اسکو واضع نہیں ہے یا غلط بتاتی ہے تو وضاحت کریں کہ اسکا مطلب ہے کہ اگر اندام نہانی سے   بچہ کا سر پہلے باہر نہ  آ ئے۔</string>
-    <string name="a192info">اگر 60منٹس سے کم = 0 گھنٹے </string>
-    <string name="a196info">(اچانک اسقاط حمل یا جان بوجھ کر اسقاط کرانا)</string>
-    <string name="A4197_h">(اچانک اسقاط حمل یا جان بوجھ کر اسقاط کرانا)</string>
-    <string name="a205ainfo">(جیسے آٹھویں مہینے یا اس سے پہل)</string>
     <string name="A4206_5_h">اس میں وہ  حادثات یا کیسز شامل ہیں جن کے بارے میں معلوم نہیں کہ وہ ایک حادثہ تھا یا جان بوجھ کر تشدد کیا گیا  تھا۔ </string>
     <string name="A4206_6_h">اس میں وہ  حادثات یا کیسز شامل ہیں جن کے بارے میں معلوم نہیں کہ وہ ایک حادثہ تھا یا جان بوجھ کر تشدد کیا گیا  تھا۔ </string>
     <string name="A4206_7_h">اس میں وہ  حادثات یا کیسز شامل ہیں جن کے بارے میں معلوم نہیں کہ وہ ایک حادثہ تھا یا جان بوجھ کر تشدد کیا گیا  تھا۔</string>
     <string name="A4206_8_h">اس میں وہ  حادثات یا کیسز شامل ہیں جن کے بارے میں معلوم نہیں کہ وہ ایک حادثہ تھا یا جان بوجھ کر تشدد کیا گیا  تھا۔</string>
     <string name="A4206_12_h">بارہ سال سے کم عمر کے بچوں کے لیے " خود کشی" نہ کہیں۔ </string>
     <string name="A4206_18_h">اس میں وہ  حادثات یا کیسز شامل ہیں جن کے بارے میں معلوم نہیں کہ وہ ایک حادثہ تھا یا جان بوجھ کر تشدد کیا گیا  تھا۔</string>
-    <string name="A4207_1_h">اگر 24 گھنٹے سے کم ہے تو  گھنٹے ریکارڈ کریں:      ایک گھنٹہ سے کم  00=لکھیں  اگر 1 دن یا اس سے زیادہ تو دنوں میں ریکارڈ کریں</string>
-    <string name="A4207_2_h">اگر 24 گھنٹے سے کم ہے تو  گھنٹے ریکارڈ کریں:      ایک گھنٹہ سے کم  00=لکھیں  اگر 1 دن یا اس سے زیادہ تو دنوں میں ریکارڈ کریں</string>
     <string name="A4255_h">مزید پوچھیں: کچھ اور ایک سے زیادہ جوابات کی اجازت ہے.</string>
     <string name="A4256_h">پڑھیں :"پہلا " اگر ایک یا ایک سے زیادہ  صحت فراہم کنندہ کے پاس گئے. نشان لگائیں  دنوں ،گھنٹوں ،اور منٹوں پر اگر ضرورت ہے مثال کے طور پر 00 دن، 02  گھنٹے، 10  منٹس</string>
     <string name="A4276_h">مزید پوچھیں: کچھ اور ایک سے زیادہ جوابات کی اجازت ہے.</string>
