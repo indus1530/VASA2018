@@ -184,7 +184,7 @@
             android:name="edu.aku.abdulsajid.vasa2018.ui.SectionA10Activity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="edu.aku.abdulsajid.vasa2018.ui.A4251_A4284"
+            android:name="edu.aku.abdulsajid.vasa2018.ui.SectionA11Activity"
             android:screenOrientation="portrait" />
         <activity
             android:name="edu.aku.abdulsajid.vasa2018.ui.A4301_A4315"

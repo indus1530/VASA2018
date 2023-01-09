@@ -30,7 +30,7 @@ import edu.aku.abdulsajid.vasa2018.data.LocalDataManager;
 import edu.aku.abdulsajid.vasa2018.utils.ClearAllcontrol;
 import edu.aku.abdulsajid.vasa2018.utils.Gothrough;
 
-public class A4251_A4284 extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
+public class SectionA11Activity extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
 
     //Declaration Region
 
@@ -461,7 +461,7 @@ public class A4251_A4284 extends AppCompatActivity implements RadioButton.OnChec
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.a4251__a4284);
+        setContentView(R.layout.activity_section_a11);
 
         ll_study_id = findViewById(R.id.ll_study_id);
         ed_study_id = findViewById(R.id.ed_study_id);
@@ -791,7 +791,7 @@ public class A4251_A4284 extends AppCompatActivity implements RadioButton.OnChec
 
                 } else {
 
-                    Intent c = new Intent(A4251_A4284.this, A4301_A4315.class);
+                    Intent c = new Intent(SectionA11Activity.this, A4301_A4315.class);
                     c.putExtra("study_id", study_id);
                     startActivity(c);
 
@@ -803,7 +803,7 @@ public class A4251_A4284 extends AppCompatActivity implements RadioButton.OnChec
         if (view.getId() == R.id.btn_addd) {
 
             if (phase.size() > 8) {
-                Toast.makeText(A4251_A4284.this, "Cannot be more then 9 ", Toast.LENGTH_LONG).show();
+                Toast.makeText(SectionA11Activity.this, "Cannot be more then 9 ", Toast.LENGTH_LONG).show();
 
 
                 DBHelper db = new DBHelper(this);
@@ -896,7 +896,7 @@ public class A4251_A4284 extends AppCompatActivity implements RadioButton.OnChec
 
 
                     if (Gothrough.IamHiden(ll2_A4252) == false || Gothrough.IamHiden(ll3_A4252) == false || Gothrough.IamHiden(ll5_A4252) == false) {
-                        Toast.makeText(A4251_A4284.this, "Select All", Toast.LENGTH_LONG).show();
+                        Toast.makeText(SectionA11Activity.this, "Select All", Toast.LENGTH_LONG).show();
 
 
                         return;
@@ -906,7 +906,7 @@ public class A4251_A4284 extends AppCompatActivity implements RadioButton.OnChec
                     if (rb_A4252_1_1.isChecked()) {
 
                         if (Collections.frequency(phase, "1") > 2) {
-                            Toast.makeText(A4251_A4284.this, "Cannot be more then 3 ", Toast.LENGTH_LONG).show();
+                            Toast.makeText(SectionA11Activity.this, "Cannot be more then 3 ", Toast.LENGTH_LONG).show();
 
                             return;
                         }
@@ -916,7 +916,7 @@ public class A4251_A4284 extends AppCompatActivity implements RadioButton.OnChec
 
 
                         if (Collections.frequency(phase, "2") > 2) {
-                            Toast.makeText(A4251_A4284.this, "Cannot be more then 3 ", Toast.LENGTH_LONG).show();
+                            Toast.makeText(SectionA11Activity.this, "Cannot be more then 3 ", Toast.LENGTH_LONG).show();
 
                             return;
                         }
@@ -925,14 +925,14 @@ public class A4251_A4284 extends AppCompatActivity implements RadioButton.OnChec
                     } else if (rb_A4252_1_3.isChecked()) {
 
                         if (Collections.frequency(phase, "3") > 2) {
-                            Toast.makeText(A4251_A4284.this, "Cannot be more then 3 ", Toast.LENGTH_LONG).show();
+                            Toast.makeText(SectionA11Activity.this, "Cannot be more then 3 ", Toast.LENGTH_LONG).show();
 
                             return;
                         }
 
                         phase.add("3");
                     } else {
-                        Toast.makeText(A4251_A4284.this, "Please Fill Question A4252 (Card)", Toast.LENGTH_LONG).show();
+                        Toast.makeText(SectionA11Activity.this, "Please Fill Question A4252 (Card)", Toast.LENGTH_LONG).show();
 
                         return;
                     }
@@ -3912,159 +3912,7 @@ public class A4251_A4284 extends AppCompatActivity implements RadioButton.OnChec
     }
 
     boolean validateField() {
-
-        if (Gothrough.IamHiden(ll_study_id) == false) {
-            return false;
-        }
-        if (Gothrough.IamHiden(ll_A4251) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4253) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4254_1) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4254_2) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4255) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4256) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4257) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4258_1) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4258_2) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4259) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4260) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4261) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4262) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4263_1) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4263_2) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4264) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4266) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4267_1) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4267_2) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4268) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4269) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4270) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4271) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4272_1) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4272_2) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4273) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4274) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4275_1) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4275_2) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4276) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4277) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4278) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4279) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4280) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4281) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4282) == false) {
-            return false;
-        }
-
-        if (Gothrough.IamHiden(ll_A4283) == false) {
-            return false;
-        }
-
-        return Gothrough.IamHiden(ll_A4284) != false;
+        return Validator.emptyCheckingContainer(this, bi.GrpName);
     }
 
     void smart(LinearLayout lv) {
@@ -4073,7 +3921,6 @@ public class A4251_A4284 extends AppCompatActivity implements RadioButton.OnChec
             if (view instanceof CheckBox) {
                 ((CheckBox) view).setOnCheckedChangeListener(this);
             }
-
         }
     }
 

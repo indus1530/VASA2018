@@ -20,7 +20,6 @@ import java.util.List;
 
 import edu.aku.abdulsajid.vasa2018.R;
 import edu.aku.abdulsajid.vasa2018.data.LocalDataManager;
-import edu.aku.abdulsajid.vasa2018.ui.A4251_A4284;
 import edu.aku.abdulsajid.vasa2018.ui.A4301_A4315;
 import edu.aku.abdulsajid.vasa2018.ui.A4351_A4364;
 import edu.aku.abdulsajid.vasa2018.ui.A4401_A4473;
@@ -62,6 +61,7 @@ import edu.aku.abdulsajid.vasa2018.ui.SectionA07Activity;
 import edu.aku.abdulsajid.vasa2018.ui.SectionA08Activity;
 import edu.aku.abdulsajid.vasa2018.ui.SectionA09Activity;
 import edu.aku.abdulsajid.vasa2018.ui.SectionA10Activity;
+import edu.aku.abdulsajid.vasa2018.ui.SectionA11Activity;
 import edu.aku.abdulsajid.vasa2018.ui.SectionN01Activity;
 import edu.aku.abdulsajid.vasa2018.ui.SectionWActivity;
 
@@ -423,7 +423,7 @@ class SurveyPendingCustomAdapter extends RecyclerView.Adapter {
 
                             if(curentSection == 12){
 
-                                intent= new Intent(mContext, A4251_A4284.class);
+                                intent = new Intent(mContext, SectionA11Activity.class);
                                 intent.putExtra("study_id", study_id);
                                 mContext.startActivity(intent);
                             }

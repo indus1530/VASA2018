@@ -5326,29 +5326,6 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="A4473">4473:   Interviewer: Use this space to write down your comments and observations about the interview.</string>
     <string name="kilograms_kg">Kilograms Kg &amp; DK = 999</string>
 
-    <string name="A4257">A4257: What was the name of the FIRST HEALTH PROVIDER where NAME went ?</string>
-    <string name="rb_A4257_1">Government hospital</string>
-    <string name="rb_A4257_2">Government health center</string>
-    <string name="rb_A4257_3">Government health post</string>
-    <string name="rb_A4257_4">Mobile Clinic</string>
-    <string name="rb_A4257_5">Trained CHW, nurse or midwife (outside a health facility)</string>
-    <string name="rb_A4257_6">Other public sector</string>
-    <string name="rb_A4257_7">Private hospital</string>
-    <string name="rb_A4257_8">Private doctor/clinic</string>
-    <string name="rb_A4257_9">Mobile Clinic</string>
-    <string name="rb_A4257_10">Trained CHW, nurse or midwife (outside a health facility)</string>
-    <string name="rb_A4257_11">Other private medical sector</string>
-    <string name="rb_A4257_DK">Don’t Know</string>
-
-    <string name="rb_A4258_1">Yes, reached before died</string>
-    <string name="rb_A4258_2">No, died on route to this provider / before this provider reached the deceased</string>
-    <string name="rb_A4258_3">No, could not reach this provider, so returned home or took other action</string>
-    <string name="rb_A4258_DK">Don’t Know</string>
-
-    <string name="A4258_1">A4258_1: For health care at a facility, \nask: \nDid NAME reach the FIRST HEALTH PROVIDER before s/he died ?</string>
-    <string name="A4258_Hint">If “No,” discuss with respondent to determine correct response: 2 or 3.</string>
-    <string name="A4258_2">A4258_2: For health care outside a facility, \nask: \nDid the FIRST HEALTH PROVIDER reach (NAME) before s/he died ?</string>
-
 
     <string name="Q_a001">a001</string>
     <string name="a001">What was the first or given name(s) of the deceased ?</string>
@@ -6556,10 +6533,10 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="Q_a206c">a206c</string>
     <string name="a206c">What was her/his role in the road traffic accident ?</string>
     <string name="a206ca">Pedestrian</string>
-    <string name="a206cb">Driver or passenger in car or light vehicle</string>
-    <string name="a206cc">Driver or passenger in bus or heavy vehicle</string>
-    <string name="a206cd">Driver or passenger on a motorcycle</string>
-    <string name="a206ce">Driver or passenger on a pedal cycle</string>
+    <string name="a206cb">Driver or Passenger in Car or Light Vehicle</string>
+    <string name="a206cc">Driver or Passenger in Bus or Heavy Vehicle</string>
+    <string name="a206cd">Driver or Passenger on a Motorcycle</string>
+    <string name="a206ce">Driver or Passenger on a Pedal Cycle</string>
     <string name="a206c96">Other (Specify)</string>
     <string name="a206c98">Don’t Know</string>
     <string name="a206c99">Refused to Answer</string>
@@ -6567,11 +6544,11 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="Q_a206d">a206d</string>
     <string name="a206d">What was the counterpart that was hit during the road traffic accident ?</string>
     <string name="a206da">Pedestrian</string>
-    <string name="a206db">Stationary object</string>
-    <string name="a206dc">Car or light vehicle</string>
-    <string name="a206dd">Bus or heavy vehicle</string>
+    <string name="a206db">Stationary Object</string>
+    <string name="a206dc">Car or Light Vehicle</string>
+    <string name="a206dd">Bus or Heavy Vehicle</string>
     <string name="a206de">Motorcycle</string>
-    <string name="a206df">Pedal cycle</string>
+    <string name="a206df">Pedal Cycle</string>
     <string name="a206d96">Other (Specify)</string>
     <string name="a206d98">Don’t Know</string>
     <string name="a206d99">Refused to Answer</string>
@@ -6718,17 +6695,96 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="a207h">Hour(s)</string>
     <string name="a207d">Day(s)</string>
 
-    <string name="A4251">A4251: Did (NAME) receive, or did you give or seek, any care or treatment for the fatal illness ?</string>
-    <string name="A4252_1">A4252: Please tell me everything that was done for (NAME)’s fatal illness inside the home and all the places outside the home (he / she) went or was taken for health care. Start with the first care or treatment (NAME) received and then, in order, tell me all the other care and treatments s/he received. Also tell me what symptoms were present when each action was taken.</string>
-    <string name="A4252_2">Include any health care provider (NAME) was on route to but did not reach before dying.</string>
-    <string name="A4252_3">For pregnancy-related deaths: Mark any provider where the woman had an abortion (spontaneous or induced) or delivered.</string>
-    <string name="A4252_4">For all adults: If the illness lasted 3 months or more, ask about the first three actions taken at the start of the illness and the middle of the illness, and about the last three actions at the end of the illness. Circle ‘S’ (Start), ‘M’ (Middle) or ‘E’ (End) for each action.</string>
-    <string name="A4252_5">1 - If the illness lasted 3 months or more, circle ‘S’ (Start), ‘M’ (Middle) or ‘E’ (End) for each action. \n\n2 - Check one other care or health care provider box for each action row. Check ‘Trained CHW, nurse or midwife’ only if the provider was seen outside a facility. \n\n3 - For pregnancy-related deaths only: Mark any provider where the woman aborted or delivered. \n\n4 - Mark the symptom(s) that were present when each action was taken.</string>
+    <string name="Q_a251">a251</string>
+    <string name="a251">Did (NAME) receive, or did you give or seek, any care or treatment for the fatal illness ?</string>
+    <string name="a251a">Yes</string>
+    <string name="a251b">No—care not needed, given or sought</string>
+    <string name="a25198">Don’t Know</string>
+
+    <string name="a2521">Please tell me everything that was done for (NAME)’s fatal illness inside the home and all the places outside the home (he / she) went or was taken for health care. Start with the first care or treatment (NAME) received and then, in order, tell me all the other care and treatments s/he received. Also tell me what symptoms were present when each action was taken.</string>
+
+    <string name="a2522">Include any health care provider (NAME) was on route to but did not reach before dying.</string>
+
+    <string name="a2523">For pregnancy-related deaths: Mark any provider where the woman had an abortion (spontaneous or induced) or delivered.</string>
+
+    <string name="a2524">For all adults: If the illness lasted 3 months or more, ask about the first three actions taken at the start of the illness and the middle of the illness, and about the last three actions at the end of the illness. Circle ‘S’ (Start), ‘M’ (Middle) or ‘E’ (End) for each action.</string>
+
+    <string name="a2525">1 - If the illness lasted 3 months or more, circle ‘S’ (Start), ‘M’ (Middle) or ‘E’ (End) for each action. \n\n2 - Check one other care or health care provider box for each action row. Check ‘Trained CHW, nurse or midwife’ only if the provider was seen outside a facility. \n\n3 - For pregnancy-related deaths only: Mark any provider where the woman aborted or delivered. \n\n4 - Mark the symptom(s) that were present when each action was taken.</string>
+
+    <string name="Q_a253">a253</string>
+    <string name="a253">If any formal care given or sought, \nask: \nWho decided to seek care for (NAME)’s illness from the (FIRST FORMAL PROVIDER)</string>
+    <string name="a253a">Adult Deceased Him / Herself</string>
+    <string name="a253b">Adult Deceased’s Spouse / Partner</string>
+    <string name="a253c">Someone Else</string>
+    <string name="a25398">Don’t Know</string>
+
+    <string name="Q_a2541">a2541</string>
+    <string name="a2541">If never taken to a health provider, \nask: \nDid you or (NAME) have any concerns or problems that kept him/her from going to a health provider during the illness ?</string>
+    <string name="a2541a">Yes</string>
+    <string name="a2541b">No</string>
+    <string name="a254198">Don’t Know</string>
+
+    <string name="Q_a2542">a2542</string>
+    <string name="a2542">If taken to a health provider, \nask: \nDid you or (NAME) have to overcome any concerns or problems for him/her to go the (first) health provider ?</string>
+    <string name="a2542a">Yes</string>
+    <string name="a2542b">No</string>
+    <string name="a254298">Don’t Know</string>
+
+    <string name="Q_a255">a255</string>
+    <string name="a255">What concerns or problems did you or (NAME) have ?</string>
+    <string name="a255a">Did not think adult was sick enough to need health care</string>
+    <string name="a255b">No one available to accompany</string>
+    <string name="a255c">Too much time from caregiver’s duties</string>
+    <string name="a255d">Someone else (specify) had to decide</string>
+    <string name="a255e">Too far to travel</string>
+    <string name="a255f">No transportation available</string>
+    <string name="a255g">Cost (transport, health care, other)</string>
+    <string name="a255h">Not satisfied with available health care</string>
+    <string name="a255i">Problem required traditional care</string>
+    <string name="a255j">Thought s/he was too sick to travel</string>
+    <string name="a255k">Thought s/he will die no matter what</string>
+    <string name="a255l">Was late at night (transportation or provider not available)</string>
+    <string name="a25596">Other (Specify)</string>
+    <string name="a25598">Don’t Know</string>
+
+    <string name="Q_a256">a256</string>
+    <string name="a256">You mentioned that (NAME) went to the (first) health provider, I mean the (FIRST HEALTH PROVIDER) with (SYMPTOM(S)). How long had (NAME) had (this / these) symptom(s) when it was decided to go to the (FIRST HEALTH PROVIDER)</string>
+    <string name="a256info">Read: "First" if visited by one or more health providers. Mark the days, hours, and minutes if needed eg 00 days, 02 hours, 10 minutes</string>
+    <string name="a256d">Day(s)</string>
+    <string name="a256h">Hour(s)</string>
+    <string name="a256m">Minute(s)</string>
+
+    <string name="Q_a257">a257</string>
+    <string name="A4257">What was the name of the FIRST HEALTH PROVIDER where NAME went ?</string>
+    <string name="rb_A4257_1">Government hospital</string>
+    <string name="rb_A4257_2">Government health center</string>
+    <string name="rb_A4257_3">Government health post</string>
+    <string name="rb_A4257_4">Mobile Clinic</string>
+    <string name="rb_A4257_5">Trained CHW, nurse or midwife (outside a health facility)</string>
+    <string name="rb_A4257_6">Other public sector</string>
+    <string name="rb_A4257_7">Private hospital</string>
+    <string name="rb_A4257_8">Private doctor/clinic</string>
+    <string name="rb_A4257_9">Mobile Clinic</string>
+    <string name="rb_A4257_10">Trained CHW, nurse or midwife (outside a health facility)</string>
+    <string name="rb_A4257_11">Other private medical sector</string>
+    <string name="rb_A4257_DK">Don’t Know</string>
+
+    <string name="rb_A4258_1">Yes, reached before died</string>
+    <string name="rb_A4258_2">No, died on route to this provider / before this provider reached the deceased</string>
+    <string name="rb_A4258_3">No, could not reach this provider, so returned home or took other action</string>
+    <string name="rb_A4258_DK">Don’t Know</string>
+
+    <string name="A4258_1">A4258_1: For health care at a facility, \nask: \nDid NAME reach the FIRST HEALTH PROVIDER before s/he died ?</string>
+    <string name="A4258_Hint">If “No,” discuss with respondent to determine correct response: 2 or 3.</string>
+    <string name="A4258_2">A4258_2: For health care outside a facility, \nask: \nDid the FIRST HEALTH PROVIDER reach (NAME) before s/he died ?</string>
+
+
     <string name="action">Illness Phase ?</string>
     <string name="start">START</string>
     <string name="mid">MID</string>
     <string name="end">END</string>
     <string name="add">ADD</string>
+
     <string name="rb_care1">Home care (own, relative, neighbor, friend)</string>
     <string name="rb_care2">Traditional or non-formal provider</string>
     <string name="rb_care3">Pharmacist or drug seller</string>
@@ -6738,11 +6794,6 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="rb_care7">Hospital</string>
     <string name="cb_place">Woman aborted or delivered at this provider</string>
     <string name="ed_symptoms">What symptoms were present when the action was taken ?</string>
-    <string name="A4253">A4253: If any formal care given or sought, \nask: \nWho decided to seek care for (NAME)’s illness from the (FIRST FORMAL PROVIDER)</string>
-    <string name="A4254_1">A4254_1: If never taken to a health provider, \nask: \nDid you or (NAME) have any concerns or problems that kept him/her from going to a health provider during the illness ?</string>
-    <string name="A4254_2">A4254_2: If taken to a health provider, \nask: \nDid you or (NAME) have to overcome any concerns or problems for him/her to go the (first) health provider ?</string>
-    <string name="A4255">A4255: What concerns or problems did you or (NAME) have ?</string>
-    <string name="A4256">A4256: You mentioned that (NAME) went to the (first) health provider, I mean the (FIRST HEALTH PROVIDER) with (SYMPTOM(S)). How long had (NAME) had (this / these) symptom(s) when it was decided to go to the (FIRST HEALTH PROVIDER)</string>
 
     <string name="A4274">A4274: Did (NAME) go to (all) the health provider(s) where s/he was referred ?</string>
 
@@ -6819,39 +6870,6 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="A4456">A4456: Did the deceased’s spouse/partner ever have a positive HIV test ?</string>
     <string name="A4457">A4457: Was there any diagnosis by a health professional that the deceased’s spouse/partner had AIDS ?</string>
     <string name="A4472">A4472: Are any of the following words of interest mentioned in the above narrative ?</string>
-
-
-    <string name="rb_A4251_1">Yes</string>
-    <string name="rb_A4251_2">No—care not needed, given or sought</string>
-    <string name="rb_A4251_DK">Don’t Know</string>
-
-    <string name="rb_A4253_1">Adult deceased him/herself</string>
-    <string name="rb_A4253_2">Adult deceased’s spouse/partner</string>
-    <string name="rb_A4253_3">Someone else</string>
-    <string name="rb_A4253_DK">Don’t Know</string>
-
-    <string name="rb_A4254_1_1">Yes</string>
-    <string name="rb_A4254_1_2">No</string>
-    <string name="rb_A4254_1_DK">Don’t Know</string>
-
-    <string name="rb_A4254_2_1">Yes</string>
-    <string name="rb_A4254_2_2">No</string>
-    <string name="rb_A4254_2_DK">Don’t Know</string>
-
-    <string name="cb_A4255_1">Did not think adult was sick enough to need health care</string>
-    <string name="cb_A4255_2">No one available to accompany</string>
-    <string name="cb_A4255_3">Too much time from caregiver’s duties</string>
-    <string name="cb_A4255_4">Someone else (specify) had to decide</string>
-    <string name="cb_A4255_5">Too far to travel</string>
-    <string name="cb_A4255_6">No transportation available</string>
-    <string name="cb_A4255_7">Cost (transport, health care, other)</string>
-    <string name="cb_A4255_8">Not satisfied with available health care</string>
-    <string name="cb_A4255_9">Problem required traditional care</string>
-    <string name="cb_A4255_10">Thought s/he was too sick to travel</string>
-    <string name="cb_A4255_11">Thought s/he will die no matter what</string>
-    <string name="cb_A4255_12">Was late at night (transportation or provider not available)</string>
-    <string name="cb_A4255_OT">دیگر (وضاحت کریں)</string>
-    <string name="cb_A4255_DK"> معلوم نہیں</string>
 
     <string name="cb_A4276_1">Provider didn’t say referral so important</string>
     <string name="cb_A4276_2">Thought no more care needed</string>
@@ -7828,9 +7846,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="A4206_8_h">	اس میں وہ  حادثات یا کیسز شامل ہیں جن کے بارے میں معلوم نہیں کہ وہ ایک حادثہ تھا یا جان بوجھ کر تشدد کیا گیا  تھا۔</string>
     <string name="A4206_12_h">	بارہ سال سے کم عمر کے بچوں کے لیے " خود کشی" نہ کہیں۔ </string>
     <string name="A4206_18_h">	اس میں وہ  حادثات یا کیسز شامل ہیں جن کے بارے میں معلوم نہیں کہ وہ ایک حادثہ تھا یا جان بوجھ کر تشدد کیا گیا  تھا۔</string>
-
     <string name="A4255_h">	مزید پوچھیں: کچھ اور ایک سے زیادہ جوابات کی اجازت ہے.</string>
-    <string name="A4256_h">	پڑھیں :"پہلا " اگر ایک یا ایک سے زیادہ  صحت فراہم کنندہ کے پاس گئے. نشان لگائیں  دنوں ،گھنٹوں ،اور منٹوں پر اگر ضرورت ہے مثال کے طور پر 00 دن، 02  گھنٹے، 10  منٹس</string>
     <string name="A4276_h">	مزید پوچھیں: کچھ اور ایک سے زیادہ جوابات کی اجازت ہے.</string>
     <string name="A4277_h">	پڑھیں :" کسی بھی صحت فراہم کرنے والے پاس؟ ۔۔"اگر مرحوم ایک سے زیادہ صحت فراہم کرنے والے کے پاس گیا.</string>
     <string name="A4278_h">	ایک سے زیادہ جوابات آسکتے ہیں۔ اگر معلوم نہیں تو "9 "پر نشان لگائیں </string>

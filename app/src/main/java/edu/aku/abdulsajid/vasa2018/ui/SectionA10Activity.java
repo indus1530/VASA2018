@@ -17,6 +17,7 @@ import edu.aku.abdulsajid.vasa2018.data.LocalDataManager;
 import edu.aku.abdulsajid.vasa2018.databinding.ActivitySectionA10Binding;
 import edu.aku.abdulsajid.vasa2018.utils.InputFilterMinMax;
 
+
 public class SectionA10Activity extends AppCompatActivity {
 
     String
@@ -69,7 +70,7 @@ public class SectionA10Activity extends AppCompatActivity {
         if (!validateField()) return;
         value_assignment();
         insert_data();
-        startActivity(new Intent(SectionA10Activity.this, A4251_A4284.class).putExtra("study_id", study_id));
+        startActivity(new Intent(SectionA10Activity.this, SectionA11Activity.class).putExtra("study_id", study_id));
     }
 
 
@@ -324,13 +325,18 @@ public class SectionA10Activity extends AppCompatActivity {
         LocalDataManager Lm = new LocalDataManager(this);
         LocalDataManager.database.execSQL(query);
         Toast.makeText(this, "10th TABLE SAVED Successfully", Toast.LENGTH_SHORT).show();
+
     }
+
 
     boolean validateField() {
         return Validator.emptyCheckingContainer(this, bi.GrpName);
     }
 
+
     public void onBackPressed() {
         globale.interviewExit(this, this, study_id, currentSection = 11);
     }
+
+
 }
