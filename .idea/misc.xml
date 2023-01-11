@@ -23,7 +23,7 @@
         <entry key="..\:/Users/abdul.sajid/Desktop/Android App/VASA2018/app/src/main/res/layout/activity_interview_end.xml" value="0.3734375" />
         <entry key="..\:/Users/abdul.sajid/Desktop/Android App/VASA2018/app/src/main/res/layout/activity_login.xml" value="0.55859375" />
         <entry key="..\:/Users/abdul.sajid/Desktop/Android App/VASA2018/app/src/main/res/layout/activity_main.xml" value="0.3140625" />
-        <entry key="..\:/Users/abdul.sajid/Desktop/Android App/VASA2018/app/src/main/res/layout/activity_section_a01.xml" value="0.27248475609756095" />
+        <entry key="..\:/Users/abdul.sajid/Desktop/Android App/VASA2018/app/src/main/res/layout/activity_section_a01.xml" value="0.55859375" />
         <entry key="..\:/Users/abdul.sajid/Desktop/Android App/VASA2018/app/src/main/res/layout/activity_section_a02.xml" value="0.55859375" />
         <entry key="..\:/Users/abdul.sajid/Desktop/Android App/VASA2018/app/src/main/res/layout/activity_section_a03.xml" value="0.5375" />
         <entry key="..\:/Users/abdul.sajid/Desktop/Android App/VASA2018/app/src/main/res/layout/activity_section_a04.xml" value="0.4147331786542923" />
@@ -112,7 +112,7 @@
       </value>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

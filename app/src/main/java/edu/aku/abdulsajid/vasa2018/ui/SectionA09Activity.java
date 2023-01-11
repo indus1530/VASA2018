@@ -81,38 +81,6 @@ public class SectionA09Activity extends AppCompatActivity {
 
     int currentSection;
     ActivitySectionA09Binding bi;
-    private final TextWatcher generalTextWatcher = new TextWatcher() {
-
-        @Override
-        public void onTextChanged(CharSequence s, int start, int before, int count) {
-        }
-
-        @Override
-        public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-        }
-
-        @Override
-        public void afterTextChanged(Editable s) {
-            if (bi.a178a.getText().hashCode() == s.hashCode()) {
-                if (bi.a178a.getText().toString().trim().length() > 0 && Integer.parseInt(bi.a178a.getText().toString().trim()) > 0) {
-                    ClearAllcontrol.ClearAll(bi.cvA178b);
-                    bi.cvA178b.setVisibility(View.GONE);
-                } else {
-                    bi.cvA178b.setVisibility(View.VISIBLE);
-                }
-            }
-
-            if (bi.a180.getText().hashCode() == s.hashCode()) {
-                if (bi.a180.getText().toString().trim().length() > 0 && Integer.parseInt(bi.a180.getText().toString().trim()) < 1) {
-                    ClearAllcontrol.ClearAll(bi.cvA181);
-                    bi.cvA181.setVisibility(View.GONE);
-                } else {
-                    bi.cvA181.setVisibility(View.VISIBLE);
-                }
-            }
-        }
-
-    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -171,6 +139,41 @@ public class SectionA09Activity extends AppCompatActivity {
         bi.a180.addTextChangedListener(generalTextWatcher);
 
     }
+
+
+    private final TextWatcher generalTextWatcher = new TextWatcher() {
+
+        @Override
+        public void onTextChanged(CharSequence s, int start, int before, int count) {
+        }
+
+        @Override
+        public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+        }
+
+        @Override
+        public void afterTextChanged(Editable s) {
+            if (bi.a178a.getText().hashCode() == s.hashCode()) {
+                if (bi.a178a.getText().toString().trim().length() > 0 && Integer.parseInt(bi.a178a.getText().toString().trim()) > 0) {
+                    ClearAllcontrol.ClearAll(bi.cvA178b);
+                    bi.cvA178b.setVisibility(View.GONE);
+                } else {
+                    bi.cvA178b.setVisibility(View.VISIBLE);
+                }
+            }
+
+            if (bi.a180.getText().hashCode() == s.hashCode()) {
+                if (bi.a180.getText().toString().trim().length() > 0 && Integer.parseInt(bi.a180.getText().toString().trim()) < 1) {
+                    ClearAllcontrol.ClearAll(bi.cvA181);
+                    bi.cvA181.setVisibility(View.GONE);
+                } else {
+                    bi.cvA181.setVisibility(View.VISIBLE);
+                }
+            }
+        }
+
+    };
+
 
     void value_assignment() {
 

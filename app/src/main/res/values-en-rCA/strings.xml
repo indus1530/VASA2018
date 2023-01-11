@@ -6732,6 +6732,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
 
     <string name="Q_a255">a255</string>
     <string name="a255">What concerns or problems did you or (NAME) have ?</string>
+    <string name="a255info">Ask more: Some and more than one answer is allowed.</string>
     <string name="a255a">Did not think adult was sick enough to need health care</string>
     <string name="a255b">No one available to accompany</string>
     <string name="a255c">Too much time from caregiver’s duties</string>
@@ -6755,28 +6756,35 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="a256m">Minute(s)</string>
 
     <string name="Q_a257">a257</string>
-    <string name="A4257">What was the name of the FIRST HEALTH PROVIDER where NAME went ?</string>
-    <string name="rb_A4257_1">Government hospital</string>
-    <string name="rb_A4257_2">Government health center</string>
-    <string name="rb_A4257_3">Government health post</string>
-    <string name="rb_A4257_4">Mobile Clinic</string>
-    <string name="rb_A4257_5">Trained CHW, nurse or midwife (outside a health facility)</string>
-    <string name="rb_A4257_6">Other public sector</string>
-    <string name="rb_A4257_7">Private hospital</string>
-    <string name="rb_A4257_8">Private doctor/clinic</string>
-    <string name="rb_A4257_9">Mobile Clinic</string>
-    <string name="rb_A4257_10">Trained CHW, nurse or midwife (outside a health facility)</string>
-    <string name="rb_A4257_11">Other private medical sector</string>
-    <string name="rb_A4257_DK">Don’t Know</string>
+    <string name="a257">What was the name of the FIRST HEALTH PROVIDER where NAME went ?</string>
+    <string name="a257a">Government hospital</string>
+    <string name="a257b">Government health center</string>
+    <string name="a257c">Government health post</string>
+    <string name="a257d">Mobile Clinic</string>
+    <string name="a257e">Trained CHW, nurse or midwife (outside a health facility)</string>
+    <string name="a257f">Other public sector</string>
+    <string name="a257g">Private hospital</string>
+    <string name="a257h">Private doctor/clinic</string>
+    <string name="a257i">Mobile Clinic</string>
+    <string name="a257j">Trained CHW, nurse or midwife (outside a health facility)</string>
+    <string name="a257k">Other private medical sector</string>
+    <string name="a25798">Don’t Know</string>
 
-    <string name="rb_A4258_1">Yes, reached before died</string>
-    <string name="rb_A4258_2">No, died on route to this provider / before this provider reached the deceased</string>
-    <string name="rb_A4258_3">No, could not reach this provider, so returned home or took other action</string>
-    <string name="rb_A4258_DK">Don’t Know</string>
+    <string name="Q_a2581">a2581</string>
+    <string name="a2581">For health care at a facility, \nask: \nDid NAME reach the FIRST HEALTH PROVIDER before s/he died ?</string>
+    <string name="a2581info">If “No,” discuss with respondent to determine correct response: 2 or 3.</string>
+    <string name="a2581a">Yes, reached before died</string>
+    <string name="a2581b">No, died on route to this provider / before this provider reached the deceased</string>
+    <string name="a2581c">No, could not reach this provider, so returned home or took other action</string>
+    <string name="a258198">Don’t Know</string>
 
-    <string name="A4258_1">A4258_1: For health care at a facility, \nask: \nDid NAME reach the FIRST HEALTH PROVIDER before s/he died ?</string>
-    <string name="A4258_Hint">If “No,” discuss with respondent to determine correct response: 2 or 3.</string>
-    <string name="A4258_2">A4258_2: For health care outside a facility, \nask: \nDid the FIRST HEALTH PROVIDER reach (NAME) before s/he died ?</string>
+    <string name="Q_a2582">a2582</string>
+    <string name="a2582">For health care outside a facility, \nask: \nDid the FIRST HEALTH PROVIDER reach (NAME) before s/he died ?</string>
+    <string name="a2582info">If “No,” discuss with respondent to determine correct response: 2 or 3.</string>
+    <string name="a2582a">Yes, reached before died</string>
+    <string name="a2582b">No, died on route to this provider / before this provider reached the deceased</string>
+    <string name="a2582c">No, could not reach this provider, so returned home or took other action</string>
+    <string name="a258298">Don’t Know</string>
 
 
     <string name="action">Illness Phase ?</string>
@@ -7846,7 +7854,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="A4206_8_h">	اس میں وہ  حادثات یا کیسز شامل ہیں جن کے بارے میں معلوم نہیں کہ وہ ایک حادثہ تھا یا جان بوجھ کر تشدد کیا گیا  تھا۔</string>
     <string name="A4206_12_h">	بارہ سال سے کم عمر کے بچوں کے لیے " خود کشی" نہ کہیں۔ </string>
     <string name="A4206_18_h">	اس میں وہ  حادثات یا کیسز شامل ہیں جن کے بارے میں معلوم نہیں کہ وہ ایک حادثہ تھا یا جان بوجھ کر تشدد کیا گیا  تھا۔</string>
-    <string name="A4255_h">	مزید پوچھیں: کچھ اور ایک سے زیادہ جوابات کی اجازت ہے.</string>
+
     <string name="A4276_h">	مزید پوچھیں: کچھ اور ایک سے زیادہ جوابات کی اجازت ہے.</string>
     <string name="A4277_h">	پڑھیں :" کسی بھی صحت فراہم کرنے والے پاس؟ ۔۔"اگر مرحوم ایک سے زیادہ صحت فراہم کرنے والے کے پاس گیا.</string>
     <string name="A4278_h">	ایک سے زیادہ جوابات آسکتے ہیں۔ اگر معلوم نہیں تو "9 "پر نشان لگائیں </string>
@@ -7912,7 +7920,7 @@ You mentioned that you took (NAME) to the (first) health provider, I mean the (F
     <string name="w207b">No</string>
 
     <string name="Q_w208">w208</string>
-    <string name="w208">Are You/Mother Pregnant Now  ?</string>
+    <string name="w208">Are You / Mother Pregnant Now  ?</string>
     <string name="w208a">Yes</string>
     <string name="w208b">No</string>
 
